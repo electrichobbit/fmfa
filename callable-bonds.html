@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Callable Bonds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Financial Mathematics for Actuaries with Active Learning">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.2';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.cc203fa52565b593.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="financial-math.html"><span class="title">Financial Mathematics for Actuaries with Active Learning</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="bond-amortization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="bonds.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="problem-solving-with-bonds.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\angl}[1]{\require{enclose}\enclose{actuarial}{#1}\,}
+\newcommand{\angln}[0]{\require{enclose}\enclose{actuarial}{n}\,}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="theory-of-interest.html" class="internal"><span class="codenumber">I</span> <span class="title">The Theory of Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning.html" class="internal"><span class="codenumber">1</span> <span class="title">Compound Interest and Timeline Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="compound-interest-introduction.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Interest Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="timelines.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Timelines</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponents-and-logarithms.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Review -- Exponents and Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="valuation.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Valuation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="financial-calculator.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Problem Solving 1 -- The Financial Calculator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="quadratic-review.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Review -- Equations that are Quadratic in Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="equations-of-value.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Problem Solving 2 -- Equations of Value</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="nominal-and-effective-rates.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Nominal and Effective Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rates-conversion.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Equivalent Interest Rates 1 -- Conversion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rates-units-of-time.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Equivalent Interest Rates 2 -- Units of Time</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-simulaneous-rates.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Multiple Interest Rates 1 -- Simultaneous Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-consecutive-rates.html" class="internal"><span class="codenumber">1.12</span> <span class="title">Multiple Interest Rates 2 -- Consecutive Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="spot-and-forward-rates.html" class="internal"><span class="codenumber">1.13</span> <span class="title">Spot Rates and Forward Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-1.html" class="internal"><span class="codenumber">1.14</span> <span class="title">Actuarial Notation 1 -- <span class="process-math">\(v\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="inflation.html" class="internal"><span class="codenumber">1.15</span> <span class="title">Inflation and the Real Rate of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-usury.html" class="internal"><span class="codenumber">1.16</span> <span class="title">Ethics Case Study - Usury</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning-exercises.html" class="internal"><span class="codenumber">1.17</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning-problems.html" class="internal"><span class="codenumber">1.18</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="other-forms-of-interest-accumulation.html" class="internal"><span class="codenumber">2</span> <span class="title">Other Forms of Interest Accumulation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="linear-exponential-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Review -- Linear and Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="simple-interest.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-discount.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Introduction to Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="discount-vs-interest.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Discount vs Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="nominal-effective-discount-rates.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Nominal and Effective Rates of Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="equivalent-accumulation-rates.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Equivalent Accumulation Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="limits-review.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Review -- Limits and L’Hôpital’s Rule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-compounded-continuously.html" class="internal"><span class="codenumber">2.8</span> <span class="title">Interest Compounded Continuously</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="derivatives-integrals-review.html" class="internal"><span class="codenumber">2.9</span> <span class="title">Review -- Derivatives and Integrals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="force-of-interest.html" class="internal"><span class="codenumber">2.10</span> <span class="title">Introduction to the Force of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="present-future-value-with-force-of-interest.html" class="internal"><span class="codenumber">2.11</span> <span class="title">Present and Future Value with the Force of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="derivatives-linear-approximation.html" class="internal"><span class="codenumber">2.12</span> <span class="title">Review -- Derivatives and Linear Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="force-of-interest-instantaneous-approximation.html" class="internal"><span class="codenumber">2.13</span> <span class="title">The Force of Interest as an Instantaneous Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-forms-of-interest-accumulation.html" class="internal"><span class="codenumber">2.14</span> <span class="title">Problem Solving 3 -- Multiple Forms of Interest Accumulation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-student-loans-and-covid.html" class="internal"><span class="codenumber">2.15</span> <span class="title">Ethics Case Study -- Student Loans and COVID-19</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="other-forms-of-interest-accumulation-exercises.html" class="internal"><span class="codenumber">2.16</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="other-forms-of-interest-accumulation-problems.html" class="internal"><span class="codenumber">2.17</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="level-payment-annuities.html" class="internal"><span class="codenumber">3</span> <span class="title">Level Payment Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arbitrage.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Arbitrage</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-geometric-sequences.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Review - Geometric Sequences and Series 1: Re-indexing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-immediate-annuities.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Introduction to Annuities-Immediate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-2.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Actuarial Notation 2 -- <span class="process-math">\(a_{\angln \iota}\)</span> and <span class="process-math">\(s_{\angln \iota}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="future-and-present-values-of-annuities-immediate.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Future and Present Values of Annuities-Immediate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="financial-interpretation-annuities-perpetuities.html" class="internal"><span class="codenumber">3.6</span> <span class="title">A Financial Interpretation of <span class="process-math">\(s_{\angln}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-annuities-due.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Introduction to Annuities-Due</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-3.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Actuarial Notation 3 -- <span class="process-math">\(\ddot{a}_{\angln}\)</span> and <span class="process-math">\(\ddot{s}_{\angln}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="value-of-annuities-due.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Future and Present Value of Annuities-Due</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="all-in-one-approach-to-level-payment-annuities.html" class="internal"><span class="codenumber">3.10</span> <span class="title">The All-In-One Approach to Level Payment Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-for-other-variables-in-annuities.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Solving for Different Variables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-arbitrage-and-insider-training.html" class="internal"><span class="codenumber">3.12</span> <span class="title">Ethics Case Study -- Arbitrage and Insider Trading</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="level-payment-annuities-exercises.html" class="internal"><span class="codenumber">3.13</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="level-payment-annuities-problems.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="problem-solving-with-annuities.html" class="internal"><span class="codenumber">4</span> <span class="title">Problem Solving with Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-difference-of-squares.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Review -- Difference of Squares</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="deferred-annuities.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Deferred Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-valued-at-other-times.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Annuity Valuations at Other Points in Time</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chunking.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Chunking</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multi-step-problems-and-leverage.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Problem Solving 4 -- Multi-Step Problems and Leverage Variables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="puzzle-problems.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Problem Solving 5 -- Puzzle Problems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-watch-the-details.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Problem Solving 6 -- Watch the Details!</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-equivalent-interest-rates.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Review -- Equivalent Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-different-interest-payment-periods.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Problem Solving 7 -- Different Interest and Payment Periods</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="continuously-payable-annuities.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Continuously Payable Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-payday-loans.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Ethics Case Study -- Payday Loans</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="problem-solving-with-annuities-exercises.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="problem-solving-with-annuities-problems.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="non-level-payment-annuities.html" class="internal"><span class="codenumber">5</span> <span class="title">Non-Level Payment Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-non-level-payment-annuities.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Introduction to Non-Level Payment Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-constructing-geometric-series.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Review -- Geometric Sequences and Series 2: Constructing Series</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-geometric-progression-the-long-way.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Annuities with Payments in Geometric Progression 1 -- The Long Way</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-geometric-progression-the-short-way.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Annuities with Payments in Geometric Progression 2 -- The Short Way</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Annuities with Payments in Geometric Progression 3 -- Further Problems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#dividend-discount-model-for-valuing-stacks" class="internal"><span class="codenumber">5.5.1</span> <span class="title">The Dividend Discount Model for Valuing Stock</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#different-payments-and-geometric-frequencies" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Different Payment and Geometric Frequencies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#using-iota-real" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Using <span class="process-math">\(\iota_{\mathrm{real}}\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-arithmetic-sequences.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Review -- Arithmetic Sequences</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-arithmetic-progression.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Introduction to Annuities with Payments in Arithmetic Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="future-and-present-values-of-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Future and Present Values of Annuities with Payments in Arithmetic Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-problems-with-arithmetic-progressions.html" class="internal"><span class="codenumber">5.9</span> <span class="title">Solving Problems with Payments in Arithmetic Progression 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-problems-with-payments-in-arithmetic-progression-through-chunking.html" class="internal"><span class="codenumber">5.10</span> <span class="title">Solving Problems with Payments in Arithmetic Progression 2</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="deriving-formulas-for-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">5.11</span> <span class="title">Deriving Formulas for Increasing and Decreasing Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="continuously-payable-annuities-with-non-level-payments.html" class="internal"><span class="codenumber">5.12</span> <span class="title">Continuously Payable Annuities with Non-Level Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-through-non-level-payments.html" class="internal"><span class="codenumber">5.13</span> <span class="title">Problem Solving 8 -- Practice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-case-study-reparations.html" class="internal"><span class="codenumber">5.14</span> <span class="title">Ethics Case Study -- Reparations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="non-level-payment-annuities-exercises.html" class="internal"><span class="codenumber">5.15</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="non-level-payment-annuities-problems.html" class="internal"><span class="codenumber">5.16</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="applications-interest-theory.html" class="internal"><span class="codenumber">II</span> <span class="title">Applications of Interest Theory</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="loan-repayment.html" class="internal"><span class="codenumber">6</span> <span class="title">Loan Repayment</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="general-principles-of-loan-amortization.html" class="internal"><span class="codenumber">6.1</span> <span class="title">General Principles of Loan Amortization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="prospective-and-retrospective-form-of-outstanding-balance.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Prospective and Retrospective Form of Outstanding Balance</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="loan-repayment-with-level-payments.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Loan Repayment with Level Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="final-payments-on-loans.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Final Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="loan-repayment-with-constant-principal-payments.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Loan Repayment with Constant Payments of Principal</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sinking-fund-method.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Loan Repayments with Constant Payments of Interest -- the Sinking Fund Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="totaling-payments.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Totals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-loans.html" class="internal"><span class="codenumber">6.8</span> <span class="title">Problem Solving 9 -- Problem Solving with Loans</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-redlining.html" class="internal"><span class="codenumber">6.9</span> <span class="title">Ethics Case Study -- Redlining</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="applications-of-interest-theory-exercises.html" class="internal"><span class="codenumber">6.10</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="applications-interest-theory-problems.html" class="internal"><span class="codenumber">6.11</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="bonds.html" class="internal"><span class="codenumber">7</span> <span class="title">Bonds</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-vocabulary.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Bond Vocabulary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-pricing.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Bond Pricing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="premium-and-discount-bonds.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Premium and Discount Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-amortization.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Bond Amortization</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="callable-bonds.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Callable Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-bonds.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Problem Solving 10: Problem Solving with Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-mortgage-backed-securities.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Ethics Case Study -- Mortgage-Backed Securities and the 2008 Financial Crisis</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="bonds-exercises.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="bonds-problems.html" class="internal"><span class="codenumber">7.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="rates-of-return.html" class="internal"><span class="codenumber">8</span> <span class="title">Rates of Return</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="book-and-market-values.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Book and Market Values</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="yield-rates-and-reinvestment-rates.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Yield Rates and Reinvestment Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="internal-rate-of-return-and-net-present-value.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Internal Rate of Return and Net Present Value</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="time-weighted-rates-of-return.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Time-Weighted Rates of Return</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="dollar-weighted-rates-of-return.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Dollar-Weighted Rates of Return</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-mixing-time-and-dollar-weighted-returns.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-enron.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Ethics Case Study -- Enron and Mark-to-Market Accounting</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rates-of-return-exercises.html" class="internal"><span class="codenumber">8.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rates-of-return-problems.html" class="internal"><span class="codenumber">8.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="term-structure-interest-rates.html" class="internal"><span class="codenumber">9</span> <span class="title">The Term Structure of Interest Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="zero-coupon-bonds-spot-rates-and-yield-curve.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Zero Coupon Bonds, Spot Rates, and the Yield Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="spot-rates-and-coupon-bonds.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Spot Rates and Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="forward-rates.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Forward Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="implied-forward-rates-and-spot-rates.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Implied Forward Rates and Spot Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arbitrage-revisited.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Arbitrage Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-speculation.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Ethics Case Study -- Speculation</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="term-structure-interest-rates-exercises.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="term-structure-interest-rates-problems.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="interest-rate-swaps.html" class="internal"><span class="codenumber">10</span> <span class="title">Interest Rate Swaps</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="variable-interest-rates.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Variable Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="basic-swap-transaction.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Basic Swap Transaction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="calculating-the-swap-rate.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Swap Rate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="variations-on-interest-rate-swaps.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Variations on Interest Rate Swaps</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="market-value-of-an-interest-rate-swap.html" class="internal"><span class="codenumber">10.5</span> <span class="title">The Market Value of an Interest Rate Swap</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-interest-rate-swaps.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Problem Solving 12 -- Problem Solving with Interest Rate Swaps</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="interest-rate-swaps-exercises.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="interest-rate-swaps-problems.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="duration-and-convexity.html" class="internal"><span class="codenumber">11</span> <span class="title">Duration and Convexity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-risk.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Interest Rate Risk</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-weighted-averages.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Review -- Weighted Averages</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-duration.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Macaulay Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Review -- Increasing and Decreasing Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-duration-shortcuts.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Macaulay Duration Shortcuts</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-taylor-series-and-approximations.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Review -- Taylor Series and Approximations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="modified-duration.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Modified Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="first-order-approximations-and-modified-duration.html" class="internal"><span class="codenumber">11.8</span> <span class="title">First Order Approximations with Modified Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-approximation.html" class="internal"><span class="codenumber">11.9</span> <span class="title">The Macaulay Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="convexity-and-second-order-approximation.html" class="internal"><span class="codenumber">11.10</span> <span class="title">Convexity and Second Order Approximations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-risk-with-portfolios.html" class="internal"><span class="codenumber">11.11</span> <span class="title">Interest Rate Risk with Portfolios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="duration-and-convexity-exercises.html" class="internal"><span class="codenumber">11.12</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="duration-and-convexity-problems.html" class="internal"><span class="codenumber">11.13</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="matching-liabilities-assets.html" class="internal"><span class="codenumber">12</span> <span class="title">Matching Liabilities and Assets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exact-matching-with-zero-coupon-bonds.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Exact Matching with Zero-Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exact-matching-with-coupon-bonds.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Exact Matching with Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="redington-immunization.html" class="internal"><span class="codenumber">12.3</span> <span class="title">Redington Immunization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="full-immunization.html" class="internal"><span class="codenumber">12.4</span> <span class="title">Full Immunization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-reserve-requirements.html" class="internal"><span class="codenumber">12.5</span> <span class="title">Ethics Case Study -- Reserve Requirements</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matching-liabilities-assets-exercises.html" class="internal"><span class="codenumber">12.6</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matching-liabilities-assets-problems.html" class="internal"><span class="codenumber">12.7</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="determinants-interest-rates.html" class="internal"><span class="codenumber">13</span> <span class="title">Determinants of Interest Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="economic-point-of-view.html" class="internal"><span class="codenumber">13.1</span> <span class="title">The Economic Point of View</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components-of-interest-rates.html" class="internal"><span class="codenumber">13.2</span> <span class="title">The Components of Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-components-in-context.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Interest Rates Components in Context</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="role-of-the-federal-reserve.html" class="internal"><span class="codenumber">13.4</span> <span class="title">The Role of the Federal Reserve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="simple-discount.html" class="internal"><span class="codenumber">13.5</span> <span class="title">Simple Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="us-vs-canadian-t-bills.html" class="internal"><span class="codenumber">13.6</span> <span class="title">U.S. T-Bills vs Canadian T-Bills</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-audit-the-fed.html" class="internal"><span class="codenumber">13.7</span> <span class="title">Ethics Case Study -- Audit the Fed</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="determinants-interest-rates-exercises.html" class="internal"><span class="codenumber">13.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="determinants-interest-rates-problems.html" class="internal"><span class="codenumber">13.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Reference</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-exponents-logarithms.html" class="internal"><span class="codenumber">A</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-logarithmic-definitions.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-logarithmic-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Properties</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-differentiation-integration.html" class="internal"><span class="codenumber">B</span> <span class="title">Differentiation and Integration Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="appendix-differentiation-integration-rules.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Rules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="appendix-differentiation-integration-specific-functions.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Specific Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references">
+<div class="toc-title-box"><a href="bibliography.html" class="internal"><span class="title">References</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Textbooks</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Online Actuarial Resources</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Classical Texts Addressing Ethics</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Ethics and Finance</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-6.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Financial Scandals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Online Ethical Reasoning Resources</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="callable-bonds"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.5</span><span class="space"> </span><span class="title">Callable Bonds</span>
+</h2>
+<div class="para" id="callable-bonds-2">A <dfn class="terminology">callable bond</dfn> is a bond that the issuer can redeem at certain specified times prior to the maturity date, sometimes with different redemption values.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="callable-bonds-3">Pricing callable bonds can be tricky since there is uncertainty.  Typically, we decide what our desired yield rate is, identify "worst case scenarios," and price the bond so that in all worst case scenarios we still reach our minimum yield. This may depend on whether the bond is priced at a premium, discount, or at par.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="activity project-like" id="pricing-a-callable-bond"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.1</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="pricing-a-callable-bond-1">
+<div class="para" id="pricing-a-callable-bond-1-1">Let’s consider a bond with annual coupons that is redeemed at par with <span class="process-math">\(F=1000\)</span> after 10 years with <span class="process-math">\(r=5\%\text{,}\)</span> but which is callable at par after any coupon payment starting with the fifth.<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="pricing-a-callable-bond-1-2">Let’s dispense with the trivial case first.  Suppose you want a yield rate of 5%.<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="pricing-a-callable-bond-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="pricing-a-callable-bond-2-1">What is the price?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.1.a"><a href="#pricing-a-callable-bond-2" title="Copy heading and permalink for Task 7.5.1.a" aria-label="Copy heading and permalink for Task 7.5.1.a">🔗</a></div></article><article class="task exercise-like" id="pricing-a-callable-bond-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="pricing-a-callable-bond-3-1">Would you be willing to accept a higher yield?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.1.b"><a href="#pricing-a-callable-bond-3" title="Copy heading and permalink for Task 7.5.1.b" aria-label="Copy heading and permalink for Task 7.5.1.b">🔗</a></div></article><article class="task exercise-like" id="pricing-a-callable-bond-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="pricing-a-callable-bond-4-1">Would you be willing to accept a lower price?  Would a lower price give you a higher or a lower yield?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.1.c"><a href="#pricing-a-callable-bond-4" title="Copy heading and permalink for Task 7.5.1.c" aria-label="Copy heading and permalink for Task 7.5.1.c">🔗</a></div></article><article class="task exercise-like" id="pricing-a-callable-bond-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="pricing-a-callable-bond-5-1">What does it mean to say that the price you found is the <dfn class="terminology">maximum</dfn> price you would pay in order to yield a <dfn class="terminology">minimum</dfn> yield of 5%?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-a-callable-bond-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.1.d"><a href="#pricing-a-callable-bond-5" title="Copy heading and permalink for Task 7.5.1.d" aria-label="Copy heading and permalink for Task 7.5.1.d">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.1"><a href="#pricing-a-callable-bond" title="Copy heading and permalink for Activity 7.5.1" aria-label="Copy heading and permalink for Activity 7.5.1">🔗</a></div></article><article class="activity project-like" id="pricing-for-a-minimal-yield"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.2</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="pricing-for-a-minimal-yield-1"><div class="para" id="pricing-for-a-minimal-yield-1-1">Now suppose you want a yield of at least 6%, so that we have a discount bond.<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="pricing-for-a-minimal-yield-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-2-1">If you <em class="emphasis">knew</em> the bond would be called immediately after the fifth payment (i.e. you know <span class="process-math">\(n=5\)</span>), what is the bond price?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.a"><a href="#pricing-for-a-minimal-yield-2" title="Copy heading and permalink for Task 7.5.2.a" aria-label="Copy heading and permalink for Task 7.5.2.a">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-3-1">If you <em class="emphasis">knew</em> the bond would not be redeemed until maturity (i.e. you know that <span class="process-math">\(n=10\)</span>), what is the bond price?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.b"><a href="#pricing-for-a-minimal-yield-3" title="Copy heading and permalink for Task 7.5.2.b" aria-label="Copy heading and permalink for Task 7.5.2.b">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-4-1">There are two worst case scenarios.  One is that you price the bond as if you knew it would be redeemed after 5 payments, but it is redeemed at maturity.  If this happens, what is your yield rate?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.c"><a href="#pricing-for-a-minimal-yield-4" title="Copy heading and permalink for Task 7.5.2.c" aria-label="Copy heading and permalink for Task 7.5.2.c">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-5-1">The other worst case scenario is that you price the bond as if you knew it would not be redeemed until maturity, but is called immediately after the fifth payment.  If this happens, what is your yield rate?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.d"><a href="#pricing-for-a-minimal-yield-5" title="Copy heading and permalink for Task 7.5.2.d" aria-label="Copy heading and permalink for Task 7.5.2.d">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-6-1">Which price do you pay?  In other words, which price price guarantees a minimum yield rate of 6%?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.e"><a href="#pricing-for-a-minimal-yield-6" title="Copy heading and permalink for Task 7.5.2.e" aria-label="Copy heading and permalink for Task 7.5.2.e">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-7-1">What do you conclude about pricing callable discount bonds?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.f"><a href="#pricing-for-a-minimal-yield-7" title="Copy heading and permalink for Task 7.5.2.f" aria-label="Copy heading and permalink for Task 7.5.2.f">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimal-yield-8"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<div class="para" id="pricing-for-a-minimal-yield-8-1">Note that we did not concern ourselves with redemption at any intermediate times (6,7,8, or 9).  Why did we not need to do this?  Try a couple of examples and explain why these do not factor into our "worst-case scenarios."<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimal-yield-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.2.g"><a href="#pricing-for-a-minimal-yield-8" title="Copy heading and permalink for Task 7.5.2.g" aria-label="Copy heading and permalink for Task 7.5.2.g">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.2"><a href="#pricing-for-a-minimal-yield" title="Copy heading and permalink for Activity 7.5.2" aria-label="Copy heading and permalink for Activity 7.5.2">🔗</a></div></article><article class="activity project-like" id="pricing-for-a-minimum-yield-premium"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.3</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="pricing-for-a-minimum-yield-premium-1"><div class="para" id="pricing-for-a-minimum-yield-premium-1-1">Suppose instead you are willing to take a minimum yield rate of 4%, so we have a premium bond.<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimum-yield-premium-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="pricing-for-a-minimum-yield-premium-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="pricing-for-a-minimum-yield-premium-2-1">What are your worst case scenarios?  Why?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimum-yield-premium-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.3.a"><a href="#pricing-for-a-minimum-yield-premium-2" title="Copy heading and permalink for Task 7.5.3.a" aria-label="Copy heading and permalink for Task 7.5.3.a">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimum-yield-premium-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="pricing-for-a-minimum-yield-premium-3-1">Find appropriate prices, and use those prices to find the yield rates in each of your worst case scenarios.<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimum-yield-premium-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.3.b"><a href="#pricing-for-a-minimum-yield-premium-3" title="Copy heading and permalink for Task 7.5.3.b" aria-label="Copy heading and permalink for Task 7.5.3.b">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimum-yield-premium-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="pricing-for-a-minimum-yield-premium-4-1">Which price do you pay?  In other words, which price price guarantees a minimum yield rate of 4%?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimum-yield-premium-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.3.c"><a href="#pricing-for-a-minimum-yield-premium-4" title="Copy heading and permalink for Task 7.5.3.c" aria-label="Copy heading and permalink for Task 7.5.3.c">🔗</a></div></article><article class="task exercise-like" id="pricing-for-a-minimum-yield-premium-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="pricing-for-a-minimum-yield-premium-5-1">What do you conclude about pricing callable premium bonds?<div class="autopermalink" data-description="Paragraph"><a href="#pricing-for-a-minimum-yield-premium-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.3.d"><a href="#pricing-for-a-minimum-yield-premium-5" title="Copy heading and permalink for Task 7.5.3.d" aria-label="Copy heading and permalink for Task 7.5.3.d">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.3"><a href="#pricing-for-a-minimum-yield-premium" title="Copy heading and permalink for Activity 7.5.3" aria-label="Copy heading and permalink for Activity 7.5.3">🔗</a></div></article><article class="activity project-like" id="strategy-for-pricing-callable-bonds"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.4</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="strategy-for-pricing-callable-bonds-1"><div class="para" id="strategy-for-pricing-callable-bonds-1-1">Let us consider strategy for a moment.<div class="autopermalink" data-description="Paragraph"><a href="#strategy-for-pricing-callable-bonds-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="strategy-for-pricing-callable-bonds-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="strategy-for-pricing-callable-bonds-2-1">Summarize what you found about pricing callable bonds.<div class="autopermalink" data-description="Paragraph"><a href="#strategy-for-pricing-callable-bonds-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.4.a"><a href="#strategy-for-pricing-callable-bonds-2" title="Copy heading and permalink for Task 7.5.4.a" aria-label="Copy heading and permalink for Task 7.5.4.a">🔗</a></div></article><article class="task exercise-like" id="strategy-for-pricing-callable-bonds-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="strategy-for-pricing-callable-bonds-3-1">Which do you prefer at this point - to use your rules that you summarized for pricing, or to just examine your worst case scenarios and pick the one that guarantees your minimum desired yield? (It is OK if you change your mind on this after you see more problems).<div class="autopermalink" data-description="Paragraph"><a href="#strategy-for-pricing-callable-bonds-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.4.b"><a href="#strategy-for-pricing-callable-bonds-3" title="Copy heading and permalink for Task 7.5.4.b" aria-label="Copy heading and permalink for Task 7.5.4.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.4"><a href="#strategy-for-pricing-callable-bonds" title="Copy heading and permalink for Activity 7.5.4" aria-label="Copy heading and permalink for Activity 7.5.4">🔗</a></div></article><article class="activity project-like" id="coaching-remarks-on-callable-bonds"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.5</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="coaching-remarks-on-callable-bonds-1"><div class="para" id="coaching-remarks-on-callable-bonds-1-1">Explain in your own words the following "Coach Remarks" from Coaching Actuaries, and briefly explain why it makes sense.  The wording in this remarks is often how questions on the exam are worded.<div class="autopermalink" data-description="Paragraph"><a href="#coaching-remarks-on-callable-bonds-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="coaching-remarks-on-callable-bonds-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="coaching-remarks-on-callable-bonds-2-1">Given a price, the lowest yield rate calculated is the minimum yield that an investor would earn.<div class="autopermalink" data-description="Paragraph"><a href="#coaching-remarks-on-callable-bonds-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.5.a"><a href="#coaching-remarks-on-callable-bonds-2" title="Copy heading and permalink for Task 7.5.5.a" aria-label="Copy heading and permalink for Task 7.5.5.a">🔗</a></div></article><article class="task exercise-like" id="coaching-remarks-on-callable-bonds-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="coaching-remarks-on-callable-bonds-3-1">Given a yield rate, the lowest price calculated is the maximum price that an investor would pay.<div class="autopermalink" data-description="Paragraph"><a href="#coaching-remarks-on-callable-bonds-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.5.b"><a href="#coaching-remarks-on-callable-bonds-3" title="Copy heading and permalink for Task 7.5.5.b" aria-label="Copy heading and permalink for Task 7.5.5.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.5"><a href="#coaching-remarks-on-callable-bonds" title="Copy heading and permalink for Activity 7.5.5" aria-label="Copy heading and permalink for Activity 7.5.5">🔗</a></div></article><article class="activity project-like" id="callable-bonds-example-problem"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.6</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="callable-bonds-example-problem-1"><div class="para" id="callable-bonds-example-problem-1-1">A 10% bond with face amount 100 is callable on any coupon date from 15.5 years after issue up to the maturity date which is 20 years from issue.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-example-problem-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="callable-bonds-example-problem-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="callable-bonds-example-problem-2-1">Find the price of the bond to yield a minimum nominal annual rate of (i) 12%, (ii) 10%, and (iii) 8%.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-example-problem-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.6.a"><a href="#callable-bonds-example-problem-2" title="Copy heading and permalink for Task 7.5.6.a" aria-label="Copy heading and permalink for Task 7.5.6.a">🔗</a></div></article><article class="task exercise-like" id="callable-bonds-example-problem-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="callable-bonds-example-problem-3-1">Find the minimum annual yield to maturity if the bond is purchased for (i) 80, (ii) 100, and (iii) 120.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-example-problem-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.6.b"><a href="#callable-bonds-example-problem-3" title="Copy heading and permalink for Task 7.5.6.b" aria-label="Copy heading and permalink for Task 7.5.6.b">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.6"><a href="#callable-bonds-example-problem" title="Copy heading and permalink for Activity 7.5.6" aria-label="Copy heading and permalink for Activity 7.5.6">🔗</a></div></article><article class="activity project-like" id="end-point-method-for-callable-bonds"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.7</span><span class="period">.</span>
+</h3>
+<div class="introduction" id="end-point-method-for-callable-bonds-1">
+<div class="para" id="end-point-method-for-callable-bonds-1-1">Let’s generalize to a situation in which there are different possible redemption amounts depending on when the bond is called or redeemed. We will derive a strategy for pricing called "the end point method."<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="end-point-method-for-callable-bonds-1-2">Suppose we have a bond with a face value of 1000 and 15 annual coupon payments with <span class="process-math">\(r=5\%\text{.}\)</span>  It can be redeemed for 1200 immediately after the 8th, 9th, or 10th payment, for 1100 immediately after the 11th, 12th, 13th, or 14th payment, or redeemed at par on the maturity date.  We want a yield of 6%.  What is the maximum price we should pay to guarantee this yield?<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="end-point-method-for-callable-bonds-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-2-1">Complete the following table.  The following calculator tip from 7.2 will help:<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="end-point-method-for-callable-bonds-2-2">🧮 Calculator Tip  If you do not clear the TVM functions on the calculator, it will keep all values that you have not changed.  So if you are pricing multiple bonds, where only one or two of the values change, you only need to change those values and recalculate the price.<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="end-point-method-for-callable-bonds-2-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">7.5.1<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Table 7.5.1"><a href="#end-point-method-for-callable-bonds-2-3" title="Copy heading and permalink for Table 7.5.1" aria-label="Copy heading and permalink for Table 7.5.1">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t2 lines">Redemption Time</td>
+<td class="l m b2 r2 l0 t2 lines">Redemption Amount</td>
+<td class="l m b2 r2 l0 t2 lines">Price to Yield 6%</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">1200</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+<td class="l m b2 r2 l0 t0 lines">1200</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">10</td>
+<td class="l m b2 r2 l0 t0 lines">1200</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">11</td>
+<td class="l m b2 r2 l0 t0 lines">1100</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">12</td>
+<td class="l m b2 r2 l0 t0 lines">1100</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">13</td>
+<td class="l m b2 r2 l0 t0 lines">1100</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">14</td>
+<td class="l m b2 r2 l0 t0 lines">1100</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">15</td>
+<td class="l m b2 r2 l0 t0 lines">1000</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="autopermalink" data-description="Task 7.5.7.a"><a href="#end-point-method-for-callable-bonds-2" title="Copy heading and permalink for Task 7.5.7.a" aria-label="Copy heading and permalink for Task 7.5.7.a">🔗</a></div></article><article class="task exercise-like" id="end-point-method-for-callable-bonds-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-3-1">The redemption times at 8, 10, 11, 14, and 15 are called <dfn class="terminology">endpoints</dfn>.  Explain what is meant by that.<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.7.b"><a href="#end-point-method-for-callable-bonds-3" title="Copy heading and permalink for Task 7.5.7.b" aria-label="Copy heading and permalink for Task 7.5.7.b">🔗</a></div></article><article class="task exercise-like" id="end-point-method-for-callable-bonds-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-4-1">What do you notice about prices between endpoints?<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.7.c"><a href="#end-point-method-for-callable-bonds-4" title="Copy heading and permalink for Task 7.5.7.c" aria-label="Copy heading and permalink for Task 7.5.7.c">🔗</a></div></article><article class="task exercise-like" id="end-point-method-for-callable-bonds-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-5-1">What is the lowest price?  What could happen to your yield if you pay a higher price?<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.7.d"><a href="#end-point-method-for-callable-bonds-5" title="Copy heading and permalink for Task 7.5.7.d" aria-label="Copy heading and permalink for Task 7.5.7.d">🔗</a></div></article><article class="task exercise-like" id="end-point-method-for-callable-bonds-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-6-1">What happens if you pay a price lower than the smallest price in this table?<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.7.e"><a href="#end-point-method-for-callable-bonds-6" title="Copy heading and permalink for Task 7.5.7.e" aria-label="Copy heading and permalink for Task 7.5.7.e">🔗</a></div></article><article class="task exercise-like" id="end-point-method-for-callable-bonds-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<div class="para" id="end-point-method-for-callable-bonds-7-1">What is the maximum price you would be willing to pay in order to guarantee a yield of 6%?<div class="autopermalink" data-description="Paragraph"><a href="#end-point-method-for-callable-bonds-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 7.5.7.f"><a href="#end-point-method-for-callable-bonds-7" title="Copy heading and permalink for Task 7.5.7.f" aria-label="Copy heading and permalink for Task 7.5.7.f">🔗</a></div></article><div class="autopermalink" data-description="Activity 7.5.7"><a href="#end-point-method-for-callable-bonds" title="Copy heading and permalink for Activity 7.5.7" aria-label="Copy heading and permalink for Activity 7.5.7">🔗</a></div></article><article class="activity project-like" id="soa-exam-problem-callable-bonds"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.8</span><span class="period">.</span>
+</h3>
+<div class="para" id="soa-exam-problem-callable-bonds-1-1">A 1000 par value bond pays annual coupons of 80. The bond is redeemable at par in 30 years, but is callable any time from the end of the 10th year at 1050. Based on her desired yield rate, an investor calculates the following potential purchase prices <span class="process-math">\(P\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#soa-exam-problem-callable-bonds-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ul class="disc" id="soa-exam-problem-callable-bonds-1-2">
+<li id="soa-exam-problem-callable-bonds-1-2-1">
+<div class="para" id="soa-exam-problem-callable-bonds-1-2-1-1">Assuming the bond is called at the end of the 10th year, <span class="process-math">\(P = 957\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#soa-exam-problem-callable-bonds-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#soa-exam-problem-callable-bonds-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="soa-exam-problem-callable-bonds-1-2-2">
+<div class="para" id="soa-exam-problem-callable-bonds-1-2-2-1">Assuming the bond is held until maturity, <span class="process-math">\(P = 897\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#soa-exam-problem-callable-bonds-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#soa-exam-problem-callable-bonds-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="soa-exam-problem-callable-bonds-1-3">The investor buys the bond at the highest price that guarantees she will receive her desired yield rate regardless of when the bond is called. The investor holds the bond for 20 years, after which time the bond is called. Calculate the annual yield rate the investor earns.<div class="autopermalink" data-description="Paragraph"><a href="#soa-exam-problem-callable-bonds-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 7.5.8"><a href="#soa-exam-problem-callable-bonds" title="Copy heading and permalink for Activity 7.5.8" aria-label="Copy heading and permalink for Activity 7.5.8">🔗</a></div></article><article class="activity project-like" id="callable-bonds-reflection"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.5.9</span><span class="period">.</span>
+</h3>
+<div class="para" id="callable-bonds-reflection-1-1">Summarize a strategy for pricing callable bonds to guarantee a given minimum yield, and describe how to alter that strategy to identify a minimum yield given a price.<div class="autopermalink" data-description="Paragraph"><a href="#callable-bonds-reflection-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 7.5.9"><a href="#callable-bonds-reflection" title="Copy heading and permalink for Activity 7.5.9" aria-label="Copy heading and permalink for Activity 7.5.9">🔗</a></div></article><div class="autopermalink" data-description="Section 7.5: Callable Bonds"><a href="#callable-bonds" title="Copy heading and permalink for Section 7.5: Callable Bonds" aria-label="Copy heading and permalink for Section 7.5: Callable Bonds">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="bond-amortization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="problem-solving-with-bonds.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

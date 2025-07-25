@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Problems</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Financial Mathematics for Actuaries with Active Learning">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.2';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.cc203fa52565b593.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.014cb392a13bd045.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="financial-math.html"><span class="title">Financial Mathematics for Actuaries with Active Learning</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="applications-of-interest-theory-exercises.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="loan-repayment.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="bonds.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\angl}[1]{\require{enclose}\enclose{actuarial}{#1}\,}
+\newcommand{\angln}[0]{\require{enclose}\enclose{actuarial}{n}\,}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="theory-of-interest.html" class="internal"><span class="codenumber">I</span> <span class="title">The Theory of Interest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning.html" class="internal"><span class="codenumber">1</span> <span class="title">Compound Interest and Timeline Reasoning</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="compound-interest-introduction.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Introduction to Interest Theory</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="timelines.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Timelines</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponents-and-logarithms.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Review -- Exponents and Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="valuation.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Valuation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="financial-calculator.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Problem Solving 1 -- The Financial Calculator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="quadratic-review.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Review -- Equations that are Quadratic in Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="equations-of-value.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Problem Solving 2 -- Equations of Value</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="nominal-and-effective-rates.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Nominal and Effective Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rates-conversion.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Equivalent Interest Rates 1 -- Conversion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rates-units-of-time.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Equivalent Interest Rates 2 -- Units of Time</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-simulaneous-rates.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Multiple Interest Rates 1 -- Simultaneous Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-consecutive-rates.html" class="internal"><span class="codenumber">1.12</span> <span class="title">Multiple Interest Rates 2 -- Consecutive Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="spot-and-forward-rates.html" class="internal"><span class="codenumber">1.13</span> <span class="title">Spot Rates and Forward Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-1.html" class="internal"><span class="codenumber">1.14</span> <span class="title">Actuarial Notation 1 -- <span class="process-math">\(v\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="inflation.html" class="internal"><span class="codenumber">1.15</span> <span class="title">Inflation and the Real Rate of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-usury.html" class="internal"><span class="codenumber">1.16</span> <span class="title">Ethics Case Study - Usury</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning-exercises.html" class="internal"><span class="codenumber">1.17</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="compound-interest-and-timeline-reasoning-problems.html" class="internal"><span class="codenumber">1.18</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="other-forms-of-interest-accumulation.html" class="internal"><span class="codenumber">2</span> <span class="title">Other Forms of Interest Accumulation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="linear-exponential-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Review -- Linear and Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="simple-interest.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Simple Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-discount.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Introduction to Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="discount-vs-interest.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Discount vs Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="nominal-effective-discount-rates.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Nominal and Effective Rates of Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="equivalent-accumulation-rates.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Equivalent Accumulation Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="limits-review.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Review -- Limits and L’Hôpital’s Rule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-compounded-continuously.html" class="internal"><span class="codenumber">2.8</span> <span class="title">Interest Compounded Continuously</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="derivatives-integrals-review.html" class="internal"><span class="codenumber">2.9</span> <span class="title">Review -- Derivatives and Integrals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="force-of-interest.html" class="internal"><span class="codenumber">2.10</span> <span class="title">Introduction to the Force of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="present-future-value-with-force-of-interest.html" class="internal"><span class="codenumber">2.11</span> <span class="title">Present and Future Value with the Force of Interest</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="derivatives-linear-approximation.html" class="internal"><span class="codenumber">2.12</span> <span class="title">Review -- Derivatives and Linear Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="force-of-interest-instantaneous-approximation.html" class="internal"><span class="codenumber">2.13</span> <span class="title">The Force of Interest as an Instantaneous Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multiple-forms-of-interest-accumulation.html" class="internal"><span class="codenumber">2.14</span> <span class="title">Problem Solving 3 -- Multiple Forms of Interest Accumulation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-student-loans-and-covid.html" class="internal"><span class="codenumber">2.15</span> <span class="title">Ethics Case Study -- Student Loans and COVID-19</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="other-forms-of-interest-accumulation-exercises.html" class="internal"><span class="codenumber">2.16</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="other-forms-of-interest-accumulation-problems.html" class="internal"><span class="codenumber">2.17</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="level-payment-annuities.html" class="internal"><span class="codenumber">3</span> <span class="title">Level Payment Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arbitrage.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Arbitrage</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-geometric-sequences.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Review - Geometric Sequences and Series 1: Re-indexing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-immediate-annuities.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Introduction to Annuities-Immediate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-2.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Actuarial Notation 2 -- <span class="process-math">\(a_{\angln \iota}\)</span> and <span class="process-math">\(s_{\angln \iota}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="future-and-present-values-of-annuities-immediate.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Future and Present Values of Annuities-Immediate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="financial-interpretation-annuities-perpetuities.html" class="internal"><span class="codenumber">3.6</span> <span class="title">A Financial Interpretation of <span class="process-math">\(s_{\angln}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-to-annuities-due.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Introduction to Annuities-Due</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="actuarial-notation-3.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Actuarial Notation 3 -- <span class="process-math">\(\ddot{a}_{\angln}\)</span> and <span class="process-math">\(\ddot{s}_{\angln}\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="value-of-annuities-due.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Future and Present Value of Annuities-Due</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="all-in-one-approach-to-level-payment-annuities.html" class="internal"><span class="codenumber">3.10</span> <span class="title">The All-In-One Approach to Level Payment Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-for-other-variables-in-annuities.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Solving for Different Variables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-arbitrage-and-insider-training.html" class="internal"><span class="codenumber">3.12</span> <span class="title">Ethics Case Study -- Arbitrage and Insider Trading</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="level-payment-annuities-exercises.html" class="internal"><span class="codenumber">3.13</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="level-payment-annuities-problems.html" class="internal"><span class="codenumber">3.14</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="problem-solving-with-annuities.html" class="internal"><span class="codenumber">4</span> <span class="title">Problem Solving with Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-difference-of-squares.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Review -- Difference of Squares</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="deferred-annuities.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Deferred Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-valued-at-other-times.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Annuity Valuations at Other Points in Time</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chunking.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Chunking</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="multi-step-problems-and-leverage.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Problem Solving 4 -- Multi-Step Problems and Leverage Variables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="puzzle-problems.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Problem Solving 5 -- Puzzle Problems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-watch-the-details.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Problem Solving 6 -- Watch the Details!</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-equivalent-interest-rates.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Review -- Equivalent Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-different-interest-payment-periods.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Problem Solving 7 -- Different Interest and Payment Periods</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="continuously-payable-annuities.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Continuously Payable Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-payday-loans.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Ethics Case Study -- Payday Loans</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="problem-solving-with-annuities-exercises.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="problem-solving-with-annuities-problems.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="non-level-payment-annuities.html" class="internal"><span class="codenumber">5</span> <span class="title">Non-Level Payment Annuities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction-non-level-payment-annuities.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Introduction to Non-Level Payment Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-constructing-geometric-series.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Review -- Geometric Sequences and Series 2: Constructing Series</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-geometric-progression-the-long-way.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Annuities with Payments in Geometric Progression 1 -- The Long Way</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-geometric-progression-the-short-way.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Annuities with Payments in Geometric Progression 2 -- The Short Way</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Annuities with Payments in Geometric Progression 3 -- Further Problems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#dividend-discount-model-for-valuing-stacks" class="internal"><span class="codenumber">5.5.1</span> <span class="title">The Dividend Discount Model for Valuing Stock</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#different-payments-and-geometric-frequencies" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Different Payment and Geometric Frequencies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="annuities-with-geometric-progressions-complications.html#using-iota-real" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Using <span class="process-math">\(\iota_{\mathrm{real}}\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-arithmetic-sequences.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Review -- Arithmetic Sequences</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="annuities-with-payments-in-arithmetic-progression.html" class="internal"><span class="codenumber">5.7</span> <span class="title">Introduction to Annuities with Payments in Arithmetic Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="future-and-present-values-of-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">5.8</span> <span class="title">Future and Present Values of Annuities with Payments in Arithmetic Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-problems-with-arithmetic-progressions.html" class="internal"><span class="codenumber">5.9</span> <span class="title">Solving Problems with Payments in Arithmetic Progression 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-problems-with-payments-in-arithmetic-progression-through-chunking.html" class="internal"><span class="codenumber">5.10</span> <span class="title">Solving Problems with Payments in Arithmetic Progression 2</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="deriving-formulas-for-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">5.11</span> <span class="title">Deriving Formulas for Increasing and Decreasing Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="continuously-payable-annuities-with-non-level-payments.html" class="internal"><span class="codenumber">5.12</span> <span class="title">Continuously Payable Annuities with Non-Level Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-through-non-level-payments.html" class="internal"><span class="codenumber">5.13</span> <span class="title">Problem Solving 8 -- Practice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-case-study-reparations.html" class="internal"><span class="codenumber">5.14</span> <span class="title">Ethics Case Study -- Reparations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="non-level-payment-annuities-exercises.html" class="internal"><span class="codenumber">5.15</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="non-level-payment-annuities-problems.html" class="internal"><span class="codenumber">5.16</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="applications-interest-theory.html" class="internal"><span class="codenumber">II</span> <span class="title">Applications of Interest Theory</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="loan-repayment.html" class="internal"><span class="codenumber">6</span> <span class="title">Loan Repayment</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="general-principles-of-loan-amortization.html" class="internal"><span class="codenumber">6.1</span> <span class="title">General Principles of Loan Amortization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="prospective-and-retrospective-form-of-outstanding-balance.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Prospective and Retrospective Form of Outstanding Balance</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="loan-repayment-with-level-payments.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Loan Repayment with Level Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="final-payments-on-loans.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Final Payments</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="loan-repayment-with-constant-principal-payments.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Loan Repayment with Constant Payments of Principal</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sinking-fund-method.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Loan Repayments with Constant Payments of Interest -- the Sinking Fund Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="totaling-payments.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Totals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-loans.html" class="internal"><span class="codenumber">6.8</span> <span class="title">Problem Solving 9 -- Problem Solving with Loans</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-redlining.html" class="internal"><span class="codenumber">6.9</span> <span class="title">Ethics Case Study -- Redlining</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="applications-of-interest-theory-exercises.html" class="internal"><span class="codenumber">6.10</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises active"><div class="toc-title-box"><a href="applications-interest-theory-problems.html" class="internal"><span class="codenumber">6.11</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="bonds.html" class="internal"><span class="codenumber">7</span> <span class="title">Bonds</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-vocabulary.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Bond Vocabulary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-pricing.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Bond Pricing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="premium-and-discount-bonds.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Premium and Discount Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bond-amortization.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Bond Amortization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="callable-bonds.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Callable Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-bonds.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Problem Solving 10: Problem Solving with Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-mortgage-backed-securities.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Ethics Case Study -- Mortgage-Backed Securities and the 2008 Financial Crisis</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="bonds-exercises.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="bonds-problems.html" class="internal"><span class="codenumber">7.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="rates-of-return.html" class="internal"><span class="codenumber">8</span> <span class="title">Rates of Return</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="book-and-market-values.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Book and Market Values</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="yield-rates-and-reinvestment-rates.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Yield Rates and Reinvestment Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="internal-rate-of-return-and-net-present-value.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Internal Rate of Return and Net Present Value</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="time-weighted-rates-of-return.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Time-Weighted Rates of Return</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="dollar-weighted-rates-of-return.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Dollar-Weighted Rates of Return</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-mixing-time-and-dollar-weighted-returns.html" class="internal"><span class="codenumber">8.6</span> <span class="title">Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-enron.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Ethics Case Study -- Enron and Mark-to-Market Accounting</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rates-of-return-exercises.html" class="internal"><span class="codenumber">8.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="rates-of-return-problems.html" class="internal"><span class="codenumber">8.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="term-structure-interest-rates.html" class="internal"><span class="codenumber">9</span> <span class="title">The Term Structure of Interest Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="zero-coupon-bonds-spot-rates-and-yield-curve.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Zero Coupon Bonds, Spot Rates, and the Yield Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="spot-rates-and-coupon-bonds.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Spot Rates and Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="forward-rates.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Forward Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="implied-forward-rates-and-spot-rates.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Implied Forward Rates and Spot Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arbitrage-revisited.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Arbitrage Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-speculation.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Ethics Case Study -- Speculation</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="term-structure-interest-rates-exercises.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="term-structure-interest-rates-problems.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="interest-rate-swaps.html" class="internal"><span class="codenumber">10</span> <span class="title">Interest Rate Swaps</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="variable-interest-rates.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Variable Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="basic-swap-transaction.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Basic Swap Transaction</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="calculating-the-swap-rate.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Swap Rate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="variations-on-interest-rate-swaps.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Variations on Interest Rate Swaps</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="market-value-of-an-interest-rate-swap.html" class="internal"><span class="codenumber">10.5</span> <span class="title">The Market Value of an Interest Rate Swap</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="problem-solving-with-interest-rate-swaps.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Problem Solving 12 -- Problem Solving with Interest Rate Swaps</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="interest-rate-swaps-exercises.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="interest-rate-swaps-problems.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="duration-and-convexity.html" class="internal"><span class="codenumber">11</span> <span class="title">Duration and Convexity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-risk.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Interest Rate Risk</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-weighted-averages.html" class="internal"><span class="codenumber">11.2</span> <span class="title">Review -- Weighted Averages</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-duration.html" class="internal"><span class="codenumber">11.3</span> <span class="title">Macaulay Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-increasing-and-decreasing-annuities.html" class="internal"><span class="codenumber">11.4</span> <span class="title">Review -- Increasing and Decreasing Annuities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-duration-shortcuts.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Macaulay Duration Shortcuts</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="review-taylor-series-and-approximations.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Review -- Taylor Series and Approximations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="modified-duration.html" class="internal"><span class="codenumber">11.7</span> <span class="title">Modified Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="first-order-approximations-and-modified-duration.html" class="internal"><span class="codenumber">11.8</span> <span class="title">First Order Approximations with Modified Duration</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="macaulay-approximation.html" class="internal"><span class="codenumber">11.9</span> <span class="title">The Macaulay Approximation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="convexity-and-second-order-approximation.html" class="internal"><span class="codenumber">11.10</span> <span class="title">Convexity and Second Order Approximations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-risk-with-portfolios.html" class="internal"><span class="codenumber">11.11</span> <span class="title">Interest Rate Risk with Portfolios</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="duration-and-convexity-exercises.html" class="internal"><span class="codenumber">11.12</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="duration-and-convexity-problems.html" class="internal"><span class="codenumber">11.13</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="matching-liabilities-assets.html" class="internal"><span class="codenumber">12</span> <span class="title">Matching Liabilities and Assets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exact-matching-with-zero-coupon-bonds.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Exact Matching with Zero-Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exact-matching-with-coupon-bonds.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Exact Matching with Coupon Bonds</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="redington-immunization.html" class="internal"><span class="codenumber">12.3</span> <span class="title">Redington Immunization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="full-immunization.html" class="internal"><span class="codenumber">12.4</span> <span class="title">Full Immunization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-reserve-requirements.html" class="internal"><span class="codenumber">12.5</span> <span class="title">Ethics Case Study -- Reserve Requirements</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matching-liabilities-assets-exercises.html" class="internal"><span class="codenumber">12.6</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matching-liabilities-assets-problems.html" class="internal"><span class="codenumber">12.7</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="determinants-interest-rates.html" class="internal"><span class="codenumber">13</span> <span class="title">Determinants of Interest Rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="economic-point-of-view.html" class="internal"><span class="codenumber">13.1</span> <span class="title">The Economic Point of View</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="components-of-interest-rates.html" class="internal"><span class="codenumber">13.2</span> <span class="title">The Components of Interest Rates</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="interest-rate-components-in-context.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Interest Rates Components in Context</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="role-of-the-federal-reserve.html" class="internal"><span class="codenumber">13.4</span> <span class="title">The Role of the Federal Reserve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="simple-discount.html" class="internal"><span class="codenumber">13.5</span> <span class="title">Simple Discount</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="us-vs-canadian-t-bills.html" class="internal"><span class="codenumber">13.6</span> <span class="title">U.S. T-Bills vs Canadian T-Bills</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ethics-audit-the-fed.html" class="internal"><span class="codenumber">13.7</span> <span class="title">Ethics Case Study -- Audit the Fed</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="determinants-interest-rates-exercises.html" class="internal"><span class="codenumber">13.8</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="determinants-interest-rates-problems.html" class="internal"><span class="codenumber">13.9</span> <span class="title">Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Reference</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-exponents-logarithms.html" class="internal"><span class="codenumber">A</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-logarithmic-definitions.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-logarithmic-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Properties</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-differentiation-integration.html" class="internal"><span class="codenumber">B</span> <span class="title">Differentiation and Integration Rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="appendix-differentiation-integration-rules.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Rules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="appendix-differentiation-integration-specific-functions.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Specific Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references">
+<div class="toc-title-box"><a href="bibliography.html" class="internal"><span class="title">References</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-2.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Textbooks</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-3.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Online Actuarial Resources</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-4.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Classical Texts Addressing Ethics</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-5.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Ethics and Finance</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-6.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Financial Scandals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="bibliography-7.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Online Ethical Reasoning Resources</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="exercises" id="applications-interest-theory-problems"><h2 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">6.11</span><span class="space"> </span><span class="title">Problems</span>
+</h2>
+<article class="exercise exercise-like" id="applications-interest-theory-problems-2"><h3 class="heading"><span class="codenumber">1<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-2-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> A 30-year loan of 1000 is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals 150% of the amount of interest due. Each of the last ten payments is <span class="process-math">\(X\text{.}\)</span> The lender charges interest at an effective annual rate of 10%. Calculate <span class="process-math">\(X\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.1"><a href="#applications-interest-theory-problems-2" title="Copy heading and permalink for Exercise 6.11.1" aria-label="Copy heading and permalink for Exercise 6.11.1">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-3"><h3 class="heading"><span class="codenumber">2<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-3-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A loan of 10,000 is being repaid by installments of 2000 at the end of each year, and a smaller final payment made one year after the last regular payment. Interest is at the effective rate of 12%. Find the amount of the outstanding loan balance remaining when the borrower has made payments equal to the amount of the loan. Answer to the nearest dollar.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.2"><a href="#applications-interest-theory-problems-3" title="Copy heading and permalink for Exercise 6.11.2" aria-label="Copy heading and permalink for Exercise 6.11.2">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-4"><h3 class="heading"><span class="codenumber">3<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-4-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> A loan is amortized over five years with monthly payments at a nominal interest rate of 9% compounded monthly. The first payment is 1000 and is to be paid one month from the date of the loan. Each succeeding monthly payment will be 2% lower than the prior payment. Calculate the outstanding loan balance immediately after the 40th payment is made.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.3"><a href="#applications-interest-theory-problems-4" title="Copy heading and permalink for Exercise 6.11.3" aria-label="Copy heading and permalink for Exercise 6.11.3">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-5"><h3 class="heading"><span class="codenumber">4<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-5-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> A loan is being repaid by the amortization method with an installment at the end of each of 80 quarters at 6% annual effective interest, the first payment one quarter after the loan is made. In which payment are the principal and the interest most nearly equal to each other?<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.4"><a href="#applications-interest-theory-problems-5" title="Copy heading and permalink for Exercise 6.11.4" aria-label="Copy heading and permalink for Exercise 6.11.4">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-6"><h3 class="heading"><span class="codenumber">5<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-6-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A 5-year loan is amortized with semiannual payments of 200 each, starting 6 months after the loan is made. If <span class="process-math">\(Pr_1 = 156.24\text{,}\)</span> find <span class="process-math">\(\iota^{(12)}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.5"><a href="#applications-interest-theory-problems-6" title="Copy heading and permalink for Exercise 6.11.5" aria-label="Copy heading and permalink for Exercise 6.11.5">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-7"><h3 class="heading"><span class="codenumber">6<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-7-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A loan is being repaid by quarterly installments of 1500 at the end of each quarter at 10% convertible quarterly. If the loan balance at the end of the first year is 12,000, find the original loan balance. Answer to the nearest dollar.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.6"><a href="#applications-interest-theory-problems-7" title="Copy heading and permalink for Exercise 6.11.6" aria-label="Copy heading and permalink for Exercise 6.11.6">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-8"><h3 class="heading"><span class="codenumber">7<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-8-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A 20,000 loan is to be repaid with annual payments at the end of each year for 12 years. If <span class="process-math">\((1+\iota)^4 = 2\text{,}\)</span> find the outstanding balance immediately after the fourth payment. Answer to the nearest dollar.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.7"><a href="#applications-interest-theory-problems-8" title="Copy heading and permalink for Exercise 6.11.7" aria-label="Copy heading and permalink for Exercise 6.11.7">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-9"><h3 class="heading"><span class="codenumber">8<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-9-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A 20,000 mortgage is being repaid with 20 annual installments at the end of each year. The borrower makes five payments and then temporarily is unable to make payments for the next two years. Find an expression for the revised payment to start at the end of the 8th year if the loan is still to be repaid at the end of the original 20 years.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.8"><a href="#applications-interest-theory-problems-9" title="Copy heading and permalink for Exercise 6.11.8" aria-label="Copy heading and permalink for Exercise 6.11.8">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-10"><h3 class="heading"><span class="codenumber">9<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-10-1-1">Wanda and Vision purchase a home in Westview for 300,000 with a 30-year mortgage at an effective annual interest rate of 4%.  Payments are to be made at the end of each month.  Suppose after 10 years, a new bank offers to refinance the loan at a lower interest rate of 3%.  Find the difference between the original monthly payment and the new monthly payment if they accept the refinance offer.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.9"><a href="#applications-interest-theory-problems-10" title="Copy heading and permalink for Exercise 6.11.9" aria-label="Copy heading and permalink for Exercise 6.11.9">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-11"><h3 class="heading"><span class="codenumber">10<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-11-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A couple buys a new home and take out a 150,000 mortgage with level annual payments at the end of each year for 15 years on which the effective rate of interest is equal to 6.5%. At the end of 5 years, they decide to make a major addition to the house and want to borrow an additional 80,000 to finance the new construction. They also wish to lengthen the overall term of the loan by 7 years (i.e. until 22 years after the date of the original loan). In the negotiations, the lender agrees to these modifications, but only if the effective interest for the remainder of the loan after the first 5 years is raised to 7.5%. Find the revised annual payment which would result for the remainder of the loan. Answer to the nearest dollar.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.10"><a href="#applications-interest-theory-problems-11" title="Copy heading and permalink for Exercise 6.11.10" aria-label="Copy heading and permalink for Exercise 6.11.10">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-12"><h3 class="heading"><span class="codenumber">11<span class="period">.</span></span></h3>
+<div class="introduction" id="applications-interest-theory-problems-12-1"><div class="para" id="applications-interest-theory-problems-12-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A loan is being repaid with installments of 1 at the end of each year for 20 years. Interest is at effective rate <span class="process-math">\(\iota\)</span> for the first 10 years and effective rate <span class="process-math">\(j\)</span> for the second 10 years. Find expressions for:<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="applications-interest-theory-problems-12-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="applications-interest-theory-problems-12-2-1">The amount of interest paid in the 5th installment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.11.a"><a href="#applications-interest-theory-problems-12-2" title="Copy heading and permalink for Task 6.11.11.a" aria-label="Copy heading and permalink for Task 6.11.11.a">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-12-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="applications-interest-theory-problems-12-3-1">The amount of principal repaid in the 15th installment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.11.b"><a href="#applications-interest-theory-problems-12-3" title="Copy heading and permalink for Task 6.11.11.b" aria-label="Copy heading and permalink for Task 6.11.11.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6.11.11"><a href="#applications-interest-theory-problems-12" title="Copy heading and permalink for Exercise 6.11.11" aria-label="Copy heading and permalink for Exercise 6.11.11">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-13"><h3 class="heading"><span class="codenumber">12<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-13-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A 5-year loan made on July 1, 2014 is amortized with 60 level monthly payments starting August 1, 2014. If interest is at <span class="process-math">\(\iota^{(12)} = 0.12\text{,}\)</span> find the date on which the outstanding balance first falls below one-half of the original loan.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.12"><a href="#applications-interest-theory-problems-13" title="Copy heading and permalink for Exercise 6.11.12" aria-label="Copy heading and permalink for Exercise 6.11.12">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-14"><h3 class="heading"><span class="codenumber">13<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-14-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A loan of 1000 at interest <span class="process-math">\(\iota = 0.01\)</span> per period is amortized by payments of 100 per period, starting one period after the loan, for as long as necessary, plus a final smaller payment one period after the last regular payment. Solve for the number of regular payments and the final smaller payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.13"><a href="#applications-interest-theory-problems-14" title="Copy heading and permalink for Exercise 6.11.13" aria-label="Copy heading and permalink for Exercise 6.11.13">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-15"><h3 class="heading"><span class="codenumber">14<span class="period">.</span></span></h3>
+<div class="introduction" id="applications-interest-theory-problems-15-1"><div class="para" id="applications-interest-theory-problems-15-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> A fifteen-year adjustable rate mortgage of 117,134.80 is being repaid with monthly payments of 988.45 based on a nominal interest rate of 6% convertible monthly. Immediately after the 60th payment, the interest rate is increased to a nominal interest rate of 7.5% convertible monthly. The monthly payments remain at 988.45 and there will be an additional balloon payment at the end of the fifteen years to pay the outstanding loan balance.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="applications-interest-theory-problems-15-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="applications-interest-theory-problems-15-2-1">Calculate the loan balance immediately after the 84th payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.14.a"><a href="#applications-interest-theory-problems-15-2" title="Copy heading and permalink for Task 6.11.14.a" aria-label="Copy heading and permalink for Task 6.11.14.a">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-15-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="applications-interest-theory-problems-15-3-1">Calculate the amount of interest in the 84th payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-15-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.14.b"><a href="#applications-interest-theory-problems-15-3" title="Copy heading and permalink for Task 6.11.14.b" aria-label="Copy heading and permalink for Task 6.11.14.b">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-15-4"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="applications-interest-theory-problems-15-4-1">Calculate the amount of the balloon payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-15-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.14.c"><a href="#applications-interest-theory-problems-15-4" title="Copy heading and permalink for Task 6.11.14.c" aria-label="Copy heading and permalink for Task 6.11.14.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6.11.14"><a href="#applications-interest-theory-problems-15" title="Copy heading and permalink for Exercise 6.11.14" aria-label="Copy heading and permalink for Exercise 6.11.14">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-16"><h3 class="heading"><span class="codenumber">15<span class="period">.</span></span></h3>
+<div class="introduction" id="applications-interest-theory-problems-16-1"><div class="para" id="applications-interest-theory-problems-16-1-1">Prince Akeem of Zamunda borrows 75,000 to purchase a car.  The loan carries an interest rate of 2.5% convertible monthly.  The loan will be paid off with payments of 1643 at the end of each month for 4 years, with a balloon payment at the end.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="applications-interest-theory-problems-16-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="applications-interest-theory-problems-16-2-1">Find the amount of the original balloon payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.15.a"><a href="#applications-interest-theory-problems-16-2" title="Copy heading and permalink for Task 6.11.15.a" aria-label="Copy heading and permalink for Task 6.11.15.a">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-16-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="applications-interest-theory-problems-16-3-1">Suppose he decides to round up his monthly payment to 2000 (starting with the first payment), and complete his payoff with a drop payment instead of a balloon payment.  Find the number of payments of 2000 he will make, and find the amount of the drop payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.15.b"><a href="#applications-interest-theory-problems-16-3" title="Copy heading and permalink for Task 6.11.15.b" aria-label="Copy heading and permalink for Task 6.11.15.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6.11.15"><a href="#applications-interest-theory-problems-16" title="Copy heading and permalink for Exercise 6.11.15" aria-label="Copy heading and permalink for Exercise 6.11.15">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-17"><h3 class="heading"><span class="codenumber">16<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-17-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Eliza takes out a 36,000 loan at an annual effective interest rate of 6%. It is agreed that at the end of each of the first six years she will pay 1800 in principal, along with the interest due, and that at the end of each of the next eight years she will make level payments of 2500. Eliza will make one final payment at the end of fifteen years to exactly complete her loan obligation. Calculate the amount of Eliza\textquotesingle s fifth payment, the amount of her tenth payment, and the amount of her fifteenth payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.16"><a href="#applications-interest-theory-problems-17" title="Copy heading and permalink for Exercise 6.11.16" aria-label="Copy heading and permalink for Exercise 6.11.16">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-18"><h3 class="heading"><span class="codenumber">17<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-18-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Marilyn Ho borrowed 24,000 from Stewart Financial Enterprises. She was required to make sixteen equal payments of principal. These were to be made annually with the first payment due exactly one year after she received the 24,000. Ms. Ho also had to make annual payments of interest to the loan holder at an annual effective rate of 8.5%. Immediately after the loan is made, Brady Investment Corporation purchases the right to receive all of Ms. Ho\textquotesingle s payments from Stewart Financial Enterprises. The price paid by Brady Investment Corporation resulted in Brady having a 7% annual yield on their sixteen-year investment (this means that the price valued the cash stream at <span class="process-math">\(\iota = 7\%\)</span>). Find the price that Brady Investment Corporation paid Stewart Financial Enterprises.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-18-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.17"><a href="#applications-interest-theory-problems-18" title="Copy heading and permalink for Exercise 6.11.17" aria-label="Copy heading and permalink for Exercise 6.11.17">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-19"><h3 class="heading"><span class="codenumber">18<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-19-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> Betty borrows 19,800 from Bank <span class="process-math">\(X\text{.}\)</span> She repays the loan by making 36 equal payments of principal at the end of each month.  She also pays interest on the unpaid balance each month at a nominal rate of 12% compounded monthly. Immediately after the 16th payment is made, Bank <span class="process-math">\(X\)</span> sells the rights to future payments to Bank <span class="process-math">\(Y\text{.}\)</span> Bank <span class="process-math">\(Y\)</span> wishes to yield a nominal rate of 14% compounded semi-annually (this is the rate at which they value the cash stream) on its investment.  What price does Bank <span class="process-math">\(X\)</span> receive?<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.18"><a href="#applications-interest-theory-problems-19" title="Copy heading and permalink for Exercise 6.11.18" aria-label="Copy heading and permalink for Exercise 6.11.18">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-20"><h3 class="heading"><span class="codenumber">19<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-20-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A borrower is repaying a 1000 loan with 10 equal, semiannual payments of principal. Interest is 6% convertible semiannually, and paid on the outstanding balance with each payment of principal.  Find the price to yield an investor 10% convertible semiannually (the yield is the rate used to value the cash stream).<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.19"><a href="#applications-interest-theory-problems-20" title="Copy heading and permalink for Exercise 6.11.19" aria-label="Copy heading and permalink for Exercise 6.11.19">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-21"><h3 class="heading"><span class="codenumber">20<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-21-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> Two loans for equal amounts are amortized at 4% effective. Loan <span class="process-math">\(L\)</span> is to be repaid by 30 equal annual payments. Loan <span class="process-math">\(M\)</span> is to be repaid by 30 annual payments, each containing equal principal amounts with the interest portion of each payment based on the unpaid balance. The payment for loan <span class="process-math">\(L\)</span> first exceeds the payment for loan <span class="process-math">\(M\)</span> at the end of year <span class="process-math">\(k\text{.}\)</span> Find <span class="process-math">\(k\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.20"><a href="#applications-interest-theory-problems-21" title="Copy heading and permalink for Exercise 6.11.20" aria-label="Copy heading and permalink for Exercise 6.11.20">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-22"><h3 class="heading"><span class="codenumber">21<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-22-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> An estate of 1,000,000, invested at an annual interest rate of 5%, is being shared by <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\text{.}\)</span> Starting 1 year after the estate is established, <span class="process-math">\(A\)</span> receives 125,000 of principal each year for 5 years, <span class="process-math">\(B\)</span> receives 75,000 of principal each year for 5 years, and <span class="process-math">\(C\)</span> receives the interest each year. Find the present values of the shares of <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> at 5% and verify that their sum is 1,000,000.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.21"><a href="#applications-interest-theory-problems-22" title="Copy heading and permalink for Exercise 6.11.21" aria-label="Copy heading and permalink for Exercise 6.11.21">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-23"><h3 class="heading"><span class="codenumber">22<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-23-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> Smith can repay a loan of 250,000 in one of two ways:<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-23-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ul class="disc" id="applications-interest-theory-problems-23-1-2">
+<li id="applications-interest-theory-problems-23-1-2-1">
+<div class="para" id="applications-interest-theory-problems-23-1-2-1-1">30 annual payments based on amortization (level payments) at <span class="process-math">\(\iota = 0.12\text{;}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-23-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#applications-interest-theory-problems-23-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="applications-interest-theory-problems-23-1-2-2">
+<div class="para" id="applications-interest-theory-problems-23-1-2-2-1">30 annual interest payments to the lender at rate <span class="process-math">\(\iota = 0.10\text{,}\)</span> along with 30 level annual deposits to a sinking fund earning rate <span class="process-math">\(j\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-23-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#applications-interest-theory-problems-23-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="applications-interest-theory-problems-23-1-3">Find the value of <span class="process-math">\(j\)</span> to make the schemes equivalent.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-23-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.22"><a href="#applications-interest-theory-problems-23" title="Copy heading and permalink for Exercise 6.11.22" aria-label="Copy heading and permalink for Exercise 6.11.22">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-24"><h3 class="heading"><span class="codenumber">23<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-24-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> John borrows 1000 for 10 years at an annual effective interest rate of 10%. He can repay this loan using the amortization method (level payments) with payments of <span class="process-math">\(P\)</span> at the end of each year. Instead, John repays the 1000 using a sinking fund that pays an annual effective rate of 14%. The deposits to the sinking fund are equal to <span class="process-math">\(P\)</span> minus the interest on the loan and are made at the end of each year for 10 years. Determine the balance in the sinking fund immediately after repayment of the loan.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-24-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.23"><a href="#applications-interest-theory-problems-24" title="Copy heading and permalink for Exercise 6.11.23" aria-label="Copy heading and permalink for Exercise 6.11.23">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-25"><h3 class="heading"><span class="codenumber">24<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-25-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Dustin borrows 100,000. Half of the loan is repaid by the amortization method (level payments) at an annual effective interest rate of 6% with payments due at the end of each year for twelve years. The other half is to be repaid by the sinking fund method with interest on the loan balance assessed at an annual effective interest rate of 5% and the sinking fund earning an annual effective interest rate of 3%. The deposits to the sinking fund are to be made at the end of each year for twelve years and to increase by 4% each year. Find the total amount Dustin pays exactly five years after he takes out the 100,000 loan.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-25-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.24"><a href="#applications-interest-theory-problems-25" title="Copy heading and permalink for Exercise 6.11.24" aria-label="Copy heading and permalink for Exercise 6.11.24">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-26"><h3 class="heading"><span class="codenumber">25<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-26-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Arlen buys a home for 328,000 and makes a down payment of 33,000. The balance he finances with a fifteen-year mortgage with monthly payments and an annual effective interest rate of 5.8%. There will be level payments followed by a slightly reduced payment. Calculate the amount of interest that Arlen pays in the first five years of the loan.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-26-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.25"><a href="#applications-interest-theory-problems-26" title="Copy heading and permalink for Exercise 6.11.25" aria-label="Copy heading and permalink for Exercise 6.11.25">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-27"><h3 class="heading"><span class="codenumber">26<span class="period">.</span></span></h3>
+<div class="introduction" id="applications-interest-theory-problems-27-1"><div class="para" id="applications-interest-theory-problems-27-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A loan <span class="process-math">\(L\)</span> is being amortized with payments at the end of each year for 10 years. If <span class="process-math">\(v^5 = 2/3\text{,}\)</span> find the following:<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-27-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="applications-interest-theory-problems-27-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="applications-interest-theory-problems-27-2-1">The amount of principal repaid in the first five payments.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-27-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.26.a"><a href="#applications-interest-theory-problems-27-2" title="Copy heading and permalink for Task 6.11.26.a" aria-label="Copy heading and permalink for Task 6.11.26.a">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-27-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="applications-interest-theory-problems-27-3-1">The amount due at the end of 10 years, if the final 5 payments are not made as scheduled.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-27-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.26.b"><a href="#applications-interest-theory-problems-27-3" title="Copy heading and permalink for Task 6.11.26.b" aria-label="Copy heading and permalink for Task 6.11.26.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6.11.26"><a href="#applications-interest-theory-problems-27" title="Copy heading and permalink for Exercise 6.11.26" aria-label="Copy heading and permalink for Exercise 6.11.26">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-28"><h3 class="heading"><span class="codenumber">27<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-28-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> Iggy borrows <span class="process-math">\(X\)</span> for 10 years at an effective annual rate of 6%. If he pays the principal and accumulated interest in one lump sum at the end of 10 years, he would pay 356.54 more in interest than if he repaid the loan with with 10 level payments at the end of each year.  Calculate <span class="process-math">\(X\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-28-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.27"><a href="#applications-interest-theory-problems-28" title="Copy heading and permalink for Exercise 6.11.27" aria-label="Copy heading and permalink for Exercise 6.11.27">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-29"><h3 class="heading"><span class="codenumber">28<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-29-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> A 10-year loan of 2000 is to be repaid with payments at the end of each year. It can be repaid under the following two options:<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-29-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ol class="lower-roman ol-marker-2" id="applications-interest-theory-problems-29-1-2">
+<li id="applications-interest-theory-problems-29-1-2-1">
+<div class="para" id="applications-interest-theory-problems-29-1-2-1-1">Equal annual payments at an effective annual rate of 8.07%.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-29-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6.11.28.i"><a href="#applications-interest-theory-problems-29-1-2-1" title="Copy heading and permalink for Item 6.11.28.i" aria-label="Copy heading and permalink for Item 6.11.28.i">🔗</a></div>
+</li>
+<li id="applications-interest-theory-problems-29-1-2-2">
+<div class="para" id="applications-interest-theory-problems-29-1-2-2-1">Installments of 200 each year plus interest on the unpaid balance at an effective annual rate of <span class="process-math">\(\iota\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-29-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6.11.28.ii"><a href="#applications-interest-theory-problems-29-1-2-2" title="Copy heading and permalink for Item 6.11.28.ii" aria-label="Copy heading and permalink for Item 6.11.28.ii">🔗</a></div>
+</li>
+</ol> <div class="para" id="applications-interest-theory-problems-29-1-3">The sum of the payments under option (i) equals the sum of the payments under option (ii). Determine <span class="process-math">\(\iota\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-29-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.28"><a href="#applications-interest-theory-problems-29" title="Copy heading and permalink for Exercise 6.11.28" aria-label="Copy heading and permalink for Exercise 6.11.28">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-30"><h3 class="heading"><span class="codenumber">29<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-30-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A loan is being repaid with a series of payments at the end of each quarter for five years. If the amount of principal in the third payment is 100, find the amount of principal in the last five payments. Interest is at the rate of 10% convertible quarterly.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-30-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.29"><a href="#applications-interest-theory-problems-30" title="Copy heading and permalink for Exercise 6.11.29" aria-label="Copy heading and permalink for Exercise 6.11.29">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-31"><h3 class="heading"><span class="codenumber">30<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-31-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A 35-year loan is to be repaid with equal installments at the end of each year. The amount of interest paid in the 8th installment is 135. The amount of interest paid in the 22nd installment is 108. Calculate the amount of interest paid in the 29th installment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-31-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.30"><a href="#applications-interest-theory-problems-31" title="Copy heading and permalink for Exercise 6.11.30" aria-label="Copy heading and permalink for Exercise 6.11.30">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-32"><h3 class="heading"><span class="codenumber">31<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-32-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A 10-year loan <span class="process-math">\(L\)</span> is repaid by the amortization method (level payments) with payments of 1000 at the end of each year. The annual effective interest rate is <span class="process-math">\(\iota\text{.}\)</span> The total amount of interest repaid during the life of the loan is also equal to <span class="process-math">\(L\text{.}\)</span> Calculate the amount of interest paid during the first year of the loan.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-32-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.31"><a href="#applications-interest-theory-problems-32" title="Copy heading and permalink for Exercise 6.11.31" aria-label="Copy heading and permalink for Exercise 6.11.31">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-33"><h3 class="heading"><span class="codenumber">32<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-33-1-1">
+<a href="bibliography-2.html#bibliography-kellison" class="xref" data-knowl="./knowl/xref/bibliography-kellison.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.2: The Theory of Interest">[1.1.2]</a> A borrower is repaying a loan with payments of 3000 at the end of every year over an unknown period of time. If the amount of interest in the third installment is 2000, find the amount of interest in the sixth installment. Assume that interest is 10% convertible quarterly.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.32"><a href="#applications-interest-theory-problems-33" title="Copy heading and permalink for Exercise 6.11.32" aria-label="Copy heading and permalink for Exercise 6.11.32">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-34"><h3 class="heading"><span class="codenumber">33<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-34-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Ellen has a thirty-year mortgage with level monthly payments. The amount of principal in her 82nd payment is 259.34, and the amount of principal in her 56th payment is 230.19. Find the amount of interest in her 133rd payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-34-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.33"><a href="#applications-interest-theory-problems-34" title="Copy heading and permalink for Exercise 6.11.33" aria-label="Copy heading and permalink for Exercise 6.11.33">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-35"><h3 class="heading"><span class="codenumber">34<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-35-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> An amortized loan of 75,000 has annual payments for eighteen years, the first occurring exactly one year after the loan is made. The first four payments will be for only half as much as the remaining fourteen. The annual effective interest rate for the loan is 6%. Calculate the amount of principal repaid in the seventh payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-35-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.34"><a href="#applications-interest-theory-problems-35" title="Copy heading and permalink for Exercise 6.11.34" aria-label="Copy heading and permalink for Exercise 6.11.34">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-36"><h3 class="heading"><span class="codenumber">35<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-36-1-1">
+<a href="bibliography-2.html#bibliography-vaaler-daniel" class="xref" data-knowl="./knowl/xref/bibliography-vaaler-daniel.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.3: Mathematical Interest Theory">[1.1.3]</a> Tirunesh takes out a thirty-year mortgage for 126,523 with the nominal interest rate convertible monthly set at 6.75%. The scheduled monthly payment amounts are level except for a slightly reduced final payment. After making payments on schedule for five years, Tirunesh decided to increase his monthly payments by 300 in order to pay off the mortgage more quickly. Assuming these increased payments are made, calculate the amount of interest Tirunesh pays during the seventh year.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-36-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.35"><a href="#applications-interest-theory-problems-36" title="Copy heading and permalink for Exercise 6.11.35" aria-label="Copy heading and permalink for Exercise 6.11.35">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-37"><h3 class="heading"><span class="codenumber">36<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-37-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A loan is repaid by 48 monthly payments of 200 each. The interest paid in the first 12 payments is 983.16 and the principal repaid in the final 12 payments is 2215.86. Find <span class="process-math">\(\iota^{(12)}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-37-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.36"><a href="#applications-interest-theory-problems-37" title="Copy heading and permalink for Exercise 6.11.36" aria-label="Copy heading and permalink for Exercise 6.11.36">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-38"><h3 class="heading"><span class="codenumber">37<span class="period">.</span></span></h3>
+<div class="introduction" id="applications-interest-theory-problems-38-1"><div class="para" id="applications-interest-theory-problems-38-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A loan is amortized by level payments every February 1, plus a smaller final payment. The borrower notices that the interest paid in the February 1, 2014 payment was 103.00, and the interest paid in the February 1, 2015 payment will be 98.00. The rate of interest on the loan is <span class="process-math">\(\iota = 0.08\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-38-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="applications-interest-theory-problems-38-2"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="applications-interest-theory-problems-38-2-1">Find the principal repaid in the 2015 payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-38-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.37.a"><a href="#applications-interest-theory-problems-38-2" title="Copy heading and permalink for Task 6.11.37.a" aria-label="Copy heading and permalink for Task 6.11.37.a">🔗</a></div></article><article class="task exercise-like" id="applications-interest-theory-problems-38-3"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="applications-interest-theory-problems-38-3-1">Find the date and amount of the smaller final payment made one year after the last regular payment.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-38-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 6.11.37.b"><a href="#applications-interest-theory-problems-38-3" title="Copy heading and permalink for Task 6.11.37.b" aria-label="Copy heading and permalink for Task 6.11.37.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise 6.11.37"><a href="#applications-interest-theory-problems-38" title="Copy heading and permalink for Exercise 6.11.37" aria-label="Copy heading and permalink for Exercise 6.11.37">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-39"><h3 class="heading"><span class="codenumber">38<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-39-1-1">
+<a href="bibliography-2.html#bibliography-broverman" class="xref" data-knowl="./knowl/xref/bibliography-broverman.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.1.1: Mathematics of Investment and Credit">[1.1.1]</a> A loan is being repaid with level payments of <span class="process-math">\(K\)</span> every 6 months. The outstanding balances on three consecutive payment dates are 5190.72, 5084.68, and 4973.66. Find <span class="process-math">\(K\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-39-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.38"><a href="#applications-interest-theory-problems-39" title="Copy heading and permalink for Exercise 6.11.38" aria-label="Copy heading and permalink for Exercise 6.11.38">🔗</a></div></article><article class="exercise exercise-like" id="applications-interest-theory-problems-40"><h3 class="heading"><span class="codenumber">39<span class="period">.</span></span></h3>
+<div class="para" id="applications-interest-theory-problems-40-1-1">
+<a href="bibliography-3.html#bibliography-soa" class="xref" data-knowl="./knowl/xref/bibliography-soa.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1.2.8">[1.2.8]</a> A bank customer borrows <span class="process-math">\(X\)</span> at an effective annual rate of 12.5% and makes level payments at the end of each year for <span class="process-math">\(n\)</span> years.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-40-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <ul class="disc" id="applications-interest-theory-problems-40-1-2">
+<li id="applications-interest-theory-problems-40-1-2-1">
+<div class="para" id="applications-interest-theory-problems-40-1-2-1-1">The interest portion of the final payment is 153.86.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-40-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#applications-interest-theory-problems-40-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="applications-interest-theory-problems-40-1-2-2">
+<div class="para" id="applications-interest-theory-problems-40-1-2-2-1">The total principal repaid as of time <span class="process-math">\((n-1)\)</span> is 6009.12.<div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-40-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#applications-interest-theory-problems-40-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="applications-interest-theory-problems-40-1-2-3">
+<div class="para" id="applications-interest-theory-problems-40-1-2-3-1">The principal repaid in the first payment is <span class="process-math">\(Y\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-40-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#applications-interest-theory-problems-40-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="applications-interest-theory-problems-40-1-3">Calculate <span class="process-math">\(Y\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#applications-interest-theory-problems-40-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 6.11.39"><a href="#applications-interest-theory-problems-40" title="Copy heading and permalink for Exercise 6.11.39" aria-label="Copy heading and permalink for Exercise 6.11.39">🔗</a></div></article><div class="autopermalink" data-description="Exercises 6.11: Problems"><a href="#applications-interest-theory-problems" title="Copy heading and permalink for Exercises 6.11: Problems" aria-label="Copy heading and permalink for Exercises 6.11: Problems">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="applications-of-interest-theory-exercises.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="bonds.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
