@@ -1,0 +1,383 @@
+<exercises xml:id="duration-and-convexity-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and <m>X</m> at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of <m>\iota</m>. Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investment pays 1000 in one year, 2000 at the end of the second year, and <m>X</m> at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is <m>X</m>. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Calculate the modified duration, at <m>\iota = 0.045</m>, of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of <m>\iota</m> and Macaulay duration of 17.6 years. 
+			</p>
+			<p>
+				Calculate the Macaulay duration using an annual effective interest rate of <m>2\iota</m> instead of <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%. 
+			</p>
+			<p>
+				Calculate the Macaulay duration of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Let <m>D</m> be the Macaulay duration of a level-payment annuity with <m>k</m> payments of <m>X</m> valued at an effective, periodic interest rate of <m>\iota</m>.  Let <m>D'</m> be the Macaulay duration of the same annuity, but deferred for <m>n</m> payment periods.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use the modified duration to show that <m>D' = D + n</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose we have an annuity-immediate with 360 monthly payments of 500 at <m>\iota^{(12)} = 15\%</m>.  Suppose the payments are deferred for one year.  Find the Macaulay duration and modified duration. 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650.  The yield to maturity is an effective rate of 7%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Calculate the Macaulay duration of the bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> The current price of a bond with annual coupons is 1120.58 and the current annual  yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Krishna buys an <m>n</m>-year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%. 
+			</p>
+			<p>
+				Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200.  The modified duration of this bond is 15.7668.  If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235.  Find the original yield rate. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is <m>X</m>.  
+			</p>
+			<p>
+				Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%. 
+			</p>
+			<p>
+				<m>E_{MAC}</m> is the estimated price of this bond at 7.0% using a first-order Macaulay approximation. 
+			</p>
+			<p>
+				<m>E_{MOD}</m> is the estimated price of this bond at 7.0% using a first-order modified approximation. 
+			</p>
+			<p>
+				Calculate <m>E_{MAC} - E_{MOD}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is <m>D_{MOD}</m>. 
+			</p>
+			<p>
+				Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212. 
+			</p>
+			<p>
+				Calculate <m>D_{MOD}</m>, the modified duration of Graham's annuity at 5%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The Macaulay duration of this loan.
+			</p>
+		</task>
+		<task>
+			<p>
+				The convexity of this loan.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the amount of the loan.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the Macaulay duration.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the modified duration.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the convexity.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the convexity of a loan repaid with equal installments over <m>n</m> periods if <m>\iota = 0</m>.
+			</p>
+			<p>
+				<em>Hint</em>:  One approach to solving this problem uses the identities:
+			</p>
+			<me>
+				\sum_{k=1}^n k  = \frac{n(n+1)}{2} 
+			</me>
+			<me>
+				\sum_{k=1}^n k^2 = \frac{(2n+1)n(n+1)}{6} 
+			</me>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%.  Find the convexity.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bond has a price <m>P(0.05) = 1,036.55</m> and satisfies <m>P'(0.05) = - 8292.4</m> and <m>P"(0.05) = 42,354</m>.  Find the approximate price of the bond if the interest rate grows by 25 basis points.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bond has a price <m>P(0.075) = 941.55</m>, a Macaulay duration <m>D = 17.34</m>, and convexity <m>CONV = 32.45</m>, find the approximate price of the bond if the interest rate decreases by 150 basis points.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You have purchased three bonds to form a portfolio as follows:
+			</p>
+			<ol marker="(A)">
+				<li>
+			<p>
+				Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.
+			</p>
+		</li>
+		<li>
+			<p>
+				Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.
+			</p>
+		</li>
+		<li>
+			<p>
+				Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.
+			</p>
+		</li>
+	</ol>
+	<p>
+				Calculate the Macaulay duration of the portfolio at the time of purchase.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount <m>F_1</m> of Bond 1 and face amount <m>F_2</m> of Bond 2. The combined face amount of the portfolio is <m>F_1 + F_2 = 100</m> and the Macaulay duration of the portfolio is 13.5.  Find the portfolio value.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> SOA Life Insurance Company has a portfolio of two bonds:
+			</p>
+			<ul>
+				<li>
+			<p>
+				Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.
+			</p>
+		</li>
+		<li>
+			<p>
+				Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.
+			</p>
+		</li>
+	</ul>
+	<p>
+				The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%. 
+			</p>
+			<p>
+				Bailey estimates that the value of the portfolio at an interest rate of <m>\iota</m> using the first-order Macaulay approximation to be 105,000. 
+			</p>
+			<p>
+				Determine <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of <m>X</m>, and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900.  The annuities are valued with an effective annual interest rate <m>\iota = 6.5\%</m>.  
+			</p>
+			<p>
+				Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

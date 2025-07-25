@@ -1,0 +1,326 @@
+<section xml:id="callable-bonds">
+    <title>Callable Bonds</title>
+    <p>
+        A <term>callable bond</term> is a bond that the issuer can redeem at certain specified times prior to the maturity date, sometimes with different redemption values.  
+    </p>
+    <p>
+        Pricing callable bonds can be tricky since there is uncertainty.  Typically, we decide what our desired yield rate is, identify "worst case scenarios," and price the bond so that in all worst case scenarios we still reach our minimum yield. This may depend on whether the bond is priced at a premium, discount, or at par.
+    </p>
+    <activity xml:id="pricing-a-callable-bond">
+        <introduction>
+            <p>
+                Let's consider a bond with annual coupons that is redeemed at par with <m>F=1000</m> after 10 years with <m>r=5\%</m>, but which is callable at par after any coupon payment starting with the fifth. 
+            </p>
+            <p>
+                Let's dispense with the trivial case first.  Suppose you want a yield rate of 5%.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                What is the price?
+            </p>
+        </task>
+        <task>
+            <p>
+                Would you be willing to accept a higher yield?
+            </p>
+        </task>
+        <task>
+            <p>
+                Would you be willing to accept a lower price?  Would a lower price give you a higher or a lower yield?
+            </p>
+        </task>
+        <task>
+            <p>
+                What does it mean to say that the price you found is the <term>maximum</term> price you would pay in order to yield a <term>minimum</term> yield of 5%?
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="pricing-for-a-minimal-yield">
+        <introduction>
+            <p>
+                Now suppose you want a yield of at least 6%, so that we have a discount bond.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                If you <em>knew</em> the bond would be called immediately after the fifth payment (i.e. you know <m>n=5</m>), what is the bond price?
+            </p>
+        </task>
+        <task>
+            <p>
+                If you <em>knew</em> the bond would not be redeemed until maturity (i.e. you know that <m>n=10</m>), what is the bond price?
+            </p>
+        </task>
+        <task>
+            <p>
+                There are two worst case scenarios.  One is that you price the bond as if you knew it would be redeemed after 5 payments, but it is redeemed at maturity.  If this happens, what is your yield rate?
+            </p>
+        </task>
+        <task>
+            <p>
+                The other worst case scenario is that you price the bond as if you knew it would not be redeemed until maturity, but is called immediately after the fifth payment.  If this happens, what is your yield rate?
+            </p>
+        </task>
+        <task>
+            <p>
+                Which price do you pay?  In other words, which price price guarantees a minimum yield rate of 6%?
+            </p>
+        </task>
+        <task>
+            <p>
+                What do you conclude about pricing callable discount bonds?
+            </p>
+        </task>
+        <task>
+            <p>
+                Note that we did not concern ourselves with redemption at any intermediate times (6,7,8, or 9).  Why did we not need to do this?  Try a couple of examples and explain why these do not factor into our "worst-case scenarios."
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="pricing-for-a-minimum-yield-premium">
+        <introduction>
+            <p>
+                Suppose instead you are willing to take a minimum yield rate of 4%, so we have a premium bond.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                What are your worst case scenarios?  Why?  
+            </p>
+        </task>
+        <task>
+            <p>
+                Find appropriate prices, and use those prices to find the yield rates in each of your worst case scenarios.
+            </p>
+        </task>
+        <task>
+            <p>
+                Which price do you pay?  In other words, which price price guarantees a minimum yield rate of 4%?
+            </p>
+        </task>
+        <task>
+            <p>
+                What do you conclude about pricing callable premium bonds?
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="strategy-for-pricing-callable-bonds">
+        <introduction>
+            <p>
+                Let us consider strategy for a moment.  
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Summarize what you found about pricing callable bonds.
+            </p>
+        </task>
+        <task>
+            <p>
+                Which do you prefer at this point - to use your rules that you summarized for pricing, or to just examine your worst case scenarios and pick the one that guarantees your minimum desired yield? (It is OK if you change your mind on this after you see more problems).
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="coaching-remarks-on-callable-bonds">
+        <introduction>
+            <p>
+                Explain in your own words the following "Coach Remarks" from Coaching Actuaries, and briefly explain why it makes sense.  The wording in this remarks is often how questions on the exam are worded.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Given a price, the lowest yield rate calculated is the minimum yield that an investor would earn.
+            </p>
+        </task>
+        <task>
+            <p>
+                Given a yield rate, the lowest price calculated is the maximum price that an investor would pay.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="callable-bonds-example-problem">
+        <introduction>
+            <p>
+                A 10% bond with face amount 100 is callable on any coupon date from 15.5 years after issue up to the maturity date which is 20 years from issue. 
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Find the price of the bond to yield a minimum nominal annual rate of (i) 12%, (ii) 10%, and (iii) 8%.
+            </p>
+        </task>
+        <task>
+            <p>
+                Find the minimum annual yield to maturity if the bond is purchased for (i) 80, (ii) 100, and (iii) 120.
+            </p>
+        </task>
+    </activity> 
+    <activity xml:id="end-point-method-for-callable-bonds">
+        <introduction>
+            <p>
+                Let's generalize to a situation in which there are different possible redemption amounts depending on when the bond is called or redeemed. We will derive a strategy for pricing called "the end point method." 
+            </p>
+            <p>
+                Suppose we have a bond with a face value of 1000 and 15 annual coupon payments with <m>r=5\%</m>.  It can be redeemed for 1200 immediately after the 8th, 9th, or 10th payment, for 1100 immediately after the 11th, 12th, 13th, or 14th payment, or redeemed at par on the maturity date.  We want a yield of 6%.  What is the maximum price we should pay to guarantee this yield?  
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Complete the following table.  The following calculator tip from 7.2 will help: 
+            </p>
+            <p>
+                &#x1F9EE; Calculator Tip  If you do not clear the TVM functions on the calculator, it will keep all values that you have not changed.  So if you are pricing multiple bonds, where only one or two of the values change, you only need to change those values and recalculate the price. 
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Redemption Time
+                        </cell>
+                        <cell right="medium">
+                            Redemption Amount
+                        </cell>
+                        <cell right="medium">
+                            Price to Yield 6%
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            8
+                        </cell>
+                        <cell right="medium">
+                            1200
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            9
+                        </cell>
+                        <cell right="medium">
+                            1200
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            10
+                        </cell>
+                        <cell right="medium">
+                            1200
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            11
+                        </cell>
+                        <cell right="medium">
+                            1100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            12
+                        </cell>
+                        <cell right="medium">
+                            1100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            13
+                        </cell>
+                        <cell right="medium">
+                            1100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            14
+                        </cell>
+                        <cell right="medium">
+                            1100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            15
+                        </cell>
+                        <cell right="medium">
+                            1000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </task>
+        <task>
+            <p>
+                The redemption times at 8, 10, 11, 14, and 15 are called <term>endpoints</term>.  Explain what is meant by that. 
+            </p>
+        </task>
+        <task>
+            <p>
+                What do you notice about prices between endpoints?  
+            </p>
+        </task>
+        <task>
+            <p>
+                What is the lowest price?  What could happen to your yield if you pay a higher price?
+            </p>
+        </task>
+        <task>
+            <p>
+                What happens if you pay a price lower than the smallest price in this table?
+            </p>
+        </task>
+        <task>
+            <p>
+                What is the maximum price you would be willing to pay in order to guarantee a yield of 6%?
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="soa-exam-problem-callable-bonds">
+        <statement>
+            <p>
+                A 1000 par value bond pays annual coupons of 80. The bond is redeemable at par in 30 years, but is callable any time from the end of the 10th year at 1050. Based on her desired yield rate, an investor calculates the following potential purchase prices <m>P</m>:
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        Assuming the bond is called at the end of the 10th year, <m>P = 957</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Assuming the bond is held until maturity, <m>P = 897</m>.
+                    </p>
+                </li>
+            </ul>
+            <p>
+                The investor buys the bond at the highest price that guarantees she will receive her desired yield rate regardless of when the bond is called. The investor holds the bond for 20 years, after which time the bond is called. Calculate the annual yield rate the investor earns.
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="callable-bonds-reflection">
+        <statement>
+            <p>
+                Summarize a strategy for pricing callable bonds to guarantee a given minimum yield, and describe how to alter that strategy to identify a minimum yield given a price.
+            </p>
+        </statement>
+    </activity>
+</section>

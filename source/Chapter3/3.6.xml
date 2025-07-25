@@ -1,0 +1,73 @@
+<section xml:id="financial-interpretation-annuities-perpetuities">
+	<title>A Financial Interpretation of <m>s_{\angln}</m></title>
+	<p>
+		So far, we derived the formula for <m>a_{\angln}</m> and used that formula and our work with timelines to obtain the formulas for <m>a_{\angl{\infty}}</m> and <m>s_{\angln}</m>.  
+	</p>
+	<p>
+		In this section, we are going to use timeline reasoning and financial intuition to find the formulas for <m>a_{\angl\infty}</m> and <m>s_{\angln}</m> (and thereby, for <m>a_{\angln}</m>).
+	</p>
+	<activity xml:id="financial-interpretation-perpetuity">
+		<introduction>
+			<p> 
+				We begin with perpetuities.  Perpetuities can be thought of as paying the interest off on a loan, and only the interest, forever.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose we borrow <m>P</m> at an annual interest rate <m>\iota</m>, and pay the interest off (and no principal) annually forever.  The annual payment is <m>K</m>.  Write a formula for <m>K</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve this formula for <m>P</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Which variable in this formula is actually <m>Ka_{\angl\infty}</m>?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-perpetuities-to-examine-annuities">
+		<introduction>
+			<p>
+				We are now going to use perpetuities to examine annuities.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose we have two perpetuities with payments of <m>K</m>.  Perpetuity 1 starts making payments at the end of the first year, and Perpetuity 2 starts making payments at the end of year <m>n+1</m> (at time <m>n+1</m>).  Both are valued with the same effective interest rate <m>\iota</m>. 
+			</p>
+			<p>
+				Make two timelines - one for each perpetuity.  Include times 0, 1, 2, <m>n</m>, <m>n+1</m>, and <m>n+2</m> in both timelines.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Make a new timeline representing what we would get if we subtracted the Perpetuity 2 payments from Perpetuity 1 (subtract the payments at each point in time).
+			</p>
+		</task>
+		<task>
+			<p> 
+				What does your new timeline represent financially?  
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the value at time <m>n</m> of Perpetuities 1 and 2, then subtract and simplify.  What do we get?  Do you recognize this?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find any missing annuity immediate or perpetuity immediate formulas.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Could you see using this approach to reconstruct annuity-immediate formulas if you do not remember them?  Why or why not?
+			</p>
+		</task>
+	</activity>
+</section>
+
+

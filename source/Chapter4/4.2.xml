@@ -1,0 +1,84 @@
+<section xml:id="deferred-annuities">
+	<title>Deferred Annuities</title>
+	<p>
+		The word "deferred" refers to something that is put-off.  For example, a retirement package is sometimes called "deferred compensation."  A <term>deferred annuity</term> is an annuity whose payments do not begin for some time in the future.  The present value of a deferred annuity is denoted <m> _m\left| a_{\angl{n}} \right.</m>.
+	</p>
+	<activity xml:id="deferred-annuity-example">
+		<introduction>
+			<p> 
+				Let's start with an example.  Suppose we have an annuity that pays 155 at the end of every year for 12 years with an effective annual interest rate of <m>\iota = 3.5\%</m>.  The first payment is 9 years from today.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Generate a timeline, carefully indicating where <m>155a_{\angl{12}}</m> and <m>155 _m\left| a_{\angl{12}} \right.</m> value the annuity (note that you will have to figure out what <m>m</m> is!).
+			</p>
+		</task>
+		<task>
+			<p> 
+				Calculate the present value of the deferred annuity.
+			</p>
+		</task>
+		<task>
+			<p> 
+				How did you perform the calculation -- using <m>a_{\angl{12}}</m> or <m>\ddot{a}_{\angl{12}}</m>? Why? What are the advantages and disadvantages of your choice?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write down a formula for <m> _m\left| a_{\angln} \right.</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				&#x1F9EE; Calculator Tip  You can calculate the present values of deferred annuities in the financial calculator by first calculating the present value <m>a_{\angln}</m> (or, if you prefer, <m>\ddot{a}_{\angln}</m>).  Then, press the <kbd>FV</kbd> button, change the <kbd>PMT</kbd> to 0, and set <kbd>N</kbd> to <m>m</m>.  
+			</p>
+			<p>
+				Try this with the value we just calculated.  Do you prefer the financial calculator or not?  Why?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-present-values-of-deferred-annuities">
+		<introduction>
+			<p> 
+				Calculate the present values of the following deferred annuities.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>240 _{12} \left| a_{\angl{48} 0.015} \right.</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>600_6 \left| a_{\angl{360} 0.0225} \right.</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>1150 _9 \left| a_{\angl{180} 0.02} \right.</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="describing-deferred-annuities">
+		<statement>
+			<p> 
+				For the deferred annuities in <xref ref="calculating-present-values-of-deferred-annuities"/> describe a transaction described by that notation.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="deferred-annuity-soa">
+		<statement>
+			<p> 
+				You are given that <m> _5\left| a_{\angl{10}} \right. = 3 \ _{10}\left| a_{\angl{5}} \right.</m>. Find <m>(1+\iota)^5</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="deferred-annuity-reflection">
+		<statement>
+			<p> 
+				What, if anything, do you think you need to memorize from this activity? How can you minimize what needs to be memorized?
+			</p>
+		</statement>
+	</activity>
+</section>

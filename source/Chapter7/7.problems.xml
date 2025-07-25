@@ -1,0 +1,409 @@
+<exercises xml:id="bonds-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A twelve-year 100 par value bond pays 7% coupons semiannually. The bond is priced at 115.84 to yield an annual nominal rate of 6% compounded semiannually. Calculate the redemption value of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A <term>zero-coupon</term> bond pays no coupons and only pays a redemption amount at the time the bond matures. Greta can buy a zero-coupon bond that will pay 10,000 at the end of 10 years and is currently selling for 5,083.49. Instead she purchases a 10% bond with coupons payable semiannually that will pay 10,000 at the end of 10 years. If she pays <m>X</m> she will earn the same annual effective interest rate as the zero-coupon bond. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A 1,000 10% ten-year bond has semiannual coupons. It is purchased at 880 and is redeemable at 1020. Find the coupon amount and the effective yield rate per coupon period.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> An investor owns a 3,000 par-value 12% bond with semiannual coupons. The bond will mature at par at the end of fourteen years. The investor decides that a ten-year bond would be preferable. Current yield rates are 6% convertible semiannually. The investor uses the proceeds from the sale of the 12% bond to purchase an 8% bond with semiannual coupons, maturing at par at the end of ten years. Find the face value of the 8% bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Two 1000 bonds redeemable at par at the end of the same period are bought to yield 4% convertible semiannually. One bond costs 1136.78 and has a coupon rate of 5% payable semiannually. The other bond has a coupon rate of 2.5% payable semiannually. Find the price of the second bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 1000 bond with a coupon rate of 9% payable semiannually is redeemable after an unspecified number of years at 1125. The bond is bought to yield 10% convertible semiannually. If the present value of the redemption value is 225 at this yield rate, find the purchase price.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> An <m>n</m>-year 1000 par value bond matures at par and has a coupon rate of 12% convertible semiannually. It is bought at a price to yield 10% convertible semiannually. If the term of the bond is doubled, the price will increase by 50. Find the price of the <m>n</m>-year bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 6% bond maturing in 8 years with semiannual coupons to yield 5% convertible semiannually is to be replaced by a 5.5% bond yielding the same return. In how many years should the new bond mature? (Both bonds have the same price, yield rate, and face amount).
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Don purchases a 1000 par value 10-year bond with 8% semiannual coupons for 900. He is able to reinvest his coupon payments at a nominal rate of 6% convertible semiannually. Calculate his nominal annual yield rate convertible semiannually over the ten-year period.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 25-year bond with a par value of 1000 and 10% coupons payable quarterly is selling at 800. Calculate the annual nominal yield rate convertible quarterly.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> An investor borrows an amount at an annual effective interest rate of 7% and will repay all the interest and principal in a lump sum at the end of 10 years. She uses the amount borrowed to purchase a 1000 par value 10-year bond with 10% semiannual coupons bought to yield 8% convertible semiannually. All coupon payments are reinvested at a nominal rate of of 6% convertible semiannually. Calculate the net gain to the investor at the end of 10 years after the loan is repaid.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Christie DeLeon purchased a ten-year 1,000 bond with semiannual coupons for 982. The bond had a 1,100 redemption payment at maturity, a nominal coupon rate of 7% for the first five years, and a nominal coupon rate of <m>q</m> for the final five years. Christie calculated that her annual effective yield for the ten-year period was 7.35%. Find <m>q</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A 3000, 9% twelve-year bond with annual coupons is purchased with a discount of 57 and yields 9.1% if held to maturity. Find the price.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A 2000, 11% ten-year bond has semiannual coupons and is sold to yield 5.2% convertible semiannually. The discount on the bond is 83.28. Find the redemption amount.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> For a bond with face value of 1 redeemable at par, the coupon rate is 150% of the yield rate and the premium is <m>p</m>. For another bond with a face value and redemption amount of 1, with the same number of coupons and the same yield rate, the coupon rate is 75% of the yield rate. Express the price of the second bond as a function of <m>p</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Alicia bought a newly issued 1000, 20% ten-year bond, redeemable at 1100 and having yearly coupons. It was bought at a premium with a price of 1400. Alicia immediately took a constant amount <m>D</m> from each coupon and deposited it in a savings account earning 8% effective annual interest, so as to accumulate the full amount of the premium by a moment after the final deposit. How much did Alicia deposit each year in the 8% account?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> For a certain period a bond amortization schedule shows that the amount for amortization of premium is 5 and that the required interest is 75% of the coupon.  Find the amount of the coupon.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> The amortization schedule for a 100, 5% bond yielding a nominal rate of <m>\iota^{(2)} = 6.6\%</m> gives a value of 90.00 for the bond at the beginning of a certain 6-month period just after the coupon has been paid. What is the book value at the start of the next 6-month period?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A 2000  bond with semiannual coupons is redeemable for 2100 in fifteen years. It has a coupon rate of 6.5%. The bond is purchased to yield 8% per annum compounded semiannually. Find the price of the bond, the amount for accumulation of discount in the tenth coupon, and the amount of interest in the tenth coupon payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A bond of face amount 100 is purchased at a premium of 36 to yield 7%. The amount for amortization of premium in the 5th coupon is 1.00. What is the term of the bond?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A bond with a face value of 6,000 and an annual coupon rate of 12% convertible semiannually will mature in ten years for its face value. If the bond is priced using a nominal yield rate of 6% convertible semiannually, what is the amount of the premium in this bond? What is the amount for amortization of premium in the 7th coupon?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> An <m>n</m>-year 2000 par-value bond with 9% annual coupons has an annual effective yield of <m>\iota</m>, <m>\iota > 0</m>. The book value of the bond at the end of the fifth year is 1,902.63 and the book value of the bond at the end of the seventh year is 1,924.18. Find the price of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> An <m>n</m>-year, 1000 par-value bond with 8% annual coupons has an annual effective yield of <m>\iota</m>, <m>1+\iota > 0</m>. The book value of the bond at the end of the third year is 990.92 and the book value of the bond at the end of the fifth year is 995.10. Find the price of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Miguel purchases a 22,000, 9% fifteen-year par-value bond having annual coupons for a price to provide a 7% annual yield if the bond the bond is held to maturity. Five years later, just after the receipt of the fifth coupon, he sells it at a price to provide the new purchaser a yield to maturity of 8%. Find the difference between Miguel's book value <m>B_5</m> and the invoice price. What was Miguel's actual yield for the first five-year period?
+			</p>
+		</statement>
+	</exercise>
+	<exercise xml:id="problem-repeat">
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> A 10% bond with face amount 100 is callable on any coupon date from 15.5 years after issue up to the maturity date which is 20 years from issue. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the price of the bond to yield a minimum nominal annual rate of (i) 12%, (ii) 10%, and (iii) 8%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the minimum annual yield to maturity if the bond is purchased for (i) 80, (ii) 100, and (iii) 120.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Repeat <xref ref="problem-repeat"/> assuming that the bond is callable at a redemption amount of 110, including the redemption at maturity.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> On June 15, 2005 a corporation issues an 8% bond with a face value of 1,000,000. The bond can be redeemed, at the option of the corporation, on any coupon date in 2016 or 2017 at par, on any coupon date in 2018 through 2020 for amount 1,200,000, or on any coupon date in 2021 through June 15, 2023 at redemption amount 1,300,000.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the price to yield a minimum nominal annual rate of (i) 10% and (ii) 6.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the minimum annual yield if the bond is bought for (i) 800,000, (ii) 1,000,000, or (iii) 1,200,000.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Sofia purchases a 6000, 7% eight-year par-value bond with annual coupons. If held to maturity, her yield is 6.6%. The bond is callable at the end of two years for 6,3000 and at the end of years five, six, and seven for 6,200. 
+			</p>
+			<p>
+				Find Sofia's minimal yield for the period she holds the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 1000 par value 4% bond with semiannual coupons matures at the end of 10 years. The bond is callable at 1050 at the end of years 4 through 6, at 1025 at the ends of years 7 through 9, and at 1000 at the end of year 10. Find the maximum price that an investor can pay and still be certain of a yield rate of 5% convertible semiannually.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A 1000 par value bond pays annual coupons of 80. The bond is redeemable at par in 30 years, but is callable any time from the end of the 10th year at 1050. Based on her desired yield rate, an investor calculates the following potential purchase prices <m>P</m>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Assuming the bond is called at the end of the 10th year, <m>P = 957</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Assuming the bond is held until maturity, <m>P = 897</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				The investor buys the bond at the highest price that guarantees she will receive her desired yield rate regardless of when the bond is called. The investor holds the bond for 20 years, after which time the bond is called. Calculate the annual yield rate the investor earns.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 10-year bond with semiannual coupons is bought at a discount to yield 9% convertible semiannually. If the amount for accumulation of discount in the next-to-last coupon is 8, find the total amount for accumulation of discount during the first four years in the bond amortization schedule.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 1000 par value five-year bond with a coupon rate of 10% payable semiannually and redeemable at par is bought to yield 12% convertible semiannually. Find the total of the interest paid column in the bond amortization schedule.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> You are given:
+			</p>
+			<ul>
+				<li>
+					<p>
+						A 10-year 8% semiannual coupon bond is purchased at a discount of <m>X</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A 10-year 9% semiannual coupon bond is purchased at a premium of <m>Y</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						A 10-year 10% semiannual coupon bond is purchased at a premium of <m>2X</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				All bonds were purchased at the same yield rate and have par values of 1000.
+			</p>
+			<p>
+				Calculate <m>Y</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> An investor will pay 2,318.63 for an <m>n</m>-year 2000 par bond with a coupon rate of 10% compounded semiannually or he will pay 2,531.05 for an <m>n</m>-year 2000 par bond with a coupon rate of 11% compounded semiannually. Assuming that the investor gets the same yield on the two bonds, find this yield rate expressed as a nominal rate convertible two times per year. Also find <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> An <m>n</m>-year 4.75% bond is selling for 95.59. An <m>n</m>-year 6.25% bond at the same yield would sell for 108.82. The face and redemption amount of the bond is 100. Find the yield rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Two bonds, each of face amount 100, are offered for sale at a combined price of 240. Both bonds have the same term to maturity but the coupon rate for one is twice that of the other. The difference in the price of the two bonds is 24. Prices are based on a nominal annual yield rate of 3%. Find the coupon rates of the two bonds.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 7% bond has a price of 79.30 and a 9% bond has a price of 93.10, both per 100 of face amount. Both are redeemable in <m>n</m> years and have the same yield rate. Find <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A 1000, 6% <m>n</m>-year, par-value bond has annual coupons. Tabitha bought the bond to yield 5%. The amount of interest in the first coupon is 52.89. Calculate the amount of premium Tabitha paid for the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 1000 bond bearing coupons at annual rate 6.5%, payable semiannually, and redeemable at 1050 is bought to yield a nominal rate of 8%. If the present value of the redemption amount is 210, what is the price to the nearest 10?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Among a company's assets and accounting records, an actuary finds a 15-year bond that was purchased at a premium. From the records, the actuary has determined the following:
+			</p>
+			<ul>
+				<li>
+					<p>
+						The bond pays semiannual interest.
+					</p>
+				</li>
+				<li>
+					<p>
+						The amount for amortization of the premium in the 2nd coupon payment was 977.19.
+					</p>
+				</li>
+				<li>
+					<p>
+						The amount for amortization of the premium in the 4th coupon payment was 1046.79.
+					</p>
+				</li>
+			</ul>
+			<p>
+				What is the value of the premium?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You have decided to invested in two bonds. Bond <m>X</m> is an <m>n</m>-year bond with semiannual coupons., while bond <m>Y</m> is a zero-coupon bond, which is redeemable in <m>n/2</m> years. The desired yield rate is the same for both bonds. You also have the following information: 
+			</p>
+			<p>
+				<term>Bond <m>X</m></term>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Par value is 1000.
+					</p>
+				</li>
+				<li>
+					<p>
+						The ratio of the semiannual bond rate to the desired semiannual yield rate, <m>\frac{r}{\iota}</m>, is 1.03125.
+					</p>
+				</li>
+				<li>
+					<p>
+						The present value of the redemption value is 381.50.
+					</p>
+				</li>
+			</ul>
+			<p>
+				<term>Bond <m>Y</m></term>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Redemption value is the same as that of bond <m>X</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Price to yield is 647.80.
+					</p>
+				</li>
+			</ul>
+			<p>
+				What is the price of bond <m>X</m>?
+			</p>
+		</statement>
+	</exercise>
+</exercises>

@@ -1,0 +1,1026 @@
+<exercises xml:id="rates-of-return-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				Jed Bartlett borrowed 100,000 from Leo McGarry.  Jed will pay monthly interest at an effective rate <m>\iota</m> for 20 years, at the end of which he will repay the principal.  After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving.  She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%.  The price she pays is 125,350.84.  Find <m>\iota^{(12)}</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				C.J. Cregg purchased a bond that had semiannual coupon payments of 75 and a redemption amount of <m>X</m>, to be redeemed 10 years after it was issued.  She bought the bond directly from the issuer, and it was priced to yield 8%.  Three years later, the market interest rate falls to 6%, and she sells the bond for 1,838.88.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the price C.J. originally paid for the bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				C.J. invested the coupon payments at 7% convertible semiannually. Find the yield C.J. achieved over the three years, expressed as an effective semiannual rate.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.
+			</p>
+		</introduction>
+		<task>
+			<introduction>
+				<p>
+					In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:
+				</p>
+			</introduction>
+			<task>
+				<p>
+					The present value at <m>\iota = 0.12</m>
+				</p>
+			</task>
+			<task>
+				<p>
+					A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%
+				</p>
+			</task>
+			<task>
+				<p>
+					Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.
+				</p>
+			</task>
+		</task>
+		<task>
+			<introduction>
+				<p>
+					Jones calculates his annual rate of return a number of different ways. In case (iii) of part (a) Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.
+				</p>
+			</introduction>
+			<task>
+				<p>
+					In part (a)(i) above, assume that Jones can reinvest the payments at 6% per year; find Jones'average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.
+				</p>
+			</task>
+			<task>
+				<p>
+					Using the amount invested based on the approach in (a)(ii) as the present value of the annuity, find the unknown interest rate (internal rate of return).
+				</p>
+			</task>
+			<task>
+				<p>
+					Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in (a)(ii).
+				</p>
+			</task>
+		</task>
+
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the overall yield rate achieved by the investor.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan of 10,000 is being repaid with payments of 1000 at the end of each year for 20 years. If each payment is immediately reinvested at 5% effective, find the effective annual rate of interest earned over the 20-year period.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 100 par value 12-year bond with 10% semiannual coupons is selling for 110. If the coupons can only be reinvested at 7% convertible semiannually, compute the overall yield rate achieved by the bond purchaser over the 12-year period. Report your answer as a nominal rate convertible semiannually.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A buys a 10-year 1000 par value 6% bond with semiannual coupons. The price assumes a nominal yield of 6% compounded semiannually. As A receives each coupon payment, it is immediately put into an account earning interest at an annual effective rate of <m>\iota</m>. At the end of 10 years, immediately after receipt of the final coupon payment and the redemption value of the bond, A has earned an annual effective yield of 7% on the investment in the bond. Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> You invest 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an annual effective interest rate of <m>\iota</m>. The interest is reinvested at an annual effective rate of <m>\iota/2</m>. The yield rate on the entire investment over the 20-year period is 8% effective.  Determine <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A new partnership takes out a loan of 25,000 to finance the initial costs of starting their own business. The original loan with Lender 1 is for four years, carries an annual effective interest rate of 8%, and will be repaid by level payments. Lender 1 places no restrictions on early repayment of the loan. During the next year interest rates decline substantially. At the end of the first year, the partnership completely repays the loan to Lender 1 and refinances the loan with Lender 2.  Lender 1 is only able to reinvest the proceeds from the early repayment at 6% effective for the following three years. Determine Lender 1's overall yield rate for the four years arising from their issuing this loan to the partnership.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter.  Find the net cash flow in year 6. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/>  Consider an investment in which the initial cost is 3000, there is an additional cost of 1000 at the end of the first year, and projected returns of 2000 at the end of the first year and 4000 at the end of the second year.  The internal rate of return can be expressed as <m>1/n</m>.  Find <m>n</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Transactions <m>A</m> and <m>B</m> are to be compared. Transaction <m>A</m> has net cashflows of:
+			</p>
+			<me>
+				C_0^A = -5, \ \  C_1^A = 3.72, \ \ C_2^A = 0, \ \ C_3^A = 4
+			</me>
+			<p>
+				and Transaction <m>B</m> has net cashflows
+			</p>
+			<me>
+				C_0^B = -5, \ \ C_1^B = 3, \ \ C_2^B = 1.7, \ \ C_3^B = 3
+			</me>
+			<p>
+				Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction <m>A</m> is preferable to <m>B</m> at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction <m>B</m> is preferable at interest preference rates between 11.11% and 25%. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> A project requires an initial capital outlay of 30,000 and will return the following amounts (paid at the end of the next 5 years):
+			</p>
+			<table>
+				<tabular halign="center">
+					<row>
+						<cell>
+							4,000
+						</cell>
+						<cell>
+							12,000
+						</cell>
+						<cell>
+							6,000
+						</cell>
+						<cell>
+							4,000
+						</cell>
+						<cell>
+							2,000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Solve for:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				the internal rate of return 
+			</p>
+		</task>
+		<task>
+			<p>
+				the net present value based on a cost of capital of 10% per year 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> The ABC Real Estate Development Corporation has just obtained a 10-year development project with the following projected net cash flows:
+			</p>
+			<table>
+				<tabular halign="center">
+					<row>
+						<cell>
+							Time
+						</cell>
+						<cell>
+							Net Cash Flows
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							Time
+						</cell>
+						<cell>
+							Net Cash Flows
+						</cell>
+					</row>
+					<row>
+						<cell>
+							0
+						</cell>
+						<cell>
+							-7,900,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							6
+						</cell>
+						<cell>
+							910,000
+						</cell>
+					</row>
+					<row>
+						<cell>
+							1
+						</cell>
+						<cell>
+							1,400,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							7
+						</cell>
+						<cell>
+							900,000
+						</cell>
+					</row>
+					<row>
+						<cell>
+							2
+						</cell>
+						<cell>
+							1,100,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							8
+						</cell>
+						<cell>
+							900,000
+						</cell>
+					</row>
+					<row>
+						<cell>
+							3
+						</cell>
+						<cell>
+							1,000,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							9
+						</cell>
+						<cell>
+							450,000
+						</cell>
+					</row>
+					<row>
+						<cell>
+							4
+						</cell>
+						<cell>
+							1,000,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							10
+						</cell>
+						<cell>
+							10,000,000
+						</cell>
+					</row>
+					<row>
+						<cell>
+							5
+						</cell>
+						<cell>
+							1,000,000
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				Find the internal rate of return.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the net present value at 15%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> An investor enters into an agreement to contribute 7000 immediately and 1000 at the end of two years in exchange for the receipt of 4000 at the end of one year and 5500 at the end of three years. Find:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				the net present value at 9%
+			</p>
+		</task>
+		<task>
+			<p>
+				the net present value at 10%
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> ABC Manufacturing decides to build a new plant. The plant will cost 2 million immediately and is expected to have a useful life of 10 years. At the end of 5 years, a major renovation expense of <m>X</m> will be required to install new technology. The plant will produce level returns of 300,000 at the end of each year for the first 5 years, and double that at the end of each year for the second 5 years. Find the maximum value of <m>X</m> that ABS could pay that would still produce an internal rate of return on its investment of at least 12%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of <m>X</m> at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal.  Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> On January 1, 1988, Antonio invests 9400 in an investment fund. On January 1, 1989 his balance is 10,600 and he deposits 2400.  On July 1, 1989, his balance is 14,400 and he withdraws 1,000. On January 1, 1992 his balance is <m>P</m>. Express his annual time-weighted yield as a function of <m>P</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Arthur buys 2000 worth of stock. Six months later, the value of the stock has risen to 2200 and Arthur buys another 1000 worth of stock. After another eight months, Arthur's holdings are worth 2,700 and he sells off 800 of them. Ten months later, Arthur finds that his stock has a value of 2,100. 
+			</p>
+			<p>
+				Compute the annual time-weighted yield rate of the stock over the two-year period.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Bright Future Investment Fund has a balance of 1,205,000 on January 1. On May 1, the balance is 1,230,000. Immediately after this balance is noted, 800,000 is added to the fund. If there are no further contributions to the fund for the year and the time-weighted annual yield for the fund is 16%, what is the fund balance at the end of the year?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> The details regarding fund value, contributions and withdrawals from a fund are as follows:
+			</p>
+			<table>
+				<tabular halign="center">
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+							Date
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							Amount
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+							Fund Values:
+						</cell>
+						<cell>
+							1/1/15
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							1,000,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+							7/1/15
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							1,310,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+							1/1/16
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							1,265,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+							7/1/16
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							1,540,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+							1/1/17
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							1,420,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+							Contributions
+						</cell>
+						<cell>
+							6/30/15
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							250,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+							Received:
+						</cell>
+						<cell>
+							6/30/16
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							250,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+							Benefits
+						</cell>
+						<cell>
+							12/31/15
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							150,000
+						</cell>
+					</row>
+					<row>
+						<cell halign="left">
+							Paid:
+						</cell>
+						<cell>
+							12/31/16
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+							150,000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Value Immediately Before Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							March 15
+						</cell>
+						<cell right="medium">
+							40
+						</cell>
+						<cell right="medium">
+							20
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							June 1
+						</cell>
+						<cell right="medium">
+							80
+						</cell>
+						<cell right="medium">
+							80
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							October 1
+						</cell>
+						<cell right="medium">
+							175
+						</cell>
+						<cell right="medium">
+							75
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				On June 30, the value of the account is 157.50. On December 31, the value of the account is <m>X</m>. Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Fund <m>X</m> has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund <m>X</m>. Find the time-weighted and dollar-weighted rates of return for 2015.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> You invest 2000 at time <m>t = 0</m> and an additional 1000 at time <m>t = 1/2</m>. At time <m>t = 1/2</m> you have 2120 in your account and at time <m>t=1</m> you have 3213.60 in your account.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the dollar-weighted rate of return on the investment.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the time-weighted rate of return on the investment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> An investment account is established with an initial balance at the beginning of the year of 10,000. There are new deposits of 1800 made at the end of 2 months, and another 900 made at the end of 8 months. In addition, there is a withdrawal of <m>K</m> made at the end of 6 months. The fund balance at the end of the year is 10,636.  The dollar-weighted rate of return is 6%. Find <m>K</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> You invest 2000 at time <m>t=0</m> and an additional 1000 at time <m>t = 1/2</m>. At time <m>t = 1</m> you have 3200 in your account. Find the amount that would have to be in your account at time <m>t = 1/2</m> if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You are given the following information about an investment account:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Value Immediately Before Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							10
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							12
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Over the year, the time-weighted return is 0%, and the dollar-weighted return is <m>Y</m>. Calculate <m>Y</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> On January 1, 2013, an investment account is worth 100,000. On April 1, 2013, the value has increased to 103,000 and 8,000 is withdrawn (no fooling!). On January 1, 2015, the account is worth 103,992. Assuming a dollar-weighted method for 2013 and a time-weighted method for 2014, the effective annual interest rate was equal to <m>x</m> for both 2013 and 2014. Calculate <m>x</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Value Immediately Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							15
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							March 1
+						</cell>
+						<cell right="medium">
+							17
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							October 1
+						</cell>
+						<cell right="medium">
+							12
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							18
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The time-weighted rate of return for account 1 is 9.286%. 
+			</p>
+			<p>
+				The account activity for account 2 (in millions) is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Value Immediately Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							15
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							April 1
+						</cell>
+						<cell right="medium">
+							13
+						</cell>
+						<cell right="medium">
+							<m>Y</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							20
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							20
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The dollar-weighted rate of return for account 2 is 7.921%. 
+			</p>
+			<p>
+				On March 1, Mr. Wilford withdrew <m>X</m> from account 1 to pay for continuing construction costs for the train.  On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited <m>Y</m>.  Calculate <m>Y - X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> You are given the following information about the activity in two different investment accounts:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row>
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Account <m>K</m> Fund</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+						</cell>
+						<cell right="medium">
+							<term>Value Before Activity</term>
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1/1/2015
+						</cell>
+						<cell right="medium">
+							100.00
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							7/1/2015
+						</cell>
+						<cell right="medium">
+							125.0
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							10/1/2015
+						</cell>
+						<cell right="medium">
+							110.0
+						</cell>
+						<cell right="medium">
+							<m>2X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							12/31/2015
+						</cell>
+						<cell right="medium">
+							125.0
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<table>
+				<tabular halign="center" top="medium">
+					<row>
+						<cell left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Account <m>L</m> Fund</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+						</cell>
+						<cell right="medium">
+							<term>Value Before Activity</term>
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1/1/2015
+						</cell>
+						<cell right="medium">
+							100.00
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							7/1/2015
+						</cell>
+						<cell right="medium">
+							125.0
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							12/31/2015
+						</cell>
+						<cell right="medium">
+							105.8
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				During 2015, the dollar-weighted return for investment Account <m>K</m> equals the time-weighted return for investment account <m>L</m>, which equals <m>\iota</m>. Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

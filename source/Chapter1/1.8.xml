@@ -1,0 +1,204 @@
+<section xml:id="nominal-and-effective-rates">
+  <title>Nominal and Effective Interest Rates</title>
+  <p>
+    The last activity focused on one important detail: when to value our cash flows.  In the next three activities, we are going to focus on another important detail: which interest rate to use.  We will see that this is intimately related to our choice of units for time. The most common error is probably using an interest rate that does not match our unit of time, so we will return to this throughout the first five chapters of this book.  
+  </p>
+  <p>
+    As a starting point, we note that we are often quoted an interest rate for a year that is intended to be divided up evenly among natural subdivisions of the year (like months or quarters).  This is called a <term>nominal</term> interest rate.  It is essentially useless in calculations.  It does not tell you what interest is actually earned.  The interest rate we need for all of our calculations is called a <term>effective</term> interest rate.  The effective interest rates tell us how much interest is accrued over a period of time.  
+  </p>
+  <assemblage>
+    <title>A Warning</title>
+    <p>
+      &#9888; In calculations, <em>only use effective rates!</em>.
+    </p>
+  </assemblage>
+  <p>
+    Note that if we are already using <m>\iota</m> for an interest rate, and we need a different interest rate, we will use a different symbol.  Often we go right to <m>j</m>.  We will see others throughout this book.
+  </p>
+  <p> 
+    In order to make the terms <term>nominal</term> and <term>effective</term> interest rates meaningful, we begin with an illustrative and relatively simple example. 
+  </p>
+  <activity xml:id="distinguishing-nominal-effective">
+    <introduction>
+      <p>
+        We have an account earning 12% <term>compounded monthly</term> (sometimes just said <term>monthly</term>, or <term>convertible monthly</term>).  This means that this 12% is split up evenly over the 12 months of the year.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        What interest rate applies to a single month?   This is the <term>effective periodic rate</term> (in this case, the effective monthly rate).
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose you invest $1 for a year.  Sketch a timeline showing all of the interest that compounds.  You can skip some months once you figure out a computational shortcut!
+      </p>
+    </task>
+    <task>
+      <p> 
+        How much is in the account at the end of the year?
+      </p>
+    </task>
+    <task>
+      <p> 
+        How much of that amount in the account is interest?
+      </p>
+    </task>
+    <task>
+      <p> 
+        Express that as a percentage, which is a rate of interest for a year in this account.  This is called the <term>effective annual interest rate</term>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Why is your result different from the 12% annual rate we started with?  (The 12% rate is called the <term>nominal annual interest rate</term>.)
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="effective-from-nominal">
+    <introduction>
+      <p> 
+        Find the effective annual interest rate for the following nominal rates:
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        6%, compounded quarterly 
+      </p>
+    </task>
+    <task>
+      <p> 
+        9%, compounded monthly
+      </p>
+    </task>
+    <task>
+      <p> 
+        12%, compounded quarterly 
+      </p>
+    </task>
+    <task>
+      <p> 
+        7.5%, compounded semiannually
+      </p>
+    </task>
+  </activity>
+  <p>
+    Actuaries have their own notation for a nominal interest rate.  An nominal interest rate compounded <m>n</m> times per year is denoted <m>\iota^{(n)}</m>.  So, for example, in the last question you were given <m>\iota^{(2)} = 0.075</m>.  The <m>(n)</m> is not an exponent, it is not an operation, it is simply a designation.  That is why it is in parentheses - to distinguish it from an exponent.
+  </p>
+  <p>
+    You can be given a nominal rate that compounds less often than once per year: <m>\iota^{(1/2)}</m> would represent a nominal rate compounded every 2 years, so the 2-year effective rate is <m>\iota^{(1/2)}/(1/2)</m>. 
+  </p>
+  <p>
+    We can use timelines to represent when interest rates are in effect.  So for the example in the first question, we have 1% per month that results in approximately 12.68% per year.  We sketch a timeline as follows:
+  </p>
+  <figure xml:id="effictive-interest-timeline">
+    <caption>A timeline which illustrates how we use them to show when interest rates are in effect.</caption>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+        \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (12,0);
+        \foreach \x/\y in {0/0,1/1,2/2,3/3,11/11,12/12}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{ };
+        }
+        %\draw[] (0.1,4mm) arc (120:90:95mm)node[above]{$(1+\iota)^n$};
+        %\draw[->] (4.8,16.65mm) arc (90:60:95mm);
+        %\node[5,100mm]{$(1+\iota)^n$};
+        \path[->] (0.1,4mm) edge [bend left=10]node[above]{$(1.1268)$} (11.9,4mm);
+
+        \foreach \x in {0.1,1.1,2.1,11.1}{
+        \path[->] (\x,-9mm) edge [bend right=20]node[below]{$(1.01)$} (\x+0.8,-9mm);
+        }
+        %\draw[->] (\x,-9mm) arc (225:315:5mm);%node[midway]{$(1+\iota_{\y})$};
+        %\node[below]{$(1+\iota_1)$};
+        \end{tikzpicture} 
+      </latex-image>
+    </image>
+  </figure>
+  <p>
+    Observe that we uses our accumulation factors of <m>1+\iota</m>.  When we get our results, it is simple enough to lop off the leading one, and the equations are more intuitive, and follow from the timelines naturally, if we relate our accumulation factors. 
+  </p>
+  <p>
+    More generally, if we have a nominal rate of <m>\iota^{(n)}</m> (which, for simplicity, we will assume <m>n > 1</m>), we have an effective <m>n</m>thly rate of <m>\iota^{(n)}/n</m>, and the annual effective rate is denoted <m>\iota</m>, then we have the following:
+  </p>
+  <figure xml:id="effictive-from-nominal-timeline">
+    <caption>Using a timeline to convert nominal interest into effective interest.</caption>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+          \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (12,0);
+             \foreach \x/\y in {0/0,2/1,4/2,10/$n-1$,12/$n$}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{ };
+            }
+            %\draw[] (0.1,4mm) arc (120:90:95mm)node[above]{$(1+\iota)^n$};
+            %\draw[->] (4.8,16.65mm) arc (90:60:95mm);
+            %\node[5,100mm]{$(1+\iota)^n$};
+            \path[->] (0.1,4mm) edge [bend left=10]node[above]{$(1+\iota)$} (11.9,4mm);
+            
+            \foreach \x in {0.1,2.1,10.1}{
+          \path[->] (\x,-9mm) edge [bend right=20]node[below]{$\left(1+\frac{\iota^{(n)}}{n}\right)$} (\x+1.8,-9mm);
+          }
+          %\draw[->] (\x,-9mm) arc (225:315:5mm);%node[midway]{$(1+\iota_{\y})$};
+           %\node[below]{$(1+\iota_1)$};
+        \end{tikzpicture} 
+      </latex-image>
+    </image>
+  </figure>
+  <activity xml:id="effective-from-nominal-activity">
+    <introduction>
+      <p> 
+        Use the timeline to find a formula for <m>1+\iota</m> given <m>\iota^{(n)}</m>.
+      </p>
+      <p> 
+        Your formula can be used to find <m>\iota^{(n)}</m> given <m>\iota</m>.  Even though <m>\iota^{(n)}</m> is useless in calculations, some exam problems may ask you to answer with a nominal rate!
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Given <m>\iota = 0.075</m>, find <m>\iota^{(4)}</m>. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        Given <m>\iota = 5\%</m>, find <m>\iota^{(1/3)}</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="mountain-river-banks">
+    <statement>
+      <p> 
+        Mountain Bank pays interest at a rate of <m>\iota^{(2)} = 0.15</m>. River Bank pays interest compounded daily. What minimum nominal annual rate must River Bank pay in order to be as attractive as Mountain Bank? Assume a 360-day year.
+      </p>
+    </statement>
+  </activity>
+  <assemblage>
+    <title>
+      &#x1F9EE;<term>Calculator Corner</term>
+    </title>
+    <p>
+      We can convert between nominal and effective annual rates in the calculator.  To do so, locate and select the <kbd>ICONV</kbd> button (it is above the button for 2, so you will need the <kbd>2ND</kbd> key).  You will see an option for <kbd>NOM</kbd>.  This is where you can enter or calculate a nominal annual rate.  If you press the <kbd name="down"/> key, you will see an option for <kbd>EFF</kbd>. This is where you can enter or calculate an effective annual rate.  If you press <kbd name="down"/> once more, you will see an option for <kbd>C/Y</kbd>.  This is where you can enter how often interest is compounded per year.  
+    </p>
+    <p>
+      The way this works is that you enter the two pieces of information you have (hit the <kbd>ENTER</kbd> key after each numerical entry), navigate to the quantity you want to calculate, and press the <kbd>CPT</kbd> key.  All rates should be entered as percentages (i.e. 6, not .06). 
+    </p>
+    <activity xml:id="effective-from-nominal-calculator">
+      <task>
+        <p> 
+          Use the calculator to redo <xref ref="effective-from-nominal"/>.
+        </p>
+      </task>
+      <task>
+        <p> 
+          Use the calculator to redo <xref ref="effective-from-nominal-activity"/>.
+        </p>
+      </task>
+    </activity>
+  </assemblage>
+  <activity xml:id="effective-nominal-reflection">
+    <task>
+      <p> 
+        Explain the difference between a nominal interest rate and an effective interest rate.
+      </p>
+    </task>
+  </activity>
+</section>
+

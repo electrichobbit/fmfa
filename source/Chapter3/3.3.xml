@@ -1,0 +1,112 @@
+<section xml:id="introduction-to-immediate-annuities">
+	<title>Introduction to Annuities-Immediate</title>
+	<p>
+		Now that we have covered the preliminaries, we begin our study of annuities, starting with annuities immediate. 
+	</p>
+	<p>
+		An <term>annuity immediate</term> is a finite series of periodic payments where the payments are made at the end of each period. A <term>perpetuity immediate</term> is an infinite series of periodic payments where the payments are made at the end of each period.  We will assume the following:
+	</p>
+	<ul>
+		<li>
+			<p> 
+				The payments are all the same amount.
+			</p>
+		</li>
+		<li>
+			<p> 
+				The interest rate is constant.
+			</p>
+		</li>
+		<li>
+			<p> 
+				The periods are the same length.
+			</p>
+		</li>
+		<li>
+			<p> 
+				The payments will definitely be made.
+			</p>
+		</li>
+	</ul>
+	<p>
+		We will relax some of these assumptions later.  The last assumption says that our annuities are "annuities certain" (as opposed to "contingent annuities" where the payments may or may not take place).  We will only deal with annuities-certain in this course, but you will see annuities-contingent in preparation for later actuarial exams. 
+	</p>
+	<p>
+		What follows are problems, some of which are former exam problems.  We are only going to analyze the problems -- over the next few activities, we will build the machinery to solve them!  
+	</p>
+	<activity xml:id="annuity-basics-problem-1">
+		<introduction>
+			<p> 
+				To accumulate 8000 at the end of 3<m>n</m> years, deposits of 98 are made at the end of each of the first <m>n</m> years and 196 at the end of each of the next 2<m>n</m> years.  The effective annual rate of interest is <m>\iota</m>. You are given <m>(1+\iota)^n = 2.0.</m> Determine <m>\iota</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="annuity-basics-problem-2">
+		<introduction>
+			<p> 
+				Jeff deposits 10 into a fund today and 20 fifteen years later. Interest is credited at a nominal discount rate of <m>d</m> compounded quarterly for the first 10 years, and at a nominal interest rate of 6% compounded semiannually thereafter.  The accumulated balance in the fund at the end of 30 years is 100. Calculate <m>d</m>. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="annuity-basics-problem-3">
+		<introduction>
+			<p> 
+				A generous, anonymous donor purchases an annuity immediate for <m>X</m> with annual payments <m>K</m> for 20 years.  She deposits the annual payments into an account earning an effective annual interest rate of 5%.  At the end of the 20 years, the accumulated amount is to be paid over to Tom Riddle.  By the end of the 20 years, Tom Riddle has become Lord Voldemort, who expects to live forever.  Voldemort uses the payout to purchase a perpetuity immediate that pays out 500 at the end of every year valued with an effective annual interest rate of 4%. Find <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="annuity-basics-problem-4">
+		<introduction>
+			<p> 
+				Suppose we save $1000 at the end of every year for the next 3 years, earning an effective annual rate of 8%.  Beginning at the end of the year following our last deposit, we will withdraw $1100 at the end of each year for 3 years, and withdraw the remainder <m>X</m> at the end of the following year. Find <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="annuity-basics-reflection">
+		<statement>
+			<p> 
+				Look back at the problems and see if you can identify where you would like to value the cash flows once you are ready to solve the problem.
+			</p>
+		</statement>
+	</activity>
+</section>

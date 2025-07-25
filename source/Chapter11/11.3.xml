@@ -1,0 +1,190 @@
+<section xml:id="macaulay-duration">
+	<title>Macaulay Duration</title>
+	<p>
+		Frederick Macaulay, an economist, published in 1938 an extensive study of interest rate behavior going back to 1865.  In his book, <pubtitle>Some Theoretical Problems Suggested by the Movement of Interest Rates</pubtitle>, Macaulay introduced a measurement of interest rate risk that has since become known as <term>Macaulay duration</term> (or just <term>duration</term>).  While there is some variation in the notation, we will denote Macaulay duration by <m>D</m>. 
+	</p>
+	<activity xml:id="motivation-for-macaulay-duration">
+		<introduction>
+			<p>
+				This example is due to Broverman.  Consider a 10-year loan of 100 with an effective annual interest rate of 10%.  Compare the following two payback schedules:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Schedule 1: Pay the entire balance with interest (<m>100(1.1)^{10} = 259.37</m>) at the end of the 10-year term.
+					</p>
+				</li>
+				<li>
+					<p>
+						Schedule 2: Pay back the principal of 100 at the end of the first year, and pay all of the accumulated interest at the end of the 10-year term (which, in this case, amounts to 23.60).
+					</p>
+				</li>
+			</ul>
+		</introduction>
+		<task>
+			<p>
+				Which one of these is "longer"?  If we think about the payments as weights at their relative points on the timeline, which would have a later "center of gravity"?  Explain.
+			</p>
+		</task>
+		<task>
+			<p>
+				Which one of these schedules would subject the lender to greater interest rate risk?  Why?
+			</p>
+		</task>
+		<task>
+			<p>
+				The Macaulay duration <m>D</m> is going to be a weighted average.  What do you think we are going to average?  What do you think the weights might be?
+			</p>
+		</task>
+	</activity>
+	<p>
+		Suppose we have a set of cash flows <m>CF_i</m> at times <m>t_i</m>.  The <term>Macaulay duration</term> is the weighted average of the times <m>t_i</m>.  The weight for <m>t_i</m> is the present value of cash flow <m>CF_i</m>, relative to the present value of the entire cash flow stream.
+	</p>
+	<activity xml:id="estimating-macaulay-duration">
+		<introduction>
+			<p>
+				For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term.  Do not perform any calculations, just select one of the three options.  Justify your estimation.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.
+			</p>
+		</task>
+		<task>
+			<p>
+				Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.
+			</p>
+		</task>
+		<task>
+			<p>
+				A zero-coupon bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				A coupon bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				A level-payment annuity.
+			</p>
+		</task>
+		<task>
+			<p>
+				An increasing annuity.
+			</p>
+		</task>
+		<task>
+			<p>
+				A decreasing annuity.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formula-for-macaulay-duration">
+		<introduction>
+			<p>
+				Let's define <m>D</m> by a formula.  Assume we have times <m>t_1, \ldots, t_n</m> with cash flows <m>CF_i</m> taking place at time <m>t_i</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Since <m>D</m> is a weighted average, first we find the formula for each weight.  The weight <m>\omega_i</m> is the ratio of the present value of cash flow <m>CF_i</m> to the present value of the full cash flow stream.  Find a formula for <m>\omega_i</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Show that <m>\sum \omega_i = 1</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Since <m>D = \sum \omega_i t_i</m>, we can write down an explicit formula for <m>D</m>.  Write that formula down.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-macaulay-duration">
+		<introduction>
+			<p>
+				Find the Macaulay duration <m>D</m> of the following cash flows.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A project with anticipated cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows.  The cash flows are valued at an effective annual interest rate of 2.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A zero-coupon annuity paying 10,000 at time 30, priced to yield 6%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A three-year level payment annuity, with annual payments of 500, valued at an interest rate of 4%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A three year coupon bond, with annual coupons of 500 and a redemption amount of 10,000, priced to yield 5%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-macaulay-duration-from-a-yield-curve">
+		<introduction>
+			<p>
+				Suppose we have cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows.  The stream is to be valued using the following yield curve: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time <m>t</m>
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Spot Rate <m>s_0(t)</m>
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+						<cell right="medium">
+							4.25%
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				Adapt our approach to calculating the Macaulay duration to find <m>D</m> in this case.
+			</p>
+		</task>
+		<task>
+			<p>
+				Describe your adaption (you can describe this in words, write a formula, or find another way to describe this).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="macaulay-duration-reflection">
+		<statement>
+			<p>
+				Why is this measure of interest rate risk called <term>duration</term>?
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,235 @@
+<section xml:id="valuation">
+  <title>Valuation</title>
+  <p>
+    In this activity, we establish the concept that is at the heart of finance: valuation. Given a cash flow and an interest rate, the <term>value</term> at a point in time is an equivalent, single amount at that point of time.  By equivalent, we mean that investors would have no preference between the cash flow or the single value (assuming they have no need of the cash - <term>liquidity</term> in business terminology - throughout the time period in question).  We understand investor preferences purely through investment calculations.
+  </p>
+  <p>
+    To understand this, let us recall how we calculate the balance in an account under compound interest.  Support 300 is deposited in an account at the end of year 2, and the account earns an annual interest rate of 4%.  The amount at the end of year 5 is:
+  </p>
+  <me>300(1.04)^3 \approx 337.46</me>  
+  <p>
+    On a timeline, it might look like:
+  </p>
+  <figure xml:id="compound-interest-timeline">
+    <caption>Timeline for the compound interest example.</caption>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+        \draw[line width=1pt] (0,0) -- (10,0);
+        \foreach \x/\y in {0/0,2/1,6/3,8/4}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+        }
+        \foreach \x/\y in {4/2}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{300};
+        }
+        \foreach \x/\y in {10/5}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{337.46};
+        }
+        \path[->] (4.5,5mm) edge (9,5mm);
+        % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+        %\draw[-latex] (10,-7mm) -- +(0,-10mm)node[below]{$s_{\angln \iota}$};
+        \end{tikzpicture} 
+      </latex-image>
+    </image>
+  </figure>
+  <p>
+    In this case, assuming no need for the cash between years 2 and 5, the investor would be equally satisfied with 300 at the end of year 2 or 337.46 at the end of year 5. 
+  </p>
+  <p>
+    In this example, when we are looking at the value of cash flows at a later point in time, the value is called the <term>future value</term> or the <term>accumulated value</term>.  The former term is not so common in actuarial science.  In this book, we will use the terms interchangeably.  We will also say that we are "pushing forward" the 300 for 3 years.  This is a term borrowed from differential geometry and is not common among actuaries.  So it will be our little secret. 
+  </p>
+  <p>
+    We can also look backward in time.  If we want to have 337.46 at the end of year 5, how much do we need to deposit at the end of year 2?  This is the same example as above, but with the arrows reversed, so the answer is 300.  It might look as follows on a timeline:
+  </p>
+  <figure xml:id="present-value-timeline">
+    <caption>Timeline for the present value example.</caption>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+        \draw[line width=1pt] (0,0) -- (10,0);
+        \foreach \x/\y in {0/0,2/1,6/3,8/4}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+        }
+        \foreach \x/\y in {4/2}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{300};
+        }
+        \foreach \x/\y in {10/5}{
+        \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{337.46};
+        }
+        \path[&lt;-] (4.5,5mm) edge (9,5mm);
+        % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+        %\draw[-latex] (10,-7mm) -- +(0,-10mm)node[below]{$s_{\angln \iota}$};
+        \end{tikzpicture} 
+        &gt;/
+      </latex-image>
+    </image>
+  </figure>
+  <p>
+    When we are looking at the value at time 0, we call the result the <term>present value</term>.  We sometimes use that term more loosely, whenever we are valuing at an earlier point in time.  That is colloquial.  The more formal way to describe the 300 in this example is as the value at time 2.  Secretly borrowing another term from differential geometry, we will say we are "pulling back" the 337.46 to time 2. 
+  </p>
+  <p>
+    So, in short, we can think of an accumulated value as the balance in an account bearing the given interest rate if the cash flows were so deposited, and a present value as the amount that would have to be deposited in order to generate the given cash flows under the given interest rate. 
+  </p>
+  <p>
+    The point of valuation is that when we are performing calculations and crafting equations, everything in sight has to be valued at the same point in time.  Each individual payment has to be pushed forward or pulled back to a common point in time before we can combine them or set anything equal.  Values at points in time are like units in this way, and we should think of them as such.  In a given problem, we often have considerable freedom in where we value everything.  Later in this chapter we will look at some strategies for making these choices. 
+  </p>
+  <p>
+    To model this mathematically, we need functions.  The function <m>A(t)</m> is called the <term>accumulation function</term>.  The interest rate will be denoted by <m>\iota</m>.  If an amount <m>A(0)</m> is deposited at time 0, then its value at time <m>t</m> is <m>A(t) = A(0)(1+\iota)^t</m>  In this case, <m>A(0)</m> is the present value.  Notice that we are multiplying <m>A(0)</m> by another function.  The function <m>a(t) = (1+\iota)^r</m> is called the <term>accumulation factor</term>.  Note that if we deposit some amount <m>A(t_1)</m> at time <m>t_1</m> and <m>t_2>t_1</m> we have <m>A(t_2)=A(t_1)a(t_2-t_1)=A(t_1)(1+\iota)^{t_2-t_1}</m> These functions tell us how to push forward. <em>When there are several amounts involved, each has to be valued at the same point in time and added up</em>. 
+  </p>
+  <p>
+    In <xref ref="other-forms-of-interest-accumulation"/>, much of this will be generalized.
+  </p>
+  <activity xml:id="interest-calculation">
+    <statement>
+      <p>
+        Show (by direct calculation) that the interest rate is the percentage change in <m>A(t)</m> across 1 time period (say, between times <m>t-1</m> and <m>t</m>).
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="pulling-back-value">
+    <introduction>
+      <p>
+        Let us consider how to "pull back."  Use the equations for pushing forward above.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> 
+          Solve the appropriate equation for <m>A(0)</m> to find an equation for the present value of <m>A(t)</m>.  Write your result in two ways.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          A(0) = \frac{A(t)}{(1+\iota)^t}
+        </me>
+        <me>
+          A(0) = A(t)(1+\iota)^{-t}
+        </me>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          Solve the appropriate equation for <m>A(t_1)</m> to find an equation for pulling <m>A(t_2)</m> back to time <m>t_1</m>.  Write your result in two ways.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          A(t_1) = \frac{A(t_2)}{(1+\iota)^{t_2-t_1}}
+        </me>
+        <me>
+          A(t_1) = A(t_2)(1+\iota)^{t_2-t_1}
+        </me>
+      </solution>
+    </task>
+  </activity>
+  <activity xml:id="future-and-present-value">
+    <introduction>
+      <p>
+        Find both the indicated future value, and the present value, for each of the following cash flows.  Generate a timeline if it helps!  <em>Look for possible shortcuts!</em>
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        A deposit of 100 at the end of year 2 and a deposit of 200 at the end of year 4.  The interest rate is <m>\iota = 2\%</m>.  For future value, value at the end of year 7.
+      </p>
+    </task>
+    <task>
+      <p> 
+        A deposit of 100 at the <em>beginning</em> of year 2 and a deposit of 200 at the <em>beginning</em> of year 4.  The interest rate is <m>\iota = 2\%</m>.  For future value, value at the <em>end</em> of year 7.
+      </p>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          A deposit of 1500 is made at time 0, another deposit of 1500 is made at the end of year 3, and a withdrawal of 1000 is made at the end of year 6.  The interest rate is <m>\iota = 1.5\%</m>.  For future value, value immediately after the withdrawal.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          A(6) = 1500(1+0.015)^6 + 1500(1+0.015)^3 - 1000
+        </me>
+      </solution>
+    </task>
+    <task>
+      <p> 
+        A deposit of 3750 is made at the end of each year for 3 years, and a withdrawal of <m>X</m> is made at the end of year 2.  The interest rate is <m>\iota</m>.  For future value, value at the end of year 4.  Note that your answers will be expressions and not numbers.
+      </p>
+    </task>
+    <task>
+      <p> 
+        A deposit of <m>K</m> is made into an account at the end of each year for <m>n</m> years, with interest rate <m>\iota</m>.  For future value, value immediately after the last deposit.  Note that your answers will be expressions and not numbers.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-shortcuts-in-valuation">
+    <introduction>
+      <p>
+        You may or may not have noticed some shortcuts in how we can perform calculations.  If you did not, look back at your work or discuss with a partner, and respond to the following questions.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Suppose cash flows go in and out of an account bearing an annual compound interest rate of <m>\iota = 5/%</m> and that the value of the cash flows at the end of year 14 is 14,300.  What is the present value?
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose cash flows go in and out of an account bearing an annual compound interest rate of <m>\iota = 3.5\%</m> and that the present value of the cash flows is 7500.  What is the value at the end of year 19?
+      </p>
+    </task>
+    <task>
+      <p> 
+        Describe what you discovered and explain the role that the laws of exponents play in why this works.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="middle-valuation">
+    <introduction>
+      <p>
+        Sometimes we value at a point in the middle of a set of cash flows.  For the following exercises, make timelines if it helps organize the data!
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> 
+          An account bearing an annual interest rate of <m>\iota = 3\%</m> has deposits of 100 at the end of year 1, 200 at the end of year 2, 300 at the end of year 3, and 400 at the end of year 4.  Find the value half-way between the end of years 2 and 3.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          A(2.5) = 100(1.03)^{1.5} + 200(1.03)^{0.5} + 300(1.03)^{-0.5} + 400(1.03)^{-1.5}
+        </me>
+      </solution>
+    </task>
+    <task>
+      <p> 
+        A deposit of 143000 is made at time 0.  A withdrawal of <m>X</m> is made every year for 5 years, after which the account is depleted.  The interest rate is <m>\iota</m>.  Find an expression for the value at the end of year 3.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="solving-for-variables">
+    <introduction>
+      <p>
+        Sometimes we need to solve for a variable that is not the value of the cash flows at a point in time.  For each of the following, identify and solve for the desired variable.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Alice invests 2200. Her investment grows according to compound interest at an annual effective interest rate of 4% for <m>T</m> years, at which time it has accumulated to 8000. Find <m>T</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        An amount of 5000 grows to a value of 5943.43 after 7 years.  Find the annual interest rate <m>\iota</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="valuation-reflection">
+    <statement>
+      <p> 
+        In your own words, write one sentence summarizing what valuation is.
+      </p>
+    </statement>
+  </activity>
+</section>

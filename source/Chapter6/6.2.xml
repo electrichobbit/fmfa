@@ -1,0 +1,72 @@
+<section xml:id="prospective-and-retrospective-form-of-outstanding-balance">
+	<title>Prospective and Retrospective Form of Outstanding Balance</title>
+	<p>
+		There are two ways to find the outstanding balance at time <m>t</m>, the prospective method and the retrospective method.  The prospective method is "forward looking," meaning we use <m>K_{t+1}, K_{t+2}, \ldots, K_n</m> to find <m>OB_t</m>.  The retrospective is "backwards looking," meaning we use <m>K_1, K_2, \ldots, K_t</m> to find <m>OB_t</m>.
+	</p>
+	<activity xml:id="formula-for-prospective-method">
+		<statement>
+			<p> 
+				The <term>prospective</term> form of the outstanding balance of a loan is the version that equates the outstanding balance with the present value of the remaining payments.  Make a timeline and write a formula to represent the prospective form.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="formula-for-retrospective-method">
+		<statement>
+			<p> 
+				The <term>retrospective</term> form of the outstanding balance uses only the payments already made: <m>K_1, \ldots, K_t</m> (this also requires the loan amount <m>L</m> and the interest rate <m>\iota</m>).  By carefully valuing both <m>L</m> and the previous payments at time <m>t</m>, make a timeline and write a formula to represent the prospective form.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="evaluating-prospective-and-retrospective-methods">
+		<introduction>
+			<p> 
+				A loan of 150,000 is to be repaid with payments of 899.33 at the end of each month for 30 years.  The interest rate on the loan is 6% convertible monthly.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the balance <m>OB_{27}</m> using the prospective method.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the balance <m>OB_{27}</m> using the retrospective method.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Which do you prefer?  Why?
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip</title>
+		<p> 
+			If payments are constant, after you enter in all of the information about a loan (and having the financial calculator find any missing values), you can mimic the retrospective method on the calculator to find <m>OB_t</m> by setting <kbd>N</kbd> equal to <m>t</m> and using <kbd>CPT</kbd> <kbd>FV</kbd>.  You can also use the <kbd>AMORT</kbd> worksheet.
+		</p>
+	</assemblage>
+	<activity xml:id="solving-problems-with-outstanding-balance">
+		<introduction>
+			<p> 
+				Solve the following two problems.  Think strategically about how you find the outstanding balance in each case.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				A loan of 10,000 is being repaid by installments of 2000 at the end of each year, and a smaller final payment made one year after the last regular payment. Interest is at the effective rate of 12%. Find the amount of the outstanding loan balance remaining when the borrower has made payments equal to the amount of the loan. Answer to the nearest dollar.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A loan is amortized over five years with monthly payments at a nominal interest rate of 9% compounded monthly. The first payment is 1000 and is to be paid one month from the date of the loan. Each succeeding monthly payment will be 2% lower than the prior payment. Calculate the outstanding loan balance immediately after the 40th payment is made.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="prospective-and-retrospective-form-of-outstanding-balance-reflection">
+		<statement>
+			<p> 
+				How are you going to decide whether to use the prospective or retrospective method to find the outstanding balance in a problem?
+			</p>
+		</statement>
+	</activity>
+</section>

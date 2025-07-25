@@ -1,0 +1,761 @@
+<exercises xml:id="interest-rate-swaps-exercises">
+	<exercise>
+		<statement>
+			<p>
+				A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment.  The interest is paid at an annual rate of LIBOR + 2%.  Over the five years, the LIBOR was as reported in the table below.
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							LIBOR
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.15%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							3.95%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the interest payment each year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A borrower took out a loan for 2.5 million to be repaid by four years of annual interest payments with the principal paid off with the final interest payment.  The interest is paid at an annual rate of prime + 150 basis points.  Over the five years, the prime rate was as reported as in the table below.
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							Prime Rate
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.05%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3.15%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							2.95%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							3.20%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the interest payment each year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Bye Felicia Inc. wants to borrow 12 million at a constant interest rate.  Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate.  In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract. 
+			</p>
+			<p>
+				Identify the payer, receiver, and notional amount in this transaction.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today.  Identify the swap term, the settlement dates, the settlement periods, and the swap tenor.  Display each of these on a single timeline.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR.  Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%.  Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  
+			</p>
+			<p>
+				Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				In each of the following, find the swap rate.  The length of the yield curve you are given matches the swap tenor.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The yield curve is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5.25%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The yield curve is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							6.23%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.09%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4.45%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.29%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							4.17%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The yield curve is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							1.95%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							2.20%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The yield curve is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							6.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.95%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							7.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				In each of the following, find the swap rate.  The number of forward rates you are given matches the swap term.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The forward rates are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Forward Rate <m>_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.80%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6.23%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.55%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							6.10%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							6.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The forward rates are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Forward Rate <m>_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3.10%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							2.95%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							3.10%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The forward rates are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Forward Rate <m>_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							7.03%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							7.79%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							7.54%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The forward rates are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Forward Rate <m>_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							3.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.10%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the swap rates for the following accreting and amortizing swaps.  Use the following yield curve:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							6.60%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				The notional amount starts at 200 million and grows by 1.5% each year.
+			</p>
+		</task>
+		<task>
+			<p>
+				The notional amount starts at 15 million and declines by 2 million each year.
+			</p>
+		</task>
+		<task>
+			<p>
+				The notional amount starts at 30 million and grows by 5 million each year.
+			</p>
+		</task>
+		<task>
+			<p>
+				The notional amount starts at 90 million and declines by 2% each year.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A payer and receiver entered into a 5-year interest rate swap in year 0 with a notional amount of 1 million.  At that time, the yield curve was: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							7.10%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							6.90%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				One year later, the yield curve flattens and the effective annual interest rate is 6% for the remaining 4 years of the swap.  Find the market value for both the payer's interest and the receiver's interest.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							2.80%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							2.75%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				One year later, the new yield curve for the following two years is: \\
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3.50%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

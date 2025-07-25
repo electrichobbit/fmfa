@@ -1,0 +1,134 @@
+<section xml:id="premium-and-discount-bonds">
+    <title>Premium and Discount Bonds</title>
+    <p>
+        We have made loans an analogy to understand bonds.  For this analogy to fit perfectly, then the face value would have to be the loan amount (since the interest payments would have to be <m>Fr</m>). The price would also have to be the loan amount, and <m>C</m> would have to be the future value of the loan amount. Since this is rarely the case, the analogy breaks down when we look closely, leading to some subtleties in the way bonds are understood. 
+    </p>
+    <p>
+        In this section, we focus on the difference between the price <m>P</m> and the redemption amount <m>C</m>.
+    </p>
+    <activity xml:id="finding-the-price-of-bonds-with-coupon-payments">
+        <introduction>
+            <p>
+              Find the price of each of the following bonds with annual coupon payments:
+          </p>
+      </introduction>
+      <task>
+        <p>
+            Bond A: <m>F = C = 1000</m>, <m>r = 0.05</m>, <m>n = 10</m>, and <m>\iota = 0.06</m>. 
+        </p>
+    </task>
+    <task>
+        <p>
+         Bond B: <m>F=C=1000</m>, <m>r = 0.05</m>, <m>n = 10</m>, and <m>\iota = 0.05</m>.
+     </p>
+ </task>
+ <task>
+    <p>
+        Bond C: <m>F = C = 1000</m>, <m>r = 0.05</m>, <m>n = 10</m>, and <m>\iota = 0.04</m>.
+    </p>
+</task>
+</activity>
+<activity xml:id="comparing-three-bonds">
+    <statement>
+        <p>
+            Compare your two results.  What do you notice?  What do you wonder?
+        </p>
+    </statement>
+</activity>
+<activity xml:id="distinguishing-premium-par-discount">
+    <statement>
+        <p>
+           We have the following definitions:
+       </p>
+       <ul>
+        <li>
+            <p>
+             A bond is said to be bought at a <term>premium</term> if <m>P &gt; C</m>.
+         </p>
+     </li>
+     <li>
+        <p>
+            A bond is said to be bought at <term>par</term> if <m>P = C</m>.
+        </p>
+    </li>
+    <li>
+        <p>
+         A bond is said to be bought at a <term>discount</term> if <m>P &lt; C</m>.
+     </p>
+ </li>
+</ul>
+<p>
+    For bonds A, B, and C, determine which were bought at a premium (if any), which were bought at par (if any), and which were bought at a discount (if any). Can you identify an easy way to figure this out without using the price?
+</p>
+</statement>
+</activity>
+<activity xml:id="finding-premium-or-discount">
+   <statement>
+    <p>
+       The amount of the premium or the discount is <m>|P-C|</m> (the result is always expressed positively).  Find the amount of premium or discount (if nonzero) for Bonds A, B, and C.
+   </p>
+</statement>
+</activity>
+<activity xml:id="premium-discount-formula">
+    <introduction>
+        <p>
+           In order to quantify the amount of premium or discount without knowing the price, we derive an equivalent equation for the price of a bond called the <term>premium-discount formula</term>:
+           <me>P = C + (Fr-C\iota)a_{\angln \iota}</me>
+       </p>
+   </introduction>
+   <task>
+    <p>
+       Show that this formula is equivalent to the formula we have been using for the price of a bond.  Start by rewriting <m>C\iota a_{\angln \iota}</m>.
+   </p>
+</task>
+<task>
+    <p>
+       Based on this formula, if <m>F \neq C</m>, how can you determine whether a bond is sold at a premium, par, or discount without calculating the price?
+   </p>
+</task>
+<task>
+    <p>
+       Suppose <m>F=C</m>.  Rewrite the bond discount formula and identify a simple test to determine whether a bond in this case is sold at a premium, par, or discount.
+   </p>
+</task>
+<task>
+    <p>
+       Explain why your simple test makes financial and economic sense (i.e., which we do not need any mathematics to explain this result to an investor or a supervisor at work).
+   </p>
+</task>
+</activity>
+<activity xml:id="calculating-premium-discount-without-price">
+    <introduction>
+        <p>
+           Now let's figure out how to calculate the premium or discount of a bond without knowing the price.  Use the premium-discount formula.
+       </p>
+   </introduction>
+   <task>
+    <p>
+       Find a formula for the amount of premium or discount of <m>F \neq C</m>.
+   </p>
+</task>
+<task>
+    <p>
+       Rewrite your formula for the case <m>F = C</m>.
+   </p>
+</task>
+</activity>
+<activity xml:id="finding-premium-or-discount-soa-problem">
+    <statement>
+        <p>
+            A 3000, 9% twelve-year bond with annual coupons is purchased with a discount of 57 and yields 9.1% if held to maturity. Find the price. 
+        </p>
+    </statement>
+</activity>
+<p>
+    &#9888; The terms "premium" and `'discount" are also used to compare <m>F</m> and <m>C</m>, but we say that a bond is <term>redeemed</term> at a premium (if <m>F &lt;C</m>), at par (if <m>F = C</m>), or at a discount (if <m>F &gt; C</m>).  Be careful to note the difference! 
+</p>
+<activity xml:id="premium-and-discount-bonds-reflection">
+    <statement>
+        <p>
+           Explain why the terms "premium" and "discount" make sense.
+       </p>
+   </statement>
+</activity>
+</section>

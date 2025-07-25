@@ -1,0 +1,98 @@
+<section xml:id="macaulay-approximation">
+	<title>The Macaulay Approximation</title>
+	<p>
+		There is another first order approximation that uses Macaulay duration, and it is called the <term>Macaulay approximation</term>:
+	</p>
+	<me>P(\iota + \Delta \iota) \approx P(\iota) \left(\frac{1+\iota}{1 + \iota + \Delta \iota}\right)^D</me>
+	<activity xml:id="deriving-macaulay-approximation">
+		<introduction>
+			<p>
+				First, let's see where this comes from.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Define <m>g(\iota) = P(\iota) (1+\iota)^D</m>.  What does this function represent, financially?
+			</p>
+		</task>
+		<task>
+			<p>
+				Show that <m>g'(\iota) = 0</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Using <m>g'(\iota) = 0</m>, find the first order approximation for <m>g(\iota + \Delta \iota)</m> using the Taylor series approximation for <m>g</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use your first order approximation for <m>g(\iota + \Delta \iota)</m> to derive the Macaulay approximation formula.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-percentage-change-in-value-using-macaulay-approximation">
+		<introduction>
+			<p>
+				Suppose we have a level payment annuity with 10 annual payments of 590.  The current effective annual interest rate is <m>\iota = 4.5\%</m>, but an investor have heard rumors that this is about to go up by 50 basis points.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the Macaulay approximation to estimate the percentage change in the value of the annuity if the rumor is true.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use the Macaulay approximation to estimate the absolute change <m>\Delta P = P(\iota + \Delta \iota) - P(\iota)</m> if the rumor is true.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-macaulay-approximation-to-estimate-change-in-present-value">
+		<introduction>
+			<p>
+				Use Macaulay approximation to estimate the change in the present value of the following cash flows:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%.  Set <m>\Delta \iota = -0.0035</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%.  Set <m>\Delta \iota = 0.009</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-bond-price-change-using-macaulay-approximation">
+		<statement>
+			<p>
+				A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is <m>X</m>.  
+			</p>
+			<p>
+				Calculate <m>X</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-modified-duration-from-macaulay-approximation">
+		<statement>
+			<p>
+				Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is <m>D_{MOD}</m>. 
+			</p>
+			<p>
+				Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212. 
+			</p>
+			<p>
+				Calculate <m>D_{MOD}</m>, the modified duration of Graham's annuity at 5%.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="macaulay-approximation-reflection">
+		<statement>
+			<p>
+				What kind of change is the Macaulay approximation best able to estimate -- percentage change or absolute change?  Explain.
+			</p>
+		</statement>
+	</activity>
+</section>

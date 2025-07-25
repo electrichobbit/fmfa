@@ -1,0 +1,144 @@
+<section xml:id="derivatives-linear-approximation">
+	<title>Review -- Derivatives and Linear Approximation</title>
+	<p>
+		In the next activity, we will examine how to understand and interpret the force of interest as an instantaneous approximation.  To prepare, we will review how the derivative of a function leads to the linear approximation for that function. 
+	</p>
+	<activity xml:id="tangent-lines">
+		<introduction>
+			<p> 
+				The derivative of the function <m>y = f(x)</m> at the point <m>P</m> is defined to be the slope of the tangent line:
+			</p>
+			<figure>
+				<caption>The tangent line to a curve.</caption>
+				<image>
+					<latex-image>
+						\begin{tikzpicture}
+						\begin{axis}[hide axis]
+						\addplot[domain=-4:6, color=blue, line width=1pt] {x^3-4*x^2-4*x+16};
+						\addplot[domain=-4:3, color=red, line width=1pt] {7*x+22};
+						\addplot[mark=*] coordinates {(-1,15)} node[above]{$P$};
+						\end{axis}
+						\end{tikzpicture}
+					</latex-image>
+				</image>
+			</figure>
+		</introduction>
+		<task>
+			<p> 
+				If the coordinates of the point <m>P</m> are known to be <m>(x,f(x))</m>, and we know the function <m>f</m>, why do we not have enough information to obtain the slope of the tangent line (assuming you do not know all that you learned in calculus)?
+			</p>
+		</task>
+		<task>
+			<p> 
+				To find this slope, first we find the slope of a line "close by."  This is the slope of the line between the points <m>(x,f(x))</m> and <m>(x+h, f(x+h))</m> where we think of <m>h</m> as "small."  The line joining this two points is the secant line.  Write down the slope between these points.
+			</p>
+		</task>
+		<task>
+			<p> 
+				To get better and better approximations, what do we do with <m>h</m>?  Use this idea to write down the definition of the derivative <m>f'(x)</m> at the point <m>(x,f(x))</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="definition-of-derivative">
+		<statement>
+			<p> 
+				Use the definition of the derivative to prove that if <m>f(x) = x^2</m>, then <m>f'(x) = 2x</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="instantaneous-rate-of-change">
+		<introduction>
+			<p> 
+				In each of the following, find the instantaneous absolute rate of change at the given point (you may use all of the derivative rules you know).
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>f(x) = x^3-4x^2-4x+16</m>, <m>x = -1</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 3e^{-4x}</m>, <m>x = 3</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 2 \sin(2\pi x)</m>, <m>x = 3</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = \ln(x^2 - 1)</m>, <m>x = 5</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="equation-of-tangent-line">
+		<introduction>
+			<p> 
+				In each of the following, find the equation of the tangent line at the given point (notice that these are the same functions and points as above)
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>f(x) = x^3-4x^2-4x+16</m>, <m>x = -1</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 3e^{-4x}</m>, <m>x = 3</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 2 \sin(2\pi x)</m>, <m>x = 3</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = \ln(x^2 - 1)</m>, <m>x = 5</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="linear-approximation">
+		<introduction>
+			<p> 
+				The tangent line is the "linear approximation" to the function at the point, and can be used to estimate the value of the function at points that are "very close."  For each of the following, use the linear approximation to estimate the value of the function at the given point (notice that these are the same functions and near the same points as above)
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>f(x) = x^3-4x^2-4x+16</m>, <m>f(-1.001)</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 3e^{-4x}</m>, <m>f(2.98)</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = 2 \sin(2\pi x)</m>, <m>f(3.1)</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = \ln(x^2 - 1)</m>, <m>f(4.89)</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="simplify-limit">
+		<statement>
+			<p> 
+				Simplify: <me>\lim_{h \rightarrow 0} \left( \frac{\ln(1 + 2(t+h))-\ln(1+2t)}{h} \right)</me>
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="linear-approximation-reflection">	
+		<statement>
+			<p> 
+				What do you think an instantaneous percentage change means?
+			</p>
+		</statement>
+	</activity>
+</section>

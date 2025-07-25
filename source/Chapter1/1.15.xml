@@ -1,0 +1,79 @@
+<section xml:id="inflation">
+	<title>Inflation and the Real Rate of Interest</title>
+	<p>
+		So far, all of our analysis has examined interest rates in isolation.  We should remember that more than dollar amounts change.  If we examine inflation, we can measure growth rates in terms of purchasing power.  The growth rate of purchasing power is the <term>real</term> rate of interest. 
+	</p>
+	<p>
+		In the problems, you will see a problem in which taxes are also inserted into the picture. 
+	</p>
+	<activity xml:id="inflation-1">
+		<introduction>
+			<p> 
+				Our first example comes directly from <xref ref="bibliography-broverman"/>. 
+			</p>
+			<p>
+				Smith invests 1000 for one year at effective annual rate 15.5%. At the time Smith makes the investment, the cost of a certain consumer good is 1.  One year later, when interest is paid and principal is returned to Smith, the cost of the item has become 1.10. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				How many of these consumer items can Smith afford with his initial investment?
+			</p>
+		</task>
+		<task>
+			<p> 
+				How much is returned to Smith from his investment at the end of the year?
+			</p>
+		</task>
+		<task>
+			<p> 
+				How many of these consumer items can Smith afford after one year?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What was the growth rate in Smith's purchasing power?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="inflation-formulas">
+		<introduction>
+			<p> 
+				We will now codify what we did in <xref ref="inflation-1"/> in order to obtain formulas.
+			</p>
+		</introduction>
+		<task xml:id="simple-inflation-formula">
+			<p> 
+				Repeat <xref ref="inflation-1"/> but with an investment of 1.  
+			</p>
+		</task>
+		<task>
+			<p> 
+				Inflation grows at a percentage rate <m>r</m> in the same way that investments grow at at a percentage rate <m>\iota</m>.  We denote the real rate of interest -- the percentage change in purchasing power -- by <m>\iota_{\mathrm{real}}</m>.  
+			</p>
+			<p>
+				Mimic your work in <xref ref="simple-inflation-formula"/> to find a formula for <m>1+\iota_{\mathrm{real}}</m> in terms of <m>\iota</m> and <m>r</m>.
+
+			</p>
+		</task>
+		<task>
+			<p> 
+				While ordinarily we have found it useful to leave our formulas in terms of <m>1+\iota</m>, we will go a little further here.  Solve your formula for <m>\iota_{\mathrm{real}}</m> and simplify so that you have a single rational expression.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-inflation-formulas">
+		<statement>
+			<p> 
+				Suppose that for the coming year inflation is forecast at an effective annual rate of <m>r=0.15</m> and interest is forecast at an effective annual rate <m>\iota = 0.10</m>. What will be the corresponding real, inflation-adjusted rate of interest for the coming year? 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="inflation-reflection">
+		<statement>
+			<p> 
+				What do you notice from the last problem?
+			</p>
+		</statement>
+	</activity>
+</section>

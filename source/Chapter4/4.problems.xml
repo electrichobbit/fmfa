@@ -1,0 +1,410 @@
+<exercises xml:id="problem-solving-with-annuities-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> On the first day of every January, April, July, and October Smith deposits 100 in an account earning <m>\iota^{(4)} = 0.16</m>. He continues the deposits until he accumulates a sufficient balance to begin withdrawals of 200 every 3 months, starting 3 months after the final deposit, such that he can make twice as many withdrawals as he made deposits. How many deposits are needed?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> You are given that <m> _5\left| a_{\angl{10}} \right. = 3 \ _{10}\left| a_{\angl{5}} \right.</m>. Find <m>(1+\iota)^5</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A deferred perpetuity-due begins payments at time <m>n</m> with annual payments of 1000 per year. If the present value of this perpetuity-due is equal to 6561 and the effective rate of interest is <m>\iota = 1/9</m>, find <m>n</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> Payments of 100 per quarter are made from June 7, Z (Z is the year) through December 7, Z+11, inclusive. If the nominal rate of interest convertible quarterly is 6%:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the present value on September 7, Z-1.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the current value on March 7, Z+8.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value on June 7, Z+ 12.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the present value to the nearest dollar on January 1 of an annuity which pays 2000 every six months for five years. The first payment is due on the next April 1 and the rate of interest is 9% convertible semiannually.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the present value of payments of 200 every six months starting immediately and continuing through four years from the present, and 100 every six months thereafter through ten years from the present, if <m>\iota^{(2)} = 0.06</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> In a series of 40 payments, the first 10 payments are 10 each, the second 10 payments are 20 each, the third ten payments are 30 each, and the final payments are 40 each. The payments are equally spaced and the interest rate is 5% per payment period. Find the accumulated value at the time of the final payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan of 10,000 is being repaid by 10 semiannual payments, with the first payment made one-half year after the loan. The first five payments are <m>K</m> each, and the final five payments are <m>K+200</m> each. What is <m>K</m> if <m>\iota^{(2)} = 0.06.</m>
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A worker aged 40 wishes to accumulate a fund for retirement by depositing 3000 at the beginning of each year for 25 years. Starting at age 65, the worker plans to make 15 annual withdrawals at the beginning of each year. Assuming that all payments are certain to be made, find the amount of each withdrawal starting at age 65 to the nearest dollar, if the effective rate of interest is 8% during the first 25 years but only 7% thereafter.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the present value of an annuity-immediate which pays 1 at the end of each half-year for five years, if the rate of interest is 8% convertible semiannually for the first three years and 7% convertible semiannually for the last two years.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan of 10,000 is to be repaid with annual payments at the end of each year for the next 20 years. For the first 5 years the payments are <m>k</m> per year; the second 5 years, <m>2k</m> per year; the third 5 years, <m>3k</m> per year; and the fourth 5 years, <m>4k</m> per year. Find an expression for <m>k</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan of 1000 is repaid with 12 annual payments of 100 each starting one year after the loan is made. The effective annual interest rate is 3.5% for the first 4 years. Find the effective interest rate <m>\iota</m> for the final 8 years.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Simplify <m>a_{\angl{15}}(1+v^{15}+v^{30})</m> to one symbol.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Annuities <m>X</m> and <m>Y</m> provide the following payments:
+			</p>
+			<table>
+				<tabular halign="center">
+					<row>
+						<cell>
+							End of Year
+						</cell>
+						<cell>
+							Annuity <m>X</m>
+						</cell>
+						<cell>
+							Annuity <m>Y</m>
+						</cell>
+					</row>
+					<row>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+						<cell>
+						</cell>
+					</row>
+					<row>
+						<cell>
+							1-10
+						</cell>
+						<cell>
+							1
+						</cell>
+						<cell>
+							<m>K</m>
+						</cell>
+					</row>
+					<row>
+						<cell>
+							11-20
+						</cell>
+						<cell>
+							2
+						</cell>
+						<cell>
+							0
+						</cell>
+					</row>
+					<row>
+						<cell>
+							21-30
+						</cell>
+						<cell>
+							1
+						</cell>
+						<cell>
+							<m>K</m>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Annuities <m>X</m> and <m>Y</m> have equal present values at an annual effective interest rate such that <m>v^{10}=1/2</m>. Determine <m>K</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> At an effective annual interest rate of <m>\iota</m>, <m>\iota>0</m>, both of the following annuities have a present value of <m>X</m>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						a 20-year annuity-immediate with annual payments of 55
+					</p>
+				</li>
+				<li>
+					<p>
+						a 30-year annuity-immediate with annual payments that pays 30 per year for the first 10 years, 60 per year for the second 10 years, and 90 per year for the final 10 years.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan of 1000 is to be repaid by annual payments of 100 to commence at the end of the fifth year and to continue thereafter for as long as necessary. Find the time and amount of the final payment, if the final payment is to be larger than the regular payments. Assume <m>\iota = 4.5\\%</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> One annuity pays 4 at the end of each year for 36 years. Another annuity pays 5 at the end of each year for 18 years. The present values of both annuities are equal at effective rate of interest <m>\iota</m>. If an amount of money invested at the same rate <m>\iota</m> will double in <m>n</m> years, find <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Dottie receives payments of <m>X</m> at the end of each year for <m>n</m> years. The present value of her annuity is 493. Sam receives payments of <m>3X</m> at the end of each year for <m>2n</m> years. The present value of his annuity is 2748. Both present values are calculated at the same effective annual interest rate. Determine <m>v^n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> 10,000 can be invested under two options: 
+			</p>
+			<p>
+				OPTION 1: Deposit the 10,000 into a fund earning an effective annual rate of <m>\iota</m>; or 
+			</p>
+			<p>
+				OPTION 2: Purchase an annuity-immediate with 24 level annual payments at an effective annual rate of 10%. The payments are deposited into a fund earning an effective annual rate of 5%. 
+			</p>
+			<p>
+				Both options produce the same accumulated value at the end of 24 years. Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A benefactor leaves an inheritance to four charities: <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>. The total inheritance is a series of level payments at the end of each year forever. During the first <m>n</m> years, <m>A</m>, <m>B</m>, and <m>C</m> share each payment equally. All payments after <m>n</m> years revert to <m>D</m>. If the present values of the shares of <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all equal, find <m>(1+\iota)^n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Given that <m>\ddot{s}_{\angln \iota} = 551.40</m> and <m>a_{\angln \iota} = 315.85</m>, find <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Given <m>\ddot{a}_{\angln} = 12</m> and <m>\ddot{a}_{\angl{2n}} = 21</m>, find <m>a_{\angl{4n}}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> If <m>s_{\angln} = 70</m> and <m>s_{\angl{2n}} = 210</m>, find the values of <m>(1+\iota)^n</m>, <m>\iota</m>, and <m>s_{\angl{3n}}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> If <m>s_{\angln} = 48.99</m>, <m>s_{\angl{n-2}} = 36.34</m>, and <m>\iota>0</m>, find <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An <m>m+n</m> year annuity of 1 per year has <m>\iota = 7\%</m> during the first <m>m</m> years and has <m>\iota = 11\%</m> during the remaining <m>n</m> years. If <m>s_{\angl{m} 0.07} = 34</m> and <m>s_{\angln 0.11} = 128</m>, what is the accumulated value of the annuity just after the final payment?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Given 54<m>\ddot{a}_{\angl{\infty} \iota} = 1,000</m>, find <m>s_{\angl{22} \iota}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Smith makes deposits of 1000 on the last day of each month in an account earning interest at rate <m>\iota^{(12)} = 0.12</m>. The first deposit is January 31, 2010 and the final deposit is December 31, 2034. The accumulated account is used to pay for monthly payments of <m>Y</m> starting January 31, 2035 with the final one on December 31, 2059. Find <m>Y</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> Since June 30, 2014 Smith has been making deposits of 100 each into a bank account on the last day of each month. For all of 2014 and 2015 Smith\textquotesingle s account earned nominal interest compounded monthly at an annual rate of 9%. For the first 9 months of 2016 the account earned <m>\iota^{(12)} = 0.105</m>, and since then the account has been earning <m>\iota^{(12)} = 0.12</m>. 
+			</p>
+			<p>
+				Find the balance in the account on each of the following days:
+				\begin{enumerate}
+			</p>
+		</introduction>
+		<task>
+			<p>
+				January 1, 2015,
+			</p>
+		</task>
+		<task>
+			<p>
+				January 1, 2016, and
+			</p>
+		</task>
+		<task>
+			<p>
+				February 1, 2017.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A scholarship fund is started on January 1, 2015 with an initial deposit of 100,000 in an account earning <m>\iota^{(2)} = 0.08</m>, with interest credited every June 30 and December 31. Every January 1 from 2016 on, the fund will receive a deposit of 5000. The scholarship fund makes payments to recipients totaling 12,000 every July 1 starting in 2015. What amount is in the scholarship account just after the 5000 deposit is made on January 1, 2025?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A sum of 10,000 was invested on September 1, 1970 at an effective annual interest rate of 5% in order to provide an annual scholarship of 2000 every September 1, forever, starting as soon as possible. In what year will the first payment of 2000 be made? What smaller payment could be made one year earlier while still permitting the annual scholarships of 2000 thereafter? Assume that interest is credited every August 31.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> On the first day of each month, starting January 1, 1995, Smith deposits 100 in an account earning <m>\iota^{(12)} = 0.09</m>, with interest credited the last day of each month. In addition, Smith deposits 1000 in the account every December 31. On what day does the account first exceed 100,000?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> An annuity-immediate that pays 400 quarterly for the next 10 years costs 10,000. Calculate the nominal interest rate convertible monthly earned by this investment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> A 50,000 loan made on January 1, 2010 is to be repaid over 25 years with payments on the last day of each month, beginning January 31, 2010.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				If <m>\iota^{(2)} = 10\%</m>, find the amount of the monthly payment <m>X</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Starting with the first payment, the borrower decides to pay an additional 100 per month, on top of the regular payment of <m>X</m>, until the loan is repaid. An additional fractional payment might be necessary one month after the last payment of <m>X+100</m>.  On what date will the final payment of <m>X+100</m> be made, and what will be the amount of the additional fractional payment?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Jerry will make deposits of 450 at the end of each quarter for 10 years. At the end of 15 years, Jerry will use the fund to make annual payments of <m>Y</m> at the beginning of each year for 4 years, after which the fund is exhausted. The effective annual rate of interest is 7%. Determine <m>Y</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A perpetuity paying 1 at the beginning of each 6-month period has a present value of 20. A second perpetuity pays <m>X</m> at the beginning of every 2 years. Assuming the same effective annual interest rate, the two present values are equal. Determine <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Sally lends 10,000 to Tim. Tim agrees to pay back the loan over 5 years with monthly payments at the end of each month. Sally can reinvest the payments from Tim in a savings account paying interest at 6% compounded monthly. The <term>yield rate</term> over the five-year period (that is, the interest rate that would make the lump sum of 10,000 at time 0 accumulate to the amount in the savings account immediately after the last payment from Tim is deposited) turned out to be 7.45% compounded semi-annually. What nominal rate of interest, compounded monthly, did Sally charge Tim on the loan?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> At an effective annual interest rate of <m>\iota</m>, <m>\iota > 0</m>, the present value of a perpetuity paying 10 at the end of each 3-year period, with the first payment at the end of year 6, is 32. At the same effective annual interest rate of <m>\iota</m>, the present value of a perpetuity-immediate paying 1 at the end of each 4-month period is <m>X</m>. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find an expression for the present value of an annuity on which payments are 100 per quarter for five years, just before the first payment is made, if <m>\delta = 0.08</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> There is 40,000 in a fund which is accumulating at 4% per annum convertible continuously. If money is withdrawn continuously at a rate of 2400 per annum, how long will the fund last?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> If <m>\overline{a}_{\angln} = 4</m> and <m>\overline{s}_{\angln} = 12</m>, find <m>\delta</m>. 
+			</p>
+		</statement>
+	</exercise>
+</exercises>

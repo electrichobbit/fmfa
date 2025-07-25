@@ -1,0 +1,125 @@
+<section xml:id="limits-review">
+	<title>Review -- Limits and L'Ho&#x302;pital's Rule</title>
+	<p>
+		The next form of interest accumulation we would like to investigate is continuous compounding.  In addition to being useful in its own right, continuous compounding can be used an approximation when interest compounds at a high frequency (such as daily). 
+	</p>
+	<p>
+		Figuring out how to perform calculations with continuous compounding requires limits.  We will need to make use of L'H&#302;pital's Rule.  This tells us that if the limit of a quotient of functions is indeterminate: 
+		<me>
+			\lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \frac{\infty}{\infty}, \ \mbox{or} \ \frac{0}{0}
+		</me>
+		then the limit is equal to the limit of the quotient of the derivatives (if it exists): 
+		<me>
+			\lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow a}\frac{f'(x)}{g'(x)}
+		</me>
+	</p>
+	<p>
+		Sometimes this has to be iterated multiple times before we get a limit.
+	</p>
+	<activity xml:id="using-limits-with-interest">
+		<statement>
+			<p> 
+				Recall that <m>\iota^{(n)}</m> is the nominal interest rate compounded <m>n</m> times per year.  Let <m>r</m> denote the equivalent interest rate compounded continuously.  Why is <m>r =\displaystyle{\lim_{n \rightarrow \infty}} \iota^{(n)}</m>?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="more-practice-with-limits">
+		<statement>
+			<p> 
+				The limit above will require L'Ho&#x302;pital's Rule.  Let us practice using this rule with a few exercises.  Evaluate the following limits.  Note that some will require the use of the rule more than once!
+			</p>
+		</statement>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow 2}} \displaystyle{\frac{x-2}{x^2-4}}</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow \infty}} \displaystyle{\frac{\sqrt{x+1}-1}{x+143}}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow 0}} \displaystyle{\frac{e^x-1}{x}}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow \infty}} \displaystyle{\frac{e^{3x}}{x^2}}</m>
+			</p>
+		</task>
+	</activity>
+	<p>
+		There are other indeterminate forms for which L'Ho&#x302;pital's Rule applies.  The simplest way to attack these is to rewrite them as a quotient.  For simplicity, we will only look at the <m>0 \cdot \infty</m> case, as that is what we will need to apply.  
+	</p>
+	<activity xml:id="limits-zero-times-infinity">
+		<introduction>
+			<p> 
+				Evaluate the following limits.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow \infty}} xe^{-7x}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\lim_{x \rightarrow \infty}} x^3e^{-12x}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="deriving-equations-using-limits">
+		<introduction>
+			<p> 
+				Now we will derive our equation for <m>r</m>.  
+			</p>	
+		</introduction>
+		<task>
+			<p> 
+				Let <m>\iota</m> denote the effective annual interest rate and <m>\iota^{(n)}</m> be the equivalent nominal rate compounded <m>n</m> times per year.  Write down the equation relating <m>\iota^{(n)}</m> and <m>1+\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve this equation for <m>\iota^{(n)}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use L'Ho&#x302;pital's Rule to find <me>r = \lim_{n \rightarrow \infty} \iota^{(n)}</me>. Note that you will need the following derivative rule: 
+				<me>\frac{d}{dx} \left(b^x\right) = \ln(b) \cdot b^x</me>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-the-accumulation-function">
+		<introduction>
+			<p> 
+				You now have an equation relating the annual continuous compound interest rate <m>r</m> and the effective annual interest rate <m>\iota</m>.  We can now find our accumulation functions. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				The base of our exponential function is <m>a(1)</m>.  With our effective annual interest rate is <m>\iota</m> we have <m>a(1) = 1+\iota</m>.  Use this to write <m>a(1)</m> in terms of our continuous rate <m>r</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the accumulation function <m>A(t)</m> using a continuously compounded interest rate of <m>r</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the present value function with a continuously compounded interest rate of <m>r</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="continuous-interest-reflection">
+		<task>
+			<p> 
+				Explain what it means for interest to compound continuously.
+			</p>
+		</task>
+	</activity>
+</section>

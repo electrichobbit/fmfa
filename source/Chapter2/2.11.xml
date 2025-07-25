@@ -1,0 +1,165 @@
+<section xml:id="present-future-value-with-force-of-interest">
+	<title>Present and Future Value with the Force of Interest</title>
+	<p>
+		Our next task is to determine how to find the present and accumulated values of cash flows when given the force of interest.  This is equivalent to finding the accumulation function <m>A(t)</m> when given the force of interest <m>\delta_t</m>.  Since <m>\delta_t</m> is a derivative, it shouldn't surprise you that recovering <m>A(t)</m> from <m>\delta_t</m> involves integration.  We aren't going to do this rigorously.  Rather, we will use the general principal that as we go from discrete to continuous, we have <m>\sum \rightarrow \int</m>. 
+	</p>
+	<assemblage>
+		<title>&#9888; Warning</title> 
+		<p>
+			One note about notation -- we are going to start seeing <m>e</m> raised to complicated exponents.  It is customary to use <m>\mathrm{exp}( \ )</m> in these situations.  In other words, <m>e^{f(x)} = \mathrm{exp}(f(x))</m>.
+		</p>
+	</assemblage>
+	<activity xml:id="simple-force-example">
+		<introduction>
+			<p> 
+				We'll start with a simple example.  Suppose 1 is invested in an account that has an annual continuously compounded interest rate of 5% during the first year, 3.5% during the second year, and 6% during the third year.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the accumulated value at the end of the third year.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the force of interest <m>\delta_t</m> (don't overthink this!).
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#9888; Warning</title> 
+		<p>
+			As we will see, it turns out that having a continuously compounding interest rate of <m>r</m> over a period is equivalent to having a constant force of interest <m>\delta</m> over the period, and <m>\delta = r</m>.  For the rest of this book, unless otherwise indicated, we will use <m>\delta</m> for our continuously compounded interest rates (as well as a constant force of interest).  Note that when you start preparing for the IFM exam, these notation conventions will change.
+		</p>
+	</assemblage>
+	<activity xml:id="generalizing-force-calculation">
+		<introduction>
+			<p> 
+				Let us generalize this example.  Suppose our force of interest <m>\delta_t</m> takes on constant values <m>\delta_1, \delta_2, \ldots, \delta_n</m> during years <m>1, \ldots, n</m> respectively.  
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find an expression for the accumulation factor in which the base <m>e</m> is written once.
+			</p>
+		</task>
+		<task>
+			<p> 
+				For a general <m>\delta_t</m> (which we will assume is continuous, at least except for finitely many points), in the exponent we have to add up each value of <m>\delta_t</m> for each <m>t</m>.  Since we are going from adding up a discrete number of values to a continuum of values, we use the principal that <me>\sum \rightarrow \int</me>  Find an expression for the accumulation factor at the end of year <m>n</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Given <m>\delta_t</m>. write an equation for the accumulation function <m>A(t)</m>.  In addition, find an equation for the present value.
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#9888; Warning</title> 
+		<p>
+			We will often have time running to <m>n</m>, and we can write <me>\int_0^n \delta_t dt</me>  Other times we have time running to <m>t</m> (and for a specific time, we will use <m>n</m> and <m>t</m> interchangeably).  If that is the case, we have to integrate with respect to a variable besides <m>t</m>, such as <m>r</m>: <m>\int_0^t \delta_r dr</m>
+		</p>
+	</assemblage>
+	<activity xml:id="constant-force-of-interest">
+		<statement>
+			<p> 
+				Show that if <m>\delta_t = \delta</m> is constant, then interest accumulates by compound interest,  <m>A(t) = A(0)e^{\delta t}</m>, and <m>\delta = \ln(1+\iota)</m> where <m>\iota</m> is the effective interest rate with a period matching the units of time.  
+			</p>
+		</statement>
+	</activity>
+	<assemblage>
+		<title>&#9888; Warning</title> 
+		<p>
+			This tells us that if we are given a constant force of interest over a period of time, we accumulate via compound interest over that time.  You will often see problems in which you are given <m>\delta</m> (as opposed to <m>\delta_t</m>), in which case you can and should assume that <m>\delta</m> is constant. 
+		</p>
+	</assemblage>
+	<activity xml:id="calculating-accumulation">
+		<statement>
+			<p> 
+				If we have <me>\delta_t = \frac{\iota}{1 + \iota t}</me> what is <m>A(t)</m>?  What do you notice?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-value-with-force-of-interest">
+		<statement>
+			<p> 
+				Solve the following exercises.
+			</p>
+		</statement>
+		<task>
+			<p> 
+				Find the value of 1500 after 5 years with <m>\delta_t = \frac{t^3}{150}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the present value of 750 at time <m>t = 4.5</m> with <m>\delta_t = \frac{2t^2}{75}</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose 500 is deposited quarterly every quarter for a year.  Find the present value assuming the force of interest is <m>\delta_t = \frac{t^2}{100}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				For the period from time 0 to time 2, the force of interest is defined as follows:
+			</p>
+			<me>
+				\delta_t = \left\{ \begin{array}{cc}
+				0.05 &amp; \hspace{5mm} 0 \leq t \leq 1 \\
+				0.05+0.02(t-1) &amp; \hspace{5mm} 1 &lt; t \leq 2 \\
+				\end{array} \right.
+			</me>
+			<p>
+				10,000 is invested at time 0. Find the accumulated value at time 1 and at time 2.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="force-of-interest-exam-problems">
+		<introduction>
+			<p> 
+				Solve the following former SOA exam problems.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p> 
+					At time <m>t=0</m>, 1 is deposited into each of Fund <m>X</m> and Fund <m>Y</m>. Fund <m>X</m> accumulates at a force of interest <m>\delta_t = \frac{t^2}{k}</m>. Fund <m>Y</m> accumulates at a nominal rate of discount of 8% per annum convertible semiannually. At time <m>t=5</m>, the accumulated value of Fund <m>X</m> equals the accumulated value of Fund <m>Y</m>. Determine <m>k</m>.
+				</p>
+			</statement>
+			<solution>
+				<p>
+					We will value both accounts at time 5:
+				</p>
+				<me>
+					e^{\int_0^5 \frac{t^2}{k}\,dt} = \left(1-\frac{0.08}{2}\right)^{2*(-5)}
+				</me>
+				<me>
+					e^{\frac{5^3}{3k}} = 1.50414
+				</me>
+				<me>
+					\frac{5^3}{3k} = 0.40822
+				</me>
+				<me>
+					\frac{1}{k} = 0.00980
+				</me>
+				<me>
+					k = 102.07
+				</me>
+			</solution>
+		</task>
+		<task>
+			<p> 
+				Ernie makes deposits of 100 at time 0, and <m>X</m> at time 3. The fund grows at a force of interest <m>\delta_t = \frac{t^2}{100}</m> (<m>t>0</m>). The amount of interest earned from time 3 to time 6 is <m>X</m>. Calculate <m>X</m>. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="force-of-interest-calculation-reflection">
+		<statement>
+			<p> 
+				What challenges do you think you need to work on regarding force of interest?
+			</p>
+		</statement>
+	</activity>
+</section>

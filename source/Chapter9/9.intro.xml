@@ -1,0 +1,8 @@
+<introduction>
+	<p>
+		Long-term investments entail more risk than short-term investments, generally speaking.Even for risk-free investments, the price for deferred consumption should be greater the longer consumption is deferred.  Consequently, we expect to see effective annual interest rates increase for longer investments.  When we list the effective annual interest rate as a function of the length of the investment, we are describing the <term>term structure of interest rates</term>.  Each rate is called a <term>spot rate</term>, and when we plot them, we have something called the <term>yield curve</term>.  Note that the word "spot" refers to something identified on the market right now ("on the spot") -- zero coupon bonds are used to determine spot rates. 
+	</p>
+	<p>
+		Another question we can ask about interest rates and times is what we might expect today for the effective annual interest rate two years from today.  These rates are called <term>forward rates</term> (they are estimated to be in place "forward" in time).  The term structure can be used to calculate implied forward rates. When market rates do not match the implied forward rates, there is an opportunity for arbitrage.
+	</p>
+</introduction>

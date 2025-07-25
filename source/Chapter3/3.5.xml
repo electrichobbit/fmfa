@@ -1,0 +1,204 @@
+<section xml:id="future-and-present-values-of-annuities-immediate">
+  <title>Future and Present Values of Annuities-Immediate</title>
+  <p>
+    In <xref ref="review-geometric-sequences"/>, you used the geometric series formula to find the equation for the present value of an annuity immediate: <me>a_{\angln } = \frac{1-v^n}{\iota}</me>  In this section, we will use this result to find the formulas for <m>a_{\angl{\infty}}</m> and <m>s_{\angln}</m> as well, then we can solve our problems. 
+  </p>
+  <activity xml:id="present-value-perpetuity-immediate">
+    <introduction>
+      <p> 
+        Let's start with the present value of a perpetuity-immediate.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> 
+          Recall that <m>v = \frac{1}{1+\iota}</m>.  Find <m>\lim_{n \rightarrow \infty}v^n</m>.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          \lim_{n\to\infty} v^n = \lim_{n\to\infty} \frac{1}{(1+\iota)^n} = 0
+        </me>
+        <p>
+          Since <m>\iota > 0</m> and thus <m>1+\iota > 1</m>.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          The present value of a perpetuity immediate is <me>a_{\angl\infty \iota} = \lim_{n \rightarrow \infty} a_{\angln \iota}</me>  Use your result from the last question to find a formula for <m>a_{\angl\infty \iota}</m>.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          a_{\angl\infty \iota} = \lim_{n \rightarrow \infty} a_{\angln \iota}
+        </me>
+        <me>
+          a_{\angl\infty \iota} = \lim_{n \rightarrow \infty} \frac{1-v^n}{\iota}
+        </me>
+        <me>
+          a_{\angl\infty \iota} = \frac{1}{\iota}
+        </me>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          Why is it that we don's talk about the future value of a perpetuity-immediate?
+        </p>
+      </statement>
+      <solution>
+        Future value is taken at the end of an investment, and the perpetuity-immediate never ends.  We could talk about its value at some time in the future, but we would need to specify when.
+      </solution>
+    </task>
+  </activity>
+  <activity xml:id="values-of-annuity-immediate">
+    <introduction>
+      <p> 
+        Now we move on to <m>s_{\angln}</m>.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Since we are dealing with an annuity-immediate, <m>a_{\angln \iota}</m> represents the value of an annuity at the beginning of the first period, and the first payment comes at the end of the first period.  The accumulated value <m>s_{\angln \iota}</m> represents the value immediately after the final payment.  Represent these two quantities on a timeline.
+      </p>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          Here is the big reveal!  We can treat the present value of the annuity and the accumulated value of the annuity as lump sums that are equivalent to the sequence of payments.  Use this idea to determine an equation relating <m>a_{\angln \iota}</m> and <m>s_{\angln \iota}</m>, and then derive an explicit equation for <m>s_{\angln \iota}</m>.  
+        </p>
+      </statement>
+      <solution>
+        <p>
+          If we have that the value of the annuity at time 0 is <m>a_{\angln \iota}</m>, then we can find the value at time <m>n</m> by simply moving that investment forward in time:
+        </p>
+        <me>
+          s_{\angln \iota} = a_{\angln \iota}(1+\iota)^n
+        </me>
+        <me>
+          s_{\angln \iota} = \frac{1 - v^n}{\iota}(1+\iota)^n
+        </me>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Write your equation so that <m>s_{\angln \iota}</m> only depends on <m>n</m> and <m>\iota</m>.  The timeline you generated in the previous question should help!
+        </p>
+      </statement>
+      <solution>
+        <me>
+          s_{angln \iota} = \frac{(1+\iota)^n - 1}{\iota}
+        </me>
+      </solution>
+    </task>
+  </activity>
+  <activity xml:id="solving-annuity-problems">
+    <introduction>
+      <p> 
+        The problems from <xref ref="introduction-to-immediate-annuities"/> are repeated below, as well as the timelines that were generated in <xref ref="actuarial-notation-2"/>.  Rewrite (or re-derive) your equations from <xref ref="actuarial-notation-2"/> and solve the problems.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        To accumulate 8000 at the end of 3<m>n</m> years, deposits of 98 are made at the end of each of the first <m>n</m> years and 196 at the end of each of the next 2<m>n</m> years.  The effective annual rate of interest is <m>\iota</m>. You are given <m>(1+\iota)^n = 2.0.</m> Determine <m>\iota</m>.
+      </p>
+      <figure>
+        <caption>Timeline for an annuity with deposits of 98 per year for the first n years and deposits of 196 for 2n years.</caption>
+        <image source="images/image-14.svg"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        Jeff deposits 10 into a fund today and 20 fifteen years later. Interest is credited at a nominal discount rate of <m>d</m> compounded quarterly for the first 10 years, and at a nominal interest rate of 6% compounded semiannually thereafter.  The accumulated balance in the fund at the end of 30 years is 100. Calculate <m>d</m>. 
+      </p>
+      <figure>
+        <caption>Timeline for an annuity with deposit 10 now and 20 fifteen years later.</caption>
+        <image source="images/image-15.svg"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        A generous, anonymous donor purchases an annuity immediate for <m>X</m> with annual payments <m>K</m> for 20 years.  She deposits the annual payments into an account earning an effective annual interest rate of 5%.  At the end of the 20 years, the accumulated amount is to be paid over to Tom Riddle.  By the end of the 20 years, Tom Riddle has become Lord Voldemort, who expects to live forever.  Voldemort uses the payout to purchase a perpetuity immediate that pays out 500 at the end of every year valued with an effective annual interest rate of 4%. 
+      </p>
+      <p>
+        Find <m>X</m>.
+      </p>
+      <figure>
+        <caption> Annuity purchased for X with annual payments of K for 20 years.</caption>
+        <image source="images/image-16.svg"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        Suppose we save \<m>1000 at the end of every year for the next 3 years, earning an effective annual rate of 8%.  Beginning at the end of the year following our last deposit, we will withdraw \</m>1100 at the end of each year for 3 years, and withdraw the remainder <m>X</m> at the end of the following year. Find <m>X</m>.
+      </p>
+      <figure>
+        <caption>Timeline for an annuity where 1000 is saved at the end of each year for 3 years, and then 1100 is withdrawn every year for 3 years.</caption>
+        <image source="images/image-17.svg"/>
+      </figure>
+    </task>
+  </activity>
+  <assemblage>
+    <title>
+      <m>&#x1F9EE;</m><term>Calculator Corner</term>
+    </title>
+    <p> 
+      We can use our calculators to find the present value or accumulated value of an annuity-immediate.  Type <m>n</m> followed by <kbd>N</kbd>, then type the effective interest rate (entered as a percentage) followed by <kbd>I/Y</kbd>, and type <m>K</m>, followed by <kbd>&#177;</kbd> (entering your payments as negative is CRITICAL), and then <kbd>PMT</kbd>.  If you are looking for the present value, type 0 followed by <kbd>FV</kbd>, and then <kbd>CPT</kbd> followed by <kbd>PV</kbd>.  If you are looking for the accumulated value, flip what we did with <kbd>FV</kbd> and <kbd>PV</kbd>.  
+    </p>
+    <p>
+      Note that we can solve for unknown values in the calculator by typing in everything we know and then <kbd>CPT</kbd> followed by the key for the missing value.  Indeed, this is the only way we can solve for an unknown interest rate. You MUST have the payments negative for this to work.  
+    </p>
+    <p>
+      Finally, if you need to find a value from one annuity, and then use it for another, you can do this in the calculator.  Follow the directions above for the first value, leave it on the screen and type the key for the TMV value where this solution fits into the new annuity, and continue.
+    </p>
+  </assemblage>
+  <activity xml:id="using-calculators-with-annuities">
+    <introduction>
+      <p>
+        Use your calculator to find the following values.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>100s_{\angl{12} 0.035}</m>. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>595a_{\angl{360} 0.0125}</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-calculators-with-annuities-reflection-1">
+    <statement>
+      <p> 
+        From the problems above, which can you solve with help from the calculator? Which can you solve completely in the calculator? Explain.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="using-calculators-with-annuities-reflection-2">
+    <statement>
+      <p> 
+        Why is it important to both know the formulas and also how to use the calculator?
+      </p>
+    </statement>
+  </activity>
+  <assemblage>
+    <title>
+      <m>&#x1F9EE;</m><term>Calculator Tip</term>
+    </title>
+    <p>
+      While you are still learning about annuities, calculate present and future values both using the formula and using the calculator (if possible).  That will help you learn and master both, and give you a sense of control at the same time. 
+    </p>
+  </assemblage>
+  <activity xml:id="future-and-present-values-of-annuities-immediate-reflection">
+    <statement>
+      <p> 
+        What are the advantages and disadvantages of actuarial notation?
+      </p>
+    </statement>
+  </activity>
+</section>

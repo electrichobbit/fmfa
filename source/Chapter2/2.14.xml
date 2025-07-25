@@ -1,0 +1,312 @@
+<section xml:id="multiple-forms-of-interest-accumulation">
+  <title>Problem Solving 3 -- Multiple Forms of Interest Accumulation</title>
+  <p>
+    You will encounter problems that involve a variety of forms of interest accumulation occurring consecutively.  In this activity, we will work through some examples.  There is no new mathematics or finance in this activity, it will serve as a review of the first two chapters before we dive into the wide world of annuities.
+  </p>
+  <activity xml:id="forms-of-interest-accumulation">
+    <introduction>
+      <p> 
+        We start by listing all of the forms of interest accumulation we have learned.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        List all forms of interest accumulation that we have seen that are equivalent to compound interest.
+      </p>
+    </task>
+    <task>
+      <p> 
+        List all other forms of interest accumulation we have seen (those that are not equivalent to compound interest).
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="different-approaches-to-multiple-forms">
+    <introduction>
+      <p> 
+        The following exercise involves multiple forms of accumulation that are equivalent to compound interest.  There are two ways of solving this: we can push forward with appropriate accumulation factors for each time period, or we can convert all rates to a common form and push forward using those equivalent rates.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        First, solve the problem: 
+      </p>
+      <p>
+        The amount 1075 is deposited into an account at time <m>t = 0</m>.  For the first two years, the account accumulates interest at a rate <m>\iota^{(2)} = 4\%</m>. During the next two years, the account accumulates discount at an effective annual rate <m>d = 2.5\%</m>.  For the following three years, discount accumulates at a rate <m>d^{(4)} = 6\%.</m>  Then the account accumulates interest at an effective annual interest rate of <m>5\%</m> for three years, followed by 5 years with a force of interest <m>\delta = 3\%</m>.  Find the future value.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Which approach did you take to solving the problem?  Did you use the original accumulation factors or did you convert to a common form of interest accumulation?  What were the advantages and disadvantages?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="nonequivalent-forms-of-interest-accumulation">
+    <statement>
+      <p> 
+        Sometimes we may have two or more nonequivalent forms of interest accumulation.  Solve the following: 
+      </p>
+      <p>
+        A deposit of 700 is made at time <m>t=3.25</m> and another deposit of 950 is made at time <m>t = 5</m>.  A withdrawal of <m>X</m> is made at time <m>t = 8</m>.  Immediately after the withdrawal, 100 is left in the account. 
+      </p>
+      <p>
+        The account carries <m>\iota^{(4)} = 6\%</m> between times <m>t = 0</m> and <m>t = 3.5</m>, <m>d^{(2)} = 7\%</m> between times 3.5 and 4.5, and a simple annual interest rate of <m>\iota = 4\%</m> between times 4.5 and 10. 
+      </p>
+      <p>
+        Find <m>X</m>. 
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="multiple-forms-SOA-exam-problem">
+    <statement>
+      <p> 
+        Solve the following former SOA FM exam problem: 
+      </p>
+      <p>
+        Jeff deposits 10 into a fund today and 20 fifteen years later. Interest is credited at a nominal discount rate of <m>d</m> compounded quarterly for the first 10 years, and at a nominal interest rate of 6% compounded semiannually thereafter. The accumulated balance in the fund at the end of 30 years is 100. Calculate <m>d</m>. 
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="comparing-present-future-value-formulas">
+    <introduction>
+      <p> 
+        Let us conclude by reviewing some formulas.  First, we will review present and future value formulas.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> 
+          Fill in the following table with accumulation factors: 
+        </p>
+        <table>
+          <tabular>
+            <row>
+              <cell>
+              </cell>
+              <cell>
+                Future Value
+              </cell>
+              <cell>
+                Present Value
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Simple Interest <m>\iota</m>
+              </cell>
+              <cell>
+                <m>a(t) = \hskip 1in</m>
+              </cell>
+              <cell>
+                <m>a(0) = \hskip 1in</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Effective Compound Interest <m>\iota</m>
+              </cell>
+              <cell>
+                <m>a(t) = \hskip 1in</m>
+              </cell>
+              <cell>
+                <m>a(0) = \hskip 1in</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Effective Compound Discount <m>d</m>
+              </cell>
+              <cell>
+                <m>a(t) = \hskip 1in</m>
+              </cell>
+              <cell>
+                <m>a(0) = \hskip 1in</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Constant force of interest <m>\delta</m>
+              </cell>
+              <cell>
+                <m>a(t) = \hskip 1in</m>
+              </cell>
+              <cell>
+                <m>a(0) = \hskip 1in</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Non-constant force of interest <m>\delta_t</m>
+              </cell>
+              <cell>
+                <m>a(t) = \hskip 1in</m>
+              </cell>
+              <cell>
+                <m>a(0) = \hskip 1in</m>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <table>
+          <tabular>
+            <row>
+              <cell>
+              </cell>
+              <cell>
+                Future Value
+              </cell>
+              <cell>
+                Present Value
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Simple Interest <m>\iota</m>
+              </cell>
+              <cell>
+                <m>a(t) = a(0)(1+\iota t)</m>
+              </cell>
+              <cell>
+                <m>a(0) = \frac{a(t)}{1+\iota t)}</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Effective Compound Interest <m>\iota</m>
+              </cell>
+              <cell>
+                <m>a(t) = a(0)(1+\iota)^t</m>
+              </cell>
+              <cell>
+                <m>a(0) = a(t)(1+\iota)^{-t}</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Effective Compound Discount <m>d</m>
+              </cell>
+              <cell>
+                <m>a(t) = a(0)(1-d)^{-t}</m>
+              </cell>
+              <cell>
+                <m>a(0) = a(t)(1-d)^t</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Constant force of interest <m>\delta</m>
+              </cell>
+              <cell>
+                <m>a(t) = a(0)e^{\delta t}</m>
+              </cell>
+              <cell>
+                <m>a(0) = a(t)e^{-\delta t}</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                Non-constant force of interest <m>\delta_t</m>
+              </cell>
+              <cell>
+                <m>a(t) = a(0)e^{\int_0^t \delta_r\, dr}</m>
+              </cell>
+              <cell>
+                <m>a(0) = a(t)e^{\int_t^0 \delta_r\, dr}</m>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </solution>
+    </task>
+    <task>
+      <p> 
+        For those that are equivalent, write two equations: one equating all of the equivalent accumulation factors and one equating all of the equivalent present value factors.  These are called "all-in-one" equations.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Which of these formulas do you feel you need to memorize, and which can you figure out from first principles?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="conversion-formulas-for-equivalents-to-compound-interest">
+    <introduction>
+      <p> 
+        Finally we review conversion formulas for forms of interest equivalent to compound interest.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Fill in the following table, assuming you are given the information described in each row and want to convert to the rate described in each column, and each rate is effective. 
+      </p>
+      <p>
+        Note that we have not yet found conversion rates between discount and constant force of interest.  In the space below the table, pass through effective interest in order to figure these out! 
+      </p>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              <m>\iota</m>
+            </cell>
+            <cell>
+              <m>d</m>
+            </cell>
+            <cell>
+              <m>\delta</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>\iota</m>
+            </cell>
+            <cell>
+              <m>\iota = \iota</m>
+            </cell>
+            <cell>
+              <m>d = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>\delta = \hskip 1in</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>d</m>
+            </cell>
+            <cell>
+              <m>\iota = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>d = d</m>
+            </cell>
+            <cell>
+              <m>\delta = \hskip 1in</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <m>\delta</m>
+            </cell>
+            <cell>
+              <m>\iota = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>d = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>\delta = \delta</m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </task>
+    <task>
+      <p> 
+        Which of these formulas do you feel you need to memorize, and which can you figure out from timelines and first principles?
+      </p>
+    </task>
+  </activity>
+</section>

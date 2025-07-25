@@ -1,0 +1,113 @@
+<section xml:id="basic-swap-transaction">
+	<title>The Basic Swap Transaction</title>
+	<p>
+		Borrowers avoid the uncertainty that comes with floating rate loans by contracting with a third party, or a <term>counterparty</term>, who pays the floating rate interest payments to the borrower in exchange for the borrower paying them regular interest payments at a fixed rate.  The fixed rate is called the <term>swap rate</term>.  In the context of an interest rate swap, the borrower is called the <term>payer</term> and the counterparty is called the <term>receiver</term>.  The payments made from the payer to the receiver are called the <term>fixed payments</term> while those in the opposite direction are called <term>floating payments</term>. The floating payments are then made by the payer back to the lender for their interest payments. 
+	</p>
+	<p>
+		A visual depiction of the transaction is:
+	</p>
+	<figure xml:id="basic-swap-illustration">
+		<caption>Schematic diagram of a basic swap transaction.</caption>
+		<image source="images/InterestRateSwapTransaction.png"/>
+	</figure>
+	<p>
+		Of course, it would be silly for the payer and receiver to exchange the same amount. They typically just make a net payment.  For example, if the floating payment is 600 and the fixed payment is 500, the receiver just pays the payer 100.  Then the receiver pays the lender 600, but that includes the 100 the receiver paid. 
+	</p>
+	<p>
+		There are some other vocabulary terms we need that come along with this transaction:
+	</p>
+	<ul>
+		<li>
+			<p>
+				The <term>swap rate</term> is the fixed rate <m>R</m> at which the payer makes fixed payments to the receiver.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <term>notional amount</term> is the amount <m>X</m> to which the rate <m>R</m> is applied (so the payer pays <m>RX</m> to the receiver).  For now, think of this as the principal amount of the original loan.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <term>swap term</term>, also called the <term>swap tenor</term>, is the length of time during which the swap is in effect.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <term>settlement dates</term> are the dates when payments are exchanged between payer and receiver.
+			</p>
+		</li>
+		<li>
+			<p>
+				The <term>settlement period</term> is the time between settlement dates.
+			</p>
+		</li>
+	</ul>
+	<p>
+		The driving question in this chapter is how to calculate the swap rate <m>R</m>, but for this section, we will focus on making sense of the underlying transaction.  We will calculate swap rates in <xref ref="calculating-the-swap-rate"/>.
+	</p>
+	<activity xml:id="identifying-parties-in-swap-transaction">
+		<statement>
+			<p>
+				Bye Felicia Inc. wants to borrow 12 million at a constant interest rate.  Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate.  In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract. 
+			</p>
+			<p>
+				Identify the payer, receiver, and notional amount in this transaction.
+				
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="creating-timelines-for-swap-transaction">
+		<statement>
+			<p>
+				Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today.  Identify the swap term, the settlement dates, the settlement periods, and the swap tenor.  Display each of these on a single timeline.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="swap-transaction-with-libor">
+		<statement>
+			<p>
+				Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR.  Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%.  Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  
+			</p>
+			<p>
+				Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.
+			</p>
+		</statement>
+	</activity>
+	<p>
+		The receiver has what is called the <term>fixed leg</term> of the interest rate swap, meaning they receive the fixed payments.  The payer has the <term>floating leg</term>.
+	</p>
+	<activity xml:id="fixed-leg-of-a-payment-rate-swap">
+		<statement>
+			<p>
+				On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the "fixed leg" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate.  The notional balance is 35,000,000, the fixed rate is <m>\iota^{(4)} = 5.25\%</m>, and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4/01/1994, 4.875% for the period beginning 7/01/94, 5.688% for the period beginning 10/01/94, and 6.328% for the period beginning 1/01/95. Determine the amount and time of all payments.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="making-a-swap-against-libor-rate">
+		<statement>
+			<p>
+				Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%. 
+			</p>
+			<p>
+				ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate. 
+			</p>
+			<p>
+				The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively. 
+			</p>
+			<p>
+				ABC does not make or receive any other payments. 
+			</p>
+			<p>
+				Calculate the net interest payment that ABC makes in the second year.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="basic-swap-transaction-reflection">
+		<statement>
+			<p>
+				Why would a counterparty enter into an interest rate swap as a receiver?  What are they betting?  In what way does an interest rate swap resemble an insurance contract?
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,169 @@
+<section xml:id="equations-of-value">
+	<title>Problem Solving 2 -- Equations of Value</title>
+	<p>
+		In several problems, we generate an equation to solve by identifying a time at which we value everything, and then constructing an equation using those values.  This equation is called an <term>equation of value</term>.  Sometimes we have to do this two or three times in order to find intermediate values needed to get the final answer. 
+	</p>
+	<p>
+		For each problem, generate an equation of value at the indicated points in time (make timelines to help!).  <em>Look for shortcuts!</em> 
+	</p>
+	<activity xml:id="equation-tv">
+		<introduction>
+			<p> 
+				Ed buys a TV from Al for 480 by paying 50 in cash, 100 every three months for one year (four payments of 100), and a final payment in 15 months (three months after the final quarterly payment). Find the amount of the final payment if Al earns a 3-month compound interest rate of 3%.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p> 
+					Construct an equation at the time of the original purchase. 
+				</p>
+			</statement>
+			<solution>
+				<me>
+					480 = 50 + 100(1.03)^{-1} + 100(1.03)^{-2} + 100(1.03)^{-3} + 100(1.03)^{-4} + X(1.03)^{-5}
+				</me>
+				<me>
+					X = 67.57
+				</me>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p> 
+					Construct an equation at the time of the final payment.
+				</p>
+			</statement>
+			<solution>
+				<me>
+					480(1.03)^5 = 50(1.03)^5 + 100(1.03)^4 + 100(1.03)^3 + 100(1.03)^2 + 100(1.03) + X
+				</me>
+				<me>
+					X = 67.57
+				</me>
+			</solution>
+		</task>
+	</activity>
+	<activity xml:id="equation-multiple-withdrawal">
+		<introduction>
+			<p> 
+				3500 is deposited into an account bearing an annual compound interest rate of 4.5%.  Two years later, <m>X</m> is withdrawn.  One year after the withdrawal, <m>X</m> is deposited.  Three years after the deposit of <m>X</m>, the balance is 4501.42.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Construct an equation at the time of the deposit of 3500..
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the time of the withdrawal of <m>X</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the time of the deposit of <m>X</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the time the balance is 4501.42.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="equation-withdrawal-with-penalty">
+		<introduction>
+			<p> 
+				Carl puts 10,000 into a bank account that pays an effective annual interest rate of 4% for ten years, with interest credited at the end of each year. If a withdrawal is made during the first five and one-half years, a penalty of 5% of the withdrawal is made. Carl withdraws <m>K</m> at the end of each of years 4, 5, 6, and 7. The balance in the account at the end of year 10 is 10,000. Calculate <m>K</m>. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Construct an equation at the time the 10,000 was deposited in the bank account.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the time of the first withdrawal of <m>K</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the time of the last withdrawal of <m>K</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Construct an equation at the end of year 10.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-equations">
+		<statement>
+			<p> 
+				For each problem from <xref ref="equation-tv"/>, <xref ref="equation-multiple-withdrawal"/>, and <xref ref="equation-withdrawal-with-penalty"/>, select one of your equations and solve it. This will solve the problems! 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="equation-strategy">
+		<statement>
+			<p> 
+				Assess your strategies: what criteria did you use to select which equation to solve? 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="equations-exam-like">
+		<introduction>
+			<p> 
+				Solve the following exam-like problems:
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p> 
+					An amount of 900 is deposited into an account.  At the end of each of the next two years, 500 is withdrawn from the account.  After the second withdrawal, the account is depleted.  What is the annual interest rate?
+				</p>
+			</statement>
+			<solutiion>
+				<me>
+					900 = 500(1+\iota)^{-1} + 500(1+\iota)^{-2}
+				</me>
+				<p>
+					Let <m>x = (1+\iota)^{-1}</m>
+				</p>
+				<me>
+					900 = 500x + 500x^2
+				</me>
+				<me>
+					500x^2 + 500x - 900 = 0
+				</me>
+				<me>
+					x = \frac{-500 \pm \sqrt{500^2-4*500*(-900)}}{2*500}
+				</me>
+				<me>
+					x = 0.931782, -1.931782
+				</me>
+				<me>
+					(1 + \iota)^{-1} = 0.931782
+				</me>
+				<me>
+					1 + \iota = \frac{1}{0.931782}
+				</me>
+				<me>
+					\iota = 0.0732
+				</me>
+			</solutiion>
+		</task>
+		<task>
+			<p> 
+				It is known that an investment of 500 will increase to 4000 at the end of 30 years. Find the sum of the present values of three payments of 10,000 each which will occur at the end of 20, 40, and 60 years. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="equation-exam-like-reflection">
+		<statement>
+			<p> 
+				Solving SOA exam problems requires careful attention to details. What detail did we focus on in this activity? 
+			</p>
+		</statement>
+	</activity>
+</section>

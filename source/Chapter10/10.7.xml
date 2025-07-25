@@ -1,0 +1,164 @@
+<sections xml:id="ethics-credit-default-swaps">
+	<title>Ethics Case Study -- Credit Default Swaps and the 2008 Financial Crisis</title>
+	<p>
+		Recall that an important contributor to the 2008 financial crisis was the mortgage-backed security industry.  Investment banks (acting as "underwriters") purchased mortgage loans, bundled them together, and sold bonds to investors backed by the mortgage payments.  By the early 2000s, many of these mortgages were subprime (meaning that the borrowers had questionable creditworthiness) with adjustable interest rates, and after the housing bubble burst in 2007, the default rate skyrocketed.  These defaults propagated through the financial system, resulting in defaults on the mortgage-backed securities and nearly crashing the global financial system. 
+	</p>
+	<p>
+		Another, related, contributor was the credit default swap.  A <term>credit default swap</term> is similar to an interest rate swap in that one party to a loan contracts with a counterparty in order to reduce their risk.  In this case, the lender reduces the risk of borrower default by contracting with a counterparty.  The lender agrees to make payments to the counterparty (called <term>premiums</term>) in exchange for the counterparty making a payment to the lender in the event of default.  For our purposes, we will assume that the counterparty pays off the remainder of the loan in the event of default, although this can be more complicated.   
+	</p>
+	<p>
+		The contract is the credit default swap, the lender is the buyer of the credit default swap, and the counterparty is the seller of the credit default swap. 
+	</p>
+	<p>
+		Underwriters and investors purchased credit default swaps on mortgage-backed securities, but the sellers underestimated the probability of default (in part due to faulty probabilistic assumptions made by rating agencies) and were unable to meet their obligations when the securities went into default.  
+	</p>
+	<p>
+		There is more to this story.  The purchaser of a credit default swap need not be an actual lender.  An investor can purchase a credit default swap from a seller where the investor has no interest in the underlying loan (or in this case, mortgage-backed securities).  Such an investor is more or less placing a bet that the loan or security will default.  Such an investor is "shorting" the loan (or the security, or the financial institution selling the security), a term used for an investment that benefits from a reduction in the value of an asset.  This is the initial premise behind the book and movie <pubtitle>The Big Short</pubtitle>. 
+	</p>
+	<p>
+		Congress responded to the financial crisis with the Dodd-Frank Act in 2010.  Suppose you are a staff member working for representative Barney Frank (from MA) and are working on the original bill in 2009.  Several constituents have called and demanded that the bill ban credit default swaps.  We will consider this question through our ethical decision making framework.
+	</p>
+	<activity xml:id="credit-default-swaps-problem-statement">
+		<statement>
+			<p> 
+				<em>Step 1</em>: State the Problem.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-fact-gathering">
+		<introduction>
+			<p> 
+				<em>Step 2</em>: Gather the Facts.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Make a diagram sketching the transactions involved in a credit default swap.  For this diagram, assume the purchaser of the swap is also the lender of the underlying loan.
+			</p>
+		</task>
+		<task>
+			<p>
+				To make sense of credit default swaps, we would like to figure out how to price premiums.  To do so, we will make some simplifying assumptions.  But first, we need to review expected value, since probabilities are involved. 
+			</p>
+			<p>
+				Given a set of all possible outcomes with numeric values <m>X_1, \ldots, X_k</m> with probabilities <m>p_1, \ldots, p_k</m> respectively, the expected value is <m>\sum p_i X_i</m>.  When these are financial outcomes, the price one pays is the expected value. 
+			</p>
+			<p>
+				Suppose in a game of chance you might win 100,000 with probability 0.01 and you might lose 1000 with probability 0.99.  What is the expected value, the price to enter the game?
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor purchases a bond that pays annual coupons of 500 for five years, with a redemption amount of 10,000.  In addition, assume a flat yield curve with <m>\iota = 3\%</m>.  
+			</p>
+			<p>
+				The investor is a lender, the bond issuer is a borrower.  The investor purchases a credit default swap from a counterparty.  The counterparty believes that the probability of default in any year is 1% (for those in the know, assume that the yearly probabilities of default are independent).  In the event of default, the counterparty pays the present value of the remaining bond payments priced to yield 3%. 
+			</p>
+			<p>
+				Find the schedule of premiums to be made each year.  Note that the swap could also be purchased by paying the present value of all of the premiums.
+			</p>
+		</task>
+		<task>
+			<p>
+				Both interest rate swaps and credit default swaps can be considered insurance.  What do each of these insure against?
+			</p>
+		</task>
+		<task>
+			<p>
+				If a lender purchases credit default swaps, how does that distort their incentives?
+			</p>
+		</task>
+		<task>
+			<p>
+				If those with no interest in the underlying loan can purchase credit default swaps, how does that effect the behavior of potential credit default swap sellers?
+			</p>
+		</task>
+		<task>
+			<p>
+				From borrower's perspectives, how do the existence of credit default swaps help? Why should we avoid rushing to judgment about credit default swaps?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="credit-default-swaps-identify-stakeholders">
+		<statement>
+			<p> 
+				<em>Step 3</em>: Identify stakeholders.  Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected).  Try to see the situation through the eyes of all possible stakeholders. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-develop-options">
+		<statement>
+			<p> 
+				<em>Step 4</em>: Develop options.  Be imaginative, avoid dilemmas or yes/no situations. Instead consider how to modify questions and ask “to/for whom” or “how much." 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-test-options">
+		<statement>
+			<p> 
+				<em>Step 5</em>: Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction.  Test at least two options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
+			</p>
+			<p>
+				<em>Option 1</em>:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Primary or Secondary?
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-make-decision">
+		<statement>
+			<p> 
+				<em>Step 6</em>: Make a decision. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-check-work">
+		<statement>
+			<p> 
+				<em>Step 7</em>: Check your work!  Make sure your decision follows your gut instincts and your internal principles.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="credit-default-swaps-memo">
+		<statement>
+			<p> 
+				Write a memo to Representative Frank stating and defending your recommendation.  Be sure to support your position and address counterarguments (see outline in <xref ref="ethics-student-loans-and-covid"/>).
+			</p>
+		</statement>
+	</activity>
+</sections>

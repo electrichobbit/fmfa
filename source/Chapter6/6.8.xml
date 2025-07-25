@@ -1,0 +1,85 @@
+<section xml:id="problem-solving-with-loans">
+	<title>Problem Solving 9 -- Problem Solving with Loans</title>
+	<p>
+		You may have noticed that the same loan variables show up in multiple formulas.  As a result, loan repayment is fertile ground for puzzle problems. 
+	</p>
+	<p>
+		For this section, you may assume level payments unless otherwise indicated.
+	</p>
+	<activity xml:id="mapping-variables-related-by-equations">
+		<statement>
+			<p>
+ 				Let's start by making a "map" with some of our variables.  In the figure below, sketch a line between pairs of variables that are related by an equation, and write next to the line any other variables that are in that equation.
+ 			</p>
+ 			<figure xml:id="loan-variable-map">
+ 				<caption>Draw in the connections between variables that we have formulas for.</caption>
+ 				<image source="images/loan_map.png"/>
+			</figure>
+		</statement>
+	</activity>
+	<activity xml:id="principal-identity-for-level-payments">
+		<statement>
+			<p>
+	 			Here is another useful little identity for level payments:
+	 		</p>
+			<me>\sum_{t=a}^b Pr_t = Pr_a s_{\angl{b-a+1}}</me>
+			<p>
+				Prove this identity.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-the-identity-map-to-solve-problems">
+		<introduction>
+			<p>
+ 				Use your map from above and any additional identities to solve the following problems.
+ 			</p>
+ 		</introduction>
+		<task>
+			<p>
+				A borrower is repaying a loan with payments of 3000 at the end of every year over an unknown period of time. If the amount of interest in the third installment is 2000, find the amount of interest in the sixth installment. Assume that interest is 10% convertible quarterly.
+			</p>
+		</task>
+		<task>
+			<p>
+ 				A loan is being repaid with a series of payments at the end of each quarter for five years. If the amount of principal in the third payment is 100, find the amount of principal in the last five payments. Interest is at the rate of 10% convertible quarterly.
+ 			</p>
+ 		</task>
+		<task>
+			<p>
+ 				A loan is being repaid with level payments of <m>K</m> every 6 months. The outstanding balances on three consecutive payment dates are 5190.72, 5084.68, and 4973.66. Find <m>K</m>.
+ 			</p>
+ 		</task>
+		<task>
+			<p>
+				A bank customer borrows <m>X</m> at an effective annual rate of 12.5% and makes level payments at the end of each year for <m>n</m> years.
+			</p>
+			<ul>
+				<li>
+					<p>
+ 						The interest portion of the final payment is 153.86.
+ 					</p>
+ 				</li>
+ 				<li>
+					<p>
+ 						The total principal repaid as of time <m>(n-1)</m> is 6009.12.
+ 					</p>
+ 				</li>
+ 				<li>
+					<p>
+ 						The principal repaid in the first payment is <m>Y</m>.
+ 					</p>
+ 				</li>
+ 			</ul>
+ 			<p>
+				Calculate <m>Y</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="problem-solving-with-loans-reflection">
+		<statement>
+			<p>
+ 				What helps solve puzzle problems?
+ 			</p>
+ 		</statement>
+	</activity>
+</section>

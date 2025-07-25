@@ -1,0 +1,153 @@
+<section xml:id="exponents-and-logarithms">
+	<title>Review -- Exponents and Logarithms</title>
+	<p>
+		As you can see from the last activity, we are going to do a lot of work with exponential functions.  In this activity, we will pause to review laws of exponents and logarithms.  The list of the identities can be found in <xref ref="appendix-exponents-logarithms"/>.
+	</p>
+	<activity xml:id="exponent-bases">
+		<introduction>
+			<p>
+				Express each of the following using each distinct base only once using only once.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>\frac{b^3}{(b^2)^n}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\frac{\sqrt[5]{ab}}{b^{-2}a^3}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>b^2b^{-5}(b^2)^7\sqrt{g}\sqrt[7]{b}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="exponent-reverse">
+		<introduction>
+			<p> 
+				In some of our problems, it will be important to use our laws of exponents "in reverse."  This means we have to recognize the right-hand side of an identity, and rewrite using the left-hand side.  For the following, rewrite as directed.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Rewrite <m>(1+\iota)^7</m> so that <m>(1+\iota)^2</m> is a factor in your answer. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Rewrite <m>v^{2n}</m> as something squared.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Rewrite the following as a quadratic expression: <m>v^{2n}-2v^n+11</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				Rewrite as a cubic expression: <m>(1+\iota)^{3n}+2(1+\iota)^{2n}-(1+\iota)^n</m>
+			</p>
+		</task>
+	</activity>
+	<p>
+		Logarithms also have identities that need to be used forward and backwards.  We will almost always use the natural logarithm in this course.
+	</p>
+	<activity xml:id="logarithms-expand">
+		<introduction>
+			<p> 
+				Expand each expression as much as possible, so that each logarithm has the simplest possible argument.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>\ln \left(\frac{AB^z}{C}\right)</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\ln \left(\frac{A(0)}{2}(1+\iota)^{nt}\right)</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\ln \left(\frac{A'(t)}{A(t)}\right)</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="logarithm-condense">
+		<introduction>
+			<p>
+				Condense each expression so that you have a single logarithm in your answer.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>\ln (A(0)) + \ln (a'(t)) - \ln (A(0)a(t))</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\frac{1}{T} \left( 3\ln (1+\iota) - 4 \ln \left(1+\frac{\iota}{2} \right) \right)</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>3\ln (A) - 2 \ln(B) - 0.25 \ln(C) + \ln(x)</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="logarithm-inverts-exponential">
+		<introduction>
+			<p>
+				In <xref ref="other-forms-of-interest-accumulation"/>, the fact that the logarithm inverts exponentials will be useful.  Use this fact to simplify each of the following (you will also have to condense the exponents).
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>e^{2\ln(a) -3\ln(b)+7\ln(c)}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>e^{\frac{3\ln(1+\iota)}{T}}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>e^{\ln(1+\iota)+\ln(3)-\ln(t)}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="logarithms-unknown-exponents">
+		<introduction>
+			<p>
+	 			Logarithms are important tools to solve for unknown exponents, which in our case often means time.  Solve the following equations for <m>t</m>.
+	 		</p>
+	 	</introduction>
+		<task>
+			<p> 
+				<m>A = A(0)(1+\iota)^t</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>(1+\iota)^t = 2</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>10e^{rt} = 35</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="exponent-reflection">
+		<statement>
+			<p> 
+				What did you review that you forgot?  Did anything surprise you?
+			</p>
+		</statement>
+	</activity>
+</section>

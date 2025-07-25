@@ -1,0 +1,14 @@
+<introduction>
+	<p>
+		In <xref ref="term-structure-interest-rates"/>, we saw that interest rates may depend on the length of an investment.  Put another way, interest rates could vary across payments.  Variable or adjustable interest rate loans are common.  Borrowers who prefer more certainty can enter into transactions in which they make a series of interest payments at a fixed rate to a counterparty, and the counterparty pays to the borrower the interest at the variable rate.  The counterparty is betting that they will make more on the fixed rate than they will pay out at the variable (or floating) rate.  
+	</p>
+	<p>
+		In this Chapter, we will investigate these transactions, called <term>interest rate swaps</term>.  It is an example of a whole family of transactions falling under the heading of "swaps."  For the first few activities, the central question guiding our work will be how to figure out the fixed rate that the borrower should pay to the counterparty.  
+	</p>
+	<p>
+		Throughout this chapter, we will assume borrowers are only paying the interest on their loans, and paying the principal off at the end of the term. 
+	</p>
+	<p>
+		&#9888; The notation for spot rates and forward rates will vary greatly in texts and in the exam problems.  We will use <m>s_k</m> for the effective periodic spot rate from time 0 to time k, and we will use <m>\iota_0(k)</m> for the forward rate <m>\iota_0(k-1,k)</m>.  You will see other notation in problems in this book (some copied into the activities) since they come from other sources -- including former exams.  Use context to figure out the meaning of the notation the author is using.
+	</p>
+</introduction>

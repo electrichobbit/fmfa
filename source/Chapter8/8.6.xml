@@ -1,0 +1,262 @@
+<section xml:id="problem-solving-mixing-time-and-dollar-weighted-returns">
+	<title>Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns</title>
+	<p>
+		Several problems involve using both time and dollar-weighted rates of return to solve for an unknown value. 
+	</p>
+	<p>
+		&#9888; Our methods for calculating the time-weighted rate of return result in finding <m>1\! +\! \iota</m>, while for dollar-weighted rates of return, we get <m>\iota</m>. This is a common source of errors on these problems, particularly when you are told that some time-weighted rate of return equals some other dollar-weighted rate of return. 
+	</p>
+	<activity xml:id="finding-both-time-and-dollar-weighted-rates">
+		<statement>
+			<p>
+				Some problems just ask us to find both a time-weighted and dollar-weighted rate of return for an account with activity.  A multiple choice problem may ask you to do something like subtract or divide the results (so as to have a single answer). 
+			</p>
+			<p>
+				Fund <m>X</m> has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund <m>X</m>. Find the time-weighted and dollar-weighted rates of return for 2015. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-the-leverage-variable-from-weighted-rate">
+		<introduction>
+			<p>
+				Other problems require you to use one of the two rates to find the value of a leverage variable, and then use that leverage variable to solve the problem. 
+			</p>
+			<p>
+				You invest 2000 at time <m>t=0</m> and an additional 1000 at time <m>t = 1/2</m>. At time <m>t = 1</m> you have 3200 in your account. Find the amount that would have to be in your account at time <m>t = 1/2</m> if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What is the leverage variable in this problem?  (This means the variable whose value will allow you to solve the problem).
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the value of the leverage variable you identified.
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-other-variables-from-weighted-rates">
+		<statement>
+			<p>
+				You are given the following information about an investment account:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Date
+						</cell>
+						<cell right="medium">
+							Value Immediately Before Deposit
+						</cell>
+						<cell right="medium">
+							Deposit
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							10
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							12
+						</cell>
+						<cell right="medium">
+							X
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							X
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Over the year, the time-weighted return is 0%, and the dollar-weighted return is <m>Y</m>. Calculate <m>Y</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-weighted-rates-for-multiple-accounts">
+		<statement>
+			<p>
+				Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Date
+						</cell>
+						<cell right="medium">
+							Value Immediately Before Activity
+						</cell>
+						<cell right="medium">
+							Deposit
+						</cell>
+						<cell right="medium">
+							Withdrawal
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							15
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							March 1
+						</cell>
+						<cell right="medium">
+							17
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							X
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							October 1
+						</cell>
+						<cell right="medium">
+							12
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							18
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The time-weighted rate of return for account 1 is 9.286%. 
+			</p>
+			<p>
+				The account activity for account 2 (in millions) is:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Date
+						</cell>
+						<cell right="medium">
+							Value Immediately Before Activity
+						</cell>
+						<cell right="medium">
+							Deposit
+						</cell>
+						<cell right="medium">
+							Withdrawal
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							15
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							April 1
+						</cell>
+						<cell right="medium">
+							13
+						</cell>
+						<cell right="medium">
+							Y
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							20
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							20
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The dollar-weighted rate of return for account 2 is 7.921%. 
+			</p>
+			<p>
+				On March 1, Mr. Wilford withdrew <m>X</m> from account 1 to pay for continuing construction costs for the train.  On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited <m>Y</m>.  Calculate <m>Y - X</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="problem-solving-mixing-time-and-dollar-weighted-returns-reflection">
+		<statement>
+			<p>
+				Compare and contrast time-weighted rates of return and dollar-weighted rates of return.  How are they alike and how are they different?
+			</p>
+		</statement>
+	</activity>
+</section>

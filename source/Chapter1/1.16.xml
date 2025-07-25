@@ -1,0 +1,144 @@
+<section xml:id="ethics-usury">
+	<title>Ethics Case Study - Usury</title>
+	<p>
+		The focus of the first ethics case study will be <term>usury</term>, a term used to describe the collection of interest, often with a negative connotation. We will consider the arguments for and against charging interest, as well as state laws that cap the amount of interest. 
+	</p>
+	<p>
+		We begin, as so often with Western Philosophy and Ethics, with Aristotle.  Aristotle believed collecting interest was "unnatural finance" - an anomaly that only occurred because of minted money.  He recognized the necessity of money as a medium of exchange.    
+	</p>
+	<p>
+		In Chapter 9 of Book I of <pubtitle>Politics</pubtitle>, Aristotle wrote: 
+	</p>
+	<blockquote>
+		<p>
+			"[I]n this art of wealth-getting there is no limit of the end, which is riches of the spurious kind, and the acquisition of wealth. But the art of wealth-getting which consists in household management, on the other hand, has a limit; the unlimited acquisition of wealth is not its business. And, therefore, in one point of view, all riches must have a limit; nevertheless, as a matter of fact we find the opposite to be the case; for all getters of wealth increase their hoard of coin without limit." 
+		</p>
+	</blockquote>
+	<p>
+		He goes on to say: 
+	</p>
+	<blockquote>
+		<p>
+			"The origin of this disposition in men [to acquire wealth without limit] is that they are intent upon living only, and not upon living well; and as their desired are unlimited, they also desire that the means of gratifying them should be without limit."
+		</p>
+	</blockquote>
+	<activity xml:id="aristotle-meaning">
+		<statement>
+			<p> 
+				What is Aristotle saying here?
+			</p>
+		</statement>
+	</activity>
+	<p>
+		The early Christian church also adopted Aristotle's position on usury.  For example, in the second part of the second part of <pubtitle>Summa Theologiae</pubtitle>, Thomas Aquinas asserts usury is a sin.  In response to Question 78, he argues that every thing has a natural use. For example, it is natural to use wine by consuming it and to use a house by dwelling in it. 
+	</p>
+	<p>
+		Turning to money, Aquinas directly cites Aristotle's <pubtitle>Nicomachean Ethics</pubtitle>.  In Book V, Chapter 5, concerning the proportionate and equal exchange of goods and services, Aristotle argues: 
+	</p>
+	<blockquote>
+		<p>
+			"[I]t is not two doctors that associate an exchange, but a doctor and a farmer, or in general people who are different and unequal; but these must be equated. This is why all things that are exchanged must be somehow comparable. It is for this end that money has been introduced, and it becomes in a sense an intermediate; for it measures all things, and therefore the excess and the defect - how many shoes are equal to a house or to a given amount of food." 
+		</p>
+	</blockquote>
+	<p>
+		Building upon this argument, Aquinas argues: 
+	</p>
+	<blockquote>
+		<p>
+			"[C]onsequently the proper and principal use of money is its consumption or alienation whereby it is sunk in exchange. Hence it is by its very nature unlawful to take payment for the use of money lent, which payment is known as usury: and just as a man is bound to restore other ill-gotten goods, so is he bound to restore the money which he has taken in usury." 
+		</p>
+	</blockquote>
+	<activity xml:id="rebut-aristotle-aquinas">
+		<statement>
+			<p> 
+				How might you rebut Aristotle and Aquinas?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="identifying-stakeholders">
+		<statement>
+			<p> 
+				Part of ethical reasoning is identifying affected parties (also called <term>stakeholders</term>) and identifying the consequences.  In considering whether charging interest is ethical, it is clear that potential lenders are stakeholders.  In what way are borrowers a stakeholder?  What would be the consequence for borrowers if lenders were not allowed to collect interest?
+			</p>
+		</statement>
+		<p>
+			Adam Smith also believed in the "evil of usury," but defined usury as excessive interest.  In Chapter 4 of Book 5 of <pubtitle>The Wealth of Nations</pubtitle>, Smith asserts that: 
+		</p>
+		<blockquote>
+			<p>
+				"In countries where interest is permitted, the law, in order to prevent the extortion of usury, fixes the highest rate which can be taken without incurring a penalty.  This rate ought always to be somewhat above the lowest market price, or the price which is commonly paid for the use of money by those who can give the most undoubted security." 
+			</p>
+		</blockquote>
+	</activity>
+	<activity xml:id="usury-limits">
+		<statement>
+			<p> 
+				What would be consequences if the legal limit on interest were too low?
+			</p>
+		</statement>
+	</activity>
+	<p>
+		Smith's concern about the "extortion of usury" can be found in most states' laws.  For example, Michigan has interest rate caps across several categories of loans.  For example, MCL Section 438.31(c)(7) prohibits interest larger than 11% per year for a loan used to purchase a home.
+	</p>
+	<activity xml:id="usury-high-interest">
+		<introduction>
+			<p> 
+				Suppose we have a home loan of 150,000 with an effective annual interest rate of 12\% to be paid back in 30 years.  For now, we assume the principal and interest will be paid back at one time at the end of the term (we will deal with regular payments in <xref ref="level-payment-annuities"/>). 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				How much will the borrower pay in interest for the loan? 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Considering Smith's concerns, do you think that such a borrower pays too much for their loan?  Why or why not?
+			</p>
+		</task>
+	</activity>
+	<p>
+		The State of Michigan does not cap interest rate on all loans.  For example, loans secured by stocks or bonds can carry any interest rate (MCL 438.31(c)(1)), as can a mortgage for commercial real estate in excess of 100,000 (MCL 438.31(c)(11)). 
+	</p> 
+	<activity xml:id="usury-different-situations">
+		<statement>
+			<p> 
+				What might justify the capping of interest rates on some loans but not others?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="usury-response">
+		<statement>
+			<p> 
+				Write a 3-paragraph response considering usury.  Consider both complete prohibitions on interest and caps on interest rates.  In one paragraph, address arguments in favor of both, and address arguments against both in another paragraph.  In a third paragraph, draw your own conclusion.  As you consider your own conclusion, consider the following:
+			</p>
+			<ol>
+				<li>
+					<p> 
+						The affected parties (stakeholders)
+					</p>
+				</li>
+				<li>
+					<p> 
+						The consequences of prohibition and caps
+					</p>
+				</li>
+				<li>
+					<p> 
+						Relevant principles
+					</p>
+				</li>
+			</ol>
+			<p>
+				Be sure to "check your gut" before you commit to a conclusion!
+			</p>
+		</statement>
+	</activity>
+</section>
+
+
+
+
+
+
+

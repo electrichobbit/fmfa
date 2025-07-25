@@ -1,0 +1,381 @@
+<exercises xml:id="level-payment-annuities-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Sum the following geometric series:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>\displaystyle{\sum_{i = 1}^{11}} 5 \cdot \left(\frac{1}{2}\right)^i</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\displaystyle{\sum_{i = 3}^{7}} 2 \cdot 4^i</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\displaystyle{\sum_{i = 2}^{n}} 3 \cdot (1.05)^i</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\displaystyle{\sum_{i = m}^{n}} Kv^i <m> \ (assume </m>m &lt; n</m>) 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Calculate the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>a_{\angl{20} 0.015}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>s_{\angl{15} 0.02}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>15s_{\angl{10} 0.035}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>20a_{\angl{360} 0.025}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>150s_{\angl{360} 0.03} - 75s_{\angl{180} 0.03}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>200a_{\angl{160} 0.05} + v_{0.05}^{160}200a_{\angl{80} 0.06}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Generate a timeline and describe the cash flows for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>20a_{\angl{360} 0.025}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>150s_{\angl{360} 0.03} - 75s_{\angl{180} 0.03}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>100a_{\angl{24} 0.04} + 100a_{\angl{12} 0.04}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>200a_{\angl{160} 0.05} + v_{0.05}^{160}200a_{\angl{80} 0.06}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Solve each of the following for the unknown value:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>Ka_{\angl{36} 0.035} = 1014.525</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>1200s_{\angln 0.07} = 57,544.94</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>650a_{\angl{60} \iota} = 13,414.714</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, write the desired value in actuarial notation, and then find the value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity pays 50 at the end of each month for 1 year, with an effective monthly interest rate of 0.75%.  Find the value immediately after the final payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity pays 250 at the end of each quarter for 3 years, with nominal interest rate of 8% compounded quarterly.  Find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A life insurance policy is priced so it pays out 150000 at the end of every year forever, starting at the end of the year.  Find the present value using <m>\iota = 2.5\%</m>.
+			</p>
+		</task>
+		<task xml:id="exercise-bond">
+			<p>
+				An annuity pays 50 at the end of every 6 months for 10 years, and a 1000 lump sum with the final payment.  Find the present value, using <m>\iota^{(2)} = 8\%</m>. (This is how a bond is priced, as we will see in <xref ref="bonds"/>)
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat <xref ref="exercise-bond"/> but with <m>\iota^{(2)} = 12\%</m>.  Compare the two -- what do you notice?
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat <xref ref="exercise-bond"/> but with <m>\iota^{(2)} = 10\%</m>. What do you notice? 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, write an equation using actuarial notation, then solve for the missing value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan is made today for 250,000 with an interest rate of 12% compounded monthly.  The term of the loan is 30 years, with monthly payments starting at the end of each month.  Find the monthly payment amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bank lends 17,500 for a car loan with an interest rate of <m>\iota^{(12)} = 6\%</m>.  The loan is to be repaid with monthly payments of 410.99 at the end of each month.  Find the term of the loan and express your answer in years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for college in the amount of 60,000 is to be repaid by payments of 760.05 at the end of each month for 10 years.  What is the effective monthly interest rate?  What is <m>\iota^{(12)}</m>?
+			</p>
+		</task>
+		<task>
+			<p>
+				A life insurance policy makes an annual payment at the end of each year forever.  Using <m>\iota = 5\%</m>, the price (present value) of the policy is 200,000.  What is the annual payment?
+			</p>
+		</task>
+		<task>
+			<p>
+				A life insurance policy making annual payments of 30,000 at the end of each year forever costs 1,200,000 (that is, the present value).  What effective annual interest rate is used to price the policy?
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has semi-annual payments of 75 at the end of every period for five years, with the last payment accompanied by a lump sum redemption amount of <m>C<m>.  The price of the bond (present value of the cash flows) when valued at </m>\iota^{(2)} = 6.5%<m> is 1503.21.  What is the redemption amount </m>C</m>?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Calculate the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>60a_{\angl{\infty} 0.025}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>120s_{\angl{36} 0.03}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>12500\ddot{s}_{\angl{54} 0.06}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>7200\ddot{a}_{\angl{360} 0.01}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>10,000 \ddot{a}_{\angl{\infty} 0.065}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>120,000 a_{\angl{10} 0.09}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Each of the following represents one side of an identity.  Represent each with a timeline and then write the complete identity.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>a_{\angln} + v^na_{\angl{k}}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>s_{\angln}(1+\iota)^k + s_{\angl{k}}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\ddot{a}_{\angl{n+1}} - a_{\angln}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form <m>\sum Kv^{\ell}</m> or <m>\sum K(1+\iota)^{\ell}</m> with appropriate starting and ending values for the index <m>\ell</m>).  Generate the timeline and series representations for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>Ka_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>Ka_{\angl{\infty}}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>Ks_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>K\ddot{a}_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>K\ddot{s}_{\angln}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Solve each of the following for the unknown value:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>10,000(1.03)^{18} - Ks_{\angl{18} 0.03} = 472.67</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>50,000\ddot{a}_{\angl{\infty} \iota} = 769,230.77</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>15\ddot{s}_{\angl{20} \iota} = 536.04</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>250\ddot{a}_{\angln 0.0125} = 7,301.96</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>25,000 a_{\angln 0.02} = 225,564.625</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, write the desired value in actuarial notation, and then find the value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the present value of an annuity due with payments of 50 at the beginning of every month for 3 years, with <m>\iota^{(12)} = 9\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the future value of an annuity immediate with payments of 250 at the end of every six-months for 7 years, with <m>\iota^{(2)} = 5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A share of stock will pay dividends of 5.25 at the beginning of every quarter for the next 5 years. Find the present value using <m>\iota^{(4)}= 6\%</m>.
+			</p>
+		</task>
+		<task xml:id="exercise-loan-due">
+			<p>
+				You are the lender of a loan and collect monthly payments of 550.91 at the beginning of each month, and there are 180 payments left. Another lender is willing to purchase the loan from you for the present value at <m>\iota^{(12)} = 12\%</m>.  What is the offered purchase price?
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat <xref ref="exercise-loan-due"/> assuming the payments are at the end of each month.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the price (present value) of annual payments of 500 indefinitely, where the payments are at the beginning of the year.  Use an effective annual interest rate of <m>\iota = 3\%</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, write an equation using actuarial notation, then solve for the missing value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 50,000 is paid off with quarterly payments of 4029.25 at the end of each quarter.  The effective quarterly interest rate is 8%.  Find the term of the loan, expressed in years.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor purchased an annuity consisting of 10 annual payments of 727.24 at the beginning of each year.  They paid 5000 for the annuity.  Find the effective annual interest rate used to value the annuity.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity consists of semi-annual payments of 500 valued at <m>\iota^{(2)} = 6\%</m>.  The value of the annuity 6 months after the final payment is 17,729.63.  What is the term of the annuity, expressed in years?
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 120,000 carrying an interest rate of <m>\iota^{(12)} = 18\%</m> is paid off with payments at the beginning of each month for 30 years. Find the monthly payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A life insurance contract consisting of annual payments of 250,000 at the end of each year forever can be purchased for 5 million.  Find the effective annual interest rate.
+			</p>
+		</task>
+	</exercise>
+</exercises>

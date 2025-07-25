@@ -1,0 +1,65 @@
+<section xml:id="multiple-consecutive-rates">
+	<title>Multiple Interest Rates 2 -- Consecutive Rates</title>
+	<p>
+		Interest rates occur consecutively when there are different interest rates in force at different periods of time.  Timelines can be used to unpack these problems by noting on the timeline what we <term>multiply</term> a balance by between periods.
+	</p>
+	<activity xml:id="consecutive-rates-activity">
+		<statement>
+			<p> 
+				Glen Danzig deposits 4350 into an account.  During the first year, the account has an effective annual interest rate of 3%.  During the second year, the account has a nominal interest rate of 9% compounded monthly.  What is the balance at the end of the two years?
+			</p>
+		</statement>
+	</activity>
+	<p> 
+		Consecutive interest rates are useful in finding some kind of "average interest rate" (or "average annual rate of compound growth" or something similar).  This is the effective annual rate <m>\iota</m> that results in the same future value as the sequence of interest rates given.  
+	</p>
+	<activity xml:id="multiple-consecutive-rates-activity">
+		<introduction>
+			<p>
+				Suppose an account earns an effective interest rate of <m>\iota_1= 2\%</m> in Year 1, <m>\iota_2 = 3\%</m> in Year 2, <m>\iota_3 = 1.5\%</m> in Year 3, <m>\iota_4 = 1.75\%</m> in Year 4, and <m>\iota_5 = 1.3\%</m> in Year 5.  Use the following to find the average interest rate over this five year period.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Generate an interest rate timeline showing the interest rates in force during each of the five years as well as an equivalent, constant effective annual interest rate <m>\iota</m> for the five-year period.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use your timeline to set up, and then solve, and equation for <m>\iota</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="multiple-consecutive-rates-activity-2">
+		<introduction>
+			<p> 
+				Suppose an account earns an effective annual interest rate of <m>\iota_1 = 2\%</m> during Year 1, a nominal rate of <m>\iota^{(4)} = 6\%</m> during Year 2, and a nominal rate of <m>\iota^{(12)} = 9\%</m> during Year 3.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the average annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				You may be used to thinking of an average as something like <me>\overline{x} = \frac{1}{n} \sum_{i=1}^n x_i</me>  So in what way have we calculated an average? 
+			</p>
+		</task>
+	</activity>
+	<p>
+		What you usually call an average is the <term>arithmetic mean</term>.  This is average used for absolute numbers.  When we want to average <term>percentage changes</term>, we use a <term>geometric mean</term>.  The geometric mean is given by: <me>\overline{x} = \sqrt[n]{\prod_{i=1}^n x_i}</me>  The capital <m>\prod</m> is product notation (similar to summation notation, except for multiplication).  In this case, each <m>x_i</m> should be thought of as the base of an exponential function in force for a period of time, where each <m>x_i = 1+r_i</m> with <m>r_i</m> being the percentage changes. 
+	</p>
+	<activity xml:id="consecutive-rates-reflection">
+		<task>
+			<p> 
+				Explain how our calculations for average interest rates are related to geometric means.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Explain why using a geometric mean makes sense for averaging interest rates.
+			</p>
+		</task>
+	</activity>
+</section>

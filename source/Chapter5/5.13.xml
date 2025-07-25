@@ -1,0 +1,189 @@
+<section xml:id="problem-solving-through-non-level-payments">
+	<title>Problem Solving 8 -- Practice</title>
+	<p>
+		We have now covered the full theory. What remains are applications of the theory.  Before we move on, we are going to pause and practice. 
+	</p>
+	<p>
+		The following are randomly selected problems from former FM exams.  They are presented in the same multiple choice format.  They only cover the content we have studied so far (any other questions that arose from the random selection process were rejected).
+	</p>
+	<activity xml:id="practice-problems-through-non-level-payments-1">
+		<statement>
+			<p> 
+				A woman buys a 30-year annuity-immediate with monthly payments that earns 5.4% convertible monthly. The present value of the annuity is 10,000. At the end of 15 years the interest rate is 6.3% convertible monthly. What will her new monthly payments be?
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						57.50
+					</p>
+				</li>
+				<li>
+					<p>
+						58.00
+					</p>
+				</li>
+				<li>
+					<p>
+						58.50
+					</p>
+				</li>
+				<li>
+					<p>
+						59.00
+					</p>
+				</li>
+				<li>
+					<p>
+						59.50
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="practice-problems-through-non-level-payments-2">
+		<statement>
+			<p> 
+				15 payments are made into an account earning an annual effective rate of 3%. The first payment is 200 and each subsequent payment increases by 5%. 
+			</p>
+			<p>
+				How much larger is the present value if the payments are made at the beginning of the year rather than the end of the year?
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						100
+					</p>
+				</li>
+				<li>
+					<p>
+						117
+					</p>
+				</li>
+				<li>
+					<p>
+						212
+					</p>
+				</li>
+				<li>
+					<p>
+						334
+					</p>
+				</li>
+				<li>
+					<p>
+						344
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="practice-problems-through-non-level-payments-3">
+		<statement>
+			<p> 
+				A man wants to accumulate 250,000 in 25 years by making monthly end of month payments into a fund that earns 6.3% convertible monthly.  His first payment is 100 and each subsequent payment is increased by <m>X</m> over the previous one. What must <m>X</m> be to achieve his goal?
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						2.04
+					</p>
+				</li>
+				<li>
+					<p>
+						2.09
+					</p>
+				</li>
+				<li>
+					<p>
+						2.14
+					</p>
+				</li>
+				<li>
+					<p>
+						2.19
+					</p>
+				</li>
+				<li>
+					<p>
+						2.24
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="practice-problems-through-non-level-payments-4">
+		<statement>
+			<p> 
+				Tony deposits 1000 at the end of each quarter into an account and in 17 years, he has 150,000. How many more years will it take for Tony to double that 17-year accumulated value of 150,000?
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						13
+					</p>
+				</li>
+				<li>
+					<p>
+						24
+					</p>
+				</li>
+				<li>
+					<p>
+						7
+					</p>
+				</li>
+				<li>
+					<p>
+						78
+					</p>
+				</li>
+				<li>
+					<p>
+						95
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="practice-problems-through-non-level-payments-5">
+		<statement>
+			<p> 
+				A man purchases a 30-year annuity-immediate that makes annual payments.  The first 10 payments are 200, the next 10 are 100, and the last 10 are 300. The annuity earns 6.5% annually. What is the present value of this annuity?
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						16091
+					</p>
+				</li>
+				<li>
+					<p>
+						4313
+					</p>
+				</li>
+				<li>
+					<p>
+						2433
+					</p>
+				</li>
+				<li>
+					<p>
+						4567
+					</p>
+				</li>
+				<li>
+					<p>
+						1438
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="solving-actuarial-exam-problems-reflection">
+		<statement>
+			<p> 
+				What do you think it takes to successfully solve problems on the FM exam?
+			</p>
+		</statement>
+	</activity>
+</section>

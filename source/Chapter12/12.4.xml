@@ -1,0 +1,118 @@
+<section xml:id="full-immunization">
+	<title>Full Immunization</title>
+	<p>
+		Recall that we defined the function <m>h</m> as:
+	</p>
+	<me>h(\iota) = PV_A(\iota) - PV_L(\iota)</me>
+	<p>
+		Redington immunization required that the interest rate at time 0, <m>\iota_0</m>, be a local minimum of <m>h</m>.  Liabilities are said to be <term>fully immunized</term> if <m>\iota_0</m> is a global minimum of <m>h</m>.
+	</p>
+	<activity xml:id="difference-between-redington-and-full-immunization">
+		<statement>
+			<p>
+				Explain, practically, the difference between Redington and full immunization.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="conditions-for-full-immunization">
+		<statement>
+			<p>
+				Identify a condition on <m>h''</m> that is sufficient for <m>\iota_0</m> to be a global minimum of <m>h</m> (you do not have to prove or justify this -- a proof requires real analysis).
+			</p>
+		</statement>
+	</activity>
+	<p>
+		Full immunization can be difficult to verify.  We are only going to consider one way full immunization can be achieved.  We will show that if there is exactly one liability <m>L_s</m> at time <m>s</m>, and zero-coupon bonds with face values <m>A_1</m> coming due at time <m>t_1</m> and <m>A_2</m> coming due at time <m>t_2</m>, with <m>t_1 &lt; s &lt; t_2</m> satisfying the conditions of Redington immunization, then the liability is full immunized. 
+	</p>
+	<activity xml:id="proof-of-condition-for-full-immunization">
+		<introduction>
+			<p>
+				Let's see why this is true.  First, consider the general case with several liabilities and several assets.  Let <m>D(\iota_0)</m> be the Macaulay duration of the portfolio of liabilities.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Show that the duration condition of Redington immunization implies that <m>D(\iota_0)</m> is also the duration of the portfolio of assets.
+			</p>
+		</task>
+		<task>
+			<p>
+				Show that regarding the convexity condition:
+			</p>
+			<me>\sum t^2 A_t v^t > \sum t^2 L_t v^t \iff \sum (t - D(\iota_0))^2 A_t v^t > \sum (t - D(\iota_0))^2 L_t v^t</me>
+		</task>
+		<task>
+			<p>
+				Now suppose we have a single liability at time <m>s</m> in the amount <m>L_s</m>.  This is equivalent to owing a zero-coupon bond.  What is <m>D(\iota_0)</m>?  
+			</p>
+		</task>
+		<task>
+			<p>
+				Show that if our liability portfolio has a single liability of amount <m>L_s</m> we have assets consisting of exactly two zero-coupon bonds, with face values <m>A_1</m> coming due at time <m>t_1</m> and <m>A_2</m> coming due at time <m>t_2</m> (neither <m>t_1</m> nor <m>t_2</m> equal <m>s</m>), then the convexity condition is satisfied for all <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Show that if there is exactly one liability <m>L_s</m> at time <m>s</m>, and zero-coupon bonds with face values <m>A_1</m> coming due at time <m>t_1</m> and <m>A_2</m> coming due at time <m>t_2</m>, with <m>t_1 &lt; s &lt; t_2</m> satisfying the present value and duration matching conditions of Redington immunization, then the liability is full immunized (you may have to skip a couple of details near the end of your work). 
+			</p>
+		</task>
+	</activity>
+	<p>
+		Note that our argument did not use the condition <m>t_1 &lt; s &lt; t_2</m> (except to the extent that <m>t_1 \neq s</m> and <m>t_2 \neq s</m>).  This condition is required for <m>A_1</m> and <m>A_2</m> to be positive (otherwise they would not be assets).  The nicest way to see why this is true is to use some linear algebra -- see the challenge question at the end of this activity.
+	</p>
+	<activity xml:id="full-immunization-problem-1">
+		<statement>
+			<p>
+				A single liability of 250,000 will come due at the end of year 8.  To immunize these liabilities at <m>\iota_0 = 5\%</m>, the firm purchases a zero coupon bond of amount <m>A_1</m> maturing at time <m>4</m> and a second zero-coupon bond of amount <m>A_2</m> maturing at time <m>11</m>.  Find  <m>A_1</m> and <m>A_2</m>, and determine if the liability is fully immunized.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="full-immunization-problem-2">
+		<statement>
+			<p>
+				Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and <m>B</m> in <m>8+b</m> years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%. 
+			</p>
+			<p>
+				Calculate <m>\frac{B}{b}</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="desirability-of-full-immunization">
+		<statement>
+			<p>
+				Explain why full immunization is desirable.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="time_conditions-for-full-immunization-with">
+		<introduction>
+			<p>
+				&#10028; Challenge Question: Let's show that in the case of a single liability at time <m>s</m>, in order for <m>A_1 > 0</m> and <m>A_2 > 0</m> (as required in order for them to be assets), the present value and duration matching conditions require <m>t_1 &lt; s &lt; t_2</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The present value and duration matching conditions require the following system to be satisfied:
+			</p>
+			<me>
+				A_1 v^{t_1} + A_2 v^{t_2} =  L_sv^s 
+			</me>
+			<me>
+				t_1A_1v^{t_1} + t_2A_2v^{t_2}  =  s L_s v^s 
+			</me>
+			<p>
+				Write this as a matrix equation.
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the matrix equation by multiplying the left sides by the inverse of the matrix.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use your results to explain why <m>A_1, A_2 > 0</m> if and only if <m>t_1 &lt; s &lt; t_2</m>.
+			</p>
+		</task>
+	</activity>
+</section>

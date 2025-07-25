@@ -1,0 +1,267 @@
+<exercises xml:id="compound-interest-and-timeline-reasoning-exercises">
+	<exercise >
+		<introduction>
+			<p>
+				Plot the following cash flows on one or more timelines.  Indicate withdrawals with a minus sign.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A deposit is made of 500 at the end of year 1, and a deposit of 1250 is made at the end of year 4.  The balance is withdrawn at the end of year 10.  Calculate the amount withdrawn (using an interest rate of <m>\iota = 2\%</m>) and include that amount on your timeline.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit is made of 500 at the <term>g</term> of year 1, and a deposit of 1250 is made at the <term>g</term> of year 4.  The balance is withdrawn at the <term>d</term> of year 10.  Calculate the amount withdrawn (using an interest rate of <m>\iota = 2\%</m>) and include that amount on your timeline..
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of <m>K</m> is made into a pension fund at the end of every month for 30 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A withdrawal of <m>K</m> is made from a pension fund at the end of month 1. Each month thereafter, the amount of the withdrawal increases by 2.5%.  This occurs every month for five years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 100 is made into an account at the end of year 1. Another deposit is made at the end of year 2, in the amount of 200.  Another deposit, in the amount of 300, is made at the end of year 3.  This continues for 10 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 150 is made into an account at the end of year 1. Another deposit is made at the end of year 2, in the amount of 200.  Another deposit, in the amount 150, is made at the end of year 3.  This continues for 10 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 1000 is made into an account at the end of year 1.  The account earns an annual interest rate of 5%.  At the end of each year until year <m>n</m>, the interest is withdrawn and deposited into a secondary account.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 1000 is made into an account at the end of every year for 5 years.  The account earns an annual interest rate of 5%.  At the end of each year, the interest is withdrawn and deposited into a secondary account.
+			</p>
+		</task>
+	</exercise>
+	<exercise xml:id="exercise-future-value">
+		<introduction>
+			<p>
+				For each of the following, find the future value at the indicated times with the indicated interest rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A deposit of 100 at the end of year 2 and a deposit of 200 at the end of year 4, value at the end of year 7 with <m>\iota = 2\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 100 at the <term>g</term> of year 2 and a deposit of 200 at the <term>g</term> of year 4, value at the <term>d</term> of year 7, with <m>\iota = 2\%.</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 100 at the end of  year 2, and a withdrawal of 50 at the end of year 3. Value at the end of year 4, with <m>\iota = 1.5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 100 is made at the end of each year for 3 years.  Value immediately after the final deposit with <m>\iota = 6\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Deposits are made at the end of each year for 4 years.  The first deposit is 50.  Each deposit thereafter grows by 2.5%.  Value immediately after the final deposit. Use <m>\iota = 3\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Deposits are made at the end of each year for 4 years.  The first deposit is 150.  Each deposit thereafter grows by 50. Value immediately after the final deposit. Use <m>\iota = 3\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of <m>K<m> is made into an account at the end of each year for </m>n<m> years, with interest rate </m>\iota</m>.  Write an expression for the future value immediately after the last deposit.
+			</p>
+		</task>
+	</exercise>
+	<exercise >
+		<statement>
+			<p>
+				Find the present value for each of the cash flows in <xref ref="exercise-future-value"/>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise >
+		<introduction>
+			<p>
+				Find the effective annual interest rate for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>\iota^{(12)}=12\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(12)}=9\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(2)} = 3\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(6)} = 4\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(4)} = 6\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(1/2)} = 15\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(1/3)} = 18\%</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise >
+		<introduction>
+			<p>
+				Convert the following interest rates as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Convert <m>\iota^{(12)} = 9\%</m> into an effective monthly interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert <m>\iota^{(2)} = 6\%</m> into an effective semi-annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert an effective quarterly interest rate <m>\iota = 1.5\%</m> into a nominal semi-annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert <m>\iota^{(12)} = 12\%</m> into an effective quarterly interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert <m>\iota^{(3)} = 2.4\%</m> into an effective monthly interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert <m>\iota^{(4)} = 1\%</m> into an effective three-year interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert <m>\iota^{(4)} = 2\%</m> into an effective semi-annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert an effective monthly interest rate <m>\iota = 0.75\%</m> into an effective semi-annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert an effective bimonthly interest rate <m>\iota = 1.75\%</m> into a nominal quarterly interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Convert an effective three-year interest rate of <m>\iota = 18\%</m> into an effective semi-annual rate.
+			</p>
+		</task>
+	</exercise>
+	<exercise >
+		<introduction>
+			<p>
+				For each of the following cash flows, calculate the appropriate interest rate to perform the calculation.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				At the end of every month, <m>K<m> is deposited into an account.  The account bears interest at a rate of </m>\iota^{(12)}= 6%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				At the end of every month, <m>K<m> is deposited into an account . The account bears interest at a rate of </m>\iota^{(2)} = 6%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An amount <m>K<m> is deposited into an account at the end of every three years.  The account bears interest at an annual effective rate of </m>\iota = 8%</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise >
+		<statement>
+			<p>
+				Write an expression for the present value (using <m>v</m>) of each of the cash flows in <xref ref="exercise-future-value"/>
+			</p>
+		</statement>
+	</exercise>
+	<exercise xml:id="exercise-first-due">
+		<statement>
+			<p>
+				A deposit of <m>K</m> is made into an account at the <term>g</term> of each month for <m>n<m> months, with effective monthly interest rate </m>\iota<m>.  Write an expression for the present value (using </m>v</m>).
+			</p>
+		</statement>
+	</exercise>
+	<exercise >
+		<statement>
+			<p>
+				Write an expression (using <m>v</m>) for the value of the cash flow in <xref ref="exercise-first-due"/>, valued 6 months prior to the first payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise >
+		<introduction>
+			<p>
+				Find the real interest rate for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Anticipated annual inflation rate of <m>r=2%<m> and effective annual interest rate of </m>\iota = 3%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Anticipated annual inflation rate of <m>r =3%<m> and effective annual interest rate of </m>\iota = 2%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Anticipated annual inflation rate of <m>r = 1.5%<m> with </m>\iota^{(4)}=3.5%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Anticipated annual inflation rate of <m>r=2.5%<m> with </m>\iota^{(1/2)} = 5%</m>.
+			</p>
+		</task>
+	</exercise>
+</exercises>

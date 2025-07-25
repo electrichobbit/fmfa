@@ -1,0 +1,182 @@
+<section xml:id="timelines" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Timelines</title>
+	<p>
+		The key to financial mathematics is understanding the special role time plays in finance.  Money today is worth more than money later due to deferred compensation as well as a variety of risks, such as inflation and non-payment.
+	</p>
+	<p>
+		A <term>cash flow</term> is a sequence of payments, such as deposits or withdrawals in an account.  An entry in a cash flow is positive if it comes into the pot and negative if it leaves the pot - this depends greatly on context!  Cash flows can be finite or infinite.
+	</p>
+	<p>
+		The main tool used to understand cash flows is a <term>timeline</term>, which is basically an axis with tick-marks measuring time in units that are appropriate for the problem. For example, a deposit of 1000 at the end of Year 1, a deposit of 2000 at the end of Year 3, and a withdrawal of 500 at the end of Year 10 would be plotted on a timeline as follows:
+	</p>
+	<figure xml:id="timeline-example">
+		<caption>An example of a timeline.</caption>
+		<image width="50%">
+			<latex-image>
+				\begin{tikzpicture}
+				  \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,0);
+				   \foreach \x/\y in {0/0}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+				    }
+				  \foreach \x/\y in {1/1}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1000};
+				    }
+				    \foreach \x/\y in {2/2,9/9}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+				    }
+				    \foreach \x/\y in {3/3}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{2000};
+				    }
+				    \foreach \x/\y in {10/10}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{-500};
+				    }
+				   % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+				    %\draw[-latex] (10,-7mm) -- +(0,-10mm)node[below]{$s_{\angln \iota}$};
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</figure>
+	<p>
+		Sometimes multiple timelines may be necessary.  Let us add to the above scenario a transfer of 750 into a secondary account at the end of Year 3.  The combined timelines would be:
+	</p>
+	<figure xml:id="multiple-timelines">
+		<caption>An example of how we can use multiple timelines.</caption>
+		<image width="50%">
+			<latex-image>
+				\begin{tikzpicture}
+				\draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,0);
+				\foreach \x/\y in {0/0}{
+				\draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+				}
+				\foreach \x/\y in {1/1}{
+				\draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1000};
+				}
+				\foreach \x/\y in {2/2,9/9}{
+				\draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+				}
+				\foreach \x/\y in {3/3}{
+				\draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{2000};
+				}
+				\foreach \x/\y in {10/10}{
+				\draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{-500};
+				}
+				\foreach \x/\y in {3/750}{
+				\draw[->] (\x,-15mm)node[above]{\y} -- +(0,-12mm);
+				}
+
+				\draw[line width=1pt] (0,-35mm) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,-35mm);
+				\foreach \x/\y in {0/0, 1/1,2/2,3/3,9/9,10/10}{
+				\draw[line width=1pt] (\x,-37mm)node[below](\x){\strut\y} -- (\x,-33mm)node[above]{};
+				}
+				% \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+				%\draw[-latex] (10,-7mm) -- +(0,-10mm)node[below]{$s_{\angln \iota}$};
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</figure>
+	<activity xml:id="timeline-activity">
+		<introduction>
+			<p>
+				Plot each of the following cash flows on a timeline.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				$10,000 is deposited into an account today.  After 5 years, $5,000 is withdrawn.
+			</p>
+		</task>
+		<task>
+			<p>
+				An heir receives $5,000 at the end of every year for the next 5 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				$1,000 is deposited at the end of every year for the next 2 years, and <m>X</m> is withdrawn immediately after the second deposit, and again one year after.
+			</p>
+		</task>
+		<task>
+			<p>
+				Joe deposits 10 today and 30 in five years.  Tina will make the same two deposits, but the 10 will be deposited <m>n</m> years from today and the 30 will be deposited 2<m>n</m> years from today.  (Consider making two separate timelines).
+			</p>
+		</task>
+	</activity>
+	<p>
+		The <term>future value</term> at time <m>t</m> of an amount deposited at time 0 is <m>A(t) = A(0)(1+\iota)^t</m> In this equation, <m>A(0)</m> is the amount deposited and <m>\iota</m> is the interest rate.
+	</p>
+	<p>
+		If the amount was not deposited at time 0, but instead at time <m>t_1</m>, then the value at time <m>t_2</m> is <m>A(t_2) = A(t_1)(1+\iota)^{t_2-t_1}</m>
+	</p>
+	<activity xml:id="timeline-future-value">
+		<introduction>
+			<p>
+				Suppose 1000 was deposited at the end of Year 2, 2000 was deposited at the end of Year 4, and a withdrawal of <m>X</m> is made at the end of Year 9.  The balance immediately after the withdrawal is 1200.  The account carries an annual interest rate of <m>\iota = 3\%</m>.
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>
+					Plot the cash flows on a timeline.
+				</p>
+			</statement>
+			<solution>
+				<image source="1.2.2a.png">
+					Timeline with years from 1 to 9. Year 2 is labeled 1000, Year 4 is labeled 4000, and Year 9 is labeled -(X+1200). The accumulator is 1.03.
+				</image>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p>
+					Calculate <m>X</m>.
+				</p>
+			</statement>
+			<solution>
+				<me>
+					1000(1.03)^7 + 2000(1.03)^5 = X + 1200
+				</me>
+				<me>
+					X = 1189.15
+				</me>
+			</solution>
+		</task>
+	</activity>
+	<p>
+		The <term>present value</term> is the amount that would have to be deposited now in order to generate the cash flows indicated.  Unless otherwise specified, the present value is at time 0, and it can be calculated by solving the future value equation for <m>A(0)</m>.
+	</p>
+	<activity xml:id="timeline-present-value">
+		<introduction>
+			<p>
+				An account had withdrawals of 650 at the end of years 1, 2, and 3.  After the third withdrawal, the account is depleted.  The present value is <m>X</m>. The account carries an annual interest rate of <m>\iota = 2.5\%</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Plot the cash flows on a timeline.
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate <m>X</m>.
+			</p>
+		</task>
+	</activity>
+	<p>
+		The interest added to an account at time <m>t</m> is <m>\iota A(t-1)</m>, where <m>A(t-1)</m> is the balance at time <m>t-1</m> and <m>\iota</m> is the interest rate.
+	</p>
+	<activity xml:id="timeline-activity-multiple">
+		<statement>
+			<p>
+				A deposit of 1000 is made into an account at the end of year 1.  The account earns an annual interest rate of 5%.  At the end of each year until year <m>n</m>, the interest is withdrawn and deposited into a secondary account.
+			</p>
+			<p>
+				Plot the cash flows on one or more timelines.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="timeline-activity-comprehension">
+		<statement>
+			How does a timeline help you to understand a financial scenario?
+		</statement>
+	</activity>
+</section>

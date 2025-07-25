@@ -1,0 +1,72 @@
+<section xml:id="annuities-with-payments-in-geometric-progression-the-long-way">
+	<title>Annuities with Payments in Geometric Progression 1 -- The Long Way</title>
+	<p>
+		In this section, we will learn and practice using the geometric series formula to value annuities whose payments grow or decline at a constant percentage rate.  The geometric series formula can be used in one of the two following ways (why?):
+	</p>
+	<me>\sum_{t=0}^{n-1} ab^t = a \left(\frac{b^n-1}{b-1}\right) = a \left(\frac{1-b^n}{1-b}\right)</me>
+	<p>
+		As a matter of strategy, I typically use the version that gives me a positive denominator. 
+	</p>
+	<p>
+		In what follows, you will need to do some factoring and reindexing to set up your series.  Review <xref ref="review-geometric-sequences"/> before working this activity.
+	</p>
+	<activity xml:id="retirement-annuity-with-growing-payments">
+		<introduction>
+			<p> 
+				Let's start by solving our motivating example.
+			</p>
+			<p>
+				Suppose we purchase a retirement account that pays us annually at the end of each of the next 12 years.  The first payment, at the end of this year, is 20,000.  Each payment thereafter grows by 2% as a cost of living adjustment.  Our purchase price was based on a valuation using an effective annual interest rate of <m>\iota = 3.5\%</m>.  Find the purchase price. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Write out the first three terms of the sequence we have to add up to find the present value.  Do not multiply anything out -- our goal is to see how to set up a geometric series. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Why do we need to factor and reindex?  Write what we need to factor out in order to write our geometric series in standard form (with the index starting from 0). 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write the sum in summation notation and calculate.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="more-annuities-with-growing-payments">
+		<introduction>
+			<p> 
+				Let's try to use the same approach to solve a couple of exercises.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				The first payment of an annuity-immediate is 1200, and payments increase by 3%.  There are 15 payments, and <m>\iota = 4\%</m>.  Find the accumulated value.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The first payment of an annuity-immediate is 750, and the payments decrease by 0.5%. There are 30 payments, and <m>\iota = 1\%</m>. Find the present value.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="more-challenging-annuity-with-changing-deposits">
+		<statement>
+			<p> 
+				In the next activity, we will learn formulas to value annuities whose payments are in geometric progression.  Nevertheless, some problems will require us to go back to solve by setting up and calculating geometric series (which I call "the long way").  As an example, solve the following problem.
+			</p>
+			<p>
+				Annual end-of-year deposits are made to a fund paying an annual effective rate of interest of 6%. The first deposit is 1,000 and then they go up by 3% annually. Interest from the 6% account is paid out annually and is reinvested at an annual effective discount rate of 4%. At the end of the thirty years, the funds are liquidated. Find the investor's accumulated value at the time of the liquidation.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="annuities-with-payments-in-geometric-progression-the-long-way-reflection">
+		<statement>
+			<p> 
+				What are some challenges associated with "the long way" of valuing annuities with payments in geometric progression? 
+			</p>
+		</statement>
+	</activity>
+</section>

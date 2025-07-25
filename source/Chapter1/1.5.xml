@@ -1,0 +1,167 @@
+<section xml:id="financial-calculator">
+	<title>Problem Solving 1 -- The Financial Calculator</title>
+	<assemblage>
+		<title>
+			<m>&#x1F9EE;</m><term>Calculator Corner</term>
+		</title>
+		<p>
+			On the SOA exam, speed is an important factor.  The financial calculator is indispensable.  This entire activity introduces you to the financial calculator.  In future activities, we will see occasional "calculator corner" questions that will teach us how to use the calculator to perform financial calculations.  Note that you still need to know the formulas in order to succeed - the calculator is a necessary but not sufficient tool for the exam. 
+		</p>
+	</assemblage>
+	<activity xml:id="calculator-basics">
+		<introduction>
+			<p>
+				First, note that the financial calculator uses something called <term>chain order of operations</term>.  
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				What is <m>1+2\times 3</m>?  Type this into the financial calculator - what did you get?  How did the calculator interpret your commands? 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use the financial calculator to calculate <m>\ln{2}</m>, using the <kbd>LN</kbd> key.  If you get an error, try typing in the opposite order.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use the financial calculator to calculate <m>e^2</m>, using the <kbd><m>e^x</m></kbd> key. If you get an error, try typing in the opposite order.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use the financial calculator to calculate <m>e^{-3}</m>, using the <kbd><m>e^x</m></kbd> key.  What did you have to do in order to get the exponent to be negative?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What do you notice about the order in which you have to press the keys to evaluate functions such as an exponential or logarithmic function?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculator-basics-continued">
+		<introduction>
+			<p> 
+				Your calculator has several variables you can define, and there are also several settings. Settings can be accessed and changed through the <kbd>FORMAT</kbd> key.  This key is above the decimal, and you access it by typing <kbd>2ND</kbd> followed by the decimal button.  We will refer to these keystrokes as <kbd>2ND</kbd> <kbd>FORMAT</kbd>. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				There are several settings, but we will focus on one for now.  That is the number of decimals.  You can change the decimal accuracy by pressing the number of decimals you want, followed by <kbd>ENTER</kbd><kbd>2ND</kbd> <kbd>QUIT</kbd>.  The key <kbd>QUIT</kbd> is above the <kbd>CPT</kbd> key.  Change your decimal accuracy to 3.  Then change it back to wherever you want it.
+			</p>
+		</task>
+		<task>
+			<p> 
+				There are two variables that we will not deal with for some time, and they should be set to 1.  Both are accessed by pressing <kbd>2ND</kbd> <kbd>P/Y</kbd> (above the <kbd>I/Y</kbd> key).  <em>NOTE: If you are getting a result in your calculator that seems wrong, check these two variables to see if they are defined correctly</em>. 
+			</p>
+			<ol>
+				<li>
+					<p> 
+						The first is labeled `P/Y' and represents the number of interest periods in a year.  Type the number 1 followed by the <kbd>ENTER</kbd> key.  
+					</p>
+				</li>
+				<li>
+					<p> 
+						The second is labeled `C/Y' and represents how often interest is compounded in a year.  To access this, press the <kbd name="down"/> key.  Then press 1 followed by the <kbd>ENTER</kbd> key.
+					</p>
+				</li>
+			</ol>
+		</task>
+		<task>
+			<p> 
+				There are two other keys you should be familiar with.  The key <kbd>CE|C</kbd> clears your screen, while the key <kbd>CLR WORK</kbd> clears the value of any variables you defined.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculator-basics-further">
+		<introduction>
+			<p> 
+				In your calculator keys, you will find a row of keys labeled <kbd>N</kbd>, <kbd>interest</kbd>, <kbd>PV</kbd>, <kbd>PMT</kbd>, and <kbd>FV</kbd>. These are the time value of money (TMV) keys.  In addition, in the top row at the left, you will see a key labeled <kbd>CPT</kbd>.  This is a command to compute.  We use the time value of money functions by entering the values we know and then type <kbd>CPT</kbd> followed by the desired TMV key. Here are some notes about what these means and how to use them:
+			</p>
+			<ul>
+				<li>
+					<p> 
+						The key <kbd>N</kbd> is for the number of interest periods, <kbd>interest</kbd> is an interest rate, <kbd>PV</kbd> is the present value, <kbd>PMT</kbd> is a regular payment, and <kbd>FV</kbd> is the future value.  We will not use the <kbd>PMT</kbd> key until <xref ref="level-payment-annuities"/>.
+					</p>
+				</li>
+				<li>
+					<p> 
+						Due to the chain order of operations, enter values by pressing the number followed by the relevant TVM key.
+					</p>
+				</li>
+				<li>
+					<p> 
+						<term>Sign convention: </term> The calculator interprets entries as inflows and outflows, and outflows are designated with negative numbers while inflows are positive.  Between the present and future value, one will be positive and one will be negative.  If you do not account for this, you will get an error when you have the calculator compute <kbd>interest</kbd> and will get an incorrect result when computing <kbd>N</kbd>.
+					</p>
+				</li>
+				<li>
+					<p> 
+						For the interest rate, you have to enter it as a percentage.  So if the interest rate is 0.025, you type 2.5 followed by the <kbd>interest</kbd> key.
+					</p>
+				</li>
+				<li>
+					<p> 
+						The known TVM variables can be entered in any order.
+					</p>
+				</li>
+				<li>
+					<p> 
+						For now, each payment has to be entered separately.  Later, we will be able to relax this limitation.
+					</p>
+				</li>
+				<li>
+					<p> 
+						In between problems, you can clear out the TVM variables by typing <kbd>2ND</kbd> <kbd>CLR TVM</kbd> (above the <kbd>FV</kbd> key).
+					</p>
+				</li>
+			</ul>
+			<p>
+				Use the calculator to solve the following problems.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the future value of 1500 after 7 years with an annual interest rate of 1.75%.  The answer should be approximately 1693.68.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A single deposit was made into an account with an annual interest rate of 4%. After 15 years, the account has a balance of 19143.21.  What was the original deposit?  The answer should be approximately 10,629.54.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A deposit of 5000 grows to 5150.23 after two years.  What was the interest rate?  The answer should be approximately 0.0149.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Given an annual interest rate of 0.0075, how long does it take 12000 to grow to 13000? The answer should be approximately 10.7 years.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="final-calculator-basics">
+		<introduction>
+			<p> 
+				If we make a change to one (or more, but not all) values in a problem, all we have to do is re-enter the new data.  You can do this even if you are computing something different!  Try this in the financial calculator for the following pair of problems.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				If 5150 is deposited into an account bearing 3% annual interest, what is the balance after 5 years?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Now, suppose the balance after 5 years is actually 5800.  What was the original deposit?  Why key strokes did you use?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculator-valuation">
+		<p> 
+			Look back at <xref ref="valuation"/> and identify one problem to redo with the calculator.  Which approach do you prefer - the calculator or the algebraic approach?  Why?
+		</p>
+	</activity>
+</section>
+

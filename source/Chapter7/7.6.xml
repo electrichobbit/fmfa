@@ -1,0 +1,130 @@
+<section xml:id="problem-solving-with-bonds">
+	<title>Problem Solving 10: Problem Solving with Bonds</title>
+	<p>
+		As with loans, you will often encounter "puzzle problems" involving bonds.  In <xref ref="applications-interest-theory"/>, we talked about making a "map" with various formulas to help you find paths through puzzle problems.  We encourage you to do the same with bonds, but in this section, we are going to focus on a few different strategy points to solve problems. 
+	</p>
+	<activity xml:id="thinking-strategically-about-pricing-formulas">
+		<introduction>
+			<p>
+				The first point is that we want to think strategically about which pricing formula we use in a problem.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write the two price formulas we have for a bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the following, and think strategically about which price formula you use. 
+			</p>
+			<p>
+				An investor will pay 2,318.63 for an <m>n</m>-year 2000 par bond with a coupon rate of 10% compounded semiannually or he will pay 2,531.05 for an <m>n</m>-year 2000 par bond with a coupon rate of 11% compounded semiannually. Assuming that the investor gets the same yield on the two bonds, find this yield rate expressed as a nominal rate convertible two times per year. Also find <m>n</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Describe your strategy, and how your choice of pricing formula fit into that strategy.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-common-factors-with-bond-problems">
+		<statement>
+			<p>
+				We often set up a system of two equations, and instead of adding/subtracting, we divide to cancel common factors.  Use this approach to solve the following problem: 
+			</p>
+			<p>
+				A 7% bond has a price of 79.30 and a 9% bond has a price of 93.10, both per 100 of face amount. Both are redeemable in <m>n</m> years and have the same yield rate. Find <m>n</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="solving-for-expressions-with-bond-problems">
+		<statement>
+			<p>
+				The final point is that we do not always need to calculate the value of each variable to solve a problem.  Sometimes it suffices to solve for expressions.  Solve the following problem with this tip in mind: 
+			</p>
+			<p>
+				A 10-year bond with semiannual coupons is bought at a discount to yield 9% convertible semiannually. If the amount for accumulation of discount in the next-to-last coupon is 8, find the total amount for accumulation of discount during the first four years in the bond amortization schedule.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="bond-puzzle-problem">
+		<statement>
+			<p>
+				Among a company's assets and accounting records, an actuary finds a 15-year bond that was purchased at a premium. From the records, the actuary has determined the following:
+			</p>
+			<ul>
+				<li>
+					<p>
+						The bond pays semiannual interest.
+					</p>
+				</li>
+				<li>
+					<p>
+						The amount for amortization of the premium in the 2nd coupon payment was 977.19.
+					</p>
+				</li>
+				<li>
+					<p>
+						The amount for amortization of the premium in the 4th coupon payment was 1046.79.
+					</p>
+				</li>
+			</ul>
+			<p>
+				What is the value of the premium?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="puzzle-problem-with-two-bonds">
+		<statement>
+			<p>
+				You have decided to invested in two bonds. Bond <m>X</m> is an <m>n</m>-year bond with semiannual coupons., while bond <m>Y</m> is a zero-coupon bond, which is redeemable in <m>n/2</m> years. The desired yield rate is the same for both bonds. You also have the following information: 
+			</p>
+			<p>
+				<em>Bond <m>X</m></em>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Par value is 1000.
+					</p>
+				</li>
+				<li>
+					<p>
+						The ratio of the semiannual bond rate to the desired semiannual yield rate, <m>\frac{r}{\iota}</m>, is 1.03125.
+					</p>
+				</li>
+				<li>
+					<p>
+						The present value of the redemption value is 381.50.
+					</p>
+				</li>
+			</ul>
+			<p>
+				<em>Bond <m>Y</m></em>:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Redemption value is the same as that of bond <m>X</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Price to yield is 647.80.
+					</p>
+				</li>
+			</ul>
+			<p>
+				What is the price of bond <m>X</m>?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="problem-solving-with-bonds-reflection">
+		<statement>
+			<p>
+				Which approaches to solving problems resonate with you?  What is still muddy?
+			</p>
+		</statement>
+	</activity>
+</section>

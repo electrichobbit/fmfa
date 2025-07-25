@@ -1,0 +1,58 @@
+<section xml:id="arbitrage">
+	<title>Arbitrage</title>
+	<p>
+		Before we get into valuing annuities, there are couple of preliminaries.  In this activity, we focus on understanding why the present value of a cash stream is the same as the price of the cash stream.  
+	</p>
+	<p>
+		<term>Arbitrage</term> is a risk-free profit.  The "no-arbitrage" rule says that arbitrage is not possible, or perhaps more to the point arbitrage should not occur.  This is a fundamental axiom underlying all of finance.  At the end of this chapter, we will explore the role arbitrage plays in ethical matters. 
+	</p>
+	<p>
+		Our purpose in this activity is simply to understand why present values are used as prices of cash flows.  You will spend much more time thinking about arbitrage when you prepare for the IFM exam.
+	</p>
+	<activity xml:id="arbitrage-simple">
+		<introduction>
+			<p> 
+				Let's start with a simple example.  Suppose you can purchase or sell the right to be paid 1000 two years from now, and the effective annual interest rate is 5%.  Assume that you can also borrow or lend at the effective annual interest rate.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				What is the present value?  Your answer should be larger than 850 and lower than 950.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose this is priced at 950.  How could you exploit this and earn an arbitrage profit?  What would that profit be at the end of two years?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose this is priced at 850.  How could you exploit this and earn an arbitrage profit?  What would that profit be at the end of two years?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="more-complicated-arbitrage">
+		<introduction>
+			<p> 
+				Now let's make this a little more complicated.  Valued at an effective interest rate of 2.5%, the present value of an annuity making 10 payments at the end of each year of 150 is 1312.81.  We will see later that if the present value were larger, the payments would be larger, while if the present value were lower, the payments would be lower.  Assume you can purchase or sell the annuity at its price, and can borrow or lend at the effective interest rate.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose this is priced at 1200.  How could you exploit this and earn an arbitrage profit? (You do not have to calculate the profit).
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose this annuity is priced at 1400.  How could you exploit this and earn an arbitrage profit? (You do not have to calculate the profit).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="arbitrage-loans">
+		<statement>
+			<p> 
+				We conclude with loans.  Use arbitrage to explain why the amount loaned to a borrower (called, simply enough, the <term>loan amount</term>) is the present value of the payments.
+			</p>
+		</statement>
+	</activity>
+</section>

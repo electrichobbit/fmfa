@@ -1,0 +1,83 @@
+<section xml:id="us-vs-canadian-t-bills">
+	<title>U.S. T-Bills vs Canadian T-Bills</title>
+	<p>
+		We will now look at differences between T-Bills in the United States and Canada.  Recall that T-Bills are zero-coupon bonds that mature in less than one year. There are two differences between T-Bills in the U.S. and Canada.  For U.S. T-Bills, we quote the yield rate as simple discount and use a 360-day year.  For Canadian T-Bills, we quote the yield rate as simple interest and use a 365-day year.  
+	</p>
+	<p>
+		Let's fix our notation before we start.  Given a T-Bill, whether in the U.S. or Canada, we let <m>N</m>  be the number of days until maturity, <m>P</m> the price (i.e. <m>A(0)</m>), <m>C</m> be the maturity value, and <m>I</m> be the amount of interest (or discount).  In addition, <m>\mathrm{QuotedRate}</m> will be the rate of simple discount (in the U.S.) or simple interest (in Canada).
+	</p>
+	<activity xml:id="relationship-between-c-p-i">
+		<statement>
+			<p>
+				Find a relationship between <m>C</m>, <m>P</m>, and <m>I</m>.  This relationship is true in both the U.S. and Canada.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="formula-for-the-quoted-rate-on-us-t-bill">
+		<introduction>
+			<p>
+				Next we find a formula for the quoted rate on a U.S. T-Bill.  In the U.S., the quoted rate is a simple discount rate, and we use a 360-day year.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write down an equation for <m>P</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve your equation for the quoted rate and express using <m>N</m>, <m>I</m>, and <m>C</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the quoted rate on a T-bill issued in the U.S with 37 days to maturity, a maturity value of 100, with interest of 0.15.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formula-for-the-quoted-rate-on-canadian-t-bill">
+		<introduction>
+			<p>
+				Now we will turn to a formula for the quoted rate on a Canadian T-Bill.  In Canada, the quoted rate is a simple interest rate, and we use a 365-day year.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write down an equation for <m>C</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve your equation for the quoted rate and express using <m>N</m>, <m>I</m>, and <m>P</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the quoted rate on a T-bill issued in Canada with 91 days to maturity, interest of 1.25, priced at 87.50.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="us-vs-canadian-t-bills-problem">
+		<statement>
+			<p>
+				A 90 day U.S. T-Bill can be purchased at <m>P</m> with a quoted rate of 2.8%. 
+			</p>
+			<p>
+				A 180-day Canadian T-Bill can be purchased at <m>P - 100</m>. 
+			</p>
+			<p>
+				Both T-Bills mature at 10,000. 
+			</p>
+			<p>
+				Calculate the quoted rate for the Canadian T-Bill.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="differences-between-canadian-and-us-t-bills">
+		<statement>
+			<p>
+				Summarize the difference between U.S. and Canadian T-Bills in a table.
+			</p>
+		</statement>
+	</activity>
+</section>

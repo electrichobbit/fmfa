@@ -1,0 +1,38 @@
+<section xml:id="multiple-simulaneous-rates">
+	<title>Multiple Interest Rates 1 -- Simultaneous Rates</title>
+	<p>
+		Problems often have multiple interest rates.  These interest rates may occur simultaneously.  In other words, there may be more than one account, each with their own interest rate (which may be quoted as an annual effective rate, a periodic rate, or a nominal rate).  Interest rates can also occur consecutively.  For example, the interest rate on a single account may be different over different periods in time.  Another example might have to do with forecasted interest rates. 
+	</p>
+	<p>
+		In all of these cases, a timeline can help us sort out what is happening in the problem so that we can solve it. 
+	</p>
+	<p>
+		In this activity, we examine a problem in which different interest rates occur simultaneously, and save consecutive interest rates for the next activity. 
+	</p>
+	<p>
+		Here is an example of a problem in which multiple interest rates  occur simultaneously: 
+	</p>
+	<activity xml:id="simultaneous-rates-activity">
+		<introduction>
+			<p>
+				Peter Parker borrows $2500 at the beginning of Year 0 with an annual effective interest rate <m>\iota = 5\%.</m>  He has to pay the balance, including interest, at the end of Year 3. He deposits $950 into an account earning a nominal interest rate <m>\iota^{(4)} = 6\%</m> at the end of Years 1, 2, and 3.  At the end of Year 3, he uses the balance in his deposit account to pay off his loan (we will see in Chapter 6 that this deposit account is called a <term>sinking fund</term>).  How much does he have left?
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				There are two accounts, so make a separate timeline for each account. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Describe how you can use these two timelines to solve the problem, and then solve it.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Explain how the timelines helped you solve the problem.
+			</p>
+		</task>
+	</activity>
+</section>
+

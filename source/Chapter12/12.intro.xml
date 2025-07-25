@@ -1,0 +1,11 @@
+<introduction>
+	<p>
+		Liabilities are amounts that are owed.  Firms use their data to forecast their liabilities.  For example, an insurance company will use probabilistic approaches to forecast expected claims during policy periods. 
+	</p>
+	<p>
+		Firms use their assets to pay their liabilities.  Funds can be invested in order to result in cash flows that serve as the assets to pay predicted liabilities.  For example, insurance companies invest their premiums with an expectation to use their investments to pay claims. When the payouts from the assets match the liabilities as they come due, we call this exact matching.  
+	</p>
+	<p>
+		If the timing of the asset payouts doesn't match the timing of the liabilities, firms face interest rate risk.  They manage this risk by making investment choices based on present values, durations, and convexities of the asset and liability cash flows.
+	</p>
+</introduction>

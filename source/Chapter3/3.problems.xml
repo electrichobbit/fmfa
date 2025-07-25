@@ -1,0 +1,216 @@
+<exercises xml:id="level-payment-annuities-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> To accumulate 8000 at the end of <m>3n</m> years, deposits of 98 are made at the end of each of the first <m>n</m> years and 196 at the end of each of the next <m>2n</m> years. The effective annual interest rate is <m>\iota</m>. You are given <m>(1+\iota)^n = 2.0</m>. Determine <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A family wishes to accumulate 50,000 in a college education fund at the end of 20 years. If they deposit 10000 in the fund at the end of each of the first 10 years and <m>1000+X</m> in the fund at the end of each of the second 10 years, find <m>X</m> if the fund earns 7% effective.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The cash price of an automobile is 10,0000. The buyer is willing to finance the purchase at 18% convertible monthly and to make payments of 250 at the end of each month for four years. Find the down payment that will be necessary. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> 50,000 can be invested under two options: 
+			</p>
+			<ul>
+				<li>
+					<p>
+						<em>OPTION 1</em>: Deposit the 50,000 into a fund earning an annual effective rate of <m>\iota</m>. 
+					</p>
+				</li>
+				<li>
+					<p>
+						<em>OPTION 2</em>: Purchase an annuity-immediate with 24 level annual payments at an annual effective rate of 10%. 
+					</p>
+				</li>
+			</ul>
+			<p>
+				The payments under Option 2 are deposited into a fund earning an annual effective rate of 5%. Both options produce the same accumulated value at the end of 24 years. Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A sports car enthusiast needs to finance 25,000 of the total purchase price of a new car. A loan is selected having 48 monthly level payments with a lender charging 6% convertible monthly. However, the lender informs the buyer that their policy is not to exceed a 500 monthly payment on any car loan. The buyer decides to accept the loan offer with the 500 payment and then decides to take out a second 12-month loan with a different lender at 7.5% convertible monthly to make up the shortfall not covered by the first loan. Find the amount of the monthly payment on the second loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11. He can purchase it by either:
+			</p>
+			<ul>
+				<li>
+					<p>
+						paying 900 per year at the end of each year for 10 years; or
+					</p>
+				</li>
+				<li>
+					<p>
+						paying <m>K</m> per year at the end of each year for the first 5 years and nothing for the next 5 years.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>K</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit.  He repays the loans with payments of 1350 at the end of each month.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the amount of time (in months) it will take for Vader to pay the loan off.  It will not be a whole number!
+			</p>
+		</task>
+		<task>
+			<p>
+				When a loan arrangement is such that the payoff time is not a whole number, there are two options.  The first option is a <term>balloon payment</term>.  Under this option, an amount is added to the last regular payment in order to pay off the loan.  This means that the last payment will be larger than all of the other payments.  If Vader made a balloon payment at the end of the loan, how much would it be for?
+			</p>
+		</task>
+		<task>
+			<p>
+				The second option is a <term>drop payment</term> - a final payment one period after the last regular payment.  A drop payment is smaller than the regular payment.  Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment.  If Vader made a drop payment, how much would it be for?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A borrows 20,000 for 8 years and repays the loan with level annual payments at the end of each year. B also borrows 20,000 for 8 years, but pays only interest due each year and plans to repay the entire loan at the end of the 8-year period. Both loans carry an effective interest rate of 8.5%. How much more interest will B pay than A pays over the life of the loan?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A borrower has the following options for repaying a loan:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Sixty monthly payments of 100 at the end of each month.
+					</p>
+				</li>
+				<li>
+					<p>
+						A single payment of 6000 at the end of <m>K</m> months.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Interest is at the nominal annual rate of 12% convertible monthly. The two options have the same present value.  Find <m>K</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Lando Calrissian purchases Cloud City with a 10-year loan of 500,000.  The effective annual interest rate is 4%.  Each year, Lando pays the interest on the loan, and makes a deposit of <m>K</m> into a secondary account (called a <term>sinking fund</term>) carrying 6% interest.  At the end of the term of the loan, the funds in the secondary account are used to pay off the principal of the loan, leaving nothing in the account.  Find <m>K</m>, and find the total outlay (<m>K</m> and the annual interest) that Lando pays.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find <m>\ddot{a}_{\angl{8}}</m> if the effective rate of discount is 10%.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Chuck needs to purchase an item in 10 years. The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional <m>X</m> at the beginning of years 4,5 and 6 to meet his goal. The effective annual interest rate is 10%. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Deposits of 1000 are placed into a fund at the beginning of each year for the next 20 years. After 30 years annual payments commence and continue forever, with the first payment at the end of the 30th year. Find an expression for the amount of each payment. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years. The account credits interest at an effective annual interest rate of <m>\iota</m>. The accumulated amount in the account at the end of 40 years is <m>X</m>, which is 5 times the accumulated amount in the account at the end of 20 years. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Given <m>s_{\angl{10} 0.10} = S</m>, find the value of <m>\ds{\sum_{t=1}^{10}} s_{\angl{t} 0.10}</m> in terms of <m>S</m>.  <em>Hint:</em> Simplify the sum, and look out for the series representation of <m>S</m>).
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A fund earning 8% effective is being accumulated with payments of 500 at the beginning of each year for 20 years. Find the maximum number of withdrawals of 1000 that can be made at the ends of years under the condition that once withdrawals start they must continue through the end of the 20-year period.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 48-month car loan of 12,000 can be completely paid off with monthly payments of 300 made at the end of each month. What is the nominal rate of interest convertible monthly on this loan?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A beneficiary receives a 10,000 life insurance benefit. If the beneficiary uses the proceeds to buy a 10-year annuity immediate, the annual payout will be 1538. If a 20-year annuity-immediate is purchased, the annual payout will be 1072. Both calculations are based on an annual effective interest rate of <m>\iota</m>. Find <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The present values of the following three annuities are equal:
+			</p>
+			<ul>
+				<li>
+					<p>
+						perpetuity-immediate paying 1 each year, calculated at an annual effective interest rate of 7.25%.
+					</p>
+				</li>
+				<li>
+					<p>
+						50-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of <m>j \\%</m>.
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>n</m>-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of <m>j - 1\\%</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

@@ -1,0 +1,116 @@
+<section xml:id="economic-point-of-view">
+	<title>The Economic Point of View</title>
+	<p>
+		We begin by supposing that there are no risks.  We assume no inflation, and no risk of non-payment.  The interest rate in this environment is called the <term>risk-free rate</term>. 
+	</p> 
+	<activity xml:id="risk-free-rates">
+		<introduction>
+			<p>
+				Suppose you have some money.  There are things you might be interested in purchasing.  There are also others who need funds.   
+			</p>
+			<p>
+				If you choose to lend funds to those who need it, the rate you charge is the risk-free rate (recall that there is no risk of inflation or non-payment).
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Explain what is meant by the following statement: "The risk-free rate is compensation to the lender for <term>deferred consumption</term>."
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose that there are 1000 potential lenders in the economy.  Let <m>r</m> denote the risk-free rate.  Let <m>S(r)</m> denote the number of lenders willing to lend at interest rate <m>r</m>.  What can you say about <m>S(r)</m>?  Explain.
+			</p>
+		</task>
+		<task>
+			<p>
+				Sketch a possible graph for <m>S(r)</m>.  This function is the <term>supply curve</term> for money, sometimes called the <term>supply of loanable funds</term>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="deferred-consumption-for-the-borrower">
+		<introduction>
+			<p>
+				Now suppose you do not have money, and would like to purchase something.  You can wait, or you can borrow to purchase now.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What does "deferred consumption" mean on the borrower-side?
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose there are 1000 borrowers in the economy.  Let <m>D(r)</m> be the number willing to borrow at an interest rate of <m>r</m>.  What can you say about <m>D(r)</m>?  Explain. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Sketch a possible graph for <m>D(r)</m>  This function is the <term>demand curve</term> for money, sometimes called the <term>demand for loanable funds</term>. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="supply-and-demand-curves">
+		<statement>
+			<p>
+				Sketch your supply and demand curves on the same axes.  Label the point at which every one who wants to borrower will be able to do so, and everyone who wants to lend will be able to find a borrower.  The rate <m>r</m> at this point is the <term>equilibrium</term> or <term>market</term> rate of interest.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="problems-with-interest-lower-or-higher-than-market">
+		<statement>
+			<p>
+				What is the problem if the interest rate is lower than the market rate of interest?  What if it is higher?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="examining-supply-and-demand">
+		<introduction>
+			<p>
+				Suppose the supply and demand for loanable funds is displayed in the following graph:
+			</p>
+			<figure xml:id="supply-and-demand-curves-figure">
+				<caption>Interest rates as they depend on supply and demand.</caption>
+				<image source="images/SD1.png"/>
+			</figure>
+		</introduction>
+		<task>
+			<p>
+				What is the interest rate and the number of borrowers and lenders if the market for loanable funds is in equilibrium?
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the interest rate is 2.5%.  Describe three steps of what happens to the market for loanable funds (you do not have to use precise numbers).
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the central bank increases the supply of money.  What will happen to the interest rate?  Explain your reasoning with reference to the graph.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="supply-and-demand-from-equations">
+		<statement>
+			<p>
+				Let <m>B</m> be the number of borrowers (in millions) and <m>L</m> be the number of lenders (in millions).  Suppose the system of demand and supply equations for loanable funds is:
+			</p>
+			<me>
+				\iota_D  =  0.08e^{-0.837B} 
+			</me>
+			<me>
+				\iota_S  =  0.01e^{0.203L} 
+			</me>
+			<p>
+				Find the equilibrium interest rate <m>\iota</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="economic-point-of-view-reflection">
+		<statement>
+			<p>
+				Explain what it means (practically) for the market for loanable funds to be in equilibrium.
+			</p>
+		</statement>
+	</activity>
+</section>

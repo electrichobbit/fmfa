@@ -1,0 +1,338 @@
+<exercises xml:id="matching-liabilities-assets-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, calculate the cost of exactly matching the liabilities using only the available zero-coupon bonds.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				There is exactly one liability of 3000 due in 1 year.  A 1-year, zero-coupon bond has par of 1000 and is priced to yield 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is exactly one liability of 2000 due in 3 years.  A 3-year, zero-coupon bond has par of 100 and is priced to yield 6.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 3000 due in 1 year and another liability of 2000 due in 2 years.  A 1-year zero-coupon bond has par of 1000 and is priced to yield 3%, while a 2-year zero-coupon bond with a par of 1000 is priced to yield 4.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 1000 due in 2 years and another liability of 2000 due in 4 years.  The yield curve is:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Time in years <m>t</m>
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Spot rate <m>s_0(t)</m>
+						</cell>
+						<cell right="medium">
+							6.0%
+						</cell>
+						<cell right="medium">
+							5.0%
+						</cell>
+						<cell right="medium">
+							4.5%
+						</cell>
+						<cell right="medium">
+							3.0%
+						</cell>
+						<cell right="medium">
+							3.5%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				There is a liability of 2000 due in 1 year, 1000 due in 2 years, and 3000 due in 3 years.  The yield curve has <m>s_0(1) = 3.25\%</m>, <m>s_0(2) = 4.00\%</m>, and <m>s_0(3) = 4.20\%.</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, calculate the cost of exactly matching the liabilities using only the available bonds.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				There are liabilities of 1000 at the end of each of the next two years.  There is a one-year zero-coupon bond with par of 1000 priced to yield 6% and a two-year bond with par of 1000, annual coupons at 4%, priced to yield 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are liabilities of 1000 at the end of each of the next two years.  There is a one-year bond, with par value of 1000, and with an annual coupon of 3.5% priced to yield 2%, and a two-year zero-coupon bond priced to yield 3%.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are liabilities of 1000 at the end of each of the next two years.  The only bonds available have annual coupons and are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Maturity (years)</term>
+						</cell>
+						<cell right="medium">
+							<term>Coupon Rate (annual)</term>
+						</cell>
+						<cell right="medium">
+							<term>Effective Annual Yield</term>
+						</cell>
+						<cell right="medium">
+							<term>Par</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.5%
+						</cell>
+						<cell right="medium">
+							3%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				There are liabilities of 1000 at the end of each of the next three years.  The only bonds available have annual coupons and are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Maturity (years)</term>
+						</cell>
+						<cell right="medium">
+							<term>Coupon Rate (annual)</term>
+						</cell>
+						<cell right="medium">
+							<term>Effective Annual Yield</term>
+						</cell>
+						<cell right="medium">
+							<term>Par</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							3%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years.  The only bonds available have semiannual coupons and are:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Maturity (years)</term>
+						</cell>
+						<cell right="medium">
+							<term>Coupon Rate</term>
+						</cell>
+						<cell right="medium">
+							<term>Annual Yield</term>
+						</cell>
+						<cell right="medium">
+							<term>Par</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.5
+						</cell>
+						<cell right="medium">
+							8%
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							10%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10.  To immunize these liabilities at <m>\iota_0 = 8\%</m>, the firm purchases a zero coupon bond of amount <m>A_1</m> maturing at time <m>t_1</m> and a second zero-coupon bond of amount <m>A_2</m> maturing at time <m>t_2</m>. 
+			</p>
+			<p>
+				Given <m>t_1</m> and <m>t_2</m> below, find <m>A_1</m> and <m>A_2</m>.  If immunization is not possible, say so and justify.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>t_1 = 4</m> and <m>t_2 = 8</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 7</m> and <m>t_2 = 9</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 3</m> and <m>t_2 = 12</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 7</m> and <m>t_2 = 15</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 2</m> and <m>t_2 = 3</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise xml:id="reddington-exercise">
+		<introduction>
+			<p>
+				A single liability of 250,000 will come due at the end of year 8.  To immunize these liabilities at <m>\iota_0 = 5\%</m>, the firm purchases a zero coupon bond of amount <m>A_1</m> maturing at time <m>t_1</m> and a second zero-coupon bond of amount <m>A_2</m> maturing at time <m>t_2</m>. 
+			</p>
+			<p>
+				Given <m>t_1</m> and <m>t_2</m> below, find <m>A_1</m> and <m>A_2</m>.  If immunization is not possible, say so and justify.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>t_1 = 3</m> and <m>t_2 = 6</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 4</m> and <m>t_2 = 11</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 10</m> and <m>t_2 = 12</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 7</m> and <m>t_2 = 15</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 5</m> and <m>t_2 = 10</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				For each part of <xref ref="reddington-exercise"/> in which immunization is possible, state whether or not the liability is fully immunized.  Justify your conclusion.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

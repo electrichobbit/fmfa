@@ -1,0 +1,95 @@
+<section xml:id="appendix-differentiation-integration-specific-functions">
+	<title>Specific Functions</title>
+	<table>
+		<tabular halign="center" top="medium">
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Derivatives
+				</cell>
+				<cell right="medium">
+					Integrals
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m> \frac{d}{dx}\left(x^n\right) = nx^n-1</m>
+				</cell>
+				<cell right="medium">
+					<m>\int x^n dx = \frac{x^{n+1}}{n+1} + C</m> (<m>n \neq 1</m>)
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(e^x\right)</m>
+				</cell>
+				<cell right="medium">
+					<m>\int e^x dx = e^x + C</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(b^x\right) = \ln(b) \cdot b^x</m>
+				</cell>
+				<cell right="medium">
+					<m>\int b^x dx = \frac{b^x}{\ln(b)} + C</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(\ln(x)\right) = \frac{1}{x}</m>
+				</cell>
+				<cell right="medium">
+					<m>\int \frac{dx}{x} = \ln(x) + C</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+		</tabular>
+	</table>
+</section>

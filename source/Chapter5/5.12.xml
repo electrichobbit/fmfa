@@ -1,0 +1,84 @@
+<section xml:id="continuously-payable-annuities-with-non-level-payments">
+	<title>Continuously Payable Annuities with Non-Level Payments</title>
+	<p>
+		We now shift to consider continuously payable annuities where the payments follow a non-constant function <m>h(t)</m>. We will consider the case where the force of interest is constant, so that we have an effective periodic interest rate of <m>\iota</m>.  The period will correspond to the units of <m>t</m>.  We will finish by generalizing to a non-constant force of interest. 
+	</p>
+	<p>
+		The integration involved makes use of integration-by-parts, so if you are not confident with this integration technique you should review it.
+	</p>
+	<activity xml:id="finding-the-present-value-of-a-continously-payable-annuity">
+		<introduction>
+			<p> 
+				Given an effective periodic rate <m>\iota</m> and a continuous payment rate <m>h(t)</m>, the present and accumulated values are:
+			</p>
+			<me>
+				PV  =  \int_0^n h(t)v^t \,dt
+			</me>
+			<me>
+				AV  =  \int_0^n h(t)(1+\iota)^{n-t} \,dt
+			</me>
+			<p>
+				Suppose <m>h(t) = t^2</m> and <m>n = 10</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the present value as a function of <m>v</m>.
+			</p>
+		</task>	
+		<task>
+			<p> 
+				If <m>\iota = 2\%</m>, what is the present value?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-explicit-formulas-for-continuous-payable-annuities">
+		<introduction>
+			<p> 
+				If <m>h(t) = t</m>, the present value is denoted <m>\left(\overline{I}\overline{a}\right)_{\angln}</m> and <m>\left(\overline{I}\overline{s}\right)_{\angln}</m>.  
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find an explicit formula for <m>\left(\overline{I}\overline{a}\right)_{\angln}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find an explicit formula for <m>\left(\overline{I}\overline{s}\right)_{\angln}</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formulas-with-arbitrary-force-of-interest">
+		<statement>
+			<p> 
+				If we have an arbitrary force of interest <m>\delta_t</m>, the present and accumulated values are:
+			</p>
+			<me>
+				PV  = \int_0^n h(t) \mathrm{exp}\left(-\int_0^t \delta_r dr\right) dt
+			</me>
+			<me>
+				AV  =  \int_0^n h(t) \mathrm{exp}\left(\int_t^n \delta_r dr\right) dt 
+			</me>
+			<p>
+				For the present value of a perpetuity, we have:
+			</p>
+			<me>
+				PV = \int_0^{\infty}h(t) \mathrm{exp}\left(-\int_0^t \delta_r dr \right) dt
+			</me>
+			<p>
+				Suppose we have a perpetuity with <m>\delta_r = 2r</m> and <m>h(t) = t^2</m>.  Find the present value.  You will need the following identity:
+			</p>
+			<me>
+				\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+			</me>
+		</statement>
+	</activity>
+	<activity xml:id="continuously-payable-annuities-with-non-level-payments-reflection">
+		<statement>
+			<p> 
+				How confident do you feel with annuities with non-level payments?  What can you do to improve your confidence?
+			</p>
+		</statement>
+	</activity>
+</section>

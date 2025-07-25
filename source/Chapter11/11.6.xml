@@ -1,0 +1,112 @@
+<section xml:id="review-taylor-series-and-approximations">
+	<title>Review -- Taylor Series and Approximations</title>
+	<p>
+		In Calculus, you learn about Taylor series.  The theory tells you that under certain conditions, you write a function "near" a  value <m>x</m> as a polynomial in <m>\Delta x</m>:
+	</p>
+	<me>f(x + \Delta x) = \sum_{k = 0}^{\infty} \frac{f^{(k)}(x)}{k!}(\Delta x)^k</me>
+	<p>
+		Here, <m>f^{(k)}(x)</m> stands for the <m>k</m>th derivative (where <m>k = 0</m> corresponds to the original function).  If we write this in expanded notation, this looks like:
+	</p>
+	<me>f(x+ \Delta x) = f(x) + f'(x)(\Delta x) + \frac{f"(x)}{2}(\Delta x)^2 + \frac{f"'(x)}{6}(\Delta x)^3 + \cdots + \frac{f^{(k)}(x)}{k!}(\Delta x)^k + \cdots</me>
+	<p>
+		We call this the Taylor series around <m>x</m> (where <m>x</m> is a selected value).  The "=" in this case means something about convergence (which we will naively not concern ourselves with in this course). 
+	</p>
+	<p>
+		The value of Taylor series is that we can use finite-degree polynomials to approximate our functions:
+	</p>
+	<me>f(x+\Delta x) \approx \sum_{k=0}^n \frac{f^{(k)}(x)}{k!}(\Delta x)^k</me>
+	<p>
+		The approximation above is called the <term><m>n</m>th order approximation</term>.  
+	</p>
+	<p>
+		For small <m>n</m>, this can be calculated by hand.  For larger values of <m>n</m>, since there are still finitely many calculations involved, the approximation can be calculated by computers.  For us, we will be interested in <m>n = 1</m> or <m>n = 2</m>.
+	</p>
+	<activity xml:id="linear-and-higher-order-approximations">
+		<introduction>
+			<p>
+				Let <m>P(\iota)</m> be the price (or present value) of some specific cash flows valued at a rate <m>\iota</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write an equation for the first order (linear) approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Write an equation for the second order (quadratic) approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="playing-with-the-exponential-function">
+		<introduction>
+			<p>
+				Let's play with the function <m>f(x) = e^x</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the Taylor series around <m>x = 0</m>.  Since we have <m>x = 0</m>, just use <m>x</m> for <m>\Delta x</m>.  Note that this series converges for all <m>x</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use your Taylor series to write down an expression for the number <m>e</m>, written as an infinite sum.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="playing-with-the-sin-function">
+		<statement>
+			<p>
+				Let <m>f(x) = \sin(x)</m>.  Find the first order approximation around <m>x = 0</m>.  Since we have <m>x = 0</m>, just use <m>x</m> for <m>\Delta x</m>.  Note that the series converges for all <m>x</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="approximating-present-value">
+		<introduction>
+			<p>
+				Recall that the present value of a perpetuity with a first payment of <m>K</m> whose payments grow by <m>100g \%</m> is given by the function:
+			</p>
+			<me>P(\iota) = \frac{K}{\iota - g}</me>
+		</introduction>
+		<task>
+			<p>
+				Suppose we have a share of stock that distributes annual dividends.  The first dividend is 2.50, and each dividend grows by 2% every year forever.  Let <m>P(\iota)</m> be the price of the share (using the dividend discount model) as a function of the effective annual interest rate <m>\iota</m>.  Write down <m>P(\iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the first-order (linear) approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the first-order (linear) approximation for <m>\Delta P = P(\iota + \Delta \iota) -  P(\iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the second-order (quadratic) approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the second-order (quadratic) approximation for <m>\Delta P</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="approximating-present-value-of-level-payment-annuity">
+		<statement>
+			<p>
+				Let <m>P(\iota)</m> be the price (present value) of a level payment annuity with 10 annual payments of 125 using an effective annual interest rate of <m>\iota</m>.  Use the calculus of actuarial symbols to find the first-order (linear) approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="taylor-series-reflection">
+		<statement>
+			<p>
+				What do Taylor series help us analyze for small perturbations in the interest rate?  What does this tell us about interest rate risk?
+			</p>
+		</statement>
+	</activity>
+</section>

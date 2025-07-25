@@ -1,0 +1,325 @@
+<section xml:id="general-principles-of-loan-amortization">
+    <title>General Principles of Loan Amortization</title>
+    <p>
+        When a loan is paid off, each payment <m>K_t</m> has two components: the amount of interest paid <m>I_t</m>, and the amount of principal paid, <m>Pr_t</m>:
+    </p>
+    <me>
+        K_t=I_t + Pr_t
+    </me>
+    <p>
+        This notation sometimes vary from one text to another, so just be sure to understand the symbols you are using in any given context. 
+    </p>
+    <p>
+        When loans are paid off, we say the loan is amortized. The word <term>amortization</term> refers to the payment of an original loan amount <m>L</m> carrying a periodic interest rate <m>\iota</m> with periodic payments <m>K_t</m>.  Sometimes there are different interest rates over different periods. Note that sometimes repayment schedules with constant payments (<m>K_t = K</m> for all <m>t</m>) is referred to as amortization or "the amortization method." We try to avoid such terms in this book, but generally you can determine what the author means by context. 
+    </p>
+    <p>
+        There are two general principles for loan amortization.  The first is that the outstanding balance at any point in time is the <term>present value of the remaining payments</term>.  In other words: <me>OB_t = K_{t+1}v + K_{t+2}v^2 + \cdots + K_nv^{n-t}</me>  Note that <m>OB_0 = L</m> and as a consequence: <me>L = K_1v + K_2v^2 + \cdots K_nv^n</me>  
+    </p>
+    <p>
+        The second principle is what I call the recursive nature of amortization.  If we start with <m>OB_{t-1}</m>, interest is accrued on this outstanding balance <term>before</term> the payment is applied.
+    </p>
+    <activity xml:id="recursive-nature-of-amortization">
+        <introduction>
+            <p> 
+                Let's express the second principle with a couple of formulas.
+            </p>
+        </introduction>
+        <task>
+            <p> 
+                Express <m>I_t</m> using only <m>\iota</m> and <m>OB_{t-1}</m>. 
+            </p>
+        </task>
+        <task>
+            <p> 
+                Express <m>OB_t</m> using only <m>\iota</m>, <m>OB_{t-1}</m>, and <m>K_t</m>.
+            </p>
+        </task>
+        <task>
+            <p> 
+                Explain why I refer to this as recursive.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="amortization-problem-from-broverman">
+        <introduction>
+            <p>
+                The following problem is from Broverman:
+            </p>
+            <p> 
+                An amortized loan has 10 annual payments at the end of each year starting one year from now. The first 5 payments are 1000 each and the final 5 payments are 500 each. Interest is at an effective annual rate of 10%. Find each of the following:
+            </p>
+        </introduction>
+        <task>
+            <p> 
+                The initial amount on the loan.
+            </p>
+        </task>
+        <task>
+            <p> 
+                The outstanding balance just after the third payment.
+            </p>
+        </task>
+        <task>
+            <p> 
+                The interest and principal in the fourth payment.
+            </p>
+        </task>
+        <task>
+            <p> 
+                The outstanding balance just after the 8th payment.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="creating-an-amortization-schedule">
+        <statement>
+            <p>
+                An <term>amortization schedule</term> is a list that tracks payments, interest payments, principal payments, and the outstanding balance for each payment of the loan.
+            </p>
+            <p> 
+                A loan of 100,000 carries an effective annual interest rate of <m>\iota = 4\%</m>.  It is repaid with ten annual payments of 12,329.09 at the end of each year. 
+            </p>
+            <p>
+                Complete the following amortization schedule for the first three years of the loan.
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t</m>
+                        </cell>
+                        <cell right="medium">
+                            Payment
+                        </cell>
+                        <cell right="medium">
+                            Interest Due
+                        </cell>
+                        <cell right="medium">
+                            Principal Repaid
+                        </cell>
+                        <cell right="medium">
+                            Outstanding Balance
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            0
+                        </cell>
+                        <cell right="medium">
+                            -
+                        </cell>
+                        <cell right="medium">
+                            -
+                        </cell>
+                        <cell right="medium">
+                            -
+                        </cell>
+                        <cell right="medium">
+                            <m>OB_0 = L = 100,000</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            1
+                        </cell>
+                        <cell right="medium">
+                            <m>K_1 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>I_1 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>Pr_1 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>OB_1 = \hskip 2in</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            2
+                        </cell>
+                        <cell right="medium">
+                            <m>K_2 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>I_2 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>Pr_2 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>OB_2 = \hskip 2in</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            3
+                        </cell>
+                        <cell right="medium">
+                            <m>K_3 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>I_3 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>Pr_3 = \hskip 2in</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>OB_3 = \hskip 2in</m>
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <assemblage>
+        <title>&#x1F9EE; Calculator Corner</title>
+        <p> 
+            The financial calculator includes an amortization worksheet  This worksheet will tell you how much principal and how much interest is in a given payment, as well as the balance immediately following the payment. It can only be used when your are amortizing with constant payments (<m>K_t = K</m> for all <m>t</m>). 
+        </p>
+        <p>
+            To use the amortization worksheet, first enter all of the data that you have about the loan using <kbd>N</kbd>, <kbd>I/Y</kbd>, <kbd>PV</kbd>, <kbd>PMT</kbd>, and <kbd>FV</kbd>.  Have the calculator calculate any missing values. 
+        </p>
+        <p>
+            Once that is entered, hit the <kbd>AMORT</kbd> button (hit <kbd>2ND</kbd> followed by the <kbd>PV</kbd> button).  For P1, enter the payment number you want to look at, and hit <kbd>ENTER</kbd>.  Then hit the <kbd name="down"/> button, and for P2, enter the same payment number and hit <kbd>ENTER</kbd> (if P1 and P2 are different, the calculator will report the cumulative impact, as we will see later!).  
+        </p>
+        <p>
+            Then you can use the <kbd name="up"/> and <kbd name="down"/> buttons and see the outstanding balance immediately after the payment (BAL), the principal repaid in the payment (PRN), and the interest in the payment (INT).  The principal and interest payments will display as negative due to the sign convention of the calculator. 
+        </p>
+    </assemblage>
+    <activity xml:id="using-the-calculator-for-amortization">
+        <statement>
+            <p>
+                Use the financial calculator to redo the previous question.  Do you prefer to use the amortization worksheet or amortizing by hand? 
+            </p>
+        </statement>
+    </activity>
+    <p>
+        Almost every problem we will examine will involve a loan being repaid by one of three approaches:
+    </p>
+    <ul>
+        <li>
+            <p> 
+                Constant payments: <m>K_t = K</m> for all <m>t</m> (the most common approach), 
+            </p>
+        </li>
+        <li>
+            <p> 
+                Constant payments of principal: <m>Pr_t = Pr</m> for all <m>t</m>, or
+            </p>
+        </li>
+        <li>
+            <p> 
+                Payment of interest only (<m>I_t = I = \iota L</m> for all <m>t</m>), with principal paid off at the end.
+            </p>
+        </li>
+    </ul>
+    <activity xml:id="amortization-tables-with-different-payment-strategies">
+        <introduction>
+            <p> 
+                A loan of 50,000 has a term of 5 years.  The effective annual interest rate is <m>\iota = 4\%</m>.  Construct the amortization schedule under each of the following repayment conditions:
+            </p>
+        </introduction>
+        <task>
+            <p> 
+                The loan is repaid with five annual level payments.
+            </p>
+        </task>
+        <task>
+            <p> 
+                The loan is repaid with five payments.  Each payment consists of the outstanding interest plus a 10,000 payment of principal.
+            </p>
+        </task>
+        <task>
+            <p> 
+                The annual payments consist only of interest, and the balance is paid off at the end of the term.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="comparing-amortization-schedules">
+        <statement>
+            <p> 
+                What did you notice about the amortization schedules in the previous question?
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="amortization-schedule-with-changing-interest">
+        <introduction>
+            <p> 
+                Sometimes an interest rate changes during the term of a loan.  Suppose a loan of 100,000 is paid off with ten annual payments.  For the first four years, the interest rate is 6%, and for the last six years, the interest rate is 7.5%. The first four payments are 13,586.80.  The last six payments are <m>K</m>.
+            </p>
+        </introduction>
+        <task>
+            <p> 
+                Find <m>K</m>.
+            </p>
+        </task>
+        <task>
+            <p> 
+                Find <m>OB_3</m>
+            </p>
+        </task>
+        <task>
+            <p> 
+                Find <m>OB_7</m>
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="amortization-without-changing-interest">
+        <introduction>
+            <p>  
+                Suppose the interest rate does not change during the life of a loan. Then we have the following identity (which is very useful, especially in "puzzle problems"):
+            </p>
+            <me>
+                Pr_{t+1} = Pr_t(1+\iota) + K_{t+1} - K_t
+            </me>
+        </introduction>
+        <task>
+            <p> 
+                Verify this identity.
+            </p>
+        </task>
+        <task>
+            <p> 
+                Rewrite the identity under the assumption that we have constant payments.
+            </p>
+        </task>
+        <task>
+            <p> 
+                Still assuming constant payments, use this identity to write an equation for <m>Pr_{t+k}</m> using only <m>Pr_t</m> and <m>\iota</m>.
+            </p>
+        </task>
+        <task>
+            <p> 
+                Let's look at an example of a "puzzle problem" that this identity helps us solve. 
+            </p>
+            <p>
+                Suppose we have a loan carries an effective monthly interest rate of <m>\iota = 3\%</m> and is paid off with monthly payments of 800.  If <m>Pr_{21} = 103.35</m>, find <m>OB_{67}</m>. 
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="amortization-problems-that-dont-fit-these-approaches">
+        <introduction>
+            <p> 
+                You might run into a problem that does not quite fit into one of the three repayment approaches we outlined above.  In these cases, it is helpful to write out two or three rows of an amortization schedule and look for patterns.  To find patterns, it is helpful to write out your calculation steps.
+            </p>
+        </introduction>
+        <task>
+            <p> 
+                A 30-year loan of 1000 is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals 150% of the amount of interest due. Each of the last ten payments is <m>X</m>. The lender charges interest at an effective annual rate of 10%. Calculate <m>X</m>.
+            </p>
+        </task>
+        <task>
+            <p> 
+                We can characterize the repayment in the middle ten payments in this problem as payment by multiples of interest.  We <em>could</em> derive formulas for such a repayment scheme.   Is it worth it?  Why or why not?
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="amortization-reflection">
+        <statement>
+            <p> 
+                This activity covered a lot of ground, all of which forms the foundation for the rest of the chapter.  Write down three important points that come out of this activity.
+            </p>
+        </statement>
+    </activity>
+</section>

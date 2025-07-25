@@ -1,0 +1,152 @@
+<section xml:id="variable-interest-rates">
+	<title>Variable Interest Rates</title>
+	<p>
+		A loan, or other financial instrument, may have varying interest rates.  A common example are "adjustable rate mortgages" -- home loans in which the interest rate varies throughout the term of the loan.    These varying rates are called <term>floating rates</term>. 
+	</p>
+	<p>
+		Often, floating rates are pegged to a standard interest rate index.  In this sense, they will be quoted as the index plus some amount, such as prime + 1.5% (the addition is in terms of percentage points).  The most common indices we will see are the prime rate and LIBOR. 
+	</p>
+	<p>
+		The <term>prime rate</term> is an interest rate the U.S. commercial banks charge their most credit-worthy borrowers.  
+	</p>
+	<p>
+		The acronym <term>LIBOR</term> stands for <term>London Inter-Bank Overnight Rate</term> and is a UK-based interest rate that banks charge one another to loan funds overnight (quoted as an effective annual rate most of the time). 
+	</p>
+	<p>
+		There is one last term used in this context - basis points.  A <term>basis point</term> (abbreviated bp) is one percent of 1% interest.  So 100 bp = 1%.  In this case, to say that the floating rate on a loan is LIBOR + 200 bp is the same as saying the floating rate is LIBOR + 2%.
+	</p>
+	<activity xml:id="adjustable-rate-mortgage">
+		<statement>
+			<p>
+				Suppose an adjustable rate mortgage calls for an interest rate of "prime + 150 bp" to be determined annually.  This means that, assuming monthly payments, they will only change the interest rate every 12 payments. 
+			</p>
+			<p>
+				During the first five years of the loan, the prime rate was as follows: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							Prime Rate
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.45%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.12%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							2.95%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							3.60%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							3.71%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the interest rate (as an effective annual rate) paid by the borrower in each of the first five years of the mortage.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="loan-calculated-with-libor">
+		<statement>
+			<p>
+				A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment.  The interest is paid at an annual rate of LIBOR + 2%.  Over the five years, the LIBOR was as reported in the table below.
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							LIBOR
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.15%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							3.95%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the interest payment each year.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="variable-interest-rates-reflection">
+		<statement>
+			<p>
+				What is the advantage to the borrower of a floating rate? What is the disadvantage?  Why might a borrower find floating rates undesirable?
+			</p>
+		</statement>
+	</activity>
+</section>

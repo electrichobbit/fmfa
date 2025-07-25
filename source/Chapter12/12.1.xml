@@ -1,0 +1,100 @@
+<section xml:id="exact-matching-with-zero-coupon-bonds">
+	<title>Exact Matching with Zero-Coupon Bonds</title>
+	<p>
+		<term>Liabilities</term> are amounts firms owe, and <term>assets</term> are the resources firms have to pay their liabilities.  <term>Exact matching</term> is an investment strategy in which the payouts of the assets occur at the same time the liabilities come due, and in the same amounts.
+	</p>
+	<activity xml:id="matching-a-liability">
+		<statement>
+			<p>
+				Suppose we have a liability of 1000 coming due at the end of one year.  List at least two possible investments we could purchase now in order to exactly match the liability.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="choosing-zero-coupon-bonds">
+		<introduction>
+			<p>
+				Suppose zero-coupon bonds are the only investments available, and the yield curve is as follows: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>s_0(t)</m>
+						</cell>
+						<cell right="medium">
+							4.00%
+						</cell>
+						<cell right="medium">
+							5.25%
+						</cell>
+						<cell right="medium">
+							6.00%
+						</cell>
+						<cell right="medium">
+							6.25%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				For each of the following liability schedules, determine (i) which zero-coupon bonds you will invest in, (ii) how much face value of each zero-coupon bond you will purchase, and (iii) the total cost of the assets to exactly match liabilities.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				There is exactly one liability of 1000 at the end of year 1.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 1000 due at the end of year 1, and another liability of 1000 due at the end of year 2.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 2000 due at the end of year 1, and another liability of 3000 due at the end of year 2.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 1500 due at the end of year 1, a liability of 1000 due at the end of year 2, and a liability of 2000 due at the end of year 3.
+			</p>
+		</task>
+		<task>
+			<p>
+				There is a liability of 1000 due at the end of year 1, a liability of 2000 due at the end of year 2, and a liability of 3000 at the end of year 4.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="choosing-interest-rate-to-match-liability">
+		<statement>
+			<p>
+				Suppose we have a liability of 2500 due at the end of year 1 and a liability of 3250 due at the end of year 2.  The effective annual interest rate on a 1-year zero-coupon bond is 4%.  What is the lowest effective annual interest rate you need for a two-year, zero-coupon bond in order to keep the cost of exact matching under 5340.50.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="exact-matching-with-zero-coupon-bonds-reflection">
+		<statement>
+			<p>
+				How do you expect the exact matching cost calculations will change when we use coupon bonds instead of zero-coupon bonds?
+			</p>
+		</statement>
+	</activity>
+</section>

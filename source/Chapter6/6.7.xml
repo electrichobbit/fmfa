@@ -1,0 +1,122 @@
+<section xml:id="totaling-payments">
+    <title>Totals</title>
+    <p>
+        Sometimes we want to total up all of the payments, interest payments, or principal payments.  In these cases, we are not concerned with valuation, just adding up the figures.  We use an index of <m>T</m> for totals:
+    </p>
+    <me>
+        K_T =  \sum_{t=1}^n K_t
+    </me>
+    <me>
+        I_T  =  \sum_{t=1}^n I_t
+    </me>
+    <me>
+        Pr_T  = \sum_{t=1}^n Pr_t
+    </me>
+    <p>
+        Of course, <m>K_T = I_T + Pr_T</m>. 
+    </p>
+    <p>
+        Some problems will involve partial totals -- the sum of a subset of payments, interest payments, or principal payments.
+    </p>
+    <activity xml:id="finding-the-total-principal-paid-off">
+        <statement>
+            <p>
+                Find <m>Pr_T</m> for any loan that has been paid off, no matter how the loan was paid off.
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="totaling-values-for-loans-with-level-payments">
+        <introduction>
+            <p>
+                Consider a loan of <m>L</m> repaid with <m>n</m> level payments.
+            </p>
+        </introduction>
+        <task>
+            <p>
+               Find a formula for <m>K_T</m>.
+           </p>
+       </task>
+       <task>
+            <p>
+                Find a formula for <m>I_T</m>.
+            </p>
+        </task>
+    </activity>
+    <assemblage>
+        <title>&#x1F9EE; Calculator Tip</title>
+        <p>  
+            For partial totals with level payments, you can use the <kbd>AMORT</kbd> worksheet. Set P1 to be the first payment in the series, and set P2 to be the last. The calculator will tell you the sum of all interest payments and all principal payments in between P1 and P2.  If P1 = 1 and P2 is <m>n</m>, this gives you <m>I_T</m> and <m>Pr_T</m>.  
+        </p>
+    </assemblage>
+    <p>
+        For totals for loans repaid with constant payments of principal, we need the following identity:
+    </p>
+    <me>\sum_{t=1}^n t = \frac{n(n+1)}{2}</me>
+    <activity xml:id="proving-the-totaling-identity">
+        <statement>
+            <p>
+                Consider the following picture of an <m>n</m> by <m>n\! +\! 1</m> rectangle (drawn as if <m>n=10</m>):
+            </p>
+            <figure xml:id="totaling-identity-image">
+                <caption>This figure will help you visualize the identity in <xref ref="proving-the-totaling-identity"/></caption>
+                <image source="images/image-37.svg"/>
+            </figure>
+            <p>
+                Explain how to use this picture to prove the identity.
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="finding-the-formulas-for-totals-for-constant-payment-of-principal">
+        <introduction>
+            <p>
+                We can use this identity to find <m>I_T</m> and <m>K_T</m> for constant payments of principal.
+            </p>
+        </introduction>
+        <task>
+            <p>
+               For constant payments of principal, find <m>I_T</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                For constant payments of principal, find <m>K_T</m>.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="calculating-partial-totals-of-payments">
+       <statement>
+            <p>
+                Arlen buys a home for 328,000 and makes a down payment of 33,000. The balance he finances with a fifteen-year mortgage with monthly payments and an annual effective interest rate of 5.8%. There will be level payments followed by a slightly reduced payment. Calculate the amount of interest that Arlen pays in the first five years of the loan.
+           </p>
+       </statement>
+   </activity>
+   <activity xml:id="evaluating-different-options-for-payments">
+        <statement>
+            <p>
+               A 10-year loan of 2000 is to be repaid with payments at the end of each year. It can be repaid under the following two options:
+            </p>
+            <ul>
+                <li>
+                        <p>
+                            Equal annual payments at an effective annual rate of 8.07%.
+                        </p>
+                </li>
+                <li>
+                        <p>
+                            Installments of 200 each year plus interest on the unpaid balance at an effective annual rate of <m>\iota</m>.
+                        </p>
+                </li>
+            </ul>
+            <p>
+                The sum of the payments under option (i) equals the sum of the payments under option (ii). Determine <m>\iota</m>
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="totaling-payments-reflection">
+        <statement>
+            <p>
+                What, if anything, is worth memorizing from this activity?  
+            </p>
+        </statement>
+    </activity>
+</section>

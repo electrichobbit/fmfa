@@ -1,0 +1,75 @@
+<section xml:id="review-difference-of-squares">
+	<title>Review -- Difference of Squares</title>
+	<p>
+		We begin with a review of a factoring technique that tends to come surprisingly often in annuity problems: the difference of squares.  Recall that the factoring approach for the difference of squares is:
+	</p>
+	<me>x^2-y^2 = (x-y)(x+y)</me>
+	<activity xml:id="factoring-basics">
+		<introduction>
+			<p> 
+				Factor the following (and keep your answers exact):
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>4x^2-81</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>3x^2 - 12</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>x^4 - y^2</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>x^{2n}-y</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>x^{8n} - 27</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="factoring-financial">
+		<introduction>
+			<p> 
+				Factor the following expressions involving financial variables:
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>1 - v^{2n}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>(1+\iota)^{2n} - 1</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>1 - d^{4n}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="factoring-soa-problem">
+		<statement>
+			<p> 
+				On the first day of every January, April, July, and October Smith deposits 100 in an account earning <m>\iota^{(4)} = 0.16</m>. He continues the deposits until he accumulates a sufficient balance to begin withdrawals of 200 every 3 months, starting 3 months after the final deposit, such that he can make twice as many withdrawals as he made deposits. How many deposits are needed?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="difference-of-squares-reflection">
+		<statement>
+			<p> 
+				Was it possible to solve this problem without difference of squares?
+			</p>
+		</statement>
+	</activity>
+</section>

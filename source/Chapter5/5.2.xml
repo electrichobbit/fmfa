@@ -1,0 +1,157 @@
+<section xml:id="review-constructing-geometric-series">
+	<title>Review -- Geometric Sequences and Series 2: Constructing Series</title>
+	<p>
+		Any sequence of numbers where the numbers grow or decay by a constant percentage rate is said to be in <term>geometric progression</term>.  Often we encounter annuities where the payments change this way.  In this activity, we will review how to use the data describing a sequence in geometric progression to construct a series.
+	</p>
+	<activity xml:id="series-construction-motivating-example">
+		<introduction>
+			<p> 
+				Let's start with a motivating example. We will solve the problem in the next activity. 
+			</p>
+			<p>
+				Suppose we purchase a retirement account that pays us annually at the end of each of the next 12 years.  The first payment, at the end of this year, is 20,000.  Each payment thereafter grows by 2% as a cost of living adjustment.  Our purchase price was based on a valuation using an effective annual interest rate of <m>\iota = 3.5\%</m>.  Find the purchase price.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Sketch a timeline for this problem.  Instead of calculating the payments at each time, leave them in the form <m>20000(1.02)^t</m> for an appropriate <m>t</m>. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Why are our annuity formulas inapplicable for this problem?
+			</p>
+		</task>
+	</activity>
+	<p>
+		A <term>geometric sequence</term> is a sequence of numbers in geometric progression.  They have an initial amount <m>a_0</m>, and their general term is <m>a_n = a_0 b^n</m> where <m>b</m> is the ratio of <m>a_{n+1}</m> and <m>a_n</m>.  For the sequence to be geometric, this ratio <m>b</m> must be constant for all terms. 
+	</p>
+	<p>
+		You might notice that the algebraic form is the same as a exponential function.  That is true!  A geometric sequence can be thought of as an exponential function "sampled" at integer-valued points.
+	</p>
+	<activity xml:id="determining-geometric-sequences">
+		<introduction>
+			<p> 
+				For each of the following sequences, determine if it is geometric.  If it is, find <m>a_0</m>, <m>b</m>, and an expression for a generic term <m>a_n</m> in the sequence.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>-3, \ 9, \ 21, \ 33, \ 45, \ldots, \ 177</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>1, \ 1, \ 2, \ 3, \ 5, \ 8, \ 13, \ldots </m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>3, \ 12, \ 48, \ 192, \ldots, \ 12,288</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>9, \ 18, \ 36, \  52, \ 91, \ldots, \ 143</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>3,\  3.15, \ 3.3075, \ldots </m>.
+			</p>
+		</task>
+	</activity>
+	<p>
+		Often, geometric series present themselves through an initial amount <m>a_0</m> and a constant percentage change <m>r</m>.  The relationship between <m>b</m> and <m>r</m> is <m>b=1+r</m>.
+	</p>
+	<activity xml:id="finding-n-in-geometric-series">
+		<introduction>
+			<p> 
+				For each of the following, find an expression for the generic <m>n</m>th term.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				A geometric sequence begins with the value 3 and each term grows by 5%. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				A geometric sequence begins with the value 143 and each term decreases by 2.5%.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A geometric sequence begins with the value 20 and each term decreases by 12.5%.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Each term of a geometric sequence grows by 4%, and the second term is 5.2.
+			</p>
+		</task>
+	</activity>
+	<p>
+		When we add up some of the terms of a geometric sequence, the sum is a <term>geometric series</term>.  The (finite) geometric series formula is: <me>\sum_{t=0}^{n-1} a \cdot b^t = a \left(\frac{b^n-1}{b-1}\right)</me>  
+	</p>
+	<activity xml:id="constructing-and-calculating-geometric-series">
+		<introduction>
+			<p> 
+				Construct and calculate the following geometric series.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				We start with 2, and form a sequence by tripling the prior value.  If we add up the first 9 numbers, what do we get?
+			</p>
+		</task>
+		<task>
+			<p> 
+				We have a sequence of numbers starting with 15 and grows by 2.5%.  If we add up the first 15 numbers, what do we get?
+			</p>
+		</task>
+		<task>
+			<p> 
+				We have a sequence of numbers starting with 3.45, decreases by 1.5%.  If we add up the first 10 numbers in the sequence, what do we get?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formula-geometric-series">
+		<introduction>
+			<p> 
+				Recall that the sum of an infinite series is the limit of the partial sums: <me>\sum_{t=0}^{\infty} a_t = \lim_{n \rightarrow \infty} \sum_{t = 0}^n a_t</me>
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find a formula for an infinite geometric series and state the values of <m>b</m> for which it converges.
+			</p>
+		</task>
+	</activity>
+	<p> 
+		Use your formula to solve the following amusing problem. 
+	</p>
+	<activity xml:id="supreme-court-geometric-series">
+		<statement>
+			<p>
+				The Supreme Court case The Old Colony Trust Co. v. Commissioner, 279 U.S. 716 (1929), concerned a taxpayer whose employer paid their income taxes for them.  The question before the court was whether taxes paid by a third party constituted income under the internal revenue code.  The attorneys for the taxpayer argued that if the court ruled in favor of the government (that the taxes paid by the employer WAS additional income), then there would be no way for an employer to pay their employee taxes for them.  If they paid taxes on the taxes that they paid, this would have to be taxed, and so on to infinity.  The court ruled that the taxes paid were income (the statute levies taxes on all income "from any source whatsoever"), but that the calculation was limited to one iteration. 
+			</p>
+			<p>
+				We know better.  If you think about it, since the tax rate is less than 1, we would have a convergent infinite geometric series whose sum we can calculate. 
+			</p>
+			<p>
+				In 1916, when the event that led to the litigation occurred, the top tax rate was 15%.  Let us assume that we had a flat tax at the 15% rate.  In addition, let us assume that the taxpayer had an annual income of 30,000.  Work out why we have a geometric series and find the total taxes due. 
+			</p>
+			<p>
+				(As a fun but irrelevant fact, the chief justice of the court at this time was William Howard Taft, the only former President to serve on the Supreme Court.  He wrote the court decision in this case).
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="geometric-series-reflection">
+		<statement>
+			<p> 
+				Look back at the motivating problem at the beginning of this activity.  There are two percentage changes that contribute to the present or future value of this annuity.  What are they?
+			</p>
+		</statement>
+	</activity>
+</section>

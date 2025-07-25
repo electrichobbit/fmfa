@@ -1,0 +1,250 @@
+<section xml:id="exact-matching-with-coupon-bonds">
+	<title>Exact Matching with Coupon Bonds</title>
+	<p>
+		In <xref ref="exact-matching-with-zero-coupon-bonds"/> we used zero-coupon bonds to exactly match our liabilities.  It gets a little more complicated when we use coupon bonds.  We assume that we can purchase coupon bonds for any amount of face value.
+	</p>
+	<activity xml:id="matching-a-liability-with-coupon-bonds">
+		<introduction>
+			<p>
+				Suppose we have a single liability of 1000 due at the end of 1 year.  The only investment available is a one-year bond with a single annual coupon at 5% of face value, paid together with the redemption amount.  The yield rate is an effective annual rate of 6%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				How much face value should we purchase to exactly match our liability?
+			</p>
+		</task>
+		<task>
+			<p>
+				What will it cost to use this bond to immunize our liability?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="determining-how-to-use-coupon-bonds-to-match-liabilities">
+		<introduction>
+			<p>
+				Now suppose we have two liabilities: 1000 due at the end of year 1, and 1000 due at the end of year 2.  The only investments are the following bonds with annual coupons: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term
+						</cell>
+						<cell right="medium">
+							Coupon Rate (Annual)
+						</cell>
+						<cell right="medium">
+							Effective Yield Rate (Annual)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							One Year
+						</cell>
+						<cell right="medium">
+							3%
+						</cell>
+						<cell right="medium">
+							2%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Two Year
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				We plan to exactly match our liabilities by purchasing <m>F_1</m> in face value of the one-year bond and <m>F_2</m> in face value of the two-year bond.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Make a timeline showing our liabilities and income from the bonds, showing income from each bond separately.
+			</p>
+		</task>
+		<task>
+			<p>
+				Which face value do we need to find first?  Find that value.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the face value of the other bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the cost to exactly match these liabilities.
+			</p>
+		</task>
+		<task>
+			<p>
+				When finding the face values of coupon bonds to exactly match liabilities, should we work "forward" or "backward"? Why?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="matching-liabilities-to-coupon-bonds-with-different-rates-and-maturities">
+		<statement>
+			<p>
+				There are liabilities of 1000 at the end of each of the next three years.  The only bonds available have annual coupons and are: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity (years)
+						</cell>
+						<cell right="medium">
+							Coupon Rate (annual)
+						</cell>
+						<cell right="medium">
+							Effective Annual Yield
+						</cell>
+						<cell right="medium">
+							Par
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							3%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the cost to exactly match liabilities. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="choosing-coupon-bonds-to-match-liabilities">
+		<statement>
+			<p>
+				There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years.  The only bonds available have semiannual coupons and are: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity (years)
+						</cell>
+						<cell right="medium">
+							Coupon Rate
+						</cell>
+						<cell right="medium">
+							Annual Yield
+						</cell>
+						<cell right="medium">
+							Par
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.5
+						</cell>
+						<cell right="medium">
+							8%
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							10%
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the cost to exactly match liabilities. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="purchasing-bonds-to-match-obligation">
+		<statement>
+			<p>
+				An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of <m>X</m> in order to exactly match its obligation:
+			</p>
+			<ul>
+				<li>
+					<p>
+						1-year 4% annual coupon bond with a yield rate of 5%
+					</p>
+				</li>
+				<li>
+					<p>
+						2-year 6% annual coupon bond with a yield rate of 5%
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>X</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="matching-a-liability-with-coupon-bonds-reflection">
+		<statement>
+			<p>
+				Describe a procedure for exactly matching liabilities with coupon bonds.
+			</p>
+		</statement>
+	</activity>
+</section>

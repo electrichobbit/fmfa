@@ -1,0 +1,96 @@
+<section xml:id="all-in-one-approach-to-level-payment-annuities">
+	<title>The All-In-One Approach to Level Payment Annuities</title>
+	<p>
+		The best way to think about annuities-immediate and annuities-due is to focus on when the annuity is <term>valued</term>, not when the payments take place.  Then we can move around the timeline as needed to solve problems.  In this activity, we will work on developing this way of thinking and this intuition. 
+	</p>
+	<activity xml:id="level-payment-annuity-timeline">
+		<statement>
+			<p> 
+				Make a timeline with payments of <m>K</m> at times 1 through <m>n</m>, and mark where <m>Ka_{\angln}</m>, <m>K\ddot{a}_{\angln}</m>, <m>Ks_{\angln}</m>, and <m>K\ddot{s}_{\angln}</m> belong.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-timeline-relationships-for-level-payment-annuities">
+		<introduction>
+			<p> 
+				For each of the following, find the desired value using the timeline relationships.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose <m>K\ddot{s}_{\angl{20} 0.02} = 981.56</m>.  Find <m>Ka_{\angl{20} 0.02}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				If <m>K\ddot{a}_{\angl{40} 0.03} = 19,556.23</m>.  What is the value of the annuity immediately following the last payment?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose a loan involves 48 monthly payments of <m>K</m> at the end of each month.  The effective monthly interest rate is 2.5%.  If <m>K\ddot{a}_{\angl{48} 0.025} = 24,505.25</m>, find the loan amount.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="level-payment-annuity-identities">
+		<introduction>
+			<p> 
+				Each of the following represents one side of an identity.  Represent each with a timeline and then write the complete identity.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>a_{\angln} + v^na_{\angl{k}}</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>s_{\angln}(1+\iota)^k + s_{\angl{k}}</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\ddot{a}_{\angl{n+1}} - a_{\angln}</m> 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="generating-timeline-and-series-representations-for-annuities">
+		<introduction>
+			<p> 
+				Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form <m>\sum Kv^{\ell}</m> or <m>\sum K(1+\iota)^{\ell}</m> with appropriate starting and ending values for the index <m>\ell</m>).  Generate the timeline and series representations for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>Ka_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>Ka_{\angl{\infty}}</m> 
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>Ks_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>K\ddot{a}_{\angln}</m> 
+			</p>
+		</task> 
+		<task>
+			<p> 
+				<m>K\ddot{s}_{\angln}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="annuity-valuation-reflection">
+		<statement>
+			<p> 
+				What is the key difference between an annuity-immediate and an annuity-due?
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,235 @@
+<section xml:id="value-of-annuities-due">
+  <title>Future and Present Value of Annuities-Due</title>
+  <p>
+    We now derive the formulas for <m>\ddot{s}_{\angln}</m>, <m>\ddot{a}_{\angln}</m>, and <m>\ddot{a}_{\angl{\infty}}</m> and solve our problems.
+  </p>
+  <activity xml:id="annuities-due-timeline">
+    <statement>
+      <p> 
+        On the timeline below, carefully identify where the values of <m>a_{\angln}</m>, <m>\ddot{a}_{\angln}</m>, <m>s_{\angln}</m>, and <m>\ddot{s}_{\angln}</m> belong (remembering that payments are made at the beginning of periods for annuities-due and at the end for annuities-immediate).
+      </p>
+      <figure xml:id="annuities-due-timeline-figure">
+        <caption>Blank timeline to fill in notation for annuities due.</caption>
+        <image source="images/3.9.1.png"/>
+      </figure>
+    </statement>
+  </activity>
+  <activity xml:id="annuities-due-formulas">
+    <introduction>
+      <p> 
+        Let's use your timeline to find our formulas.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Write an equation relating <m>\ddot{a}_{\angln}</m> to <m>a_{\angln}</m>.  Do the same for <m>\ddot{s}_{\angln}</m> and <m>s_{\angln}</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Recall that <m>d = \frac{\iota}{1+\iota}</m>.  Use this equation to rewrite your equations for <m>\ddot{a}_{\angln}</m> and <m>\ddot{s}_{\angln}</m> so that the numerators are in terms of <m>\iota, v,</m> and <m>n</m>, and the denominators are in terms of <m>d</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Compare the formulas for <m>a_{\angln}</m> and <m>\ddot{a}_{\angln}</m>, and compare the formulas for <m>s_{\angln}</m> and <m>\ddot{s}_{\angln}</m>.  Find a pattern, and use that pattern to figure out the formula for the present value of a perpetuity-due.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="solving-annuities-due-problems">
+    <introduction>
+      <p> 
+        We can now solve the problems we have carried along for the last few activities.  The problems, and my own timelines, are repeated below,  Use your equations from the last activity to solve these problems.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Chuck needs to purchase an item in 10 years.  The item costs 200 today, but its price inflates 4\% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional <m>X</m> at the beginning of years 4, 5, and 6 to meet his goal.  The effective annual interest rate is 10\%.  Calculate <m>X</m>.
+      </p>
+      <figure>
+        <caption>Timeline for an item with present value 200, 4% inflation, in an annuity with 10% interest and payments of 20 or 20+X for the first 6 years.</caption>
+        <image source="images/3.9.3a.png"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11.  He can purchase it by either:
+      </p>
+      <ul>
+        <li>
+          <p> 
+            paying 900 per year at the end of each year for 10 years; or
+          </p>
+        </li>
+        <li>
+          <p> 
+            paying <m>K</m> per year at the end of each year for the first 5 years and nothing for the next 5 years.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Write equations, using actuarial notation, to calculate <m>K</m>.
+      </p>
+      <figure>
+        <caption>Timeline for a perpetuity paying 1000 per year with the first payment at the end of year 11.</caption>
+        <image source="images/3.9.3b.png"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        A perpetuity-immediate pays <m>X</m> per year. Brian receives the first <m>n</m> payments, Colleen receives the next <m>n</m> payments, and a charity receives the remaining payments.  The share of the present value of the original perpetuity that Brian will get is 40\%, and the share the charity will get is <m>K</m>. 
+      </p>
+      <p>
+        Calculate <m>K</m>.
+      </p>
+      <figure>
+        <caption>Timeline for a perpetuity paying X per year.</caption>
+        <image source="images/3.9.3c.png"/>
+      </figure>
+    </task>
+    <task>
+      <p> 
+        Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years.  The account credits interest at an annual effective interest rate of <m>\iota</m>.  The accumulated amount in the account at the end of 40 years is <m>X</m>, which is 5 times the accumulated amount in the account at the end of 20 years.  Calculate <m>X</m>.
+      </p>
+      <figure>
+        <caption>Timeline for a annuity where 100 is deposited at the beginning of each 4 year period.</caption>
+        <image source="images/3.9.3d.png"/>
+      </figure>
+    </task>
+  </activity>
+  <assemblage>
+    <title>&#x1F9EE; Calculator Corner</title>
+    <p> 
+      We can also use our calculators to find the present value of accumulated value of an annuity-due.  Put your calculator into <kbd>BGN</kbd> mode, and then do the same thing you would do for an annuity-immediate.
+    </p>
+  </assemblage>
+  <activity xml:id="annuities-due-calculator">
+    <introduction>
+      <p>
+        Use your calculator to find the following values.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>100\ddot{s}_{\angl{15} 0.025}</m>. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>595\ddot{a}_{\angl{360} 0.0105}</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        From the problems above, which can you solve with help from the calculator? Which can you solve completely in the calculator? Explain.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="annuities-due-formulas-summary">
+    <statement>
+      <p> 
+        Fill in the formulas in the following table.  
+      </p>
+
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Immediate
+            </cell>
+            <cell>
+              Due
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Accumulated Value of an Annuity
+            </cell>
+            <cell>
+              <m>s_{\angln} = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>\ddot{s}_{\angln} = \hskip 1in</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Present Value of an Annuity
+            </cell>
+            <cell>
+              <m>a_{\angln} = \hskip 1in</m>
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angln}= \hskip 1in</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Present Value of a Perpetuity
+            </cell>
+            <cell>
+              <m>a_{\angl\infty} = \hskip 1in</m> 
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angl\infty}= \hskip 1in</m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Which of these should you memorize?  How can you reduce the number of formulas to memorize? 
+      </p>
+    </statement>
+    <solution>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Immediate
+            </cell>
+            <cell>
+              Due
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Accumulated Value of an Annuity
+            </cell>
+            <cell>
+              <m>s_{\angln} = \frac{(1+\iota)^n - 1}{\iota}</m>
+            </cell>
+            <cell>
+              <m>\ddot{s}_{\angln} = (1+\iota)\frac{(1+\iota)^n - 1}{\iota}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Present Value of an Annuity
+            </cell>
+            <cell>
+              <m>a_{\angln} = \frac{1-v^n}{\iota} = \frac{1-(1+\iota)^{-n}}{\iota}</m>
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angln}= (1+\iota)\frac{1-v^n}{\iota} = (1+\iota)\frac{1-(1+\iota)^{-n}}{\iota}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Present Value of a Perpetuity
+            </cell>
+            <cell>
+              <m>a_{\angl\infty} = \frac{1}{\iota}</m> 
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angl\infty}= \frac{1+\iota}{\iota}</m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </solution>
+  </activity>
+</section>

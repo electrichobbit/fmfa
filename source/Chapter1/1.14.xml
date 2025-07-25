@@ -1,0 +1,128 @@
+<section xml:id="actuarial-notation-1">
+	<title>Actuarial Notation 1 -- <m>v</m></title>
+	<p>
+		Actuaries have their own notation that they use for finance.  Their notation can often declutter formulas, but at a price of making them more difficult to understand. 
+	</p>
+	<p>
+		We have already met some actuarial notation.  The symbol <m>\iota^{(n)}</m> is actuarial notation for a nominal interest rate.  Our next bit of actuarial notation concerns present values. 
+	</p>
+	<p>
+		In this course, you will find that present value formulas are often more elegant than their future value equivalents.  Recall that the present value <m>A(0)</m> is related to the future value <m>A(n)</m> at time <m>n</m> (written a little differently) is <me>A(0) = A(n) \frac{1}{(1+i)^n}</me>  The expression <m>\frac{1}{1+i}</m> is called the <term>present value factor</term>, and by itself is clunky to work with.  Actuaries use  <m>v</m> for the present value factor. In this activity, we will explore the advantage and disadvantage of this notation.
+	</p>
+	<activity xml:id="annuity-timeline">
+		<introduction>
+			<p> 
+				An <term>annuity</term> (more precisely, annuity-immediate) is a sequence of payments made at the end of each period over a length of time.  We want the payments to be equally spaced, meaning the time between each payment is the same.  We will denote the payment amount by <m>K</m> (which for now we assume to be constant), and the number of payments to be <m>n</m>.  This means we have payments of <m>K</m> at the end of times <m>1, 2, \ldots, n</m>.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Generate a timeline to represent such an annuity. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Let us consider the present value at time 0.  
+			</p>
+			<ol>
+				<li>
+					<p>
+						Find the present value of the <m>t</m>th payment.  Use the present value factor written as <m>\frac{1}{1+i}</m>.
+					</p>
+				</li>
+				<li xml:id="calculating-present-value">
+					<p> 
+						Write the present value of the annuity at time 0 as a sum of the present values of each payment, using the present value factor written as <m>\frac{1}{1+i}</m>.
+					</p>
+				</li>
+			</ol>
+		</task>
+	</activity>
+	<p>
+		Recall from calculus that a <term>geometric series</term> is a series of the form <me>\sum_{t=0}^{n-1} ar^k</me> While we will review geometric series later in this book, for now we will use the following formula to sum from 1 to <m>n</m>: <me>\sum_{t=1}^n ar^k = a r \left(\frac{1-r^n}{1-r}\right)</me>
+	</p>
+	<activity xml:id="annuity-geometric-series">
+		<statement>
+			<p> 
+				Use our geometric series formula to find a closed-form formula for the present value of an annuity. Simplify the denominator as much as possible.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="present-value-notation">
+		<introduction>
+			<p> 
+				Actuaries us <m>v</m> for the present value factor: <me>v = \frac{1}{1+i}</me>  If there is more than one interest rate (like <m>\iota</m> and <m>j</m>), we put subscripts on <m>v</m>: <m>v_{\iota}</m> and <m>v_{j}</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Rewrite the original present value formula (relating <m>A(0)</m> and <m>A(n)</m>) using <m>v</m>. 
+			</p>
+		</task>
+		<task xml:id="present-value-identity">
+			<p> 
+				Prove the identity <me>\frac{v}{1-v} = \frac{1}{i}</me> (<em>Hint</em>: Directly substitute the expression for <m>v</m> on the left and simplify.)
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="simplifying-present-value-of-annuity">
+		<introduction>
+			<p> 
+				Return to the present value of the annuity.
+			</p>
+		</introduction>
+		<task xml:id="calculating-present-value-2">
+			<p> 
+				Rewrite your sum for the present value of an annuity from <xref ref="calculating-present-value"/> using <m>v</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use our geometric series formula, together with the identity from <xref ref="present-value-identity"/>, to sum your series from <xref ref="calculating-present-value-2"/>  Simplify the denominator as much as possible (and write the denominator in terms of <m>i</m>).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="examples-of-annuities">
+		<introduction>
+			<p> 
+				Annuities show up throughout this course.  Here are a couple of examples.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<xref ref="loan-repayment"/> is about loans.  If someone is paying back a loan, the outstanding balance after the <m>t</m>th payment is the present value (at time <m>t</m>) of the remaining <m>n-t</m> payments.  This is called the <term>prospective form</term> of the outstanding balance formula (it looks forward, prospectively, to the upcoming payments).  Using <m>K</m> for the payments, and using interest rate <m>\iota</m>, find a formula for the outstanding balance after <m>t</m> payments.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A bond involves
+			</p>
+				<ul>
+					<li>
+						<p>
+							an equally-spaced sequence of <m>n</m> payments of <m>K</m>, called coupon payments, followed by
+						</p>
+					</li>
+					<li>
+						<p>
+							a final lump sum <m>C</m> paid with the last coupon payment called the <term>redemption amount</term>.  
+						</p>
+					</li>
+				</ul>
+				<p>
+						The coupon payments use a rate <m>r</m> called the coupon rate applied to something called the face value <m>F</m>.  So the coupon payments are <m>rF</m> (often <m>F = C</m>).  The interest rate <m>\iota</m> is used for valuation, and often <m>\iota \neq r</m>. 
+			</p>
+			<p>
+				The price of the bond is the present value of the coupon payments and the redemption amount.  Find a formula for the price <m>P</m> of a bond with coupon payments of <m>K</m>, redemption amount <m>C</m>, and interest rate <m>\iota</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="notation-reflection">
+		<statement>
+			<p> 
+				State one advantage and one disadvantage of using <m>v</m> for the present value factor. 
+			</p>
+		</statement>
+	</activity>
+</section>
+

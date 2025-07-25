@@ -1,0 +1,119 @@
+<section xml:id="loan-repayment-with-level-payments">
+	<title>Loan Repayment with Level Payments</title>
+	<p>
+		By far, the most common way to pay off a loan is through constant payments, with <m>K_t = K</m> for all <m>t</m>.  More formally, we say that we are paying the loan with <term>level payments</term>. 
+	</p>
+	<activity xml:id="formulas-for-loans-with-level-payments">
+		<introduction>
+			<p>
+				When a loan is repaid with level payments, the payments are a level-payment annuity and the loan amount is the present value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write a simple formula for <m>L</m>, assuming you know <m>K</m>, <m>n</m>, and <m>\iota</m>. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Write a simple formula for <m>K</m>, assuming you know <m>L</m>, <m>n</m>, and <m>\iota</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="problems-with-loans-and-level-payments">
+		<introduction>
+			<p>
+				The following loans are all paid back using level payments.  Find the indicated value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan for 120,000 carries a term of 30 years with monthly payments.  The interest rate is 9%, convertible monthly.  Find the monthly payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan has a term of 12 years with quarterly payments of 584.64.  The interest rate is 3.5%.  Find the loan amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 25,000 carries a term of 12 years with annual payments of 2981.93.  Find the effective annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 50,000 carries an effective quarterly interest rate of 5%.  The loan is paid off with quarterly payments of  2,641.41.  Find the term (round to the nearest whole number).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-amortization-formulas-for-level-payment-loans">
+		<introduction>
+			<p>
+				Now let's find amortization formulas in the case of level payments.  In the following, simplify your formulas so that the only variables involved are <m>K</m>, <m>a_{\angln}</m>, <m>v</m>, <m>n</m>, and <m>t</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the prospective method to write a simplified formula for <m>OB_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use <m>I_t = \iota OB_{t-1}</m> to write a simplified formula for <m>I_t</m> that does not use <m>a_{\angl{\ell}}</m> for any value of <m>\ell</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use <m>I_t + Pr_t = K</m> to write a simplified formula for <m>Pr_t</m> that does not use <m>a_{\angl{\ell}}</m> for any value of <m>\ell</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="amortized-loan-with-semiannual-payments">
+		<statement>
+			<p>
+				A 5-year loan is amortized with semiannual payments of 200 each, starting 6 months after the loan is made. If <m>Pr_1 = 156.24</m>, find <m>\iota^{(12)}</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="refinancing-a-level-payment-loan">
+		<statement>
+			<p>
+				A common problem feature involves having a loan refinanced at a new interest rate.  Consider the following problem: 
+			</p>
+			<p>
+				Wanda and Vision purchase a home in Westview for 300,000 with a 30-year mortgage at an effective annual interest rate of 4%.  Payments are to be made at the end of each month.  Suppose after 10 years, a new bank offers to refinance the loan at a lower interest rate of 3%.  Find the difference between the original monthly payment and the new monthly payment if they accept the refinance offer.
+			</p>
+		</statement>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip</title> 
+		<p>
+			You can use your financial calculator on problems involving reinvestment:
+		</p>
+		<ul>
+			<li>
+				<p>
+					Enter all of the information you have about the original loan, have the calculator <kbd>CPT</kbd> anything that is missing.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find the balance at the time of reinvestment <m>t</m> by entering <m>t</m> for <kbd>N</kbd> followed by <kbd>CPT</kbd> <kbd>FV</kbd>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Enter any changed information about the loan and use <kbd>CPT</kbd> to find the value you need.
+				</p>
+			</li>
+		</ul>
+	</assemblage>
+	<activity xml:id="loans-with-level-payments-reflection">
+		<statement>
+			<p>
+				What are some ways an assumption of level payments simplify loan repayment?
+			</p>
+		</statement>
+	</activity>
+</section>

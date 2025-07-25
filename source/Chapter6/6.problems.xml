@@ -1,0 +1,381 @@
+<exercises xml:id="applications-interest-theory-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A 30-year loan of 1000 is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals 150% of the amount of interest due. Each of the last ten payments is <m>X</m>. The lender charges interest at an effective annual rate of 10%. Calculate <m>X</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan of 10,000 is being repaid by installments of 2000 at the end of each year, and a smaller final payment made one year after the last regular payment. Interest is at the effective rate of 12%. Find the amount of the outstanding loan balance remaining when the borrower has made payments equal to the amount of the loan. Answer to the nearest dollar.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A loan is amortized over five years with monthly payments at a nominal interest rate of 9% compounded monthly. The first payment is 1000 and is to be paid one month from the date of the loan. Each succeeding monthly payment will be 2% lower than the prior payment. Calculate the outstanding loan balance immediately after the 40th payment is made.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A loan is being repaid by the amortization method with an installment at the end of each of 80 quarters at 6% annual effective interest, the first payment one quarter after the loan is made. In which payment are the principal and the interest most nearly equal to each other?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 5-year loan is amortized with semiannual payments of 200 each, starting 6 months after the loan is made. If <m>Pr_1 = 156.24</m>, find <m>\iota^{(12)}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan is being repaid by quarterly installments of 1500 at the end of each quarter at 10% convertible quarterly. If the loan balance at the end of the first year is 12,000, find the original loan balance. Answer to the nearest dollar.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 20,000 loan is to be repaid with annual payments at the end of each year for 12 years. If <m>(1+\iota)^4 = 2</m>, find the outstanding balance immediately after the fourth payment. Answer to the nearest dollar.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 20,000 mortgage is being repaid with 20 annual installments at the end of each year. The borrower makes five payments and then temporarily is unable to make payments for the next two years. Find an expression for the revised payment to start at the end of the 8th year if the loan is still to be repaid at the end of the original 20 years.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Wanda and Vision purchase a home in Westview for 300,000 with a 30-year mortgage at an effective annual interest rate of 4%.  Payments are to be made at the end of each month.  Suppose after 10 years, a new bank offers to refinance the loan at a lower interest rate of 3%.  Find the difference between the original monthly payment and the new monthly payment if they accept the refinance offer.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A couple buys a new home and take out a 150,000 mortgage with level annual payments at the end of each year for 15 years on which the effective rate of interest is equal to 6.5%. At the end of 5 years, they decide to make a major addition to the house and want to borrow an additional 80,000 to finance the new construction. They also wish to lengthen the overall term of the loan by 7 years (i.e. until 22 years after the date of the original loan). In the negotiations, the lender agrees to these modifications, but only if the effective interest for the remainder of the loan after the first 5 years is raised to 7.5%. Find the revised annual payment which would result for the remainder of the loan. Answer to the nearest dollar.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan is being repaid with installments of 1 at the end of each year for 20 years. Interest is at effective rate <m>\iota</m> for the first 10 years and effective rate <m>j</m> for the second 10 years. Find expressions for:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The amount of interest paid in the 5th installment.
+			</p>
+		</task>
+		<task>
+			<p>
+				The amount of principal repaid in the 15th installment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 5-year loan made on July 1, 2014 is amortized with 60 level monthly payments starting August 1, 2014. If interest is at <m>\iota^{(12)} = 0.12</m>, find the date on which the outstanding balance first falls below one-half of the original loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan of 1000 at interest <m>\iota = 0.01</m> per period is amortized by payments of 100 per period, starting one period after the loan, for as long as necessary, plus a final smaller payment one period after the last regular payment. Solve for the number of regular payments and the final smaller payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> A fifteen-year adjustable rate mortgage of 117,134.80 is being repaid with monthly payments of 988.45 based on a nominal interest rate of 6% convertible monthly. Immediately after the 60th payment, the interest rate is increased to a nominal interest rate of 7.5% convertible monthly. The monthly payments remain at 988.45 and there will be an additional balloon payment at the end of the fifteen years to pay the outstanding loan balance.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Calculate the loan balance immediately after the 84th payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the amount of interest in the 84th payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the amount of the balloon payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Prince Akeem of Zamunda borrows 75,000 to purchase a car.  The loan carries an interest rate of 2.5% convertible monthly.  The loan will be paid off with payments of 1643 at the end of each month for 4 years, with a balloon payment at the end.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the amount of the original balloon payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose he decides to round up his monthly payment to 2000 (starting with the first payment), and complete his payoff with a drop payment instead of a balloon payment.  Find the number of payments of 2000 he will make, and find the amount of the drop payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Eliza takes out a 36,000 loan at an annual effective interest rate of 6%. It is agreed that at the end of each of the first six years she will pay 1800 in principal, along with the interest due, and that at the end of each of the next eight years she will make level payments of 2500. Eliza will make one final payment at the end of fifteen years to exactly complete her loan obligation. Calculate the amount of Eliza\textquotesingle s fifth payment, the amount of her tenth payment, and the amount of her fifteenth payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Marilyn Ho borrowed 24,000 from Stewart Financial Enterprises. She was required to make sixteen equal payments of principal. These were to be made annually with the first payment due exactly one year after she received the 24,000. Ms. Ho also had to make annual payments of interest to the loan holder at an annual effective rate of 8.5%. Immediately after the loan is made, Brady Investment Corporation purchases the right to receive all of Ms. Ho\textquotesingle s payments from Stewart Financial Enterprises. The price paid by Brady Investment Corporation resulted in Brady having a 7% annual yield on their sixteen-year investment (this means that the price valued the cash stream at <m>\iota = 7\%</m>). Find the price that Brady Investment Corporation paid Stewart Financial Enterprises. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Betty borrows 19,800 from Bank <m>X</m>. She repays the loan by making 36 equal payments of principal at the end of each month.  She also pays interest on the unpaid balance each month at a nominal rate of 12% compounded monthly. Immediately after the 16th payment is made, Bank <m>X</m> sells the rights to future payments to Bank <m>Y</m>. Bank <m>Y</m> wishes to yield a nominal rate of 14% compounded semi-annually (this is the rate at which they value the cash stream) on its investment.  What price does Bank <m>X</m> receive?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A borrower is repaying a 1000 loan with 10 equal, semiannual payments of principal. Interest is 6% convertible semiannually, and paid on the outstanding balance with each payment of principal.  Find the price to yield an investor 10% convertible semiannually (the yield is the rate used to value the cash stream).
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Two loans for equal amounts are amortized at 4% effective. Loan <m>L</m> is to be repaid by 30 equal annual payments. Loan <m>M</m> is to be repaid by 30 annual payments, each containing equal principal amounts with the interest portion of each payment based on the unpaid balance. The payment for loan <m>L</m> first exceeds the payment for loan <m>M</m> at the end of year <m>k</m>. Find <m>k</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> An estate of 1,000,000, invested at an annual interest rate of 5%, is being shared by <m>A</m>, <m>B</m>, and <m>C</m>. Starting 1 year after the estate is established, <m>A</m> receives 125,000 of principal each year for 5 years, <m>B</m> receives 75,000 of principal each year for 5 years, and <m>C</m> receives the interest each year. Find the present values of the shares of <m>A</m>, <m>B</m>, and <m>C</m> at 5% and verify that their sum is 1,000,000.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Smith can repay a loan of 250,000 in one of two ways:
+			</p>
+			<ul>
+				<li>
+					<p>
+						30 annual payments based on amortization (level payments) at <m>\iota = 0.12</m>;
+					</p>
+				</li>
+				<li>
+					<p>
+						30 annual interest payments to the lender at rate <m>\iota = 0.10</m>, along with 30 level annual deposits to a sinking fund earning rate <m>j</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Find the value of <m>j</m> to make the schemes equivalent.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> John borrows 1000 for 10 years at an annual effective interest rate of 10%. He can repay this loan using the amortization method (level payments) with payments of <m>P</m> at the end of each year. Instead, John repays the 1000 using a sinking fund that pays an annual effective rate of 14%. The deposits to the sinking fund are equal to <m>P</m> minus the interest on the loan and are made at the end of each year for 10 years. Determine the balance in the sinking fund immediately after repayment of the loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Dustin borrows 100,000. Half of the loan is repaid by the amortization method (level payments) at an annual effective interest rate of 6% with payments due at the end of each year for twelve years. The other half is to be repaid by the sinking fund method with interest on the loan balance assessed at an annual effective interest rate of 5% and the sinking fund earning an annual effective interest rate of 3%. The deposits to the sinking fund are to be made at the end of each year for twelve years and to increase by 4% each year. Find the total amount Dustin pays exactly five years after he takes out the 100,000 loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Arlen buys a home for 328,000 and makes a down payment of 33,000. The balance he finances with a fifteen-year mortgage with monthly payments and an annual effective interest rate of 5.8%. There will be level payments followed by a slightly reduced payment. Calculate the amount of interest that Arlen pays in the first five years of the loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan <m>L</m> is being amortized with payments at the end of each year for 10 years. If <m>v^5 = 2/3</m>, find the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The amount of principal repaid in the first five payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				The amount due at the end of 10 years, if the final 5 payments are not made as scheduled.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Iggy borrows <m>X</m> for 10 years at an effective annual rate of 6%. If he pays the principal and accumulated interest in one lump sum at the end of 10 years, he would pay 356.54 more in interest than if he repaid the loan with with 10 level payments at the end of each year.  Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A 10-year loan of 2000 is to be repaid with payments at the end of each year. It can be repaid under the following two options:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						Equal annual payments at an effective annual rate of 8.07%.
+					</p>
+				</li>
+				<li>
+					<p>
+						Installments of 200 each year plus interest on the unpaid balance at an effective annual rate of <m>\iota</m>.
+					</p>
+				</li>
+			</ol>
+			<p>
+				The sum of the payments under option (i) equals the sum of the payments under option (ii). Determine <m>\iota</m>
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A loan is being repaid with a series of payments at the end of each quarter for five years. If the amount of principal in the third payment is 100, find the amount of principal in the last five payments. Interest is at the rate of 10% convertible quarterly.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 35-year loan is to be repaid with equal installments at the end of each year. The amount of interest paid in the 8th installment is 135. The amount of interest paid in the 22nd installment is 108. Calculate the amount of interest paid in the 29th installment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 10-year loan <m>L</m> is repaid by the amortization method (level payments) with payments of 1000 at the end of each year. The annual effective interest rate is <m>\iota</m>. The total amount of interest repaid during the life of the loan is also equal to <m>L</m>. Calculate the amount of interest paid during the first year of the loan.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A borrower is repaying a loan with payments of 3000 at the end of every year over an unknown period of time. If the amount of interest in the third installment is 2000, find the amount of interest in the sixth installment. Assume that interest is 10% convertible quarterly.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Ellen has a thirty-year mortgage with level monthly payments. The amount of principal in her 82nd payment is 259.34, and the amount of principal in her 56th payment is 230.19. Find the amount of interest in her 133rd payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> An amortized loan of 75,000 has annual payments for eighteen years, the first occurring exactly one year after the loan is made. The first four payments will be for only half as much as the remaining fourteen. The annual effective interest rate for the loan is 6%. Calculate the amount of principal repaid in the seventh payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Tirunesh takes out a thirty-year mortgage for 126,523 with the nominal interest rate convertible monthly set at 6.75%. The scheduled monthly payment amounts are level except for a slightly reduced final payment. After making payments on schedule for five years, Tirunesh decided to increase his monthly payments by 300 in order to pay off the mortgage more quickly. Assuming these increased payments are made, calculate the amount of interest Tirunesh pays during the seventh year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan is repaid by 48 monthly payments of 200 each. The interest paid in the first 12 payments is 983.16 and the principal repaid in the final 12 payments is 2215.86. Find <m>\iota^{(12)}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan is amortized by level payments every February 1, plus a smaller final payment. The borrower notices that the interest paid in the February 1, 2014 payment was 103.00, and the interest paid in the February 1, 2015 payment will be 98.00. The rate of interest on the loan is <m>\iota = 0.08</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the principal repaid in the 2015 payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the date and amount of the smaller final payment made one year after the last regular payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A loan is being repaid with level payments of <m>K</m> every 6 months. The outstanding balances on three consecutive payment dates are 5190.72, 5084.68, and 4973.66. Find <m>K</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A bank customer borrows <m>X</m> at an effective annual rate of 12.5% and makes level payments at the end of each year for <m>n</m> years.
+			</p>
+			<ul>
+				<li>
+					<p>
+						The interest portion of the final payment is 153.86.
+					</p>
+				</li>
+				<li>
+					<p>
+						The total principal repaid as of time <m>(n-1)</m> is 6009.12.
+					</p>
+				</li>
+				<li>
+					<p>
+						The principal repaid in the first payment is <m>Y</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>Y</m>.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

@@ -1,0 +1,88 @@
+<section xml:id="nominal-effective-discount-rates">
+	<title>Nominal and Effective Rates of Discount</title>
+	<p>
+		Just like nominal interest rates, we have nominal discount rates.  The symbol <m>d^{(n)}</m> means a discount rate convertible <m>n</m> times per year.  This means the effective periodic discount rate is <m>d^{(n)}/n</m>, and there are <m>n</m> equal periods in one year.
+	</p>
+	<activity xml:id="calculating-effective-discount-rate">
+		<introduction>
+			<p> 
+				Suppose we have <m>d^{(4)} = 4\%</m> and we want to know the effective annual discount rate <m>d</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				What is the effective quarterly discount rate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What is the base used to find the present value across a single quarter?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Generate a discount rate timeline that directs you to the equation you need to solve to find <m>d</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write and solve the equation needed to find <m>d</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="relating-effective-and-nominal-discount">
+		<statement>
+			<p> 
+				Using a timeline, find a general equation relating <m>d</m> and <m>d^{(n)}</m>.  This is always simplest to leave in terms of factors (like <m>(1-d)</m>) instead of solving for one variable or another.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="converting-with-future-or-present-value">
+		<statement>
+			<p> 
+				For converting between <m>d^{(n)}</m>, is it better to use present value or future value in order to set up equations?  Why?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="converting-from-nominal-to-effective-discount">
+		<introduction>
+			<p> 
+				In the exercises that follow, convert as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				If <m>d^{(12)} = 15\%</m>, find <m>d</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				If <m>d = 3.5\%</m>, find <m>d^{(2)}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				If <m>d^{(4)} = 3\%</m>, find the effective monthly discount rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				If <m>d^{(3)} = 6\%</m>, find <m>d^{(12)}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-effective-discount-rates">
+		<statement>
+			<p> 
+				Jimmy Page deposits 500 today into an account bearing a discount rate of <m>d^{(2)}</m> convertible semiannually.  Robert Plant deposits 600 one year later into an account bearing an effective annual interest rate of 5%.  Five years from the time Jimmy Page made his deposit, the balances in the two accounts are equal.  Find <m>d^{(2)}</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="discount-rate-present-value-reflection">
+		<statement>
+			<p> 
+				We have emphasized here and there that when working with discount, it may be advantageous to work with present value (but not always!).  Why is this, conceptually?
+			</p>
+		</statement>
+	</activity>
+</section>

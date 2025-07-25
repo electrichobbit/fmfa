@@ -1,0 +1,59 @@
+<section xml:id="problem-solving-different-interest-payment-periods">
+	<title>Problem Solving 7 -- Different Interest and Payment Periods</title>
+	<p>
+		Sometimes the frequency of payments and the compounding frequency do not match.  For example, you may have monthly payments but an effective annual interest rate.  We cannot change the payment structure, but we can convert to an equivalent interest rate and solve from there.  When solving problems in these cases, it is helpful to first identify the interest rate you are given and then the interest rate you need.  
+	</p>
+	<p>
+		Some find direct conversion helpful.  Others like to keep things exact until the end of the problem. If you do the latter, observe how the laws of exponents help with the numerators of our annuity formulas. 
+	</p>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip </title> 
+		<p>
+			When I convert to equivalent interest rates, I perform the calculation for <m>1+\iota</m> in my financial calculator, subtract 1 to get <m>\iota</m>, and multiply by 100 to get the result in percentage form.  Then I hit <kbd>I/Y</kbd> and proceed as needed. 
+		</p>
+	</assemblage>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip </title> 
+		<p>
+			Some like to use the options in the <kbd>P/Y</kbd> menu in the calculator (found by hitting <kbd>2ND</kbd> and then <kbd>I/Y</kbd>) helpful.  Then for the term, you have to type the number of <term>years</term> followed by <kbd>xP/Y</kbd> (<kbd>2ND</kbd> followed by <kbd>N</kbd>) and then <kbd>N</kbd>.  Most students I have taught have found this confusing.  If you would like to try it, feel free to look it up. 
+		</p>
+	</assemblage>
+	<activity xml:id="annual-annuity-quarterly-interest">
+		<statement>
+			<p> 
+				Find the accumulated value of an annuity due paying 150 annually for three years given an effective quarterly interest rate of 3%. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="monthly-payment-biannual-interest">
+		<introduction>
+			<p> 
+				A 50,000 loan made on January 1, 2010 is to be repaid over 25 years with payments on the last day of each month, beginning January 31, 2010.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				If <m>\iota^{(2)} = 10\%</m>, find the amount of the monthly payment <m>X</m>. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Starting with the first payment, the borrower decides to pay an additional 100 per month, on top of the regular payment of <m>X</m>, until the loan is repaid. An additional fractional payment might be necessary one month after the last payment of <m>X+100</m>.  On what date will the final payment of <m>X+100</m> be made, and what will be the amount of the additional fractional payment? 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="triannual-perpetuity-annual-interest">
+		<statement>
+			<p> 
+				At an effective annual interest rate of <m>\iota</m>, <m>\iota > 0</m>, the present value of a perpetuity paying 10 at the end of each 3-year period, with the first payment at the end of year 6, is 32. At the same effective annual interest rate of <m>\iota</m>, the present value of a perpetuity-immediate paying 1 at the end of each 4-month period is <m>X</m>. Calculate <m>X</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="problem-solving-different-interest-payment-periods-reflection">
+		<statement>
+			<p> 
+				List all of the problem solving techniques we have examined in this chapter, and for each technique, identify whether it is mathematical or financial.
+			</p>
+		</statement>
+	</activity> 
+</section>

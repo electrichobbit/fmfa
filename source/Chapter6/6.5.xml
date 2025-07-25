@@ -1,0 +1,98 @@
+<section xml:id="loan-repayment-with-constant-principal-payments">
+	<title>Loan Repayment with Constant Payments of Principal</title>
+	<p>
+		Sometimes loans are repaid by paying the interest due plus a constant payment of principal.  In such cases, we have an amount <m>Pr</m> such that <m>Pr_t = Pr</m> for all <m>t</m>.
+	</p>
+	<activity xml:id="examining-amortization-schedules">
+		<introduction>
+			<p>
+				Suppose 10,000 is borrowed at an effective annual interest rate of 4%.  At the end of every year, the borrower pays the interest due, plus a constant payment of principal.  The loan will be paid off in five years. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Generate the amortization schedule.
+			</p>
+		</task>
+		<task>
+			<p>
+				What do you notice about <m>K_t</m>, <m>I_t</m>, and <m>OB_t</m>?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-formulas-for-constant-principal-payments">
+		<introduction>
+			<p>
+				Let <m>L</m> be the loan amount, let <m>n</m> be the number of periodic payments, and let <m>\iota</m> be the effective periodic interest rate.  Suppose each payment includes the interest due plus a constant payment of principal.  Use your observations from the previous question to express each of the following formulas using only <m>L</m>, <m>n</m>, and <m>\iota</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find a formula for <m>Pr_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find a formula for <m>OB_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find a formula for <m>I_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find a formula for <m>K_t</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="example-problem-with-constant-principal-payments">
+		<statement>
+			<p>
+				Eliza takes out a 36,000 loan at an annual effective interest rate of 6%. It is agreed that at the end of each of the first six years she will pay 1800 in principal, along with the interest due, and that at the end of each of the next eight years she will make level payments of 2500. Eliza will make one final payment at the end of fifteen years to exactly complete her loan obligation. Calculate the amount of Eliza's fifth payment, the amount of her tenth payment, and the amount of her fifteenth payment.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="evaluating-present-value-of-payments">
+		<introduction>
+			<p>
+				Return to the example at the beginning of this activity: a loan of 10,000 with an effective annual interest rate of 4%, paid off with five annual payments including interest due and a constant payment of principal.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Plot the interest payments on a timeline.  What do you notice?
+			</p>
+		</task>
+		<task>
+			<p>
+				Write and then evaluate an expression for the present value of all of the interest payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				Write and then evaluate an expression for the present value of all of the principal payments, verify that together with interest payments the total present value is the loan amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				If we have a loan of <m>L</m> repaid with <m>n</m> payments, carrying an effective interest rate of <m>\iota</m>, paid off with constant payments of principal, write an expression for the present value of the remaining <m>n-k</m> payments. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="valuing-a-loan-after-constant-principal-payments">
+		<statement>
+			<p>
+				Betty borrows 19,800 from Bank <m>X</m>. She repays the loan by making 36 equal payments of principal at the end of each month.  She also pays interest on the unpaid balance each month at a nominal rate of 12% compounded monthly. Immediately after the 16th payment is made, Bank <m>X</m> sells the rights to future payments to Bank <m>Y</m>. Bank <m>Y</m> wishes to yield a nominal rate of 14% compounded semi-annually (this is the rate at which they value the cash stream) on its investment.  What price does Bank <m>X</m> receive?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="loan-repayment-with-constant-principal-payments-reflection">
+		<statement>
+			<p>
+				What, if anything, is worth memorizing from this activity?
+			</p>
+		</statement>
+	</activity>
+</section>

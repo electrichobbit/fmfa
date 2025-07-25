@@ -1,0 +1,549 @@
+<exercises xml:id="other-forms-of-interest-accumulation-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Value each of the following as indicated.  Time <m>t</m> is measured in years unless otherwise indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A deposit of 14000 in an account with 4.5% annual simple interest.  Find the value 18 months after the deposit.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of 19500 at time <m>t = 31</m> where <m>t</m> is in months, using an annual simple interest rate of 2.75%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 1200 is made into an account bearing a 3% effective annual interest rate.  Find the value after 2 years and 17 days, where interest over a portion of a year is accumulated at a 3% annual simple interest rate.
+			</p>
+		</task>
+		<task xml:id="exercise-simple-interest">
+			<p>
+				A deposit of 7800 is made on day 39 of a year, and another deposit of 5150 is made on day 57 of the same year.  The account has an annual simple interest rate of 4%. Find the account balance half-way through the year (assume a 360-day year).
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value (beginning of the year) of the cash flows in <xref ref="exercise-simple-interest"/>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Redo <xref ref="exercise-simple-interest"/>, but now the 4% is a nine-month simple interest rate (assume a 360-day year).
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the missing value in each of the following.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				After 143 days, a deposit of 1200 is worth 1228.20.  Find the annual simple interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				After 19 days, a deposit of 10,000 is worth 10,126.67. Find the monthly simple interest rate (assume a 30-day month)
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 2112 in an account with an annual simple interest rate of 4.5% has grown to 2145.85 after <m>t</m> days.  Find <m>t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A deposit of 4300 in an account with a quarterly simple interest rate of 4% has grown to 4386 after <m>t</m> days.  Find <m>t</m> (assume a 360-day year).
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, find the effective annual discount rate <m>d</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>A(0) = 38,000</m> and <m>A(1) = 41,337</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>A(0) = 35,500</m> and <m>A(1) = 36,839</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>A(0) = 6,900</m> and <m>A(1) = 7,054</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>A(0) = 74,000</m> and <m>A(1) = 76,509</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>A(0) = 17,000</m> and <m>A(1) = 18,501</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value each of the following as indicated. Time <m>t</m> is measured in years unless otherwise indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the present value of 27000 at time <m>t = 2</m> in an account with an effective annual discount rate <m>d = 3%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				What is the present value of 150 at time <m>t = 3</m> and 450 at time <m>t=5</m> at an effective annual discount rate <m>d = 8.25%</m>?
+			</p>
+		</task>
+		<task>
+			<p>
+				If 80,500 is deposited at time <m>t = 1.5</m>, what is the value at time <m>t = 7</m> if the account has an effective annual discount rate <m>d = 6%</m>?
+			</p>
+		</task>
+		<task>
+			<p>
+				If 250 is deposited every year for 3 years in an account with an effective annual discount rate of <m>d = 4\%</m>, what is the balance one year after the last deposit?
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the value at time <m>t=3.5</m> of 1200 deposited at time <m>t = 2</m> and 1200 deposited at time <m>t = 5</m> using a discount rate <m>d = 2.75%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If 75000 is deposited today with an effective annual discount rate <m>d = 5\%</m>, what is the account balance after 2 years and 3 months?
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose 3000 is deposited at time <m>t=4</m> (in years) and 1500 is deposited at time <m>t = 16</m>.  Find the value at time <m>t=8</m> using an effective annual discount rate of 2%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the missing value in each of the following scenarios.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				If 1250 is deposited at time 0 and grows to 1411.96 in 4 years, find the effective annual discount rate <m>d</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If 4521.79 is the present value of 6000 at time <m>t = 5</m> (in years), find the effective annual discount rate <m>d</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Using an effective annual discount rate <m>d = 2.5%</m>, a deposit of 7500 grows to 7990.05 after <m>t</m> years.  Find <m>t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If 10,820.84 is the present value of 15,000 at time <m>t</m> (in years), and the effective annual discount rate is <m>d = 4%</m>, find <m>t</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				In each of the following, you are given either <m>\iota</m>, <m>d</m>, or <m>v</m>.  Find the other 2.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>\iota = 4.75\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>v = 0.9756</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 5.45\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>v = 0.9605</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 2.35\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota = 6\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota = 3.85\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 2.95\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>v = 0.9585</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 8\%</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following values of <m>d^{(n)}</m>, find the effective annual discount rate <m>d</m> and illustrate with a timeline.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>d^{(2)} =2\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(4)} = 3.5\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(3)} = 1.5\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(6)} = 3\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(12)} = 6\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(1/2)} = 9\%</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value each of the following as indicated.  Time <m>t</m> is measured in years unless otherwise indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the present value of 3750 at <m>t = 2</m> with <m>d^{(4)} = 5.5%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If 9500 is deposited into an account with <m>d^{(12)} = 6%</m>, find the value at <m>t = 5.</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				If 5800 is deposited into an account with <m>d^{(6)} = 2.5%</m>, find the value at <m>t = 2.5</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the value at time <m>t = 9</m> of 100 deposited at time <m>t = 1</m> and another 100 deposited at time <m>t=2</m> with <m>d^{(2)} = 5%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the value at <m>t = 7.5</m> of 1200 deposited at time <m>t = 2</m> and 1700 deposited at time <m>t=9</m> with <m>d^{(3)} = 4%</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, use the given information to find the indicated value.  Make a timeline where appropriate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				If the effective annual discount rate is <m>d = 5%</m>, find <m>d^{(4)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The value of an account at time 0 was 1750 and the value at time 5 was 1920.  Find <m>d^{(2)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The value of an account at time 2 was 21000 and at time 5 was 21350.  Find <m>d^{(6)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An account grows from 15000 to 15950 with <m>d^{(12)} = 7.5%</m>.  Find <m>t</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A deposit of 700 is made at time <m>t=3.25</m> and another deposit of 950 is made at time <m>t = 5</m>.  A withdrawal of <m>X</m> is made at time <m>t = 8</m>.  Immediately after the withdrawal, 100 is left in the account. 
+			</p>
+			<p>
+				The account carries <m>\iota^{(4)} = 6%</m> between times <m>t = 0</m> and <m>t = 3.5</m>, <m>d^{(2)} = 7%</m> between times 3.5 and 4.5, and a simple annual interest rate of <m>\iota = 4%</m> between times 4.5 and 10. 
+			</p>
+			<p>
+				Find <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Convert as indicated.  Assume <m>\iota</m> is an effective annual interest rate and <m>d</m> is an effective annual discount rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>d^{(2)} = 3%</m>, find <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(12)} = 12%</m>, find <m>d^{(4)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota = 5.5%</m>, find <m>d^{(12)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(12)} = 6%</m>, find <m>\iota^{(12)}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(2)} = 8%</m>, find <m>d</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value each of the following as indicated. Time <m>t</m> is measured in years unless otherwise indicated.  Be careful!
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the value of 7500 after 5 years and 9 months with an annual continuously compounded interest rate of 4%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of 11000 at time <m>t = 3</m> with a monthly continuously compounded interest rate of 1.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of four deposits of 2.5, deposited quarterly over a single year, with an annual continuously compounded interest rate of 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Deposits of 1.5 are going to be made quarterly, starting 2 months from now.  Find the amount in the account one year from now if the effective annual interest rate is 6%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Suppose a deposit doubles in 12 years.  What is the annual continuously compounded interest rate?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				With an annual continuously compounded interest rate of <m>r = 2.5\%</m>, how long does it take 500 to grow to 600?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Convert as indicated.  Assume <m>\iota</m> is an effective annual interest rate, <m>r</m> is an annual continuously compounded interest rate, and <m>d</m> is an annual effective discount rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>r = 6%</m>, find <m>d^{(4)}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota^{(12)} = 12%</m>, find <m>r</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d^{(2)} = 3%</m>, find <m>r</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota = 7%</m>, find <m>d^{(6)}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 4.5%</m>, find <m>r</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following accumulation factors, find the force of interest <m>\delta_t</m> as a function of <m>t</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>a(t) = \frac{t^2}{50}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = 3t^{12}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = (1.05)^t</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = 1+.05t</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = 1+\iota t</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = (1+\iota)^t</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>a(t) = e^{rt}</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value each of the following as indicated. Time <m>t</m> is measured in years unless otherwise indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the value of 1500 after 5 years with <m>\delta_t = \frac{t^3}{150}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of 750 at time <m>t = 4.5</m> with <m>\delta_t = \frac{2t^2}{75}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the value at time after 7 years and 3 months of 10,000 with <m>\delta_t = \frac{.03}{1+.03t}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of 5000 at time <m>t = 3</m> with <m>\delta_t = 0.045</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose 500 is deposited quarterly every quarter for a year.  Find the present value assuming:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The annual simple interest rate is <m>\iota = 2\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The annual continuously compounded interest rate is <m>r=3\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The nominal discount rate compounded monthly is <m>d^{(12)} = 0.09</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The effective annual discount rate is <m>d = 5\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The force of interest is <m>\delta_t = 0.03</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The force of interest is <m>\delta_t = \frac{0.02}{1+0.02t}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The force of interest is <m>\delta_t = \frac{t^2}{100}</m>
+			</p>
+		</task>
+	</exercise>
+</exercises>

@@ -1,0 +1,237 @@
+<section xml:id="future-and-present-values-of-increasing-and-decreasing-annuities">
+  <title>Future and Present Values of Annuities with Payments in Arithmetic Progression</title>
+  <p>
+    In the last activity, we learned to identify and denote values of annuities with payments in arithmetic progression.  In this activity, we will calculate those values. 
+  </p>
+  <p>
+    We are going to take the following formulas as given for now.  In a later activity, we will derive them.
+  </p>
+  <me>(Ia)_{\angln \iota} = \frac{\ddot{a}_{\angln} - nv^n}{\iota}</me> 
+  <me>(Da)_{\angln \iota} = \frac{n - a_{\angln}}{\iota}</me>
+  <activity xml:id="table-of-formulas-for-increasing-and-decreasing-annuities">
+    <statement>
+      <p> 
+        Complete the following table of formulas, using appropriate notation.
+      </p>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Present Value
+            </cell>
+            <cell>
+              Future Value
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Increasing Annuity Immediate
+            </cell>
+            <cell>
+              <m>(Ia)_{\angln \iota}= \frac{\ddot{a}_{\angln} - nv^n}{\iota}</m>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Increasing Annuity Due
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Decreasing Annuity Immediate
+            </cell>
+            <cell>
+              <m>(Da)_{\angln \iota} = \frac{n - a_{\angln}}{\iota}</m>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Decreasing Annuity Due
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </activity>
+  <activity xml:id="increasing-perpetuity-immediate-formula">
+    <introduction>
+      <p> 
+        Next, consider an increasing perpetuity. 
+      </p>
+    </introduction>
+    <task>
+      <p>  
+        For an increasing perpetuity immediate, calculate <me>(Ia)_{\angl{\infty} \iota} = \lim_{n \rightarrow \infty} (Ia)_{\angln \iota}</me>  You may assume <m>nv^n \rightarrow 0</m> (although you can prove this using L'Ho&#x302;pital if you want some extra street cred!).
+      </p>
+    </task>
+    <task>
+      <p> 
+        Adapt your formula to find <m>(I\ddot{a})_{\angl{\infty} \iota}</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Why are we not considering <m>(Da)_{\angl{\infty} \iota}</m>?
+      </p>
+    </task>
+  </activity>
+  <assemblage>
+    <title>&#x1F9EE; Calculator Corner</title>
+    <p>
+      The financial calculator can be used to find <m>(Ia)_{\angln}</m> and <m>(Ds)_{\angln}</m> only.  
+    </p>
+  </assemblage>
+  <activity xml:id="using-calculator-for-increasing-annuities-immediate-present-value">
+    <introduction>
+      <p> 
+        For <m>(Ia)_{\angln}</m>:
+      </p>
+      <ul>
+        <li>
+          <p>
+            Put your calculator into <kbd>BGN</kbd> mode.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter the value of <m>n</m> for <kbd>N</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter <m>100\iota</m> for <kbd>I/Y</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter 1, followed by <kbd>&#177;</kbd>, for <kbd>PMT</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter the value of <m>n</m> for <kbd>FV</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Ask the calculator to <kbd>CPT</kbd> <kbd>PV</kbd>.
+          </p>
+        </li>
+      </ul>
+    </introduction>
+    <task>
+      <p> 
+        This sequence of steps does not calculate the entirety of <m>(Ia)_{\angln}</m>. What DOES this calculate?
+      </p>
+    </task>
+    <task>
+      <p> 
+        How could you modify your entries to calculate <m>(Ia)_{\angln}</m> completely?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-calculator-for-decreasing-annuities-immediate-future-value">
+    <introduction>
+      <p> 
+        For <m>(Ds)_{\angln}</m>:
+      </p>
+      <ul>
+        <li>
+          <p> 
+            Make sure your calculator is NOT in <kbd>BGN</kbd> mode.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter the value of <m>n</m> for <kbd>N</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter <m>100\iota</m> for <kbd>I/Y</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter the value of <m>n</m> , followed by <kbd>&#177;</kbd>, for <kbd>PV</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Enter 1 for <kbd>PMT</kbd>.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Ask the calculator to <kbd>CPT</kbd> <kbd>FV</kbd>.
+          </p>
+        </li>
+      </ul>
+    </introduction>
+    <task>
+      <p> 
+        This sequence of steps does not calculate the entirety of <m>(Ds)_{\angln}</m>. What DOES this calculate?
+      </p>
+    </task>
+    <task>
+      <p> 
+        How could you modify your entries to calculate <m>(Ds)_{\angln}</m> completely?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-calculator-to-find-values-for-other-increasing-decreasing-annuities">
+    <statement>
+      <p> 
+        How could you use the calculator to find other values of increasing or decreasing annuities?
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="calculating-increasing-decreasing-annuities">
+    <introduction>
+      <p> 
+        Calculate the following, using both the formulas AND the calculator.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>(Ia)_{\angl{20} .08}</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>(Ds)_{\angl{35} .04}</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>3 (Is)_{\angl{15} .05}</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>5(Da)_{\angl{9} .02}</m>
+      </p>
+    </task>
+  </activity> 
+  <activity xml:id="increasing-decreasing-annuities-series-representations">
+    <statement>
+      <p> 
+        To conclude, write the series representations of <m>(Ia)_{\angln}</m>, <m>(Is)_{\angln}</m>, <m>(Da)_{\angln}</m>, and <m>(Ds)_{\angln}</m>.
+      </p>
+    </statement>
+  </activity>
+</section>

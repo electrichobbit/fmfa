@@ -1,0 +1,131 @@
+<section xml:id="ethics-case-study-reparations">
+	<title>Ethics Case Study -- Reparations</title>
+	<p>
+		For decades, there have been calls for America to pay reparations to African Americans, most of whom are descendants of slaves.  Those who argue for reparations believe that they are compensation for the value contributed to the United States by slaves. We are going to analyze this question using our ethical decision framework.
+	</p>
+	<activity xml:id="reparations-problem-statement">
+		<statement>
+			<p> 
+				<em>Step 1</em>: State the Problem.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-fact-gathering">
+		<introduction>
+			<p> 
+				<em>Step 2</em>: Gather the Facts.
+			</p>
+			<p>
+				We are going to first determine the value today of the contributions of slaves, and we are going to make several assumptions along the way.  Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of slaves starting in 1790.  We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a study by Yamada).  We assume that this rate captures the effect of inflation.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				First, let us consider the value added in a single year by a single slave in 1790.  We will base this on the price of a slave in 1790, which was approximately 300 according to a study by Williamson and Cain.  We will assume that this price represents the lifetime contribution of the slave to the income of the slaveholder (and therefore to aggregate US income).  While lifetime is uncertain, we can approximate the annual contribution (to match our annual interest rate) by treating 300 as the present value of a perpetuity-immediate.  
+			</p>
+			<p>
+				Based on these assumptions, how much did value did the work of each slave add to the US economy annually in 1790?
+			</p>
+		</task>
+		<task>
+			<p> 
+				In 1790, there were 0.654 million slaves (according to the census).  By examining census figures for slaves each decade up until 1860, examining growth rates, and taking a geometric average, the slave population grew by approximately 30% every ten years.  Slavery ended (officially at least) in 1865. 
+			</p>
+			<p>
+				Carefully use our data and assumptions to find the value in 2020 of the contribution of slaves between 1790 and 1865.  Be careful to note the difference between annual effective interest rates and ten-year effective interest rates, and do not forget about the half-decade between 1860 and 1865!  (The order of magnitude of your answer should be in the 10s of trillions).
+			</p>
+		</task>
+		<task>
+			<p> 
+				Pause for a moment and consider the figure you just calculated.  Besides some of the simplifying assumptions, what are we missing?  Is this an over-estimate or an under-estimate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				If adopted, reparations will be paid by the federal government to a subset of citizens.  The federal government is funded by taxpayers.  Consider how you will allocate costs and benefits of reparations to individual taxpayers.  Then look up the most recent census data to determine the net cost or net benefit to individual taxpayers (classified however you feel is appropriate).  Do you see any challenges from the census data?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="reparations-identify-stakeholders">
+		<statement>
+			<p> 
+				<em>Step 3</em>: Identify stakeholders.  Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected).  Try to see the situation through the eyes of all possible stakeholders. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-develop-options">
+		<statement>
+			<p> 
+				<em>Step 4</em>: Develop options.  Be imaginative, avoid dilemmas or yes/no situations. Instead consider how to modify questions and ask “to/for whom” or “how much." 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-test-options">
+		<statement>
+			<p> 
+				<em>Step 5</em>: Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction.  Test at least two options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
+			</p>
+			<p>
+				<em>Option 1</em>:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Primary or Secondary?
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-make-decision">
+		<statement>
+			<p> 
+				<em>Step 6</em>: Make a decision. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-check-work">
+		<statement>
+			<p> 
+				<em>Step 7</em>: Check your work!  Make sure your decision follows your gut instincts and your internal principles.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-memo">
+		<statement>
+			<p> 
+				Write a memo setting forth and defending a recommendation on reparations.  Be sure to support your position and address counterarguments (see outline in <xref ref="ethics-student-loans-and-covid"/>).
+			</p>
+		</statement>
+	</activity>
+</section>

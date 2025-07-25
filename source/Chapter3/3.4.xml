@@ -1,0 +1,161 @@
+<section xml:id="actuarial-notation-2">
+  <title>Actuarial Notation 2 -- <m>a_{\angln \iota}</m> and <m>s_{\angln \iota}</m></title>
+  <p>
+    The present value of an annuity immediate for <m>n</m> periods with interest rate <m>\iota</m> and payments of 1 is denoted:
+  </p>
+  <me>a_{\angln \iota}</me>
+  <p>
+    The present value of an perpetuity immediate with interest rate <m>\iota</m> and payments of 1 is denoted:
+  </p>
+  <me>a_{\angl\infty \iota}</me>
+  <p>
+    The accumulated (future) value of an annuity for <m>n</m> periods with interest rate <m>\iota</m> and payments of 1 is denoted:
+  </p>
+  <me>s_{\angln \iota}</me>
+  <p>
+    If the payments are <m>K</m> instead of 1, just multiply: <m>Ka_{\angln \iota}</m>, <m>Ka_{\angl\infty \iota}</m>, and <m>Ks_{\angln \iota}</m>. If the interest rate is understood, we often omit it from the notation and just write <m>Ka_{\angln}</m> and <m>Ks_{\angln}</m>. 
+  </p>
+  <p>
+    The problems from <xref ref="introduction-to-immediate-annuities"/> are repeated below with timelines.  Your task is to decide where to value the cash flows and write one or more equations to solve the problem, using actuarial notation as appropriate.  <em>We are not going to solve these problems until the next activity.</em>
+  </p>
+  <activity xml:id="using-actuarial-notation-for-valuation-1">
+    <statement>
+      <p> 
+        To accumulate 8000 at the end of 3<m>n</m> years, deposits of 98 are made at the end of each of the first <m>n</m> years and 196 at the end of each of the next 2<m>n</m> years.  The effective annual rate of interest is <m>\iota</m>. You are given <m>(1+\iota)^n = 2.0.</m> Determine <m>\iota</m>.
+      </p>
+      <figure xml:id="annuity-notation-timeline-1">
+        <caption>Timeline for an annuity with deposits of 98 per year for the first n years and deposits of 196 for 2n years.</caption>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}
+            \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.248,scale=2] {$\cdots$} node[below=1mm,pos=0.752,scale=2] {$\cdots$}  (12,0);
+             \foreach \x/\y in {0/0}{
+              \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,1mm);
+              }
+            \foreach \x/\y in {1/1,5/$n$}{
+              \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above=8mm]{98};
+              }
+              \foreach \x/\y in {6/$n+1$,12/$3n$}{
+              \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{196};
+              }
+
+             % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+             \draw (5.5,1.5mm) rectangle (12.5,7mm); 
+             \draw[->] (6,13mm)--(11.5,13mm); 
+             \draw (0.5,9mm) rectangle (5.5,16mm); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </statement>
+  </activity>
+  <activity xml:id="using-actuarial-notation-for-valuation-2">
+    <statement>
+      <p> 
+        Jeff deposits 10 into a fund today and 20 fifteen years later. Interest is credited at a nominal discount rate of <m>d</m> compounded quarterly for the first 10 years, and at a nominal interest rate of 6% compounded semiannually thereafter.  The accumulated balance in the fund at the end of 30 years is 100. Calculate <m>d</m>. 
+      </p>
+      <figure xml:id="annuity-notation-timeline-2">
+        <caption>Timeline for an annuity with deposit 10 now and 20 fifteen years later.</caption>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}
+            \draw[line width=1pt] (0,0) -- (15,0);
+            \foreach \x/\y in {0/0}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above=2.5mm]{$10$};
+            }
+            
+            \foreach \x/\y in {5/10}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{$10 \left(1 - \frac{d}{4}\right)^{-40}$};
+            }
+            
+            \foreach \x/\y in {7.5/15}{
+            \draw[line width=1pt](\x,-2mm)node[below](\x){\strut\y}node[below=9mm]{$20$}--(\x,2mm);
+            }
+            
+            \foreach \x/\y in {15/30}{
+            \draw[line width=1pt](\x,-2mm)node[below](\x){\strut\y}node[below=8mm]{$20(1.03)^{30}$}--(\x,2mm)node[above]{$10 \left(1 - \frac{d}{4}\right)^{-40}(1.03)^{40}$};
+            }
+            
+            
+            \draw[->] (0.5, 7mm) -- (3.75, 7mm);
+            \draw[->] (6.25, 7mm) -- (12.75, 7mm);
+            \draw[->] (8.25,-14mm) -- (13.75,-14mm);
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+      </figure>
+    </statement>
+  </activity>
+  <activity xml:id="using-actuarial-notation-for-valuation-3">
+    <statement>
+      <p> 
+        A generous, anonymous donor purchases an annuity immediate for <m>X</m> with annual payments <m>K</m> for 20 years.  She deposits the annual payments into an account earning an effective annual interest rate of 5%.  At the end of the 20 years, the accumulated amount is to be paid over to Tom Riddle.  By the end of the 20 years, Tom Riddle has become Lord Voldemort, who expects to live forever.  Voldemort uses the payout to purchase a perpetuity immediate that pays out 500 at the end of every year valued with an effective annual interest rate of 4%. 
+      </p>
+      <p>
+        Find <m>X</m>.
+      </p>
+      <figure xml:id="annuity-notation-timeline-3">
+        <caption> Annuity purchased for X with annual payments of K for 20 years.</caption>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}
+            \draw[->][line width=1pt] (0,0) -- node[below=1mm,pos=0.248,scale=2] {$\cdots$} node[below=1mm,pos=0.752,scale=2] {$\cdots$} node[above=8mm, pos=0.752,scale=2]{$\cdots$} (12,0);
+            \foreach \x/\y in {0/0}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,1mm);
+            }
+            \foreach \x/\y in {1/1,5/20}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{$K$};
+            }
+            \foreach \x/\y in {6/21,7/22}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above=8mm]{500};
+            }
+
+
+            % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+            \draw (0.5,1.5mm) rectangle (5.5,7mm); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </statement>
+  </activity>
+  <activity xml:id="using-actuarial-notation-for-valuation-4">
+    <statement>
+      <p> 
+        Suppose we save $1000 at the end of every year for the next 3 years, earning an effective annual rate of 8%.  Beginning at the end of the year following our last deposit, we will withdraw $1100 at the end of each year for 3 years, and withdraw the remainder <m>X</m> at the end of the following year. Find <m>X</m>.
+      </p>
+      <figure xml:id="annuity-notation-timeline-4">
+        <caption>Timeline for an annuity where 1000 is saved at the end of each year for 3 years, and then 1100 is withdrawn every year for 3 years.</caption>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}
+            \draw[line width=1pt] (0,0) -- (14,0);
+            \foreach \x/\y in {0/0}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,1mm);
+            }
+            \foreach \x/\y in {2/1,4/2,6/3}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above=8mm]{1000};
+            }
+            \foreach \x/\y in {8/4,10/5/,12/6}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{$-1100$};
+            }
+            \foreach \x/\y in {14/7}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,1mm)node[above]{$-X$};
+            }
+            % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
+            \draw (7.4,1.5mm) rectangle (14.5,7mm); 
+            \draw (1.5,9mm) rectangle (6.5,16mm); 
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </statement>
+  </activity>
+  <activity xml:id="actuarial-notation-reflection">
+    <statement>
+      <p> 
+        What do you think the advantages of actuarial notation are?
+      </p>
+    </statement>
+  </activity>
+</section>

@@ -1,0 +1,68 @@
+<section xml:id="problem-solving-watch-the-details">
+	<title>Problem Solving 6 -- Watch the Details!</title>
+	<p>
+		As you may have noticed, successful problem solving involves both strategy and attention to detail.  We have focused by and large on strategy, so in this activity we will look at details.  Our focus will be on two examples of details to pay attention to -- counting (for the period of an annuity) and the interest rate given or asked for. 
+	</p>
+	<p>
+		We will start with counting payments.  Counting sounds trivial, but if you have or plan on taking Discrete Mathematics or Combinatorics, you will find that counting can be quite involved!  In our case, we will need to count the number of payments in an annuity between two dates. Here are a couple of principles:
+	</p>
+	<ul>
+		<li>
+			<p> 
+				PRINCIPAL 1: THE NUMBER OF YEARS.  To count the number of years of payments, subtract, and then check if you need to add 1 or not.  If payments were made during the year that was subtracted, you will have to add 1 (why?).  So, for example, if semiannual payments were made, starting in January 2001 and ending with a payment in July of 2005, then there were 5 years of payments made.  This is because 2005 - 2001 = 4, but this only counts payments in 2002, 2003, 2004, and 2005.  We need to add 1 back to account for payments in 2001. 
+			</p>
+		</li>
+		<li>
+			<p> 
+				PRINCIPAL 2: TOTAL NUMBER OF PAYMENTS.  Sometimes the total number of payments will be the number of payments per year times the number of years, but not always.  Continuing our example, if the first semiannual payment was made on January 31, 2001 and the last was made on July 31, 2005, then we have 2 payments per year for 5 years, for a total of 10 payments.  However, if the last payment was on January 31, 2005, there would be one fewer payments, so you would have 9 payments.  
+			</p>
+		</li>
+	</ul>
+	<p>
+		If you prefer, instead of working with the principals outlined above, you can also just count payments for the first couple of years, and use the example to determine how you would count more generally.
+	</p>
+	<activity xml:id="using-the-principals-1">
+		<statement>
+			<p> 
+				Let's work with an example problem.  In counting the number of payments, you can apply the principals or generate examples from which you can extrapolate. 
+			</p>
+			<p>
+				In December of 2019, the Joker and his goons rob a mob bank and steal <m>X</m>.  The Joker then kills his goons and takes all of <m>X</m> for himself.  On December 31, 2019, he uses <m>X</m> to buy an annuity paying out 3 million monthly, starting on January 31, 2020.  The last payment is on December 31, 2034.  The annuity is valued using an effective monthly rate of <m>\iota = 1\%</m>.  Calculate <m>X</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-the-principals-2">
+		<statement>
+			<p> 
+				Let's try another problem.
+			</p>
+			<p>
+				A sum of 10,000 was invested on September 1, 1970 at an effective annual interest rate of 5% in order to provide an annual scholarship of 2000 every September 1, forever, starting as soon as possible. In what year will the first payment of 2000 be made? What smaller payment could be made one year earlier while still permitting the annual scholarships of 2000 thereafter? Assume that interest is credited every August 31. 
+			</p>
+		</statement>
+	</activity>
+	<p>
+		The other detail we will consider comes from the rates we are given. We need to pay attention to the type of rate we are given (is it interest? discount? a force of interest?) as well as compounding frequency.  We will look closer at this in the next two activities, so the problems that we will discuss in this activity give us a taste of what to look for. 
+	</p>
+	<activity xml:id="calculating-nominal-interest-for-annuity-immediate">
+		<statement>
+			<p> 
+				An annuity-immediate that pays 400 quarterly for the next 10 years costs 10,000. Calculate the nominal interest rate convertible monthly earned by this investment. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="determine-annual-payments-college-fund">
+		<statement>
+			<p> 
+				Jerry will make deposits of 450 at the end of each quarter for 10 years. At the end of 15 years, Jerry will use the fund to make annual payments of <m>Y</m> at the beginning of each year for 4 years, after which the fund is exhausted. The effective annual rate of interest is 7%. Determine <m>Y</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="problem-solving-watch-the-details-reflection">
+		<statement>
+			<p> 
+				Make a list of details that you have to pay attention to when solving problems.  Include the details we discussed in this activity, but also include details that we have encountered that we did not discuss directly.
+			</p>
+		</statement>
+	</activity>
+</section>

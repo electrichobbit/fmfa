@@ -1,0 +1,87 @@
+<section xml:id="derivatives-integrals-review">
+	<title>Review -- Derivatives and Integrals</title>
+	<p>
+		The final approach to accumulating interest we will discuss generalizes all of the others that we have studied -- the force of interest.  Using this concept requires some basic differentiation and integration, which we will practice in this activity. To review some basic derivative and integral rules, go to <xref ref="appendix-differentiation-integration"/>.
+	</p>
+	<activity xml:id="derivatives">
+		<introduction>
+			<p> 
+				Find the derivatives of the following functions.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>f(t) = \ln(1+\iota t)</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(t) = e^{rt}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(t) = \frac{\iota}{1+\iota t}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(t) = t \sqrt{(1+t)^2-1}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(t) = \frac{t}{\sqrt{(1+t)^2-1}}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>f(x) = x^x</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="integration-practice">
+		<introduction>
+			<p> 
+				Calculate the following definite integrals.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_0^5 r dt}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_0^t r dr}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_3^6 \frac{t^2}{50} dt}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_0^4 \frac{\iota}{1+\iota t} dt}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_5^6 \frac{2t}{1+t^2} dt}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\displaystyle{\int_0^t  \frac{r^2}{1+r^3} dr}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="differentiation-integration-reflection">
+		<statement>
+			<p> 
+				Which differentiation and integration skills do you need additional practice with?
+			</p>
+		</statement>
+	</activity>
+</section>

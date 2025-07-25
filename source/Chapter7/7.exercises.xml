@@ -1,0 +1,256 @@
+<exercises xml:id="bonds-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Consider a bond with a face value of 1000, a coupon rate of 10%, maturing in 5 years, with a redemption amount of 1250. The bond is priced to yield 12%. 
+			</p>
+			<p>
+				Determine which of the following statements are true, and for those that are false, correct them.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				At the end of five years, the issuer will pay the bondholder 1000.
+			</p>
+		</task>
+		<task>
+			<p>
+				There will be 5 coupons.
+			</p>
+		</task>
+		<task>
+			<p>
+				Each coupon will be 100.
+			</p>
+		</task>
+		<task>
+			<p>
+				The bond is priced by discounting the cash flows at an effective annual interest rate of 10%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Coupons are calculated by finding 12% of 1250.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Consider a bond with a face value of 1250, a coupon rate of 12%, maturing in 5 years, with a redemption amount of 1000.  The bond is priced to yield 10%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Identify <m>F</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>\iota</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>r</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the amount of each coupon.
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>C</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>n</m> (the number of coupon payments)
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Price the following bonds as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The face value is 1000, the redemption amount is 1250, the coupon rate is <m>10\%</m>, the bond matures in five years.  Price to yield 12%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The face value and the redemption amount are 1000, the coupon rate is 10%, and the bond matures in five years.  Price to yield 12%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The face value and the redemption amount are 1000, the coupon rate is 10%, and the bond matures in five years.  Price to yield 8%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The face value and the redemption amount are 2000.  The bond carries annual coupons with a coupon rate of 5%.  Price to yield 3.5%.  The bond matures in 20 years.  
+			</p>
+		</task>
+		<task>
+			<p>
+				A <term>zero coupon bond</term> is a bond that pays no coupons (i.e. the coupon rate is <m>r = 0</m>).  If a zero-coupon bond has <m>F = C = 1000</m> with a maturity in 2 years, find the price to yield an effective annual interest rate of 6%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following bonds, solve for the unknown value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bond with annual coupon payments is priced to yield an effective annual rate of 4%.  The price is 10,445.18.  The bond has a face value of 10,000 and is redeemed at par in five years.  Find the coupon rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond is priced to yield 8% has a price of 4776.87.  The bond carries a face value of 5000, a coupon rate of 6%, and matures in 20 years.  Find the redemption amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond with a face value of 1000 sells for 948.71. The coupon rate is 4%, and it matures in 6 years.  The bond is redeemed at par.  Find the rate that the bond is priced to yield.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond is priced to yield 5% has a price of 891.74.  The coupon rate is 7%, has a redemption amount of 900, and matures in 3 years.  Find the face value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A <term>zero-coupon bond</term> is a bond that pays no coupons (i.e. the coupon rate is <m>r=0</m>). If a zero-coupon bond has a redemption amount of 1000 due in 2 years, and is trading for 910.21, find the yield rate as an effective semiannual interest rate (This is how the market determines interest rates as we will see in <xref ref="term-structure-interest-rates"/>).
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following bonds, determine whether the bond is priced at a discount, at par, or at a premium. Justify your answer.  In addition, find the amount of discount or premium, as appropriate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bond has a face value of 1000, a coupon rate of 5%, a yield rate of 6%, and matures in 10 years.  The bond is redeemed at par.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1500, a yield rate of 3%, a coupon rate of 5%, and matures in 5 years.  The bond is redeemed at par.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a a face value of 500, a redemption amount of 750, a coupon rate of 10%, a yield rate of 8%, and matures in 8 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 10,000, a coupon rate of 8%, a yield rate of 8%, and matures in 2 years.  The bond is redeemed at par.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1000, a redemption amount of 1250, a coupon rate of 5%, a yield rate of 5%, and matures in 7 years.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bond that is redeemed at par has a face value of 2500.  The coupon rate is 5% and the yield rate is 4%.  The bond matures in 2 years.  
+			</p>
+			<p>
+				Create the amortization schedule for this bond, and state whether the bond is being written up or written down.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bond that is redeemed at par has a face value of 1000.  The coupon rate is 6% and the yield rate is 8%.  The bond matures in 2.5 years.  
+			</p>
+			<p>
+				Create the amortization schedule for this bond, and state whether the bond is being written up or written down.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following bonds, find the interest due and the principal repaid in the specified payment <m>k</m>, and find the book value immediately following the <m>k</m>th payment.  In addition, state whether the principal repaid is either the amount for amortization of premium or the amount for accumulation of discount.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The bond is redeemed at par and has a face value of 1000.  The coupon rate is 8% and the yield rate is 12%.  The bond matures in 4 years, and <m>k = 5</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The bond is redeemed at par and has a face value of 10,000.  The coupon rate is 6% and the yield rate is 6%. The bond matures in 5 years, and <m>k = 7</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The bond is redeemed at par and has a face value of 1000.  The coupon rate is 10% and the yield rate is 8%. The bond matures in 10 years, and <m>k=12</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following bonds, find the difference between the book value and the market value immediately after the given payment (i.e., find <m>|B_k - MV_k|</m>).
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bond has a face value of 1000 and is redeemed at par, the coupon rate is 5%, matures 5 years after it was issued, and was originally priced to yield 7.5%.  Immediately after the 3rd payment, yield rates fall to 6%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A  bond has a face value of 10,000 and is redeemed at par, the coupon rate is 8%, matures 10 years after it was issued, and was originally priced to yield 6%.  Immediately after the 12th payment, yield rates rise to 7%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Price the following callable bonds as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bond has a face value of 1000 and a coupon rate of 10%.  It can be redeemed at par after payments 15 through 20.  Find the price to yield a minimum of 8%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 10,000 and a coupon rate of 6%. It can be redeemed at par after payments 8 through 10. Find the price to yield a minimum of 7.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1000 and a coupon rate of 8%. It can be redeemed at 1200 after payments 12, 13, or 14, or it can be redeemed at par after payment 15.  Find the price to yield a minimum of 10%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1000 and a coupon rate of 10%.  It can be redeemed for 1200 after payments 15, 16, or 17, it can be redeemed for 1100 after payments 18 and 19, or it can be redeemed at par after payment 20.  Find the price to yield a minimum of 8%.
+			</p>
+		</task>
+	</exercise>
+</exercises>

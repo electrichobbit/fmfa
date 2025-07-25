@@ -1,0 +1,8 @@
+<introduction>
+	<p>
+		In the last chapter, we learned how to calculate present and future values of level-payment annuities.  In this chapter, we will work on common techniques for solving problems with annuities.  While we continue to assume that our payments are constant, the approaches we study in this chapter will work when we relax that assumption. 
+	</p>
+	<p>
+		Note that although some activities from <xref ref="level-payment-annuities"/> (such as solving for different variables) thematically fit better with this chapter, and vice versa (such as continuously payable annuities), the choices were made based on learning and reinforcing core concepts.
+	</p>
+</introduction>

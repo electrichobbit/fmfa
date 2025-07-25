@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext>
+	<docinfo>
+		<macros>
+			\newcommand{\angl}[1]{\require{enclose}\enclose{actuarial}{#1}\,}
+			\newcommand{\angln}[0]{\require{enclose}\enclose{actuarial}{n}\,}
+		</macros>
+		<latex-image-preamble>
+			\usepackage{pgfplots} 
+			\usepackage{tikz}
+			\pgfplotsset{compat=1.13}
+		</latex-image-preamble>
+	</docinfo>
+	<book xml:id="financial-math" xmlns:xi="http://www.w3.org/2001/XInclude">
+		<title>Financial Mathematics for Actuaries with Active Learning</title>
+		<part xml:id="theory-of-interest">
+			<title>The Theory of Interest</title>
+			<chapter xml:id="compound-interest-and-timeline-reasoning">
+				<title>Compound Interest and Timeline Reasoning</title>
+
+				<xi:include href="Chapter1/1.intro.xml"/>
+
+				<xi:include href="Chapter1/1.1.xml"/>
+
+				<xi:include href="Chapter1/1.2.xml"/>
+
+				<xi:include href="Chapter1/1.3.xml"/>
+
+				<xi:include href="Chapter1/1.4.xml"/>
+
+				<xi:include href="Chapter1/1.5.xml"/>
+
+				<xi:include href="Chapter1/1.6.xml"/>
+
+				<xi:include href="Chapter1/1.7.xml"/>
+
+				<xi:include href="Chapter1/1.8.xml"/>
+
+				<xi:include href="Chapter1/1.9.xml"/>
+
+				<xi:include href="Chapter1/1.10.xml"/>
+
+				<xi:include href="Chapter1/1.11.xml"/>
+
+				<xi:include href="Chapter1/1.12.xml"/>
+
+				<xi:include href="Chapter1/1.13.xml"/>
+
+				<xi:include href="Chapter1/1.14.xml"/>
+
+				<xi:include href="Chapter1/1.15.xml"/>
+
+				<xi:include href="Chapter1/1.16.xml"/>
+
+				<xi:include href="Chapter1/1.exercises.xml"/>
+
+				<xi:include href="Chapter1/1.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="other-forms-of-interest-accumulation">
+				<title>Other Forms of Interest Accumulation</title>
+
+				<xi:include href="Chapter2/2.intro.xml"/>
+				
+				<xi:include href="Chapter2/2.1.xml"/>
+
+				<xi:include href="Chapter2/2.2.xml"/>
+
+				<xi:include href="Chapter2/2.3.xml"/>
+
+				<xi:include href="Chapter2/2.4.xml"/>
+
+				<xi:include href="Chapter2/2.5.xml"/>
+
+				<xi:include href="Chapter2/2.6.xml"/>
+
+				<xi:include href="Chapter2/2.7.xml"/>
+
+				<xi:include href="Chapter2/2.8.xml"/>
+
+				<xi:include href="Chapter2/2.9.xml"/>
+
+				<xi:include href="Chapter2/2.10.xml"/>
+
+				<xi:include href="Chapter2/2.11.xml"/>
+
+				<xi:include href="Chapter2/2.12.xml"/>
+
+				<xi:include href="Chapter2/2.13.xml"/>
+
+				<xi:include href="Chapter2/2.14.xml"/>
+
+				<xi:include href="Chapter2/2.15.xml"/>
+
+				<xi:include href="Chapter2/2.exercises.xml"/>
+
+				<xi:include href="Chapter2/2.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="level-payment-annuities">
+				<title>Level Payment Annuities</title>
+
+				<xi:include href="Chapter3/3.intro.xml"/>
+				
+				<xi:include href="Chapter3/3.1.xml"/>
+
+				<xi:include href="Chapter3/3.2.xml"/>
+
+				<xi:include href="Chapter3/3.3.xml"/>
+
+				<xi:include href="Chapter3/3.4.xml"/>
+
+				<xi:include href="Chapter3/3.5.xml"/>
+
+				<xi:include href="Chapter3/3.6.xml"/>
+
+				<xi:include href="Chapter3/3.7.xml"/>
+
+				<xi:include href="Chapter3/3.8.xml"/>
+
+				<xi:include href="Chapter3/3.9.xml"/>
+
+				<xi:include href="Chapter3/3.10.xml"/>
+
+				<xi:include href="Chapter3/3.11.xml"/>
+
+				<xi:include href="Chapter3/3.12.xml"/>
+
+				<xi:include href="Chapter3/3.exercises.xml"/>
+
+				<xi:include href="Chapter3/3.problems.xml"/>
+
+
+			</chapter>
+			<chapter xml:id="problem-solving-with-annuities">
+				<title>Problem Solving with Annuities</title>
+
+				<xi:include href="Chapter4/4.intro.xml"/>
+				
+				<xi:include href="Chapter4/4.1.xml"/>
+
+				<xi:include href="Chapter4/4.2.xml"/>
+
+				<xi:include href="Chapter4/4.3.xml"/>
+
+				<xi:include href="Chapter4/4.4.xml"/>
+
+				<xi:include href="Chapter4/4.5.xml"/>
+
+				<xi:include href="Chapter4/4.6.xml"/>
+
+				<xi:include href="Chapter4/4.7.xml"/>
+
+				<xi:include href="Chapter4/4.8.xml"/>
+
+				<xi:include href="Chapter4/4.9.xml"/>
+
+				<xi:include href="Chapter4/4.10.xml"/>
+
+				<xi:include href="Chapter4/4.11.xml"/>
+
+				<xi:include href="Chapter4/4.exercises.xml"/>
+
+				<xi:include href="Chapter4/4.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="non-level-payment-annuities">
+				<title>Non-Level Payment Annuities</title>
+
+				<xi:include href="Chapter5/5.intro.xml"/>
+				
+				<xi:include href="Chapter5/5.1.xml"/>
+
+				<xi:include href="Chapter5/5.2.xml"/>
+
+				<xi:include href="Chapter5/5.3.xml"/>
+
+				<xi:include href="Chapter5/5.4.xml"/>
+
+				<xi:include href="Chapter5/5.5.xml"/>
+
+				<xi:include href="Chapter5/5.6.xml"/>
+
+				<xi:include href="Chapter5/5.7.xml"/>
+
+				<xi:include href="Chapter5/5.8.xml"/>
+
+				<xi:include href="Chapter5/5.9.xml"/>
+
+				<xi:include href="Chapter5/5.10.xml"/>
+
+				<xi:include href="Chapter5/5.11.xml"/>
+
+				<xi:include href="Chapter5/5.12.xml"/>
+
+				<xi:include href="Chapter5/5.13.xml"/>
+
+				<xi:include href="Chapter5/5.14.xml"/>
+
+				<xi:include href="Chapter5/5.exercises.xml"/>
+
+				<xi:include href="Chapter5/5.problems.xml"/>
+
+			</chapter>
+		</part>
+		<part xml:id="applications-interest-theory">
+			<title>Applications of Interest Theory</title>
+			<chapter xml:id="loan-repayment">
+				<title>Loan Repayment</title>
+
+				<xi:include href="Chapter6/6.intro.xml"/>
+				
+				<xi:include href="Chapter6/6.1.xml"/>
+
+				<xi:include href="Chapter6/6.2.xml"/>
+
+				<xi:include href="Chapter6/6.3.xml"/>
+
+				<xi:include href="Chapter6/6.4.xml"/>
+
+				<xi:include href="Chapter6/6.5.xml"/>
+
+				<xi:include href="Chapter6/6.6.xml"/>
+
+				<xi:include href="Chapter6/6.7.xml"/>
+
+				<xi:include href="Chapter6/6.8.xml"/>
+
+				<xi:include href="Chapter6/6.9.xml"/>
+
+				<xi:include href="Chapter6/6.exercises.xml"/>
+
+				<xi:include href="Chapter6/6.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="bonds">
+				<title>Bonds</title>
+
+				<xi:include href="Chapter7/7.intro.xml"/>
+				
+				<xi:include href="Chapter7/7.1.xml"/>
+
+				<xi:include href="Chapter7/7.2.xml"/>
+
+				<xi:include href="Chapter7/7.3.xml"/>
+
+				<xi:include href="Chapter7/7.4.xml"/>
+
+				<xi:include href="Chapter7/7.5.xml"/>
+
+				<xi:include href="Chapter7/7.6.xml"/>
+
+				<xi:include href="Chapter7/7.7.xml"/>
+
+				<xi:include href="Chapter7/7.exercises.xml"/>
+
+				<xi:include href="Chapter7/7.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="rates-of-return">
+				<title>Rates of Return</title>
+
+				<xi:include href="Chapter8/8.intro.xml"/>
+				
+				<xi:include href="Chapter8/8.1.xml"/>
+
+				<xi:include href="Chapter8/8.2.xml"/>
+
+				<xi:include href="Chapter8/8.3.xml"/>
+
+				<xi:include href="Chapter8/8.4.xml"/>
+
+				<xi:include href="Chapter8/8.5.xml"/>
+
+				<xi:include href="Chapter8/8.6.xml"/>
+
+				<xi:include href="Chapter8/8.7.xml"/>
+
+				<xi:include href="Chapter8/8.exercises.xml"/>
+
+				<xi:include href="Chapter8/8.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="term-structure-interest-rates">
+				<title>The Term Structure of Interest Rates</title>
+
+				<xi:include href="Chapter9/9.intro.xml"/>
+				
+				<xi:include href="Chapter9/9.1.xml"/>
+
+				<xi:include href="Chapter9/9.2.xml"/>
+
+				<xi:include href="Chapter9/9.3.xml"/>
+
+				<xi:include href="Chapter9/9.4.xml"/>
+
+				<xi:include href="Chapter9/9.5.xml"/>
+
+				<xi:include href="Chapter9/9.6.xml"/>
+
+				<xi:include href="Chapter9/9.exercises.xml"/>
+
+				<xi:include href="Chapter9/9.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="interest-rate-swaps">
+				<title>Interest Rate Swaps</title>
+
+				<xi:include href="Chapter10/10.intro.xml"/>
+				
+				<xi:include href="Chapter10/10.1.xml"/>
+
+				<xi:include href="Chapter10/10.2.xml"/>
+
+				<xi:include href="Chapter10/10.3.xml"/>
+
+				<xi:include href="Chapter10/10.4.xml"/>
+
+				<xi:include href="Chapter10/10.5.xml"/>
+
+				<xi:include href="Chapter10/10.6.xml"/>
+
+				<xi:include href="Chapter10/10.7.xml"/>
+
+				<xi:include href="Chapter10/10.exercises.xml"/>
+
+				<xi:include href="Chapter10/10.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="duration-and-convexity">
+				<title>Duration and Convexity</title>
+
+				<xi:include href="Chapter11/11.intro.xml"/>
+				
+				<xi:include href="Chapter11/11.1.xml"/>
+
+				<xi:include href="Chapter11/11.2.xml"/>
+
+				<xi:include href="Chapter11/11.3.xml"/>
+
+				<xi:include href="Chapter11/11.4.xml"/>
+
+				<xi:include href="Chapter11/11.5.xml"/>
+
+				<xi:include href="Chapter11/11.6.xml"/>
+
+				<xi:include href="Chapter11/11.7.xml"/>
+
+				<xi:include href="Chapter11/11.8.xml"/>
+
+				<xi:include href="Chapter11/11.9.xml"/>
+
+				<xi:include href="Chapter11/11.10.xml"/>
+
+				<xi:include href="Chapter11/11.11.xml"/>
+
+				<xi:include href="Chapter11/11.12.xml"/>
+
+				<xi:include href="Chapter11/11.exercises.xml"/>
+
+				<xi:include href="Chapter11/11.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="matching-liabilities-assets">
+				<title>Matching Liabilities and Assets</title>
+
+				<xi:include href="Chapter12/12.intro.xml"/>
+				
+				<xi:include href="Chapter12/12.1.xml"/>
+
+				<xi:include href="Chapter12/12.2.xml"/>
+
+				<xi:include href="Chapter12/12.3.xml"/>
+
+				<xi:include href="Chapter12/12.4.xml"/>
+
+				<xi:include href="Chapter12/12.5.xml"/>
+
+				<xi:include href="Chapter12/12.exercises.xml"/>
+
+				<xi:include href="Chapter12/12.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="determinants-interest-rates">
+				<title>Determinants of Interest Rates</title>
+
+				<xi:include href="Chapter13/13.intro.xml"/>
+				
+				<xi:include href="Chapter13/13.1.xml"/>
+
+				<xi:include href="Chapter13/13.2.xml"/>
+
+				<xi:include href="Chapter13/13.3.xml"/>
+
+				<xi:include href="Chapter13/13.4.xml"/>
+
+				<xi:include href="Chapter13/13.5.xml"/>
+
+				<xi:include href="Chapter13/13.6.xml"/>
+
+				<xi:include href="Chapter13/13.7.xml"/>
+
+				<xi:include href="Chapter13/13.exercises.xml"/>
+
+				<xi:include href="Chapter13/13.problems.xml"/>
+
+			</chapter>
+
+
+
+		</part>
+
+		
+
+		<backmatter xml:id="backmatter" label="backmatter">
+            <title>Reference</title>
+
+            <appendix  xml:id="appendix-exponents-logarithms">
+                <title>Exponential and Logarithmic Functions</title>
+
+                <xi:include href="appendix/appendix.exponential.logarithmic.definitions.xml"/>
+
+                <xi:include href="appendix/appendix.exponential.logarithmic.properties.xml"/>
+
+            </appendix>
+            <appendix xml:id="appendix-differentiation-integration">
+            	<title>Differentiation and Integration Rules</title>
+
+            	<xi:include href="appendix/appendix.differentiation.integration.rules.xml"/>
+
+            	<xi:include href="appendix/appendix.differentiation.integration.specific.functions.xml"/>
+
+            </appendix>
+
+            <xi:include href="references.xml"/>
+
+        </backmatter>
+	</book>
+</pretext>

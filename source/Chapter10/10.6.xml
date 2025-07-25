@@ -1,0 +1,82 @@
+<section xml:id="problem-solving-with-interest-rate-swaps">
+	<title>Problem Solving 12 -- Problem Solving with Interest Rate Swaps</title>
+	<p>
+		The kinds of problems that arise with interest rate swaps often involve varying the kind of data you are given and what you are asked to find.
+	</p>
+	<activity xml:id="finding-other-values-from-swap-rates">
+		<introduction>
+			<p>
+				We have learned how to find an unknown swap rate <m>R</m>.  Problems can turn what is known and unknown around, and provide you with <m>R</m> and ask you to solve for something else.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What is an example of something that you would normally be given to find <m>R</m> that could be turned into something you have to find when you know <m>R</m>?
+			</p>
+		</task>
+		<task>
+			<p>
+				The one-year spot rate is 3.10% and the two-year spot rate is 4.59%.  Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%.  Find the three-year spot rate. 
+			</p>
+		</task>
+	</activity>
+	<p>
+		<em>Note</em>:  You can always unclutter a messy equation by defining new variables and making substitutions.
+	</p>
+	<activity xml:id="calculating-when-given-alternative-data">
+		<introduction>
+			<p>
+				Another way to generate problems is to give you alternate data, rather than exactly what you need.  Then you can use the given data to find what you need, and then calculate the desired value. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				For an interest rate swap, you need to know the spot rates.  What is an example of data that can be given to you in place of spot rates?
+			</p>
+		</task>
+		<task>
+			<p>
+				We have the following information about the term structure:
+				<me>s_0(1) = 5.15\%, \ \ s_0(2) = 6.03\%, \ \ \iota_0(2,3) = 8.57\%</me>
+				Find the swap rate for a 3-year interest rate swap with a constant notional amount. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-forward-rate-from-swap-rate">
+		<statement>
+			<p>
+				An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate <m>r_0(1,2)</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="solving-for-a-leverage-variable">
+		<introduction>
+			<p>
+				Sometimes you have to solve for a leverage variable.  Consider the following former exam problem: 
+			</p>
+			<p>
+				A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045. 
+			</p>
+			<p>
+				What is the swap rate for a two-year interest rate swap?
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What should you find first? In other words, what is the leverage variable?
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="problem-solving-with-interest-rate-swaps-refelction">
+		<statement>
+			<p>
+				What are some ways you can take a standard problem like "Find the swap rate <m>R</m>" and turn it into a less traditional problem?
+			</p>
+		</statement>
+	</activity>
+</section>

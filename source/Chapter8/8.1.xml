@@ -1,0 +1,57 @@
+<section xml:id="book-and-market-values">
+	<title>Book and Market Values</title>
+	<p>
+		The first point about rates of return to note is that since market interest rates fluctuate, the market rate of return on an investment may not match the original rate of return used to price the investment.  When we hold an investment, such as a bond, or if we made a loan (or any other right to collect a cash stream), we amortize the investment on our "books" for both reporting and tax purposes.  The values recorded are based on the original rate used to price the asset, and these are called <term>book values</term> (sometimes denoted <m>B_k</m>).  The <term>market value</term> (sometimes denoted <m>MV_k</m>) is what we could sell those assets for at the market rate of interest, and therefore come from valuing using the market rate of interest. 
+	</p>
+	<p>
+		We saw this with bonds, but it is useful to note that the same principal applies to loans, and any other cash streams.  Later in this book, we will address book and market values of interest rate swaps. 
+	</p>
+	<activity xml:id="finding-book-and-market-value-for-investments">
+		<introduction>
+			<p>
+				Find the book value and the market value for each of the following investments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%.  The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment.  Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual.  Find <m>B_3</m> and <m>MV_3</m>. 
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%.  The loan will be repaid by quarterly level payments over 8 years.  Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%.  Find <m>B_{23}</m> and <m>MV_{23}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1000 with a coupon rate of 12%.  It is to be redeemed for 1300 in 7 years and is priced to yield 8%.  Immediately after the 5th coupon payment, the market yield rate is 10%. Find <m>B_5</m> and <m>MV_5</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%.  The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is <m>\iota^{(12)} = 0.12</m>.  Find <m>B_{10}</m> and <m>MV_{10}</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="book-market-value-example-1">
+		<statement>
+			<p>
+				Jed Bartlett borrowed 100,000 from Leo McGarry.  Jed will pay monthly interest at an effective rate <m>\iota</m> for 20 years, at the end of which he will repay the principal.  After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving.  She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%.  The price she pays is 125,350.84.  Find <m>\iota^{(12)}</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="comparing-book-and-market-value">
+		<statement>
+			<p>
+				If the market rate of interest is lower than the rate used to originally price the investment, which will be larger, <m>B_k</m> or <m>MV_k</m>?  Why?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="book-and-market-values-reflection">
+		<statement>
+			<p>
+				Summarize the similarities and differences between the book and market values of an investment.
+			</p>
+		</statement>
+	</activity>
+</section>

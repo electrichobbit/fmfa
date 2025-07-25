@@ -1,0 +1,115 @@
+<section xml:id="review-increasing-and-decreasing-annuities">
+  <title>Review -- Increasing and Decreasing Annuities</title>
+  <p>
+    For certain types of cash flows, there are shortcuts for calculating Macaulay duration.  These may involve increasing or decreasing annuities.  You might have noticed this in the last activity. 
+  </p>
+  <p>
+    In this activity, we will review increasing and decreasing annuities by reviewing both their series and their formulaic representations.  We will keep our attention on annuities immediate.
+  </p>
+  <activity xml:id="reviewing-formulas-for-increasing-and-decreasing-annuities">
+    <introduction>
+      <p>
+        For each of the following, (i) generate a timeline, (ii) write the series representation, and (iii) the formula.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        <m>a_{\angln}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>a_{\angl{\infty}}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>s_{\angln}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>(Ia)_{\angln}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>(Is)_{\angln}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>(Da)_{\angln}</m>
+      </p>
+    </task>
+    <task>
+      <p>
+        <m>(Ds)_{\angln}</m>
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-formulas-for-increasing-and-decreasing-annuities-1">
+    <statement>
+      <p>
+        Using <m>\iota = 4\%</m>, calculate the following:
+      </p>
+      <me>\frac{(Ia)_{\angl{10}}}{a_{\angl{10}}}</me>
+    </statement>
+  </activity>
+  <activity xml:id="using-formulas-for-increasing-and-decreasing-annuities-2">
+    <statement>
+      <p>
+        Using <m>\iota = 6\%</m>,  calculate the following:
+      </p>
+      <me>\frac{50(Ia)_{\angl{20}} + (20)(1000)v^{20}}{50a_{\angl{20}} + 1000v^{20}}</me>
+    </statement>
+  </activity>
+  <activity xml:id="calculus-of-actuarial-symbols">
+    <introduction>
+      <p>
+        A little later, we will meet something called modified duration.  This will require us to use what I call the "calculus of actuarial symbols" which we will verify now.  For some of these, it will be easier to use the series representation, but not necessarily for all of them!
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Verify that:
+      </p>
+      <me>\frac{d v^n}{d \iota} = - n v^{n+1}</me>
+    </task>
+    <task>
+      <p>
+        Verify that:
+      </p>
+      <me>\frac{d a_{\angln}}{d \iota} = -v \left(Ia\right)_{\angln}</me>
+    </task>
+    <task>
+      <p>
+        Verify that:
+      </p>
+      <me>\frac{d s_{\angln}}{d \iota} = (Ds)_{\angl{n-1}}</me>
+    </task>
+    <task>
+      <p>
+        Verify that:
+      </p>
+      <me>\frac{d a_{\angl{\infty}}}{d \iota} = - a_{\angl{\infty}}^2</me>
+    </task>
+  </activity>
+  <activity xml:id="calculus-of-actuarial-symbols-reflection">
+    <introduction>
+      <p>
+        Look back at the calculus of actuarial symbols.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Which did you use series for?  Which did you use explicit formulas for? Why?
+      </p>
+    </task>
+    <task>
+      <p>
+        Some of our results are negative and some are positive.  From a financial perspective, why do the signs we found make sense?
+      </p>
+    </task>
+  </activity>
+</section>

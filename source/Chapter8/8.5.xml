@@ -1,0 +1,351 @@
+<section xml:id="dollar-weighted-rates-of-return">
+    <title>Dollar-Weighted Rates of Return</title>
+    <p>
+        In the last activity, we measured the compound rate of return (time-weighted rate of return) on a fund that had its own growth (or decay) in addition to deposits and withdrawals.  In this activity we look at the dollar-weighted rate of return.  This is an attempt to approximate the rate of growth or decay (due solely to the investment) using simple interest. 
+    </p>
+    <p>
+        Recall that the future value equation for simple interest is <me>A(t) = A(0)(1+\iota t)</me> In our problems, <m>t</m> will be between 0 and 1. 
+    </p>
+    <p>
+        The <term>dollar-weighted (money weighted) rate of return</term> is the simple interest rate <m>\iota</m> that, given a starting balance and a sequence of deposits and withdrawals, results in the given ending balance.
+    </p>
+    <activity xml:id="computing-dollar-weighted-rate-of-return">
+        <introduction>
+            <p>
+                As in the last activity, we begin with an example:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1,1999
+                        </cell>
+                        <cell right="medium">
+                            100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            July 1, 1999
+                        </cell>
+                        <cell right="medium">
+                            125
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                            10
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            October 1, 1999
+                        </cell>
+                        <cell right="medium">
+                            110
+                        </cell>
+                        <cell right="medium">
+                            20
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31, 1999
+                        </cell>
+                        <cell right="medium">
+                            125
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task>
+            <p>
+                Start with the initial balance.  Write an expression for the value at <m>t=1</m> of the initial balance, using our desired rate <m>\iota</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Consider now the withdrawal of 10 on July 1.  Because we withdrew this amount, it <term>did not</term> earn interest.  Over how much time did the investor miss out on this interest?  Write an expression for the value of the withdrawal that is <term>not</term> part of the final balance.
+            </p>
+        </task>
+        <task>
+            <p>
+                Now consider the deposit of 20 on October 1.  This amount did earn interest.  Over how much time did the investor earn interest on this amount? Write an expression for the value of the deposit that is part of the final balance.
+            </p>
+        </task>
+        <task>
+            <p>
+                The final balance is 125.  Put your answers together to write an equation that would result in the final balance of 125, if only we knew <m>\iota</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                <term>CAREFULLY</term> keep track of your steps as you solve for <m>\iota</m>.  Be pedantic - we want to mimic these steps to write formulas.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="finding-dollar-weighted-rate-of-return">
+        <statement>
+            <p>
+                Try another example: Find the dollar-weighted rate of return for a fund with the following activity:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1
+                        </cell>
+                        <cell right="medium">
+                            350,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            June 1
+                        </cell>
+                        <cell right="medium">
+                            300,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                            25,000
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31
+                        </cell>
+                        <cell right="medium">
+                            360,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <activity xml:id="dollar-weighted-rates-of-return-formula">
+        <introduction>
+            <p>
+                Now let's mimic our steps to derive a formula. 
+            </p>
+            <p>
+                First, let <m>A</m>  be the beginning balance and let <m>B</m> be the ending balance.  Let <m>C_k</m> be the net contribution at time <m>t_k</m>, and define:
+            </p>
+            <me>C = \sum C_k</me>
+        </introduction>
+        <task>
+            <p>
+                The total amount of interest (or growth, or decay) in the account is <m>I</m>.  Express <m>I</m> in terms of <m>A</m>, <m>B</m>, and <m>C</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Letting <m>\iota</m> denote our dollar-weighted yield rate (and recalling that this is an approximation with simple interest!), write an expression for the value of <m>A</m> at time <m>t=1</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                For the contribution <m>C_k</m> at time <m>t_k</m>, for how long does this contribution earn interest at the simple rate <m>\iota</m> (where "earn" is suitably interpreted if <m>C_k &lt; 0</m>)?
+            </p>
+        </task>
+        <task>
+            <p>
+                Use your answers to write an equation that uses <m>A</m>, each <m>C_k</m>, each <m>t_k</m>, and <m>\iota</m> to get the final balance <m>B</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Solve your equation for <m>\iota</m>.  At some point, rewrite in terms of <m>I</m>.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="finding-dollar-weighted-rate-of-return-using-formula">
+        <statement>
+            <p>
+                Let's solve an exercise using the formula.  Find the dollar-weighted rate of return for a fund with the following activity:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1
+                        </cell>
+                        <cell right="medium">
+                            50,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            October 1
+                        </cell>
+                        <cell right="medium">
+                            60,000
+                        </cell>
+                        <cell right="medium">
+                            5,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31
+                        </cell>
+                        <cell right="medium">
+                            72,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <activity xml:id="finding-balance-given-dollar-weighted-rate-of-return">
+        <statement>
+            <p>
+                Let's solve an exercise where we switch what is given and what we are looking for.  
+            </p>
+            <p>
+                For an account with activity as in the following table, the dollar-weighted return is 5.714%.  Find <m>X</m>.
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1
+                        </cell>
+                        <cell right="medium">
+                            X
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            July 1
+                        </cell>
+                        <cell right="medium">
+                            275,000
+                        </cell>
+                        <cell right="medium">
+                            25,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31
+                        </cell>
+                        <cell right="medium">
+                            290,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <activity xml:id="finding-ending-balance-given-dollar-weighted-rate">
+        <statement>
+            <p>
+                A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="dollar-weighted-rates-of-return-reflection">
+        <statement>
+            <p>
+                Does the formula for the dollar-weighted rate of return help, or is it a distraction?
+            </p>
+        </statement>
+    </activity>
+</section>

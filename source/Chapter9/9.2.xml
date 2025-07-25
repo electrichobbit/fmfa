@@ -1,0 +1,247 @@
+<section xml:id="spot-rates-and-coupon-bonds">
+	<title>Spot Rates and Coupon Bonds</title>
+	<p>
+		We can use the spot rates to price coupon bonds, and then figure out the yield rate for the coupon bond at that price.  We can also reverse this relationship, and actually use coupon bond prices or yields to find the spot rates.  
+	</p>
+	<activity xml:id="pricing-coupon-payments-with-spot-rates">
+		<statement>
+			<p>
+				Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate.  This is like "stripping" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond.  Use this approach to solve the following problem: 
+			</p>
+			<p>
+				You are given the following term structure:
+			</p>
+			<me>s_0(1) = 0.15, \ \ \ \ \ \ \ \ \ \ s_0(2) = 0.10, \ \ \ \ \ \ \ \ \ \ s_0(3) = 0.05</me>
+			<p>
+				These are <em>effective annual rates of interest</em> for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid <em>once per year</em> starting one year from now. 
+			</p>
+			<p>
+				Find the price and effective annual yield to maturity of the bond.
+			</p>
+		</statement>
+	</activity>
+	<p>
+		Let's look at a more extended example.
+	</p>
+	<activity xml:id="extended-pricing-coupon-payments-with-spot-rates">
+		<introduction>
+			<p>
+				A 10% bond with face amount 100 matures in 3 years.
+			</p>
+		</introduction>
+		<task xml:id="valuing-the-bond-with-spot-rates">
+			<p>
+				Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each <m>s_0(t)</m> denotes a nominal annual spot rate convertible semiannually for a <m>t</m>-year zero coupon bond.
+			</p>
+			<ol>
+				<li>
+					<p>
+						<m>s_0(0.5) = 0.075, \ \ s_0(1) = 0.0775, \ \ s_0(1.5) = 0.08, \ \ s_0(2) = 0.08, \ \ s_0(2.5) = 0.0825, \ \  s_0(3) = 0.085</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>s_0(0.5) = 0.14, \ \ s_0(1) = 0.1375, \ \ s_0(1.5) = 0.135, \ \ s_0(2) = 01325, \ \ s_0(2.5) = 0.13, \ \  s_0(3) = 0.1275</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>s_0(0.5) = 0.12, \ \ s_0(1) = 0.12, \ \ s_0(1.5) = 0.12, \ \ s_0(2) = 0.12, \ \ s_0(2.5) = 0.12, \ \ s_0(3) = 0.12</m>
+					</p>
+				</li>
+			</ol>
+		</task>
+		<task>
+			<p>
+				For each of the bond prices you found, find the corresponding yield to maturity.
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat <xref ref="valuing-the-bond-with-spot-rates"/> for an 8% bond and for a 12% bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				What do you notice? What do you wonder?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="pricing-with-flat-yield-curve">
+		<statement>
+			<p>
+				Suppose you have a flat yield curve.  If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="bootstrapping-to-find-spot-rates">
+		<introduction>
+			<p>
+				We will now turn to reversing this process: given coupon bond prices, finding the spot rates.  The method we will use is recursive, and called <term>bootstrapping</term>.  
+			</p>
+			<p>
+				You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year. 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Bond
+						</cell>
+						<cell right="medium">
+							Time to Maturity
+						</cell>
+						<cell right="medium">
+							Coupon Rate
+						</cell>
+						<cell right="medium">
+							YTM
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							0.5-year
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							0.05
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							1-year
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							0.10
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							1.5-year
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							0.15
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							2-year
+						</cell>
+						<cell right="medium">
+							8%
+						</cell>
+						<cell right="medium">
+							0.15
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).
+			</p>
+		</introduction>
+		<task>
+			<p>
+				We start with Bond 1, with a maturity date in 0.5 years.  This is essentially a zero-coupon bond (why?).  Use that observation to find <m>s_0(0.5)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Now we have <m>s_0(0.5)</m>.  Find the price of the second bond.  Then set up and solve an equation for <m>s_0(1)</m> using the price.  You can do this by pricing the bond using <m>s_0(0.5)</m> and <m>s_0(1)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Complete the problem and report the results as indicated.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="insufficient-information-for-bootstrapping">
+		<introduction>
+			<p>
+				Sometimes we aren't given enough information to use bootstrapping, as in the following problem. 
+			</p>
+			<p>
+				You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1/2-year. 
+			</p>
+			<ul>
+				<li>
+					<p>
+						Bond 1: Coupon rate 4% per year, price 85.12 
+					</p>
+				</li>
+				<li>
+					<p>
+						Bond 2: Coupon rate 10% per year, price 133.34 
+					</p>
+				</li>
+			</ul>
+			<p>
+				Find the yield rate for a 10-year zero-coupon bond.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Describe the cash flows for each coupon bond. 
+			</p>
+		</task>
+		<task>
+			<p>
+				We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a "synthetic zero-coupon bond" (I like to call this "zeroing out the coupon payments"). Determine what you will buy and what you will sell in order to do this for this problem.
+			</p>
+		</task>
+		<task>
+			<p>
+				Describe the net cash flows for your synthetic zero-coupon bond.  Then use your net cash flows to solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="at-par-yield-rate-for-coupon-bond">
+		<introduction>
+			<p>
+				The <term>at-par yield rate</term> for a coupon bond is the yield rate at which the bond is priced at par.  Equivalently, it is the yield rate that matches the coupon rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Assume that <m>F = C = 1</m> for a bond with <m>n</m> coupons before maturity.  Given spot rates <m>s_0(k)</m> for each <m>k = 1, \ldots, n</m>, find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in <xref ref="interest-rate-swaps"/>!).
+			</p>
+		</task>
+		<task>
+			<p>
+				The current term structure is defined by: 
+			</p>
+			<me>s_0(t) = 0.06 + 0.01t, \ \ t = 0,1,2,3</me>
+			<p>
+				Calculate the at-par yield rate for a two-year bond.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="spot-rates-and-coupon-bonds-reflection">
+		<statement>
+			<p>
+				How much of what we learned in this activity can you reconstruct from definitions and sense-making?
+			</p>
+		</statement>
+	</activity>
+</section>

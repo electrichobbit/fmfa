@@ -1,0 +1,251 @@
+<exercises xml:id="other-forms-of-interest-accumulation-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A deposit of 1000 is invested at simple interest at time <m>t = 0</m>. The rate of simple interest during year <m>t</m> is equal to <m>0.01t</m> for <m>t = 1,2,3,4,</m> and <m>5</m>.  Find the total accumulated value of the investment at time <m>t = 5</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> The monthly simple interest rate is 0.5%. What is the yearly simple interest rate?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> At a particular rate of simple interest, 1200 invested at time <m>t=0</m> will accumulate to 1320 in <m>T</m>  years. Find the accumulated value of 500 invested at the same rate of simple interest and again at <m>t=0</m>, but this time for <m>2T</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> At a certain rate of simple interest, 1000 will accumulate to 1110 after a certain period of time. Find the accumulated value of 500 at a rate of simple interest three-fourths as great over twice as long a period of time.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Joe deposits 10 today and another 30 in five years into a fund paying simple interest of 11% per year. Tina will make the same deposits, but the 10 will be deposited <m>n</m> years from today and the 30 will be deposited <m>2n</m> years from today.  Tina's deposits earn an effective annual rate of 9.15%. At the end of 10 years, the accumulated amount of Tina's deposits equals the accumulated amount of Joe's deposits. Calculate <m>n</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Eric deposit <m>X</m> into a savings account at time 0, which pays interest at a nominal rate of <m>\iota</m>, compounded semiannually.  Mike deposits <m>2X</m> into a different savings account at time 0 ,which pays simple interest at an annual rate of <m>\iota</m>. Eric and Mike earn the same amount of interest during the last 6 months of the 8th year. Calculate <m>\iota</m>. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Latisha wishes to obtain 4,000 to pay for her college tuition now. She qualifies for a loan with a level annual effective discount rate of 3.5%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				How much will she have to repay if the loan term is six years?
+			</p>
+		</task>
+		<task>
+			<p>
+				What is the annual effective interest rate of Latisha's loan?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the effective rate of discount at which a payment of 200 immediately and 300 one year from today will accumulate to 600 two years from today.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Jimmy Page deposits 500 today into an account bearing a discount rate of <m>d^{(2)}</m> convertible semiannually.  Robert Plant deposits 600 one year later into an account bearing an effective annual interest rate of 5%.  Five years from the time Jimmy Page made his deposit, the balances in the two accounts are equal.  Find <m>d^{(2)}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Salt deposits <m>X</m> into an account bearing effective annual interest rate of 3%.  At the same time, Peppa deposits <m>2X</m> into an account with effective annual discount rate of 4.5%.  The balance in Salt's account after <m>2t</m> years is equal to the balance in Peppa's account after <m>t</m> years.  Calculate <m>t</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Bruce and Robbie each open up new bank accounts at time 0. Bruce deposits 100 into his bank account, and Robbie deposits 50 into his. Each account earns an effective annual discount rate of <m>d</m>. The amount of interest earned in Bruce's account during the 11th year is equal to <m>X</m>. The amount of interest earned in Robbie's account during the 17th year is also equal to <m>X</m>. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> You have a choice of depositing your money in account <m>A</m> which has an annual effective interest rate of 5.2%, account <m>B</m> which has an effective monthly interest rate of 0.44%, or account <m>C</m> that has an annual continuously compounded interest rate of <m>r = 0.0516</m>.  Which account should you choose? Which account would give you the lowest accumulation?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> An investor makes a deposit today and earns an average continuous return of 6% over the next five years. What average continuous return must be earned over the subsequent five years in order to double the investment at the end of ten years?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Iron Maiden has an account with an annual continuously compounded interest rate of 12%.  Queensryche has an account with a nominal discount rate convertible quarterly <m>d^{(4)}</m>.  The present value of <m>X</m> at time <m>t = 2</m> in the Iron Maiden account is equal to the present value of <m>X</m> at time <m>t=3</m> in the Queensryche account.  Find <m>d^{(4)}</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				If <m>X</m> is invested in an account with a continuously compounded interest rate of 1.5%, it has a value of 676.50 after <m>t</m> years.  If <m>\frac{X}{3}</m> is invested in an account with a continuously compounded interest rate of 2%, it has a value of 275.43 after <m>2t</m> years.  Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> For the period from time 0 to time 2, the force of interest is defined as follows:
+			</p>
+			<me>
+				\delta_t = \left\{ \begin{array}{cc}
+				0.05 &amp; \hspace{5mm} 0 \leq t \leq 1 \\
+				0.05+0.02(t-1) &amp; \hspace{5mm} 1 &lt; t \leq 2 \\
+				\end{array} \right.
+			</me>
+			<p>
+				10,000 is invested at time 0. Find the accumulated value at time 1 and at time 2.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Given that the force of interest is <m>\delta_t = \frac{t^2}{1+t^3}</m> find the present value at time 0 of 300 to be paid at time <m>t = 4</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> If <m>A(t) = Ka^tb^{t^2}c^{t^3}</m>, find <m>\delta_t</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A customer is offered an investment where interest is calculated according to the following force of interest:
+			</p>
+			<me>
+				\delta_t = \left\{ \begin{array}{cc}
+				0.02t &amp; \hspace{5mm} 0 \leq t \leq 3 \\
+				0.045 &amp; \hspace{5mm} t > 3 \\
+				\end{array} \right.
+			</me>
+			<p>
+				The customer invests 1000 at time <m>t=0</m>. What nominal rate of interest, compounded quarterly, is earned over the first four-year period?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Bruce deposits 100 into a bank account. His account is credited interest at a nominal rate convertible semiannually. At the same time, Peter deposits 100 into a separate account. Peter's account is credited interest at a force of interest of <m>\delta</m>. After 7 years and 3 months, the value of each account is 200. Calculate <m>\iota - \delta</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> At time <m>t=0</m>, 1 is deposited into each of Fund <m>X</m> and Fund <m>Y</m>. Fund <m>X</m> accumulates at a force of interest <m>\delta_t = \frac{t^2}{k}</m>. Fund <m>Y</m> accumulates at a nominal rate of discount of 8% per annum convertible semiannually. At time <m>t=5</m>, the accumulated value of Fund <m>X</m> equals the accumulated value of Fund <m>Y</m>. Determine <m>k</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An investment of 1000 accumulates to 1360.86 at the end of 5 years. If the force of interest is <m>\delta</m> during the first year and <m>1.5\delta</m> in each subsequent year, find the equivalent effective annual interest rate in the first year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Tawny makes a deposit into a bank account which credits interest at a nominal rate of 10% per annum, convertible semiannually. At the same time, Fabio deposits 1000 into a different bank account, which is credited with simple interest. At the end of 5 years, the forces of interest on the two accounts are equal, and Fabio's account has accumulated to <m>Z</m>. Determine <m>Z</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The present value of <m>K</m> payable after 2 years is 960. If the force of interest is cut in half, the present value becomes 1200. What is the present value if the effective annual discount rate is cut in half.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Ernie makes deposits of 100 at time 0, and <m>X</m> at time 3. The fund grows at a force of interest <m>\delta_t = \frac{t^2}{100}</m> (<m>t>0</m>). The amount of interest earned from time 3 to time 6 is <m>X</m>. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Given that the force of interest is <m>\delta_t = \frac{2t}{1+t^2}</m> find the effective rate of discount for the sixth year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the accumulated value of 100 at the end of two years if:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				the nominal annual rate of interest is 6% convertible quarterly,
+			</p>
+		</task>
+		<task>
+			<p>
+				the nominal annual rate of discount is 6% convertible once every four years.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Find the accumulated value of 2480 at the end of twelve years if the nominal interest rate was 2% convertible monthly for the first three years, the nominal rate of discount was 3% convertible semiannually for the next two years, the nominal rate of interest was 4.2% convertible once every two years for the next four years, and the annual effective rate of discount was 0.058 for the last three years.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Jeff deposits 10 into a fund today and 20 fifteen years later. Interest is credited at a nominal discount rate of <m>d</m> compounded quarterly for the first 10 years, and at a nominal interest rate of 6% compounded semiannually thereafter. The accumulated balance in the fund at the end of 30 years is 100. Calculate <m>d</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Find the level effective rate of interest over a three-year period which is equivalent to an effective rate of discount of 8% the first year, 7% the second year, and 6% the third year.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

@@ -1,0 +1,355 @@
+<exercises xml:id="determinants-interest-rates-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Porter makes three-year loans that include inflation protection. The annual interest rate compounded
+				continuously that must be paid is 3.2% plus the rate of inflation. 
+			</p>
+			<p>
+				The U.S. government borrows 100,000 for three years from Porter. The actual annual inflation rate
+				during the first year was 2.4% compounded continuously. The actual annual inflation rates for the
+				second and third years respectively was 2.8% and 4.2% compounded continuously. 
+			</p>
+			<p>
+				The U.S. government is considered a risk free borrower, which means there is no chance of default. 
+			</p>
+			<p>
+				Calculate the amount that the U.S. government will owe Porter at the end of three years.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> David has capital of one million. He plans to lend his money to potential borrowers for a term of two
+				years. David expects to gain 60,000 as interest from this investment. 
+			</p>
+			<p>
+				Jacob, a potential borrower, wants to open a bakery. Unfortunately, he needs a loan of a term of at least
+				five years. Jacob heard of David’s investment plans and proposed a higher interest amount to convince
+				David to lend him money. The increase is high enough that David is willing to lend Jacob some
+				money. 
+			</p>
+			<p>
+				Which of the following theories of why interest rates differ by term best describe the scenario above?
+			</p>
+			<ol marker = "[A.]">
+				<li>
+					<p>
+						Market Segmentation Theory.
+					</p>
+				</li>
+				<li>
+					<p>
+						Yield Curve Theory
+					</p>
+				</li>
+				<li>
+					<p>
+						Liquidity Preference Theory
+					</p>
+				</li>
+				<li>
+					<p>
+						Expectations Theory
+					</p>
+				</li>
+				<li>
+					<p>
+						Something Else (please specify)
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Anderson Bank offers a five-year loan. It is repaid with a single payment of principal and interest at time five. Anderson wants to receive an annual rate of 5% compounded continuously to reflect deferred compensation. For this loan, the percentage of borrowers that will default is 0.7%. From the loans that are defaults, Anderson Bank will be able to recover 30% of the amount owed after five years. 
+			</p>
+			<p>
+				Let <m>\delta</m> be the credit spread calculated as an annual rate compounded continuously that Anderson Bank needs to charge. 
+			</p>
+			<p>
+				Calculate <m>1000\delta</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> Determine which of the following statements on lending interest rates is/are true:
+			</p>
+			<ol marker="[I.]">
+				<li>
+					<p>
+						All else being equal, the rate on a secured loan should be greater than the rate on an unsecured loan.
+					</p>
+				</li>
+				<li>
+					<p>
+						All else being equal, the rate on a loan with guaranteed repayment should be greater than the rate on a loan without guaranteed repayment.
+					</p>
+				</li>
+				<li>
+					<p>
+						All else being equal, the rate on a loan for a borrower with a high credit score should be lower compared to another borrower with a low credit score.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> For a corporate bond, which of the following changes would cause the yield rate of the bond to decrease?
+			</p>
+			<ol marker="[I.]">
+				<li>
+					<p>
+						Decreasing the bond's liquidity.
+					</p>
+				</li>
+				<li>
+					<p>
+						Changing the bond's rating from A to AA.
+					</p>
+				</li>
+				<li>
+					<p>
+						Increasing the seniority of the bond.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Determine which of the following statements is true with respect to the characteristics of U.S. Treasury Bonds.
+			</p>
+			<ol marker="[A.]">
+				<li>
+					<p>
+						When the bond's coupons are indexed to inflation, the security is labeled a "nominal return bond" rather than a "real return bond."
+					</p>
+				</li>
+				<li>
+					<p>
+						"Real return bonds" are more commonly issued than "nominal return bonds."
+					</p>
+				</li>
+				<li>
+					<p>
+						The yields on "nominal return bonds" are considered risk-free because the purchasing power generated is known with certainty, in advance.
+					</p>
+				</li>
+				<li>
+					<p>
+						The U.S. government is able to assume inflation risk because its tax receipts are directly linked to inflation rates.
+					</p>
+				</li>
+				<li>
+					<p>
+						Theoretically, Treasury yields can form an inverted yield curve shape, but this phenomenon has not yet been observed in practice.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The Federal Open Market Committee (FOMC) has decided to decrease the target level of the federal funds rate. 
+			</p>
+			<p>
+				Determine the effect on the reserving and lending activity of U.S. banks.
+			</p>
+			<ol marker="[A.]">
+				<li>
+					<p>
+						It becomes more expensive for banks to run a shortfall in their reserve accounts; thus. banks will be motivated to write fewer loans, and the interest rates charged on these loans will decrease.
+					</p>
+				</li>
+				<li>
+					<p>
+						It becomes more expensive for banks to run a shortfall in their reserve accounts; thus, banks will be motivated to write fewer loans, and the interest rates charged on these loans will increase.
+					</p>
+				</li>
+				<li>
+					<p>
+						It becomes more expensive for banks to run a shortfall in their reserve accounts; thus, banks will be motivated to write more loans, and the interest rates charged on these loans will decrease.
+					</p>
+				</li>
+				<li>
+					<p>
+						It becomes less expensive for banks to run a shortfall in their reserve accounts; thus, banks will be motivated to write more loans, and the interest rates charged on these loans will increase.
+					</p>
+				</li>
+				<li>
+					<p>
+						It becomes less expensive for banks to run a shortfall in their reserve accounts; thus, banks will be motivated to write more loans, and the interest rates charged on these loans will decrease.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> On a given day, the discount rate is 3.65%, the prime rate is 3.55%, the LIBOR is 3.30%, the federal funds rate is 3.25%, and the federal funds target rate is 3.20%. 
+			</p>
+			<p>
+				On the same day, Bank XYZ's reserve balance held at the Federal Reserve is lower than the reserve requirement, and Bank XYZ needs to borrow from those member institutions of the Federal Reserve who have excess funds in their reserve. Let <m>x</m> be the rate at which Bank XYZ borrows these excess funds. 
+			</p>
+			<p>
+				Determine <m>x</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> A U.S. T-Bill has a quoted rate of 8%, matures for 5000 in 90 days, and was purchased for <m>X</m>. 
+			</p>
+			<p>
+				A Canadian T-Bill has a quoted rate of 10%, matures for <m>Y</m> in 180 days, and was purchased for 4800. 
+			</p>
+			<p>
+				Calculate <m>Y - X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> A U.S. T-Bill that matures for 10,000 in 90 days costs 9800. 
+			</p>
+			<p>
+				A Canadian T-Bill that matures for 10,000 in 180 days costs 9600. 
+			</p>
+			<p>
+				Let <m>x</m> and <m>y</m> be the quoted rate of the U.S. T-Bill and Canadian T-Bill respectively. 
+			</p>
+			<p>
+				Calculate <m>1000(y-x)</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-ca"/> A 90 day U.S. T-Bill can be purchased at <m>P</m> with a quoted rate of 2.8%. 
+			</p>
+			<p>
+				A 180-day Canadian T-Bill can be purchased at <m>P - 100</m>. 
+			</p>
+			<p>
+				Both T-Bills mature at 10,000. 
+			</p>
+			<p>
+				Calculate the quoted rate for the Canadian T-Bill.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Jenna decides to purchase a U.S. Treasury Bill for 95,000. The Treasury Bill matures in 180 days for 100,000. 
+			</p>
+			<p>
+				Let <m>QR</m> be the quoted rate on this U.S. Treasury Bill. 
+			</p>
+			<p>
+				Let <m>j</m> be the effective yield on this U.S. Treasury Bill assuming a 365 day year. 
+			</p>
+			<p>
+				Calculate <m>j - QR</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> James has a choice of the following two Treasury Bills:
+			</p>
+			<ul>
+				<li>
+					<p>
+						A Government of Canada Treasury Bill for 98,000.  The Canadian Treasury Bill matures in 120 days for 100,000.
+					</p>
+				</li>
+				<li>
+					<p>
+						A U.S. Treasury Bill for 98,000. The U.S. Treasury Bill matures in 120 days for 100,000.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Which of the following statements is NOT true.
+			</p>
+			<ol marker="[A.]">
+				<li>
+					<p>
+						The quoted rate for the Government of Canada Treasury Bill is 6.2075%.
+					</p>
+				</li>
+				<li>
+					<p>
+						The quoted rate for the Government of Canada Treasury Bill exceeds the quoted rate for the U.S. Treasury Bill.
+					</p>
+				</li>
+				<li>
+					<p>
+						The annual effective yield rate earned by the Government of Canada Treasury Bill is equal to the annual effective yield rate earned by the U.S. Treasury Bill.
+					</p>
+				</li>
+				<li>
+					<p>
+						The annual effective interest rate earned by the Government of Canada Treasury Bill is less than the quoted rate on the Government of Canada Treasury Bill.
+					</p>
+				</li>
+				<li>
+					<p>
+						The annual effective interest rate earned by the U.S. Treasury Bill is greater than the quoted rate on the U.S. Treasury Bill.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Determine which one of the following statements is false.
+			</p>
+			<ol marker="[A.]">
+				<li>
+					<p>
+						Both U.S. Treasury bonds and Government of Canada bonds are issued with terms to maturity of up to 30 years.
+					</p>
+				</li>
+				<li>
+					<p>
+						The yields on both the U.S. Treasury bonds and Government of Canada bonds are virtually risk-free.
+					</p>
+				</li>
+				<li>
+					<p>
+						Bonds are issued at the state/provincial and local levels in both countries with default rates greater than at the national level.
+					</p>
+				</li>
+				<li>
+					<p>
+						For Government of Canada bonds denominated in Canadian dollars, yields are primarily based on the level of economic activity in Canada; for U.S. Treasury bonds denominated in U.S. dollars, yields are primarily based on the level of economic activity in the U.S.
+					</p>
+				</li>
+				<li>
+					<p>
+						For Government of Canada bonds denominated in U.S. dollars, yields should be identical to otherwise equivalent U.S. Treasury bonds because the liquidity risk of the Government of Canada bonds will be the same as the liquidity risk of the U.S. Treasury Bonds.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+</exercises>

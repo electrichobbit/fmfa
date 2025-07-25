@@ -1,0 +1,247 @@
+<section xml:id="implied-forward-rates-and-spot-rates">
+	<title>Implied Forward Rates and Spot Rates</title>
+	<p>
+		Given a yield curve, the spot rates imply forward rates -- otherwise there would be an arbitrage opportunity. Similarly, given a set of forward rates, there is an implied yield curve.  In this activity, we will figure learn how to figure these out. 
+	</p>
+	<p>
+		For ease of notation, we will write <m>s_k</m> in place of <m>s_0(k)</m> in this activity.
+	</p>
+	<activity xml:id="making-an-arbitrage-argument">
+		<introduction>
+			<p>
+				Suppose we know the yield curve <m>s_k</m> for <m>k = 1, \ldots, n</m> and we want to find <m>\iota_0(n-1,n)</m>.  The following approach (whether with or without the timeline) is called "making an arbitrage argument."
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Make an interest rate timeline which shows two paths from 0 to <m>n</m>: one using <m>s_n</m> and another using <m>s_{n-1}</m> and <m>\iota_0(n-1,n)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Assume that an investor can borrow and lend along both paths without transaction costs.  Show that if the two paths you plotted do not result in the same value at time <m>n</m>, arbitrage is possible.  Address both the case where the path using <m>s_{n-1}</m> and <m>\iota_0(n-1)</m>  results in a larger amount and the case where that path results in a smaller amount. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for <m>\iota_0(n-1,n)</m>.  This is called the <term>implied forward rate</term>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="forward-rates-from-yield-curve">
+		<statement>
+			<p>
+				Given the following yield curve, fill in the implied forward rates.
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>k</m>
+						</cell>
+						<cell right="medium">
+							<m>s_k</m>
+						</cell>
+						<cell right="medium">
+							<m>\iota_0(k-1,k)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2.25%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							3.50%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							3.75%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							3.80%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="graphing-forward-rates-against-yield-curves">
+		<statement>
+			<p>
+				Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for <m>k = 1, 2, \ldots, 10</m>:
+			</p>
+			<ol>
+				<li>
+					<me>s_0(k) = 0.09 + 0.001k</me>
+				</li>
+				<li>
+					<me>s_0(k) = 0.09 + 0.002k - 0.0001k^2</me>
+				</li>
+			</ol>
+			<p>
+				For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="constructing-yield-curve-from-forward-rates">
+		<statement>
+			<p>
+				Now we can reverse this - suppose we are given all of the implied forward rates <m>\iota_0(k-1,k)</m> for <m>k = 1,\ldots, n</m> and we would like to construct the yield curve.  Make an interest rate timeline showing two paths from 0 to <m>n</m>: one using the implied forward rates and another using <m>s_n</m>.  Then make an arbitrage argument to derive an equation and solve your equation for <m>s_n</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="plotting-yield-curve-from-forward-rates">
+		<statement>
+			<p>
+				Given the following implied forward rates, construct and plot the yield curve.
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>k</m>
+						</cell>
+						<cell right="medium">
+							<m>\iota_0(k-1,k)</m>
+						</cell>
+						<cell right="medium">
+							<m>s_k</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							8.02%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							9.53%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							9.51%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							9.26%
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="finding-spot-and-deferred-forward-rates">
+		<introduction>
+			<p>
+				Consider the forward interest rates defined by the following equation for <m>k = 0,1,2,3,4</m>:
+			</p>
+			<me>\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2</me>
+		</introduction>
+		<task>
+			<p>
+				Find the 4-year spot rate. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the 2-year deferred 3-year forward rate. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-forward-rates-from-yield-rates">
+		<statement>
+			<p>
+				The term structure of effective annual yield rates for zero coupon bonds is given as follows: 
+			</p>
+			<ul>
+				<li>
+					<p>
+						1- and 2-year maturity: 10%; 
+					</p>
+				</li>
+				<li>
+					<p>
+						3- and 4-year maturity: 12%. 
+					</p>
+				</li>
+			</ul>
+			<p>
+				You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68.  Find the 4-year forward effective annual interest rate (in effect for the 5th year).
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="implied-forward-rates-and-spot-rates-reflection">
+		<statement>
+			<p>
+				Explain how an arbitrage argument works and how it helped us derive equations in this activity.
+			</p>
+		</statement>
+	</activity>
+</section>

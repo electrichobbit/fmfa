@@ -1,0 +1,367 @@
+<exercises xml:id="non-level-payment-annuities-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Find the value of the following annuities at the indicated times.  Assume interest rates are effective with the same period as the payments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity has <m>K_1 = 100, K_2 = 200,</m> and <m>K_3 = 350</m> with <m>\iota = 6.5\%</m>.  Value at time <m>t = 7</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity has <m>K_1 = 50</m>, <m>K_2 = 100</m>, <m>K_3 = 575</m>, and <m>K_4 = 200</m> with <m>\iota = 3\%</m>.  Value at time <m>t=-3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity has <m>K_t = 250</m> for <m>t = 1, \ldots, 5</m>, and <m>K_t = 500</m> with <m>\iota = 2\%</m>. Value at time <m>t=0</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the missing payment as indicated.  Round to the nearest whole number.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				There are four payments in an annuity immediate: <m>K_1 = 375</m>, <m>K_2 = 600</m>, and <m>K_3 = 400</m>.  The effective periodic interest rate is <m>\iota = 4\%</m>, and the present value is 1299.60.  Find <m>K_4</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are five payments in an annuity immediate: <m>K_1 =700</m>, <m>K_2 = 550</m>, <m>K_4 = 600</m>, and <m>K_5 = 900</m>.  The effective periodic interest rate is <m>\iota = 5\%</m>, and the accumulated value is 3430.99.  Find <m>K_3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are ten payments in an annuity immediate: <m>K_t = 25</m> for <m>t = 1,\ldots, 9</m>, and <m>K_{10} = X+25</m>. The effective periodic interest rate is <m>\iota = 3.5\%</m>, and the present value is 916.83.  Find <m>X</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are six payments in an annuity immediate, and <m>K_t = 100</m> for all <m>t</m> EXCEPT for <m>t=3</m>.  The effective periodic interest rate is <m>\iota = 2\%</m>, and the accumulated value is 1294.067.  Find <m>K_3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				There are ten payments in an annuity immediate, and <m>K_t = 175</m> for <m>t = 1,\ldots, 5</m>.  In addition, <m>K_t = K</m> is constant for <m>t = 6, \ldots, 10</m>. The effective periodic interest rate is 5.5%, and the present value is 1564.14. Find <m>K</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the accumulated value of the following annuities-immediate whose payments form a geometric progression.  Unless otherwise indicated, assume interest rates are effective and both interest and growth rates have the same period as the payments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The first payment is 1200, and payments increase by 3%.  There are 15 payments, and <m>\iota = 4\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 11,500 and payments decline by 2%.  There are 10 payments, and <m>\iota = 5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 5000, and payments increase by 3.5%.  There are 12 payments, and <m>\iota = 3.5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 1.5, and payments increase by 6%.  There are 8 payments, and <m>\iota = 2.5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first in a sequence of monthly payments is 1500.  Every year, the payments increase by 3%.  The effective monthly interest rate is 0.75%.  The payments continue for 5 years.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the present value of the following annuities-immediate whose payments form a geometric progression.  Unless otherwise indicated, assume interest rates are effective and both interest and growth rates have the same period as the payments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The first payment is 5000, and the payments increase by 2%. There are 20 payments, and <m>\iota = 3.5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 750, and the payments decrease by 0.5%. There are 30 payments, and <m>\iota = 1\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 2.5, and the payments increase by 1.5%.  There are 12 payments, and <m>\iota = 2\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment is 60,000, and the payment increase by 3%.  There are 15 payments, and <m>\iota = 3\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first in a sequence of monthly payments is 1250. Every year, the payments decrease by 4%, and the effective annual interest rate is 5%.  The payments continue for 12 years.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the value at the indicated time.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The first payment of a 30-year monthly annuity is 8500.  Each payment decreases by 0.5%.  The effective annual interest rate is 9.5%.  Find the value 2 years after the final payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				The first payment of a 5-year, semi-annual annuity is 500.  Each payment increases by 2%.  The effective monthly interest rate is 0.0075.  Find the value 1 year prior to the first payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A share of stock will pay dividends every quarter for five years, starting two years from today.  The first dividend is 5, and each dividend grows by 1.5%.  The nominal interest rate, compounded semiannually, is 8%.  Find the value of the dividends today.
+			</p>
+		</task>
+		<task>
+			<p>
+				The payout on a life insurance plan is 3500 monthly for 20 years, with annual cost-of-living increases of 1.5%.  The effective monthly interest rate is 1%.  Find the value six months after the final payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the theoretical values of the following stocks.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The stock pays an annual dividend of 4.5.  The effective annual interest rate is 2.25%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The stock pays an annual dividend of 7. The effective annual interest rate is 2%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The stock pays a quarterly dividend. The first dividend (three months from now) will be 3.5.  Each dividend will grow by 2%.  The effective annual interest rate is 12%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The stock will pay a quarterly dividend.  The first dividend will be paid 1 year from now, and will be 10.  Each dividend will grow by 3%.  The effective quarterly interest rate is 4%. 
+			</p>
+		</task>
+		<task>
+			<p>
+				The stock will pay a quarterly dividend. The first dividend (three months from now) will be 8.  The dividends will grow annually by 2.5%.  The effective annual interest rate is 12%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the missing value as indicated. Unless otherwise indicated, assume interest rates are effective and both interest and growth rates have the same period as the payments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity-immediate with 12 payments has a present value of 11,849.77.  If the payments grow by 3%, and <m>\iota = 5\%</m>, find the first payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity-immediate has a present value of 135,452.52. The first payment is 9500 and each payment grows by 6%. Find the number of payments if <m>\iota = 9\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A perpetuity-immediate has a present value of 100,000.  The first payment is 500, and each subsequent payment grows by 2%.  Find <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A perpetuity-immediate has a present value of 6,000. The first payment is 150, and grows by a rate of <m>R\%</m>. The effective interest rate is <m>\iota = 4.5\%</m>. Find <m>R</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A five-year annuity-immediate has monthly payments of <m>K</m> which increase annually by 2.5%.  Using an effective annual interest rate of <m>\iota = 4\%</m>, the accumulated value is 83,325.58. Find <m>K</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, create a timeline.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>200(I\ddot{s})_{\angl{15}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>1000(Da)_{\angl{5}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>700(Ia)_{\angl{10}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>500(Ds)_{\angl{15}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>1500(I\ddot{a})_{\angl{20}}</m> 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, (i) create two timelines, one for each term, (ii) combine the two into a single timeline, and (iii) Describe the result of the combination financially. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>55s_{\angl{10}}+5(Is)_{\angl{9}}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>50s_{\angl{10}} + 5(Is)_{\angl{10}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>100a_{\angl{30}} + 15v(Ia)_{\angl{29}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>85a_{\angl{30}} + 15(Ia)_{\angl{30}}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>na_{\angln} - v(Ia_{\angl{n-1}})</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>(n+1)a_{\angln} - (Ia)_{\angln}</m> 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Calculate the following values.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>120(Is)_{\angl{20} 0.02}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>95(Da)_{\angl{120} 0.005}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>102.5(I \ddot{a})_{\angl{50} 0.04}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>50a_{\angl{24} 0.05} + 5(Ia)_{\angl{24} 0.05}</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>105s_{\angl{11} 0.03} - 10(Ds)_{\angl{10} 0.03}</m> 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the value of the following annuities as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity-immediate starts with a payment of 100. Payments decline by 5 until the payment amount reaches 0, and then stop.  The effective periodic interest rate is <m>\iota = 3\%.</m> Find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity-due with 12 payments starts with a payment of 1200.  Payments grow by 100.  The effective periodic interest rate is 2%.  Find the accumulated value.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity-immediate with 10 annual payments starts with a payment three years from now of 15,000.  Payments grow by 1,000 each year.  The effective annual interest rate is <m>\iota = 5\%</m>. Find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A perpetuity-immediate has payments of 25, 50, 75, and so on.  If <m>\iota = 2.5\%</m>, find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity-immediate starts with a monthly payment of 2500, and declines by 100 until the payment reaches 0 and then stops.  The effective monthly interest rate is 0.75%.  Find the accumulated value 6 months after the final nonzero payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the missing value as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity makes quarterly 60 quarterly payments, with the first payment 3 months from now.  The payments grow by 500 each quarter.  Using an effective quarterly interest rate of 2.5%, the present value is 391,795.81.  Find the amount of the first payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity makes monthly payments for 10 years. The first payment is 100, and the payments grow by a constant amount.  Using an effective monthly interest rate of 1%, the accumulated value immediately following the last payment is 78,023.21.  Find the amount by which each payment increases.
+			</p>
+		</task>
+		<task>
+			<p>
+				A perpetuity makes annual payments, starting one year from now.  The first payment is 50, and each subsequent payment grows by 50.  Using an interest rate <m>\iota</m> with <m>\iota > 0</m>, the present value is 3,740.11.  Find the effective annual interest rate.
+			</p>
+		</task>
+	</exercise>
+</exercises>
+

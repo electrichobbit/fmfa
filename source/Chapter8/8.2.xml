@@ -1,0 +1,175 @@
+<section xml:id="yield-rates-and-reinvestment-rates">
+	<title>Yield Rates and Reinvestment Rates</title>
+	<p>
+		The <term>yield rate</term> on an investment is the rate of return (treated mathematically as an interest rate) that relates the present and future values of an investment.  If <m>L</m> is the present value and <m>M</m> is the future value after <m>n</m> periods, the effective periodic yield rate <m>\iota</m> satisfies:
+	</p>
+	<me>L(1+\iota)^n = M</me>
+	<p>
+		If instead of a present value, you have, say, an annuity with level payments <m>K</m>, then the yield rate satisfies:
+	</p>
+	<me>Ks_{\angln \iota} = M</me>
+	<p>
+		In this case, these amounts are <em>actually</em> received by the investor (or contributed by the investor). 
+	</p>
+	<p>
+		In contrast, the <term>internal rate of return</term> is the rate used to <em>value</em> cash streams, whether or not that is actually realized by the investor.  For example, when a loan involves level payments based on an interest rate of <m>\iota</m>, we have
+	</p>
+	<me>L = Ka_{\angln \iota}</me>
+	<p>
+		The interest rate is the internal rate of return. This is the interest rate in the loan agreement, and defines how the payments are valued. 
+	</p>
+	<p>
+		If payments received by an investor are reinvested (in a savings account or a sinking fund, for example), the rate earned on the reinvestment account is, simply enough, the <term>reinvestment rate</term>. 
+	</p>
+	<p>
+		The internal rate of return is defined for the given cash flows (more on that later in this chapter).  The reinvestment rate determines the yield rate.
+	</p>
+	<activity xml:id="reinvestment-rate-example">
+		<introduction>
+			<p>
+				Let's look at this with an example.  Suppose we have a 10-year loan of 10,000.  The borrower is charged an interest rate of 5%.  For each of the following repayment and reinvestment options, find (i) the internal rate of return, (ii) the reinvestment rate, and (iii) the yield rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The loan is paid off with annual level payments.  Payments are reinvested at 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The loan is paid off with annual payments of interest, with the principal paid back with the final interest payment.  Payments are reinvested at 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The loan is paid off with a single payment (accumulated interest plus principal) at the end of the term.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="reinvestment-rate-example-with-different-rate">
+		<statement>
+			<p>
+				Redo each part of <xref ref="reinvestment-rate-example"/>, but assume payments are reinvested at 3%.  
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="analyzing-reinvestment-at-different-rates">
+		<statement>
+			<p>
+				What do you notice? 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-different-investment-rates">
+		<introduction>
+			<p>
+				In the following exercises, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A lender loans a borrower 11,500 at <m>\iota^{(4)} = 6\%</m>.  The borrower will repay the loan with quarterly level payments for 10 years.  Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%. 
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor purchases a bond with face value of 10,000, a coupon rate of 8%.  The bond will be redeemed at par in 6 years and is priced to yield 7%.  Coupon payments will be deposited into a savings account earning <m>\iota^{(2)} = 5\%</m>.
+			</p>
+		</task>
+	</activity>
+	<p>
+		There is another, related way, to value an annuity such as a loan.  If an investor pays <m>P</m> for a series of <m>n</m> level payments of <m>K</m>, they can obtain a yield rate <m>\iota</m> with each payment while <term>recovering principal</term> in a sinking fund with interest rate <m>j</m>. They do so by taking <m>\iota P</m> out of each payment for their own consumption, and depositing the rest in the sinking fund. In this case, <m>\iota</m> is the yield rate and <m>j</m> is the reinvestment rate (while the internal rate of return still equates <m>P</m> with the present values of the payments <m>K</m>).
+	</p>
+	<activity xml:id="valuing-loans-with-sinking-funds">
+		<statement>
+			<p>
+				Suppose a loan has ten annual payments of 1,000 and immediately sold to an investor.  The investor pays a price <m>P</m> which allows him to yield 4% and recover their principal investment in a sinking fund bearing an effective annual interest rate of <m>j = 0.05</m>.  How much should they pay for the loan?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="need-for-formula-for-loans-with-sinking-funds">
+		<statement>
+			<p>
+				Do you need a formula for the price to pay for such an investment?  If you want one, derive one.  If you do not, explain how you will solve problems involving recovery of principal through sinking funds.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="solving-reinvestment-loan-problems">
+		<introduction>
+			<p>
+				For the following problem, we will write all parts of the problem, and leave you the rest of this page and the next to solve each part.
+			</p>
+			<p>
+				Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:
+			</p>
+			<ol>
+				<li xml:id="valuing-reinvested-loan-at-twelve-percent">
+					<p>
+						The present value at <m>\iota = 0.12</m>
+					</p>
+				</li>
+				<li xml:id="guaranteed-rate-of-return-with-sinking-fund">
+					<p>
+						A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%
+					</p>
+				</li>
+				<li xml:id="accumulating-payments-at-six-percent">
+					<p>
+						Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.
+					</p>
+				</li>
+			</ol>
+		</task>
+		<task>
+			<p>
+				Jones calculates his annual rate of return a number of different ways. In <xref ref="accumulating-payments-at-six-percent"/> Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.
+			</p>
+			<ol>
+				<li>
+					<p>
+						In <xref ref="valuing-reinvested-loan-at-twelve-percent"/> above, assume that Jones can reinvest the payments at 6% per year; find Jones' average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.
+					</p>
+				</li>
+				<li>
+					<p>
+						Using the amount invested based on the approach in <xref ref="guaranteed-rate-of-return-with-sinking-fund"/> as the present value of the annuity, find the unknown interest rate (internal rate of return).
+					</p>
+				</li>
+				<li>
+					<p>
+						Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in <xref ref="guaranteed-rate-of-return-with-sinking-fund"/>.
+					</p>
+				</li>
+			</ol>
+		</task>
+	</activity>
+	<activity xml:id="multiple-reinvestment-funds">
+		<introduction>
+			<p>
+				An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the overall yield rate achieved by the investor.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="yield-rates-and-reinvestment-rates-reflection">
+		<statement>
+			<p>
+				Why is the reinvestment rate important?  
+			</p>
+		</statement>
+	</activity>
+</section>

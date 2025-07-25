@@ -1,0 +1,1093 @@
+<exercises xml:id="rates-of-return-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Find the book value and the market value for each of the following investments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%.  The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment.  Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual.  Find <m>B_3</m> and <m>MV_3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%.  The loan will be repaid by quarterly level payments over 8 years.  Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%.  Find <m>B_{23}</m> and <m>MV_{23}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a face value of 1000 with a coupon rate of 12%.  It is to be redeemed for 1300 in 7 years and is priced to yield 8%.  Immediately after the 5th coupon payment, the market yield rate is 10%. Find <m>B_5</m> and <m>MV_5</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%.  The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is <m>\iota^{(12)} = 0.12</m>.  Find <m>B_{10}</m> and <m>MV_{10}</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.  Do not make any assumptions.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A lender loans a borrower 100,000 at an effective monthly interest rate of 1.5% with level payments to be made at the end of each month for 30 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A lender loans a borrower 100,000 at an effective monthly interest rate of 0.0075 with level payments to be made at the end of each month for 30 years.  Payments will be reinvested in a savings account at <m>\iota^{(12)} = 9\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A lender loans a borrower 100,000 at an effective monthly interest rate of 1%.  The borrower will pay interest each month, and pay the principal at the end of 30 years.  Payments will be reinvested in a savings account of <m>\iota^{(12)} = 6\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A lender loans a borrower 45,000 at an effective annual rate of 5%. The borrower will pay the entire loan -- interest and principal -- at the end of five years.
+			</p>
+		</task>
+		<task>
+			<p>
+				A lender loans a borrower 11,500 at <m>\iota^{(4)} = 6\%</m>.  The borrower will repay the loan with quarterly level payments for 10 years.  Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor purchases a bond with face value of 10,000, a coupon rate of 8%.  The bond will be redeemed at par in 6 years and is priced to yield 7%.  Coupon payments will be deposited into a savings account earning <m>\iota^{(2)} = 5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A lender loans a borrower 10,000 to be repaid with 10 annual payments at an effective annual interest rate of 4%.  Each payment will cover the interest due for the year plus a constant payment of principal.  The lender will deposit the payments into a savings account bearing an effective annual interest rate of 6%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following cash flows, find the internal rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor is asked to invest 11,000 and is promised in return a payment of 4000 in one year, 5000 in the second year, and 4500 in the third year.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.
+			</p>
+		</task>
+		<task>
+			<p>
+				\label{item: full} An investor pays 500 up front in exchange for annual payments of 160 for five years, one year after which if the investor pays an additional 600, they will receive three more annual payments of 225 each.  Assume the investor pays the additional 600.
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat Exercise \ref{item: full} assuming the investor chooses not to pay the additional 600.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investment costs 10,000 and pays out 1500 for four years, 1250 for three years, and 1000 for two years.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investment costs 1200 and pays 400 at the end of year 1, 350 at the end of year 3, and 500 at the end of year 4.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The Mines of Moria cost 125,000.  They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years.  The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years.  You want an annual return of 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years.  The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Shire is available for 75,000 and will yield revenues of 20,000 at the end of the first year, 19,000 at the end of the second year, and so on until the end of the sixth year.  Rivendell can also be purchased, but it costs 85,000.  Revenues from Rivendell are expected to be 20,000 annually for four years, followed by two more years of 15,000 in revenue, and one final year of 10,000 in revenue.  You expect a minimal return of 2.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Two Towers are real fixer-uppers. The Tower of Orthanc will cost 225,000.  While the exterior is in good shape, the interior work necessary to bring the tower up to code will cost an additional 75,000 by the end of the first year of the investment.  Starting at the end of year 2, the tower will yield annual revenues of 35,000 over eight years, 25,000 annually over the following two years, and 10,000 annually for two more years.  Barad-Dur, on the other hand, needs to be rebuilt from scratch.  The real estate will only cost 10,000.  However, construction will cost an additional 190,000 spread out evenly over the first two years of the investment.  Once completed, the tower will provide 27,500 annually for ten years.  You would like a return of 4%.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following accounts, find the time-weighted rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							75,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							May 1
+						</cell>
+						<cell right="medium">
+							67,500
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							90,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							200,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							August 1
+						</cell>
+						<cell right="medium">
+							215,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							5000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							205,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1, 2006
+						</cell>
+						<cell right="medium">
+							100,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							February 1, 2006
+						</cell>
+						<cell right="medium">
+							98,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							September 1, 2006
+						</cell>
+						<cell right="medium">
+							100,000
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31, 2006
+						</cell>
+						<cell right="medium">
+							105,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, given the time-weighted rate of return, find <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The time-weighted return is 0.588% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							1,000,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							March 1
+						</cell>
+						<cell right="medium">
+							950,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							900,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The time-weighted return is 20.321% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							17,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							November 1
+						</cell>
+						<cell right="medium">
+							20,000
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							22,500
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The time-weighted return is 13.105% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							250,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							February 1
+						</cell>
+						<cell right="medium">
+							300,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							25,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							June 1
+						</cell>
+						<cell right="medium">
+							240,000
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							270,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The time-weighted return is 14.638% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							105,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+							15,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							September 1
+						</cell>
+						<cell right="medium">
+							130,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							125,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following accounts, find the dollar-weighted (money-weighted) rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							350,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							June 1
+						</cell>
+						<cell right="medium">
+							300,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							25,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							360,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							50,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							October 1
+						</cell>
+						<cell right="medium">
+							60,000
+						</cell>
+						<cell right="medium">
+							5,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							72,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1, 2006
+						</cell>
+						<cell right="medium">
+							100,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							February 1, 2006
+						</cell>
+						<cell right="medium">
+							98,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							September 1, 2006
+						</cell>
+						<cell right="medium">
+							100,000
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31, 2006
+						</cell>
+						<cell right="medium">
+							105,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				At the beginning of the year, an investment fund was established with an initial deposit of 1000.  A new deposit of 1000 was made at the end of 4 months. Withdrawals of 200 and 500 were made at the end of 6 months and 8 months, respectively. The amount in the fund at the end of the year is 1560.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, given the dollar-weighted (money-weighted) rate of return, find <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The dollar-weighted return is 5.714% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							July 1
+						</cell>
+						<cell right="medium">
+							275,000
+						</cell>
+						<cell right="medium">
+							25,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							290,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The dollar-weighted return is 19.58 % and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							95,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							April 1
+						</cell>
+						<cell right="medium">
+							110,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							105,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The dollar-weighted return is 2.542% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							750,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							March 1
+						</cell>
+						<cell right="medium">
+							770,000
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							October 1
+						</cell>
+						<cell right="medium">
+							830,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							20,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							800,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				The dollar-weighted return is 1.109% and the account activity is displayed in the following table:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							<term>Date</term>
+						</cell>
+						<cell right="medium">
+							<term>Balance Before Activity</term>
+						</cell>
+						<cell right="medium">
+							<term>Deposit</term>
+						</cell>
+						<cell right="medium">
+							<term>Withdrawal</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							January 1
+						</cell>
+						<cell right="medium">
+							275,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							April 1
+						</cell>
+						<cell right="medium">
+							250,000
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+							10,000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							September 1
+						</cell>
+						<cell right="medium">
+							260,000
+						</cell>
+						<cell right="medium">
+							12,000
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							December 31
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</exercise>
+</exercises>

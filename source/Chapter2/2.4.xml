@@ -1,0 +1,176 @@
+<section xml:id="discount-vs-interest">
+	<title>Discount vs Interest</title>
+	<p>
+		Since both interest and discount models are exponential, you should not be surprised that given an accumulation function in terms of discount, there is an equivalent function with an interest rate (and vice versa).  In this section, we will work with converting between equivalent discount and interest rates, and how this may impact our problem solving strategies.
+	</p>
+	<activity xml:id="loan-with-discount-and-interest">
+		<statement>
+			<p> 
+				Let's return to Lita Ford's loan inspired by an example in <xref ref="bibliography-broverman"/>.  In that example, we had <m>A(0) = 900, A(1) = 1000</m>, and <m>d = 10\%</m>.  Use <m>A(0)</m> and <m>A(1)</m> to find the equivalent interest rate.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="exploring-discount-and-interest">
+		<introduction>
+			<p>
+				Suppose we have a future value of <m>A(1)= 1</m> at time <m>t= 1</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Write <m>A(0)</m> in terms of the present value factor <m>v</m> for interest.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write <m>A(0)</m> in terms of an effective discount rate <m>d</m>. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write the equation that is implied, relating <m>v</m> and <m>d</m>.  
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="converting-discount-to-interest">
+		<introduction>
+			<p> 
+				Let's find equations to convert between <m>d</m> and <m>\iota</m>. 
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p> 
+					Rewrite you last equation, but substitute <m>v = \frac{1}{1+\iota}</m> for <m>v</m> and solve for <m>\iota</m>.  Simplify your result so that you only have one term.  This equation tells you how to convert from <m>d</m> to <m>\iota</m>.
+				</p>
+			</statement>
+			<solution>
+				<me>
+					(1-d)^t = \frac{1}{(1+\iota)^t}
+				</me>
+				<me>
+					(1-d) = \frac{1}{1+\iota}
+				</me>
+				<me>
+					(1+\iota) = \frac{1}{1-d}
+				</me>
+				<me>
+					\iota = \frac{1}{1-d} - 1
+				</me>
+				<me>
+					\iota = \frac{1}{1-d} - \frac{1-d}{1-d}
+				</me>
+				<me>
+					\iota = \frac{d}{1-d}
+				</me>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p> 
+					Solve your last equation for <m>d</m>.  Simplify your result so that you only have one term.  This equation tells you how to convert from <m>\iota</m> to <m>d</m>.
+				</p>
+			</statement>
+			<solution>
+				<me>
+					\iota (1-d) = d
+				</me>
+				<me>
+					\iota - \iota d = d
+				</me>
+				<me>
+					\iota = d + \iota d
+				</me>
+				<me>
+					\iota = d(1+\iota)
+				</me>
+				<me>
+					d = \frac{\iota}{1+\iota}
+				</me>
+			</solution>
+		</task>
+		<task>
+			<p> 
+				What do you notice about your equations?  How might you characterize them?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="conversion-discount-interest-practice">
+		<introduction>
+			<p> 
+				Practice using these conversion formulas with the following exercises.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				If <m>d = 2\%</m>, find <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				If <m>\iota = 4.5\%</m>, find <m>d</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose the effective monthly discount rate is <m>d = 1.5\%</m>, find <m>\iota^{(12)}</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose the effective semiannual discount rate is <m>d = 4\%</m>.  Find the effective annual interest rate <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose the effective annual interest rate is <m>\iota = 6\%</m>.  Find the effective annual discount rate <m>d</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="discount-interest-word-problem">
+		<introduction>
+			<p> 
+				Suppose Kip Winger deposits 25,000 at time <m>t = 0</m> into an account with an effective discount rate <m>d = 5\%</m>.  At time <m>t = 2</m>, he gets hungry, so he withdraws <m>X</m>.  At time <m>t=5</m>, he gets hungrier, so he withdraws <m>2X</m>.  After the withdrawal at time <m>t=5</m>, the account is depleted.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find <m>X</m> <term>without converting to <m>\iota</m></term>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Convert the discount rate to the equivalent interest rate <m>\iota</m>.  Then resolve the problem using <m>\iota</m> instead of <m>d</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="comparing-discount-interest">
+		<statement>
+			<p> 
+				In the last problem, what were the advantages of using <m>d</m>? What were the advantages of using <m>\iota</m>?  Which do you prefer, and why?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="discount-interest-conversion">
+		<introduction>
+			<p> 
+				To conclude, let's make sense of what our conversion formulas tell us.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose you invest 1 at an effective periodic interest rate <m>\iota</m>.  What is the amount of interest that you earn at the end of the first period?  What is the <term>present value</term> of that amount of interest (using only <m>\iota</m>)?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Now suppose you invest 1 at a discount rate <m>d</m>.  What is the amount of discount you earn at the beginning of the first period? What is the <term>future value</term> of that amount at the end of one period (using only <m>d</m>)?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What do you notice?
+			</p>
+		</task>
+	</activity>
+</section>

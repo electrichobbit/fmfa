@@ -1,0 +1,62 @@
+<section xml:id="exponential-logarithmic-properties">
+	<title>Properties</title>
+	<table>
+		<tabular top="medium">
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Rule
+				</cell>
+				<cell right="medium">
+					Exponential Property
+				</cell>
+				<cell right="medium">
+					Logarithmic Property
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Product Rule
+				</cell>
+				<cell right="medium">
+					<m>b^xb^y = b^{x+y}</m>
+				</cell>
+				<cell right="medium">
+					<m>\log_b(AB) = \log_b(A) + \log_b(B)</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Quotient Rule
+				</cell>
+				<cell right="medium">
+					<m>\frac{b^x}{b^y} = b^{x-y}</m>
+				</cell>
+				<cell right="medium">
+					<m>\log_b\left(\frac{A}{B}\right) = \log_b(A) - \log_b(B)</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Power Rule
+				</cell>
+				<cell right="medium">
+					<m>\left(b^n \right)^m = b^{nm}</m>
+				</cell>
+				<cell right="medium">
+					<m>\log_b\left( A^N \right) = N \log_b(A)</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Inversion
+				</cell>
+				<cell right="medium">
+					<m>b^{\log_b(x)} = x</m>
+				</cell>
+				<cell right="medium">
+					<m>\log_b\left(b^x\right) = x</m>
+				</cell>
+			</row>
+		</tabular>
+	</table>
+</section>

@@ -1,0 +1,87 @@
+<section xml:id="simple-discount">
+	<title>Simple Discount</title>
+	<p>
+		In <xref ref="other-forms-of-interest-accumulation"/>, we skipped simple discount.  It was not necessary until now.  U.S. T-Bills quote their rate as a simple discount rate (as opposed to Canadian T-Bills, which quote simple interest rates). This is sensible since simple interest (and discount) is used over short periods of time, and T-Bills reach maturity in less than one year. 
+	</p>
+	<p>
+		Recall that simple interest is linear.  We have <m>A(t) = A(0)(1+\iota t)</m>.  Similarly, simple discount is linear.  Since discount is backward-looking, we would like to find <m>a(t)</m> so that <m>A(0) = A(t)a(t).</m>
+	</p>
+	<activity xml:id="constructing-simple-interest">
+		<introduction>
+			<p>
+				We begin by "constructing" simple interest.  
+			</p>
+			<p>
+				We'll start with an example.  Suppose Konstantin Avdonin borrows 100 for a 6-month period with an annual simple interest rate of <m>\iota = 9\%</m>.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				By linearity, what is the rate applied over a 6-month period?
+			</p>
+		</task>
+		<task>
+			<p>
+				For simple interest, we multiply the six-month rate by <m>A(0)</m> and add to <m>A(0)</m> to get <m>A(1/2)</m>.  Find this amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				Generalize what you did for Konstantin and derive the simple interest formula for <m>A(t)</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="constructing-simple-discount">
+		<introduction>
+			<p>
+				Now we will construct a formula for simple discount.  Remember that we are looking for <m>A(0)</m> assuming we know <m>A(t)</m> (discount is backward-looking).
+			</p>
+			<p>
+				We will start with another example.  Ming Chen borrows <m>A(0)</m>, and repays 100 after 3 months.  The annual simple discount rate is <m>4\%</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				By linearity, what is the rate applied over a 3-month period?
+			</p>
+		</task>
+		<task>
+			<p>
+				For simple discount, we multiply the 3-month rate by <m>A(1/4)</m>, adding the result to <m>A(0)</m> to get <m>A(1/4)</m>.  Use this idea to write an equation, and solve the equation for <m>A(0)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Generalize what you did for Ming and derive the simple discount formula for <m>A(0)</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-simple-discount-problem-1">
+		<statement>
+			<p>
+				Suppose a loan of 1000 is to be repaid in six months, subject to simple discount.  Find the amount borrowed if the annual simple discount rate is 2.5%.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-simple-discount-problem-2">
+		<statement>
+			<p>
+				Suppose a loan of 1000 is repaid after one quarter, subject to simple discount.  Find the annual simple discount rate if the amount borrowed was 997.50.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-simple-discount-problem-3">
+		<statement>
+			<p>
+				Russel Jackson borrows 462.60 to be repaid in 9 months at an annual simple discount rate of 10%.  How much is paid back at the end of the term?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="simple-discount-reflection">
+		<statement>
+			<p>
+				Summarize the similarities and differences between simple interest and simple discount.
+			</p>
+		</statement>
+	</activity>
+</section>

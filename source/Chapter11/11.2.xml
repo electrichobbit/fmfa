@@ -1,0 +1,160 @@
+<section xml:id="review-weighted-averages">
+	<title>Review -- Weighted Averages</title>
+	<p>
+		Weighted averages are common in finance as well as actuarial science.  Our first version of duration, a measurement of interest rate risk, will be a weighted average.  You will see many more.
+	</p>
+	<activity xml:id="weighted-averages-as-shortcuts">
+		<statement>
+			<p>
+				Cobra Kai Dojos Inc. has issued the following quarterly dividends per share over the past two and a half years: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Quarter
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							6
+						</cell>
+						<cell right="medium">
+							7
+						</cell>
+						<cell right="medium">
+							8
+						</cell>
+						<cell right="medium">
+							9
+						</cell>
+						<cell right="medium">
+							10
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Dividends
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							3.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							3.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find a shortcut to calculate the average quarterly dividend per share.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="defining-weighted-average">
+		<statement>
+			<p>
+				For a set of values <m>t_i</m>, <m>i = 1, \ldots, n</m>, the weighted average of the values with weights <m>\omega_i</m> is:
+				<me>\sum_{i = 1}^n \omega_i t_i</me>
+				where <m>\sum \omega_i = 1</m>. 
+			</p>
+			<p>
+				If you calculate the average quarterly dividend per share of Cobra Kai using a weighted average, what were the weights and what did they represent?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="weighted-gains">
+		<statement>
+			<p>
+				Danny LaRusso has a portfolio with three investments.  The investment values and most recently quarterly gain/loss are:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Investment A: Value is 15,000, quarterly loss of 150
+					</p>
+				</li>
+				<li>
+					<p>
+						Investment B: Value is 22,500, quarterly gain of 275
+					</p>
+				</li>
+				<li>
+					<p>
+						Investment C: Value is 12,500, quarterly gain of 450
+					</p>
+				</li>
+			</ul>
+			<p>
+				Find the average gain/loss, weighted by value relative to the portfolio.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="weighted-average-of-cost-of-capital">
+		<introduction>
+			<p>
+				The <term>cost of capital</term> is the return an investor demands in order to invest.  For equity investors, the equity cost of capital is denoted <m>r_E</m> while for debt, the debt cost of capital (think of as the interest rate demanded) is denoted <m>r_D</m>.  
+			</p>
+			<p>
+				If a firm has equity <m>E</m> and debt <m>D</m>, the total value of the firm is <m>D + E</m> and the <term>weighted average cost of capital</term> is:
+			</p>
+			<me>WACC = \left(\frac{E}{D + E} \right) r_E + \left( \frac{D}{D + E} \right) r_D</me>
+			<p>
+				Note that the value of <m>D+E</m> is the total value of the firm's assets according to the fundamental accounting equation. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Describe the weights in <m>WACC</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Miyagi Do Karate has debt of <m>D = 15000</m> and equity of <m>E = 30000</m>.  They face a debt cost of capital of <m>r_D = 2.25\%</m> and an equity cost of capital of <m>r_E = 6\%</m>.  Find the weighted-average cost of capital.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="weighted-average-reflection">
+		<statement>
+			<p>
+				When will a weighted average have the same value as an ordinary average?
+			</p>
+		</statement>
+	</activity>
+</section>

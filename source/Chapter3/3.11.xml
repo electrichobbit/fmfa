@@ -1,0 +1,79 @@
+<section xml:id="solving-for-other-variables-in-annuities">
+	<title>Solving for Different Variables</title>
+	<p>
+		There are three variables involved in annuities: the payment <m>K</m>, the number of payments <m>n</m>, and the effective periodic interest rate <m>\iota</m>.  Solving for <m>K</m> is quite straight-forward.  We are going to focus on solving for <m>n</m> and <m>\iota</m> in this activity.  We have done this already, but we are going to pause and discuss it systematically.
+	</p>
+	<activity xml:id="solving-for-n-in-annuity">
+		<statement>
+			<p> 
+				Solve <m>1200s_{\angln 0.07} = 57,544.94</m> for <m>n</m> algebraically, reporting both an exact and approximate answer.
+			</p>
+		</statement>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Corner</title>
+		<p> 
+			Recall that we can solve for an unknown value in an annuity in our financial calculator by entering our known data, hitting <kbd>CPT</kbd>, and then the key for the value we want.  Note that it is very important to make sure your payments are negative. 
+		</p>
+	</assemblage>
+	<activity xml:id="solving-for-n-in-annuity-calculator">
+		<statement>
+			<p>
+				Solve <xref ref="solving-for-n-in-annuity"/> using your financial calculator. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="solving-for-time-in-an-annuity">
+		<introduction>
+			<p> 
+				Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit.  He repays the loans with payments of 1350 at the end of each month.  
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the amount of time (in months) it will take for Vader to pay the loan off.  Try this both algebraically and with your financial calculator. The answer will not be a whole number.
+			</p>
+		</task>
+		<task>
+			<p> 
+				When a loan arrangement is such that the payoff time is not a whole number, there are two options.  The first option is a <term>balloon payment</term>.  Under this option, an amount is added to the last regular payment in order to pay off the loan.  This means that the last payment will be larger than all of the other payments.  If Vader made a balloon payment at the end of the loan, how much would it be for?
+			</p>
+		</task>
+		<task>
+			<p> 
+				The second option is a <term>drop payment</term> - a final payment one period after the last regular payment.  A drop payment is smaller than the regular payment.  Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment.  If Vader made a drop payment, how much would it be for?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="challenges-with-solving-algebraically">
+		<introduction>
+			<p> 
+				Consider thie problem: Solve <m>650a_{\angl{60} \iota} = 13,414.714</m> for <m>\iota</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Try to solve this algebraically.  What goes wrong? <emph>Hint: An area of mathematics called Galois Theory includes a proof that there is no formula for solving a generic polynomial equation of degree 5 or higher.</emph>
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve this problem using the financial calculator.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-interest-rate-in-annuities">
+		<statement>
+			<p> 
+				Suppose the Mandalorian borrowed 73,947.71 to purchase a home for himself and Baby Yoda.  The loan is paid off with payments of 595 at the end of each month for 30 years.  What is the effective monthly interest rate <m>\iota</m>? What is the nominal interest rate <m>\iota^{(12)}</m> convertible monthly?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-calculator-for-annuities-reflection">
+		<statement>
+			<p> 
+				What are the advantages of using the financial calculator to solve for other variables in an annuity?  What are the advantages of solving algebraically?
+			</p>
+		</statement>
+	</activity>
+</section>

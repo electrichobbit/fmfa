@@ -1,0 +1,141 @@
+<section xml:id="redington-immunization">
+	<title>Redington Immunization</title>
+	<p>
+		When the payoff of our investments match our liabilities in both amount and in time, we do not face interest rate risk.  However, it is not always possible to perform exact matching.  When exact matching is not possible, we identify investments whose payoffs have the same present value as our liabilities, and this may involve interest rate risk.  Selecting our assets in a way to minimize or eliminate interest rate risk is called <term>immunization</term>. 
+	</p>
+	<p>
+		The present values of both the liabilities and the assets funding the liabilities are functions of the effective interest rate <m>\iota</m>.  For assets, denote this function by <m>PV_A(\iota)</m>, and for liabilities denote the function by <m>PV_L(\iota)</m>. To derive immunization conditions, we are going to define an intermediate function <m>h</m>:
+	</p>
+	<me>h(\iota) = PV_A(\iota) - PV_L(\iota)</me>
+	<p>
+		The interest rate in effect at time 0 is denoted <m>\iota_0</m>.
+	</p>
+	<activity xml:id="example-of-immunization">
+		<introduction>
+			<p>
+				Let's start with an example.  The Lucia Seaside Motel has a liability of 2000 due at the end of year 4.  They intend to fund this liability with a zero-coupon bond with face value of 604.68 payable at the end of year 2 and a zero-coupon bond with face value 1400 payable at the end of year 5 (the face value amounts have some round-off error).   The interest rate at this time is <m>\iota_0 = 5\%</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Show that <m>h(\iota_0) = 0</m> (up to round-off error).  This is called <term>present value matching</term> and ensures that the assets can fund the liability.
+			</p>
+		</task>
+		<task>
+			<p>
+				Show <m>\iota_0</m> is a local minimum for <m>h</m> (up to round-off error).  Collectively, this involves what are called <term>duration matching</term> and the <term>convexity condition</term>, and manages the interest rate risk.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="conditions-for-redington-immunization">
+		<introduction>
+			<p>
+				The example in the first problem illustrates <term>Redington immunization</term>.  Redington immunization ensures that the assets can fund the liabilities through present value matching. Through duration matching and the convexity condition, Redington immunization also ensures that small changes in the interest rate away from <m>\iota_0</m> do not interfere with the ability to fund the liabilities with the assets.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Recall that <m>h(\iota) = PV_A(\iota) - PV_L(\iota)</m> and that the interest rate at time 0 is <m>\iota_0</m>.  What two conditions must be true about the function <m>h</m> at and near <m>\iota_0</m> for Redington immunization?
+			</p>
+		</task>
+		<task>
+			<p>
+				Write your answer to the previous part in terms of <m>h(\iota_0)</m>, <m>h'(\iota_0)</m>, and <m>h"(\iota_0)</m>.  Label each as present value matching, duration matching, and the convexity condition respectively.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formulas-for-redington-immunization-conditions">
+		<introduction>
+			<p>
+				Let's make this more concrete.  Given assets providing <m>A_t</m> at time <m>t</m> and liabilities of amount <m>L_t</m> at time <m>t</m>:
+			</p>
+			<me>
+				PV_A(\iota)  =  \sum A_t v^t 
+			</me>
+			<me>
+				PV_L(\iota)   =  \sum L_t v^t 
+			</me>
+			<p>
+				Rewrite each of the following in terms of <m>A_t</m> and <m>L_t</m>:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The present value matching condition.
+			</p>
+		</task>
+		<task>
+			<p>
+				The duration matching condition.
+			</p>
+		</task>
+		<task>
+			<p>
+				The convexity condition.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="traditional-description-of-redington-immunization">
+		<statement>
+			<p>
+				Show that the present value matching condition, duration matching condition, and convexity condition can be rewritten respectively as:
+			</p>
+			<me>
+				\sum A_t v^t  =  \sum L_t v^t 
+			</me>
+			<me>
+				\sum t A_tv^t  =  \sum t L_t v^t 
+			</me>
+			<me>
+				\sum t^2 A_t v^t  >  \sum t^2 L_t v^t 
+			</me>
+			<p>
+				This is the traditional way to describe Redington immunization.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="redington-immunization-problem-1">
+		<introduction>
+			<p>
+				A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10.  To immunize these liabilities at <m>\iota_0 = 8\%</m>, the firm purchases a zero coupon bond of amount <m>A_1</m> maturing at time <m>t_1</m> and a second zero-coupon bond of amount <m>A_2</m> maturing at time <m>t_2</m>. 
+			</p>
+			<p>
+				Given <m>t_1</m> and <m>t_2</m> below, find <m>A_1</m> and <m>A_2</m>. If immunization is not possible, say so and justify.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>t_1 = 4</m> and <m>t_2 = 8</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>t_1 = 3</m> and <m>t_2 = 12</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="redington-immunization-problem-2">
+		<introduction>
+			<p>
+				Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now.  Asset cashflow consists of <m>A_1</m> in 1 year and <m>A_5</m> in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find <m>A_1</m> and <m>A_5</m>. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Determine whether or not the conditions of Redington immunization are satisfied. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="redington-immunization-reflection">
+		<statement>
+			<p>
+				Why is the condition on <m>h'(\iota_0)</m> called duration matching?  Why is the condition on <m>h"(\iota_0)</m> called the convexity condition?
+			</p>
+		</statement>
+	</activity>
+</section>

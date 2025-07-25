@@ -1,0 +1,62 @@
+<section xml:id="introduction-non-level-payment-annuities">
+	<title>Introduction to Non-Level Payment Annuities</title>
+	<p>
+		Before we look at our examples of payments in geometric or arithmetic progression, we are going to look at the general case to get a feel for it.  If we have an annuity-immediate with a total of <m>n</m> payments, and the payment at time <m>t</m> is <m>K_t</m>, with an appropriate effective interest rate <m>\iota</m>, then the present value is:
+	</p>
+	<me>PV = \sum_{t=1}^n K_tv^t</me>
+	<p>
+		The accumulated value is:
+	</p>
+	<me>AV = \sum_{t=1}^n K_t(1+\iota)^{n-t}</me>
+	<p>
+		There is little we can do in general in this case, outside of calculating the sums. 
+	</p>
+	<p>
+		Let's work with this a little using some exercises.
+	</p>
+	<activity xml:id="summing-irregular-payments-1">
+		<statement>
+			<p> 
+				An annuity has <m>K_1 = 100, K_2 = 200,</m> and <m>K_3 = 350</m> with <m>\iota = 6.5\%</m>.  Find the value at time <m>t = 7</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="summing-irregular-payments-2">
+		<statement>
+			<p> 
+				An annuity has <m>K_1 = 50</m>, <m>K_2 = 100</m>, <m>K_3 = 575</m>, and <m>K_4 = 200</m> with <m>\iota = 3\%</m>.  Find the value at time <m>t=-3</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="summing-irregular-payments-3">
+		<statement>
+			<p> 
+				There are five payments in an annuity immediate: <m>K_1 =700</m>, <m>K_2 = 550</m>, <m>K_4 = 600</m>, and <m>K_5 = 900</m>.  The effective periodic interest rate is <m>\iota = 5\%</m>, and the accumulated value is 3430.99.  Find <m>K_3</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="coupon-payments">
+		<introduction>
+			<p> 
+				A <term>bond</term> includes a level-payment annuity-immediate (the payments are called <term>coupon payments</term>) with an additional payment (called the <term>redemption amount</term>) added to the final payment of the annuity.  For now, we will assume the payments are annual (usually they are semiannual), and therefore the number of payments is also the <term>term</term>.   The price is the present value of everything in sight.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				A bond includes 10 annual coupon payments of 25 and its price, at an effective annual interest rate of <m>\iota = 3\%</m>, is 957.35.  Find the redemption amount.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A bond has annual coupon payments of 60, a redemption amount of 1200. At an effective annual interest rate of <m>\iota = 4.5\%</m>, the bond is priced at 1,278.05.  Find the term.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="non-level-payment-reflection">
+		<statement>
+			<p> 
+				What challenges are associated with annuities whose payments are non-level?
+			</p>
+		</statement>
+	</activity>
+</section>

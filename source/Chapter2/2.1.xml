@@ -1,0 +1,196 @@
+<section xml:id="linear-exponential-functions">
+  <title>Review -- Linear and Exponential Functions</title>
+  <p>
+    Simple interest is linear while compound interest is exponential.  For this reason, we will begin this chapter with a review of linear and exponential functions.  In addition to helping us compare and contrast simple and compound interest, a deeper dive into exponential functions will help us understand what we learned in <xref ref="compound-interest-and-timeline-reasoning"/> and what we are going to learn in this chapter. 
+  </p>
+  <p>
+    The key difference between linear and exponential functions is how they change.
+  </p>
+  <activity xml:id="linear-rates-of-change">
+    <introduction>
+      <p> 
+        Characterize linear functions by describing their rates of change. 
+      </p>
+      <p> 
+        Examine timelines for two accumulation functions below.  Both are account balances for $1000 invested at 5% annually.  
+      </p>
+      <figure xml:id="linear-growth-accumulation">
+        <caption>Accumulation function for $1000 invested at 5% annually: Account A.</caption>
+        <image width="100%">
+          <latex-image>
+
+            \begin{tikzpicture}
+            \draw[line width=1pt] (0,0) -- (15,0);
+            \foreach \x/\y in {0/0}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1000};
+            }
+            \foreach \x/\y in {3/1}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1050};
+            }
+            \foreach \x/\y in {6/2}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1100};
+            }
+            \foreach \x/\y in {9/3}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1150};
+            }
+            \foreach \x/\y in {12/4}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1200};
+            }
+            \foreach \x/\y in {15/5}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm);
+            }
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+      </figure>
+
+      <figure xml:id="exponential-growth-accumulation">
+        <caption>Accumulation function for $1000 invested at 5% annually: Account B.</caption>
+        <image width="100%">
+          <latex-image>
+
+            \begin{tikzpicture}
+            \draw[line width=1pt] (0,0) -- (15,0);
+            \foreach \x/\y in {0/0}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1000};
+            }
+            \foreach \x/\y in {3/1}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1050};
+            }
+            \foreach \x/\y in {6/2}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1102.50};
+            }
+            \foreach \x/\y in {9/3}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1157.625};
+            }
+            \foreach \x/\y in {12/4}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{1215.50625};
+            }
+            \foreach \x/\y in {15/5}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm);
+            }
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+      </figure>
+    </introduction>
+    <task>
+      <p> 
+        Which is a linear accumulation function (simple interest)? How do you know?
+      </p>
+    </task>
+    <task>
+      <p> 
+        How would you <em>recursively</em> generate the data for the linear accumulation function?  In other words, given the previous balance, how would you find the next balance?  Do this to obtain the balance at time <m>t = 5</m>. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        Which is an exponential accumulation function (compound interest)? How do you know?
+      </p>
+    </task>
+    <task>
+      <p> 
+        How would you <em>recursively</em> generate the data for the exponential accumulation function? In other words, given the previous balance, how would you find the next balance?  Do this to obtain the balance at time <m>t = 5</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="simple-vs-compound-interest">
+    <introduction>
+      <p> 
+        Suppose 12500 is invested at an annual interest rate of 3%.  
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        If interest accumulates linearly (simple interest), <m>A(t) = 12500(1+0.03t)</m>.  Simplify <m>A(t+1) - A(t)</m> and <m>A(t+1)/A(t)</m> for any <m>t</m>. What do you notice?
+      </p>
+    </task>
+    <task>
+      <p> 
+        If interest accumulates exponentially (compound interest), <m>A(t) = 12500(1.03)^t</m>.  Simplify <m>A(t+1)-A(t)</m> and <m>A(t+1)/A(t)</m> for any <m>t</m>.  What do you notice?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="linear-exponential-calculations">
+    <introduction>
+      <p> 
+        The distinction between a linear and exponential accumulation function will have consequences for how we perform calculations with simple interest.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Suppose we have compound interest with an effective rate <m>\iota</m>.  Then <m>a(t) = (1+\iota)^t</m>.  Show that <m>a(t_1+t_2) = a(t_1)a(t_2)</m>.  We used this to justify the "composition" of push-forwards/pull-backs in <xref ref="compound-interest-and-timeline-reasoning"/>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose we have simple interest with an interest rate <m>\iota</m>.  Then <m>a(t) = 1+\iota t</m>.  Can we say that <m>a(t_1+t_2) = a(t_1)a(t_2)</m>?  Can we say <m>a(t_1 + t_2) = a(t_1)+a(t_2)</m>?  What do you conclude?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="closer-look-at-exponential-functions">
+    <introduction>
+      <p> 
+        Let's look a little closer at exponential functions.  We characterize linear functions in terms of a constant rate of change.  More accurately, this is a constant <term>absolute</term> rate of change.  The <term>absolute</term> change measures how much a quantity (such as an account balance in an account) changes in absolute figures.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        The <term>percentage</term> change <m>r</m> (also called the <term>relative</term> change) between a new quantity and an old quantity is:
+      </p>
+      <me>r = \frac{\mathrm{new}-\mathrm{old}}{\mathrm{old}}</me>
+      <p>
+        This is measuring the absolute change relative to the starting amount. 
+      </p>
+      <p>
+        Suppose we have an exponential function <m>a(t) = ab^t</m>.  Find the percentage change <m>r</m> between <m>a(t)</m> and <m>a(t+1)</m>. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        What do you notice?  What is the relationship between the base <m>b</m> and the percentage change rate <m>r</m>?  Write this relationship in the form <m>b = f(r)</m> for some function <m>f</m>.  What does this tell you about characterizing exponential functions? 
+      </p>
+    </task>
+    <task>
+      <p> 
+        What does this tell us about compound interest?
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose you have exponential decay, and the percentage change rate is <m>d</m>, where <m>d</m> is quoted as a positive number.  Find a formula for the base <m>b</m> in terms of <m>d</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="exponential-with-different-bases">
+    <introduction>
+      <p> 
+        One other valuable fact about exponential functions is that we can describe the same function with different bases.  These functions are equivalent (exactly in the same way as equivalent interest rates!).  The following exercises illustrate how this works:
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Suppose <m>(1.05)^t = e^{rt}</m>.  Solve for <m>r</m> (which tells you how to convert from a base of 1.05 to a base of e).
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose <m>(1.025)^t = (0.97561)^{rt}</m>. Solve for <m>r</m> (which tells you how to convert between these bases).
+      </p>
+    </task>
+    <task>
+      <p> 
+        Suppose <m>(1.03)^t = (1-d)^{-t}</m>.  Solve for <m>d</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="linear-exponential-reflection">
+    <statement>
+      <p> 
+        Based on this activity, I claim that all we need to know from <xref ref="compound-interest-and-timeline-reasoning"/> is that compound interest is exponential and a few definitions.  Do you agree?  If yes, explain.  If not, what else do you think we need to know from <xref ref="compound-interest-and-timeline-reasoning"/>?
+      </p>
+    </statement>
+  </activity>
+</section>
+

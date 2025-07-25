@@ -1,0 +1,746 @@
+<exercises xml:id="term-structure-interest-rates-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				A zero coupon bond is currently selling for 80.496 per 100 of face value.  The corresponding annual effective yield rate is 7.5%.  When does the bond mature?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Which of the following statements about zero-coupon bonds are true?
+			</p>
+			<ol marker="i.">
+				<li>
+					<p>
+						Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.
+					</p>
+				</li>
+				<li>
+					<p>
+						The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.
+					</p>
+				</li>
+				<li>
+					<p>
+						The interest rates on the risk-free yield curve are called forward rates.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively.  The only investments available to the company are the following two zero-coupon bonds:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity (Years)
+						</cell>
+						<cell right="medium">
+							Effective Annual Yield
+						</cell>
+						<cell right="medium">
+							Par
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							10%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							12%
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called <term>exact matching</term>, a form of <term>immunization</term>).  
+			</p>
+			<p>
+				Determine the cost for the investments today.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> A yield curve is defined by the equation:
+				<m></m>s_0(k) = 0.09 + 002k - 0.0005k^2, \ \ 0 \leq k \leq 4<m></m>
+				\begin{enumerate}
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Describe the shape of the yield curve for <m>0 \leq k \leq 2</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Describe the shape of the yield curve for <m>2 \leq k \leq 4</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are <m>s_0(1) = 4.5\%</m>, <m>s_0(2) = s_0(3) = 5.5\%</m>, and <m>s_0(4) = 6\%</m>. Calculate the value of the bond and its yield if it is sold at a price equal to its value.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> You are given the following term structure:
+			</p>
+			<me>
+				s_0(1) = 0.15, \ \ \ \ \ \ \ \ \ \ s_0(2) = 0.10, \ \ \ \ \ \ \ \ \ \ s_0(3) = 0.05
+			</me>
+			<p>
+				These are <em>effective annual rates of interest</em> for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid <em>once per year</em> starting one year from now. 
+			</p>
+			<p>
+				Find the price and effective annual yield to maturity of the bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-broverman"/> A 10% bond with face amount 100 matures in 3 years.
+			</p>
+		</introduction>
+		<task xml:id="problem-bond-spot-rates">
+			<introduction>
+				<p>
+					Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each <m>s_0(t)</m> denotes a nominal annual spot rate convertible semiannually for a <m>t</m>-year zero coupon bond.
+				</p>
+			</introduction>
+			<task>
+				<p>
+					<m>s_0(0.5) = 0.075, \ \ s_0(1) = 0.0775, \ \ s_0(1.5) = 0.08, \ \ s_0(2) = 0.08, \ \ s_0(2.5) = 0.0825, \\ s_0(3) = 0.085</m>
+				</p>
+			</task>
+			<task>
+				<p>
+					<m>s_0(0.5) = 0.14, \ \ s_0(1) = 0.1375, \ \ s_0(1.5) = 0.135, \ \ s_0(2) = 01325, \ \ s_0(2.5) = 0.13, \\ s_0(3) = 0.1275</m>
+				</p>
+			</task>
+			<task>
+				<p>
+					<m>s_0(0.5) = 0.12, \ \ s_0(1) = 0.12, \ \ s_0(1.5) = 0.12, \ \ s_0(2) = 0.12, \ \ s_0(2.5) = 0.12, \ \ s_0(3) = 0.12</m>
+				</p>
+			</task>
+		</task>
+		<task>
+			<p>
+				For each of the bond prices you found, find the corresponding yield to maturity.
+			</p>
+		</task>
+		<task>
+			<p>
+				Repeat <xref ref="problem-bond-spot-rates"/> for an 8% bond and for a 12% bond.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1/2-year. 
+			</p>
+			<p>
+				Bond 1: Coupon rate 4% per year, price 85.12 \\
+				Bond 2: Coupon rate 10% per year, price 133.34 
+			</p>
+			<p>
+				Find the yield rate for a 10-year zero-coupon bond.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year. 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Bond
+						</cell>
+						<cell right="medium">
+							Time to Maturity
+						</cell>
+						<cell right="medium">
+							Coupon Rate
+						</cell>
+						<cell right="medium">
+							YTM
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							0.5-year
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							0.05
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							1-year
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+						<cell right="medium">
+							0.10
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							1.5-year
+						</cell>
+						<cell right="medium">
+							4%
+						</cell>
+						<cell right="medium">
+							0.15
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							2-year
+						</cell>
+						<cell right="medium">
+							8%
+						</cell>
+						<cell right="medium">
+							0.15
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> The current term structure is defined by: 
+				<m></m>s_0(t) = 0.06 + 0.01t, \ \ t = 0,1,2,3<m></m>
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Calculate the at-par yield rate for a two-year bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the at-par yield rate for a three-year bond.
+			</p>
+		</task>
+		<task>
+			<introduction>
+				<p>
+					You are given a 1000, three-year bond with annual 6% coupons. 
+				</p>
+			</introduction>
+			<task>
+				<p>
+					Determine whether it is a premium or discount bond using the at-par yield rate.
+				</p>
+			</task>
+			<task>
+				<p>
+					Calculate the amount of premium or discount.
+				</p>
+			</task>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				4-year spot rate
+			</p>
+		</task>
+		<task>
+			<p>
+				5-year spot rate
+			</p>
+		</task>
+		<task>
+			<p>
+				Price of a 6-year bond.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The current term structure is as follows: <m>s_0(1) = 6\%</m>, <m>s_0(2) = 8\%</m>, and <m>s_0(3) = X\%</m>. A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value.  We have the following forward rates: <m>\iota_0(0,0.5) = 5\%</m>, <m>\iota_0(0.5,1) = 6\%</m>, and \\ <m>\iota_0(1,1.5) = \iota_0(1.5,2) = X \%</m>.  Find <m>X</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for <m>k = 1, 2, \ldots, 10</m>:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						<m>s_0(k) = 0.09 + 0.001k</m>;
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>s_0(k) = 0.09 + 0.002k - 0.0001k^2</m>.
+					</p>
+				</li>
+			</ol>
+			<p>
+				For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						1-year: 0.08
+					</p>
+				</li>
+				<li>
+					<p>
+						2-year: 0.10
+					</p>
+				</li>
+				<li>
+					<p>
+						3-year: 0.11
+					</p>
+				</li>
+			</ol>
+			<p>
+				Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> The term structure of effective annual yield rates for zero coupon bonds is given as follows: 
+			</p>
+			<p>
+				1- and 2-year maturity: 10%;
+			</p>
+			<p>
+				3- and 4-year maturity: 12%. 
+			</p>
+			<p>
+				You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68.  Find the 4-year forward effective annual interest rate (in effect for the 5th year).
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				<xref ref="bibliography-kellison"/> Consider the forward interest rates defined by the following equation for \\ <m>k = 0,1,2,3,4</m>:
+				<m></m>\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2<m></m>
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the 4-year spot rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the 2-year deferred 3-year forward rate.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The term structure is defined by <m>s_0(t) = 0.05 + 0.005t</m> for <m>t = 1, 2, 3, 4.</m>  A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity.  Let <m>\iota</m> be the one-year forward rate for year two implied by the current yields of these bonds.  Calculate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> Consider a yield curve defined by the following equation for <m>k = 1, 2, 3, 4, 5</m>:
+			</p>
+			<me>
+				s_0(k) = 0.09 + 0.002k - 0.001k^2
+			</me>
+			<p>
+				Let <m>\j</m> be the one-year effective rate during year 5 that is implied by this yield curve. Calculate <m>\j</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> You are given the following yield curve: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term (Years)
+						</cell>
+						<cell right="medium">
+							<m>s_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							5.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							6.50%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Consider the following table of 4% par-value bonds having annual coupons. 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term (Years)
+						</cell>
+						<cell right="medium">
+							Yield
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							<m>y_1 = 1.435%</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							<m>y_2 = 2.842%</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							<m>y_3 = 3.624%</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							<m>y_4 = 3.943%</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							<m>y_5 = 4.683%</m>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Determine the forward rate <m>\iota_0(3,5)</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Suppose we have effective annual forward rates <m>\iota_0(0,1) = 6\%</m>, <m>\iota_0(1,2) = 4\%</m>, and <m>\iota_0(2,3) = X</m>.  Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25.  Find the yield curve.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Yield rates for zero coupon bonds are as follows: 
+			</p>
+			<p>
+				1-year maturity: 10% (effective annual); \\
+				2-year maturity: 8% (effective annual). 
+			</p>
+			<p>
+				You take the following actions:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						Sell a one-year zero coupon bond with maturity value 1000.
+					</p>
+				</li>
+				<li>
+					<p>
+						Invest the proceeds in a two-year zero coupon bond.
+					</p>
+				</li>
+			</ol>
+			<p>
+				Which of the following represents your overall net position?
+			</p>
+			<ol marker="A">
+				<li>
+					<p>
+						One year forward investment for one year at 6%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward investment for one year at 12%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward loan for one year at 6%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward loan for one year at 12%
+					</p>
+				</li>
+				<li>
+					<p>
+						Two year loan for 9%
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Yield rates for zero coupon bonds are as follows: 
+			</p>
+			<p>
+				1-year maturity: 8% (effective annual); \\
+				2-year maturity: 10% (effective annual). 
+			</p>
+			<p>
+				You take the following actions:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						Sell a two-year zero coupon bond with maturity value 1000.
+					</p>
+				</li>
+				<li>
+					<p>
+						Invest the proceeds in a one-year zero coupon bond.
+					</p>
+				</li>
+			</ol>
+			<p>
+				Which of the following represents your overall net position?
+			</p>
+			<ol marker="A">
+				<li>
+					<p>
+						One year forward investment for one year at 10%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward investment for one year at 12%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward loan for one year at 10%
+					</p>
+				</li>
+				<li>
+					<p>
+						One year forward loan for one year at 12%
+					</p>
+				</li>
+				<li>
+					<p>
+						Two year investment for 9%
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The current effective yield rates for the zero coupon bonds are as follows:
+			</p>
+			<ol marker="(i)">
+				<li>
+					<p>
+						One Year: 6%
+					</p>
+				</li>
+				<li>
+					<p>
+						Two Years: 7%
+					</p>
+				</li>
+			</ol>
+			<p>
+				You are also able to borrow money at 7% effective one year from now to be repaid two years from now. 
+			</p>
+			<p>
+				Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-kellison"/> The current spot rates are as follows: <m>s_0(1) = 7\%</m> and <m>s_0(2) = 9\%</m>. A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

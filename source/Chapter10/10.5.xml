@@ -1,0 +1,193 @@
+<section xml:id="market-value-of-an-interest-rate-swap">
+	<title>The Market Value of an Interest Rate Swap</title>
+	<p>
+		Now that we know how interest rate swaps work as transactions, and how to find the fixed swap rate, we can ask ourselves about the value.  Specifically, once a swap is underway, and the yield curve changes, what is the market value of the swap?  Would could one sell the swap for? 
+	</p>
+	<p>
+		To calculate this, we have to reconsider the floating payments in light of the updated interest rates, and then take the present value of both legs and compare. 
+	</p>
+	<p>
+		You might wonder about which leg we are valuing.  The two parties -- the payer and the receiver  -- have different interests, or positions.  The value to one will be the opposite of the value to the other.
+	</p>
+	<activity xml:id="finding-market-value-for-a-swap-from-yield-curve">
+		<introduction>
+			<p>
+				A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							2.80%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							2.75%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				One year later, the new yield curve for the following two years is: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2.75%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3.50%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.
+			</p>
+		</introduction>
+
+		<task>
+			<p>
+				First, find the fixed payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				Next, find the present value of the remaining fixed payments one year after the swap tenor began.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the remaining floating payments one year after the swap tenor began.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of the remaining floating payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				The difference between the present values gives us the market values.  Figure out which difference is the value of the payer's interest (or position), and which is the value for the receiver, and calculate both.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-market-value-for-a-swap-from-spot-rates">
+		<statement>
+			<p>
+				Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015. 
+			</p>
+			<p>
+				Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date. 
+			</p>
+			<p>
+				On May 5, 2017, the spot interest rate curve was as follows: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>r_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.8%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.1%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4.3%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.5%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							4.7%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Miaoqi decides that she wants to sell the swap on May 5, 2017. 
+			</p>
+			<p>
+				Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="market-value-of-an-interest-rate-swap-reflection">
+		<statement>
+			<p>
+				In <xref ref="book-and-market-values"/>, we looked at book value and maket value of loans and bonds.  In what way is finding the market value of an interest rate swap similar?
+			</p>
+		</statement>
+	</activity>
+</section>

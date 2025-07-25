@@ -1,0 +1,178 @@
+<section xml:id="internal-rate-of-return-and-net-present-value">
+	<title>Internal Rate of Return and Net Present Value</title>
+	<p>
+		In this section, we will focus on how to find the internal rate of return (<m>IRR</m>) from cash flows.  Later in the section, we will see a related concept -- net present value (<m>NPV</m>). 
+	</p>
+	<p>
+		Our cash flows will be a sequence <m>C_0, C_1, \ldots, C_n</m>.  Each <m>C_k</m> represents net cash flows at time <m>k</m>.  We can assume that the cash flows are equally spaced, as some may be set to 0.  A positive cash flow means the investor receives funds, while a negative cash flow means the investor expended funds.  Expended funds are sometimes called  "contributions" or something similar.  To find <m>C_k</m>, we add all positive cash flows and subtract all negative cash flows, leaving us with the <term>net cash flow</term> at time <m>k</m>.  The value <m>C_0</m> is typically (but not always) the initial investment and will be negative.
+	</p>
+	<activity xml:id="finding-cash-flow-at-a-point-in-time">
+		<statement>
+			<p>
+				Let's start by finding the net cash flow at a given point in time. 
+			</p>
+			<p>
+				A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter.  Find the net cash flow in year 6, <m>C_6</m>.
+			</p>
+		</statement>
+	</activity>
+	<p>
+		The <term>internal rate of return</term> (abbreviated <m>IRR</m>) is the interest rate that makes the present value of <m>C_1, \ldots, C_n</m> equal to <m>C_0</m>.  In other words, it is the value <m>\iota</m> that makes the following equation true:
+	</p>
+	<me>C_0 = \sum_{k=1}^n C_kv^k</me>
+	<p>
+		In this book, unless otherise directed, assume that <m>IRR > 0</m>. The <m>IRR</m> is quoted as an effective rate. For existence and uniqueness questions, see Broverman. 
+	</p>
+	<activity xml:id="finding-internal-rate-of-return">
+		<statement>
+			<p>
+				An investor pays 316 for an investment that will pay 150 at time 1 and 200 at time 2.  Find the <m>IRR</m>.
+			</p>
+		</statement>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Corner</title>
+		<p>
+			For general cash flows, calculating <m>IRR</m> requires solving a polynomial equation, which means (outside of quadratics) we will need numerical methods programmed into our financial calculator. 
+		</p>
+		<p>
+			To find the <m>IRR</m> in our calculator, first go to the cash flows worksheet by pressing <kbd>CF</kbd>.  For the initial amount <m>C_0</m>, type the value and press <kbd>ENTER</kbd>, then press <kbd>&#8595;</kbd>.  For the rest, after you enter <m>C_k</m>, press <kbd>ENTER</kbd> and <kbd>&#8595;</kbd>, then enter the number of times that payment occurs (in a row).  So if you have <m>C_1 = C_2 = 1500</m> (and <m>C_3</m> is different), enter 1000 for "C01" and 2 for "F01".  Do not forget to hit <kbd>ENTER</kbd> after each entry, and type <kbd>&#177;</kbd> after each number for any negative entries. 
+		</p>
+		<p>
+			Once you have entered in all of the cash flows, type <kbd>IRR</kbd> <term>followed by</term> <kbd>CPT</kbd>.  The result will be the <m>IRR</m> displayed as a percentage.
+		</p>
+	</assemblage>
+	<activity xml:id="using-calculator-for-irr">
+		<statement>
+			<p>
+				Use the financial calculator to repeat <xref ref="finding-internal-rate-of-return"/>.  Which do you prefer?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-irr-for-cash-flows">
+		<introduction>
+			<p>
+				For each of the following cash flows, find the internal rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.
+			</p>
+		</task>
+	</activity>
+	<p>
+		A related concept is <term>net present value</term> (abbreviated <m>NPV</m>).  This is just the present value of a set of cash flows <m>C_0, C_1, \ldots, C_n</m> given a desired rate of return (for our purposes, the word "net" adds nothing).  In other words, given an interest rate:
+	</p>
+	<me>NPV = \sum_{k=0}^n C_k v^k</me>
+	<p>
+		Pay attention to the details in that formula!
+	</p>
+	<activity xml:id="net-present-value-vs-interest-rate">
+		<statement>
+			<p>
+				The following is a graph of net present value against interest rates between 0 and 100% for a given set of cash flows.  Identify the <m>IRR</m> on the graph and explain.
+				<figure xml:id="net-present-value-vs-interest-rate-figure">
+					<caption>Graph of Net Present Value by Interest Rate</caption>
+					<image source="images/NPV2.png"/>
+				</figure>
+			</p>
+		</statement>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Corner</title>
+		<p>
+			The <m>NPV</m> can also be found with our financial calculator.  Simply enter the cash flows in the cash flow worksheet.  Make sure you enter negative cash flows as negative numbers.  Then type <kbd>NPV</kbd>, enter an interest rate (as a percentage), hit <kbd name="down"/>, and then press <kbd>CPT</kbd>. 
+		</p>
+	</assemblage>
+	<activity xml:id="using-calculator-for-NPV">
+		<introduction>
+			<p>
+				Suppose an initial investment at time 0 of 11,000 pays out 4,000 at time 1, 5,000 at time 2, and 4,500 at time 3.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the <m>NPV</m> at 8%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the <m>NPV</m> at 12%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the <m>IRR</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-NPV-to-compare">
+		<introduction>
+			<p>
+				The <m>NPV</m> is often used to compare investment projects at a desired rate of return.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Which would you select, a project with a higher <m>NPV</m> or a lower <m>NPV</m>?  Why?
+			</p>
+		</task>
+		<task>
+			<p>
+				Would you ever select a project with a negative <m>NPV</m>?  Why or why not?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-NPV-to-select-investments">
+		<introduction>
+			<p>
+				For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The Mines of Moria cost 125,000.  They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years.  The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years.  You want an annual return of 5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years.  The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-irr-for-specified-cash-flows">
+		<statement>
+			<p>
+				Transactions <m>A</m> and <m>B</m> are to be compared. Transaction <m>A</m> has net cashflows of:
+			</p>
+			<me>C_0^A = -5, \ \  C_1^A = 3.72, \ \ C_2^A = 0, \ \ C_3^A = 4</me>
+			<p>
+				and Transaction <m>B</m> has net cashflows
+			</p>
+			<me>C_0^B = -5, \ \ C_1^B = 3, \ \ C_2^B = 1.7, \ \ C_3^B = 3</me>
+			<p>
+				Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction <m>A</m> is preferable to <m>B</m> at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction <m>B</m> is preferable at interest preference rates between 11.11% and 25%. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="comparing-investments-with-equal-NPVs">
+		<statement>
+			<p>
+				Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of <m>X</m> at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal.  Calculate <m>X</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="internal-rate-of-return-and-net-present-value-reflection">
+		<statement>
+			<p>
+				Describe the relationship between <m>IRR</m> and <m>NPV</m>.
+			</p>
+		</statement>
+	</activity>
+</section>

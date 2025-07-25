@@ -1,0 +1,8 @@
+<introduction>
+	<p>
+		Investments involve risk due to changes in interest rate.  Exposure to interest rate risk can be measured with quantities called duration.  A measure called Macaulay duration is the weighted average of the times to each payment in a set of cash flows, while modified duration is related to the derivative of the present value with respect to the interest rate.  Each of these can be used to estimate changes in the price of an asset for small changes in the interest rate.  The estimate can be improved with convexity, which is related to the second derivative of the present value with respect to the interest rate. 
+	</p>
+	<p>
+		&#9888; The notation for duration will vary greatly in texts, and in the exam problems.  We will use <m>D</m> for Macaulay duration and <m>MD</m> for modified duration.  As usual, use context to figure out what notation the author is using.
+	</p>
+</introduction>

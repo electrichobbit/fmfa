@@ -1,0 +1,77 @@
+<section xml:id="force-of-interest-instantaneous-approximation">
+	<title>The Force of Interest as an Instantaneous Approximation</title>
+	<p>
+		Recall that given an accumulation function <m>A(t)</m>, the force of interest at time <m>t</m> is defined as <me>\delta_t = \frac{d}{dt} \ln(A(t))</me>
+	</p>
+	<p>
+		In this section, we will see where that definition comes from, and why this captures an instantaneous percentage change.
+	</p>
+	<activity xml:id="developing-the-force-of-interest-formula">
+		<introduction>
+			<p> 
+				As a preliminary step, we need a formula for the base <m>b</m> of an exponential function of the form <m>y=a\cdot b^x</m> given that the graph passes through two points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>.  When you learned linear functions, you learned a formula for the slope and it had a nice formulation as "rise over run." The formula for <m>b</m> is not so nice, but serviceable.  There are a couple of ways to handle this.  One is to transform to a linear equation using logarithms and using the formula for slope, and then transforming back.  Another way is to solve a system of exponential equations.  We will do the latter, since solving systems of exponential equations is generally useful on the FM exam. 
+			</p>
+			<p>
+				The system is as follows:
+				<me>
+					y_2  =  ab^{x_2} 
+				</me>
+				<me>
+					y_1  =  ab^{x_1}
+				</me>
+			</p>
+			<p>
+				Keep in mind that we know <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>, but not <m>a</m> and <m>b</m> (and we do not care about <m>a</m>).
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Divide the top equation by the bottom equation.  Write the result.  Why is this valuable strategically?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve for <m>b</m>
+			</p>
+		</task>
+	</activity>
+	<p>
+		Given an accumulation function <m>A(t)</m>, we would like to find the instantaneous percentage change at time <m>t</m>.  Since exponential functions are characterized by constant percentage changes, this means we are interested in the base of the exponential function that best approximates <m>A(t)</m> at time <m>t</m>.  In financial terms, this is the best approximation of <m>A(t)</m> using compound interest.  Since we are dealing with instantaneous changes, we will assume our approximation involves continuous compounding.  Hence we will denote our instantaneous percentage change by <m>\delta_t</m> and expect the base to our approximating exponential function to be <m>e^{\delta_t}</m> (can you see where this is going?). 
+	</p>
+	<activity xml:id="find-instantaneous-percentage-change">
+		<statement>
+			<p> 
+				As with the derivative, we start by approximating the base using two points that are close: <m>(t,A(t))</m> and <m>(t+h,A(t+h))</m>, where we think of <m>h</m> as "small".  Find an equation for the base <m>b_h</m> of the exponential function passing between these points.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-the-limit-instantaneous-percentage-change">
+		<introduction>
+			<p> 
+				As with derivatives, we are interested in finding <me>\lim_{h \rightarrow 0} b_h</me>
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Rewrite <m>b_h</m> as <m>\mathrm{exp}\left(\ln(b_h)\right)</m> and simplify as much as possible using laws of exponents.  Why is this strategically useful?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Since the function <m>e^x</m> is continuous, <m>\lim \mathrm{exp}(f(h)) = \mathrm{exp}(\lim f(h))</m>.  Use this fact to rewrite <m>\displaystyle{\lim_{h \rightarrow 0}} b_h</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Finally, if you simplified <m>\ln(b_h)</m> appropriately, you should see a familiar type of limit in the exponent.  Use that to finish up taking the limit, and explain how <m>\delta_t</m> fits into this.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="instantaneous-percentage-change-reflection">
+		<statement>
+			<p> 
+				Explain what <m>\delta_t</m> means from a financial perspective.
+			</p>
+		</statement>
+	</activity>
+</section>

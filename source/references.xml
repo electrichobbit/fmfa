@@ -1,0 +1,85 @@
+<references xml:id="bibliography">
+	<title>References</title>
+
+	<section>
+		<title>Textbooks</title>
+		<biblio type="raw" xml:id="bibliography-broverman">
+			Broverman, S. (2015) <title>Mathematics of Investment and Credit</title> (6th ed.), ACTEX Publishing.
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-kellison">
+			Kellison, S. (2009) <title>The Theory of Interest</title> (3rd ed.), McGraw-Hill.
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-vaaler-daniel">
+			Vaaler, L. and Daniel, J. (2007) <title>Mathematical Interest Theory</title> (2nd ed). Mathematical Association of America.
+		</biblio>
+	</section>
+	<section>
+		<title>Online Actuarial Resources</title>
+		<biblio type="raw" xml:id="bibliograph-be-an-actuary">
+			Be An Actuary: <url href="https://www.beanactuary.org/"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-cas">
+			Casualty Actuarial Society: <url href="https://www.casact.org/"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-ca">
+			Coaching Actuaries (CA): <url href="https://www.coachingactuaries.com/"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-gis">
+			Gamma Iota Sigma: <url href="https://www.gammaiotasigma.org/"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-soa">
+			Society of Actuaries (SOA): <url href="https://www.soa.org/"/>
+		</biblio>
+	</section>
+	<section>
+		<title>Classical Texts Addressing Ethics</title>
+		<biblio type="raw" xml:id="bibliography-aquinas">
+			Aquinas, St. Thomas, <title>Summa Theologia</title>. Christian Classics; English Dominican Province Translation Edition (1981).
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-aristotle-nicomachean-ethics">
+			Aristotle, <title>Nichomachean Ethics</title> (translated by W.D. Ross). In McKeon, R. (1941). <title>The Basic</title> <title>Works of Aristotle</title>, Random House, pgs. 927 - 1112.
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-aristotle-politics">
+			Aristotle, <title>Politics</title> (translated by Benjamin Jowett). In McKeon, R. (1941). <title>The Basic Works</title> <title>of Aristotle</title>, Random House, pgs. 1113 - 1316.
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-smith">
+			Smith, Adam, <title>The Wealth of Nations</title>. Edited by Edwin Cannan (1976), The University of Chicago Press.
+		</biblio>
+	</section>
+	<section>
+		<title>Ethics and Finance</title>
+		<biblio type="raw" xml:id="bibliography-hendry">
+			Hendry, J. (2013) <title>Ethics and Finance: An Introduction</title>, Cambridge University Press
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-johnson">
+			Johnson, T. (2017) <title>Ethics in Quantitative Finance: A Pragmatic Financial Market Theory</title>, Palgrave Macmillan
+		</biblio>
+	</section>
+	<section>
+		<title>Financial Scandals</title>
+		<biblio type="raw" xml:id="biblography-lewis">
+			Lewis, M. (2011) <title>The Big Short: Inside the Doomsday Machine</title>, W.W. Norton &amp; Company
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-mclean-elkind">
+			McLean, B. and Elkind, P. (2003) <title>The Smartest Guys in the Room: The Amazing Rise and</title> <title>Scandalous Fall of Enron</title>, Penguin Books.
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-sorkin">
+			Sorkin, A.R. (2010) <title>Too Big To Fail: The Inside Story of How Wall Street and Washington</title> \\ <title>Fought to Save the Financial System -- and Themselves</title>, Penguin Books.
+		</biblio>
+	</section>
+	<section>
+		<title>Online Ethical Reasoning Resources</title>
+		<biblio type="raw" xml:id="bibliography-cambridge">
+			Cambridge University Ethics in Mathematics Project:\\ <url href="https://www.ethics.maths.cam.ac.uk/"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-ethical-decision-making-1">
+			Ethical Decision Making Framework 1:\\ <url href="https://serc.carleton.edu/geoethics/Decision-Making"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-ethical-decision-making-2">
+			Ethical Decision Making Framework 2: \\ <url href="https://research.ku.edu/sites/research.ku.edu/files/docs/"/> \\<url href="EESE_EthicalDecisionmakingFramework.pdf"/>
+		</biblio>
+		<biblio type="raw" xml:id="bibliography-ethical-mathematics">
+			Ethical Mathematics: <url href="https://ethicalmath.com/"/>
+		</biblio>
+	</section>
+</references>

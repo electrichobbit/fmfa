@@ -1,0 +1,64 @@
+<section xml:id="deriving-formulas-for-increasing-and-decreasing-annuities">
+	<title>Deriving Formulas for Increasing and Decreasing Annuities</title>
+	<p>
+		In this optional section, we will derive the formulas for <m>(Is)_{\angln}</m> and <m>(Da)_{\angln}</m> using chunking.
+	</p>
+	<activity xml:id="foundations-of-the-arithmetic-progression-formulas">
+		<introduction>
+			<p> 
+				To lay a foundation, write the series representations for each of the following (a timeline may help).  You will have to recognize these series representations in the derivation.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>a_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\ddot{a}_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>s_{\angln}</m>
+			</p>
+		</task>
+		<task>
+			<p>
+			 	<m>\ddot{s}_{\angln}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="increasing-payment-annuity-formula">
+		<introduction>
+			<p> 
+				We will derive the formula for <m>(Is)_{\angln}</m> first.  We will do this in two steps.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Make a timeline for an increasing annuity with payments of 1, 2, ..., <m>n</m>.  But chunk the annuity so that you have a bunch of level-payment annuities, each of which has payments of 1, but has different terms.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use your timeline to write down an expression using a bunch of <m>s_{\angl{k}}</m> terms whose value is equal to <m>(Is)_{\angln}</m>.  Then use the formula for each <m>s_{\angl{k}}</m> to derive the formula for <m>(Is)_{\angln}</m>.  At some point in your work, you should see one of the series representations above.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="decreasing-payment-annuity-formula">
+		<statement>
+			<p> 
+				Adapt what you did to find an equation for <m>(Da)_{\angln}</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="increasing-decreasing-payment-annuity-reflection">
+		<statement>
+			<p> 
+				Now that you have derived the formulas for <m>(Is)_{\angln}</m> and <m>(Da)_{\angln}</m>, how would you find the rest of the formulas for increasing and decreasing annuities?
+			</p>
+		</statement>
+	</activity>
+</section>

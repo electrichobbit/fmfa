@@ -1,0 +1,81 @@
+<section xml:id="sinking-fund-method">
+	<title>Loan Repayments with Constant Payments of Interest -- the Sinking Fund Method</title>
+	<p>
+		Another way to pay a loan off is to just pay the interest as it comes due, and then pay the principal off at the end of the term.  This typically involves something called a sinking fund.
+	</p>
+	<activity xml:id="sinking-fund-motivating-example">
+		<introduction>
+			<p>
+				Sammy Hagar borrows 100,000 for some improvement to his Cabo Wabo resort.  The term of the loan is 20 years, and the effective annual interest is 5%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What is his annual interest payment?
+			</p>
+		</task>
+		<task>
+			<p>
+				Sammy is no fool -- he makes annual deposits into a secondary account in order to save up to pay off the principal.  The account is called a <term>sinking fund</term>. 
+			</p>
+			<p>
+				If the effective annual interest rate on his sinking fund is 6%, how much should he deposit annually?
+			</p>
+		</task>
+		<task>
+			<p>
+				What is his <term>total annual outlay</term>?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formula-for-sinking-fund">
+		<statement>
+			<p>
+				Given a loan of <m>L</m> with an effective periodic interest rate <m>\iota</m> with a term of <m>n</m> periods, along with a sinking fund with an effective periodic interest rate <m>j</m>, find a formula for the periodic deposit into the sinking fund, and a formula for the total periodic outlay.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="comparing-level-and-sinking-fund">
+		<statement>
+			<p>
+				Smith can repay a loan of 250,000 in one of two ways:
+			</p>
+			<ul>
+				<li>
+					<p>
+						30 annual payments based on amortization (level payments) at <m>\iota = 0.12</m>;
+					</p>
+				</li>
+				<li>
+					<p>
+						30 annual interest payments to the lender at rate <m>\iota = 0.10</m>, along with 30 level annual deposits to a sinking fund earning rate <m>j</m>.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Find the value of <m>j</m> to make the schemes equivalent.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="example-of-sinking-fund-repayment">
+		<statement>
+			<p>
+				(Problem 23) John borrows 1000 for 10 years at an annual effective interest rate of 10%. He can repay this loan using the amortization method (level payments) with payments of <m>P</m> at the end of each year. Instead, John repays the 1000 using a sinking fund that pays an annual effective rate of 14%. The deposits to the sinking fund are equal to <m>P</m> minus the interest on the loan and are made at the end of each year for 10 years. Determine the balance in the sinking fund immediately after repayment of the loan.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="conditions-for-sinking-fund">
+		<statement>
+			<p>
+				What conditions might make paying a loan off using the sinking fund method favorable?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="sinking-fund-method-reflection">
+		<statement>
+			<p>
+				What, if anything, is worth memorizing from this activity? 
+			</p>
+		</statement>
+	</activity>
+</section>

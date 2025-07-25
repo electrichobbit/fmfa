@@ -1,0 +1,55 @@
+<section xml:id="annuities-valued-at-other-times">
+	<title>Annuity Valuations at Other Points in Time</title>
+	<p>
+		In the last activity we met deferred annuities.  This was an example of valuing an annuity (or perpetuity) at various points on the timeline.  In general, we push our present/future values forward or pull them backward along the timeline to the point where we want to value. 
+	</p>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip </title>
+		<p> 
+			As  with deferred annuities, you can use the financial calculators to value an annuity at any point in time.  As needed, calculate the future or present value, then hit either the <kbd>PV</kbd> or <kbd>FV</kbd> button (depending on if you are pulling back or pushing forward), make <kbd>PMT</kbd> 0, and change the value for <kbd>N</kbd>.  If needed, you may also have to change <kbd>I/Y</kbd> if the rate changes (although we will deal more with that in <xref ref="chunking"/>).
+		</p> 
+	</assemblage>
+	<activity xml:id="finding-values-at-other-times">
+		<introduction>
+			<p> 
+				Payments of 100 per quarter are made from June 7, Z (Z is the year) through December 7, Z+11, inclusive. If the nominal rate of interest convertible quarterly is 6%:
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the present value on September 7, Z-1.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the current value on March 7, Z+8. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the accumulated value on June 7, Z+ 12.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="valuing-annuity-before-end">
+		<statement>
+			<p> 
+				Logan Roy has gifted an annuity to his grandnephew Greg Hirsch.  The annuity pays 3 million per year for 10 years, starting at the end of this year.  Greg deposits each payment into an account earning an effective annual interest rate of <m>\iota = 3\%</m>.  Sixteen years from today (six  years after the last payment), Greg wants to purchase a small, progressive newspaper for 45 million.  How much is in the account at this point?  How much additional funding would he need to make the purchase?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="valuing-annuity-before-start">
+		<statement>
+			<p> 
+				Suppose Siobhan Roy purchases an annuity that pays 5 million per year for 15 years, but starting 5 years from the time of purchase.  The annuity is valued at an effective annual interest rate of <m>\iota = 5\%</m>.  If Siobhan purchased the annuity today, what did she pay for it? 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="valuing-annuities-at-other-times-reflection">
+		<statement>
+			<p> 
+				Describe how we value annuities at different points in time.  What do you think will be tricky?
+			</p>
+		</statement>
+	</activity>
+</section>

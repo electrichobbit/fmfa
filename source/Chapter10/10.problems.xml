@@ -1,0 +1,828 @@
+<exercises xml:id="interest-rate-swaps-problems">
+	<title>Problems</title>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the "fixed leg" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate.  The notional balance is 35,000,000, the fixed rate is <m>\iota^{(4)} = 5.25\%</m>, and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4/01/1994, 4.875% for the period beginning 7/01/94, 5.688% for the period beginning 10/01/94, and 6.328% for the period beginning 1/01/95. Determine the amount and time of all payments.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-vaaler-daniel"/> On June 1, 1998 Confidence Life and Casualty (CLC) entered into an interest rate swap with Great Commercial Bank (GCB). The swap lasted five years, and had settlement dates at the end of each year. The notional amount was 50,000,000. CLC was assured interest calculated using the one-year LIBOR and was obligated to pay interest at an annual effective rate of 6%. If the five consecutive June 1 LIBOR rates used were 5.940%, 5.803%, 7.214%, 4.055%, and 2.251%, what was the June 1, 2003 total value, calculated using the compound interest accumulation function <m>a(t) = (1.04)^t</m>, of the netted payments that CLC received from the swap?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%. 
+			</p>
+			<p>
+				ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate. 
+			</p>
+			<p>
+				The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively. 
+			</p>
+			<p>
+				ABC does not make or receive any other payments. 
+			</p>
+			<p>
+				Calculate the net interest payment that ABC makes in the second year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> SOA Farms has a 500,000 loan from Bailey Bank. Under the terms of the loan, SOA will pay interest annually to Bailey Bank based on LIBOR plus 120 basis points. Additionally, SOA will pay the principal of 500,000 at the end of five years. 
+			</p>
+			<p>
+				SOA would prefer to know the annual interest cost that will be incurred. To fix the interest rate on the loan, SOA enters into a five-year interest rate swap with a notional amount of 500,000 and annual settlement dates. The terms of the swap are that SOA will make swap payments based on a fixed rate of 5.35% and will receive swap payments based on a variable rate of LIBOR plus 50 basis points. 
+			</p>
+			<p>
+				During the third year of the loan, LIBOR is 5.6%. 
+			</p>
+			<p>
+				Calculate the net interest payment made by SOA at the end of the third year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year. 
+			</p>
+			<p>
+				You are given the following prices for a zero coupon bond that matures for 1 on the maturity date:  
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity Date
+						</cell>
+						<cell right="medium">
+							Price
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1 year
+						</cell>
+						<cell right="medium">
+							0.965
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2 years
+						</cell>
+						<cell right="medium">
+							0.920
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3 years
+						</cell>
+						<cell right="medium">
+							0.875
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4 years
+						</cell>
+						<cell right="medium">
+							0.825
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5 years
+						</cell>
+						<cell right="medium">
+							0.770
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Determine the net swap payment at the end of the first year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> The term structure for (annual effective) interest rates is as follows for corresponding maturities: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity
+						</cell>
+						<cell right="medium">
+							Effective Interest Rate
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1-year
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2-year
+						</cell>
+						<cell right="medium">
+							10%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3-year
+						</cell>
+						<cell right="medium">
+							15%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4-year
+						</cell>
+						<cell right="medium">
+							20%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Find the level fixed swap rate for a 4-year interest rate swap of floating rate interest for fixed rate interest. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You are given the following spot rates: 
+			</p>
+			<table>
+				<tabular>
+					<row>
+						<cell>
+							Years to Maturity
+						</cell>
+						<cell>
+							1
+						</cell>
+						<cell>
+							2
+						</cell>
+						<cell>
+							3
+						</cell>
+						<cell>
+							4
+						</cell>
+						<cell>
+							5
+						</cell>
+					</row>
+					<row>
+						<cell>
+							Spot Rate
+						</cell>
+						<cell>
+							4.00%
+						</cell>
+						<cell>
+							4.50%
+						</cell>
+						<cell>
+							5.25%
+						</cell>
+						<cell>
+							6.25%
+						</cell>
+						<cell>
+							7.50%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				You enter into a 5-year interest rate swap (with notional amount 100,000) to pay a fixed rate and to receive a floating rate based on future 1-year LIBOR rates. If the swap has annual payments, what is the fixed rate you should pay?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You are given the spot rates for a LIBOR yield curve. 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Years to Maturity
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Spot Rate
+						</cell>
+						<cell right="medium">
+							2.75%
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+						<cell right="medium">
+							3.40%
+						</cell>
+						<cell right="medium">
+							4.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				A four year annual interest rate swap with a notional amount of 1,000,000 will enable you to pay a fixed rate and receive 1-year LIBOR.  What is the fixed rate?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The yield curve spot rates for three years are given by:
+			</p>
+			<me>
+				r(0,n) = 0.0025n^2 + 0.0025n + 0.025
+			</me>
+			<p>
+				Find the swap rate for a 3-year fixed interest rate swap.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The current spot interest rate curve is as follows: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>t</m>
+						</cell>
+						<cell right="medium">
+							<m>r_t</m>
+						</cell>
+						<cell right="medium">
+							<m>t</m>
+						</cell>
+						<cell right="medium">
+							<m>r_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							.25
+						</cell>
+						<cell right="medium">
+							.50%
+						</cell>
+						<cell right="medium">
+							.75
+						</cell>
+						<cell right="medium">
+							.40%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							0.50
+						</cell>
+						<cell right="medium">
+							1.65%
+						</cell>
+						<cell right="medium">
+							2.00
+						</cell>
+						<cell right="medium">
+							2.48%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							0.75
+						</cell>
+						<cell right="medium">
+							1.79%
+						</cell>
+						<cell right="medium">
+							2.25
+						</cell>
+						<cell right="medium">
+							2.80%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.00
+						</cell>
+						<cell right="medium">
+							1.92%
+						</cell>
+						<cell right="medium">
+							2.50
+						</cell>
+						<cell right="medium">
+							3.10%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.25
+						</cell>
+						<cell right="medium">
+							2.10%
+						</cell>
+						<cell right="medium">
+							2.75
+						</cell>
+						<cell right="medium">
+							3.35%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.50
+						</cell>
+						<cell right="medium">
+							2.25%
+						</cell>
+						<cell right="medium">
+							3.00
+						</cell>
+						<cell right="medium">
+							2.50%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Rafael has a one-year loan for 1,000,000 with principal paid at the of the one-year period. The loan has a variable interest rate that resets at the beginning of each three month period. The interest rate will be the spot interest rate at the beginning of each three month period. 
+			</p>
+			<p>
+				Rafael enters into an interest rate swap where he is the payer with the characteristics of the swap exactly matching the loan. 
+			</p>
+			<p>
+				Determine the quarterly swap rate that Rafael will pay. Express your answer in basis points. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Suppose the current term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. Find the swap rate for a one-year deferred, two-year swap.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> The table below shows the spot rates for the given lengths of time. 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Number of Years
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							6
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Effective Annual Spot Rate
+						</cell>
+						<cell right="medium">
+							2.5%
+						</cell>
+						<cell right="medium">
+							3.1%
+						</cell>
+						<cell right="medium">
+							3.4%
+						</cell>
+						<cell right="medium">
+							3.6%
+						</cell>
+						<cell right="medium">
+							4.0%
+						</cell>
+						<cell right="medium">
+							4.2%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> You are given the following spot interest rates: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time (<m>t</m>)
+						</cell>
+						<cell right="medium">
+							Spot Rate (<m>r_t</m>)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4.3%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.6%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5.1%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5.4%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							5.6%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Tommy purchases a deferred interest rate swap with a term of five years. Under the swap, there is no swapping of interest rates during the first two years. During the last three years, the settlement period will be one year. Under this swap, Tommy will be the payer. The variable interest rate will be based on the one year spot rate at the start of each settlement period.  
+			</p>
+			<p>
+				The notional amount of this swap is 500,000. 
+			</p>
+			<p>
+				Calculate the swap rate for this swap.
+			</p>
+		</statement>
+	</exercise>
+	<exercise xml:id="problem-katarina">
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Katarina has borrowed 300,000 from Trout Bank. Katarina will repay 100,000 of principal at the end of each of the first three years. 
+			</p>
+			<p>
+				Katarina will pay Trout Bank a variable interest rate equal to the one year spot interest rate at the beginning of each year. 
+			</p>
+			<p>
+				Katarina would like to have a fixed interest rate so she enters into an interest rate swap with Lily. Under the interest rate swap, Katarina will pay a fixed rate to Lily, and Lily will pay a variable rate to Katarina. The variable rate will be the same rate that Katarina is paying to Trout Bank. The other terms of the swap will mirror the loan that Katarina has. 
+			</p>
+			<p>
+				Which of the following statements is true:
+			</p>
+			<ol marker="A">
+				<li>
+					<p>
+						This is an accreting swap.
+					</p>
+				</li>
+				<li>
+					<p>
+						The settlement period for the swap is three years.
+					</p>
+				</li>
+				<li>
+					<p>
+						The notional amount for this swap is 300,000.
+					</p>
+				</li>
+				<li>
+					<p>
+						Katarina and Trout Bank are counterparties to the swap.
+					</p>
+				</li>
+				<li>
+					<p>
+						Lily is the receiver under the swap.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> In the scenario in <xref ref="problem-katarina"/>, you are given the following spot interest rates: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time (<m>t</m>)
+						</cell>
+						<cell right="medium">
+							Spot Rate (<m>r_t</m>)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							4.3%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.6%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5.1%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5.4%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							5.6%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Calculate the swap interest rate for Katarina's swap.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015. 
+			</p>
+			<p>
+				Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date. 
+			</p>
+			<p>
+				On May 5, 2017, the spot interest rate curve was as follows: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time (<m>t</m>)
+						</cell>
+						<cell right="medium">
+							Spot Rate (<m>r_t</m>)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.8%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.1%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4.3%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							4.5%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							4.7%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Miaoqi decides that she wants to sell the swap on May 5, 2017. 
+			</p>
+			<p>
+				Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-broverman"/> Suppose at time 0, the term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. A borrower has a three-year, interest-only loan of amount 1,000,000 with floating interest payments to be paid at the end of each year. The borrower arranges a swap allowing the borrower to pay fixed interest at the appropriate swap rate. One year later, the term structure has a one-year effective interest rate of 9% and annual effective rate of 9.5% for two-year maturities. Determine the value of the swap at the end of the first year to the borrower.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				The one-year spot rate is 3.10% and the two-year spot rate is 4.59%.  Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%.  Find the three-year spot rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				The one-year spot rate is 1.08% and the three-year spot rate is 2.96%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 2.925%.  Find the two-year spot rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				We have the following information about the term structure:
+			</p>
+			<me>
+				s_0(1) = 5.15\%, \ \ s_0(2) = 6.03\%, \ \ \iota_0(2,3) = 8.57\%
+			</me>
+			<p>
+				Find the swap rate for a 3-year interest rate swap with a constant notional amount. 
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate <m>r_0(1,2)</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				<xref ref="bibliography-soa"/> A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045. 
+			</p>
+			<p>
+				What is the swap rate for a two-year interest rate swap?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Suppose we have the following yield curve: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time (<m>t</m>)
+						</cell>
+						<cell right="medium">
+							Spot Rate (<m>r_t</m>)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							6.0000%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6.5000%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							<m>Y</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							8.0000%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Assume constant notional amounts for interest rate swaps.  The three-year swap rate is 6.8147% and the five-year swap rate is 7.8400%.  Find the four-year swap rate.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

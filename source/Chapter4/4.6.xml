@@ -1,0 +1,50 @@
+<section xml:id="puzzle-problems">
+	<title>Problem Solving 5 -- Puzzle Problems</title>
+	<p>
+		Some problems present you with a bunch of information that seems unrelated to each other, and seem unrelated to what you are supposed to find.  This is like being given a few random pictures of a jigsaw puzzle and trying to figure out what the picture is. The strategy will not be clear when you first read these problems.  The following is one such problem, and you will be given some guidance that will help handle these types of problems. 
+	</p>
+	<activity xml:id="puzzle-problem-1">
+		<introduction>
+			<p> 
+				If <m>s_{\angln} = 70</m> and <m>s_{\angl{2n}} = 210</m>, find the values of <m>(1+\iota)^n, \iota,</m> and <m>s_{\angl{3n}}</m>. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Write down everything you know about the given information. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write down everything you notice about the numbers you are given. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Write down everything you know about what you are supposed to produce.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use your lists and observations to find a path between what you are given and what you have to produce, and use that path to solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="puzzle-problem-2">
+		<statement>
+			<p> 
+				Let's try another puzzle problem: 
+			</p>
+			<p>
+				A benefactor leaves an inheritance to four charities: <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>. The total inheritance is a series of level payments at the end of each year forever. During the first <m>n</m> years, <m>A</m>, <m>B</m>, and <m>C</m> share each payment equally. All payments after <m>n</m> years revert to <m>D</m>. If the present values of the shares of <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> are all equal, find <m>(1+\iota)^n</m>
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="puzzle-problem-reflection">
+		<statement>
+			<p> 
+				What do you think will help you solve puzzle problems? 
+			</p>
+		</statement>
+	</activity>
+</section>

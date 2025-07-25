@@ -1,0 +1,117 @@
+<section xml:id="appendix-differentiation-integration-rules">
+	<title>Rules</title>
+	<table>
+		<tabular halign="center" top="medium">
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Differentiation
+				</cell>
+				<cell right="medium">
+					Integration
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					Linearity
+				</cell>
+				<cell right="medium">
+					Linearity
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(af(x) + bg(x)\right) = af'(x) + bg'(x)</m>
+				</cell>
+				<cell right="medium">
+					<m>\int (af(x) + bg(x)) dx = a \int f(x) dx + b \int g(x) dx</m>
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					Product Rule
+				</cell>
+				<cell right="medium">
+					Integration by Parts
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(f(x)g(x)\right) = f'(x)g(x) + f(x)g'(x) </m>
+				</cell>
+				<cell right="medium">
+					<m>\int f(x)g'(x) dx = f(x)g(x) - \int f'(x)g(x) dx</m>
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					Chain Rule
+				</cell>
+				<cell right="medium">
+					Integration by Substitution
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+					<m>\frac{d}{dx} \left(f(g(x))\right) = f'(g(x))g'(x)</m>
+				</cell>
+				<cell right="medium">
+					If <m>u = g(x)</m>: <m>\int f(g(x))g'(x) dx = \int f(u) du</m>
+				</cell>
+			</row>
+			<row>
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+				</cell>
+				<cell right="medium">
+				</cell>
+			</row>
+		</tabular>
+	</table>
+</section>

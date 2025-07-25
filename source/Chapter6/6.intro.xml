@@ -1,0 +1,45 @@
+<introduction>
+	<p>
+		Our first application of the theory of interest is loan repayment.  There is not much we need to learn beyond what we have learned about annuities in order to solve problems involving loans, although there are a number of terms and several details that need attention. 
+	</p>
+	<p>
+		The basic principle is that the payments that are made to payoff a loan form an annuity. There are variations in how payments are made that alter the nature of the repayment schedule. 
+	</p>
+	<p>
+		The following notation will be used whenever we work with loans:
+	</p>
+	<ul>
+		<li>
+			<p>
+				<term>Loan Amount <m>L</m>:</term>
+			</p>
+			<p>
+				Loan amount <m>L</m> at interest rate <m>a</m> per period, to be repaid by <m>n</m> payments of amounts <m>n</m> at the ends of <m>n</m> successive periods. 
+			</p>
+		</li>
+		<li>
+			<p>
+				<term>Outstanding balance just after payment at time <m>t</m>:</term>
+			</p>
+			<p>
+				<m>t</m> is the amount still owed on the loan just after the payment is made. 
+			</p>
+		</li>
+		<li>
+			<p>
+				<term>Interest due in payment at time <m>t</m>:</term>
+			</p>
+			<p>
+				<m>t</m> is the interest on the outstanding balance since the previous payment was made. 
+			</p>
+		</li>
+		<li>
+			<p>
+				<term>Principal repaid in the payment at time <m>t</m>:</term>
+			</p>
+			<p>
+				<m>t</m> is the part of the payment <m>t</m> that is applied toward repaying loan principal.
+			</p>
+		</li>
+	</ul>
+</introduction>

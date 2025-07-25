@@ -1,0 +1,789 @@
+<exercises xml:id="determinants-interest-rates-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				Suppose the supply and demand for loanable funds is displayed in the following graph:
+			</p>
+			<figure xml:id="supply-and-demand-curve-exercise-figure">
+				<caption>Supply and demand for loanable funds.</caption>
+				<image source="images/SD1.png"/>
+			</figure>
+		</introduction>
+		<task>
+			<p>
+				What is the interest rate and the number of borrowers and lenders if the market for loanable funds is in equilibrium?
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the interest rate is 2.5%.  Describe three steps of what happens to the market for loanable funds (you do not have to use precise numbers).
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the central bank increases the supply of money.  What will happen to the interest rate?  Explain your reasoning with reference to <xref ref="supply-and-demand-curve-exercise-figure"/>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Let <m>B</m> be the number of borrowers (in millions) and <m>L</m> be the number of lenders (in millions).  Suppose the system of demand and supply equations for loanable funds is:
+			</p>
+			<me>
+				\iota_D = 0.08e^{-0.837B}
+			</me>
+			<me>
+				\iota_S = 0.01e^{0.203L}
+			</me>
+			<p>
+				Find the equilibrium interest rate <m>\iota</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Assume that the continuously compounded annual risk-free interest rate is 2%.  For each of the following scenarios, determine which component is behind the higher interest rates earned or paid.  Assume all rates are annual and continuously compounded.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A savings account allows a depositor to make withdrawals on demand at no cost.  A certificate of deposit has a maturity date, and withdrawals before the maturity date incur a penalty.  The interest rate for the certificate of deposit is 2.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				A one-year zero-coupon bond has a yield rate of 3% while a thirty-year zero-coupon bond has a yield rate of 6%.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor expects consumer prices to rise at a 2.5% annual rate each year for the foreseeable future, so requires an interest rate of 4.5% in order to invest.
+			</p>
+		</task>
+		<task>
+			<p>
+				Treasury bills carry the risk free rate.  A corporate bond with similar terms to treasury bill carries a 3.5% interest rate.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose the risk-free interest rate is <m>r = 4.5\%</m>.  Suppose we also know that for every 10,000 30-year mortgage loans, there will be 160 defaults.  The average mortgage loan made by a local bank is in the amount of 500,000.  Assume the loan is paid off by a lump sum at the end of the term.  Find the interest rate  the bank will charge on the mortgage loan assuming:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				In the event of default, the bank recovers nothing.
+			</p>
+		</task>
+		<task>
+			<p>
+				In the event of default, by foreclosing on the property, the bank recovers 15% of the repayment amount.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose a borrower takes out a loan of 100,000 and makes interest-only payments for 10 years, after which they pay the principal balance.  The lender has inflation protection on the loan. 
+			</p>
+			<p>
+				The payments for the first three years, and actual inflation rate for each year, are as follows:
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Payment
+						</cell>
+						<cell right="medium">
+							3561.97
+						</cell>
+						<cell right="medium">
+							3303.39
+						</cell>
+						<cell right="medium">
+							4602.79
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Actual Inflation
+						</cell>
+						<cell right="medium">
+							2%
+						</cell>
+						<cell right="medium">
+							1.75%
+						</cell>
+						<cell right="medium">
+							3%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Assume there are no other adjustments to the interest rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the real interest rate paid by the borrower.
+			</p>
+		</task>
+		<task>
+			<p>
+				If the rate the bank charges for deferred consumption is <m>r = 2.5\%</m>, what is the rate paid by the lender for inflation protection?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bank charges a nominal interest rate of 5% on its loans.  Inflation is expected to be 3%, and as a matter of policy, the bank adds 50 basis points to expected inflation to account for error in its expectations.  What rate does the bank charge for deferred consumption?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A bank charges a nominal interest rate of 6.5% on its loans without inflation protection, and a real interest rate of 6% on its loans with inflation protection. If the bank is not concerned with unexpected inflation and pays only a few basis points for inflation protection, what does the bank expect the inflation rate to be over the next few years?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A real estate developer borrows a 10-year, 10 million construction loan from a bank.  The construction period is to last three years, during which the developer will make annual interest payments.  Once construction is complete, the developer will make amortized principal and interest payments. 
+			</p>
+			<p>
+				Suppose that the continuously compounded annual risk-free interest rate is <m>r = 3\%</m>.  A bank takes the risk-free rate as its compensation for deferred consumption.  
+			</p>
+			<p>
+				The data the bank has shows that similar loans made to borrowers with similar credit risks default during the construction phase 5% of the time, and never default after the construction phase. In the event of default, can recover 150,000 net of costs through foreclosure.  The bank calculates the credit spread  based on an assumption that principal and interest will be paid as a lump sum at the end of the construction period. 
+			</p>
+			<p>
+				The bank also pays 1.25% for inflation protection. 
+			</p>
+			<p>
+				If inflation in years 1, 2, and 3 is 2.3%, 1.9%, and 2.5% respectively, find the interest rate <m>R</m> paid by the borrower in each of the first three years, along with the amount of the annual payment.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				A business is issuing bonds to raise capital for a project with an unusually long term.  As a result, they end up paying a higher interest rate on the new issue than they pay on their other bonds.  For each of the following explanations, state the corresponding theory of maturity risk premium.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The investors targeted for the issue were concerned about having their funds tied up for a longer period of time.
+			</p>
+		</task>
+		<task>
+			<p>
+				Their investors typically purchased bonds from the company for shorter periods, and had to be incentivized to invest for a longer-term project.
+			</p>
+		</task>
+		<task>
+			<p>
+				Investors expected short-term interest rates to rise in the coming years.
+			</p>
+		</task>
+		<task>
+			<p>
+				The company was marketing the bonds to a class of investors different from those who hold their shorter-term bonds.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				McCord Bank offers multiple investment accounts.  Withdrawals from a "Standard Savings Account" can be made on demand.  Withdrawals from a "Superior Savings Account" require 7 days to settle (meaning it takes 7 days to obtain your withdrawal), while withdrawals from a "Premium Savings Account" require 3 days to settle. 
+			</p>
+			<p>
+				Rank the interest rates on the three accounts from highest to lowest.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Several factors impact the interest rates banks over savers and borrowers.  For each of the following scenarios, identify the factor that is described.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Some years ago, a local  bank ran into trouble by making several bad loans.  Due to the volume of loan defaults, they had to rely on federal deposit insurance in order to satisfy depositor demands.  Since then, this bank has offered savings accounts with higher interest rates than their competitors in town.
+			</p>
+		</task>
+		<task>
+			<p>
+				Coruscant is a very busy city with lots of business and development, while Tatooine is a remote desert outpost with few residents.  Banks in Coruscant charge higher interest rates on their loans than  banks in Tatooine.
+			</p>
+		</task>
+		<task>
+			<p>
+				A traditional bank has to pay rent for premises and pay for security for cash reserves.  An online bank rents server farms, and holds only electronic reserves guarded by programmatic and encryption protection.  The traditional bank charges higher interest rates for loans than the online bank.
+			</p>
+		</task>
+		<task>
+			<p>
+				A rural town with less than 15,000 residents has several banks, more than usual.  One bank decides to increase its business in town by offering a higher savings account rate than their competitors.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Each of the following investors is in a fortunate position of having enough income to cover their household and personal expenses with funds left over.  For each, advise them whether to put their excess funds in a savings account or in a certificate of deposit.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				One family wants to have an emergency fund that can earn some interest when not needed, but draw on if an unexpected expense occurs or if someone loses their jobs.
+			</p>
+		</task>
+		<task>
+			<p>
+				Another family wants to put some money away to earn interest in order to make a major purchase in six months.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Rank the following credit cards from largest interest rate to smallest.
+			</p>
+			<ol>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, secured by a cash deposit equal to half of the credit limit.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, unsecured.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a highly credit-worth borrower, secured by a cash deposit equal to the entire credit limit.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a borrower with no credit history, unsecured.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, secured by a cash deposit equal to the entire credit limit.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Families like to invest in U.S. Treasury securities because of their low risk.  Determine which type of treasury security each of the following families should invest in (Treasury Bills, Treasury Notes, or Treasury Bonds).
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A young family wants to save for retirement.
+			</p>
+		</task>
+		<task>
+			<p>
+				A family wants to save some excess funds for a purchase to be made in 9 months.
+			</p>
+		</task>
+		<task>
+			<p>
+				Parents of a 10-year old child want to save for their child's college tuition.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A Treasury Inflation Protected Security is issued with term of 5 years, a face value of 1000 and a coupon rate of 5%.  Determine the total amount of the payments made to the borrower in each of the following years (add amounts in the same year without regard for the time value of money) using the following annual CPI values (Year 0 = 100): 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell halign="left" left="medium" right="medium">
+							CPI
+						</cell>
+						<cell right="medium">
+							101.2
+						</cell>
+						<cell right="medium">
+							96
+						</cell>
+						<cell right="medium">
+							101.45
+						</cell>
+						<cell right="medium">
+							102.01
+						</cell>
+						<cell right="medium">
+							101.67
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Identify the type of government bond described.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Governor Eisler and the State of Ferris issue bonds to raise funds to pay for the construction of highways that will charge tolls.
+			</p>
+		</task>
+		<task>
+			<p>
+				The City of Actuaria issues bonds to raise funds for their general operating expenses.
+			</p>
+		</task>
+		<task>
+			<p>
+				The federal government issues bonds to pay for the national deficit.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				An investor has income from both treasury securities and municipal bonds.  It is tax time.  Which income must be reported on the federal income tax return and which must be reported on the state income tax return?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A U.S. investor purchased a 9-month European bond denominated in Euros.  The bond had a face value of 1000 euros, and was priced to yield an effective annual yield of 0.96% (European).  The investor purchased the bond on January 1, 2020, when the exchange rate was 1.11 euro per US dollar.  Nine months later, on October 1, 2020, when the bond matured, the exchange rate was 1.17 euro per US dollar.  Determine the US effective annual yield earned by the investor.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A six month zero-coupon bond has a face value of 1000.  Brokers are willing to purchase the bonds for 971.29 and sell the bonds for 980.58.  Determine the bid-ask spread as an effective annual yield rate.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Rank the interest rates for the following corporate bonds from smallest to largest.  Ties are allowed!
+			</p>
+			<ol marker="A.">
+				<li>
+					<p>
+						Corporation A has a low credit rating. They issue bonds that have a high bid-ask spread and are junior relative to previously issued bonds. 
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation B has a low credit rating.  They issue bonds that have a low bid-ask spread and have seniority over other bond issues.  
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation C has a high credit rating.  They issue bonds with a high bid-ask spread, are senior to other bond issues, and have a call provision.  
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation D has a high credit rating.  They issue bonds with a low bid-ask spread and are senior to other bond issues.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Which function of a central bank is represented by the following scenarios?
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A commercial bank needs to borrow funds overnight to satisfy demands from savings account holders.
+			</p>
+		</task>
+		<task>
+			<p>
+				A customer pays for their coffee with a debit card.  The customer banks with McCord Bank.  The coffee house banks with Morejon Bank.  Funds are transferred from McCord Bank\textquotesingle s reserve account to Morejon Bank, and funds from McCord Bank are transferred back into their reserve account.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose the statute authorizing the creation of a central bank in the Republic of Actuariastan reads as follows: 
+			</p>
+			<p>
+				The Central Bank of Actuariastan has the following powers:
+			</p>
+			<ul>
+				<li>
+					<p>
+						to establish, maintain, and update the mechanisms for transfers of payments between Registered Banks in the Republic of Actuariastan,
+					</p>
+				</li>
+				<li>
+					<p>
+						to hold deposits and make payments on behalf of the Republic of Actuariastan,
+					</p>
+				</li>
+				<li>
+					<p>
+						to facilitate transfers between the Central Bank of Actuariastan and foreign banks,
+					</p>
+				</li>
+				<li>
+					<p>
+						to lend funds to Registered Banks in the Republic of Actuariastan and to set the interest rate for loans to Registered Banks,
+					</p>
+				</li>
+				<li>
+					<p>
+						to issue Treasury Bonds, and
+					</p>
+				</li>
+				<li>
+					<p>
+						to repurchase Treasury Bonds.
+					</p>
+				</li>
+			</ul>
+		</introduction>
+		<task>
+			<p>
+				Suppose the Central Bank of Actuariastan is concerned that the interest rate is too high and wants to reduce the interest rate.  Which of the following strategies are authorized and will reduce the interest rate?  Select all that apply.
+			</p>
+			<ol marker="I.">
+				<li>
+					<p>
+						Issue more currency into the country.
+					</p>
+				</li>
+				<li>
+					<p>
+						Withdraw currency from the country.
+					</p>
+				</li>
+				<li>
+					<p>
+						Issue Treasury Bonds.
+					</p>
+				</li>
+				<li>
+					<p>
+						Purchase Treasury Bonds.
+					</p>
+				</li>
+				<li>
+					<p>
+						Increase the interest rate charged for loans to other banks.
+					</p>
+				</li>
+				<li>
+					<p>
+						Reduce the interest rate charged to loans for other banks.
+					</p>
+				</li>
+			</ol>
+		</task>
+		<task>
+			<p>
+				The Central Bank is only authorized to manage mechanisms for transfers of payments between Actuariastan banks.  How does the statute envision transactions involving foreign banks will be facilitated?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following scenarios in the United States, determine which rate is involved.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bank facing a shortage and unable to borrow from its peers has to borrow from the Federal Reserve.
+			</p>
+		</task>
+		<task>
+			<p>
+				Due to a concern about a stock market bubble, the Federal Reserve Bank of Kansas City sells bonds in order to increase interest rates.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Federal Open Market Committee sets targets in order to decrease interest rates in order to increase capital investment.
+			</p>
+		</task>
+		<task>
+			<p>
+				The Federal Reserve charges a higher rate for loans it makes to other banks.
+			</p>
+		</task>
+		<task>
+			<p>
+				Morejon Bank borrows funds overnight from McCord Bank in order to satisfy depositor demands for the day.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose a loan of 1000 is to be repaid in six months, subject to simple discount.  Find the amount borrowed for each of the following annual simple discount rates:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>d = 2.5\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 1.75\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 5\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 6\%</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>d = 3\%</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Suppose a loan of 1000 is repaid after one quarter, subject to simple discount.  Find the annual simple discount rate for each of the following amounts borrowed:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				997.5
+			</p>
+		</task>
+		<task>
+			<p>
+				990
+			</p>
+		</task>
+		<task>
+			<p>
+				970
+			</p>
+		</task>
+		<task>
+			<p>
+				980
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Russel Jackson borrows 462.60 to be repaid in 9 months at an annual simple discount rate of 10%.  How much is paid back at the end of the term?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following T-bills, find the quoted rate.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A T-bill issued in the U.S with 37 days to maturity, a maturity value of 100, with interest of 0.15.
+			</p>
+		</task>
+		<task>
+			<p>
+				A T-bill issued in Canada with 91 days to maturity, interest of 1.25, priced at 87.50.
+			</p>
+		</task>
+		<task>
+			<p>
+				A T-bill issued in Canada with 271 days to maturity, a maturity value of 500, with interest of 35.
+			</p>
+		</task>
+		<task>
+			<p>
+				A T-bill issued in the U.S., with 180 days to maturity, a maturity value of 1500, priced at 1476.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Suppose a T-bill issued in Canada has a maturity value of 2500, carrying interest of 75, has a quoted rate of 4%.  How many days are left to maturity?
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A T-bill issued in the U.S. has 180 days to maturity, offers interest of 40, and a quoted rate of 8%.  Find the price.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				You are given the following information regarding treasury bills issued by the U.S. and Canada: 
+			</p>
+			<table>
+				<tabular halign="center" top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<term>Government</term>
+						</cell>
+						<cell right="medium">
+							<term>Term (days)</term>
+						</cell>
+						<cell right="medium">
+							<term>Current Price</term>
+						</cell>
+						<cell right="medium">
+							<term>Maturity Value</term>
+						</cell>
+						<cell right="medium">
+							<term>Quoted Rate (%)</term>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							U.S.
+						</cell>
+						<cell right="medium">
+							90
+						</cell>
+						<cell right="medium">
+							980
+						</cell>
+						<cell right="medium">
+							<m>X</m>
+						</cell>
+						<cell right="medium">
+							8.0
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							U.S.
+						</cell>
+						<cell right="medium">
+							<m>Y</m>
+						</cell>
+						<cell right="medium">
+							950
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+						<cell right="medium">
+							10.0
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Canada
+						</cell>
+						<cell right="medium">
+							90
+						</cell>
+						<cell right="medium">
+							980
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+						<cell right="medium">
+							<m>Z</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Canada
+						</cell>
+						<cell right="medium">
+							180
+						</cell>
+						<cell right="medium">
+							<m>A</m>
+						</cell>
+						<cell right="medium">
+							1000
+						</cell>
+						<cell right="medium">
+							10.7
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Calculate <m>X</m>, <m>Y</m>, <m>Z</m>, and <m>A</m>.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

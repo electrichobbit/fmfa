@@ -1,0 +1,134 @@
+<section xml:id="convexity-and-second-order-approximation">
+	<title>Convexity and Second Order Approximations</title>
+	<p>
+		We can get more accuracy when estimating <m>P(\iota + \Delta \iota)</m> with a second order approximation.  The financial concept involved is called <term>convexity</term>.
+	</p>
+	<activity xml:id="finding-second-derivatives">
+		<introduction>
+			<p>
+				We start by finding some second derivatives.  There are a few where we can accomplish this symbolically without too much fuss.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the following second derivative:
+			</p>
+			<me>\frac{d^2 v^n}{d \iota^2}</me>
+		</task>
+		<task>
+			<p>
+				Find <m>P"(\iota)</m> for a zero-coupon bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find <m>P"(\iota)</m> for a perpetuity immediate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find <m>P"(\iota)</m> for cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, at a current effective annual interest rate of 5%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-second-order-approximation">
+		<introduction>
+			<p>
+				Let's see how we can find a second order approximation for <m>P(\iota + \Delta \iota)</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write down the equation for the second order approximation that we get from the Taylor series.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a price <m>P(0.05) = 1,036.55</m> and satisfies <m>P'(0.05) = - 8292.4</m> and <m>P"(0.05) = 42,354</m>.  Find the approximate price of the bond if the interest rate grows by 25 basis points.
+			</p>
+		</task>
+		<task>
+			<p>
+				Another bond has a price <m>P(0.03) = 981.56</m>, <m>MD = 7.21</m>, and <m>P"(0.035) = 31,819</m>. Find the approximate price of the bond if the interest rate declines to 2.5%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="definition-of-convexity">
+		<introduction>
+			<p>
+				The financial concept related to <m>P"(\iota)</m> is <term>convexity</term>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				As you can see from our examples, <m>P"(\iota)</m> is generally positive.  In constructing convexity, we do not need to change the sign.  But we still compare to <m>P(\iota)</m> so we convexity can be thought of as a percentage.  Write the equation defining convexity, which we denote by <m>CONV</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Write the equation for the second order approximation of <m>P(\iota + \Delta \iota)</m> using modified duration and convexity.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-durations-and-convexity">
+		<introduction>
+			<p>
+				A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the amount of the loan.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the Macaulay duration.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the modified duration.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the convexity.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-problems-with-convexity">
+		<introduction>
+			<p>
+				Solve the following problems.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the modified duration and convexity to estimate the second order change in price: A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3.  The project is priced to yield 10%.  Set <m>\Delta \iota = 0.01</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use the modified duration and convexity to estimate the second order change in price: A perpetuity-immediate with annual payments of 15,000, priced to yield <m>\iota = 9\%</m>.  Set <m>\Delta \iota = -0.003</m>.
+			</p>
+		</task> 
+		<task>
+			<p>
+				A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%.  Find the convexity.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond has a price <m>P(0.075) = 941.55</m>, a Macaulay duration <m>D = 17.34</m>, and convexity <m>CONV = 32.45</m>, find the approximate price of the bond if the interest rate decreases by 150 basis points.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="convexity-reflection">
+		<statement>
+			<p>
+				Explain how the second derivative makes our estimations more accurate.
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,158 @@
+<section xml:id="modified-duration">
+	<title>Modified Duration</title>
+	<p>
+		There is another measure used to assess interest rate risk called <term>modified duration</term> that we will explore in this section.
+	</p>
+	<activity xml:id="motivating-modified-duration">
+		<introduction>
+			<p>
+				Suppose we have a set of cash flows and the price, given an appropriate effective interest rate <m>\iota</m>, is <m>P(\iota)</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				How does the derivative <m>P'(\iota)</m> tell us about the interest rate risk faced by investors in the cash flows?
+			</p>
+		</task>
+		<task>
+			<p>
+				Why is <m>P'(\iota) &lt; 0</m>?
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Modified duration</term> is a measure of interest rate risk that is based on <m>P'(\iota)</m>, with two adjustments.  First, the measure is positive.  Second, the measure is expressed as a percentage of the price <m>P(\iota)</m>.  
+			</p>
+			<p>
+				Using this information, write what you think the formula for modified duration will be.  Denote the modified duration by <m>MD</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-modified-duration">
+		<introduction>
+			<p>
+				Find the modified duration for the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, valued at <m>\iota = 5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A share of stock with annual dividends starting at 2.50 and growing 2% per year forever.  Value at <m>\iota = 3\%</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="formula-for-modified-duration-perpetuity-immediate">
+		<statement>
+			<p>
+				Find the formula for the modified duration of a perpetuity immediate.  What do you notice?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-formulas-for-modified-duration">
+		<introduction>
+			<p>
+				Use the calculus of actuarial symbols to find a formula for the modified duration of each of the following.  Compare to the Macaulay duration shortcuts and see if you can find a pattern.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A zero coupon bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				A level-payment annuity.
+			</p>
+		</task>
+		<task>
+			<p>
+				If you compare to the shortcuts for Macaulay duration, what pattern do you see?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="comparing-numerators-in-macaulay-duration">
+		<introduction>
+			<p>
+				Let's show that the pattern you observed holds generally. For both Macaulay and modified duration, we compare a numerator to <m>P</m>.  So we will compare the numerators. 
+			</p>
+			<p>
+				For the questions that follow, suppose we have cash flows of <m>CF_i</m> at times <m>t_i</m> for <m>i = 1, 2, \ldots, n</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				First, write down the numerator for Macaulay duration. 
+			</p>
+		</task>
+		<task>
+			<p>
+				If <m>P(\iota)</m> is the price for the cash flows, find an expression for <m>-P'(\iota)</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Compare the two numerators and write an equation that allows you to convert between <m>D</m> and <m>MD</m> (or vice versa).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-modified-duration-in-problems">
+		<introduction>
+			<p>
+				Find the modified or Macaulay duration (as indicated) for each of the following.  Note that in some cases, it is easier to find <m>D</m> first and then convert to <m>MD</m>, or vice versa!
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Calculate the modified duration, at <m>\iota = 0.045</m>, of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the modified duration of a level-payment annuity with 10 payments of 1,500, valued at <m>\iota = 3.5\%.</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the modified duration of a coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-modified-duration-for-deferred-annuity">
+		<introduction>
+			<p>
+				Let <m>D</m> be the Macaulay duration of a level-payment annuity with <m>k</m> payments of <m>X</m> valued at an effective, periodic interest rate of <m>\iota</m>.  Let <m>D'</m> be the Macaulay duration of the same annuity, but deferred for <m>n</m> payment periods.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the calculus of actuarial symbols to find the modified duration of the deferred annuity. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Use the modified duration to show that <m>D' = D + n</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose we have an annuity-immediate with 360 monthly payments of 500 at <m>\iota^{(12)} = 15\%</m>.  Suppose the payments are deferred for one year.  Find the Macaulay duration and modified duration. 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="calculating-duration-and-modified-duration">
+		<statement>
+			<p>
+				Write down two ways to calculate <m>D</m>, and two ways to calculate <m>MD</m>.
+			</p>
+		</statement>
+	</activity>
+</section>

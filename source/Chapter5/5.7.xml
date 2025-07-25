@@ -1,0 +1,173 @@
+<section xml:id="annuities-with-payments-in-arithmetic-progression">
+  <title>Introduction to Annuities with Payments in Arithmetic Progression</title>
+  <p>
+    Earlier in the chapter we studied annuities whose payments were in geometric progression (i.e. grew or declined by a constant percentage).  Now we pivot to payments in arithmetic progression (i.e. grow or decline by a constant absolute amount). 
+  </p>
+  <p>
+    The present value of an annuity with <m>n</m> payments, starting with a payment of <m>K</m> and whose payments grow by <m>K</m> per period is written <m>K(Ia)_{\angln \iota}</m> where <m>\iota</m> is the effective periodic interest rate.  Such an annuity is called an <term>increasing annuity immediate</term>.  
+  </p>
+  <figure xml:id="increasing-annuity-immediate-timeline">
+    <caption>Timeline for an increasing annuity immediate.</caption>
+    <image source="images/5.7.increasing.png">
+      A timeline with K at 1, 2K at 2, up to nK at n.  The present value of an increasing annuity with first payment K is labeled at time 0.
+    </image>
+  </figure>
+  <p> 
+    The future value of an annuity with <m>n</m> payments which decrease by <m>K</m> per period and whose <term>last</term> payment is <m>K</m> is written <m>K(Ds)_{\angln \iota}</m>.  Such an annuity is called a <term>decreasing annuity immediate</term>. 
+  </p>
+  <figure xml:id="decreasing-annuity-immediate-timeline">
+    <caption>Timeline for a decreasing annuity immediate.</caption>
+    <image source="images/5.7.decreasing.png">
+      A timeline with K at n, 2K at n-1, up to nK at 1.  The present value of a decreasing annuity with last payment K is labeled at time 0.
+    </image>
+  </figure>
+  <activity xml:id="last-payment-of-increasing-annuity-immediate">
+    <statement>
+      <p> 
+        What is the amount of the last payment of an increasing annuity immediate with <m>n</m> payments starting with <m>K</m> and growing by <m>K</m> each time? 
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="first-payment-of-decreasing-annuity-immediate">
+    <statement>
+      <p> 
+        What is the amount of the first payment of a decreasing annuity immediate with <m>n</m> payments shrinking by <m>K</m> each time whose last payment is <m>K</m>?
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="symbols-for-increasing-decreasing-annuities">
+    <statement>
+      <p> 
+        Complete the following table with appropriate symbols: 
+      </p>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Present Value
+            </cell>
+            <cell>
+              Future Value
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Increasing Annuity Immediate
+            </cell>
+            <cell>
+              <m>(Ia)_{\angln \iota}</m>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Increasing Annuity Due
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Decreasing Annuity Immediate
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+              <m>(Ds)_{\angln \iota}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Decreasing Annuity Due
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </activity>
+  <activity xml:id="expressing-sequences-of-payments-symbolically">
+    <introduction>
+      <p> 
+        The sequences that follow are sequences of payments in annuities immediate.  Express both the present and future values symbolically.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>3, 6, 9, 12, \ldots, 45</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>12, 24, 36, ... , 108</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>45, 40, 35, ..., 5</m>
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="using-timelines-to-find-relationships-between-increasing-decreasing-annuities">
+    <introduction>
+      <p> 
+        We can use timelines to find relationships between increasing and decreasing annuities.  For each of the following, (i) create two timelines, one for each term, (ii) combine the two into a single timeline, and (iii) Describe the result of the combination financially. 
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>na_{\angln} - v(Ia_{\angl{n-1}})</m> 
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>(n+1)a_{\angln} - (Ia)_{\angln}</m> 
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="finding-equations-to-solve-increasing-and-decreasing-annuities">
+    <introduction>
+      <p> 
+        For each of the following problems, generate one or more equations whose solution will solve the problem.  Consider making timelines, identifying what types of payment sequences or annuities you have, and deciding where to value everything as part of the process of constructing equations.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Olga buys a 5-year increasing annuity for <m>X</m>. Olga will receive 2 at the end of the first month, 4 at the end of the second month, and for each month thereafter the payment increases by 2. The nominal interest rate is 9\% convertible quarterly.  Calculate <m>X</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        A perpetuity costs 77.1 and makes annual payments at the end of the year. The perpetuity pays 1 at the end of year 2, 2 at the end of year 3, ..., <m>n</m> at the end of year <m>(n+1)</m>. After year <m>(n+1)</m>, the payments remain constant at <m>n</m>. The effective annual interest rate is 10.5\%.  Calculate <m>n</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Louis is supposed to be given a monthly gift of 50 at the end of each month throughout the year.  By August, the donor is no longer able to keep up these payments, and the payments decline by 10 each month, with the payment in September set at 40, and so on until the end of the year. 
+      </p>
+      <p>
+        Louis remains grateful, and deposits each payment into an account with <m>\iota^{(12)} = 9\%</m>.  Find the amount in the account immediately after the last payment at the end of December.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Kara makes deposits of 1000 into a primary account at the <term>end</term> of each year for 5 years.  Clark makes deposits of 1000 into a primary account at the <term>beginning</term> of each year for 5 years.  Each year, just after interest is credited to each account, they withdraw only the interest and reinvest it into a secondary account (each has their own secondary accounts). The primary account Kara uses has an effective annual interest rate of 9\% and the primary account Clark uses has an effective annual interest rate of 10\%. The secondary account used by Kara has an effective annual interest rate of 9\% and the secondary account used by Clark has an effective annual interest rate of 8\%.  At the end of 5 years, Kara has a total of <m>X</m> and Clark has a total of <m>Y</m>. Calculate <m>Y-X</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="arithmetic-progression-annuities-reflection">
+    <statement>
+      <p> 
+        Why will we have an increasing annuity whenever a depositor withdraws and reinvests the periodic interest on a level-payment annuity?
+      </p>
+    </statement>
+  </activity>
+</section>

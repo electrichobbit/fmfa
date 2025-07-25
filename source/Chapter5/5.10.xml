@@ -1,0 +1,134 @@
+<section xml:id="solving-problems-with-payments-in-arithmetic-progression-through-chunking">
+	<title>Solving Problems with Payments in Arithmetic Progression 2</title>
+	<p>
+		When reviewing arithmetic sequences, you noticed that sometimes an arithmetic sequence starts with a multiple of the common difference <m>d</m> and sometimes it does not.  The same is true when we have an annuity with payments in arithmetic progression.  So far we have assumed that the payments start at <m>K</m> and increase by <m>K</m> (or decrease by <m>K</m> and end at <m>K</m>).  Now we are going to ask how this changes if we start with a payment of <m>P</m> and increase by <m>Q</m> (or decrease by <m>Q</m> and end at <m>P</m>).  This involves chunking.
+	</p>
+	<p>
+		Once we examine this, we will solve some former exam problems.
+	</p>
+	<activity xml:id="rewriting-arithmetic-sequences">
+		<statement>
+			<p> 
+				Let's start with arithmetic sequences.  The <m>n</m>th term is <m>a_n = a_1 + d(n-1)</m>.  How can we rewrite this formula if we want to make it look like <m>y=mx+b</m>?  More specifically, if we write <m>a_n</m> as a constant plus <m>dn</m>, what is that constant?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="creating-timelines-for-arithmetic-progressions">
+		<introduction>
+			<p> 
+				Keeping the previous question in mind, consider the following exercises.  
+			</p>
+			<p>
+				For each of the following, (i) create two timelines, one for each term, (ii) combine the two into a single timeline, and (iii) Describe the result of the combination financially. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>100a_{\angl{30}} + 15v(Ia)_{\angl{29}}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>85a_{\angl{30}} + 15(Ia)_{\angl{30}}</m> 
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="generalizing-to-other-arithmetic-progressions">
+		<introduction>
+			<p> 
+				Consider how to generalize the exercises you completed.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				If <m>P</m> is the first payment of an annuity whose payments increase by <m>Q</m> each period, find two formulas for the present value, and two formulas for the future value (use actuarial notation generously, do not feel the need to drill down to the details).
+			</p>
+		</task>
+		<task>
+			<p> 
+				Looking at your formulas, which one best resembles your response to the first question?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Analogize to decreasing annuities: find two formulas for the present value, and two formulas for the future value of a decreasing annuity whose payments decrease by <m>Q</m> and whose last payment is <m>P</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-problems-with-arithmetic-progressions-in-annuities">
+		<introduction>
+			<p> 
+				Find the following values.  Use an effective interest rate of 5% for both.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				We have ten payments starting at 50, with each payment increasing by 10. Find the present value.
+			</p>
+		</task>
+		<task>
+			<p> 
+				We have twenty payments.  The first payment is 190, each payment thereafter decreases by 5.  Find the accumulated value immediately after the final payment.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="determining-whether-chunking-is-necessary">
+		<statement>
+			<p> 
+				It can be tricky to determine whether a decreasing annuity requires chunking or not.  Consider the following two annuities:
+			</p>
+			<ul>
+				<li>
+					<p> 
+						Annuity 1: Four payments, first payment is 50, payments increase by 10.
+					</p>
+				</li>
+				<li>
+					<p> 
+						Annuity 2: Four payments, first payment is 50, payments decrease by 10.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Do both annuities require chunking?  Why or why not?  How do you know?  Where do you look regarding the decreasing annuity?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="exam-problems-using-arithmetic-progressions">
+		<introduction>
+			<p> 
+				Solve the following former exam problems.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Sandy purchases a perpetuity-immediate that makes annual payments. The first payment is 100, and each payment thereafter increases by 10. Danny purchases a perpetuity-due which makes annual payments of 180. Using the same effective annual interest rate, <m>\iota > 0</m>, the present value of both perpetuities are equal. Calculate <m>\iota</m>. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				1000 is deposited into Fund <m>X</m>, which earns an effective annual interest rate of 6%. At the end of each year, the interest earned plus an additional 100 is withdrawn from the fund. At the end of the tenth year, the fund is depleted. The annual withdrawals of interest and principal are deposited into Fund <m>Y</m>, which earns an effective annual rate of 9%. Determine the accumulated value of Fund <m>Y</m> at the end of year 10.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-an-unknown-interest-rate">
+		<statement>
+			<p> 
+				With level-payment annuities, we can find an unknown interest rate using our financial calculators.  For increasing and decreasing annuities, that isn't the case.  However, sometimes a problem is set up in a way that we actually can find an unknown interest rate, as in the following former exam problem. 
+			</p>
+			<p>
+				Victor invests 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an effective annual interest rate of <m>\iota</m>%. The interest is reinvested at an effective annual rate of <m>\frac{\iota}{2}</m>%. The yield rate on the entire investment over the 20 year period is 8% effective annual.  Determine <m>\iota</m>.
+			</p>
+			<p>
+				NOTE: The term "yield rate" here means the interest rate that one would use for an annuity (without reinvestment) with payments of 300 that would result in the same future value (or present value) as the scheme that Victor engaged in (was this me??). 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="arithmetic-progression-with-chunking-reflection">
+		<statement>
+			<p> 
+				What do you think is the most challenging part of working with increasing and decreasing annuities?
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,203 @@
+<exercises xml:id="problem-solving-with-annuities-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following deferred annuities, make a timeline marking where the valuation occurs, and find the value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>75  \  _6\left| a_{\angl{24} 0.01} \right.</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>250  \ _{240}\left| a_{\angl{360} 0.0525} \right.</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>1250  \ _{10} \left| a_{\angl{10} 0.025} \right.</m>
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the value of each of the annuities at the indicated time.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity pays 250 at the beginning of each month for one year.  Find the value three months after the final payment assuming <m>\iota^{(12)} = 12\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity pays 675 at the end of each quarter for five years.  Find the value nine months prior to the final payment assuming the effective quarterly interest rate is \\ <m>\iota = 3\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity pays 45000 semiannually, starting 3.5 years from today, for four years.  Find the present value assuming <m>\iota^{(2)} = 5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A perpetuity pays 5000 at the beginning of each month, starting three months from today.  Find the present value assuming the effective monthly interest rate is 0.0225.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity makes 16 quarterly payments of 7500.  Find the value 6 months after the final payment assuming <m>\iota^{(4)} = 8\%</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following, solve for the missing value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity makes annual payments of <m>K<m> annually for 10 years.  The value 3 years following the last payment is 934.06. Find </m>K<m>, assuming the effective annual interest rate is </m>\iota = 6%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for the purchase price of a house requires monthly payments of 5150 at the end of every month, starting one year from now.  The loan carries an effective monthly interest rate of <m>\iota = 0.75\%</m>.  The price of the house is 585,159.60.  Find the number of payments required to pay off the loan.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan to purchase a house for 750,000 carries an interest rate of <m>\iota^{(12)} = 15%<m> and is to be paid off by monthly payments over 15 years.  The borrowers have the option to defer payments for </m>m<m> months, in which case their monthly payment will be 13,206.78.  Find </m>m</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity makes quarterly payments of 250 for 15 years.  Using <m>\iota^{(4)} = 0.06<m>, the value </m>m<m> years following the last payment is 32,396.796.  Find </m>m</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				When you graduate, you have 65,500 in student loans.  Your loans carry a nominal interest rate of 9% compounded monthly.  Your first payment is in 9 months.  Once you start paying, you will have your loans paid off in (gulp!) 20 years.  What is your monthly payment?
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity pays 500 semiannually.  Assuming an effective semiannual interest rate of 0.04, the value two years after the final payment is 10,699.47.  How many payments were there?
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value the following cash flows as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				An annuity pays 250 at the end of each month for 2 years, followed by payments of 500 at the end of each month for 3 years.  The effective monthly interest rate is 0.005.  Find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity has quarterly payments of 750 for 3 years, followed by quarterly payments of 250 for 1 year.  Given <m>\iota^{(4)} = 0.015</m>, find the value immediately after the final payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity due has semiannual payments of 2500 for 10 years.  For the first 7 years, the effective semiannual interest rate is 4%.  For the final 3 years, the nominal interest rate is 6% compounded semiannually.  Find the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				An annuity immediate pays 1000 annually for 12 years, then pays 920 for 8 years.  During the first 10 years, the effective annual interest rate is 0.08, and for the final 10 years, the effective annual interest rate is 6%.  Find the value immediately after the final payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				An "entailed perpetuity" (my own invented term) is an annuity followed by a perpetuity.  Suppose an entailed perpetuity has a 10-year annuity immediate with semi-annual payments of 12,000 followed by a perpetuity immediate with semiannual payments of 15,000.  Assuming <m>\iota^{(2)} = 0.06</m> forever, find the price to purchase this financial product.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value the following annuities as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the accumulated value of an annuity that pays 7000 at the beginning of each month for 12 years, assuming that the effective annual interest rate is <m>\iota = 6\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of an an annuity immediate that pays 2000 quarterly for 6.75 years, given <m>\iota^{(12)} = 9\%</m>.  
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of a perpetuity immediate with payments of 4500 every three years, given <m>\iota^{(2)} = 0.06</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value of an annuity due paying 150 annually for three years given an effective quarterly interest rate of 3%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value of an annuity immediate paying 2000 at the end of every five years for four decades, assuming the effective annual interest rate is <m>\iota = 2.25</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Value the following annuities as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the present value of an annuity immediate with 20 payments of 900 with an effective periodic discount rate of 6%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value of an annuity immediate with payments of 20,000 semiannually for 10 years, assuming <m>d^{(4)} = 3.5\%</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value of a 10-year perpetuity due with payments of 6000 every 2 years, assuming <m>d^{(2)} = 7\%</m>. 
+			</p>
+		</task>
+		<task>
+			<p>
+				A stock pays quarterly dividends of 3.75 for the next three years, starting three months from today.  Find the present value assuming a continuously compounded interest rate of 4%.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the accumulated value of an annuity with 15 annual payments of 375 immediately following the last payment, assuming <m>\delta = 0.085</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				Find the present value of a continuously payable annuity, with payments at a rate of 12,000 per year for 5 years, assuming <m>\delta = 0.05</m>.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				A continuously payable annuity has payments of 2400 quarterly for 3 years. Find the accumulated value, assuming <m>\iota^{(12)} = 12\%</m>.
+			</p>
+		</statement>
+	</exercise>
+</exercises>

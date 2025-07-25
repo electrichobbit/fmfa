@@ -1,0 +1,219 @@
+<section xml:id="solving-problems-with-arithmetic-progressions">
+  <title>Solving Problems with Payments in Arithmetic Progression 1</title>
+  <p>
+    In <xref ref="annuities-with-payments-in-arithmetic-progression"/>, you generated a set of equations for several problems.  Now we will solve those problems.
+  </p>
+  <activity xml:id="finding-present-value-increasing-annuity">
+    <statement>
+      <p> 
+        Olga buys a 5-year increasing annuity for <m>X</m>. Olga will receive 2 at the end of the first month, 4 at the end of the second month, and for each month thereafter the payment increases by 2. The nominal interest rate is 9% convertible quarterly.  Calculate <m>X</m>.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="calculate-constant-payment-perpetuity-increasing">
+    <statement>
+      <p> 
+        A perpetuity costs 77.1 and makes annual payments at the end of the year. The perpetuity pays 1 at the end of year 2, 2 at the end of year 3, ..., <m>n</m> at the end of year <m>(n+1)</m>. After year <m>(n+1)</m>, the payments remain constant at <m>n</m>. The effective annual interest rate is 10.5%.  Calculate <m>n</m>.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="calculating-future-value-decreasing-annuity">
+    <statement>
+      <p> 
+        Louis is supposed to be given a monthly gift of 50 at the end of each month throughout the year.  By August, the donor is no longer able to keep up these payments, and the payments decline by 10 each month, with the payment in September set at 40, and so on until the end of the year. 
+      </p>
+      <p>
+        Louis remains grateful, and deposits each payment into an account with <m>\iota^{(12)} = 9\%</m>.  Find the amount in the account immediately after the last payment at the end of December.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="difference-in-future-value-of-increasing-annuities">
+    <statement>
+      <p> 
+        Kara makes deposits of 1000 into a primary account at the <term>end</term> of each year for 5 years.  Clark makes deposits of 1000 into a primary account at the <term>beginning</term> of each year for 5 years.  Each year, just after interest is credited to each account, they withdraw only the interest and reinvest it into a secondary account (each has their own secondary accounts). The primary account Kara uses has an effective annual interest rate of 9% and the primary account Clark uses has an effective annual interest rate of 10%. The secondary account used by Kara has an effective annual interest rate of 9% and the secondary account used by Clark has an effective annual interest rate of 8%.  At the end of 5 years, Kara has a total of <m>X</m> and Clark has a total of <m>Y</m>. Calculate <m>Y-X</m>.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="recap-annuity-valuation-formulas">
+    <statement>
+      <p> 
+        Let's recap our annuity valuation formulas. Fill in the following table:
+      </p>
+      <table>
+        <tabular left="medium" top="medium" row-headers="yes">
+          <col width="40%" left="medium" right="medium"/>
+          <col width="30%" right="medium"/>
+          <col right="medium"/>
+          <row bottom="medium" header="yes">
+            <cell>
+              Type of Annuity
+            </cell>
+            <cell>
+              Present Value
+            </cell>
+            <cell>
+              Future Value
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Level-Payment Annuity-Immediate
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Level-Payment Perpetuity-Immediate
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Level-Payment Annuity-Due
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Level-Payment Perpetuity-Due
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Annuity-Immediate with Payments in Geometric Progression
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Perpetuity-Immediate with Payments in Geometric Progression
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Annuity-Due with Payments in Geometric Progression
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Perpetuity-Due with Payments in Geometric Progression
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Increasing Annuity-Immediate
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Increasing Perpetuity-Immediate
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Increasing Annuity-Due
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+           <row bottom="medium">
+            <cell>
+              <p>
+                Increasing Perpetuity-Due
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Decreasing Annuity-Immediate
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell>
+              <p>
+                Decreasing Annuity-Due
+              </p>
+            </cell>
+            <cell>
+            </cell>
+            <cell>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Which of these are you going to memorize, and which will you derive as needed?
+      </p>
+    </statement>
+  </activity>
+</section>

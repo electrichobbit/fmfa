@@ -1,0 +1,102 @@
+<section xml:id="interest-rates-units-of-time">
+	<title>Equivalent Interest Rates 2 -- Units of Time</title>
+	<p>
+		In physics, you learn to use coordinates that match the symmetry in the system you are working with.  In financial mathematics, the equivalent approach is to use units of time that fit the problem. 
+	</p>
+	<p>
+		We saw in the last activity that we can convert any interest rate into many different equivalent rates.  We choose the desired interest rate by choosing units of time for the problem, which are often dictated by the timing of the cash flows. 
+	</p>
+	<p>
+		For this activity, we will use the following problems: 
+	</p>
+	<ol>
+		<li xml:id="diana-prince">
+			<p>
+				Diana Prince makes three monthly deposits of 5000 at the end of each month into an account with <m>\iota^{(2)} = 6\%</m>.  What was the total amount of interest earned over the three month period? 
+			</p>
+		</li>
+		<li xml:id="clark-kent">
+			<p>
+				Clark Kent makes a deposit of 20,000 into the Bank of Metropolis at the end of every two years over a six-year period.  The account bears <m>\iota^{(12)} = 12\%</m>.   What is the amount in the account immediately after the last deposit? 
+			</p>
+		</li>
+		<li xml:id="bruce-wayne">
+			<p>
+				Bruce Wayne deposits 45,000.  He then deposits an additional 45,000 at the end of <m>n</m> years after the original deposit.  Immediately after the deposit, the balance is 100,000.  The account bears an interest rate of 4.053914% convertible semi-annually.  Find <m>n</m>. 
+			</p>
+		</li>
+	</ol>
+	<activity xml:id="units-of-time">
+		<introduction>
+			<p> 
+				Find the appropriate units of time to use in solving each of the three problems. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<xref ref="diana-prince"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="clark-kent"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="bruce-wayne"/>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-interest-rates-with-units-of-time">
+		<introduction>
+			<p> 
+				For each of the three problems, find the appropriate interest rate that matches the time units you will use in the problem. 
+			</p>
+		</introduction>
+		<task>	
+			<p> 
+				<xref ref="diana-prince"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="clark-kent"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="bruce-wayne"/>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-units-of-time-problems">
+		<introduction>
+			<p> 
+				Solve each problem. 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<xref ref="diana-prince"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="clark-kent"/>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<xref ref="bruce-wayne"/>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="units-of-time-reflection">
+		<statement>
+			<p> 
+				Do we need new future or present value formulas to deal with nominal interest rates?  Explain.
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,30 @@
+<introduction>
+	<p>
+		So far, we have examined (for the most part) <term>lump sums</term> - a single amount of money at a single point in time.  We now turn to <term>annuities</term> - sequences of payments over time.  The payments are to be spaced by equal time intervals (months, years, etc.).  Our focus in this course will be on "annuities-certain" -- annuities in which the payments are certain to take place.  In your later actuarial exams, you will relax this assumption, meaning that the payments will be random variables. 
+	</p>
+	<p>
+		In this chapter and the chapter that follows, we assume that the payments in our annuities are constant.  In actuarial language, we say that we have "level payments." If there are <m>n</m> payments of <m>K</m> and the effective periodic interest rate is <m>\iota</m>, then we denote (a) the accumulated value of the annuity (immediately following the final payment) by <m>Ks_{\angln \iota}</m>, and (b) the present value of the annuity (one period prior to the first payment) by <m>Ka_{\angln \iota}</m>.  We can see this in the following timeline:
+	</p>
+	<figure xml:id="annuity-level-payments-timeline-example">
+		<caption>A timeline for an annuity with level payments</caption>
+		<image>
+			<latex-image>
+				\begin{tikzpicture}
+				  \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,0);
+				   \foreach \x/\y in {0/0}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{};
+				    }
+				  \foreach \x/\y in {1/1,2/2,3/3,9/$n-1$,10/$n$}{
+				    \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{$K$};
+				    }
+				    \draw (0.7,1.5mm) rectangle (10.2,7mm); 
+				    \draw[&lt;-] (0,-10mm) -- +(0,-7mm)node[below]{$Ka_{\angln \iota}$};
+				    \draw[&lt;-] (10,-10mm) -- +(0,-7mm)node[below]{$Ks_{\angln \iota}$};
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</figure>
+	<p>
+		This chapter and the two that follow are the heart of interest theory, and you should expect an increase in difficulty as we proceed.
+	</p>
+</introduction>

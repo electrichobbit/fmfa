@@ -1,0 +1,110 @@
+<section xml:id="interest-rate-risk">
+	<title>Interest Rate Risk</title>
+	<p>
+		As we have seen, the present value of cash flows can change when the interest rate changes.  There is the opportunity that the value will increase, and the risk that the value will decrease.  In this introductory activity, we will focus on bonds.
+	</p>
+	<activity xml:id="price-changes-with-yield-rate-changes">
+		<statement>
+			<p>
+				What happens to the price of a bond when the yield rate increases?  What happens when the yield rate decreases?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-effect-of-interest-rate-changes">
+		<statement>
+			<p>
+				Consider a ten-year zero-coupon bond with face value of 1000.  It was purchased to yield 1%.  Three years later, interest rates rose to 10%.  What happened to the value of the bond?  How was the bondholder effected by the rise in interest rates?  Explain specifically.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-value-when-yield-rates-change">
+		<introduction>
+			<p>
+				Suppose you have a coupon bond with face value of 10,000 and 4% semiannual coupon bonds for 5 years.  It was purchased to yield 3%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				One year after purchase, the yield rates have risen to 5%.  Find the book and the market value of the bond, and express the difference as either a gain or a loss to the bondholder.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose instead that one year after the purchase, yield rates have fallen to 2%.  Find the book and the market value of the bond, and express the difference as either a gain or loss to the bondholder.
+			</p>
+		</task>
+	</activity>
+	<p>
+		<term>Riding the yield curve</term> is an expression to mean purchasing a bond and waiting for the change in the yield curve over time to produce a profitable environment to sell the bond.
+	</p>
+	<activity xml:id="riding-the-yield-curve">
+		<introduction>
+			<p>
+				Suppose a three-year bond has 6% annual coupons on 1000 of face value, with a redemption amount of 1200.  At the time the bond is issued, the yield curve was: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>t</m>
+						</cell>
+						<cell right="medium">
+							<m>s_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.350%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6.025%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.700%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				Find the purchase price when the bond is issued.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose after 1 year, the yield curve is <m>s_1(1) = 6.15\%</m> and <m>s_1(2) = 7.025\%</m> (pay close attention to the notation -- we are sitting at time 1 right now).  Find both the book and market values of the bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose 1 year later, the yield curve includes <m>s_2(1) = 6.3\%</m>.  Find both the book and market values of the bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				What happened to the investment?  Was there a time when the bondholder could have profitably sold the bond?  If so, what was the best time?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="interest-rate-risk-reflection">
+		<statement>
+			<p>
+				Describe the risk investors face concerning interest rates.
+			</p>
+		</statement>
+	</activity>
+</section>

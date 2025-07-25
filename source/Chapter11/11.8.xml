@@ -1,0 +1,85 @@
+<section xml:id="first-order-approximations-and-modified-duration">
+	<title>First Order Approximations with Modified Duration</title>
+	<p>
+		Since modified duration is based on <m>P'(\iota)</m>, we can use <m>MD</m> to estimate changes in <m>P(\iota)</m> for small changes <m>\Delta \iota</m> using Taylor series.  This is sometimes called the <term>first order modified approximation</term> (we will see a first order Macaulay approximation in <xref ref="macaulay-approximation"/>).
+	</p>
+	<activity xml:id="formula-for-first-order-modified-approximation">
+		<statement>
+			<p>
+				Write down an equation for the first order approximation for <m>P(\iota + \Delta \iota)</m> using <m>P'(\iota)</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="estimating-price-using-first-order-modified-approximation">
+		<statement>
+			<p>
+				The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650.  The yield to maturity is an effective rate of 7%.   Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="first-order-modified-approximation-using-modified-duration">
+		<statement>
+			<p>
+				Rewrite your equation for the first order approximation for <m>P(\iota + \Delta \iota)</m> using <m>MD</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-modified-duration-to-estimate-first-order-change-in-present-value">
+		<introduction>
+			<p>
+				Use modified duration to estimate the first order change in the present value of the following cash flows:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%.  Set <m>\Delta \iota = 0.005</m>. 
+			</p>
+		</task>
+		<task>
+			<p>
+				A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield <m>\iota^{(12)} = 0.09</m>.  Set <m>\Delta \iota^{(12)} = -0.0012</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="estimating-bond-price-using-first-order-modified-approximation">
+		<statement>
+			<p>
+				Krishna buys an <m>n</m>-year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%. 
+			</p>
+			<p>
+				Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-yield-rate-from-first-order-modified-approximation">
+		<statement>
+			<p>
+				A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200.  The modified duration of this bond is 15.7668.  If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235.  Find the original yield rate. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="first-order-modified-approximation-for-change-in-price">
+		<introduction>
+			<p>
+				We can write the change in the price <m>\Delta P = P(\iota + \Delta \iota) - P(\iota)</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Write the first order modified approximation for <m>\Delta P</m> using <m>MD</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Write the first order modified approximation for <m>\Delta P</m> using <m>D</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="first-order-modified-approximation-reflection">
+		<statement>
+			<p>
+				Consider problems that ask you to use the first order modified approximation.  What are some different ways the problem may give you information, and how might that impact how you solve the problem?
+			</p>
+		</statement>
+	</activity>
+</section>

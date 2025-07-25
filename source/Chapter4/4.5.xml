@@ -1,0 +1,85 @@
+<section xml:id="multi-step-problems-and-leverage">
+	<title>Problem Solving 4 -- Multi-Step Problems and Leverage Variables</title>
+	<p>
+		Some problems require you to calculate one or more intermediate values before solving the problem at hand.  Sometimes the equation of value in these problems is actually a system of equations, other times you can write one equation and eliminate some unknowns.  There is often one value which, while not the answer, is critical to solving the problem.  I call this the <term>leverage variable</term>.  
+	</p>
+	<assemblage>
+		<title> &#x1F9EE; Calculator Tip: </title>
+		<p> 
+			Sometimes you can solve for the leverage variable in the financial calculator, assign it to a different TMV category, re-enter the rest of the TMV data, and solve for the value that is called for in the problem. 
+		</p>
+	</assemblage>
+	<activity xml:id="calculating-interest-for-two-investment-options">
+		<introduction>
+			<p> 
+				10,000 can be invested under two options: 
+			</p>
+			<p>
+				OPTION 1: Deposit the 10,000 into a fund earning an effective annual rate of <m>\iota</m>; or 
+			</p>
+			<p>
+				OPTION 2: Purchase an annuity-immediate with 24 level annual payments at an effective annual rate of 10%. The payments are deposited into a fund earning an effective annual rate of 5%. 
+			</p>
+			<p>
+				Both options produce the same accumulated value at the end of 24 years. Calculate <m>\iota</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Start with the endgame of the problem: what equation do you need to solve in order to solve the problem?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What value do you need to solve your equation?  This is the <term>leverage variable</term>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				What information in the problem will help you find the value of the leverage variable?  Use that information to set up an equation for the leverage variable.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-a-system-of-exponential-equations">
+		<introduction>
+			<p> 
+				Since financial mathematics involves exponential functions, you sometimes need to solve a system of exponential equations (something you likely have not seen in your earlier problems).  Let us consider an example of a system of exponential equations that we would like to solve:
+			</p>
+			<me>
+				806.86 = Ae^{-2K}
+			</me>
+			<me>
+				0.00025 = Ae^{3K}
+			</me>
+		</introduction>
+		<task>
+			<p> 
+				When you solve systems of linear equations, you can add or subtract the two equations in order to eliminate a variable.  What can you do with this exponential system in order to eliminate one of the variables?  (This is the only difference in strategy!)
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use your observation about elimination to solve this system (round answers to the nearest whole number, for simplicity).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-common-variable">
+		<statement>
+			<p> 
+				Dottie receives payments of <m>X</m> at the end of each year for <m>n</m> years. The present value of her annuity is 493. Sam receives payments of <m>3X</m> at the end of each year for <m>2n</m> years. The present value of his annuity is 2748. Both present values are calculated at the same effective annual interest rate. Determine <m>v^n</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="leverage-variable-reflection">
+		<statement>
+			<p> 
+				How might you know when you need to solve for a leverage variable before solving a given problem?
+			</p>
+		</statement>
+	</activity>
+</section>

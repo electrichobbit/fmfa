@@ -1,0 +1,181 @@
+<section xml:id="bond-pricing">
+	<title>Bond Pricing</title>
+	<p>
+		The price of a bond is the present value of the cash stream, valued at the yield rate.  We often say that the bond is <term>priced to yield</term> the yield rate.  While we will mostly use the yield rate to calculate the price, we will see in <xref ref="term-structure-interest-rates"/> that often prices determined through exchange are used to identify market yield rates.
+	</p>
+
+	<activity xml:id="arbitrage-argument-for-bond-price">
+		<introduction>
+			<p>
+				The fact that the price of a bond is the present value of the payments should not surprise you.  However, let us verify why this makes sense with an arbitrage argument.  Assume an investor can borrow or lend at the yield rate without transaction costs, and can pay the loan back with interest payments, and a final payment of principal at the end of the loan.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Suppose the price of a bond is lower than the present value of the payments.  Describe an arbitrage opportunity.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the price of a bond is higher than the present value of the payments.  Describe an arbitrage opportunity.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="bond-price-formula">
+		<statement>
+			<p>
+				The no-arbitrage rule says that the price must equal the present value.
+			</p>
+			<p>
+				Use this principle to write down a formula for the price of a bond.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="pricing-a-bond-example">
+		<statement>
+			<p>
+				The face value of a bond is 1000, the redemption amount is 1250, the coupon rate is <m>10\%</m>, the bond matures in five years.  Find the price to yield 12%. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="examining-the-effect-of-parameter-changes">
+		<introduction>
+			<p>
+				We think of the price of a bond <m>P</m> as a function of the yield rate (<m>P = f(\iota)</m>), with <m>F</m>, <m>r</m>, <m>C</m>, and <m>n</m> as parameters.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What will happen to the price of a bond if the yield rate rises? Alternatively, what will the sign of <m>f'(\iota)</m> be? (You do not need to find <m>f'(\iota)</m>!) 
+			</p>
+		</task>
+		<task>
+			<p>
+				What will happen to the yield rate if the price of the bond rises?
+			</p>
+		</task>
+		<task>
+			<p>
+				On March 3, 2020, CNN Business reported that: "The 10-year [US] Treasury bond yield dropped below 1% for the first time in history on Tuesday, as investors grew increasingly worried about the novel coronavirus outbreak." 
+			</p>
+			<p>
+				What do you think reporters observed in the bond market? Why does this make sense?
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Corner</title>
+		<p>
+			The financial calculator can be used to price bonds.  Use <m>n</m> for <kbd>N</kbd>, <m>\iota</m> for <kbd>I/Y</kbd> (as a whole number), the negative of the coupon payment (us <kbd>&#177;</kbd>) for <kbd>PMT</kbd>, and the negative of the redemption amount (use <kbd>&#177;</kbd>) for <kbd>FV</kbd>, then <kbd>PV</kbd> will return the price of the bond. You can also adapt this to solve for unknown values.
+		</p>
+	</assemblage>
+	<activity xml:id="using-calculator-to-price-bonds">
+		<introduction>
+			<p>
+				Use the financial calculator to price the following bonds as indicated:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The face value and the redemption amount are 1000, the coupon rate is 10%, and the bond matures in five years.  Price to yield 12%.
+			</p>
+		</task>
+		<task>
+			<p>
+				The face value and the redemption amount are 1000, the coupon rate is 10%, and the bond matures in five years.  Price to yield 8%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-missing-values-in-bonds">
+		<introduction>
+			<p>
+				For each of the following bonds, solve for the unknown value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A bond with annual coupon payments is priced to yield an effective annual rate of 4%.  The price is 10,445.18.  The bond has a face value of 10,000 and is redeemed at par in five years.  Find the coupon rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond priced to yield 8% has a price of 4776.87.  The bond carries a face value of 5000, a coupon rate of 6%, and matures in 20 years.  Find the redemption amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond with a face value of 1000 sells for 948.71. The coupon rate is 4%, and it matures in 6 years.  The bond is redeemed at par.  Find the rate that the bond is priced to yield.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond priced to yield 5% has a price of 891.74.  The bond has a coupon rate of 7%, a redemption amount of 900, and matures in 3 years.  Find the face value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A <term>zero-coupon bond</term> is a bond that pays no coupons (i.e. the coupon rate is <m>r=0</m>). If a zero-coupon bond has a redemption amount of 1000 due in 2 years, and is trading for 910.21, find the yield rate as an effective semiannual interest rate.
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip</title>  
+		<p>
+			If you do not clear the TVM functions on the calculator, it will keep all values that you have not changed.  So if you are pricing multiple bonds, where only one or two of the values change, you only need to change those values and recalculate the price.
+		</p>
+	</assemblage>
+	<activity xml:id="pricing-bonds-in-different-situations">
+		<introduction>
+			<p>
+				For each of the following bonds, the face value is 1000, and the coupon rate is 4%.  Price each bond to yield 5%.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Redeemed for 1050 at the end of 4 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				Redeemed for 1050 at the end of 6 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				Redeemed for 1025 at the end of 7 years.
+			</p>
+		</task>
+		<task>
+			<p>
+				Redeemed for 1025 at the end of 9 years.
+			</p>
+		</task>
+		\newpage
+		<task>
+			<p>
+				Redeemed at par at the end of 10 years.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="soa-exam-bond-problem-1">
+		<statement>
+			<p>
+				A <term>zero-coupon</term> bond pays no coupons and only pays a redemption amount at the time the bond matures. Greta can buy a zero-coupon bond that will pay 10,000 at the end of 10 years and is currently selling for 5,083.49. Instead she purchases a 10% bond with coupons payable semiannually that will pay 10,000 at the end of 10 years. If she pays <m>X</m> she will earn the same annual effective interest rate as the zero-coupon bond. Calculate <m>X</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="soa-exam-bond-problem-2">
+		<statement>
+			<p>
+				A 1,000 10% ten-year bond has semiannual coupons. It is purchased at 880 and is redeemable at 1020. Find the coupon amount and the effective yield rate per coupon period. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="bond-pricing-reflection">
+		<statement>
+			<p>
+				Do you need to memorize the formula for the price of a bond?  Why or why not?
+			</p>
+		</statement>
+	</activity>
+</section>

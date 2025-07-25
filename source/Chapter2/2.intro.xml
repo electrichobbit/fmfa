@@ -1,0 +1,8 @@
+<introduction>
+	<p>
+		In this chapter, we expand our universe of ways interest can accumulate in an account.  We begin with simple interest.  In contrast to compound interest, simple interest is modeled by a linear function.  From simple interest, we move on to discount.  Discount is used when interest is assessed at the beginning of an interest period, rather than the end.  While there is a notion of simple discount, we are going to focus on compound discount.  We will then examine what happens when interest compounds continuously, rather than discretely.  Continuous compounding is valuable for its own sake, but is also used as an approximation when interest is compounded at high frequencies, such as daily.  From continuous compounding we move on to something called the force of interest.  The force of interest is a useful way to generalize every possible way that interest can accumulate in an account.  We conclude the chapter with a chance to solve problems that include multiple ways that interest accumulates, in effect pausing to review and apply what we have learned in this chapter. 
+	</p>
+	<p>
+		Note that many of these models for interest accumulation are equivalent, in the sense that we can convert from one to another.  Indeed, compound interest, compound discount, continuous compounding, and a constant force of interest are all equivalent - meaning we can convert from one to another without changing the values of the underlying accumulation function <m>A(t)</m>.
+	</p>
+</introduction>

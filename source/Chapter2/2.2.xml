@@ -1,0 +1,124 @@
+<section xml:id="simple-interest">
+	<title>Simple Interest</title>
+	<p>
+		Interest can accumulate as <term>simple interest</term>, which means that the accumulation function is linear.  If we have an annual simple interest rate of <m>\iota</m>, then our accumulation factor is <m>a(t) = 1 + \iota t</m> and therefore our accumulation function is <me>A(t) = A(0)(1+\iota t)</me>.
+	</p>
+	<p>
+		This does not have to be annual.  We would like the period for <m>\iota</m> and the units for time <m>t</m> to match, although we will see that because of linearity, this is not quite as necessary as it is with compound interest.
+	</p>
+	<activity xml:id="simple-interest-activity">
+		<introduction>
+			<p> 
+				We begin with some exercises involving simple interest.  
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				A deposit of 14000 in an account with 4.5% annual simple interest.  Find the value 18 months after the deposit.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the present value of 19500 at time <m>t = 31</m> where <m>t</m> is in months, using an annual simple interest rate of 2.75%.
+			</p>
+		</task>
+		<task>
+			<p> 
+				A deposit of 1200 is made into an account bearing a 3% effective annual interest rate.  Find the value after 2 years and 17 days, where interest over a portion of a year is accumulated at a 3% annual simple interest rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				After 143 days, a deposit of 1200 is worth 1228.20.  Find the annual simple interest rate. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				A deposit of 2112 in an account with an annual simple interest rate of 4.5% has grown to 2145.85 after <m>t</m> days.  Find <m>t</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="benefits-of-linearity">
+		<introduction>
+			<p> 
+				Let's consider the mathematical benefits of linearity.  Suppose $1000 is invested in an account with a 12% annual simple interest rate.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				What is the balance in the account after 1 month?  Comparing that balance to the original investment of 1000, what is the monthly simple interest rate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What is the balance in the account after 3 months?  Comparing that balance to the original investment of 1000, what is the quarterly simple interest rate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What is the balance in the account after 6 months? Comparing that balance to the original investment of 1000, what is the semiannual simple interest rate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				What is the two-month simple interest rate?  
+			</p>
+		</task>
+		<task>
+			<p> 
+				What do you notice?  What role does linearity play?  What is a mathematical benefit of linearity?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="simple-interest-for-valuation">
+		<introduction>
+			<p> 
+				Simple interest is often used to value accounts between interest compounding periods.  For example, if interest compounded monthly, and we wanted to value after 3 months and 12 days, we would value using the effective monthly compound rate for the 3 months, and use a simple interest approximation for the 12 days.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				This problem is modified from <xref ref="bibliography-broverman"/>.  Suppose an account has an effective annual interest rate of 12%.  Simple interest (also at 12%) is applied to fractions of a year.  Calculate the number of years (including fractions) it will take for an investment of 1000 to accumulate to 3000.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Why might we use simple interest as an approximation for fractions of an interest period?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="limitations-of-linearity">
+		<statement>
+			<p> 
+				Try to solve the following in two different ways, and explain what is going on.  This illustrates the limitations of linearity. 
+			</p>
+			<p>
+				A deposit of 7800 is made on day 39 of a year, and another deposit of 5150 is made on day 57 of the same year.  The account has an annual simple interest rate of 4%. Find the account balance half-way through the year (assume a 360-day year).
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="exam-fm-with-simple-interest">
+		<statement>
+			<p> 
+				FM Exam problems often mix compound interest and simple interest.  Solve the following, which is from a former exam: 
+			</p>
+ 			<p>
+				Joe deposits 10 today and another 30 in five years into a fund paying simple interest of 11% per year. Tina will make the same deposits, but the 10 will be deposited <m>n</m> years from today and the 30 will be deposited <m>2n</m> years from today.  Tina's deposits earn an effective annual rate of 9.15%. At the end of 10 years, the accumulated amount of Tina's deposits equals the accumulated amount of Joe's deposits. Calculate <m>n</m>.
+			</p>
+		</statement>	
+	</activity>
+	<activity xml:id="simple-compound-inequivalency">
+		<statement>
+			<p> 
+				Two interest rate structures are equivalent if they yield the same values at all of the same times.  Why would a simple interest rate structure never be equivalent to a compound interest rate structure?  Illustrate with an example.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="simple-interest-reflection">
+		<statement>
+			<p> 
+				What is simple and what is not so simple about simple interest?
+			</p>
+		</statement>
+	</activity>
+</section>

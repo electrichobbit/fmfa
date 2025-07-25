@@ -1,0 +1,43 @@
+<section xml:id="review-equivalent-interest-rates">
+	<title>Review -- Equivalent Interest Rates</title>
+	<p>
+		As you saw at the end of the last activity, we have to pay close attention to the growth rates we are given in a problem.  In this activity, we will pause to review converting between equivalent interest rates. 
+	</p>
+	<activity xml:id="converting-interest-rates-review">
+		<introduction>
+			<p>
+				Convert the following as indicated.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				The effective monthly interest rate is <m>\iota = 3\%</m>.  Find the nominal discount rate compounded semiannually.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The nominal interest rate is 6%, convertible quarterly.  Find the effective interest rate, compounded every two years.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The force of interest is <m>\delta = 0.045</m>.  Find the effective semiannual interest rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The effective 3-year discount rate is <m>d = 0.18</m>.  Find the annual force of interest.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The effective 3-month interest rate is 2%.  Find the nominal interest rate compounded every 3 years.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The nominal discount rate is 1.5%, convertible monthly.  Find the effective semiannual interest rate.
+			</p>
+		</task>
+	</activity>
+</section>

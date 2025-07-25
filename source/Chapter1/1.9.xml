@@ -1,0 +1,58 @@
+<section xml:id="interest-rates-conversion">
+	<title>Equivalent Interest Rates 1 -- Conversion</title>
+	<p>
+		Two interest rates are said to be <term>equivalent</term> if, using the same present value, both rates result in the same future value at each point in time.  In the last activity, we saw examples such as noting that <m>\iota^{(12)} = 12\%</m> was equivalent to <m>\iota = 12.68\%</m>.  In the Mountain Bank and River Bank problem, we saw that <m>\iota^{(2)} = 0.15</m> is equivalent to <m>\iota^{(360} = 0.14467</m>.  
+	</p>
+	<p>
+		In a given problem, we may be given any interest rate over any period of time (and it could be nominal or effective).  The rate we are given may not be the one we need for the problem.  In particular, we cannot use nominal rates in calculations.  So we will need to convert to an interest rate that we can use.
+	</p>
+	<activity xml:id="converting-interest-rates">
+		<introduction>
+			<p> 
+				Consider the following problem: 
+			</p>
+			<p>
+				Scarlet Witch makes deposits of 12500 at the end of each quarter into an account with <m>\iota^{(12)} = 9\%</m>.   How much is in the account at the end of the first year (immediately after the last deposit)? 
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				What type of interest rate are we given?  What type of interest rate do we need?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Set up an interest-rate timeline to compare the interest rate we are given and the interest rate we want.  Make the timeline cover as short a timespan as possible!
+			</p>
+		</task>
+		<task>
+			<p> 
+				Use your timeline to set up an equation for the desired interest rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve for the desired interest rate.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Solve the problem (make a cash flow timeline to help!).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="converting-interest-rates-2">
+		<statement>
+			<p> 
+				Black Widow deposits <m>X</m> at the end of every four months.  At the end of the first year (immediately after the last deposit), the balance is 143,000.  The account carries a rate of <m>\iota^{(2)} = 3.5\%</m>.  Find <m>X</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="converting-interest-rates-reflection">
+		<statement>
+			<p> 
+				Describe what makes two interest rates equivalent, and how you can find the interest rate you need to solve a problem.
+			</p>
+		</statement>
+	</activity>
+</section>

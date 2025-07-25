@@ -1,0 +1,435 @@
+<section xml:id="interest-rate-components-in-context">
+	<title>Interest Rates Components in Context</title>
+	<p>
+		We are now going to take a closer look at factors that impact interest rates in both savings and lending products.  We will first look at commercial banks, then government bonds, and finally corporate bonds.  
+	</p>
+	<p>
+		There are a number of empirical facts that are in the SOA Study Note on Determinants of Interest Rates.  These are often tested through questions asking which of several statements are true or false, and the questions could give you a series of statements and your selections could include one or more of the statements. 
+	</p>
+	<p>
+		We will include some of the empirical facts in this activity, but cannot promise that they will be comprehensive.  You are strongly encouraged to read the study note carefully (even for the problems in this text). 
+	</p>
+	<p>
+		Let's start with commercial banks.  These are the banks where you likely hold deposit accounts, such as a checking account.  This is to be distinguished from investment banks (such as Goldman Sachs, for example) which are involved in more sophisticated transactions.  
+	</p>
+	<activity xml:id="commercial-bank-profits">
+		<statement>
+			<p>
+				Commercial banks offer two types of products - savings products (on which they pay interest) and lending products (on which they charge interest).  How do they make a profit?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="factors-that-affect-interest-rates">
+		<introduction>
+			<p>
+				There are several factors that influence the interest rate offered or charged by a commercial bank.  For each of the following, describe how the factor will impact the rate offered on savings accounts.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<term>Overhead Costs</term>: This factor consists of costs such as rent and utilities for a building.
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Business Environment</term>: This factor concerns that market in the region (which could be electronic) where the bank operates.
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Business Strategy</term>: This factor concerns the bank's strategic plans for growth.
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Perceived Creditworthiness</term>: This factor concerns whether depositors consider the bank to be a credit risk (waiting for FDIC insurance to cover your deposits in the event the bank fails is an inconvenience at best).
+			</p>
+		</task>
+	</activity>
+	<p>
+		The two most common savings products banks offer are savings accounts and certificates of deposit (CDs).  Savings accounts have few withdrawal limitations.  Some limit withdrawals to a certain number per month.  Others have no limits.  For a CD, funds can only be withdrawn at maturity at the end of the term, otherwise the investor will incur a penalty. 
+	</p>
+	<activity xml:id="savings-products-advice">
+		<introduction>
+			<p>
+				Each of the following investors is in a fortunate position of having enough income to cover their household and personal expenses with funds left over.  For each, advise them whether to put their excess funds in a savings account or in a certificate of deposit.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				One family wants to have an emergency fund that can earn some interest when not needed, but draw on if an unexpected expense occurs or if someone loses their jobs.
+			</p>
+		</task>
+		<task>
+			<p>
+				Another family wants to put some money away to earn interest in order to make a major purchase in six months.
+			</p>
+		</task>
+	</activity>
+	<p>
+		Let's now turn to loan products.
+	</p>
+	<p>
+		There are typically three types of loans offered by banks:
+	</p>
+	<ul>
+		<li>
+			<p>
+				<term>Secured Loans</term> are loans backed by some sort of collateral.  If a borrower defaults, the collateral can be seized and auctioned off to satisfy the debt.  Home loans (mortgages) and car loans are secured.
+			</p>
+		</li>
+		<li>
+			<p>
+				<term>Guaranteed Loans</term> are loans guaranteed by a third party, such as the U.S. Government.  The third party covers the lenders losses in the event the borrower defaults.  Student loans are typically guaranteed.
+			</p>
+		</li>
+		<li>
+			<p>
+				<term>Unsecured Loans</term> do not have any collateral or guarantees.  Most credit cards are unsecured.
+			</p>
+		</li>
+	</ul>
+	<activity xml:id="loan-products-advice">
+		<introduction>
+			<p>
+				Answer the following questions about loans.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Consider the interest rates <m>\iota_s</m> on a secured loan, <m>\iota_g</m> on a guaranteed loan, and <m>\iota_u</m> on an unsecured loan.  Write down one or more inequalities for these interest rates (assuming everything else about the loan, lender, and borrower are the same).  Note that you may not be able to compare every pair (which is why you may have more than one inequality).  Explain your thinking.
+			</p>
+		</task>
+		<task>
+			<p>
+				How would the creditworthiness of a borrower impact the interest rate on a loan?
+			</p>
+		</task>
+		<task>
+			<p>
+				Security and guarantees are not all equal.  Collateral that is in poor condition or guarantees from third parties whose credit is risky are of lower quality than collateral that is in excellent condition or guarantees from the U.S. Government (which is risk-free).  How would the quality of the security or of a guarantee impact the interest rate on a loan?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="ranking-credit-cards">
+		<statement>
+			<p>
+				Rank the following credit cards from largest interest rate to smallest.
+			</p>
+			<ol>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, secured by a cash deposit equal to half of the credit limit.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, unsecured.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a highly credit-worth borrower, secured by a cash deposit equal to the entire credit limit.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a borrower with no credit history, unsecured.
+					</p>
+				</li>
+				<li>
+					<p>
+						A credit card issued to a moderately credit-worthy borrower, secured by a cash deposit equal to the entire credit limit.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="prime-rate">
+		<introduction>
+			<p>
+				The <term>prime rate</term> is the interest rate offered to a bank's most creditworthy borrowers.  Typically, rates are quoted as "prime + <m>x</m>" where <m>x</m> is quoted in <m>bp</m> (basis points).
+			</p>
+		</introduction>
+		<task>
+			<p>
+				If the prime rate is 4%, what interest rate is equal to "prime + 75 bp"?
+			</p>
+		</task>
+		<task>
+			<p>
+				Rank the following interest rates, from smallest to largest.  Assume the prime rate is 3%.
+			</p>
+			<ol>
+				<li>
+					<p>
+						Prime plus 125 bp
+					</p>
+				</li>
+				<li>
+					<p>
+						Prime plus 1%
+					</p>
+				</li>
+				<li>
+					<p>
+						4.75%
+					</p>
+				</li>
+			</ol>
+		</task>
+	</activity>
+	<activity xml:id="poverty-as-an-initial-condition">
+		<statement>
+			<p>
+				Poverty can be considered an initial condition, something one may be born into.  Compare thinking about poverty as an initial condition with an old saying -- "it takes money to make money." 
+			</p>
+			<p>
+				Describe the role lending and interest rate components may play in reinforcing poverty, making poverty a cyclic condition.  What can be done to counteract these forces?
+			</p>
+		</statement>
+	</activity>
+	<p>
+		We now turn to government debt (in the form of bonds).  Debt issued by a national government is called <term>sovereign debt</term>, whereas debt issued by a political subdivision of a nation (like a state or city) is called <term>municipal debt</term>.  Municipal debt is more likely to default than sovereign debt.  This is because nations have the power to print money to satisfy their obligations (even though this is inflationary).  In addition, some governments are able to link tax receipts to inflation.  For example, the marginal income tax rates in the United States are on a schedule for anticipated inflation.
+	</p>
+	<activity xml:id="sovereign-debt">
+		<introduction>
+			<p>
+				In the United States, sovereign debt takes the form of Treasury Bills (T-Bills), Treasury Notes, and Treasury Bonds.  T-Bills have terms of 1 year or less, do not pay coupons, and are valued using simple discount (which we will explore in more depth later).  Treasury Notes and Treasury Bonds are valued using semi-annual compound interest and pay semiannual coupons.  Treasury Notes have terms of 2 to 10 years, and Treasury Bonds have terms from 10 to 30 years. 
+			</p>
+			<p>
+				In the Unites States, income from T-Bills, Treasury Notes, and Treasury Bonds is taxable at the federal level, not at the state or local level.  Municipal bond income in the United States are not taxable at the federal level, but may be at the state level.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Summarize the distinctions between T-Bills, Treasury Notes, and Treasury Bonds in a table.
+			</p>
+		</task>
+		<task>
+			<p>
+				Families like to invest in U.S. Treasury securities because of their low risk.  Determine which type of treasury security each of the following families should invest in (Treasury Bills, Treasury Notes, or Treasury Bonds).
+			</p>
+			<ol>
+				<li>
+					<p>
+						A young family wants to save for retirement.
+					</p>
+				</li>
+				<li>
+					<p>
+						A family wants to save some excess funds for a purchase to be made in 9 months.
+					</p>
+				</li>
+				<li>
+					<p>
+						Parents of a 10-year old child want to save for their child's college tuition.
+					</p>
+				</li>
+			</ol>
+		</task>
+	</activity>
+	<p>
+		Some Treasury Notes or Treasury Bonds are adjusted for inflation.  <term>Nominal Return Bonds</term> are bonds whose coupon payments and maturity payments are fixed at the outset, with no inflation adjustment.  <term>Real Return Bonds</term> are bonds where the face value and maturity value are adjusted for inflation.  Since the face value is adjusted for inflation, coupon payments are also adjusted for inflation (but the coupon <term>rate</term> remains constant).  
+	</p>
+	<p>
+		Typically, an amount is adjusted for inflation using the CPI.  The amount to be adjusted is multiplied by the ratio of the current CPI to some base CPI.  For example, if the base CPI is 120, and the current CPI	is 132, then the amount is multiplied by 132/120, or 1.1 (which means 10% inflation between the base year and the current year). 
+	</p>
+	<p>
+		The real return bonds issued by the United States Government are called <term>Treasury Inflation-Protected Securities</term> (TIPS).
+	</p>
+	<activity xml:id="treasury-inflation-protected-security">
+		<statement>
+			<p>
+				A Treasury Inflation Protected Security is issued with term of 5 years, a face value of 1000 and a coupon rate of 5%.  Determine the total amount of the payments made to the borrower in each of the following years (add amounts in the same year without regard for the time value of money) using the following annual CPI values (Year 0 = 100): 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Year
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							CPI
+						</cell>
+						<cell right="medium">
+							101.2
+						</cell>
+						<cell right="medium">
+							96
+						</cell>
+						<cell right="medium">
+							101.45
+						</cell>
+						<cell right="medium">
+							102.01
+						</cell>
+						<cell right="medium">
+							101.67
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<p>
+		We now look at municipal bonds.  There are two types of municipal bonds.  <term>Revenue Bonds</term> are municipal bonds paid back with revenues from a specific project.  <term>General Obligation Bonds</term> are municipal bonds paid back from the general fund and are not connected with any specific project.
+	</p>
+	<activity xml:id="identifying-types-of-government-bonds">
+		<introduction>
+			<p>
+				Identify the type of government bond described.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Governor Eisler and the State of Ferris issue bonds to raise funds to pay for the construction of highways that will charge tolls.
+			</p>
+		</task>
+		<task>
+			<p>
+				The City of Actuaria issues bonds to raise funds for their general operating expenses.
+			</p>
+		</task>
+		<task>
+			<p>
+				The federal government issues bonds to pay for the national deficit.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="describing-impacts-on-debt">
+		<introduction>
+			<p>
+				Describe how each of the following factors will impact the price of government debt (equivalently, the interest rate on government debt).  In addition, describe distinctions in the impact of the factor between sovereign debt and municipal debt.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Creditworthiness of the borrower.
+			</p>
+		</task>
+		<task>
+			<p>
+				Tax treatment of the interest payments.
+			</p>
+		</task>
+	</activity>
+	<p>
+		Another factor that can influence the price (and yields) of government bonds is currency fluctuation, as illustrated in <xref ref="converting-euro-to-dollar-rates"/>. 
+	</p>
+	<activity xml:id="converting-euro-to-dollar-rates">
+		<statement>
+			<p>
+				A U.S. investor purchased a 9-month European bond denominated in Euros.  The bond had a face value of 1000 euros, and was priced to yield an effective annual yield of 0.96% (European).  The investor purchased the bond on January 1, 2020, when the exchange rate was 1.11 US Dollars per Euro.  Nine months later, on October 1, 2020, when the bond matured, the exchange rate was 1.17 US dollars per Euro.  Determine the US effective annual yield earned by the investor.
+			</p>
+		</statement>
+	</activity>
+	<p>
+		We now turn to <term>corporate bonds</term>.
+	</p>
+	<activity xml:id="introducing-corporate-bonds">
+		<statement>
+			<p>
+				Corporate bonds are often purchased through intermediaries - brokers - who buy bonds directly from issuers and sell them to investors.  Brokers make money by selling the bonds for a higher price than they purchase them.  The amount that brokers purchase a bond for is the <term>bid</term> ("b"id for `'b"uy), and the amount they sell a bond for is the <term>ask</term>.  The difference, ask - bid, is the <term>bid-ask spread</term>.  The bid-ask spread can be expressed as either a price difference or as a yield difference. 
+			</p>
+			<p>
+				The bid-ask spread tells investors something about liquidity.  Liquidity is the ability to convert an investment to cash.  If brokers expect it to be harder to convert bonds to cash (less liquid), the bid-ask spread will be larger.  How will a larger bid-ask spread impact the interest rate on a corporate bond?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="other-factors-affecting-corporate-bonds">
+		<introduction>
+			<p>
+				Several other factors impact interest rates on corporate bonds.  Describe the impact of each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<term>Rating</term>.  Independent agencies (such as Moody's or S&amp;P) rate the creditworthiness of corporate bonds.  The highest is AAA.
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Seniority</term>.  In the event a corporation is liquidated in bankruptcy, some bondholders have a higher claim to the proceeds of the sale.  The debt senior bondholders hold is paid off first, whatever is left is available for junior (<term>subordinated</term>) bondholders and other debtholders.
+			</p>
+		</task>
+		<task>
+			<p>
+				<term>Call/Put Options</term>.  As we saw in <xref ref="bonds"/>, some bonds involve <term>call provisions</term> allowing issuers to retire the bond early.  Some bonds have <term>put provisions</term> which allow the bondholder to sell the bond back to the issuer.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="ranking-interest-rates-for-corporate-bonds">
+		<statement>
+			<p>
+				Rank the interest rates for the following corporate bonds from smallest to largest.  Ties are allowed!
+			</p>
+			<ol>
+				<li>
+					<p>
+						Corporation A has a low credit rating. They issue bonds that have a high bid-ask spread and are junior relative to previously issued bonds. 
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation B has a low credit rating.  They issue bonds that have a low bid-ask spread and have seniority over other bond issues.  
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation C has a high credit rating.  They issue bonds with a high bid-ask spread, are senior to other bond issues, and have a call provision.  
+					</p>
+				</li>
+				<li>
+					<p>
+						Corporation D has a high credit rating.  They issue bonds with a low bid-ask spread and are senior to other bond issues.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="listing-factors-that-affect-interest-rates">
+		<introduction>
+			<p>
+				List the factors that impact the interest rates for each of the following:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Savings products offered by commercial banks.
+			</p>
+		</task>
+		<task>
+			<p>
+				Loans offered by commercial banks.
+			</p>
+		</task>
+		<task>
+			<p>
+				Government bonds.
+			</p>
+		</task>
+		<task>
+			<p>
+				Corporate bonds.
+			</p>
+		</task>
+	</activity>
+</section>

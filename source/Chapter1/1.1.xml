@@ -1,0 +1,26 @@
+<section xml:id="compound-interest-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Introduction to Interest Theory</title>
+	<p>
+		Before we begin understanding finance, we should think about why finance is important for actuaries.
+	</p>
+	<p>
+		Actuaries quantify and model risk for insurance companies.  The basic insurance contract involves a customer paying a fee (a <term>premium</term>) to the company in exchange for the company agreeing to pay the costs of one or more contingencies over a specified period of time. If you own a car or have health insurance, you have paid premiums.  Actuaries use data to assess the probability and cost of the covered contingencies, often averaging over a large population. 
+	</p>
+	<activity xml:id="introduction-interest-activity">
+		<task>
+			<p>
+				What role do you think investments play in insurance?
+			</p>
+		</task>
+		<task>
+			<p>
+				Interest on an investment (like a loan, for example) includes compensation for what is called "deferred consumption" as well as compensation for risk.  What risks are associated with a financial investment that interest compensates for?
+			</p>
+		</task>
+		<task>
+			<p>
+				Let us pause and consider the ethics of insurance contracts.  Why should an individual pay an insurance company when they can invest the premium themselves, or consult an investment banker to do so?
+			</p>
+		</task>
+	</activity>
+</section>

@@ -1,0 +1,255 @@
+<section xml:id="variations-on-interest-rate-swaps">
+	<title>Variations on Interest Rate Swaps</title>
+	<p>
+		In the last activity, we used several assumptions in calculating the swap rate for an interest rate swap.  In this activity, we look at what happens when we relax some of those assumptions.  Specifically, we are going to look at the following variations (separately):
+	</p>
+	<ol>
+		<li>
+			<p>
+				The yield curve is given in terms of nominal rates.
+			</p>
+		</li>
+		<li>
+			<p>
+				The swap transaction does not begin immediately.
+			</p>
+		</li>
+		<li>
+			<p>
+				The notional amount is not constant.
+			</p>
+		</li>
+	</ol>
+	<p>
+		Our findings from the last activity will change.  The basic principle remains -- we set the present values of the two legs equal to one another and solve for the swap rate.
+	</p>
+	<activity xml:id="swap-rate-from-yield-curve-given-in-nominal-rates">
+		<introduction>
+			<p>
+				Let's start with a yield curve given in nominal rates.  Suppose a payer and a receiver enter into an interest rate swap with four payments every six months.  The yield curve is given in the following table, where the rates are annual nominal rates convertible semiannually.
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time
+						</cell>
+						<cell right="medium">
+							Spot Rate
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							0.5
+						</cell>
+						<cell right="medium">
+							4.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.0
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1.5
+						</cell>
+						<cell right="medium">
+							5.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2.0
+						</cell>
+						<cell right="medium">
+							6.00%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				We don't use nominal rates for calculation.  What period do we want for our effective rates for this problem?  How do we find those effective rates?
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="dererred-swap">
+		<introduction>
+			<p>
+				Next we look at what happens if our swap does not start right away.  These are called <term>deferred</term> swaps.  Consider the following example from a prior exam: 
+			</p>
+			<p>
+				The table below shows the spot rates for the given lengths of time. 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Number of Years
+						</cell>
+						<cell right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							6
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Effective Annual Spot Rate
+						</cell>
+						<cell right="medium">
+							2.5%
+						</cell>
+						<cell right="medium">
+							3.1%
+						</cell>
+						<cell right="medium">
+							3.4%
+						</cell>
+						<cell right="medium">
+							3.6%
+						</cell>
+						<cell right="medium">
+							4.0%
+						</cell>
+						<cell right="medium">
+							4.2%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				When are each of the settlement dates?
+			</p>
+		</task>
+		<task>
+			<p>
+				When should we value each of the payments?
+			</p>
+		</task>
+		<task>
+			<p>
+				Solve the problem -- remember to go back to first principles!
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="non-constant-notional-amount">
+		<introduction>
+			<p>
+				Sometimes the notional amount is not constant.  This may be because there are principal payments on a loan, a loan is a line of credit (which means different amounts are borrowed each period), or the underlying notional amount is contingent on something like future revenues or future expenses. 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Suppose we have an interest rate swap with a tenor of <m>n</m> periods, notional amounts <m>X_1, \ldots, X_n</m>, spot rates <m>s_1, \ldots, s_n</m>, and implied forward rates <m>\iota_0(1), \ldots, \iota_0(n)</m>.  Write an equation that we would solve in order to calculate the swap rate <m>R</m> (we are just looking for an initial equation - we do not need to solve it unless you want to).
+			</p>
+		</task>
+		<task>
+			<p>
+				What happened in <xref ref="calculating-the-swap-rate"/> that made our equations simpler, that we can no longer apply here?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="accreting-and-amortizing-swaps">
+		<introduction>
+			<p>
+				An <term>accreting swap</term> is an interest rate swap with an increasing notional amount. An <term>amortizing swap</term> is one in which the notional amount is decreasing.  For the following accreting and amortizing swaps, use the following  yield curve: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5.25%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							6.60%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				Suppose the notional amount for a 4-year interest rate swap starts at 200 million and grows by 1.5% each year. Find the swap rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the notional amount for a 4-year interest rate swap starts at 15 million and declines by 2 million each year. Find the swap rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				In what way were the changes in the notional amount in the last two problems different?  How did that impact your problem solving?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="variations-on-interest-rate-swaps-reflection">
+		<statement>
+			<p>
+				Would it be helpful to derive formulas for all of these variations? Why or why not?
+			</p>
+		</statement>
+	</activity>
+</section>

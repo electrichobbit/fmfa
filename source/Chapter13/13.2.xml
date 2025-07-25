@@ -1,0 +1,297 @@
+<section xml:id="components-of-interest-rates">
+  <title>The Components of Interest Rates</title>
+  <p>
+    In the last activity, we examined how supply and demand determine the risk-free rate, the compensation for deferred consumption.  In this activity, we will examine how to modify the risk-free rate to account for a more realistic capital environment.
+  </p>
+  <activity xml:id="risks-affecting-interest-rates">
+    <statement>
+      <p>
+        First, think about what else might impact the interest rate.  What risks do we need to address?  What else might impact an interest rate?  These are the <term>components</term> of an interest rate.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="combining-components-into-a-single-rate">
+    <introduction>
+      <p>
+        To begin with, we need to figure out how we are going to combine different components into a single rate.  Let <m>r</m> be the risk-free rate, let <m>s</m> be another component of the interest rate, and let <m>R</m> be the total interest rate.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Suppose interest compounds continuously.  Express <m>R</m> in terms of <m>r</m> and <m>s</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Suppose interest compounds annually.  Express <m>R</m> in terms of <m>r</m> and <m>s</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Which is simpler?  
+      </p>
+    </task>
+  </activity>
+  <p>
+    Henceforth, for simplicity, we will assume interest compounds continuously.  We will also denote the risk-free rate as <m>r</m> and the total interest rate as <m>R</m>.
+  </p>
+  <activity xml:id="risk-of-default">
+    <introduction>
+      <p>
+        One of the major risks that forms a component of interest rates is the risk of default.  We let <m>s</m> denote this component, and this goes by various names: the <term>default risk premium</term>, the <term>credit spread</term>, or the <term>spread for credit risk</term>. 
+      </p>
+      <p>
+        Suppose a lender makes loans of 1000 for five year terms.  For simplicity, assume that loans are paid back as a lump sum at the end of the term.  The risk-free rate is <m>r = 0.03</m>. 
+      </p>
+    </introduction>
+    <task>
+      <p>
+        How much does the lender want to be repaid for each loan?  
+      </p>
+    </task>
+    <task>
+      <p>
+        Suppose we know ahead of time that 3.5% of borrowers will default.  Let <m>x</m> be the amount the borrower is contractually bound to repay at the end of 5 years.  If the lender recovers nothing from borrowers who default, how much do they expect to earn on each loan?  Express your answer in terms of <m>x</m>.
+      </p>
+    </task>
+    <task>
+      <p>
+        Use what the lender actually earns and what they want to earn to solve for <m>x</m>.  
+      </p>
+    </task>
+    <task>
+      <p>
+        Using your value of <m>x</m>, find the total interest rate <m>R</m> and the credit spread <m>s</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="computing-with-more-return-from-default">
+    <statement>
+      <p>
+        Repeat <xref ref="risk-of-default"/>, but assume that the lender recovers 30% of the contractual payback amount on loans that default.
+      </p>
+    </statement>
+  </activity>
+  <p>
+    Another risk that lenders face is the risk of inflation - the reduction in purchasing power of the payments they receive from lenders.  If we knew actual inflation each year, <m>i_a</m>, we could just set <m>R = r + i_a</m>.  But we will not know for certain, and rely on forecasts and predictions.
+  </p>
+  <activity xml:id="risk-of-inflation-passed-to-borrower">
+    <statement>
+      <p>
+        Sometimes lenders obtain inflation protection on their loans by passing the risk of inflation to the borrower.  In this case, they "pay" for inflation protection through an interest rate reduction of <m>c</m>.  The rate <m>r - c</m> is called the <term>real interest rate</term>.  The borrower is then required to make their payment as adjusted for inflation.  This means <m>R = r - c + i_a</m>.  We cannot observe <m>c</m> directly, only <m>r - c</m>. 
+      </p>
+      <p>
+        Let's see how this works with a problem. 
+      </p>
+      <p>
+        Porter makes three-year loans that include inflation protection. The annual interest rate compounded
+        continuously that must be paid is 3.2% plus the rate of inflation. 
+      </p>
+      <p>
+        The U.S. government borrows 100,000 for three years from Porter. The actual annual inflation rate
+        during the first year was 2.4% compounded continuously. The actual annual inflation rates for the
+        second and third years respectively was 2.8% and 4.2% compounded continuously. 
+      </p>
+      <p>
+        The U.S. government is considered a risk free borrower, which means there is no chance of default. 
+      </p>
+      <p>
+        Calculate the amount that the U.S. government will owe Porter at the end of three years.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="finding-interest-rate-with-inflation">
+    <introduction>
+      <p>
+        Suppose a borrower takes out a loan of 100,000 and makes interest-only payments for 10 years, after which they pay the principal balance.  The lender has inflation protection on the loan. 
+      </p>
+      <p>
+        The payments for the first three years, and actual inflation rate for each year, are as follows: 
+      </p>
+      <table>
+        <tabular top="medium">
+          <row bottom="medium">
+            <cell left="medium" right="medium">
+              Year
+            </cell>
+            <cell right="medium">
+              1
+            </cell>
+            <cell right="medium">
+              2
+            </cell>
+            <cell right="medium">
+              3
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell left="medium" right="medium">
+              Payment
+            </cell>
+            <cell right="medium">
+              3561.97
+            </cell>
+            <cell right="medium">
+              3303.39
+            </cell>
+            <cell right="medium">
+              4602.79
+            </cell>
+          </row>
+          <row bottom="medium">
+            <cell left="medium" right="medium">
+              Actual Inflation
+            </cell>
+            <cell right="medium">
+              2%
+            </cell>
+            <cell right="medium">
+              1.75%
+            </cell>
+            <cell right="medium">
+              3%
+            </cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Assume there are no other adjustments to the interest rate.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Find the real interest rate paid by the borrower.
+      </p>
+    </task>
+    <task>
+      <p>
+        If the rate the bank charges for deferred consumption is <m>r = 2.5\%</m>, what is the rate paid by the lender for inflation protection?
+      </p>
+    </task>
+  </activity>
+  <p>
+    Interest rates for loans without inflation protection include an additional term for expected inflation <m>i_e</m> and for unexpected inflation <m>i_u</m>. Then <m>R = r + i_e + i_u</m>.  This is called the <term>nominal interest rate</term>.
+  </p>
+  <activity xml:id="nominal-interest-rate-with-inflation">
+    <statement>
+      <p>
+        A bank charges a nominal interest rate of 5% on its loans.  Inflation is expected to be 3%, and as a matter of policy, the bank adds 50 basis points to expected inflation to account for error in its expectations.  What rate does the bank charge for deferred consumption?
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="difference-between-real-and-nominal-rates">
+    <introduction>
+      <p>
+        We do not observe <m>r</m>, <m>c</m>, <m>i_e</m>, or <m>i_u</m> directly, only real and nominal rates.  
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Recall that the real interest rate is the rate charged to borrowers for loans with inflation protection, and the nominal rate is the rate charged to borrowers without inflation protection. If <m>R_1</m> is the real interest rate and <m>R_2</m> is the nominal interest rate offered at the same bank (so that the value of <m>r</m> is the same for both), what is <m>R_2 - R_1</m>?  Can this quantity be observed?
+      </p>
+    </task>
+    <task>
+      <p>
+        A bank charges a nominal interest rate of 6.5% on its loans without inflation protection, and a real interest rate of 6% on its loans with inflation protection. If the bank is not concerned with unexpected inflation and pays only a few basis points for inflation protection, what does the bank expect the inflation rate to be over the next few years?
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="equations-for-interest-with-default-and-inflation">
+    <statement>
+      <p>
+        Write equations for the interest rate <m>R</m> in an environment with default risk and inflation risk. Write one equation for a real interest rate (a loan with inflation protection), and another equation for a nominal interest rate (without inflation protection).
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="maturity-risk-premium">
+    <introduction>
+      <p>
+        There is another component of interest rates called the <term>maturity risk premium</term>.  
+      </p>
+    </introduction>
+    <task>
+      <p>
+        Consider a 3-year bond and a 30-year bond.  Which would have a higher yield rate?  Why?  
+      </p>
+    </task>
+    <task>
+      <p>
+        Your observation about the 3-year and 30-year bonds is called the <term>maturity risk premium</term>.  Explain it more generally.
+      </p>
+    </task>
+    <task>
+      <p>
+        There are four theories that could explain the maturity risk premium.  In each of the following, describe an example.
+      </p>
+      <ol>
+        <li>
+          <p>
+            <term>Market Segmentation Theory</term> - this theory states that there are borrowers and lenders for different term structures, and the supply and demand for loanable funds is not the same for different terms.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Preferred Habitat Theory</term> - this theory states that given enough compensation, a borrower or lender who prefers one term can be convinced to borrow or lend for a different term.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Liquidity Preference/Opportunity Cost Theory</term> - this theory states that borrowers need to pay higher interest rates to persuade lenders to issue loans for longer terms.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Expectations Theory</term> - this theory states that longer term interest rates reflect the expected shorter term interest rates in the future.
+          </p>
+        </li>
+      </ol>
+    </task>
+  </activity>
+  <activity xml:id="maturity-risk-premium-problem">
+    <introduction>
+      <p>
+        A business is issuing bonds to raise capital for a project with an unusually long term.  As a result, they end up paying a higher interest rate on the new issue than they pay on their other bonds.  For each of the following explanations, state the corresponding theory of maturity risk premium.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        The investors targeted for the issue were concerned about having their funds tied up for a longer period of time. 
+      </p>
+    </task>
+    <task>
+      <p>
+        Their investors typically purchased bonds from the company for shorter periods, and had to be incentivized to invest for a longer-term project.
+      </p>
+    </task>
+    <task>
+      <p>
+        Investors expected short-term interest rates to rise in the coming years.
+      </p>
+    </task>
+    <task>
+      <p>
+        The company was marketing the bonds to a class of investors different from those who hold their shorter-term bonds.
+      </p>
+    </task>
+  </activity>
+  <p>
+    The <term>liquidity premium</term> compensates investors for loss in value that could occur while waiting to convert their investments to cash. 
+  </p>
+  <activity xml:id="liquidity-premium">
+    <statement>
+      <p>
+        McCord Bank offers multiple investment accounts.  Withdrawals from a "Standard Savings Account" can be made on demand.  Withdrawals from a "Superior Savings Account" require 7 days to settle (meaning it takes 7 days to obtain your withdrawal), while withdrawals from a "Premium Savings Account" require 3 days to settle. 
+      </p>
+      <p>
+        Rank the interest rates on the three accounts from highest to lowest.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="components-of-interest-rates-equation">
+    <statement>
+      <p>
+        Let <m>r_m</m> and <m>r_{\ell}</m> be the maturity risk premium and liquidity premium, respectively.  Note that, like <m>r, c, i_e,</m> and <m>i_u</m>, these are not observable.  Only the rate <m>R</m> is observable.  Write equations for the total interest rate, including compensation for risk of default as well as inflation risk, and the maturity risk and liquidity premiums.  Write one equation for the real interest rate (with inflation protection) and one for the nominal rate (without inflation protection).
+      </p>
+    </statement>
+  </activity>
+</section>

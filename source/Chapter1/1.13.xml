@@ -1,0 +1,83 @@
+<section xml:id="spot-and-forward-rates">
+	<title>Spot Rates and Forward Rates</title>
+	<p>
+		In <xref ref="term-structure-interest-rates"/>, we will meet spot rates and forward rates.  A <term>spot rate</term> is an effective annual interest rate offered today (time 0) for investment for a period of time.  For example, the spot rate <m>s_0(1)</m> is the annual rate offered now for a 1-year investment, and <m>s_0(2)</m> is the <term>annual</term> rate offered now for a 2-year investment.  A <term>forward rate</term> is a 1-year rate over a period that is implied by spot rates.  So given <m>s_0(1)</m> and <m>s_0(2)</m>, there is an implied <term>forward rate</term> <m>\iota_0(1,2)</m> for the time between Years 1 and 2.  There zeros in the subscripts just indicate that we are thinking of investments made today. Let us take a look at how this works!
+	</p>
+	<activity xml:id="spot-rate-activity">
+		<introduction>
+			<p> 
+				Suppose we have spot rates <m>s_0(1) = 2\%</m> for a 1-year investment today and <m>s_0(2) = 3.5\%</m> for a 2-year investment today.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Generate an interest rate timeline.  Remember that <m>s_0(1)</m> is in effect between years 0 and 1, <m>s_0(2)</m> is a 1-year rate but in effect between years 0 and 2, and <m>\iota_0(1,2)</m> is a rate that is expected to be in effect between years 1 and 2.
+			</p>
+		</task>
+		<task>
+			<p> 
+				In order for the market to work (based on the <term>no-arbitrage rule</term>), the two options above must yield the same value at the end of the 2-year period.  Use this to set up and solve an equation for <m>\iota_0(1,2)</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="three-spot-rates">
+		<statement>
+			<p> 
+				Try another example.  Suppose we have the following spot rates over three years: 
+			</p>
+			<table>
+			  <tabular>
+			    <row>
+			      <cell>
+			        <m>n</m>
+			      </cell>
+			      <cell>
+			      	<m>s_0(n)</m>
+			      </cell>
+			    </row>
+			    <row>
+			      <cell>
+			      	1
+			      </cell>
+			      <cell>
+			      	1.5%
+			      </cell>
+			    </row>
+			    <row>
+			      <cell>
+			      	2
+			      </cell>
+			      <cell>
+			      	2.25%
+			      </cell>
+			    </row>
+			    <row>
+			      <cell>
+			      	3
+			      </cell>
+			      <cell>
+			      	2.5%
+			      </cell>
+			    </row>
+			  </tabular>
+			</table>
+			<p>
+				Find the implied forward rates <m>\iota_0(0,1)</m>, <m>\iota_0(1,2)</m>, and <m>\iota_0(2,3)</m>.  Use a timeline to help!
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="n-spot-rates">
+		<statement>
+			<p> 
+				Given spot rates <m>s_0(1), s_0(2), \ldots, s_0(n-1), s_0(n)</m>, derive a formula for the forward rate <m>\iota_0(n-1,n)</m>.  Use a timeline to help!
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="forward-rates-introduction">
+		<statement>
+			<p> 
+				Given forward rates <m>\iota_0(0,1), \iota_0(1,2), \ldots, \iota_0(n-1,n)</m>, derive a formula for the spot rate <m>s_0(n)</m>.  Use a timeline to help!
+			</p>
+		</statement>
+	</activity>
+</section>

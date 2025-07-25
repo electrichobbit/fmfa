@@ -1,0 +1,358 @@
+<section xml:id="introduction-to-discount">
+  <title>Introduction to Discount</title>
+  <p>
+    So far, we have assumed interest is paid at the end of each period.  This is called <term>interest payable in arrears</term>.  Sometimes interest is paid at the beginning of a period, called <term>interest payable in advance</term>.  In this case, we call the rate that is used the <term>discount rate</term> and denote it with the variable <m>d</m>. 
+  </p>
+  <assemblage>
+    <p>
+      &#9888; You should be aware that actuaries use the term discount in the precise sense that we will explore over the next several activities.  In business and finance, you will hear discount rate and interest rate used interchangeably.  The word discount in that sense is used when using an interest rate to find the present value , said to be "discounting to present value" (as the present value is less than the accumulated value).
+    </p>
+  </assemblage>
+  <activity xml:id="simple-discount-rate">
+    <introduction>
+      <p> 
+        Let's start with a simple example from <xref ref="bibliography-broverman"/>.  Suppose Lita Ford borrows 1000 for one year with 10% interest payable in advance. 
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        The way this works is that the interest is taken out of 1000 and the borrower gets the remainder.  What is left?  This is <m>A(0)</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        At the end of the year, Lita has to pay back what was borrowed, both the amount she got and the interest taken out.  How much is this?  This is <m>A(1)</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        The discount rate <m>d</m> comes from the following equation: <me>d = \frac{A(1)-A(0)}{A(1)}</me>  Calculate Lita Ford's discount rate.  What do you notice? 
+      </p>
+    </task>
+  </activity>
+  <p>
+    The formula for <m>d</m> is for an effective discount rate (we will meet the nominal versions later).  If time is in years, this is an effective annual discount rate.  If time is measured in months, this is an effective monthly discount rate.
+  </p>
+  <activity xml:id="calculating-discount-rate">
+    <introduction>
+      <p> 
+        For each of the following, find the effective annual discount rate <m>d</m>.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        <m>A(0) = 38,000</m> and <m>A(1) = 41,337</m> 
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>A(0) = 35,500</m> and <m>A(1) = 36,839</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        <m>A(0) = 6,900</m> and <m>A(1) = 7,054</m>
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="comparing-percentage-and-discount">
+    <introduction>
+      <p> 
+        In <xref ref="linear-exponential-functions"/>, we noted that exponential functions are characterized by a constant percentage change.  With an effective interest rate <m>\iota</m>, we had <me>\iota = \frac{A(1)-A(0)}{A(0)}</me> and <m>\iota</m> was this percentage rate of change.  The base is <m>b = 1+\iota</m>.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        Compare and contrast the formula for <m>\iota</m> and the formula for <m>d</m>.  What do you notice?
+      </p>
+    </task>
+    <task>
+      <p> 
+        I like to say that discount is a backwards-looking percentage change.  What do I mean by this?
+      </p>
+    </task>
+  </activity>
+  <p>
+    Let's figure out how we can calculate present and future values when we are given a discount rate <m>d</m>.  The following version of an interest rate timeline has the arrows pointing "backwards" to emphasize the backward-looking nature of the percentage change we are working with.
+  </p>
+  <figure xml:id="discount-rate-timeline">
+    <caption>Illustration of the interest and discount rate on a timeline</caption>
+    <image>
+      <latex-image>
+        \begin{tikzpicture}
+          \draw[line width=1pt] (0,0) --  node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,0);
+             \foreach \x/\y in {0/0,2/1,4/2,8/$t-1$,10/$t$}{
+            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{ };
+            }
+            %\draw[] (0.1,4mm) arc (120:90:95mm)node[above]{$(1+\iota)^n$};
+            %\draw[->] (4.8,16.65mm) arc (90:60:95mm);
+            %\node[5,100mm]{$(1+\iota)^n$};
+          
+            \foreach \x in {0.1,2.1,8.1}{
+          \path[&lt;-] (\x,-9mm) edge [bend right=20] (\x+1.8,-9mm);
+          }
+        \end{tikzpicture} 
+      </latex-image>
+    </image>
+  </figure>
+  <activity xml:id="calculating-discount-from-values">
+    <introduction>
+      <p> 
+        We begin with present value.  Suppose we have an amount <m>A(t)</m> at time <m>t</m> and we would like to know <m>A(0)</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p> 
+          Looking backwards, from <m>A(t)</m> to <m>A(t-1)</m>, do you expect percentage increase or decrease?  Why?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We should have a percentage decrease, since there is less money in the account before interest has accumulated over that year.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          Since <m>d</m> is the constant percentage change, and is written as a positive percentage, what is the base of our exponential function?
+        </p>
+      </statement>
+      <solution>
+        <me>
+          1-d
+        </me>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          How many factors of our base do we need to multiply by to get back to <m>A(0)</m>?  
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To go from <m>A(t)</m> to <m>A(0)</m>, we need to multiply by <m>t</m> factors.
+        </p>
+      </solution>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          Use your answers to write a formula for <m>A(0)</m> given <m>A(t)</m> and an effective discount rate <m>d</m>.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          A(0) = A(t)(1-d)^t
+        </me>
+      </solution>
+    </task>
+  </activity>
+  <activity xml:id="future-value-using-discount">
+    <statement>
+      <p> 
+        Solve your formula for <m>A(t)</m>.  This will give us a formula for future value using discount.  Typically this formula is written using negative exponents.
+      </p>
+    </statement>
+    <solution>
+      <me>
+        A(t) = A(0)(1-d)^{-t}
+      </me>
+    </solution>
+  </activity>
+  <activity xml:id="solving-discount-problems">
+    <introduction>
+      <p> 
+        Solve the following exercises using discount.  Assume time is in years unless otherwise indicated.
+      </p>
+    </introduction>
+    <task>
+      <p> 
+        What is the present value of 150 at time <m>t = 3</m> and 450 at time <m>t=5</m> at an effective annual discount rate <m>d = 8.25\%</m>?
+      </p>
+    </task>
+    <task>
+      <p> 
+        If 250 is deposited every year for 3 years in an account with an effective annual discount rate of <m>d = 4\%</m>, what is the balance one year after the last deposit?
+      </p>
+    </task>
+    <task>
+      <statement>
+        <p> 
+          If 4521.79 is the present value of 6000 at time <m>t = 5</m> (in years), find the effective annual discount rate <m>d</m>.
+        </p>
+      </statement>
+      <solution>
+        <me>
+          4521.79 = 6000(1-d)^5
+        </me>
+        <me>
+          d = 0.055
+        </me>
+      </solution>
+    </task>
+    <task>
+      <p> 
+        Using an effective annual discount rate <m>d = 2.5\%</m>, a deposit of 7500 grows to 7990.05 after <m>t</m> years.  Find <m>t</m>.
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="discount-present-or-future">
+    <statement>
+      <p> 
+        Which is simpler to work with when you have discount, present or future value?  Why?  How might that impact your problem solving strategy?
+      </p>
+    </statement>
+  </activity>
+  <assemblage>
+    <title>
+      &#x1F5A9; Calculator Corner
+    </title>
+    <p> 
+      To use the financial calculator to find present and future values with discount, we "trick it" into performing these calculations.
+    </p>
+  </assemblage>
+  <activity xml:id="discount-with-the-calculator">
+    <introduction>
+      <p> 
+        Starting with present value, let's say we want to find the present value of 1000 in 4 years with an effective rate of <m>d = 3\%</m>.  The answer is 885.29. 
+      </p>
+    </introduction>
+    <task>
+      <p>
+        To get the calculator to perform this calculation, type 1000 <kbd>FV</kbd> 3 <kbd>&#177;</kbd> <kbd>I/Y</kbd> 4 <kbd>&#177;</kbd> <kbd>N</kbd> <kbd>CPT</kbd> <kbd>PV</kbd>.  
+      </p>
+    </task>
+    <task>
+      <p> 
+        Explain why this works.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Adapt to find the future value of 1250 after 5 years with an effective discount rate of 2%.  The answer should be 1382.86.  Write your keystrokes.
+      </p>
+    </task>
+  </activity>
+  <p> 
+    We conclude by putting some things together to solve a problem. 
+  </p>
+  <activity xml:id="solving-discount-rate-problem">
+    <statement>
+      <p>
+        Salt deposits <m>X</m> into an account bearing effective annual interest rate of 3%.  At the same time, Peppa deposits <m>2X</m> into an account with effective annual discount rate of 4.5%.  The balance in Salt's account after <m>2t</m> years is equal to the balance in Peppa's account after <m>t</m> years.  Calculate <m>t</m>.
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="comparing-formulae">
+    <task>
+      <statement>
+        <p> 
+          Fill in the following future and present value table: 
+        </p>
+        <table>
+          <tabular>
+            <row>
+              <cell>
+              </cell>
+              <cell>
+                Interest <m>\iota</m>
+              </cell>
+              <cell>
+                  Discount <m>d</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                  Present Value
+              </cell>
+              <cell>
+                <me>
+                  A(0) = \hskip 1in
+                </me>
+              </cell>
+              <cell>
+                <me>
+                  A(0) = \hskip 1in
+                </me>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                  Future Value
+              </cell>
+              <cell>
+                <me>
+                  A(t) = \hskip 1in
+                </me>
+              </cell>
+              <cell>
+                <me>
+                  A(t) = \hskip 1in
+                </me>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <table>
+          <tabular>
+            <row>
+              <cell>
+              </cell>
+              <cell>
+                Interest <m>\iota</m>
+              </cell>
+              <cell>
+                  Discount <m>d</m>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                  Present Value
+              </cell>
+              <cell>
+                <me>
+                  A(0) = A(t)(1+\iota)^{-t} = \frac{A(t)}{(1+\iota)^t}
+                </me>
+              </cell>
+              <cell>
+                <me>
+                  A(0) = A(t)(1-d)^t
+                </me>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                  Future Value
+              </cell>
+              <cell>
+                <me>
+                  A(t) = A(0)(1+i)^t
+                </me>
+              </cell>
+              <cell>
+                <me>
+                  A(t) = A(0)(1-d)^{-t} = \frac{A(0)}{(1-d)^t}
+                </me>
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </solution>
+    </task>
+    <task>
+      <p> 
+        What do you notice about comparing formulas for interest and for discount?
+      </p>
+    </task>
+    <task>
+      <p> 
+        Explain why your observations must be true.
+      </p>
+    </task>
+  </activity>
+</section>

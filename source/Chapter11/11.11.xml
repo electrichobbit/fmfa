@@ -1,0 +1,164 @@
+<section xml:id="interest-rate-risk-with-portfolios">
+	<title>Interest Rate Risk with Portfolios</title>
+	<p>
+		Investors often hold <term>portfolios</term> of investments.  This is just a collection of different investments.  Now that we have examined interest rate for a single investment, we can use weighted averages to examine interest rate risk across a portfolio.  Using weighted averages to extend a measure from a single investment to a portfolio will come up in Exam IFM as well.
+	</p>
+	<activity xml:id="formula-for-durations-of-portfolios">
+		<introduction>
+			<p>
+				Suppose an investor has a portfolio <m>X</m> consisting of investments (or just cash flows) of <m>X_1, \ldots, X_n</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Both the Macaulay duration of the portfolio <m>D_X</m> and the modified duration of the portfolio <m>MD_X</m> are weighted averages of the durations <m>D_i</m> and <m>MD_i</m> respectively.  The weights are the ratios of the present value of each investment to the present value of the entire portfolio.  
+			</p>
+			<p>
+				Write a formula for the weight <m>\omega_i</m> and show that <m>\sum \omega_i = 1</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Write formulas for <m>D_X</m> and <m>MD_X</m>.  You can use the expression <m>\omega_i</m> for the weights to keep things relatively clean.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-mdoified-and-macaulay-duration-of-a-portfolio">
+		<introduction>
+			<p>
+				Solve the following.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A portfolio contains 30,000 worth of bonds with modified duration <m>MD = 3.96</m>; 20,000 worth of bonds with modified duration <m>MD = 4.08</m>; 40,000 worth of bonds with modified duration <m>MD = 1.69</m>; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%.  Find the modified duration of the portfolio.
+			</p>
+		</task>
+		<task>
+			<p>
+				You have purchased three bonds to form a portfolio as follows:
+			</p>
+			<ol>
+				<li>
+					<p>
+						Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.
+					</p>
+				</li>
+				<li>
+					<p>
+						Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.
+					</p>
+				</li>
+				<li>
+					<p>
+						Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.
+					</p>
+				</li>
+			</ol>
+			<p>
+				Calculate the Macaulay duration of the portfolio at the time of purchase.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-macaulay-duration-with-other-information">
+		<introduction>
+			<p>
+				As with other concepts, sometimes the information you are given or have to find can vary.  Solve the following problems in which this is the case.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A portfolio contains 20,000 worth of bonds with duration <m>D = 5.46</m>; 40,000 worth of bonds with modified duration <m>MD = 6.71</m> priced to yield 5%; and 20,000 worth of bonds with duration <m>D = 9.1</m>.  Find the Macaulay duration of the portfolio.
+			</p>
+		</task>
+		<task>
+			<p>
+				An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of <m>X</m>, and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate <m>X</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="treating-chunking-as-a-portfolio">
+		<statement>
+			<p>
+				If we want to use "chunking" to find the duration of an annuity in which the interest rate or the payment changes, we have to treat it as a portfolio.  For the following problem, recall that if we have an annuity with Macaulay duration <m>D</m>, if we defer that annuity by <m>n</m> payments, the Macaulay duration of the deferred annuity is <m>D' = n + D</m>. 
+			</p>
+			<p>
+				Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900.  The annuities are valued with an effective annual interest rate <m>\iota = 6.5\%</m>.  
+			</p>
+			<p>
+				Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="parallel-shift-in-yield-curve">
+		<introduction>
+			<p>
+				We can use Macaulay or modified duration to estimate the change in price of a portfolio.  You might have different values of <m>\Delta \iota</m> for each investment.  If you are using a yield curve, you might have different values of <m>\Delta \iota</m> for each spot rate.  If the spot rates in a yield curve all have the same change, this is called a <term>parallel shift</term> in the yield curve. 
+			</p>
+			<p>
+				Suppose investors face the following yield curve: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<m>t</m>
+						</cell>
+						<cell right="medium">
+							<m>s_0(t)</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							5%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							6%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							6.5%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond.  A portfolio <m>X</m> contains 30,000 worth of Bond A and 20,000 worth of Bond B.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the Macaulay duration of the portfolio <m>X</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the modified duration of the portfolio <m>X</m>. For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use the modified duration to estimate the first order change in the value of <m>X</m> for a parallel shift in the yield curve of <m>\Delta \iota = -0.01</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="interest-rate-risk-with-portfolios-reflection">
+		<statement>
+			<p>
+				Describe weighted averages and how we have used them to measure interest rate risk.
+			</p>
+		</statement>
+	</activity>
+</section>

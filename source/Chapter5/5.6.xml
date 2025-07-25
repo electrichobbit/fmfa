@@ -1,0 +1,102 @@
+<section xml:id="review-arithmetic-sequences">
+	<title>Review -- Arithmetic Sequences</title>
+	<p>
+		A sequence is said to be in <term>arithmetic progression</term> if there is a common difference between each pair of consecutive terms.  Such a sequence is also called an <term>arithmetic sequence</term>. In the next several activities, we will be studying annuities whose payments are in arithmetic progression. 
+	</p>
+	<p>
+		Geometric sequences were like exponential functions sampled at integral points.  Arithmetic sequences are like linear functions sampled at integral points.
+	</p>
+	<activity xml:id="arithmetic-sequence-formula">
+		<statement>
+			<p> 
+				The formula for the <m>n</m>th term of an arithmetic sequence is <m>a_n = a_1 + d(n-1)</m>, where <m>a_1</m> is the first term and <m>d</m> is the common difference between consecutive terms.  
+			</p>
+			<p>
+				Compare and contrast the formula for <m>a_n</m> with our linear function formula <m>f(x) = mx+b</m>.  What are similarities and what are differences?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="identifying-arithmetic-sequences">
+		<introduction>
+			<p> 
+				Determine which of the sequences below are arithmetic.  For those that are arithmetic, find the formula for the <m>n</m>th term.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>-1, \ 6, \ 13, \ 20, \ \ldots, \ 139</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>970, \ 824.5, \ 700.825, \ \ldots</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>2, \ 3, \ 5, \ 7, \ 11, \ 13, \ 17, \ 19, \ \ldots, \ 1163</m>  
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>121, \ 106, \ 91, \ 76, \ \ldots, \ 1</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-common-difference-and-number-of-terms">
+		<introduction>
+			<p> 
+				For each for each of the following arithmetic sequences, find the (i) the common difference, and (ii) the number of terms.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>3, \ 6, \ 9, \ 12, \ \ldots, \ 45</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>1, \ 6, \ 11, \ 16, \ 21, \ \ldots, \ 91</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>109, \ 105, \ 101, \ 97, \ 93, \ \ldots,\ 21</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="determining-last-value-of-arithmetic-sequences">
+		<introduction>
+			<p> 
+				For each of the following arithmetic sequences, determine either (i) the last value if the sequence is increasing, or (ii) the last positive value if the sequence is decreasing.
+			</p>
+		</introduction>
+		<task xml:id="increasing-arithmetic-sequence">
+			<p> 
+				There are 32 values in the following sequence: <m>18,\ 36, \ 54, \ 72, \ \ldots</m>.
+			</p>
+		</task>
+		<task xml:id="decreasing-arithmetic-sequence">
+			<p> 
+				<m>196, \ 189, \ 182, \ 175, \ \ldots</m>
+			</p>
+		</task>
+		<task xml:id="other-arithmetic-sequence-1">
+			<p>  
+				<m>395, \ 392, \ 389, \ 386, \ 383, \ \ldots</m>
+			</p>
+		</task>
+		<task xml:id="other-arithmetic-sequence-2">
+			<p> 
+				There are 143 values in the following sequence: <m>-12, \ -3, \ 6, \ 15, \ 24, \ \ldots</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="arithmetic-sequence-reflection">
+		<statement>
+			<p> 
+				How are the sequences in <xref ref="increasing-arithmetic-sequence"/> and <xref ref="decreasing-arithmetic-sequence"/> different from those in <xref ref="other-arithmetic-sequence-1"/> and <xref ref="other-arithmetic-sequence-2"/>?  This will be important when we get further into our study of annuities with payments in arithmetic progression.
+			</p>
+		</statement>
+	</activity>
+</section>

@@ -1,0 +1,129 @@
+<section xml:id="force-of-interest">
+	<title>Introduction to the Force of Interest</title>
+	<p>
+		Our final form of interest accumulation uses the somewhat misnamed <term>force of interest</term>.  The force of interest of interest generalizes all other forms of interest accumulation, as we will see. 
+	</p>
+	<p>
+		We define the force of interest in terms of a given accumulation function <m>A(t)</m>:
+		<me>\delta_t = \frac{d}{dt} \ln(A(t))</me>
+		One way to understand what this means is in terms of instantaneous change.  When you learned about derivatives, you learned that the value of the derivative was the instantaneous rate of change of a function at a point.  More accurately, the derivative at a point tells you the instantaneous <term>absolute</term> rate of change.  The derivative given by the force of interest at a point tells you the <term>instantaneous percentage rate of change</term> in the accumulation function at the point. 
+	</p>
+	<p>
+		In this activity, we will assume we are given the accumulation function and find the force of interest.  In the next activity, we will invert this process.
+	</p>
+	<activity xml:id="formula-for-force-of-interest">
+		<introduction>
+			<p> 
+				We start by playing around with the formula for <m>\delta_t</m>. 
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p> 
+					Write a formula for <m>\delta_t</m> in terms of <m>A(t)</m> and <m>A'(t)</m>.
+				</p>
+			</statement>
+			<solution>
+				<me>
+					\delta_t = \frac{A'(t)}{A(t)}
+				</me>
+			</solution>
+		</task>
+		<task>
+			<statement>
+				<p> 
+					Suppose we replace <m>A(t)</m> in our definition of <m>\delta_t</m> by the accumulation factor <m>a(t)</m>.  What happens?  What do you conclude?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Since <m>A(t) = A(0)a(t)</m>, we have
+				</p>
+				<me>
+					\delta_t = \frac{A(0)a'(t)}{A(0)a(t)} = \frac{a'(t)}{a(t)}
+				</me>
+				<p>
+					Since <m>A(0)</m> is a constant, we can use either formula for <m>\delta_t</m>
+				</p>
+			</solution>
+
+		</task>
+		<task>
+			<statement>
+				<p> 
+					Compare our definition of <m>\delta_t</m> in terms of <m>\ln(A(t))</m> with your formula written in terms of <m>A(t)</m> and <m>A'(t)</m>,  What strategic considerations might you make when calculating <m>\delta_t</m> given an explicit <m>A(t)</m>?
+				</p>
+			</statement>
+			<solution>
+				<p>
+					Since either formula can be used, we can calculate <m>\delta_t</m> using whichever formula is more convenient.
+				</p>
+			</solution>
+		</task>
+	</activity>
+	<activity xml:id="expressing-other-forms-as-force-of-interest">
+		<introduction>
+			<p> 
+				When we said that the force of interest generalizes other forms of interest accumulation, this means that both simple and compound interest can be expressed in terms of the force of interest.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose we have simple interest with a rate <m>\iota</m>.  Find the force of interest.  What do you notice?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose we have an effective periodic interest rate <m>\iota</m> (and <m>t</m> is measured in matching units).  Find the force of interest.  What do you notice?
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose we have a continuously compounded interest rate <m>r</m>.  Find the force of interest.  What do you notice?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-force-of-interest">
+		<introduction>
+			<p> 
+				Find the force of interest for each of the following accumulation factors or functions.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				<m>a(t) = \frac{t^2}{50}</m>
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>a(t) = 3t^{12}</m>
+			</p>
+		</task>
+		<task>
+			<p>  
+				<m>A(t) = Ka^tb^{t^2}c^{t^3}</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-instantaneous-percent-change-1">
+		<statement>
+			<p> 
+				Suppose <m>A(t) = 100(1 + 0.075t)</m>.  Find the instantaneous percentage change in the accumulation function at time <m>t =5.36</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-instantaneous-percent-change-2">
+		<statement>
+			<p> 
+				Suppose <m>A(t) = 2500 \left(\frac{t^3}{150}\right)</m>.  Find the instantaneous percentage change in the accumulation function at time <m>t = 3.871</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="force-of-interest-reflection">
+		<statement>
+			<p> 
+				How did you decide when to use the definition of <m>\delta_t</m> in terms of <m>\ln(A(t))</m> and the formula for <m>\delta_t</m> in terms of <m>A(t)</m> and <m>A'(t)</m>?
+			</p>
+		</statement>
+	</activity>
+</section>

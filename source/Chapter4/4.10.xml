@@ -1,0 +1,218 @@
+<section xml:id="continuously-payable-annuities">
+  <title>Continuously Payable Annuities</title>
+  <p>
+    A continuously payable annuity is an annuity where the payment is "smeared out" over time.  The payment is then quoted as a rate, such as <m>K</m> per year or <m>K</m> per month.  These come up rarely on the FM exam, but are covered here for completion. 
+  </p>
+  <p>
+    To match the interest rate period with the payment period, we use the continuous compounding rate.  This is the (constant) force of interest <m>\delta</m>. The notation for future and present value are <m>\overline{s}_{\angln \iota}</m> and <m>\overline{a}_{\angln \iota}</m>. 
+  </p>
+  <activity xml:id="formulas-for-continuous-annuities">
+    <introduction>
+      <p>
+        Since our payments are "smeared out" we can think of this as taking payments of <m>\frac{1}{m}</m> <m>m</m> times per year, and then take the limit as <m>m\to\infty</m>.
+      </p>
+    </introduction>
+    <task>
+      <p>
+        If the effective annual rate is <m>\iota</m>, what is the effective <m>m</m>-times a year rate?
+      </p>
+    </task>
+    <task>
+      <p>
+        Using your effective <m>m</m>-times a year rate, what would be the future value of an annuity which pays <m>\frac{1}{m}</m> <m>m</m> times a year for <m>n</m> years?
+      </p>
+    </task>
+    <task>
+      <p>
+        The denominator of your fraction is <m>m((1+\iota)^{\frac{1}{m}} -1)</m>.  What is the limit as <m>m\to\infty</m>? Hint: Use L'Hopital's rule - this is of the form <m>\infty - \infty</m>.
+      </p>
+    </task>
+    <task>
+      <p> 
+        Using your work above, fill in a formula for <m>\overline{s}_{\angln \iota}</m> and guess a formula for <m>\overline{a}_{\angln \iota}</m>. The derivation for <m>\overline{a}_{\angln \iota}</m> follows the same process.
+      </p>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Future Value
+            </cell>
+            <cell>
+              Present Value
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Annuity Immediate
+            </cell>
+            <cell>
+              <m>s_{\angln} = \frac{(1+\iota)^n-1}{\iota} </m>
+            </cell>
+            <cell>
+              <m>a_{\angln} = \frac{1-v^n}{\iota}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Annuity Due
+            </cell>
+            <cell>
+              <m>\ddot{s}_{\angln} = \frac{(1+\iota)^n-1}{d}</m>
+            </cell>
+            <cell>
+              <m>a_{\angln} = \frac{1-v^n}{\iota}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Continuously Payable Annuity
+            </cell>
+            <cell>
+              <m>\overline{s}_{\angln \iota} = </m>
+            </cell>
+            <cell>
+              <m>\overline{a}_{\angln \iota} = </m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </task>
+  </activity>
+  <activity xml:id="rewriting-formulas-with-force-of-interest">
+    <statement>
+      <p> 
+        Rewrite the formulas for <m>\overline{a}_{\angln}</m> and <m>\overline{s}_{\angln}</m> so that both the numerators and denominators are in terms of <m>\delta</m>.  Which do you like better?
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="present-value-of-continuous-annuity">
+    <statement>
+      <p> 
+        Find the present value of a continuously payable annuity, with payments at a rate of 12,000 per year for 5 years, assuming <m>\delta = 0.05</m>. 
+      </p>
+    </statement>
+  </activity>
+  
+  <activity xml:id="calculating-time-for-continuous-annuity">
+    <statement>
+      <p> 
+        There is 40,000 in a fund which is accumulating at 4% per annum convertible continuously. If money is withdrawn continuously at a rate of 2400 per annum, how long will the fund last? 
+      </p>
+    </statement>
+  </activity>
+  <activity xml:id="examining-formulas-for-continuous-annuities">
+    <introduction>
+      <p> 
+        A continuously payable annuity paying <m>K</m> per unit time where there is an arbitrary force of interest has future value written <m>K\overline{s}_{\angln \delta_t}</m> and present value written <m>K\overline{a}_{\angln \delta_t}</m> where 
+      </p>
+      <me>\overline{s}_{\angln \delta_t} = \int_0^n e^{\int_z^n \delta_t dt} dz</me> 
+      <me>\overline{a}_{\angln \delta_t} = \int_0^n e^{-\int_0^z \delta_t dt}dz</me>
+    </introduction>
+    <task>
+      <p> 
+        Explain what the integrands <m>e^{\int_z^n \delta_t dt}</m> and <m>e^{- \int_0^z \delta_t dt}</m> represent. 
+      </p>
+    </task>
+    <task>
+      <p> 
+        Explain why we integrate from 0 to <m>n</m> instead of sum. 
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="continuous-annuities-with-variable-force-of-interest">
+    <introduction>
+      <p> 
+        Suppose we have:
+      </p>
+      <me>\delta_t = \frac{2}{t+1}</me>
+    </introduction>
+    <task>
+      <p> 
+        Find <m>\overline{s}_{\angl{9} \delta_t}</m>
+      </p>
+    </task>
+    <task>
+      <p> 
+        Find <m>\overline{a}_{\angl{7} \delta_t}</m>
+      </p>
+    </task>
+  </activity>
+  <activity xml:id="annuity-perpetuity-formulas">
+    <statement>
+      <p> 
+        Let us consider all of our annuity and perpetuity formulas.  Write down as many of the following as you can on your own and either from memory or by deriving on the fly.  Then determine which formulas are worth memorizing and which are not, explaining your reasoning. 
+      </p>
+      <table>
+        <tabular>
+          <row>
+            <cell>
+            </cell>
+            <cell>
+              Future Value
+            </cell>
+            <cell>
+              Present Value
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Annuity Immediate
+            </cell>
+            <cell>
+              <m>s_{\angln} = \hskip 2in</m>
+            </cell>
+            <cell>
+              <m>a_{\angln} = \hskip 2in  </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Perpetuity Immediate
+            </cell>
+            <cell>
+              N/A
+            </cell>
+            <cell>
+              <m>a_{\angl{\infty}} = \hskip 2in </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Annuity Due
+            </cell>
+            <cell>
+              <m>\ddot{s}_{\angln} = \hskip 2in </m>
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angln} = \hskip 2in </m>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Perpetuity Due
+            </cell>
+            <cell>
+              N/A
+            </cell>
+            <cell>
+              <m>\ddot{a}_{\angl{\infty}} = \hskip 2in </m> 
+            </cell>
+          </row>
+          <row>
+            <cell>
+              Continuous Payable Annuity
+            </cell>
+            <cell>
+              <m>\overline{s}_{\angln \iota} = \hskip 2in </m>
+            </cell>
+            <cell>
+              <m>\overline{a}_{\angln \iota} = \hskip 2in</m> 
+            </cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </activity>
+</section>

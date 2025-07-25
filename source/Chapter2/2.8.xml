@@ -1,0 +1,133 @@
+<section xml:id="interest-compounded-continuously">
+	<title>Interest Compounded Continuously</title>
+	<p>
+		In the last activity, we saw that if <m>r</m> is an interest rate compounded continuously, then <m>r = \ln(1+\iota)</m> where <m>\iota</m> is the effective annual interest rate.  More generally, this equation holds if <m>\iota</m> is an effective rate and <m>r</m> is an interest rate continuously compounded over the same period. 
+	</p>
+	<p>
+		We also have the following future and present value formulas:
+		<me>
+			A(t) =  A(0)e^{rt} 
+		</me>
+		<me>
+			A(0)  =  A(t)e^{-rt} 
+		</me>
+	</p>
+	<p>
+		We will use these to solve problems involving continuously compounded interest. 
+	</p>
+	<assemblage>
+		<p>
+			&#9888; It is important to be flexible with the choice of symbols and notation, and use context to understand what is intended.  We sometimes use <m>r</m> for a continuously compounded interest rate.  But we have also used <m>r</m> for an inflation rate, and later in this book we will use <m>r</m> for a constant percentage change in payments.  In addition, by the end of this chapter, we will generally use <m>\delta</m> instead of <m>r</m> for a continuously compounded interest rate.  This is the most common choice of symbols for the FM exam.  However, for the IFM exam, you will see <m>r</m> return for a continuously compounded interest rate, and <m>\delta</m> will indicate continuously payable dividends on a stock that are assumed to be reinvested in the stock.  So be sure to read carefully to make sure you know how a given symbol is used in a problem.
+		</p>
+	</assemblage>
+	<activity xml:id="converting-to-continuous-rates">
+		<introduction>
+			<p> 
+				Convert as indicated.  Unless otherwise indicated, assume <m>\iota</m> is an effective annual interest rate, <m>r</m> is an annual continuously compounded interest rate, and <m>d</m> is an annual effective discount rate.  Use timelines to help!
+			</p>
+		</introduction>
+		<task>
+			<statement>
+				<p>  
+					<m>r = 6\%</m>, find <m>d^{(4)}</m>
+				</p>
+			</statement>
+			<solution>
+				<me>
+					e^{0.06} = \left(1-\frac{d^{(4)}}{4}\right)^{-4}
+				</me>
+				<me>
+					d^{(4)} = 0.05955
+				</me>
+			</solution>
+		</task>
+		<task>
+			<p> 
+				<m>\iota^{(12)} = 12\%</m>, find <m>r</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				<m>\iota^{(4)} = 6\%</m>, find the <term>monthly</term> continuously compounded interest rate <m>r</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-continuous-rate-problems">
+		<introduction>
+			<p> 
+				Complete the following exercises:
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Find the value of 7500 after 5 years and 9 months with an annual continuously compounded interest rate of 4%. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find the present value of 11000 at time <m>t = 3</m> years with a monthly continuously compounded interest rate of 1.5%.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose a deposit doubles in 12 years.  What is the annual continuously compounded interest rate?
+			</p>
+		</task>
+		<task>
+			<p> 
+				With an annual continuously compounded interest rate of <m>r = 2.5\%</m>, how long does it take 500 to grow to 600?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="comparing-continuous-and-convertible">
+		<statement>
+			<p> 
+				Iron Maiden has an account with an annual continuously compounded interest rate of 12%.  Queensryche has an account with a nominal discount rate convertible quarterly <m>d^{(4)}</m>.  The present value of <m>X</m> at time <m>t = 2</m> in the Iron Maiden account is equal to the present value of <m>X</m> at time <m>t=3</m> in the Queensryche account.  If <m>t</m> is in years, find <m>d^{(4)}</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-divdends">
+		<introduction>
+			<p> 
+				The owner of a share of <term>stock</term> in a company owns a portion of the company.  The company sometimes rewards its owners by distributing <term>dividends</term> to shareholders out of their profits.  In the IFM exam, you will have to find the present or future value of a sequence of dividends, and it will be important to carefully read the type of interest rate given.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Suppose shareholders are given semiannual dividends of 2.5 over the course of 1 year, and the effective annual interest rate is 5%.  The first dividend will be paid 6 months from today.  Find the value of these dividends immediately after the second dividend is paid.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose shareholders are given quarterly dividends of 1.75 at the end of each quarter for 9 months, and the annual continuously compounded interest rate is 4%.  The first dividend will be paid 3 months from today.   Find the present value of these dividends.
+			</p>
+		</task>
+	</activity>
+	<p>
+		In the IFM exam, you will meet the <term>forward contract</term> -- an agreement to purchase an asset at time <m>T</m> for price <m>F_{0,T}</m>. The asset could be a share of stock, or it could be a commodity like jet fuel or sugar.  The "0" indicates that the agreement was made at time 0. If the value of the asset at time 0, when the agreement is made, is <m>S(0)</m>, then the <term>forward premium</term> is the quotient <m>F_{0,T}/S(0)</m>.
+	</p>
+	<activity xml:id="forward-premiums">
+		<introduction>
+			<p> 
+				If we write the forward premium as <me>\frac{F_{0,T}}{S(0)} = e^{pT}</me> the rate <m>p</m> is called the <term>annualized forward premium</term> (why "annualized"?).  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Solve this equation for <m>p</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose the annual continuously compounded interest rate is <m>r</m>, and the stock returns dividends at the continuous rate <m>\delta</m> (assumed reinvested in more stock).  The purchase of the forward contract does not get the dividends - they do not get the stock (nor pay the money) until time <m>T</m>.  The forward price, for reasons you will see when preparing for the IFM exam, is <me>F_{0,T} = S(0)e^{(r-\delta)T}</me>  Find the annualized forward premium.  In this case, this is called the <term>cost of carry</term> (why?).
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="eulers-reflection">
+		<statement>
+			<p> 
+				Look back over the last two activities.  How did Euler's Number <m>e</m> get involved in our course?
+			</p>
+		</statement>
+	</activity>
+</section>

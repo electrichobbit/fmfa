@@ -1,0 +1,385 @@
+<exercises xml:id="applications-of-interest-theory-exercises">
+	<exercise>
+		<introduction>
+			<p>
+				A loan of 50,000 has a term of 5 years.  The effective annual interest rate is <m>\iota = 4\%</m>.  Construct the amortization schedule under each of the following repayment conditions:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The loan is repaid with five annual level payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				The loan is repaid with five payments.  Each payment consists of the outstanding interest plus a 10,000 payment of principal.
+			</p>
+		</task>
+		<task>
+			<p>
+				The annual payments consist only of interest, and the balance is paid off at the end of the term.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				A loan of 6,000 has a term of 1 year.  The interest rate is 15% convertible quarterly.  Construct the amortization schedule under each of the following repayment conditions:
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The loan is repaid with twelve monthly level payments.
+			</p>
+		</task>
+		<task>
+			<p>
+				The loan is repaid with twelve payments.  Each payment consists of the outstanding interest plus a 500 payment of principal.
+			</p>
+		</task>
+		<task>
+			<p>
+				The monthly payments consist only of interest, and the balance is paid off at the end of the term.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Use the identity <m>Pr_{t+1} = Pr_t(1+\iota) + K_{t+1}-K_t</m> to find the missing data in each of the following.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The principal repaid in the 17th payment of a loan is 150.  The effective interest rate is <m>\iota = 3\\%</m>.  The 16th payment was 300 and the 17th payment was 400.  Find the principal repaid in the 16th payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is paid off with 360 monthly level payments with an effective monthly interest rate of <m>\iota = 5\\%</m>.  If the principal repaid in the 297th payment is 225.28, find the principal repaid in the 323rd payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is paid off with 10 annual level payments with an effective annual interest rate of <m>\iota = 6\\%</m>.  If the principal repaid in the seventh payment is 6,241.48, find the principal repaid in the third payment. 
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 50,000 is paid off with 60 monthly level payments with an effective monthly interest rate of <m>\iota = 2\\%</m>.  Find the amount of principal repaid in the last payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is paid off with <m>n</m> quarterly payments.  If <m>OB_{n-1} = 248.96</m>, and <m>(1+\iota)^{n-1} = 2.0</m>, find the amount of principal repaid in the first payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following loans, find <m>OB_t</m> for the desired <m>t</m> using the <term>retrospective method</term>.  Assume level payments.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				For a loan of 100,000, paid off in 360 monthly payments, with an effective monthly interest rate of 3%, find <m>OB_{291}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 10,000, paid off in 10 annual payments, with an effective annual interest rate of 5%, find <m>OB_7</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 250,000, paid off in 60 monthly payments, with an effective monthly interest rate of 1.25%, find <m>OB_{12}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 60,000, paid off in 40 quarterly payments, with an effective quarterly interest rate of 2.5%, find <m>OB_{23}</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following loans, find <m>OB_t</m> for the desired <m>t</m> using the <term>prospective method</term>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				For a loan of 50,000, paid off in 48 monthly payments, with an effective monthly interest rate of 2%, find <m>OB_{36}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 125,000, paid off in 60 quarterly payments, with an effective quarterly interest rate of 4%, find <m>OB_{9}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 15,000, paid off in 15 annual payments, with an effective annual interest rate of 7%, find <m>OB_3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				For a loan of 12,000, paid off in 24 monthly payments, with an effective monthly interest rate of 1.75%, find <m>OB_{20}</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				The following loans are all paid back using level payments.  Find the indicated value.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan for 120,000 carries a term of 30 years with monthly payments.  The interest rate is 9%, convertible monthly.  Find the monthly payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan has a term of 12 years with quarterly payments of 584.64.  The interest rate is 3.5%.  Find the loan amount.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 25,000 carries a term of 12 years with annual payments of 2981.93.  Find the effective annual interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 50,000 carries an effective quarterly interest rate of 5%.  The loan is paid off with quarterly payments of  2,641.41.  Find the term (round to the nearest whole number).
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Assume all of the following loans are paid off with level payments. Find <m>Pr_t</m> for the selected value of <m>t</m> under the following conditions.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 75,000 with a term of 6 years, paid off with monthly payments.  The effective monthly interest rate is 1%.  Find <m>Pr_{61}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 1.6 million with a term of 10 years, paid off with quarterly payments.  The effective quarterly interest rate is 6.3%.  Find <m>Pr_{27}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is paid off with monthly payments of 1249.87 and carries an effective monthly interest rate of 2.35%.  For some <m>t</m>, <m>OB_{t-1} = 23,569.41</m>.  Find <m>Pr_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is paid off with 120 level payments.  The loan amount is 120,000, and <m>I_1 = 9000</m>.  If <m>OB_{t-1} = 115,039.82</m>, find <m>Pr_{t+2}</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Assume all of the following loans are paid off with level payments.  Find <m>I_t</m> for the selected value of <m>t</m> under the following conditions.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 15,500 is repaid with 20 quarterly payments.  The effective quarterly interest rate is 2.48%.  Find <m>I_7</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 300,000 is repaid with 360 monthly payments.  The effective monthly interest rate is 2%.  Find <m>I_{101}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If <m>Pr_t = 298.75</m>, <m>Pr_{t-1} = 281.84</m>, and <m>OB_{t-1} = 1296.73</m>, find <m>I_t</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				If the loan amount is 65,500, <m>I_1 = 982.50</m>, and the term is 120 months, find <m>I_{27}</m>.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Find the new monthly payments for each of the following refinanced loans.  Assume level payments for both the original and refinanced loan.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan is made for 100,000 and will be repaid in 360 monthly payments.  The effective monthly interest rate is 2.25%.  Immediately following the 223rd payment, the loan is refinanced with an effective monthly interest rate of 1.5%.  Find the new monthly payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is made for 125,000 and will be repaid in 80 quarterly payments.  The interest rate is 12% compounded quarterly.  Immediately following the 54th payment, the loan is refinanced with an effective quarterly interest rate of 2.5%.  Find the new quarterly payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan is made for 90,000 and will be repaid in 10 annual payments.  The effective annual interest rate is 9.5%.  Immediately following the 5th payment, the loan is refinanced with an effective annual interest rate of 7%.  Find the new annual payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 350,000 is to be repaid with 100 quarterly payments.  The effective quarterly interest rate is 4%.  Immediately following the 39th payment, the loan is refinanced.  Under the terms of the refinance, the loan will be repaid with monthly payments, with an interest rate of 9% convertible monthly.  Find the monthly payment for the refinanced loan.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<statement>
+			<p>
+				TMP Inc. holds a 25 million loan that they have been paying back with semiannual payments.  The loan carries a term of 20 years, and an effective semiannual interest rate of 3.5%.  After 7 years, TMP, Inc. goes into bankruptcy.  The bankruptcy lasts 2 years, during which the company makes no payments on its loan.  After restructuring their finances under the supervision of the U.S. Bankruptcy Court in the Southern District of New York, TMP, Inc. emerges with restructured loan conditions.  Five years are added to the remainder of the term of the loan, but the effective semiannual interest rate is raised to 4%.  Find the new semiannual payments. 
+			</p>
+			<p>
+				Assume interest on the loan accrues at the original interest rate during the two years of the bankruptcy proceedings.
+			</p>
+		</statement>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following loans with level payments, assume the final payment is a balloon payment.  Find the amount of the balloon payment.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan for 450,000 carries an effective monthly interest rate of 2%.  It is repaid with monthly payments of 9,500.  Find the amount of the balloon payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 80,000 carries an effective quarterly interest rate of 6.15%.  It is repaid with quarterly payments of 5,410.  Find the amount of the balloon payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 10,000 carries an effective annual interest rate of 8.3%.  It is repaid with annual payments of 1,040.00.  Find the amount of the balloon payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 200,000 carries an effective annual interest rate of 7.8%.  It is repaid with annual payments of 18,415. Find the amount of the balloon payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following loans with level payments, assume the final payment is a drop payment. Find the amount of the drop payment.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan for 50,000 carries an effective semi-annual interest rate of 5%. It is repaid with semi-annual payments of 2,730.  Find the amount of the drop payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 125,000 carries an effective quarterly interest rate of 3.25%. It is repaid with quarterly payments of 5,091. Find the amount of the drop payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 12,500 carries an effective annual interest rate of 7%. It is repaid with annual payments of 1,370.  Find the amount of the drop payment.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan for 425,000 carries an effective monthly interest rate of 1.5%.  It is repaid with monthly payments of 6,400.  Find the amount of the drop payment.
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Each of the following loans are repaid with constant payments of principal.  In each case, given <m>t</m>, find <m>Pr_t</m>, <m>I_t</m>, <m>K_t</m>, and <m>OB_t</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 100,000 is repaid with 10 annual payments.  The effective interest rate is 6.45%.  Find the values of <m>Pr_3</m>, <m>I_3</m>, <m>K_3</m>, and <m>OB_3</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 240,000 is repaid with 360 monthly payments.  The effective monthly interest rate is 1.05%.  Find the values of <m>Pr_{143}</m>, <m>I_{143}</m>, <m>K_{143}</m>, and <m>OB_{143}</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 12,000 is repaid with 12 quarterly payments.  The effective quarterly interest rate is 3.85%.  Find the values of <m>Pr_9</m>, <m>I_9</m>, <m>K_9</m>, and <m>OB_9</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 96,000 is repaid with semi-annual payments over 8 years.  The effective semiannual interest rate is 5%.  Find the values of <m>Pr_7</m>, <m>I_7</m>, <m>K_7</m>, and <m>OB_7</m>. 
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				Each of the following loans are repaid via the sinking fund method.  Find the total periodic outlay.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 12,000 has a term of 10 years.  Interest accrues annually at an effective rate of <m>\iota = 10\\%</m>.  The sinking fund account carries an effective annual interest rate of <m>j = 8\%</m>.  Find the total annual outlay.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 90,250 has a term of 300 months.  Interest accrues monthly at an effective rate of <m>\iota = 2\%</m>.  The sinking fund account carries an effective monthly interest rate of <m>j=2.5\%</m>.  Find the total monthly outlay.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 20,000 has a term of 64 quarters.  Interest accrues quarterly at an effective rate of <m>\iota = 6\%</m>. The sinking fund account carries an effective quarterly interest rate of <m>j = 4.5\%</m>. Find the total quarterly outlay.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 150,000 has a term of 15 years.  Interest accrues annually at an effective rate of <m>\iota = 9\%</m>.  The sinking fund account carries an effective <term>semiannual</term> interest rate of <m>j=5\%</m>.  Suppose you make a deposit every 6 months, and pay interest annually.  Find the total annual outlay (simply add the two, do not "value").
+			</p>
+		</task>
+	</exercise>
+	<exercise>
+		<introduction>
+			<p>
+				For each of the following loans, find <m>K_T</m>, <m>I_T</m>, and <m>Pr_T</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 325,000 is repaid with monthly level payments over 20 years.  The effective monthly interest rate is 1.5%.  Find <m>K_T</m>, <m>I_T</m>, and <m>Pr_T</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 275,000 is repaid with semiannual payments over 15 years, each of which includes a constant payment of principal.  The effective semiannual interest rate is 4%.  Find <m>K_T</m>, <m>I_T</m>, and <m>Pr_T</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 30,000 is repaid with annual payments over 30 years, each of which includes a constant payment of principal. The effective annual interest rate is 7%. Find <m>K_T</m>, <m>I_T</m>, and <m>Pr_T</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				A loan of 87,500 is repaid with quarterly level payments over 10 years. The effective quarterly interest rate is 4.5%. Find <m>K_T</m>, <m>I_T</m>, and <m>Pr_T</m>.
+			</p>
+		</task>
+	</exercise>
+</exercises>

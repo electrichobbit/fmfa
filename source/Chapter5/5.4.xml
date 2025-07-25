@@ -1,0 +1,103 @@
+<section xml:id="annuities-with-payments-in-geometric-progression-the-short-way">
+	<title>Annuities with Payments in Geometric Progression 2 -- The Short Way</title>
+	<p>
+		We will now derive formulas to value annuities with payments in geometric progression.  In doing so, we will follow the same processes we used in the last activity.  Review your work before continuing.
+	</p>
+	<activity xml:id="deriving-formulas-for-annuities-with-geometric-progression">
+		<introduction>
+			<p> 
+				Let's begin by deriving formulas.  We have an annuity-immediate, the first payment is <m>K</m>, and each payment grows by a constant percentage <m>r</m>.  There are <m>n</m> payments, and the effective periodic interest rate is <m>\iota</m>. Often, but not always, <m>\iota > r</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				By carefully writing out the sums and reindexing as needed, find a formula for the present value of this annuity.  Simplify your formula so that the denominator is <m>\iota - r</m>.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Find a formula for the accumulated value of the annuity.  Do this in the simplest way possible!
+			</p>
+		</task>
+		<task>
+			<p> 
+				Suppose this were a perpetuity-immediate.  Find a formula for the present value, and state the conditions that are necessary for the sum to converge.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-motivating-annuity-with-geometric-progression-example-with-formulas">
+		<statement>
+			<p> 
+				Use your formulas to solve our original, motivating example. 
+			</p>
+			<p>
+				Suppose we purchase a retirement account that pays us annually at the end of each of the next 12 years.  The first payment, at the end of this year, is 20,000.  Each payment thereafter grows by 2% as a cost of living adjustment.  Our purchase price was based on a valuation using an effective annual interest rate of <m>\iota = 3.5\%</m>.  Find the purchase price. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="geometric-progression-annuity-examples">
+		<introduction>
+			<p> 
+				Now we will use the formula to solve a couple of exercises.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				The first payment of an annuity-immediate is 11,500 and payments decline by 2%.  There are 10 payments, and <m>\iota = 5\%</m>. Find the accumulated value.
+			</p>
+		</task>
+		<task>
+			<p> 
+				The first payment of an annuity-immediate is 5000, and the payments increase by 2%. There are 20 payments, and <m>\iota = 3.5\%</m> Find the present value.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="perpetuity-immediate-increasing-payments">
+		<statement>
+			<p> 
+				Mike buys a perpetuity-immediate with varying annual payments. During the first 5 years, the payment is constant and equal to 10. Beginning in Year 6, the payments start to increase. For year 6 and all future years, the current year's payment is <m>K</m>% larger than the previous year's payment. At an effective annual interest rate of 9.2%, the perpetuity has a present value of 167.50.  Calculate <m>K</m>, given <m>K &lt; 9.2</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="forward-contracts">
+		<statement>
+			<p> 
+				One of the first topics you will learn about on the IFM exam concerns forward contracts.  A <term>forward contract</term> is a contract to purchase something at a point in the future.  If payment is made at the time of the contract, this is called a <term>prepaid forward</term>.  For a share of stock, the price of a prepaid forward is the current stock price minus the present value of the dividends that will be issued prior to delivery.  This is an adjustment due to the fact that the buyer does not get any of the dividends issued prior to delivery of the stock. 
+			</p>
+			<p>
+				A share of SKI, stock in Stark Industries, currently costs 100.  The company will issue semi-annual dividends, with the first dividend payout in 6 months.  The first dividend will be 2.75, and each dividend will grow by 5% over the previous dividend.  Find the price of a 5-year prepaid forward on SKI assuming a constant annual force of interest <m>\delta = 6\%</m>. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="when-geometric-progression-annuity-formula-breaks">
+		<statement>
+			<p> 
+				Sometimes the formula breaks.  Consider the following.  Solve the problem and explain why the formula broke.  
+			</p>
+			<p>
+				The first payment of an annuity-immediate is 60,000, and the payments increase by 3%. There are 15 payments, and <m>\iota = 3\%</m>.  Find the present value.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="when-the-annuity-geometric-progression-formula-doesnt-work">
+		<statement>
+			<p> 
+				Sometimes we cannot use the formula.  Review your work in <xref ref="more-challenging-annuity-with-changing-deposits"/> from <xref ref="annuities-with-payments-in-geometric-progression-the-long-way"/>.  Why can't we use the formula?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="adapting-geometric-progression-formula-for-annuities-due">
+		<statement>
+			<p> 
+				How would we adapt for an annuity due? Redo the exercises in <xref ref="geometric-progression-annuity-examples"/> but under the assumption that we have annuities-due, and explain your work.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="annuities-geometric-progression-reflection">
+		<statement>
+			<p> 
+				When it comes to valuing annuities with payments in geometric progression, do you prefer to memorize the formulas we derived or to adapt and use geometric series formulas?
+			</p>
+		</statement>
+	</activity>
+</section>

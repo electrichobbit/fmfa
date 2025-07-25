@@ -1,0 +1,647 @@
+<section xml:id="time-weighted-rates-of-return">
+    <title>Time-Weighted Rates of Return</title>
+    <p>
+        In the last activity, we saw how to find rates of return for any set of cash flows.  Those cash flows were not invested, but rather income from investments.  For the rest of this chapter, we are going to look at determining rates of return in investment funds, particularly when there is account activity such as deposits and withdrawals.  The goal is to determine how much return was due solely to the fund itself, and not to the account activity. 
+    </p>
+    <p>
+        There are two approaches to measuring this rate of return.  The <term>time-weighted rate of return</term> measures compound growth rate, while the <term>dollar-weighted</term> (sometimes called <term>money-weighted</term>) rate of return measures simple growth.  We start with the time-weighted rate of return. 
+    </p>
+    <p>
+        Note that the funds may not be savings accounts or bonds -- they could be accounts such as mutual funds, that can rise or fall.  So you will see some negative growth rates in the activities, exercises, and problems.
+    </p>
+    <activity xml:id="computing-time-weighted-rates">
+        <introduction>
+            <p>
+                We begin with the following example of account balances and activity:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1, 1999
+                        </cell>
+                        <cell right="medium">
+                            100
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            July 1, 1999
+                        </cell>
+                        <cell right="medium">
+                            125
+                        </cell>
+                        <cell right="medium">
+                            20
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            October 1, 1999
+                        </cell>
+                        <cell right="medium">
+                            110
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                            10
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31, 1999
+                        </cell>
+                        <cell right="medium">
+                            125
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task>
+            <p>
+                Let's start by making a timeline for this account.  Record in your timeline the balances and the activity for each date.  
+            </p>
+            <p>
+                In addition, mark rates of return between consecutive dates in the form <m>(1+j_k)</m> where <m>k = 1,2,3</m> in order.  You can assume each <m>j_k</m> is effective for the given period. 
+            </p>
+        </task>
+        <task>
+            <p>
+                The <term>time-weighted rate of return</term> is the equivalent effective annual rate <m>j</m> that takes us from the beginning of the period to the end (in this case, Jan. 1 to Dec. 31 for one year).  This rate only captures the changes due to interest or other investment growth decay. 
+            </p>
+            <p>
+                Using this concept, find an equation for <m>1+j</m> in terms of <m>1+j_1</m>, <m>1+j_2</m>, and <m>1+j_3</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                Our goal is to capture growth or decay that comes from the investment, NOT from the deposits and withdrawals. 
+            </p>
+            <p>
+                To calculate <m>1+j_1</m>, does it make sense to use balances before or after the deposit/withdrawal?  What about <m>1+j_2</m> and <m>1+j_3</m>?  Explain your reasoning. 
+            </p>
+        </task>
+        <task>
+            <p>
+                Calculate <m>1+j_1</m>, <m>1+j_2</m>, and <m>1+j_3</m>. 
+            </p>
+        </task>
+        <task>
+            <p>
+                Calculate <m>j</m>, the time-weighted rate of return.
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="finding-time-weighted-rate-of-return">
+        <statement>
+            <p>
+                Let's try another example. 
+            </p>
+            <p>
+                Find the time-weighted rate of return for the following:
+            </p>
+            <table>
+                <tabular>
+                    <row>
+                        <cell>
+                            Date
+                        </cell>
+                        <cell>
+                            Balance Before Activity
+                        </cell>
+                        <cell>
+                            Deposit
+                        </cell>
+                        <cell>
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            January 1
+                        </cell>
+                        <cell>
+                            200,000
+                        </cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            August 1
+                        </cell>
+                        <cell>
+                            215,000
+                        </cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                            5000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            December 31
+                        </cell>
+                        <cell>
+                            205,000
+                        </cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <activity xml:id="deriving-formulas-for-time-weighted-rate-of-return">
+        <introduction>
+            <p>
+                Now we will try to derive formulas by mimicking our calculations.  Let us generalize our account and activity using the following table where there are <m>m</m> time periods:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Time
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Net Contribution
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_0 = 0</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>A = B'_0</m>
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_1</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>B'_1</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>C_1</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_2</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>B'_2</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>C_2</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_k</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>B'_k</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>C_k</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>\vdots</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_{m-1}</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>B'_{m-1}</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>C_{m-1}</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>t_m=1</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>B=B'_m</m>
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </introduction>
+        <task>
+            <p>
+                Explain what is meant by <term>net contribution.</term> 
+            </p>
+        </task>
+        <task>
+            <p>
+                State precisely what the variable <m>B_k'</m> and <m>C_k</m> stand for.
+            </p>
+        </task>
+        <task>
+            <p>
+                Find a formula for <m>1+j_k</m> (between time <m>k\! -\! 1</m> and <m>k</m>).  Be careful!!
+            </p>
+        </task>
+        <task>
+            <p>
+                Write a formula for <m>1+j</m> in terms of <m>1+j_k</m> with <m>k = 1, \ldots, m</m>.
+            </p>
+        </task>
+    </activity>
+    <p>
+        <term>NOTE:</term> This is how we usually write the formula for the time-weighted rate of return: we just write the last two formulas.
+    </p>
+    <activity xml:id="using-the-time-weighted-rate-formula">
+        <statement>
+            <p>
+                Use the formula to find the time-weighted rate of return for the account:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1
+                        </cell>
+                        <cell right="medium">
+                            75,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            May 1
+                        </cell>
+                        <cell right="medium">
+                            67,500
+                        </cell>
+                        <cell right="medium">
+                            10,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31
+                        </cell>
+                        <cell right="medium">
+                            90,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <activity xml:id="calculating-when-we-know-time-weighted-rate">
+        <statement>
+            <p>
+                As usual, we can always switch what is known and what we have to find, as in the following exercise: 
+            </p>
+            <p>
+                For the account activity in the following table, the time-weighted return is 0.588%. Find <m>X</m>.
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Balance Before Activity
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                        <cell right="medium">
+                            Withdrawal
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            January 1
+                        </cell>
+                        <cell right="medium">
+                            1,000,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            March 1
+                        </cell>
+                        <cell right="medium">
+                            950,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                            X
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            December 31
+                        </cell>
+                        <cell right="medium">
+                            900,000
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </statement>
+    </activity>
+    <p>
+        So far, we have assumed we are looking at account balances and activity over 1 year.  We can do the same over multiple years -- just remember that the rate is supposed to be an annual rate and compounds over the multiple years.  This will be necessary in the following problem (be sure to pay close attention to the details here!). 
+    </p>
+    <activity xml:id="time-weighted-rates-over-multiple-years">
+        <statement>
+            <p>
+                The details regarding fund value, contributions and withdrawals from a fund are as follows:
+            </p>
+            <table>
+                <tabular>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                            Date
+                        </cell>
+                        <cell>
+                            Amount
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Fund Values:
+                        </cell>
+                        <cell>
+                            1/1/15
+                        </cell>
+                        <cell>
+                            1,000,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                            7/1/15
+                        </cell>
+                        <cell>
+                            1,310,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                            1/1/16
+                        </cell>
+                        <cell>
+                            1,265,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                            7/1/16
+                        </cell>
+                        <cell>
+                            1,540,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                            1/1/17
+                        </cell>
+                        <cell>
+                            1,420,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Contributions:
+                        </cell>
+                        <cell>
+                            6/30/15
+                        </cell>
+                        <cell>
+                            250,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Received:
+                        </cell>
+                        <cell>
+                            6/30/16
+                        </cell>
+                        <cell>
+                            250,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                        <cell>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Benefits:
+                        </cell>
+                        <cell>
+                            12/31/15
+                        </cell>
+                        <cell>
+                            150,000
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Paid:
+                        </cell>
+                        <cell>
+                            12/31/16
+                        </cell>
+                        <cell>
+                            150,000
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016. 
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="finding-value-when-time-weighted-rate-is-known">
+        <statement>
+            <p>
+                An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Date
+                        </cell>
+                        <cell right="medium">
+                            Value Immediately Before Deposit
+                        </cell>
+                        <cell right="medium">
+                            Deposit
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            March 15
+                        </cell>
+                        <cell right="medium">
+                            40
+                        </cell>
+                        <cell right="medium">
+                            20
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            June 1
+                        </cell>
+                        <cell right="medium">
+                            80
+                        </cell>
+                        <cell right="medium">
+                            80
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            October 1
+                        </cell>
+                        <cell right="medium">
+                            175
+                        </cell>
+                        <cell right="medium">
+                            75
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                On June 30, the value of the account is 157.50. On December 31, the value of the account is <m>X</m>. Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate <m>X</m>. 
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="time-weighted-rates-of-return-reflection">
+        <statement>
+            <p>
+                Is the formula for the time-weighted rate of return useful or a distraction?  Why?
+            </p>
+        </statement>
+    </activity>
+</section>

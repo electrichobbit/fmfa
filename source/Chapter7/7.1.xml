@@ -1,0 +1,203 @@
+<section xml:id="bond-vocabulary">
+	<title>Bond Vocabulary</title>
+	<p>
+		We begin this chapter by looking closer at how bonds work and the associated vocabulary and notation.  We will unveil this in layers to avoid overwhelming the reader.  As you learn more about bonds, it helps to remember that this is a cash stream of coupon payments with a principal repayment at the end, all valued using an interest rate. 
+	</p>
+	<activity xml:id="bond-vocabulary-basics">
+		<introduction>
+			<p>
+				We will begin with the basic payments.  There are periodic payments called <term>coupon payments</term> (like the interest on a loan)<fn>The word "coupon" comes from an earlier practice, where a bond was represented by a certificate, and there was a book of "coupons" attached that the bondholder would bring to the bank to exchange for payment.</fn>, and an amount called the <term>redemption amount</term> paid with the last coupon payment.  This cash flow is valued at an interest rate, called the <term>yield rate</term>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Suppose a bond has ten coupon payments of 50, with a redemption amount of 1000.  Generate a timeline for this bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Use an effective yield rate of 6% to find the present value of this bond.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="coupon-rates">
+		<introduction>
+			<p>
+				The coupon payments are calculated by multiplying a rate, called the <term>coupon rate</term> (expressed as a percentage), by an amount called the <term>face value</term> of the bond.  Often, but not always, the face value and redemption amount are the same.  So the coupon rate is like an interest rate on a loan, and the face amount is like the principal, and the yield rate is a market interest rate used to value the cash stream.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Suppose a bond has six coupon payments, a coupon rate of 4%, a face amount of 1000, and a redemption amount of 1250.  Generate a timeline for this bond.
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value if the effective yield rate is 3%.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="bond-notation">
+		<statement>
+			<p>
+				The notation for bonds is typically as follows:
+			</p>
+			<ul>
+				<li>
+					<p>
+						<m>F</m> = the face value
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>r</m> = the coupon rate
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>C</m> = the redemption amount
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>\iota</m> = the yield rate
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>n</m> = the number of payments
+					</p>
+				</li>
+			</ul>
+			<p>
+				Generate a timeline for a general bond, and write an expression for the present value.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="final-bond-definitions">
+		<introduction>
+			<p>
+				We have a few final definitions, as well as some assumptions, to introduce.
+			</p>
+			<ul>
+				<li>
+					<p>
+						The time to the final payment is called <term>maturity</term>, and when the final payment occurs, the bond is said to have <term>matured</term>.  This is often measured in years.
+					</p>
+				</li>
+				<li>
+					<p>
+						When <m>F=C</m>, we often say that the bond is a <term>par-valued</term> bond, or a bond that is <term>redeemed at par</term>. 
+					</p>
+				</li>
+				<li>
+					<p>
+						When the frequency of coupon payments is unstated, they are assumed to be <term>semiannual</term>.
+					</p>
+				</li>
+				<li>
+					<p>
+						Unless otherwise stated, coupon rates and yield rates are quoted as <term>nominal</term> rates, convertible at the same frequency as the coupon payments.
+					</p>
+				</li>
+			</ul>
+
+		</introduction>
+		<task>
+			<p>
+				A par-valued bond has a face value of 1000, a coupon rate of 10%, and matures in 10 years.  The yield rate is 12%.  Determine the coupon payments, <m>n</m>, and the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond with a face value of 2000 has annual coupons at a rate of 8%, matures in 15 years, and is redeemed at par.  The yield rate is 6%. Determine the coupon payments, <m>n</m>, and the present value.
+			</p>
+		</task>
+		<task>
+			<p>
+				A bond with a face value of 1000, a coupon rate of 9%, and matures in 12 years with a redemption amount of 1250. The yield rate is 10%. Determine the coupon payments, <m>n</m>, and the present value.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="true-false-bond-problem">
+		<statement>
+			<p>
+				Consider a bond with a face value of 1000, a coupon rate of 10%, maturing in 5 years, with a redemption amount of 1250. The yield rate is 12%. 
+			</p>
+			<p>
+				Determine which of the following statements are true, and for those that are false, correct them.
+			</p>
+			<ol>
+				<li>
+					<p>
+						At the end of five years, the issuer will pay the bondholder 1000.
+					</p>
+				</li>
+				<li>
+					<p>
+						There will be 5 coupons.
+					</p>
+				</li>
+				<li>
+					<p>
+						Each coupon will be 100.
+					</p>
+				</li>
+				<li>
+					<p>
+						The bond is priced by discounting the cash flows at an effective annual interest rate of 10%.
+					</p>
+				</li>
+				<li>
+					<p>
+						Coupons are calculated by finding 12% of 1250.
+					</p>
+				</li>
+			</ol>
+		</statement>
+	</activity>
+	<activity xml:id="multiple-parts-bond-problem">
+		<introduction>
+			<p>
+				Consider a bond with a face value of 1250, a coupon rate of 12%, maturing in 5 years, with a redemption amount of 1000.  The yield rate is 10%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Identify <m>F</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>\iota</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>r</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the amount of each coupon. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>C</m> 
+			</p>
+		</task>
+		<task>
+			<p>
+				Identify <m>n</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="bond-reflection">
+		<statement>
+			<p>
+				What challenges do you expect in learning about bonds?
+			</p>
+		</statement>
+	</activity>
+</section>

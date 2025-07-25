@@ -1,0 +1,102 @@
+<section xml:id="introduction-to-annuities-due">
+	<title>Introduction to Annuities-Due</title>
+	<p>
+		In the last several sections, we met annuities immediate -- sequences of payments where the payments occur at the end of each period.  In this activity, we will meet <term>annuities due</term> - annuities where the payments occur at the <term>beginning</term> of each period.  There are also <term>perpetuities due</term> which is analogous.  
+	</p>
+	<p>
+		What follows are problems, some of which are former exam problems.  As with annuities immediate, we are only going to analyze the problems -- over the next few sections, we will build the machinery to solve them.
+	</p>
+	<activity xml:id="analyzing-annuity-due-problem-1">
+		<introduction>
+			<p> 
+				Chuck needs to purchase an item in 10 years.  The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional <m>X</m> at the beginning of years 4, 5, and 6 to meet his goal.  The effective annual interest rate is 10%.  Calculate <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, annuities-due, perpetuities-due, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="analyzing-annuity-due-problem-2">
+		<introduction>
+			<p> 
+				Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11.  He can purchase it by either:
+			</p>
+			<ul>
+				<li>
+					<p> 
+						paying 900 per year at the end of each year for 10 years; or
+					</p>
+				</li>
+				<li>
+					<p> 
+						paying <m>K</m> per year at the end of each year for the first 5 years and nothing for the next 5 years.
+					</p>
+				</li>
+			</ul>
+			<p>
+				Calculate <m>K</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, annuities-due, perpetuities-due, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="analyzing-annuity-due-problem-3">
+		<introduction>
+			<p> 
+				A perpetuity-immediate pays <m>X</m> per year. Brian receives the first <m>n</m> payments, Colleen receives the next <m>n</m> payments, and a charity receives the remaining payments.  The share of the present value of the original perpetuity that Brian will get is 40%, and the share the charity will get is <m>K</m>. 
+			</p>
+			<p>
+				Calculate <m>K</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, annuities-due, perpetuities-due, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="analyzing-annuity-due-problem-4">
+		<introduction>
+			<p> 
+				Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years.  The account credits interest at an annual effective interest rate of <m>\iota</m>.  The accumulated amount in the account at the end of 40 years is <m>X</m>, which is 5 times the accumulated amount in the account at the end of 20 years.  Calculate <m>X</m>.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				Identify all annuities-immediate, perpetuities-immediate, annuities-due, perpetuities-due, and lump sums in the problem.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Create a timeline for the problem.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="analyzing-annuity-due-reflection">
+		<statement>
+			<p> 
+				Look back at the problems and see if you can identify where you would like to value the cash flows once you are ready to solve the problem.
+			</p>
+		</statement>
+	</activity>
+</section>

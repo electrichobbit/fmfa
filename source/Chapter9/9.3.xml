@@ -1,0 +1,121 @@
+<section xml:id="forward-rates">
+	<title>Forward Rates</title>
+	<p>
+		In addition to spot rates, we can also describe how we expect interest rates to vary in the near future using forward rates.  <term>Forward rates</term> are interest rates that are locked in today (at time 0), but are only in effect for a period of time at some point in the future (i.e., at some point forward in time).  The typical notation is <m>\iota_0(t-k,t)</m>, which stands for the effective periodic interest measured now but is in effect between times <m>t-k</m> and <m>t</m>.   
+	</p>
+	<p>
+		When <m>k = 1</m> and we are looking at <m>\iota_0(t-1,t)</m>, we use the following equivalent terms:
+	</p>
+	<ul>
+		<li>
+			<p>
+				The <term>time <m>t</m></term> (or <term><m>t</m>-time</term>) forward rate (note that this refers to the ending time).
+			</p>
+		</li>
+		<li>
+			<p>
+				The <m>t\! -\! 1</m>-deferred time-<m>t</m> interest rate.
+			</p>
+		</li>
+	</ul>
+	<p>
+		You may also see <m>\iota_0(t-k,t)</m> described as "the <m>t\! -\! k</m> deferred <m>t</m>-year interest rate."  There may be other equivalent terms you encounter, as well as alternate notation. As usual, refer to context to understand what the author intends.
+	</p>
+	<activity xml:id="exploring-the-meaning-of-forward-rates">
+		<introduction>
+			<p>
+				Let's start by exploring the meaning of forward rates.  For each of the following, create an interest rate timeline.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				<m>\iota_0(2,3)</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota_0(1,2)</m>
+			</p>
+		</task>
+		<task>
+			<p>
+				The three-year deferred year 4 interest rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				The year 2 forward rate.
+			</p>
+		</task>
+		<task>
+			<p>
+				<m>\iota_0(3,5)</m>
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="inferring-forward-rates-from-offers">
+		<introduction>
+			<p>
+				Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using <m>\iota_0(t-k,t)</m> notation.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				You pay 946.59 in three years, and are repaid 1000 in four years.
+			</p>
+		</task>
+		<task>
+			<p>
+				You pay 925.98 in six years, and are repaid 1000 one year after.
+			</p>
+		</task>
+		<task>
+			<p>
+				You pay 998.25 in two years, and are repaid 1000 at the end year 3.
+			</p>
+		</task>
+		<task>
+			<p>
+				You pay 895.68 in four years, and are repaid 1000 in seven years.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="pricing-bonds-with-forward-rates">
+		<introduction>
+			<p>
+				We can also use forward rates to price bonds.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Suppose we have the following forward rates:
+			</p>
+			<me>\iota_0(0,1) =  4.5\% </me>
+			<me>\iota_0(1,2) =  5\% </me>
+			<me>\iota_0(2,3) =  4.25\% </me>
+			<me>\iota_0(3,4) =  3.75\% </me>
+			<p>
+				Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose we have a ten-year zero-coupon that will be redeemed for 1000.  If <m>s_0(8) = 3.25\%</m> and <m>\iota_0(8,10) = 2.9\%</m>, find the price and yield to maturity.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="at-par-yield-rate-from-forward-rates">
+		<statement>
+			<p>
+				In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value.  Derive a formula for the at-par yield <m>\iota</m> of a bond with <m>n</m> coupon payments, but using forward rates instead of spot rates.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="forward-rate-reflection">
+		<statement>
+			<p>
+				In what way(s) are forward rates and spot rates different?
+			</p>
+		</statement>
+	</activity>
+</section>

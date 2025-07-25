@@ -1,0 +1,127 @@
+<section xml:id="final-payments-on-loans">
+	<title>Final Payments</title>
+	<p>
+		When a loan is paid off with level payments, there is often a need to alter the final payment.  This introduces <term>balloon payments</term> and <term>drop payments</term>.
+	</p>
+	<activity xml:id="example-of-need-for-balloon-payment">
+		<introduction>
+			<p>
+				Let's look at an example.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				A loan of 5000 is being repaid with periodic payments of 300.  The periodic effective interest rate is 2%.  How many payments must be made to pay off the loan?
+			</p>
+		</task>
+		<task>
+			<p>
+				What is the issue with your answer?
+			</p>
+		</task>
+	</activity>
+	<p>
+		To deal with the issue you identified, we make modifications to the final payment so that the loan is paid off.
+	</p>
+	<activity xml:id="calculating-the-final-payment">
+		<introduction>
+			<p>
+				One modification is a <term>balloon payment</term>.  This is what we do when we round the number of payments down and make the final payment larger than the other payments.  
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What do you need to calculate in order to find the amount that must be added to the last regular payment?
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the amount of a balloon payment in our example.
+			</p>
+		</task>
+		<task>
+			<p>
+				The other option is a <term>drop payment</term>.  We add an extra payment to the payment schedule, and this payment is a smaller than the other payments. 
+			</p>
+			<p>
+				What do you need to do in order to find the drop payment?
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the amount of a drop payment in our example.
+			</p>
+		</task>
+	</activity>
+	<assemblage>
+		<title>&#x1F9EE; Calculator Tip</title>
+		<p>
+			You can find the amount of a balloon or drop payment in your calculator:
+		</p>
+		<ul>
+			<li>
+				<p>
+					First, enter in all of your loan information and have the calculator <kbd>CPT</kbd> <kbd>N</kbd>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Next, round your value of <m>n</m> down, enter the result for <kbd>N</kbd>, and <kbd>CPT</kbd> <kbd>FV</kbd>.
+				</p>
+			</li>
+			<li>
+				<p>
+					For a balloon payment, add the result to the regular payment.  For a drop payment, hit<kbd>&#177;</kbd>, enter as <kbd>PV</kbd>, enter 1 for <kbd>N</kbd>, 0 for <kbd>PMT</kbd>, and <kbd>CPT</kbd> <kbd>FV</kbd>.
+				</p>
+			</li>
+		</ul>
+	</assemblage>
+	<activity xml:id="comparing-drop-and-balloon-payments">
+		<introduction>
+			<p>
+				(Problem 15) Prince Akeem of Zamunda borrows 75,000 to purchase a car.  The loan carries an interest rate of 2.5% convertible monthly.  The loan will be paid off with payments of 1643 at the end of each month for 4 years, with a balloon payment at the end.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Find the amount of the original balloon payment. 
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose he decides to round up his monthly payment to 2000 (starting with the first payment), and complete his payoff with a drop payment instead of a balloon payment.  Find the number of payments of 2000 he will make, and find the amount of the drop payment.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="solving-for-the-final-payment-when-number-of-payments-fixed">
+		<introduction>
+			<p>
+				Sometimes a problem will tell you how many payments there are, and that the last payment is larger or smaller than the other payments.  In this case, you are given <m>n</m> and the <m>n</m>th payment is either a balloon payment or a drop payment.  This means that there are exactly <m>n\! -\! 1</m> regular payments. If you are not told the regular payments, you can calculate them as usual, but then round to adjust for the balloon payment or drop payment.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				If you round the regular payment down, will the final payment be a little larger or a little smaller than the regular payment?  Why?
+			</p>
+		</task>
+		<task>
+			<p>
+				If you round the regular payment up, will the final payment be a little larger or a little smaller than the regular payment?  Why?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="example-with-reduced-final-payment">
+		<statement>
+			<p>
+				C.J. Cregg is paying off a loan of 45,000 loan with monthly payments for 3 years. There will be level payments followed by a slightly reduced final payment.  The effective monthly interest rate is 3.5%.  Find the amount of the final payment.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="final-payments-on-loans-reflection">
+		<statement>
+			<p>
+				Part of finding a final payment is finding the outstanding balance immediately following the last regular payment.  Do you use the prospective or retrospective method to do this?  Why? 
+			</p>
+		</statement>
+	</activity>
+</section>

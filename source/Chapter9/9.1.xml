@@ -1,0 +1,256 @@
+<section xml:id="zero-coupon-bonds-spot-rates-and-yield-curve">
+	<title>Zero Coupon Bonds, Spot Rates, and the Yield Curve</title>
+	<p>
+		We begin by defining the term structure of interest rates.  A <term>zero-coupon bond</term> is, as you might expect, a bond that pays no coupons.  United States Treasury Bills ("T-bills" for short) are zero-coupon bonds, typically with maturities less than one year.  The yield rates on zero-coupon bonds are functions of the length of time <m>t</m> to maturity, and those yield rates are referred to as <term>spot rates</term>.  Taken together, the schedule of spot rates for various times is called <term>the term structure of interest rates</term>, and graphically referred to as the <term>yield curve</term>.
+	</p>
+	<activity xml:id="determining-yield-from-market-rates">
+		<introduction>
+			<p>
+				So far, we have talked about the yield on a bond as something specified ahead of time.  For example, we may have priced a bond in order to make sure we yield a minimum rate.  Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates. 
+			</p>
+		</introduction>
+		<task xml:id="determining-initial-yield-rates">
+			<p>
+				Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three. 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Time to Maturity <m>(t)</m>
+						</cell>
+						<cell right="medium">
+							Price(<m>P_t</m>)
+						</cell>
+						<cell right="medium">
+							Yield to Maturity (YTM)
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							966.18
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							924.56
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							882.62
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							845.01
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							809.20
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task xml:id="finding-yield-rates-convertible-semiannually">
+			<p>
+				One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them.  The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds.  The acronym "STRIPS" stands for Separate Trading of Registered Interest and Principal of Securities. 
+			</p>
+			<p>
+				Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule.  Find the corresponding yield rates expressed as nominal annual rates convertible semiannually. 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Coupon Payment Number
+						</cell>
+						<cell right="medium">
+							Price
+						</cell>
+						<cell right="medium">
+							Yield
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							24.51
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							23.80
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							23.05
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							22.43
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5
+						</cell>
+						<cell right="medium">
+							21.78
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							6
+						</cell>
+						<cell right="medium">
+							21.15
+						</cell>
+						<cell right="medium">
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+	</activity>
+	<activity xml:id="term-structure-and-yield-curve">
+		<introduction>
+			<p>
+				The yield rates are called the <term>spot rates</term>, and typically denoted by either <m>s_0(t)</m> (where the subscript of 0 indicates these are the rates as of right now) or <m>s_t</m>.  Be aware that you may find alternative notation, and infer from context.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The schedule of spot rates over time is called the <term>term structure of interest rates</term>, and their graph is called the <term>yield curve</term>.  Note that we often abuse the terms and freely interchange these two terms.
+			</p>
+			<ol>
+				<li>
+					<p>
+						Using your work from <xref ref="determining-initial-yield-rates"/>, generate the term structure of interest rates.  Express each spot rate as an effective annual interest rate.
+					</p>
+				</li>
+				<li>
+					<p>
+						Sketch the yield curve for the term structure you generated. 
+					</p>
+				</li>
+			</ol>
+		</task>
+		<task>
+			<p>
+				Using your work from <xref ref="finding-yield-rates-convertible-semiannually"/> generate the term structure and the yield curve, measuring <m>t</m> in years and <m>s_0(t)</m> as nominal rates convertible semiannually.
+			</p>
+		</task>
+		<task>
+			<p>
+				What do you notice about your yield curves?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="yield-curves-and-economic-expectations">
+		<introduction>
+			<p>
+				Yield curves tell you something about economic expectations.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				The observations you made about the yield curves arising from <xref ref="determining-initial-yield-rates"/> and <xref ref="finding-yield-rates-convertible-semiannually"/> describe <term>normal</term> yield curves.  Explain why we should typically expect to see normal yield curves in terms of risk.
+			</p>
+		</task>
+		<task>
+			<p>
+				Yield curves are not always normal.  The following is an example of an <term>inverted</term> yield curve:
+			</p>
+			<figure xml:id="inverted-yield-curve">
+				<caption>Inverted yield curve.</caption>
+				<image source="images/InvertedYieldCurve.png"/>
+			</figure>
+			<p>
+				Note that the x-axis is not scaled, and the y-axis does not start at 0. 
+			</p>
+			<p>
+				This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury). 
+			</p>
+			<p>
+				What economic reasons might there be that shorter term investments are riskier than longer term investments?  What macroeconomic expectation is the bond market signaling with this yield curve?
+			</p>
+		</task>
+		<task>
+			<p>
+				By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?
+			</p>
+		</task>
+		<task>
+			<p>
+				A third type of yield curve is a <term>flat</term> yield curve.  Sketch a graph of a flat yield curve.
+			</p>
+		</task>
+		<task>
+			<p>
+				If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook?  Explain.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="yield-curve-reflection">
+		<statement>
+			<p>
+				Watch the video in <xref ref="yield-curve-video"/> (don't worry about the fact that they are generating the yield curve from coupon bonds).  How does this explanation match your thinking in the last question? 
+			</p>
+			<figure xml:id="yield-curve-video">
+				<caption>Video from Vox on how yield curves predict recessions.</caption>
+				<video youtube="xiiHjrewXNI"/>
+			</figure>
+		</statement>
+	</activity>
+</section>

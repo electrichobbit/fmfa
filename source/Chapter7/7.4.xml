@@ -1,0 +1,598 @@
+<section xml:id="bond-amortization">
+    <title>Bond Amortization</title>
+    <p>
+        When we studied loans, we amortized them to figure out things like how much of principal was repaid in a payment, or what the outstanding balance was at the time of any payment.  Based on our analogy comparing bonds to loans, we can do the same with bonds - in fact, we often have to do so for tax purposes.  But the analogy will need some ... interpretation.
+    </p>
+    <activity xml:id="building-amortization-tables-for-bonds">
+        <introduction>
+            <p>
+                We start with some examples: a premium bond, a par bond, and a discount bond.  We will assume <m>F = C</m> and that coupons are paid annually (this keeps the computations simple and allows us to see the patterns).  
+            </p>
+            <p>
+                In the tables that follow, the payment is simply the coupon payment <m>Fr</m> for all payments except the last, where the payment is <m>F+Fr</m> (to include redemption of the face amount).  The outstanding balance at time 0 is the price of the bond.  The interest due is the yield rate <m>\iota</m> times the previous outstanding balance.  The principal repaid is what is left of the payment after accounting for interest, and the outstanding balance is the previous outstanding balance minus the principal repaid.
+            </p>
+        </introduction>
+        <task>
+            <p>
+                Fill in the amortization table when <m>F = 1000</m>, <m>r = 0.05</m>, <m>\iota = 0.04</m>, and <m>n = 5</m>.
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>k</m>
+                        </cell>
+                        <cell right="medium">
+                            Outstanding Balance
+                        </cell>
+                        <cell right="medium">
+                            Payment
+                        </cell>
+                        <cell right="medium">
+                            Interest Due
+                        </cell>
+                        <cell right="medium">
+                            Principal Repaid
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            0
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            1
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            2
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            3
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            4
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            5
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </task>
+        <task>
+            <p>
+                Fill in the amortization table when <m>F = 1000</m>, <m>r = 0.05</m>, <m>\iota = 0.05</m>, and <m>n = 5</m>.
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>k</m>
+                        </cell>
+                        <cell right="medium">
+                            Outstanding Balance
+                        </cell>
+                        <cell right="medium">
+                            Payment
+                        </cell>
+                        <cell right="medium">
+                            Interest Due
+                        </cell>
+                        <cell right="medium">
+                            Principal Repaid
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            0
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            1
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            2
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            3
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            4
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            5
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </task>
+        <task>
+            <p>
+                Fill in the amortization table when <m>F = 1000</m>, <m>r = 0.05</m>, <m>\iota = 0.06</m>, and <m>n = 5</m>. 
+            </p>
+            <table>
+                <tabular top="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            <m>k</m>
+                        </cell>
+                        <cell right="medium">
+                            Outstanding Balance
+                        </cell>
+                        <cell right="medium">
+                            Payment
+                        </cell>
+                        <cell right="medium">
+                            Interest Due
+                        </cell>
+                        <cell right="medium">
+                            Principal Repaid
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            0
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            1
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            2
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            3
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            4
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            5
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                        <cell right="medium">
+                        </cell>
+                    </row>
+                </tabular>
+            </table>
+        </task>
+    </activity>
+    <assemblage>
+        <title>&#x1F9EE; Calculator Tip</title>
+        <p> 
+            The <kbd>AMORT</kbd> worksheet will also work for bonds, with a couple of caveats: (1) Keep in mind the sign conventions: for loans, interest and principal repaid are negative in the financial calculator, but we report them with opposite signs, and (2) the calculator will not include the redemption amount in the last payment -- that will show in the outstanding balance. 
+        </p>     
+    </assemblage>
+    <activity xml:id="amortization-schedules-and-premium-or-discount">
+        <statement>
+            <p>
+                What do you notice about the amortization schedule when the bond is bought at a premium? At par? At a discount?  Why might that be?
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="exploring-principal-repaid-in-bonds">
+        <statement>
+            <p>
+                In each of the three tables, add up the total principal repaid and compare to the premium or discount.  What do you notice?  How does that help us interpret what "principal repaid" means for a bond? Explain.
+            </p>
+        </statement>
+    </activity>
+    <p>
+        Before going on, we introduce some definitions and notation. 
+     </p>
+     <ul>
+        <li>
+            <p>
+                At time <m>t</m>, the outstanding balance of the bond is called the <term>Book Value</term> and denoted <m>B_t</m>.  Note that <m>B_0 = P</m>, the price of the bond.
+            </p>
+         </li>
+         <li>
+            <p>
+                If the bond is priced at a premium, it is the premium that is amortized. We call that <term>amortization of premium</term> or <term>writing down</term> the bond.
+            </p>
+        </li>
+        <li>
+            <p>
+                If the bond is priced at a discount, it is the discount that is amortized.  We call that <term>accumulation of discount</term> or <term>writing up</term> the bond.
+            </p>
+        </li>
+    </ul>
+    <p>
+        We also have the following formulas:
+    </p>
+    <table>
+        <tabular top="medium">
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    <m>k</m>
+                </cell>
+                <cell right="medium">
+                    <m>B_k</m>
+                </cell>
+                <cell right="medium">
+                    Payment
+                </cell>
+                <cell right="medium">
+                    <m>I_k</m>
+                </cell>
+                <cell right="medium">
+                    <m>Pr_t</m>
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    0
+                </cell>
+                <cell right="medium">
+                    <m>P=F+F(r-\iota)a_{\angln}</m>
+                </cell>
+                <cell right="medium">
+                    -
+                </cell>
+                <cell right="medium">
+                    -
+                </cell>
+                <cell right="medium">
+                    -
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    1
+                </cell>
+                <cell right="medium">
+                    <m>F+F(r-\iota)a_{\angl{n-1}}</m> 
+                </cell>
+                <cell right="medium">
+                    <m>Fr</m>
+                </cell>
+                <cell right="medium">
+                    <m>F\left[\iota+(r-\iota)(1-v^n)\right]</m>
+                </cell>
+                <cell right="medium">
+                    <m>F(r-\iota)v^n</m>
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    <m>t</m>
+                </cell>
+                <cell right="medium">
+                    <m>F+F(r-\iota)a_{\angl{n-t}}</m>  
+                </cell>
+                <cell right="medium">
+                    <m>Fr</m>
+                </cell>
+                <cell right="medium">
+                    <m>F\left[\iota+(r-\iota)(1-v^{n-t+1})\right]</m>
+                </cell>
+                <cell right="medium">
+                    <m>F(r-\iota)v^{n-t+1}</m>
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+                <cell right="medium">
+                    <m>\vdots</m>
+                </cell>
+            </row>
+            <row bottom="medium">
+                <cell left="medium" right="medium">
+                    <m>n</m> 
+                </cell>
+                <cell right="medium">
+                    0
+                </cell>
+                <cell right="medium">
+                    <m>Fr</m>
+                </cell>
+                <cell right="medium">
+                    <m>F\left[\iota+(r-\iota)(1-v)\right]</m>
+                </cell>
+                <cell right="medium">
+                    <m>F+F(r-\iota)v</m>
+                </cell>
+            </row>
+        </tabular>
+    </table>
+    <activity xml:id="questions-about-bond-amortization-formulas">
+        <introduction>
+            <p>
+                Examine the formulas to answer the following questions - which will help you remember them!
+            </p>
+        </introduction>
+        <task>
+            <p>
+               Explain why the formula for <m>B_t</m> makes sense.
+           </p>
+       </task>
+       <task>
+            <p>
+                Recall that the principal repaid in the <m>t</m>th payment of a loan is <m>Pr_t = Kv^{n-t+1}</m>.  Compare this to (a) the same formula for a  bond, and (b) the formula in the last section for the amount of premium or discount in a bond.  What do you notice?  How can you use this to remember the formula?
+            </p>
+        </task>
+        <task>
+            <p>
+                For interest paid, manipulate the formula for <m>I_t</m> for a bond to show that it is equal to <m>Fr-F(r-\iota)v^{n-t+1}</m>.
+            </p>
+        </task>
+        <task>
+            <p>
+                What is going on in the last row that is different?  What does that mean?
+            </p>
+        </task>
+    </activity>
+    <activity xml:id="modifying-loan-equations-for-bonds">
+        <introduction>
+            <p>
+                Alter the following loan equations (if necessary) to get corresponding equations for bonds.
+            </p>
+        </introduction>
+        <task>
+            <p>
+               <m>OB_{t+1} = OB_t(1+\iota)-K</m>
+            </p>
+       </task>
+       <task>
+            <p>
+                <m>I_{t+1}=\iota OB_t</m>
+            </p>
+        </task>
+        <task>
+            <p>
+                <m>Pr_{t+1}=K - I_{t+1}</m>
+            </p>
+        </task>
+        <task>
+            <p>
+                <m>Pr_{t+k} = Pr_t(1+\iota)^k</m>
+            </p>
+        </task>
+    </activity>
+    <p>
+        &#9888; All bond amortization formulas may need some adjustment if <m>F \neq C</m>. 
+    </p>
+    <activity xml:id="soa-bond-problem">
+        <statement>
+            <p>
+                A bond of face amount 100 is purchased at a premium of 36 to yield 7%. The amount for amortization of premium in the 5th coupon is 1.00. What is the term of the bond?
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="another-formula-for-book-value">
+        <introduction>
+            <p>
+                Another way to write a formula for <m>B_t</m> is <m>B_t = Fra_{\angl{n-t}} + Cv^{n-t}</m>.
+            </p>
+        </introduction>
+        <task>
+            <p>
+               Explain why this formula makes sense.
+           </p>
+       </task>
+       <task>
+            <p>
+                Justify the following formula:
+            </p>
+            <me>B_t = Fra_{\angl{k}} + B_{t+k}v^k</me>
+        </task>
+        <task>
+            <p>
+                What data do you think will be given to you in problems that require the formula you justified?
+            </p>
+        </task>
+    </activity>
+    <p>
+        We have been working with book value <m>B_t</m>.  There is also market value - we can just call that <m>MV_t</m>.  The market value is the present value of the remaining payments at the market rate of interest. 
+    </p>
+    <activity xml:id="working-with-market-value">
+        <statement>
+            <p>
+                Miguel purchases a 22,000, 9% fifteen-year par-value bond having annual coupons for a price to provide a 7% annual yield if the bond the bond is held to maturity. Five years later, just after the receipt of the fifth coupon, he sells it at a price to provide the new purchaser a yield to maturity of 8%. Find the difference between Miguel's book value <m>B_5</m> and the invoice price. What was Miguel's actual yield for the first five-year period?
+            </p>
+        </statement>
+    </activity>
+    <activity xml:id="bond-amortization-reflection">
+        <statement>
+            <p>
+                Describe one similarity between amortizing loans and amortizing bonds, and describe one way in which they differ.
+            </p>
+        </statement>
+    </activity>
+</section>

@@ -1,0 +1,39 @@
+<section xml:id="exponential-logarithmic-definitions">
+	<title>Definitions</title>
+	<table>
+		<tabular top="medium">
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					Exponent Definition
+				</cell>
+				<cell right="medium">
+					Logarithmic Interpretation
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					<m>b^0 = 1</m>
+				</cell>
+				<cell right="medium">
+					<m>\log_b(1)=0</m>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					<m>b^{-x} = \frac{1}{b^x}</m>
+				</cell>
+				<cell right="medium">
+					<me>log_b\left(\frac{1}{b^x}\right) = -x</me>
+				</cell>
+			</row>
+			<row bottom="medium">
+				<cell left="medium" right="medium">
+					<m>b^{m/n} = \sqrt[n]{b^m}</m>
+				</cell>
+				<cell right="medium">
+					<me>\log_b \left(\sqrt[n]{b^m}\right) = m/n</me>
+				</cell>
+			</row>
+		</tabular>
+	</table>
+</section>

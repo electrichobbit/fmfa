@@ -1,0 +1,135 @@
+<xection xml:id="ethics-microlending">
+	<title>\ \ Ethics Case Study -- Microlending</title>
+	<p>
+		Microloans are tiny loans, averaging around 100, made to individuals or communities in poverty in an effort to support entrepreneurship and lift people out of poverty.  In the United States, the Small Business Association sponsors a federal microloans program for U.S. citizens.  You can read about the program at <url href="https://bit.ly/SBAMicroloans"/>.  Some private financiers have supported microloans to foreign countries, with a particular focus on funding women. 
+	</p>
+	<p>
+		Suppose the United States State Department is working on building a microloan program to aid those in poverty in countries suffering under unstable regimes.  The theory is that if enough people can be lifted out of poverty, the country will have a thriving middle class and politically engaged civil society, which will in term stabilize government and politics.  This is in the US strategic interest. 
+	</p>
+	<p>
+		You work at a prominent investment firm.  The State Department reached out to a partner in your firm that you work closely with, and asked them to have your firm underwrite the microloan program.  This means that your firm will serve as a financial agent for collecting contributions and distributing the microloans, your firm will be responsible for vetting the loans, and your firm will take on the risks of nonpayment on behalf of the individual lenders.  
+	</p>
+	<p>
+		The State Department plans to offer microloans of 100, with a goal of making 5000 microloans per year.  The loans will be repaid in lump sums plus interest at the end of terms ranging from 1 year to 5 years.   We have been asked for a ten year commitment. The Secretary of State has negotiated with target countries, who will allow the loans to be made provided that the loans carry the same interest rates as in their country.  The target countries are worried about US investment firms undercutting their local finance industry. 
+	</p>
+	<p>
+		The partner asks your working group to evaluate the proposal.  You have been tasked with assessing ethical matters using your ethical decision-making framework.
+	</p>
+	<activity xml:id="microlending-problem-statement">
+		<statement>
+			<p> 
+				<em>Step 1</em>: State the Problem.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-fact-gathering">
+		<introduction>
+			<p> 
+				<em>Step 2</em>: Gather the Facts.
+			</p>
+			<p>
+				Interest rates tend to be quite volatile in countries with unstable regimes.  We will use duration to assess interest rate risk on the microloans.  We will assume, based on the State Department's proposal, that we will have 5000 loans of 100 repaid at the end of every year under the term of the proposed contract.   As such, we will model the total investment as a level-payment annuity. The average effective annual interest rate in the target countries right now is 10%.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Calculate both the duration and the modified duration of the microloan portfolio.
+			</p>
+		</task>
+		<task>
+			<p>
+				The standard deviation of interest rates (averaged across the countries) over time in the target countries is 175 basis points.  This means each year you can reasonably expect the effective annual interest rate used to value the microloan portfolio to change by <m>\pm 1.75</m> percentage points. 
+			</p>
+			<p>
+				Use the first order approximation with modified duration to quantify this risk in absolute terms, and the Macaulay approximation to quantify this risk in relative terms.  Describe what your calculations mean.
+			</p>
+		</task>
+		<task>
+			<p>
+				In an episode of <pubtitle>Madam Secretary</pubtitle>, Henry McCord (an ethicist) expresses concern that microloans to poor citizens in tyrannical regimes may be seen as supportive of those regimes.  How might this work?  Is this a concern to you?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="microlending-identify-stakeholders">
+		<statement>
+			<p> 
+				<em>Step 3</em>: Identify stakeholders.  Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected).  Try to see the situation through the eyes of all possible stakeholders. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-develop-options">
+		<statement>
+			<p> 
+				<em>Step 4</em>: Develop options.  Be imaginative, avoid dilemmas or yes/no situations. Instead consider how to modify questions and ask “to/for whom” or “how much." 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-test-options">
+		<statement>
+			<p> 
+				<em>Step 5</em>: Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction.  Test at least two options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
+			</p>
+			<p>
+				<em>Option 1</em>:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Primary or Secondary?
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-make-decision">
+		<statement>
+			<p> 
+				<em>Step 6</em>: Make a decision. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-check-work">
+		<statement>
+			<p> 
+				<em>Step 7</em>: Check your work!  Make sure your decision follows your gut instincts and your internal principles.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="microlending-memo">
+		<statement>
+			<p> 
+				Write a memo to the partner stating your recommendation.  Be sure to support your position and address counterarguments (see outline in <xref ref="ethics-student-loans-and-covid"/>).
+			</p>
+		</statement>
+	</activity>
+</xection>

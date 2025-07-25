@@ -1,0 +1,242 @@
+<section xml:id="calculating-the-swap-rate">
+	<title>The Swap Rate</title>
+	<p>
+		This activity is the heart of this chapter - we will calculate the swap rate <m>R</m>.  Recall that this is the fixed rate at which the payer makes payments, while the receiver uses floating rates. 
+	</p>
+	<p>
+		At time 0, we will use the yield curve to find present values, and we use the implied forward rates as estimates of the floating rates that the receiver will pay.  We will denote <m>\iota_0(t-1,t)</m> with the simpler <m>\iota_0(t)</m>.  But recall that individual problems may have their own notation -- use context.
+	</p>
+	<activity xml:id="finding-swap-rate-from-yield-curve">
+		<introduction>
+			<p>
+				Suppose the yield curve is: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Term <m>t</m>
+						</cell>
+						<cell right="medium">
+							Spot Rate <m>s_t</m>
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1
+						</cell>
+						<cell right="medium">
+							3.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2
+						</cell>
+						<cell right="medium">
+							4.50%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3
+						</cell>
+						<cell right="medium">
+							5.00%
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4
+						</cell>
+						<cell right="medium">
+							5.25%
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				A payer and receiver enter into a 4-year interest rate swap with annual payments and notional amount <m>X</m>.  We will use the yield curve to find the swap rate <m>R</m>.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What is the amount of the annual fixed payment (in terms of <m>R</m> and <m>X</m>)?
+			</p>
+		</task>
+		<task>
+			<p>
+				What is the present value of the fixed payments (in terms of <m>R</m> and <m>X</m>)?
+			</p>
+		</task>
+		<task>
+			<p>
+				The floating payments will be based on the forward rates.  Find the forward rates, then find the amount of each of the four floating payments (in terms of <m>X</m>).
+			</p>
+		</task>
+		<task>
+			<p>
+				Find the present value of the floating payments (in terms of <m>X</m>).
+			</p>
+		</task>
+		<task>
+			<p>
+				Why must the present values of the two legs be equal? (You do not have to be very specific here.)
+			</p>
+		</task>
+		<task>
+			<p>
+				Set your present values equal and solve for <m>R</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				What happened to the notional amount?  What does that tell you?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="creating-a-formula-for-swap-rate">
+		<statement>
+			<p>
+				Mimic your work in the last problem and derive a formula for the swap rate <m>R</m> in an <m>n</m>-period interest rate swap, using spot rates <m>s_1, s_2, \ldots, s_n</m> and forward rates <m>\iota_0(1), \iota_0(2), \ldots, \iota_0(n)</m>.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="using-telescoping-sums-to-simplify-the-formula">
+		<introduction>
+			<p>
+				We can make this formula a little nicer using "telescoping sums."
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Consider the following sum:
+			</p>
+			<me>\frac{1}{2} + \frac{1}{2} - \frac{1}{3} + \frac{1}{3} - \frac{1}{4} + \frac{1}{4} - \frac{1}{5} + \frac{1}{5} - \frac{1}{6} + \frac{1}{6} - \frac{1}{7}</me>
+			<p>
+				Without converting to decimals or improper fractions, simplify this sum by canceling.  This is an example of a telescoping sum (it shortens up like a telescope!).
+			</p>
+		</task>
+		<task>
+			<p>
+				Recall that we derived the following equation for a forward rate (solved for the rate itself):
+			</p>
+			<me>\iota_0(t) = \frac{(1+s_t)^t}{(1+s_{t-1})^{t-1}} - 1</me>
+			<p>
+				Using this formula for the forward rate, rewrite and simplify the present value of the floating payments in an interest rate swap.  Notice you will find a telescoping sum!
+			</p>
+		</task>
+		<task>
+			<p>
+				Use this simplification to rewrite your formula for the swap rate <m>R</m>.
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="using-the-swap-rate-formula">
+		<statement>
+			<p>
+				Find the swap rate from <xref ref="finding-swap-rate-from-yield-curve"/> using your new formula.  Which do you prefer?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="finding-at-par-yield-rate-from-yield-curve">
+		<statement>
+			<p>
+				Recall that given a yield curve, the at-par yield rate of a coupon bond is the coupon rate at which the bond is priced at-par, i.e. its price equals its redemption amount.  Using the yield curve in <xref ref="finding-swap-rate-from-yield-curve"/>, find the at-par yield rate for a bond with redemption amount <m>X</m>.  What do you notice?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="determining-swap-rate-with-other-information">
+		<introduction>
+			<p>
+				Sometimes the information we are given may alter our approach to a problem.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year. 
+			</p>
+			<p>
+				You are given the following prices for a zero coupon bond that matures for 1 on the maturity date: 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Maturity Date
+						</cell>
+						<cell right="medium">
+							Price
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							1 year
+						</cell>
+						<cell right="medium">
+							0.965
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							2 years
+						</cell>
+						<cell right="medium">
+							0.920
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							3 years
+						</cell>
+						<cell right="medium">
+							0.875
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							4 years
+						</cell>
+						<cell right="medium">
+							0.825
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							5 years
+						</cell>
+						<cell right="medium">
+							0.770
+						</cell>
+					</row>
+				</tabular>
+			</table>
+			<p>
+				Determine the net swap payment at the end of the first year.
+			</p>
+		</task>
+		<task>
+			<p>
+				How was the information in this problem different from the information in <xref ref="finding-swap-rate-from-yield-curve"/>?  How did that impact your problem solving?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="finding-swap-rate-from-yield-curve-equation">
+		<statement>
+			<p>
+				The yield curve spot rates for three years are given by:
+			</p>
+			<me>r(0,n) = 0.0025n^2 + 0.0025n + 0.025</me>
+			<p>
+				Find the swap rate for a 3-year fixed interest rate swap.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="calculating-the-swap-rate-reflection">
+		<statement>
+			<p>
+				Decribe two ways the yield curve is used in finding a swap rate for an interest rate swap.
+			</p>
+		</statement>
+	</activity>
+</section>

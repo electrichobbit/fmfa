@@ -1,0 +1,111 @@
+<section xml:id="ethics-speculation">
+	<title>Ethics Case Study -- Speculation</title>
+	<p>
+		Spot rates and forward rates represent predictions about how the market thinks interest rates will move in the future.  Those who purchase bonds, whether coupon-bearing or not, may not be investing so much for the bond itself as they are making a bet about whether they think the market is correctly predicting future interest rates.  For example, if the yield curve is normal while an investor thinks interest rates are going to actually decline, they may purchase bonds with the intent to sell them for a profit after a reduction in interest rates.  This is known as <term>speculation</term>. 
+	</p>
+	<p>
+		It is more common to use the word speculation when the risks of loss and potential reward are higher.  Most speculation is done in commodity markets and in secondary stock markets.  Combined with herd behavior -- the tendency of investors to follow and copy one another's investing choices -- speculation can lead to "bubbles" in the market.  This means that the value of the assets in the market significantly exceeds their intrinsic value.  Some investors earn high returns during bubbles, and others suffer serious losses when the bubble "bursts" as it inevitably will.  The difference between who makes money and who loses is a matter of chance timing. 
+	</p>
+	<p>
+		Suppose you monitor and manage investments for an insurance company.  Your department chair notices that there appears to be a bubble in energy stocks and asks you your thoughts about getting in on it before the bubble bursts. You tell them you will think about it and respond by the end of the day.  Since you do not have time to look into the specifics of this bubble, you are going to consider investing in bubbles in general.
+	</p>
+	<activity xml:id="speculation-problem-statement">
+		<statement>
+			<p> 
+				<em>Step 1</em>: State the Problem.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-fact-gathering">
+		<statement>
+			<p> 
+				<em>Step 2</em>: Gather the Facts.
+			</p>
+			<p>
+				Run an internet search for recent asset or stock market bubbles.  Describe what you found, the consequences when the bubble burst, and state your source.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-identify-stakeholders">
+		<statement>
+			<p> 
+				<em>Step 3</em>: Identify stakeholders.  Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected).  Try to see the situation through the eyes of all possible stakeholders. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-develop-options">
+		<statement>
+			<p> 
+				<em>Step 4</em>: Develop options.  Be imaginative, avoid dilemmas or yes/no situations. Instead consider how to modify questions and ask “to/for whom” or “how much." 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-test-options">
+		<statement>
+			<p> 
+				<em>Step 5</em>: Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction.  Test at least two options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
+			</p>
+			<p>
+				<em>Option 1</em>:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Primary or Secondary?
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-make-decision">
+		<statement>
+			<p> 
+				<em>Step 6</em>: Make a decision. 
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-check-work">
+		<statement>
+			<p> 
+				<em>Step 7</em>: Check your work!  Make sure your decision follows your gut instincts and your internal principles.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="speculation-memo">
+		<statement>
+			<p> 
+				Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in <xref ref="ethics-student-loans-and-covid"/>).
+			</p>
+		</statement>
+	</activity>
+</section>
