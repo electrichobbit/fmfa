@@ -127,6 +127,8 @@
 
 				<xi:include href="Chapter3/3.12.xml"/>
 
+				<xi:include href="Chapter3/3.ethics.xml">
+
 				<xi:include href="Chapter3/3.exercises.xml"/>
 
 				<xi:include href="Chapter3/3.problems.xml"/>
