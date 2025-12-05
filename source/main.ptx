@@ -127,7 +127,7 @@
 
 				<xi:include href="Chapter3/3.12.xml"/>
 
-				<xi:include href="Chapter3/3.ethics.xml">
+				<xi:include href="Chapter3/3.ethics.xml"/>
 
 				<xi:include href="Chapter3/3.exercises.xml"/>
 
@@ -159,8 +159,6 @@
 				<xi:include href="Chapter4/4.9.xml"/>
 
 				<xi:include href="Chapter4/4.10.xml"/>
-
-				<xi:include href="Chapter4/4.11.xml"/>
 
 				<xi:include href="Chapter4/4.exercises.xml"/>
 
