@@ -2,65 +2,73 @@
 	<title>Ethics Case Study -- Payday Loan Apps</title>
 	<p>
 		<term>Payday loans</term> are short-term loans that are designed to be paid back after receiving a paycheck. Typically the loan is to be paid back after two weeks. To get around usury laws, or at least to disguise the interest rate they are charging, lenders call the interest on these loans a "fee". As we will see, these fees correspond to very high interest rates.
-</p>
-<p> Several states either strictly regulate or ban storefront payday lending. Lenders have started getting around these laws using smartphone apps (such as Money Lion). The Center for Responsible Lending (<url href="https://www.responsiblelending.org/">) issued a report with several policy recommendations. We will examine these recommendations using an ethical reasoning framework. In this activity, we will specifically work on Ethical Reasoning KSAs 1 (prerequisite knowledge - stakeholder analysis), 2(select a decision-making framework), 4 (evaluate alternative actions), and 5 (make/justify a decision).
-	
-<activity xml:id="payday-loans-intro">
-		<intro>
-		
-<task>
+	</p>
 	<p> 
-			Before we start, read about the six <term>ethical lenses</term> published by the Markkula Center for Applied Ethics at Santa Clara University: <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">. Which lens(es) do you think you will bring to this analysis?
-			</p>
-	
-		
-			<p> 
-				Read the Center for Responsible Lending's report on payday lending apps:
-                        </p>
-<p>
- <url href="https://www.responsiblelending.org/sites/default/files/nodes/files/research-publication/crl-payday-loan-apps-ewa-sep2025.pdf">
-			</p>
-<p> It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor). </p>
-			<p> What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?
-</p>
-</task>
-</intro>
-</activity>
-
-<activity xml:id="example">
-<p> Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet (INSERT LINK) shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans. </p>
+		Several states either strictly regulate or ban storefront payday lending. Lenders have started getting around these laws using smartphone apps (such as Money Lion). The Center for Responsible Lending (<url href="https://www.responsiblelending.org/"/>) issued a report with several policy recommendations. We will examine these recommendations using an ethical reasoning framework. In this activity, we will specifically work on Ethical Reasoning KSAs 1 (prerequisite knowledge - stakeholder analysis), 2(select a decision-making framework), 4 (evaluate alternative actions), and 5 (make/justify a decision).
+	</p>
+	<activity xml:id="payday-loans-intro">
+		<intro>
 			<task>
-			<p> For each loan amount, determine the effective 2-week interest rate charged.
+				<p> 
+					Before we start, read about the six <term>ethical lenses</term> published by the Markkula Center for Applied Ethics at Santa Clara University: <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/"/>. Which lens(es) do you think you will bring to this analysis?
+				</p>
+				<p> 
+					Read the Center for Responsible Lending's report on payday lending apps:
+                        		</p>
+				<p>
+					 <url href="https://www.responsiblelending.org/sites/default/files/nodes/files/research-publication/crl-payday-loan-apps-ewa-sep2025.pdf"/>
+				</p>
+				<p> 
+					It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor). 
+				</p>
+				<p> 
+					What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?
+				</p>
+			</task>
+		</intro>
+	</activity>
+
+	<activity xml:id="example">
+		<p> 
+			Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet (INSERT LINK) shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans. 
+		</p>
+		<task>
+			<p> 
+				For each loan amount, determine the effective 2-week interest rate charged.
 			</p>
 		</task>
-<task>
+		<task>
 			<p>
 				For each loan amount, determine the effective annual interest rate charged.  Remember that these are 2-week loans.
 			</p>
 		</task>
 		<task>	
 			<p> 
-				Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a "cycle of debt"?			</p>
+				Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a "cycle of debt"?			
+			</p>
 		</task>
-<task>
-<p> Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurrs another fee of 7.99. Suppose after $n$ 2-week periods (or $2n$ weeks), the borrower is able to discharge the debt of 50 once and for all. \\
-\ \\
-Assume a 4\% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of $n$. Alternatively, this is the amount that the lender makes on the original loan of 50. 
-</p>
-</task>
-<task>
-<p> Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?
-</task>
-</example>
-
+		<task>
+			<p> 
+				Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after <m>n</m> 2-week periods (or <m>2n</m> weeks), the borrower is able to discharge the debt of 50 once and for all. 
+			</p>
+				Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of <m>n</m>. Alternatively, this is the amount that the lender makes on the original loan of 50. 
+			</p>
+		</task>
+		<task>
+			<p> 
+				Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?
+			</p>
+		</task>
 	</activity>
-<activity xml:id="payday-loans-identify-actions">
-<actions>
-<task>
-<p> You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.
-</task>
-</actions>
-</activity>
+	<activity xml:id="payday-loans-identify-actions">
+		<actions>
+			<task>
+				<p> 
+					You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.
+				</p>
+			</task>
+		</actions>
+	</activity>
 
 	<activity xml:id="payday-loans-stakeholders">
 		<statement>
@@ -69,8 +77,7 @@ Assume a 4\% market rate of interest. Find a function for the present value of a
 			</p>
 
 			<p> 
-				
-Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation.  Test options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
+				Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation.  Test options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
 			</p>
 			<p>
 				<em>Option 1</em>:
