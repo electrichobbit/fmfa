@@ -9523,11 +9523,1793 @@ var ptx_lunr_docs = [
   "body": "   You are given the following information about the activity in two different investment accounts:      Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         10\/1\/2015  110.0         12\/31\/2015  125.0             Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         12\/31\/2015  105.8         During 2015, the dollar-weighted return for investment Account equals the time-weighted return for investment account , which equals . Calculate .   "
 },
 {
+  "id": "interest-rate-risk",
+  "level": "1",
+  "url": "interest-rate-risk.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "Interest Rate Risk",
+  "body": " Interest Rate Risk  As we have seen, the present value of cash flows can change when the interest rate changes. There is the opportunity that the value will increase, and the risk that the value will decrease. In this introductory activity, we will focus on bonds.    What happens to the price of a bond when the yield rate increases? What happens when the yield rate decreases?      Consider a ten-year zero-coupon bond with face value of 1000. It was purchased to yield 1%. Three years later, interest rates rose to 10%. What happened to the value of the bond? How was the bondholder effected by the rise in interest rates? Explain specifically.      Suppose you have a coupon bond with face value of 10,000 and 4% semiannual coupon bonds for 5 years. It was purchased to yield 3%.    One year after purchase, the yield rates have risen to 5%. Find the book and the market value of the bond, and express the difference as either a gain or a loss to the bondholder.    Suppose instead that one year after the purchase, yield rates have fallen to 2%. Find the book and the market value of the bond, and express the difference as either a gain or loss to the bondholder.     Riding the yield curve is an expression to mean purchasing a bond and waiting for the change in the yield curve over time to produce a profitable environment to sell the bond.    Suppose a three-year bond has 6% annual coupons on 1000 of face value, with a redemption amount of 1200. At the time the bond is issued, the yield curve was:             1  5.350%    2  6.025%    3  6.700%       Find the purchase price when the bond is issued.    Suppose after 1 year, the yield curve is and (pay close attention to the notation -- we are sitting at time 1 right now). Find both the book and market values of the bond.    Suppose 1 year later, the yield curve includes . Find both the book and market values of the bond.    What happened to the investment? Was there a time when the bondholder could have profitably sold the bond? If so, what was the best time?      Describe the risk investors face concerning interest rates.    "
+},
+{
+  "id": "price-changes-with-yield-rate-changes",
+  "level": "2",
+  "url": "interest-rate-risk.html#price-changes-with-yield-rate-changes",
+  "type": "Activity",
+  "number": "9.1.1",
+  "title": "",
+  "body": "  What happens to the price of a bond when the yield rate increases? What happens when the yield rate decreases?   "
+},
+{
+  "id": "calculating-effect-of-interest-rate-changes",
+  "level": "2",
+  "url": "interest-rate-risk.html#calculating-effect-of-interest-rate-changes",
+  "type": "Activity",
+  "number": "9.1.2",
+  "title": "",
+  "body": "  Consider a ten-year zero-coupon bond with face value of 1000. It was purchased to yield 1%. Three years later, interest rates rose to 10%. What happened to the value of the bond? How was the bondholder effected by the rise in interest rates? Explain specifically.   "
+},
+{
+  "id": "finding-value-when-yield-rates-change",
+  "level": "2",
+  "url": "interest-rate-risk.html#finding-value-when-yield-rates-change",
+  "type": "Activity",
+  "number": "9.1.3",
+  "title": "",
+  "body": "  Suppose you have a coupon bond with face value of 10,000 and 4% semiannual coupon bonds for 5 years. It was purchased to yield 3%.    One year after purchase, the yield rates have risen to 5%. Find the book and the market value of the bond, and express the difference as either a gain or a loss to the bondholder.    Suppose instead that one year after the purchase, yield rates have fallen to 2%. Find the book and the market value of the bond, and express the difference as either a gain or loss to the bondholder.   "
+},
+{
+  "id": "interest-rate-risk-6",
+  "level": "2",
+  "url": "interest-rate-risk.html#interest-rate-risk-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Riding the yield curve "
+},
+{
+  "id": "riding-the-yield-curve",
+  "level": "2",
+  "url": "interest-rate-risk.html#riding-the-yield-curve",
+  "type": "Activity",
+  "number": "9.1.4",
+  "title": "",
+  "body": "  Suppose a three-year bond has 6% annual coupons on 1000 of face value, with a redemption amount of 1200. At the time the bond is issued, the yield curve was:             1  5.350%    2  6.025%    3  6.700%       Find the purchase price when the bond is issued.    Suppose after 1 year, the yield curve is and (pay close attention to the notation -- we are sitting at time 1 right now). Find both the book and market values of the bond.    Suppose 1 year later, the yield curve includes . Find both the book and market values of the bond.    What happened to the investment? Was there a time when the bondholder could have profitably sold the bond? If so, what was the best time?   "
+},
+{
+  "id": "interest-rate-risk-reflection",
+  "level": "2",
+  "url": "interest-rate-risk.html#interest-rate-risk-reflection",
+  "type": "Activity",
+  "number": "9.1.5",
+  "title": "",
+  "body": "  Describe the risk investors face concerning interest rates.   "
+},
+{
+  "id": "review-weighted-averages",
+  "level": "1",
+  "url": "review-weighted-averages.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Review -- Weighted Averages",
+  "body": " Review -- Weighted Averages  Weighted averages are common in finance as well as actuarial science. Our first version of duration, a measurement of interest rate risk, will be a weighted average. You will see many more.    Cobra Kai Dojos Inc. has issued the following quarterly dividends per share over the past two and a half years:     Quarter  1  2  3  4  5  6  7  8  9  10    Dividends  2.50  2.50  2.50  2.50  3.50  2.50  2.50  3.50  2.50  2.50     Find a shortcut to calculate the average quarterly dividend per share.      For a set of values , , the weighted average of the values with weights is: where .  If you calculate the average quarterly dividend per share of Cobra Kai using a weighted average, what were the weights and what did they represent?      Danny LaRusso has a portfolio with three investments. The investment values and most recently quarterly gain\/loss are:    Investment A: Value is 15,000, quarterly loss of 150    Investment B: Value is 22,500, quarterly gain of 275    Investment C: Value is 12,500, quarterly gain of 450    Find the average gain\/loss, weighted by value relative to the portfolio.      The cost of capital is the return an investor demands in order to invest. For equity investors, the equity cost of capital is denoted while for debt, the debt cost of capital (think of as the interest rate demanded) is denoted .  If a firm has equity and debt , the total value of the firm is and the weighted average cost of capital is:   Note that the value of is the total value of the firm's assets according to the fundamental accounting equation.    Describe the weights in .    Miyagi Do Karate has debt of and equity of . They face a debt cost of capital of and an equity cost of capital of . Find the weighted-average cost of capital.      When will a weighted average have the same value as an ordinary average?    "
+},
+{
+  "id": "weighted-averages-as-shortcuts",
+  "level": "2",
+  "url": "review-weighted-averages.html#weighted-averages-as-shortcuts",
+  "type": "Activity",
+  "number": "9.2.1",
+  "title": "",
+  "body": "  Cobra Kai Dojos Inc. has issued the following quarterly dividends per share over the past two and a half years:     Quarter  1  2  3  4  5  6  7  8  9  10    Dividends  2.50  2.50  2.50  2.50  3.50  2.50  2.50  3.50  2.50  2.50     Find a shortcut to calculate the average quarterly dividend per share.   "
+},
+{
+  "id": "defining-weighted-average",
+  "level": "2",
+  "url": "review-weighted-averages.html#defining-weighted-average",
+  "type": "Activity",
+  "number": "9.2.2",
+  "title": "",
+  "body": "  For a set of values , , the weighted average of the values with weights is: where .  If you calculate the average quarterly dividend per share of Cobra Kai using a weighted average, what were the weights and what did they represent?   "
+},
+{
+  "id": "weighted-gains",
+  "level": "2",
+  "url": "review-weighted-averages.html#weighted-gains",
+  "type": "Activity",
+  "number": "9.2.3",
+  "title": "",
+  "body": "  Danny LaRusso has a portfolio with three investments. The investment values and most recently quarterly gain\/loss are:    Investment A: Value is 15,000, quarterly loss of 150    Investment B: Value is 22,500, quarterly gain of 275    Investment C: Value is 12,500, quarterly gain of 450    Find the average gain\/loss, weighted by value relative to the portfolio.   "
+},
+{
+  "id": "weighted-average-of-cost-of-capital",
+  "level": "2",
+  "url": "review-weighted-averages.html#weighted-average-of-cost-of-capital",
+  "type": "Activity",
+  "number": "9.2.4",
+  "title": "",
+  "body": "  The cost of capital is the return an investor demands in order to invest. For equity investors, the equity cost of capital is denoted while for debt, the debt cost of capital (think of as the interest rate demanded) is denoted .  If a firm has equity and debt , the total value of the firm is and the weighted average cost of capital is:   Note that the value of is the total value of the firm's assets according to the fundamental accounting equation.    Describe the weights in .    Miyagi Do Karate has debt of and equity of . They face a debt cost of capital of and an equity cost of capital of . Find the weighted-average cost of capital.   "
+},
+{
+  "id": "weighted-average-reflection",
+  "level": "2",
+  "url": "review-weighted-averages.html#weighted-average-reflection",
+  "type": "Activity",
+  "number": "9.2.5",
+  "title": "",
+  "body": "  When will a weighted average have the same value as an ordinary average?   "
+},
+{
+  "id": "macaulay-duration",
+  "level": "1",
+  "url": "macaulay-duration.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "Macaulay Duration",
+  "body": " Macaulay Duration  Frederick Macaulay, an economist, published in 1938 an extensive study of interest rate behavior going back to 1865. In his book, Some Theoretical Problems Suggested by the Movement of Interest Rates , Macaulay introduced a measurement of interest rate risk that has since become known as Macaulay duration (or just duration ). While there is some variation in the notation, we will denote Macaulay duration by .    This example is due to Broverman. Consider a 10-year loan of 100 with an effective annual interest rate of 10%. Compare the following two payback schedules:    Schedule 1: Pay the entire balance with interest ( ) at the end of the 10-year term.    Schedule 2: Pay back the principal of 100 at the end of the first year, and pay all of the accumulated interest at the end of the 10-year term (which, in this case, amounts to 23.60).      Which one of these is \"longer\"? If we think about the payments as weights at their relative points on the timeline, which would have a later \"center of gravity\"? Explain.    Which one of these schedules would subject the lender to greater interest rate risk? Why?    The Macaulay duration is going to be a weighted average. What do you think we are going to average? What do you think the weights might be?    Suppose we have a set of cash flows at times . The Macaulay duration is the weighted average of the times . The weight for is the present value of cash flow , relative to the present value of the entire cash flow stream.    For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select one of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.      Let's define by a formula. Assume we have times with cash flows taking place at time .    Since is a weighted average, first we find the formula for each weight. The weight is the ratio of the present value of cash flow to the present value of the full cash flow stream. Find a formula for .    Show that .    Since , we can write down an explicit formula for . Write that formula down.      Find the Macaulay duration of the following cash flows.    A project with anticipated cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The cash flows are valued at an effective annual interest rate of 2.5%.    A zero-coupon annuity paying 10,000 at time 30, priced to yield 6%.    A three-year level payment annuity, with annual payments of 500, valued at an interest rate of 4%.    A three year coupon bond, with annual coupons of 500 and a redemption amount of 10,000, priced to yield 5%.      Suppose we have cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The stream is to be valued using the following yield curve:     Time   1  2  3    Spot Rate   3.00%  4.25%  5.00%       Adapt our approach to calculating the Macaulay duration to find in this case.    Describe your adaption (you can describe this in words, write a formula, or find another way to describe this).      Why is this measure of interest rate risk called duration ?    "
+},
+{
+  "id": "macaulay-duration-2",
+  "level": "2",
+  "url": "macaulay-duration.html#macaulay-duration-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Macaulay duration duration "
+},
+{
+  "id": "motivation-for-macaulay-duration",
+  "level": "2",
+  "url": "macaulay-duration.html#motivation-for-macaulay-duration",
+  "type": "Activity",
+  "number": "9.3.1",
+  "title": "",
+  "body": "  This example is due to Broverman. Consider a 10-year loan of 100 with an effective annual interest rate of 10%. Compare the following two payback schedules:    Schedule 1: Pay the entire balance with interest ( ) at the end of the 10-year term.    Schedule 2: Pay back the principal of 100 at the end of the first year, and pay all of the accumulated interest at the end of the 10-year term (which, in this case, amounts to 23.60).      Which one of these is \"longer\"? If we think about the payments as weights at their relative points on the timeline, which would have a later \"center of gravity\"? Explain.    Which one of these schedules would subject the lender to greater interest rate risk? Why?    The Macaulay duration is going to be a weighted average. What do you think we are going to average? What do you think the weights might be?   "
+},
+{
+  "id": "macaulay-duration-4",
+  "level": "2",
+  "url": "macaulay-duration.html#macaulay-duration-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Macaulay duration "
+},
+{
+  "id": "estimating-macaulay-duration",
+  "level": "2",
+  "url": "macaulay-duration.html#estimating-macaulay-duration",
+  "type": "Activity",
+  "number": "9.3.2",
+  "title": "",
+  "body": "  For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select one of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.   "
+},
+{
+  "id": "formula-for-macaulay-duration",
+  "level": "2",
+  "url": "macaulay-duration.html#formula-for-macaulay-duration",
+  "type": "Activity",
+  "number": "9.3.3",
+  "title": "",
+  "body": "  Let's define by a formula. Assume we have times with cash flows taking place at time .    Since is a weighted average, first we find the formula for each weight. The weight is the ratio of the present value of cash flow to the present value of the full cash flow stream. Find a formula for .    Show that .    Since , we can write down an explicit formula for . Write that formula down.   "
+},
+{
+  "id": "calculating-macaulay-duration",
+  "level": "2",
+  "url": "macaulay-duration.html#calculating-macaulay-duration",
+  "type": "Activity",
+  "number": "9.3.4",
+  "title": "",
+  "body": "  Find the Macaulay duration of the following cash flows.    A project with anticipated cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The cash flows are valued at an effective annual interest rate of 2.5%.    A zero-coupon annuity paying 10,000 at time 30, priced to yield 6%.    A three-year level payment annuity, with annual payments of 500, valued at an interest rate of 4%.    A three year coupon bond, with annual coupons of 500 and a redemption amount of 10,000, priced to yield 5%.   "
+},
+{
+  "id": "calculating-macaulay-duration-from-a-yield-curve",
+  "level": "2",
+  "url": "macaulay-duration.html#calculating-macaulay-duration-from-a-yield-curve",
+  "type": "Activity",
+  "number": "9.3.5",
+  "title": "",
+  "body": "  Suppose we have cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The stream is to be valued using the following yield curve:     Time   1  2  3    Spot Rate   3.00%  4.25%  5.00%       Adapt our approach to calculating the Macaulay duration to find in this case.    Describe your adaption (you can describe this in words, write a formula, or find another way to describe this).   "
+},
+{
+  "id": "macaulay-duration-reflection",
+  "level": "2",
+  "url": "macaulay-duration.html#macaulay-duration-reflection",
+  "type": "Activity",
+  "number": "9.3.6",
+  "title": "",
+  "body": "  Why is this measure of interest rate risk called duration ?   "
+},
+{
+  "id": "review-increasing-and-decreasing-annuities",
+  "level": "1",
+  "url": "review-increasing-and-decreasing-annuities.html",
+  "type": "Section",
+  "number": "9.4",
+  "title": "Review -- Increasing and Decreasing Annuities",
+  "body": " Review -- Increasing and Decreasing Annuities  For certain types of cash flows, there are shortcuts for calculating Macaulay duration. These may involve increasing or decreasing annuities. You might have noticed this in the last activity.  In this activity, we will review increasing and decreasing annuities by reviewing both their series and their formulaic representations. We will keep our attention on annuities immediate.    For each of the following, (i) generate a timeline, (ii) write the series representation, and (iii) the formula.                                         Using , calculate the following:       Using , calculate the following:       A little later, we will meet something called modified duration. This will require us to use what I call the \"calculus of actuarial symbols\" which we will verify now. For some of these, it will be easier to use the series representation, but not necessarily for all of them!    Verify that:     Verify that:     Verify that:     Verify that:       Look back at the calculus of actuarial symbols.    Which did you use series for? Which did you use explicit formulas for? Why?    Some of our results are negative and some are positive. From a financial perspective, why do the signs we found make sense?    "
+},
+{
+  "id": "reviewing-formulas-for-increasing-and-decreasing-annuities",
+  "level": "2",
+  "url": "review-increasing-and-decreasing-annuities.html#reviewing-formulas-for-increasing-and-decreasing-annuities",
+  "type": "Activity",
+  "number": "9.4.1",
+  "title": "",
+  "body": "  For each of the following, (i) generate a timeline, (ii) write the series representation, and (iii) the formula.                                      "
+},
+{
+  "id": "using-formulas-for-increasing-and-decreasing-annuities-1",
+  "level": "2",
+  "url": "review-increasing-and-decreasing-annuities.html#using-formulas-for-increasing-and-decreasing-annuities-1",
+  "type": "Activity",
+  "number": "9.4.2",
+  "title": "",
+  "body": "  Using , calculate the following:    "
+},
+{
+  "id": "using-formulas-for-increasing-and-decreasing-annuities-2",
+  "level": "2",
+  "url": "review-increasing-and-decreasing-annuities.html#using-formulas-for-increasing-and-decreasing-annuities-2",
+  "type": "Activity",
+  "number": "9.4.3",
+  "title": "",
+  "body": "  Using , calculate the following:    "
+},
+{
+  "id": "calculus-of-actuarial-symbols",
+  "level": "2",
+  "url": "review-increasing-and-decreasing-annuities.html#calculus-of-actuarial-symbols",
+  "type": "Activity",
+  "number": "9.4.4",
+  "title": "",
+  "body": "  A little later, we will meet something called modified duration. This will require us to use what I call the \"calculus of actuarial symbols\" which we will verify now. For some of these, it will be easier to use the series representation, but not necessarily for all of them!    Verify that:     Verify that:     Verify that:     Verify that:    "
+},
+{
+  "id": "calculus-of-actuarial-symbols-reflection",
+  "level": "2",
+  "url": "review-increasing-and-decreasing-annuities.html#calculus-of-actuarial-symbols-reflection",
+  "type": "Activity",
+  "number": "9.4.5",
+  "title": "",
+  "body": "  Look back at the calculus of actuarial symbols.    Which did you use series for? Which did you use explicit formulas for? Why?    Some of our results are negative and some are positive. From a financial perspective, why do the signs we found make sense?   "
+},
+{
+  "id": "macaulay-duration-shortcuts",
+  "level": "1",
+  "url": "macaulay-duration-shortcuts.html",
+  "type": "Section",
+  "number": "9.5",
+  "title": "Macaulay Duration Shortcuts",
+  "body": " Macaulay Duration Shortcuts  For zero-coupon bonds, level-payment annuities, and coupon bonds, there are shortcuts for calculating the Macaulay duration.    Find the Macaulay duration of an -year zero-coupon bond with maturity , priced to yield . Explain why your result makes conceptual sense.      Show that the Macaulay duration of a level-payment annuity with payments is:       Consider a coupon bond with face value , effective coupon rate , a term of coupons, a redemption amount , and price . Show that the duration is:       Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .      Are the shortcuts worth memorizing? Why or why not?    "
+},
+{
+  "id": "macaulay-duration-zero-coupon-bond",
+  "level": "2",
+  "url": "macaulay-duration-shortcuts.html#macaulay-duration-zero-coupon-bond",
+  "type": "Activity",
+  "number": "9.5.1",
+  "title": "",
+  "body": "  Find the Macaulay duration of an -year zero-coupon bond with maturity , priced to yield . Explain why your result makes conceptual sense.   "
+},
+{
+  "id": "macaulay-duration-level-payment-annuity",
+  "level": "2",
+  "url": "macaulay-duration-shortcuts.html#macaulay-duration-level-payment-annuity",
+  "type": "Activity",
+  "number": "9.5.2",
+  "title": "",
+  "body": "  Show that the Macaulay duration of a level-payment annuity with payments is:    "
+},
+{
+  "id": "macaulay-duration-coupon-bond-face-value",
+  "level": "2",
+  "url": "macaulay-duration-shortcuts.html#macaulay-duration-coupon-bond-face-value",
+  "type": "Activity",
+  "number": "9.5.3",
+  "title": "",
+  "body": "  Consider a coupon bond with face value , effective coupon rate , a term of coupons, a redemption amount , and price . Show that the duration is:    "
+},
+{
+  "id": "calculating-various-macaulay-durations",
+  "level": "2",
+  "url": "macaulay-duration-shortcuts.html#calculating-various-macaulay-durations",
+  "type": "Activity",
+  "number": "9.5.4",
+  "title": "",
+  "body": "  Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .   "
+},
+{
+  "id": "macaulay-duration-shortcuts-reflection",
+  "level": "2",
+  "url": "macaulay-duration-shortcuts.html#macaulay-duration-shortcuts-reflection",
+  "type": "Activity",
+  "number": "9.5.5",
+  "title": "",
+  "body": "  Are the shortcuts worth memorizing? Why or why not?   "
+},
+{
+  "id": "review-taylor-series-and-approximations",
+  "level": "1",
+  "url": "review-taylor-series-and-approximations.html",
+  "type": "Section",
+  "number": "9.6",
+  "title": "Review -- Taylor Series and Approximations",
+  "body": " Review -- Taylor Series and Approximations  In Calculus, you learn about Taylor series. The theory tells you that under certain conditions, you write a function \"near\" a value as a polynomial in :   Here, stands for the th derivative (where corresponds to the original function). If we write this in expanded notation, this looks like:   We call this the Taylor series around (where is a selected value). The \"=\" in this case means something about convergence (which we will naively not concern ourselves with in this course).  The value of Taylor series is that we can use finite-degree polynomials to approximate our functions:   The approximation above is called the th order approximation .  For small , this can be calculated by hand. For larger values of , since there are still finitely many calculations involved, the approximation can be calculated by computers. For us, we will be interested in or .    Let be the price (or present value) of some specific cash flows valued at a rate .    Write an equation for the first order (linear) approximation for .    Write an equation for the second order (quadratic) approximation for .      Let's play with the function .    Find the Taylor series around . Since we have , just use for . Note that this series converges for all .    Use your Taylor series to write down an expression for the number , written as an infinite sum.      Let . Find the first order approximation around . Since we have , just use for . Note that the series converges for all .      Recall that the present value of a perpetuity with a first payment of whose payments grow by is given by the function:     Suppose we have a share of stock that distributes annual dividends. The first dividend is 2.50, and each dividend grows by 2% every year forever. Let be the price of the share (using the dividend discount model) as a function of the effective annual interest rate . Write down .    Find the first-order (linear) approximation for .    Find the first-order (linear) approximation for .    Find the second-order (quadratic) approximation for .    Find the second-order (quadratic) approximation for .      Let be the price (present value) of a level payment annuity with 10 annual payments of 125 using an effective annual interest rate of . Use the calculus of actuarial symbols to find the first-order (linear) approximation for .      What do Taylor series help us analyze for small perturbations in the interest rate? What does this tell us about interest rate risk?    "
+},
+{
+  "id": "review-taylor-series-and-approximations-9",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#review-taylor-series-and-approximations-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "th order approximation "
+},
+{
+  "id": "linear-and-higher-order-approximations",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#linear-and-higher-order-approximations",
+  "type": "Activity",
+  "number": "9.6.1",
+  "title": "",
+  "body": "  Let be the price (or present value) of some specific cash flows valued at a rate .    Write an equation for the first order (linear) approximation for .    Write an equation for the second order (quadratic) approximation for .   "
+},
+{
+  "id": "playing-with-the-exponential-function",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#playing-with-the-exponential-function",
+  "type": "Activity",
+  "number": "9.6.2",
+  "title": "",
+  "body": "  Let's play with the function .    Find the Taylor series around . Since we have , just use for . Note that this series converges for all .    Use your Taylor series to write down an expression for the number , written as an infinite sum.   "
+},
+{
+  "id": "playing-with-the-sin-function",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#playing-with-the-sin-function",
+  "type": "Activity",
+  "number": "9.6.3",
+  "title": "",
+  "body": "  Let . Find the first order approximation around . Since we have , just use for . Note that the series converges for all .   "
+},
+{
+  "id": "approximating-present-value",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#approximating-present-value",
+  "type": "Activity",
+  "number": "9.6.4",
+  "title": "",
+  "body": "  Recall that the present value of a perpetuity with a first payment of whose payments grow by is given by the function:     Suppose we have a share of stock that distributes annual dividends. The first dividend is 2.50, and each dividend grows by 2% every year forever. Let be the price of the share (using the dividend discount model) as a function of the effective annual interest rate . Write down .    Find the first-order (linear) approximation for .    Find the first-order (linear) approximation for .    Find the second-order (quadratic) approximation for .    Find the second-order (quadratic) approximation for .   "
+},
+{
+  "id": "approximating-present-value-of-level-payment-annuity",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#approximating-present-value-of-level-payment-annuity",
+  "type": "Activity",
+  "number": "9.6.5",
+  "title": "",
+  "body": "  Let be the price (present value) of a level payment annuity with 10 annual payments of 125 using an effective annual interest rate of . Use the calculus of actuarial symbols to find the first-order (linear) approximation for .   "
+},
+{
+  "id": "taylor-series-reflection",
+  "level": "2",
+  "url": "review-taylor-series-and-approximations.html#taylor-series-reflection",
+  "type": "Activity",
+  "number": "9.6.6",
+  "title": "",
+  "body": "  What do Taylor series help us analyze for small perturbations in the interest rate? What does this tell us about interest rate risk?   "
+},
+{
+  "id": "modified-duration",
+  "level": "1",
+  "url": "modified-duration.html",
+  "type": "Section",
+  "number": "9.7",
+  "title": "Modified Duration",
+  "body": " Modified Duration  There is another measure used to assess interest rate risk called modified duration that we will explore in this section.    Suppose we have a set of cash flows and the price, given an appropriate effective interest rate , is .    How does the derivative tell us about the interest rate risk faced by investors in the cash flows?    Why is ?     Modified duration is a measure of interest rate risk that is based on , with two adjustments. First, the measure is positive. Second, the measure is expressed as a percentage of the price .  Using this information, write what you think the formula for modified duration will be. Denote the modified duration by .      Find the modified duration for the following:    Cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, valued at .    A share of stock with annual dividends starting at 2.50 and growing 2% per year forever. Value at .      Find the formula for the modified duration of a perpetuity immediate. What do you notice?      Use the calculus of actuarial symbols to find a formula for the modified duration of each of the following. Compare to the Macaulay duration shortcuts and see if you can find a pattern.    A zero coupon bond.    A level-payment annuity.    If you compare to the shortcuts for Macaulay duration, what pattern do you see?      Let's show that the pattern you observed holds generally. For both Macaulay and modified duration, we compare a numerator to . So we will compare the numerators.  For the questions that follow, suppose we have cash flows of at times for .    First, write down the numerator for Macaulay duration.    If is the price for the cash flows, find an expression for .    Compare the two numerators and write an equation that allows you to convert between and (or vice versa).      Find the modified or Macaulay duration (as indicated) for each of the following. Note that in some cases, it is easier to find first and then convert to , or vice versa!    Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.    Find the modified duration of a level-payment annuity with 10 payments of 1,500, valued at     Find the modified duration of a coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.      Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.      Write down two ways to calculate , and two ways to calculate .    "
+},
+{
+  "id": "modified-duration-2",
+  "level": "2",
+  "url": "modified-duration.html#modified-duration-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "modified duration "
+},
+{
+  "id": "motivating-modified-duration",
+  "level": "2",
+  "url": "modified-duration.html#motivating-modified-duration",
+  "type": "Activity",
+  "number": "9.7.1",
+  "title": "",
+  "body": "  Suppose we have a set of cash flows and the price, given an appropriate effective interest rate , is .    How does the derivative tell us about the interest rate risk faced by investors in the cash flows?    Why is ?     Modified duration is a measure of interest rate risk that is based on , with two adjustments. First, the measure is positive. Second, the measure is expressed as a percentage of the price .  Using this information, write what you think the formula for modified duration will be. Denote the modified duration by .   "
+},
+{
+  "id": "calculating-modified-duration",
+  "level": "2",
+  "url": "modified-duration.html#calculating-modified-duration",
+  "type": "Activity",
+  "number": "9.7.2",
+  "title": "",
+  "body": "  Find the modified duration for the following:    Cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, valued at .    A share of stock with annual dividends starting at 2.50 and growing 2% per year forever. Value at .   "
+},
+{
+  "id": "formula-for-modified-duration-perpetuity-immediate",
+  "level": "2",
+  "url": "modified-duration.html#formula-for-modified-duration-perpetuity-immediate",
+  "type": "Activity",
+  "number": "9.7.3",
+  "title": "",
+  "body": "  Find the formula for the modified duration of a perpetuity immediate. What do you notice?   "
+},
+{
+  "id": "finding-formulas-for-modified-duration",
+  "level": "2",
+  "url": "modified-duration.html#finding-formulas-for-modified-duration",
+  "type": "Activity",
+  "number": "9.7.4",
+  "title": "",
+  "body": "  Use the calculus of actuarial symbols to find a formula for the modified duration of each of the following. Compare to the Macaulay duration shortcuts and see if you can find a pattern.    A zero coupon bond.    A level-payment annuity.    If you compare to the shortcuts for Macaulay duration, what pattern do you see?   "
+},
+{
+  "id": "comparing-numerators-in-macaulay-duration",
+  "level": "2",
+  "url": "modified-duration.html#comparing-numerators-in-macaulay-duration",
+  "type": "Activity",
+  "number": "9.7.5",
+  "title": "",
+  "body": "  Let's show that the pattern you observed holds generally. For both Macaulay and modified duration, we compare a numerator to . So we will compare the numerators.  For the questions that follow, suppose we have cash flows of at times for .    First, write down the numerator for Macaulay duration.    If is the price for the cash flows, find an expression for .    Compare the two numerators and write an equation that allows you to convert between and (or vice versa).   "
+},
+{
+  "id": "calculating-modified-duration-in-problems",
+  "level": "2",
+  "url": "modified-duration.html#calculating-modified-duration-in-problems",
+  "type": "Activity",
+  "number": "9.7.6",
+  "title": "",
+  "body": "  Find the modified or Macaulay duration (as indicated) for each of the following. Note that in some cases, it is easier to find first and then convert to , or vice versa!    Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.    Find the modified duration of a level-payment annuity with 10 payments of 1,500, valued at     Find the modified duration of a coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.   "
+},
+{
+  "id": "calculating-modified-duration-for-deferred-annuity",
+  "level": "2",
+  "url": "modified-duration.html#calculating-modified-duration-for-deferred-annuity",
+  "type": "Activity",
+  "number": "9.7.7",
+  "title": "",
+  "body": "  Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.   "
+},
+{
+  "id": "calculating-duration-and-modified-duration",
+  "level": "2",
+  "url": "modified-duration.html#calculating-duration-and-modified-duration",
+  "type": "Activity",
+  "number": "9.7.8",
+  "title": "",
+  "body": "  Write down two ways to calculate , and two ways to calculate .   "
+},
+{
+  "id": "first-order-approximations-and-modified-duration",
+  "level": "1",
+  "url": "first-order-approximations-and-modified-duration.html",
+  "type": "Section",
+  "number": "9.8",
+  "title": "First Order Approximations with Modified Duration",
+  "body": " First Order Approximations with Modified Duration  Since modified duration is based on , we can use to estimate changes in for small changes using Taylor series. This is sometimes called the first order modified approximation (we will see a first order Macaulay approximation in ).    Write down an equation for the first order approximation for using .      The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%. Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.      Rewrite your equation for the first order approximation for using .      Use modified duration to estimate the first order change in the present value of the following cash flows:    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .      Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.      A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.      We can write the change in the price .    Write the first order modified approximation for using .    Write the first order modified approximation for using .      Consider problems that ask you to use the first order modified approximation. What are some different ways the problem may give you information, and how might that impact how you solve the problem?    "
+},
+{
+  "id": "first-order-approximations-and-modified-duration-2",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#first-order-approximations-and-modified-duration-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "first order modified approximation "
+},
+{
+  "id": "formula-for-first-order-modified-approximation",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#formula-for-first-order-modified-approximation",
+  "type": "Activity",
+  "number": "9.8.1",
+  "title": "",
+  "body": "  Write down an equation for the first order approximation for using .   "
+},
+{
+  "id": "estimating-price-using-first-order-modified-approximation",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#estimating-price-using-first-order-modified-approximation",
+  "type": "Activity",
+  "number": "9.8.2",
+  "title": "",
+  "body": "  The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%. Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.   "
+},
+{
+  "id": "first-order-modified-approximation-using-modified-duration",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-using-modified-duration",
+  "type": "Activity",
+  "number": "9.8.3",
+  "title": "",
+  "body": "  Rewrite your equation for the first order approximation for using .   "
+},
+{
+  "id": "using-modified-duration-to-estimate-first-order-change-in-present-value",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#using-modified-duration-to-estimate-first-order-change-in-present-value",
+  "type": "Activity",
+  "number": "9.8.4",
+  "title": "",
+  "body": "  Use modified duration to estimate the first order change in the present value of the following cash flows:    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .   "
+},
+{
+  "id": "estimating-bond-price-using-first-order-modified-approximation",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#estimating-bond-price-using-first-order-modified-approximation",
+  "type": "Activity",
+  "number": "9.8.5",
+  "title": "",
+  "body": "  Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.   "
+},
+{
+  "id": "finding-yield-rate-from-first-order-modified-approximation",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#finding-yield-rate-from-first-order-modified-approximation",
+  "type": "Activity",
+  "number": "9.8.6",
+  "title": "",
+  "body": "  A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.   "
+},
+{
+  "id": "first-order-modified-approximation-for-change-in-price",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-for-change-in-price",
+  "type": "Activity",
+  "number": "9.8.7",
+  "title": "",
+  "body": "  We can write the change in the price .    Write the first order modified approximation for using .    Write the first order modified approximation for using .   "
+},
+{
+  "id": "first-order-modified-approximation-reflection",
+  "level": "2",
+  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-reflection",
+  "type": "Activity",
+  "number": "9.8.8",
+  "title": "",
+  "body": "  Consider problems that ask you to use the first order modified approximation. What are some different ways the problem may give you information, and how might that impact how you solve the problem?   "
+},
+{
+  "id": "macaulay-approximation",
+  "level": "1",
+  "url": "macaulay-approximation.html",
+  "type": "Section",
+  "number": "9.9",
+  "title": "The Macaulay Approximation",
+  "body": " The Macaulay Approximation  There is another first order approximation that uses Macaulay duration, and it is called the Macaulay approximation :     First, let's see where this comes from.    Define . What does this function represent, financially?    Show that .    Using , find the first order approximation for using the Taylor series approximation for .    Use your first order approximation for to derive the Macaulay approximation formula.      Suppose we have a level payment annuity with 10 annual payments of 590. The current effective annual interest rate is , but an investor have heard rumors that this is about to go up by 50 basis points.    Use the Macaulay approximation to estimate the percentage change in the value of the annuity if the rumor is true.    Use the Macaulay approximation to estimate the absolute change if the rumor is true.      Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .      A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .      Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.      What kind of change is the Macaulay approximation best able to estimate -- percentage change or absolute change? Explain.    "
+},
+{
+  "id": "macaulay-approximation-2",
+  "level": "2",
+  "url": "macaulay-approximation.html#macaulay-approximation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Macaulay approximation "
+},
+{
+  "id": "deriving-macaulay-approximation",
+  "level": "2",
+  "url": "macaulay-approximation.html#deriving-macaulay-approximation",
+  "type": "Activity",
+  "number": "9.9.1",
+  "title": "",
+  "body": "  First, let's see where this comes from.    Define . What does this function represent, financially?    Show that .    Using , find the first order approximation for using the Taylor series approximation for .    Use your first order approximation for to derive the Macaulay approximation formula.   "
+},
+{
+  "id": "calculating-percentage-change-in-value-using-macaulay-approximation",
+  "level": "2",
+  "url": "macaulay-approximation.html#calculating-percentage-change-in-value-using-macaulay-approximation",
+  "type": "Activity",
+  "number": "9.9.2",
+  "title": "",
+  "body": "  Suppose we have a level payment annuity with 10 annual payments of 590. The current effective annual interest rate is , but an investor have heard rumors that this is about to go up by 50 basis points.    Use the Macaulay approximation to estimate the percentage change in the value of the annuity if the rumor is true.    Use the Macaulay approximation to estimate the absolute change if the rumor is true.   "
+},
+{
+  "id": "using-macaulay-approximation-to-estimate-change-in-present-value",
+  "level": "2",
+  "url": "macaulay-approximation.html#using-macaulay-approximation-to-estimate-change-in-present-value",
+  "type": "Activity",
+  "number": "9.9.3",
+  "title": "",
+  "body": "  Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .   "
+},
+{
+  "id": "calculating-bond-price-change-using-macaulay-approximation",
+  "level": "2",
+  "url": "macaulay-approximation.html#calculating-bond-price-change-using-macaulay-approximation",
+  "type": "Activity",
+  "number": "9.9.4",
+  "title": "",
+  "body": "  A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .   "
+},
+{
+  "id": "calculating-modified-duration-from-macaulay-approximation",
+  "level": "2",
+  "url": "macaulay-approximation.html#calculating-modified-duration-from-macaulay-approximation",
+  "type": "Activity",
+  "number": "9.9.5",
+  "title": "",
+  "body": "  Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.   "
+},
+{
+  "id": "macaulay-approximation-reflection",
+  "level": "2",
+  "url": "macaulay-approximation.html#macaulay-approximation-reflection",
+  "type": "Activity",
+  "number": "9.9.6",
+  "title": "",
+  "body": "  What kind of change is the Macaulay approximation best able to estimate -- percentage change or absolute change? Explain.   "
+},
+{
+  "id": "convexity-and-second-order-approximation",
+  "level": "1",
+  "url": "convexity-and-second-order-approximation.html",
+  "type": "Section",
+  "number": "9.10",
+  "title": "Convexity and Second Order Approximations",
+  "body": " Convexity and Second Order Approximations  We can get more accuracy when estimating with a second order approximation. The financial concept involved is called convexity .    We start by finding some second derivatives. There are a few where we can accomplish this symbolically without too much fuss.    Find the following second derivative:     Find for a zero-coupon bond.    Find for a perpetuity immediate.    Find for cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, at a current effective annual interest rate of 5%.      Let's see how we can find a second order approximation for .    Write down the equation for the second order approximation that we get from the Taylor series.    A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.    Another bond has a price , , and . Find the approximate price of the bond if the interest rate declines to 2.5%.      The financial concept related to is convexity .    As you can see from our examples, is generally positive. In constructing convexity, we do not need to change the sign. But we still compare to so we convexity can be thought of as a percentage. Write the equation defining convexity, which we denote by .    Write the equation for the second order approximation of using modified duration and convexity.      A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.      Solve the following problems.    Use the modified duration and convexity to estimate the second order change in price: A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    Use the modified duration and convexity to estimate the second order change in price: A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .    A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.    A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.      Explain how the second derivative makes our estimations more accurate.    "
+},
+{
+  "id": "convexity-and-second-order-approximation-2",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#convexity-and-second-order-approximation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "convexity "
+},
+{
+  "id": "finding-second-derivatives",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#finding-second-derivatives",
+  "type": "Activity",
+  "number": "9.10.1",
+  "title": "",
+  "body": "  We start by finding some second derivatives. There are a few where we can accomplish this symbolically without too much fuss.    Find the following second derivative:     Find for a zero-coupon bond.    Find for a perpetuity immediate.    Find for cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, at a current effective annual interest rate of 5%.   "
+},
+{
+  "id": "finding-second-order-approximation",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#finding-second-order-approximation",
+  "type": "Activity",
+  "number": "9.10.2",
+  "title": "",
+  "body": "  Let's see how we can find a second order approximation for .    Write down the equation for the second order approximation that we get from the Taylor series.    A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.    Another bond has a price , , and . Find the approximate price of the bond if the interest rate declines to 2.5%.   "
+},
+{
+  "id": "definition-of-convexity",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#definition-of-convexity",
+  "type": "Activity",
+  "number": "9.10.3",
+  "title": "",
+  "body": "  The financial concept related to is convexity .    As you can see from our examples, is generally positive. In constructing convexity, we do not need to change the sign. But we still compare to so we convexity can be thought of as a percentage. Write the equation defining convexity, which we denote by .    Write the equation for the second order approximation of using modified duration and convexity.   "
+},
+{
+  "id": "finding-durations-and-convexity",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#finding-durations-and-convexity",
+  "type": "Activity",
+  "number": "9.10.4",
+  "title": "",
+  "body": "  A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.   "
+},
+{
+  "id": "solving-problems-with-convexity",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#solving-problems-with-convexity",
+  "type": "Activity",
+  "number": "9.10.5",
+  "title": "",
+  "body": "  Solve the following problems.    Use the modified duration and convexity to estimate the second order change in price: A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    Use the modified duration and convexity to estimate the second order change in price: A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .    A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.    A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.   "
+},
+{
+  "id": "convexity-reflection",
+  "level": "2",
+  "url": "convexity-and-second-order-approximation.html#convexity-reflection",
+  "type": "Activity",
+  "number": "9.10.6",
+  "title": "",
+  "body": "  Explain how the second derivative makes our estimations more accurate.   "
+},
+{
+  "id": "interest-rate-risk-with-portfolios",
+  "level": "1",
+  "url": "interest-rate-risk-with-portfolios.html",
+  "type": "Section",
+  "number": "9.11",
+  "title": "Interest Rate Risk with Portfolios",
+  "body": " Interest Rate Risk with Portfolios  Investors often hold portfolios of investments. This is just a collection of different investments. Now that we have examined interest rate for a single investment, we can use weighted averages to examine interest rate risk across a portfolio. Using weighted averages to extend a measure from a single investment to a portfolio will come up in Exam IFM as well.    Suppose an investor has a portfolio consisting of investments (or just cash flows) of .    Both the Macaulay duration of the portfolio and the modified duration of the portfolio are weighted averages of the durations and respectively. The weights are the ratios of the present value of each investment to the present value of the entire portfolio.  Write a formula for the weight and show that .    Write formulas for and . You can use the expression for the weights to keep things relatively clean.      Solve the following.    A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.    You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.      As with other concepts, sometimes the information you are given or have to find can vary. Solve the following problems in which this is the case.    A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.    An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .      If we want to use \"chunking\" to find the duration of an annuity in which the interest rate or the payment changes, we have to treat it as a portfolio. For the following problem, recall that if we have an annuity with Macaulay duration , if we defer that annuity by payments, the Macaulay duration of the deferred annuity is .  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.      We can use Macaulay or modified duration to estimate the change in price of a portfolio. You might have different values of for each investment. If you are using a yield curve, you might have different values of for each spot rate. If the spot rates in a yield curve all have the same change, this is called a parallel shift in the yield curve.  Suppose investors face the following yield curve:             1  5%    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .      Describe weighted averages and how we have used them to measure interest rate risk.    "
+},
+{
+  "id": "interest-rate-risk-with-portfolios-2",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#interest-rate-risk-with-portfolios-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "portfolios "
+},
+{
+  "id": "formula-for-durations-of-portfolios",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#formula-for-durations-of-portfolios",
+  "type": "Activity",
+  "number": "9.11.1",
+  "title": "",
+  "body": "  Suppose an investor has a portfolio consisting of investments (or just cash flows) of .    Both the Macaulay duration of the portfolio and the modified duration of the portfolio are weighted averages of the durations and respectively. The weights are the ratios of the present value of each investment to the present value of the entire portfolio.  Write a formula for the weight and show that .    Write formulas for and . You can use the expression for the weights to keep things relatively clean.   "
+},
+{
+  "id": "solving-for-mdoified-and-macaulay-duration-of-a-portfolio",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#solving-for-mdoified-and-macaulay-duration-of-a-portfolio",
+  "type": "Activity",
+  "number": "9.11.2",
+  "title": "",
+  "body": "  Solve the following.    A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.    You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.   "
+},
+{
+  "id": "finding-macaulay-duration-with-other-information",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#finding-macaulay-duration-with-other-information",
+  "type": "Activity",
+  "number": "9.11.3",
+  "title": "",
+  "body": "  As with other concepts, sometimes the information you are given or have to find can vary. Solve the following problems in which this is the case.    A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.    An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .   "
+},
+{
+  "id": "treating-chunking-as-a-portfolio",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#treating-chunking-as-a-portfolio",
+  "type": "Activity",
+  "number": "9.11.4",
+  "title": "",
+  "body": "  If we want to use \"chunking\" to find the duration of an annuity in which the interest rate or the payment changes, we have to treat it as a portfolio. For the following problem, recall that if we have an annuity with Macaulay duration , if we defer that annuity by payments, the Macaulay duration of the deferred annuity is .  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.   "
+},
+{
+  "id": "parallel-shift-in-yield-curve",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#parallel-shift-in-yield-curve",
+  "type": "Activity",
+  "number": "9.11.5",
+  "title": "",
+  "body": "  We can use Macaulay or modified duration to estimate the change in price of a portfolio. You might have different values of for each investment. If you are using a yield curve, you might have different values of for each spot rate. If the spot rates in a yield curve all have the same change, this is called a parallel shift in the yield curve.  Suppose investors face the following yield curve:             1  5%    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .   "
+},
+{
+  "id": "interest-rate-risk-with-portfolios-reflection",
+  "level": "2",
+  "url": "interest-rate-risk-with-portfolios.html#interest-rate-risk-with-portfolios-reflection",
+  "type": "Activity",
+  "number": "9.11.6",
+  "title": "",
+  "body": "  Describe weighted averages and how we have used them to measure interest rate risk.   "
+},
+{
+  "id": "duration-and-convexity-exercises",
+  "level": "1",
+  "url": "duration-and-convexity-exercises.html",
+  "type": "Exercises",
+  "number": "9.12",
+  "title": "Exercises",
+  "body": "   A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.      Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%         For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.      Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .      In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,       Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .      Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .      Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .      Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .      A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.      A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.      Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .    "
+},
+{
+  "id": "duration-and-convexity-exercises-1",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-1",
+  "type": "Exercise",
+  "number": "9.12.1",
+  "title": "",
+  "body": "  A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.   "
+},
+{
+  "id": "duration-and-convexity-exercises-2",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-2",
+  "type": "Exercise",
+  "number": "9.12.2",
+  "title": "",
+  "body": "  Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%      "
+},
+{
+  "id": "duration-and-convexity-exercises-3",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-3",
+  "type": "Exercise",
+  "number": "9.12.3",
+  "title": "",
+  "body": "  For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.   "
+},
+{
+  "id": "duration-and-convexity-exercises-4",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-4",
+  "type": "Exercise",
+  "number": "9.12.4",
+  "title": "",
+  "body": "  Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .   "
+},
+{
+  "id": "duration-and-convexity-exercises-5",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-5",
+  "type": "Exercise",
+  "number": "9.12.5",
+  "title": "",
+  "body": "  In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,    "
+},
+{
+  "id": "duration-and-convexity-exercises-6",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-6",
+  "type": "Exercise",
+  "number": "9.12.6",
+  "title": "",
+  "body": "  Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .   "
+},
+{
+  "id": "duration-and-convexity-exercises-7",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-7",
+  "type": "Exercise",
+  "number": "9.12.7",
+  "title": "",
+  "body": "  Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .   "
+},
+{
+  "id": "duration-and-convexity-exercises-8",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-8",
+  "type": "Exercise",
+  "number": "9.12.8",
+  "title": "",
+  "body": "  Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .   "
+},
+{
+  "id": "duration-and-convexity-exercises-9",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-9",
+  "type": "Exercise",
+  "number": "9.12.9",
+  "title": "",
+  "body": "  Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .   "
+},
+{
+  "id": "duration-and-convexity-exercises-10",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-10",
+  "type": "Exercise",
+  "number": "9.12.10",
+  "title": "",
+  "body": "  A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.   "
+},
+{
+  "id": "duration-and-convexity-exercises-11",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-11",
+  "type": "Exercise",
+  "number": "9.12.11",
+  "title": "",
+  "body": "  A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.   "
+},
+{
+  "id": "duration-and-convexity-exercises-12",
+  "level": "2",
+  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-12",
+  "type": "Exercise",
+  "number": "9.12.12",
+  "title": "",
+  "body": "  Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .   "
+},
+{
+  "id": "duration-and-convexity-problems",
+  "level": "1",
+  "url": "duration-and-convexity-problems.html",
+  "type": "Exercises",
+  "number": "9.13",
+  "title": "Problems",
+  "body": " Problems     An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?       Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .       An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .       A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.       A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .       Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.       Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.       A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.       A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.       Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.       The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.       Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.       Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.       Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.       An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.      Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.       The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.       Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.      A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.       A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .       A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .       Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.       There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.       A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.       Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:         A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.      A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.      A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.       You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.       Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.       SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .       An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .      Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.    "
+},
+{
+  "id": "duration-and-convexity-problems-2",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-2",
+  "type": "Exercise",
+  "number": "9.13.1",
+  "title": "",
+  "body": "   An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?   "
+},
+{
+  "id": "duration-and-convexity-problems-3",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-3",
+  "type": "Exercise",
+  "number": "9.13.2",
+  "title": "",
+  "body": "   Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-4",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-4",
+  "type": "Exercise",
+  "number": "9.13.3",
+  "title": "",
+  "body": "   An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-5",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-5",
+  "type": "Exercise",
+  "number": "9.13.4",
+  "title": "",
+  "body": "   A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.   "
+},
+{
+  "id": "duration-and-convexity-problems-6",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-6",
+  "type": "Exercise",
+  "number": "9.13.5",
+  "title": "",
+  "body": "   A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-7",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-7",
+  "type": "Exercise",
+  "number": "9.13.6",
+  "title": "",
+  "body": "   Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.   "
+},
+{
+  "id": "duration-and-convexity-problems-8",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-8",
+  "type": "Exercise",
+  "number": "9.13.7",
+  "title": "",
+  "body": "   Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.   "
+},
+{
+  "id": "duration-and-convexity-problems-9",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-9",
+  "type": "Exercise",
+  "number": "9.13.8",
+  "title": "",
+  "body": "   A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.   "
+},
+{
+  "id": "duration-and-convexity-problems-10",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-10",
+  "type": "Exercise",
+  "number": "9.13.9",
+  "title": "",
+  "body": "   A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.   "
+},
+{
+  "id": "duration-and-convexity-problems-11",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-11",
+  "type": "Exercise",
+  "number": "9.13.10",
+  "title": "",
+  "body": "   Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.   "
+},
+{
+  "id": "duration-and-convexity-problems-12",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-12",
+  "type": "Exercise",
+  "number": "9.13.11",
+  "title": "",
+  "body": "   The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.   "
+},
+{
+  "id": "duration-and-convexity-problems-13",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-13",
+  "type": "Exercise",
+  "number": "9.13.12",
+  "title": "",
+  "body": "   Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.   "
+},
+{
+  "id": "duration-and-convexity-problems-14",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-14",
+  "type": "Exercise",
+  "number": "9.13.13",
+  "title": "",
+  "body": "   Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.   "
+},
+{
+  "id": "duration-and-convexity-problems-15",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-15",
+  "type": "Exercise",
+  "number": "9.13.14",
+  "title": "",
+  "body": "   Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.   "
+},
+{
+  "id": "duration-and-convexity-problems-16",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-16",
+  "type": "Exercise",
+  "number": "9.13.15",
+  "title": "",
+  "body": "   An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .   "
+},
+{
+  "id": "duration-and-convexity-problems-17",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-17",
+  "type": "Exercise",
+  "number": "9.13.16",
+  "title": "",
+  "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.   "
+},
+{
+  "id": "duration-and-convexity-problems-18",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-18",
+  "type": "Exercise",
+  "number": "9.13.17",
+  "title": "",
+  "body": "  Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.   "
+},
+{
+  "id": "duration-and-convexity-problems-19",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-19",
+  "type": "Exercise",
+  "number": "9.13.18",
+  "title": "",
+  "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.   "
+},
+{
+  "id": "duration-and-convexity-problems-20",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-20",
+  "type": "Exercise",
+  "number": "9.13.19",
+  "title": "",
+  "body": "   The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.   "
+},
+{
+  "id": "duration-and-convexity-problems-21",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-21",
+  "type": "Exercise",
+  "number": "9.13.20",
+  "title": "",
+  "body": "   Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.   "
+},
+{
+  "id": "duration-and-convexity-problems-22",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-22",
+  "type": "Exercise",
+  "number": "9.13.21",
+  "title": "",
+  "body": "  A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.   "
+},
+{
+  "id": "duration-and-convexity-problems-23",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-23",
+  "type": "Exercise",
+  "number": "9.13.22",
+  "title": "",
+  "body": "   A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-24",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-24",
+  "type": "Exercise",
+  "number": "9.13.23",
+  "title": "",
+  "body": "   A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-25",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-25",
+  "type": "Exercise",
+  "number": "9.13.24",
+  "title": "",
+  "body": "   Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.   "
+},
+{
+  "id": "duration-and-convexity-problems-26",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-26",
+  "type": "Exercise",
+  "number": "9.13.25",
+  "title": "",
+  "body": "   There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.   "
+},
+{
+  "id": "duration-and-convexity-problems-27",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-27",
+  "type": "Exercise",
+  "number": "9.13.26",
+  "title": "",
+  "body": "   A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.   "
+},
+{
+  "id": "duration-and-convexity-problems-28",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-28",
+  "type": "Exercise",
+  "number": "9.13.27",
+  "title": "",
+  "body": "   Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:     "
+},
+{
+  "id": "duration-and-convexity-problems-29",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-29",
+  "type": "Exercise",
+  "number": "9.13.28",
+  "title": "",
+  "body": "   A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.   "
+},
+{
+  "id": "duration-and-convexity-problems-30",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-30",
+  "type": "Exercise",
+  "number": "9.13.29",
+  "title": "",
+  "body": "  A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.   "
+},
+{
+  "id": "duration-and-convexity-problems-31",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-31",
+  "type": "Exercise",
+  "number": "9.13.30",
+  "title": "",
+  "body": "  A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.   "
+},
+{
+  "id": "duration-and-convexity-problems-32",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-32",
+  "type": "Exercise",
+  "number": "9.13.31",
+  "title": "",
+  "body": "   You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.   "
+},
+{
+  "id": "duration-and-convexity-problems-33",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-33",
+  "type": "Exercise",
+  "number": "9.13.32",
+  "title": "",
+  "body": "   Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.   "
+},
+{
+  "id": "duration-and-convexity-problems-34",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-34",
+  "type": "Exercise",
+  "number": "9.13.33",
+  "title": "",
+  "body": "   SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .   "
+},
+{
+  "id": "duration-and-convexity-problems-35",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-35",
+  "type": "Exercise",
+  "number": "9.13.34",
+  "title": "",
+  "body": "   An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .   "
+},
+{
+  "id": "duration-and-convexity-problems-36",
+  "level": "2",
+  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-36",
+  "type": "Exercise",
+  "number": "9.13.35",
+  "title": "",
+  "body": "  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.   "
+},
+{
+  "id": "exact-matching-with-zero-coupon-bonds",
+  "level": "1",
+  "url": "exact-matching-with-zero-coupon-bonds.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Exact Matching with Zero-Coupon Bonds",
+  "body": " Exact Matching with Zero-Coupon Bonds   Liabilities are amounts firms owe, and assets are the resources firms have to pay their liabilities. Exact matching is an investment strategy in which the payouts of the assets occur at the same time the liabilities come due, and in the same amounts.    Suppose we have a liability of 1000 coming due at the end of one year. List at least two possible investments we could purchase now in order to exactly match the liability.      Suppose zero-coupon bonds are the only investments available, and the yield curve is as follows:     Year  1  2  3  4       4.00%  5.25%  6.00%  6.25%     For each of the following liability schedules, determine (i) which zero-coupon bonds you will invest in, (ii) how much face value of each zero-coupon bond you will purchase, and (iii) the total cost of the assets to exactly match liabilities.    There is exactly one liability of 1000 at the end of year 1.    There is a liability of 1000 due at the end of year 1, and another liability of 1000 due at the end of year 2.    There is a liability of 2000 due at the end of year 1, and another liability of 3000 due at the end of year 2.    There is a liability of 1500 due at the end of year 1, a liability of 1000 due at the end of year 2, and a liability of 2000 due at the end of year 3.    There is a liability of 1000 due at the end of year 1, a liability of 2000 due at the end of year 2, and a liability of 3000 at the end of year 4.      Suppose we have a liability of 2500 due at the end of year 1 and a liability of 3250 due at the end of year 2. The effective annual interest rate on a 1-year zero-coupon bond is 4%. What is the lowest effective annual interest rate you need for a two-year, zero-coupon bond in order to keep the cost of exact matching under 5340.50.      How do you expect the exact matching cost calculations will change when we use coupon bonds instead of zero-coupon bonds?    "
+},
+{
+  "id": "exact-matching-with-zero-coupon-bonds-2",
+  "level": "2",
+  "url": "exact-matching-with-zero-coupon-bonds.html#exact-matching-with-zero-coupon-bonds-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Liabilities assets Exact matching "
+},
+{
+  "id": "matching-a-liability",
+  "level": "2",
+  "url": "exact-matching-with-zero-coupon-bonds.html#matching-a-liability",
+  "type": "Activity",
+  "number": "10.1.1",
+  "title": "",
+  "body": "  Suppose we have a liability of 1000 coming due at the end of one year. List at least two possible investments we could purchase now in order to exactly match the liability.   "
+},
+{
+  "id": "choosing-zero-coupon-bonds",
+  "level": "2",
+  "url": "exact-matching-with-zero-coupon-bonds.html#choosing-zero-coupon-bonds",
+  "type": "Activity",
+  "number": "10.1.2",
+  "title": "",
+  "body": "  Suppose zero-coupon bonds are the only investments available, and the yield curve is as follows:     Year  1  2  3  4       4.00%  5.25%  6.00%  6.25%     For each of the following liability schedules, determine (i) which zero-coupon bonds you will invest in, (ii) how much face value of each zero-coupon bond you will purchase, and (iii) the total cost of the assets to exactly match liabilities.    There is exactly one liability of 1000 at the end of year 1.    There is a liability of 1000 due at the end of year 1, and another liability of 1000 due at the end of year 2.    There is a liability of 2000 due at the end of year 1, and another liability of 3000 due at the end of year 2.    There is a liability of 1500 due at the end of year 1, a liability of 1000 due at the end of year 2, and a liability of 2000 due at the end of year 3.    There is a liability of 1000 due at the end of year 1, a liability of 2000 due at the end of year 2, and a liability of 3000 at the end of year 4.   "
+},
+{
+  "id": "choosing-interest-rate-to-match-liability",
+  "level": "2",
+  "url": "exact-matching-with-zero-coupon-bonds.html#choosing-interest-rate-to-match-liability",
+  "type": "Activity",
+  "number": "10.1.3",
+  "title": "",
+  "body": "  Suppose we have a liability of 2500 due at the end of year 1 and a liability of 3250 due at the end of year 2. The effective annual interest rate on a 1-year zero-coupon bond is 4%. What is the lowest effective annual interest rate you need for a two-year, zero-coupon bond in order to keep the cost of exact matching under 5340.50.   "
+},
+{
+  "id": "exact-matching-with-zero-coupon-bonds-reflection",
+  "level": "2",
+  "url": "exact-matching-with-zero-coupon-bonds.html#exact-matching-with-zero-coupon-bonds-reflection",
+  "type": "Activity",
+  "number": "10.1.4",
+  "title": "",
+  "body": "  How do you expect the exact matching cost calculations will change when we use coupon bonds instead of zero-coupon bonds?   "
+},
+{
+  "id": "exact-matching-with-coupon-bonds",
+  "level": "1",
+  "url": "exact-matching-with-coupon-bonds.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Exact Matching with Coupon Bonds",
+  "body": " Exact Matching with Coupon Bonds  In we used zero-coupon bonds to exactly match our liabilities. It gets a little more complicated when we use coupon bonds. We assume that we can purchase coupon bonds for any amount of face value.    Suppose we have a single liability of 1000 due at the end of 1 year. The only investment available is a one-year bond with a single annual coupon at 5% of face value, paid together with the redemption amount. The yield rate is an effective annual rate of 6%.    How much face value should we purchase to exactly match our liability?    What will it cost to use this bond to immunize our liability?      Now suppose we have two liabilities: 1000 due at the end of year 1, and 1000 due at the end of year 2. The only investments are the following bonds with annual coupons:     Term  Coupon Rate (Annual)  Effective Yield Rate (Annual)    One Year  3%  2%    Two Year  5%  4%     We plan to exactly match our liabilities by purchasing in face value of the one-year bond and in face value of the two-year bond.    Make a timeline showing our liabilities and income from the bonds, showing income from each bond separately.    Which face value do we need to find first? Find that value.    Find the face value of the other bond.    Find the cost to exactly match these liabilities.    When finding the face values of coupon bonds to exactly match liabilities, should we work \"forward\" or \"backward\"? Why?      There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:     Maturity (years)  Coupon Rate (annual)  Effective Annual Yield  Par    1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000     Find the cost to exactly match liabilities.      There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:     Maturity (years)  Coupon Rate  Annual Yield  Par    1.5  8%  6%  1000    3  10%  5%  1000     Find the cost to exactly match liabilities.      An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .      Describe a procedure for exactly matching liabilities with coupon bonds.    "
+},
+{
+  "id": "matching-a-liability-with-coupon-bonds",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#matching-a-liability-with-coupon-bonds",
+  "type": "Activity",
+  "number": "10.2.1",
+  "title": "",
+  "body": "  Suppose we have a single liability of 1000 due at the end of 1 year. The only investment available is a one-year bond with a single annual coupon at 5% of face value, paid together with the redemption amount. The yield rate is an effective annual rate of 6%.    How much face value should we purchase to exactly match our liability?    What will it cost to use this bond to immunize our liability?   "
+},
+{
+  "id": "determining-how-to-use-coupon-bonds-to-match-liabilities",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#determining-how-to-use-coupon-bonds-to-match-liabilities",
+  "type": "Activity",
+  "number": "10.2.2",
+  "title": "",
+  "body": "  Now suppose we have two liabilities: 1000 due at the end of year 1, and 1000 due at the end of year 2. The only investments are the following bonds with annual coupons:     Term  Coupon Rate (Annual)  Effective Yield Rate (Annual)    One Year  3%  2%    Two Year  5%  4%     We plan to exactly match our liabilities by purchasing in face value of the one-year bond and in face value of the two-year bond.    Make a timeline showing our liabilities and income from the bonds, showing income from each bond separately.    Which face value do we need to find first? Find that value.    Find the face value of the other bond.    Find the cost to exactly match these liabilities.    When finding the face values of coupon bonds to exactly match liabilities, should we work \"forward\" or \"backward\"? Why?   "
+},
+{
+  "id": "matching-liabilities-to-coupon-bonds-with-different-rates-and-maturities",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#matching-liabilities-to-coupon-bonds-with-different-rates-and-maturities",
+  "type": "Activity",
+  "number": "10.2.3",
+  "title": "",
+  "body": "  There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:     Maturity (years)  Coupon Rate (annual)  Effective Annual Yield  Par    1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000     Find the cost to exactly match liabilities.   "
+},
+{
+  "id": "choosing-coupon-bonds-to-match-liabilities",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#choosing-coupon-bonds-to-match-liabilities",
+  "type": "Activity",
+  "number": "10.2.4",
+  "title": "",
+  "body": "  There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:     Maturity (years)  Coupon Rate  Annual Yield  Par    1.5  8%  6%  1000    3  10%  5%  1000     Find the cost to exactly match liabilities.   "
+},
+{
+  "id": "purchasing-bonds-to-match-obligation",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#purchasing-bonds-to-match-obligation",
+  "type": "Activity",
+  "number": "10.2.5",
+  "title": "",
+  "body": "  An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .   "
+},
+{
+  "id": "matching-a-liability-with-coupon-bonds-reflection",
+  "level": "2",
+  "url": "exact-matching-with-coupon-bonds.html#matching-a-liability-with-coupon-bonds-reflection",
+  "type": "Activity",
+  "number": "10.2.6",
+  "title": "",
+  "body": "  Describe a procedure for exactly matching liabilities with coupon bonds.   "
+},
+{
+  "id": "redington-immunization",
+  "level": "1",
+  "url": "redington-immunization.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "Redington Immunization",
+  "body": " Redington Immunization  When the payoff of our investments match our liabilities in both amount and in time, we do not face interest rate risk. However, it is not always possible to perform exact matching. When exact matching is not possible, we identify investments whose payoffs have the same present value as our liabilities, and this may involve interest rate risk. Selecting our assets in a way to minimize or eliminate interest rate risk is called immunization .  The present values of both the liabilities and the assets funding the liabilities are functions of the effective interest rate . For assets, denote this function by , and for liabilities denote the function by . To derive immunization conditions, we are going to define an intermediate function :   The interest rate in effect at time 0 is denoted .    Let's start with an example. The Lucia Seaside Motel has a liability of 2000 due at the end of year 4. They intend to fund this liability with a zero-coupon bond with face value of 604.68 payable at the end of year 2 and a zero-coupon bond with face value 1400 payable at the end of year 5 (the face value amounts have some round-off error). The interest rate at this time is .    Show that (up to round-off error). This is called present value matching and ensures that the assets can fund the liability.    Show is a local minimum for (up to round-off error). Collectively, this involves what are called duration matching and the convexity condition , and manages the interest rate risk.      The example in the first problem illustrates Redington immunization . Redington immunization ensures that the assets can fund the liabilities through present value matching. Through duration matching and the convexity condition, Redington immunization also ensures that small changes in the interest rate away from do not interfere with the ability to fund the liabilities with the assets.    Recall that and that the interest rate at time 0 is . What two conditions must be true about the function at and near for Redington immunization?    Write your answer to the previous part in terms of , , and . Label each as present value matching, duration matching, and the convexity condition respectively.      Let's make this more concrete. Given assets providing at time and liabilities of amount at time :    Rewrite each of the following in terms of and :    The present value matching condition.    The duration matching condition.    The convexity condition.      Show that the present value matching condition, duration matching condition, and convexity condition can be rewritten respectively as:     This is the traditional way to describe Redington immunization.      A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and       Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.      Why is the condition on called duration matching? Why is the condition on called the convexity condition?    "
+},
+{
+  "id": "redington-immunization-2",
+  "level": "2",
+  "url": "redington-immunization.html#redington-immunization-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "immunization "
+},
+{
+  "id": "example-of-immunization",
+  "level": "2",
+  "url": "redington-immunization.html#example-of-immunization",
+  "type": "Activity",
+  "number": "10.3.1",
+  "title": "",
+  "body": "  Let's start with an example. The Lucia Seaside Motel has a liability of 2000 due at the end of year 4. They intend to fund this liability with a zero-coupon bond with face value of 604.68 payable at the end of year 2 and a zero-coupon bond with face value 1400 payable at the end of year 5 (the face value amounts have some round-off error). The interest rate at this time is .    Show that (up to round-off error). This is called present value matching and ensures that the assets can fund the liability.    Show is a local minimum for (up to round-off error). Collectively, this involves what are called duration matching and the convexity condition , and manages the interest rate risk.   "
+},
+{
+  "id": "conditions-for-redington-immunization",
+  "level": "2",
+  "url": "redington-immunization.html#conditions-for-redington-immunization",
+  "type": "Activity",
+  "number": "10.3.2",
+  "title": "",
+  "body": "  The example in the first problem illustrates Redington immunization . Redington immunization ensures that the assets can fund the liabilities through present value matching. Through duration matching and the convexity condition, Redington immunization also ensures that small changes in the interest rate away from do not interfere with the ability to fund the liabilities with the assets.    Recall that and that the interest rate at time 0 is . What two conditions must be true about the function at and near for Redington immunization?    Write your answer to the previous part in terms of , , and . Label each as present value matching, duration matching, and the convexity condition respectively.   "
+},
+{
+  "id": "formulas-for-redington-immunization-conditions",
+  "level": "2",
+  "url": "redington-immunization.html#formulas-for-redington-immunization-conditions",
+  "type": "Activity",
+  "number": "10.3.3",
+  "title": "",
+  "body": "  Let's make this more concrete. Given assets providing at time and liabilities of amount at time :    Rewrite each of the following in terms of and :    The present value matching condition.    The duration matching condition.    The convexity condition.   "
+},
+{
+  "id": "traditional-description-of-redington-immunization",
+  "level": "2",
+  "url": "redington-immunization.html#traditional-description-of-redington-immunization",
+  "type": "Activity",
+  "number": "10.3.4",
+  "title": "",
+  "body": "  Show that the present value matching condition, duration matching condition, and convexity condition can be rewritten respectively as:     This is the traditional way to describe Redington immunization.   "
+},
+{
+  "id": "redington-immunization-problem-1",
+  "level": "2",
+  "url": "redington-immunization.html#redington-immunization-problem-1",
+  "type": "Activity",
+  "number": "10.3.5",
+  "title": "",
+  "body": "  A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and    "
+},
+{
+  "id": "redington-immunization-problem-2",
+  "level": "2",
+  "url": "redington-immunization.html#redington-immunization-problem-2",
+  "type": "Activity",
+  "number": "10.3.6",
+  "title": "",
+  "body": "  Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.   "
+},
+{
+  "id": "redington-immunization-reflection",
+  "level": "2",
+  "url": "redington-immunization.html#redington-immunization-reflection",
+  "type": "Activity",
+  "number": "10.3.7",
+  "title": "",
+  "body": "  Why is the condition on called duration matching? Why is the condition on called the convexity condition?   "
+},
+{
+  "id": "full-immunization",
+  "level": "1",
+  "url": "full-immunization.html",
+  "type": "Section",
+  "number": "10.4",
+  "title": "Full Immunization",
+  "body": " Full Immunization  Recall that we defined the function as:   Redington immunization required that the interest rate at time 0, , be a local minimum of . Liabilities are said to be fully immunized if is a global minimum of .    Explain, practically, the difference between Redington and full immunization.      Identify a condition on that is sufficient for to be a global minimum of (you do not have to prove or justify this -- a proof requires real analysis).    Full immunization can be difficult to verify. We are only going to consider one way full immunization can be achieved. We will show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the conditions of Redington immunization, then the liability is full immunized.    Let's see why this is true. First, consider the general case with several liabilities and several assets. Let be the Macaulay duration of the portfolio of liabilities.    Show that the duration condition of Redington immunization implies that is also the duration of the portfolio of assets.    Show that regarding the convexity condition:     Now suppose we have a single liability at time in the amount . This is equivalent to owing a zero-coupon bond. What is ?    Show that if our liability portfolio has a single liability of amount we have assets consisting of exactly two zero-coupon bonds, with face values coming due at time and coming due at time (neither nor equal ), then the convexity condition is satisfied for all .    Show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the present value and duration matching conditions of Redington immunization, then the liability is full immunized (you may have to skip a couple of details near the end of your work).    Note that our argument did not use the condition (except to the extent that and ). This condition is required for and to be positive (otherwise they would not be assets). The nicest way to see why this is true is to use some linear algebra -- see the challenge question at the end of this activity.    A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time . Find and , and determine if the liability is fully immunized.      Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .      Explain why full immunization is desirable.      ✬ Challenge Question: Let's show that in the case of a single liability at time , in order for and (as required in order for them to be assets), the present value and duration matching conditions require .    The present value and duration matching conditions require the following system to be satisfied:    Write this as a matrix equation.    Solve the matrix equation by multiplying the left sides by the inverse of the matrix.    Use your results to explain why if and only if .    "
+},
+{
+  "id": "full-immunization-4",
+  "level": "2",
+  "url": "full-immunization.html#full-immunization-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "fully immunized "
+},
+{
+  "id": "difference-between-redington-and-full-immunization",
+  "level": "2",
+  "url": "full-immunization.html#difference-between-redington-and-full-immunization",
+  "type": "Activity",
+  "number": "10.4.1",
+  "title": "",
+  "body": "  Explain, practically, the difference between Redington and full immunization.   "
+},
+{
+  "id": "conditions-for-full-immunization",
+  "level": "2",
+  "url": "full-immunization.html#conditions-for-full-immunization",
+  "type": "Activity",
+  "number": "10.4.2",
+  "title": "",
+  "body": "  Identify a condition on that is sufficient for to be a global minimum of (you do not have to prove or justify this -- a proof requires real analysis).   "
+},
+{
+  "id": "proof-of-condition-for-full-immunization",
+  "level": "2",
+  "url": "full-immunization.html#proof-of-condition-for-full-immunization",
+  "type": "Activity",
+  "number": "10.4.3",
+  "title": "",
+  "body": "  Let's see why this is true. First, consider the general case with several liabilities and several assets. Let be the Macaulay duration of the portfolio of liabilities.    Show that the duration condition of Redington immunization implies that is also the duration of the portfolio of assets.    Show that regarding the convexity condition:     Now suppose we have a single liability at time in the amount . This is equivalent to owing a zero-coupon bond. What is ?    Show that if our liability portfolio has a single liability of amount we have assets consisting of exactly two zero-coupon bonds, with face values coming due at time and coming due at time (neither nor equal ), then the convexity condition is satisfied for all .    Show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the present value and duration matching conditions of Redington immunization, then the liability is full immunized (you may have to skip a couple of details near the end of your work).   "
+},
+{
+  "id": "full-immunization-problem-1",
+  "level": "2",
+  "url": "full-immunization.html#full-immunization-problem-1",
+  "type": "Activity",
+  "number": "10.4.4",
+  "title": "",
+  "body": "  A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time . Find and , and determine if the liability is fully immunized.   "
+},
+{
+  "id": "full-immunization-problem-2",
+  "level": "2",
+  "url": "full-immunization.html#full-immunization-problem-2",
+  "type": "Activity",
+  "number": "10.4.5",
+  "title": "",
+  "body": "  Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .   "
+},
+{
+  "id": "desirability-of-full-immunization",
+  "level": "2",
+  "url": "full-immunization.html#desirability-of-full-immunization",
+  "type": "Activity",
+  "number": "10.4.6",
+  "title": "",
+  "body": "  Explain why full immunization is desirable.   "
+},
+{
+  "id": "time_conditions-for-full-immunization-with",
+  "level": "2",
+  "url": "full-immunization.html#time_conditions-for-full-immunization-with",
+  "type": "Activity",
+  "number": "10.4.7",
+  "title": "",
+  "body": "  ✬ Challenge Question: Let's show that in the case of a single liability at time , in order for and (as required in order for them to be assets), the present value and duration matching conditions require .    The present value and duration matching conditions require the following system to be satisfied:    Write this as a matrix equation.    Solve the matrix equation by multiplying the left sides by the inverse of the matrix.    Use your results to explain why if and only if .   "
+},
+{
+  "id": "ethics-reserve-requirements",
+  "level": "1",
+  "url": "ethics-reserve-requirements.html",
+  "type": "Section",
+  "number": "10.5",
+  "title": "Ethics Case Study -- Reserve Requirements",
+  "body": " Ethics Case Study -- Reserve Requirements  We have seen that the purpose of immunization is to make sure a company has sufficient assets to pay off expected liabilities. For an insurance company, liabilities are uncertain. They are estimated using expected values for probability distributions (often derived from large data sets using either \"Monte-Carlo simulations\" or `'bootstrapping\").  The assets an insurance company (or any company or investor) hold have varying degrees of uncertainty. They will likely include a range of investments from risk-free assets such as United States government bonds to low-risk investments such as highly-rated corporate bonds to higher-risk investments in equity markets. When preparing for later exams, you will learn how this risk is evaluated and how the mix of risk profiles is selected (there is some discretion based on the investors' preferences).  Given the uncertainty in their liabilities, insurance companies may be tempted to include more high-risk assets in their investments. States impose insurance reserve requirements in order to make sure insurance companies can meet their policyholders' claims as they arise. Reserves have to be held in either cash or in low-risk investments that are highly liquid (can be converted to cash quickly). Sometimes this is called unimpaired capital . In Michigan, the reserve requirements are set by the Department of Insurance and Financial Services, but there is a statutory floor of 7 million (MCL 500.410(2)).  The State of Ferris is a brand new state in the union and is developing its first legal code. You have been retained by Governor Eisler in order to advise on insurance regulation. You are thinking about insurance reserves, and before determining standards for required reserves, you want to decide whether this restriction is ethical.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).    "
+},
+{
+  "id": "ethics-reserve-requirements-4",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "insurance reserve requirements unimpaired capital "
+},
+{
+  "id": "reserve-requirements-problem-statement",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-problem-statement",
+  "type": "Activity",
+  "number": "10.5.1",
+  "title": "",
+  "body": "   Step 1 : State the Problem.   "
+},
+{
+  "id": "reserve-requirements-fact-gathering",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-fact-gathering",
+  "type": "Activity",
+  "number": "10.5.2",
+  "title": "",
+  "body": "   Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.   "
+},
+{
+  "id": "reserve-requirements-identify-stakeholders",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-identify-stakeholders",
+  "type": "Activity",
+  "number": "10.5.3",
+  "title": "",
+  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
+},
+{
+  "id": "reserve-requirements-develop-options",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-develop-options",
+  "type": "Activity",
+  "number": "10.5.4",
+  "title": "",
+  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
+},
+{
+  "id": "reserve-requirements-test-options",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-test-options",
+  "type": "Activity",
+  "number": "10.5.5",
+  "title": "",
+  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
+},
+{
+  "id": "reserve-requirements-make-decision",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-make-decision",
+  "type": "Activity",
+  "number": "10.5.6",
+  "title": "",
+  "body": "   Step 6 : Make a decision.   "
+},
+{
+  "id": "reserve-requirements-check-work",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-check-work",
+  "type": "Activity",
+  "number": "10.5.7",
+  "title": "",
+  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
+},
+{
+  "id": "reserve-requirements-memo",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#reserve-requirements-memo",
+  "type": "Activity",
+  "number": "10.5.8",
+  "title": "",
+  "body": "  Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).   "
+},
+{
+  "id": "matching-liabilities-assets-exercises",
+  "level": "1",
+  "url": "matching-liabilities-assets-exercises.html",
+  "type": "Exercises",
+  "number": "10.6",
+  "title": "Exercises",
+  "body": "   For each of the following, calculate the cost of exactly matching the liabilities using only the available zero-coupon bonds.    There is exactly one liability of 3000 due in 1 year. A 1-year, zero-coupon bond has par of 1000 and is priced to yield 5%.    There is exactly one liability of 2000 due in 3 years. A 3-year, zero-coupon bond has par of 100 and is priced to yield 6.5%.    There is a liability of 3000 due in 1 year and another liability of 2000 due in 2 years. A 1-year zero-coupon bond has par of 1000 and is priced to yield 3%, while a 2-year zero-coupon bond with a par of 1000 is priced to yield 4.5%.    There is a liability of 1000 due in 2 years and another liability of 2000 due in 4 years. The yield curve is:     Time in years   1  2  3  4      Spot rate   6.0%  5.0%  4.5%  3.0%  3.5%       There is a liability of 2000 due in 1 year, 1000 due in 2 years, and 3000 due in 3 years. The yield curve has , , and       For each of the following, calculate the cost of exactly matching the liabilities using only the available bonds.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year zero-coupon bond with par of 1000 priced to yield 6% and a two-year bond with par of 1000, annual coupons at 4%, priced to yield 5%.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year bond, with par value of 1000, and with an annual coupon of 3.5% priced to yield 2%, and a two-year zero-coupon bond priced to yield 3%.    There are liabilities of 1000 at the end of each of the next two years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  6%  4%  1000    2  5.5%  3%  1000       There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000       There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:      Maturity (years)    Coupon Rate    Annual Yield    Par     1.5  8%  6%  1000    3  10%  5%  1000         A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and       A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and       For each part of in which immunization is possible, state whether or not the liability is fully immunized. Justify your conclusion.    "
+},
+{
+  "id": "matching-liabilities-assets-exercises-1",
+  "level": "2",
+  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-1",
+  "type": "Exercise",
+  "number": "10.6.1",
+  "title": "",
+  "body": "  For each of the following, calculate the cost of exactly matching the liabilities using only the available zero-coupon bonds.    There is exactly one liability of 3000 due in 1 year. A 1-year, zero-coupon bond has par of 1000 and is priced to yield 5%.    There is exactly one liability of 2000 due in 3 years. A 3-year, zero-coupon bond has par of 100 and is priced to yield 6.5%.    There is a liability of 3000 due in 1 year and another liability of 2000 due in 2 years. A 1-year zero-coupon bond has par of 1000 and is priced to yield 3%, while a 2-year zero-coupon bond with a par of 1000 is priced to yield 4.5%.    There is a liability of 1000 due in 2 years and another liability of 2000 due in 4 years. The yield curve is:     Time in years   1  2  3  4      Spot rate   6.0%  5.0%  4.5%  3.0%  3.5%       There is a liability of 2000 due in 1 year, 1000 due in 2 years, and 3000 due in 3 years. The yield curve has , , and    "
+},
+{
+  "id": "matching-liabilities-assets-exercises-2",
+  "level": "2",
+  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-2",
+  "type": "Exercise",
+  "number": "10.6.2",
+  "title": "",
+  "body": "  For each of the following, calculate the cost of exactly matching the liabilities using only the available bonds.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year zero-coupon bond with par of 1000 priced to yield 6% and a two-year bond with par of 1000, annual coupons at 4%, priced to yield 5%.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year bond, with par value of 1000, and with an annual coupon of 3.5% priced to yield 2%, and a two-year zero-coupon bond priced to yield 3%.    There are liabilities of 1000 at the end of each of the next two years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  6%  4%  1000    2  5.5%  3%  1000       There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000       There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:      Maturity (years)    Coupon Rate    Annual Yield    Par     1.5  8%  6%  1000    3  10%  5%  1000      "
+},
+{
+  "id": "matching-liabilities-assets-exercises-3",
+  "level": "2",
+  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-3",
+  "type": "Exercise",
+  "number": "10.6.3",
+  "title": "",
+  "body": "  A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and    "
+},
+{
+  "id": "reddington-exercise",
+  "level": "2",
+  "url": "matching-liabilities-assets-exercises.html#reddington-exercise",
+  "type": "Exercise",
+  "number": "10.6.4",
+  "title": "",
+  "body": "  A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and    "
+},
+{
+  "id": "matching-liabilities-assets-exercises-5",
+  "level": "2",
+  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-5",
+  "type": "Exercise",
+  "number": "10.6.5",
+  "title": "",
+  "body": "  For each part of in which immunization is possible, state whether or not the liability is fully immunized. Justify your conclusion.   "
+},
+{
+  "id": "matching-liabilities-assets-problems",
+  "level": "1",
+  "url": "matching-liabilities-assets-problems.html",
+  "type": "Exercises",
+  "number": "10.7",
+  "title": "Problems",
+  "body": " Problems     A company must pay liabilities of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (years)  Effective annual yield  Par    1  10%  1000    2  12%  1000     Determine the cost to the company today to match its liabilities exactly.       An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .       Liabilities of 1 each are due at the ends of periods 1 and 2. There are three securities available to produce asset income to cover these liabilities, as follows:    A bond due at the end of period 1 with coupon rate 1% per period, valued at a periodic yield of 14%.    A bond due at the end of period 2 with coupon rate 2% per period, valued at a periodic yield of 15%.    A bond due at the end of period 2 with coupon rate 20% per period, valued at a periodic yield of 14.95%.    Determine the cost of the portfolio that exactly matches income to liabilities due using: \\begin{enumerate}    bonds (i) and (ii) only.    bonds (i) and (iii) only.       A small company terminating its operations has decided to provide each of its three employees with a severance package that pays 10,000 per year (at the end of each year) up to and including age 65, plus a lump sum payment of 100,000 at age 65. In case of death of an employee before age 65, the payments continue until that employee would have been 65. The three employees are now exactly ages 50, 53, and 55.  Suppose the company determines that the payments due under this package can be met by the income and maturities generated by three bonds, each with a face amount of 100,000 and an annual coupon rate of 10% and with maturities of 10, 12, and 15 years. Determine the cost to the company to fund the severance package if the bonds have (effective annual) yield rates of 10% for the 10-year bond, 11% for the 12-year bond, and 12% for the 15-year bond.       Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.       Providence Health Care is obligated to make a payment of 300,000 in exactly three years. In order to provide for this obligation, their financial officer decides to purchase a combination of one-year zero-coupon bonds and four-year zero-coupon bonds. Each of these bonds is sold to yield an effective yield of 4%. How much of each type of bond should be purchased so that the present value and duration conditions of Redington immunization are satisfied? Is the convexity condition also satisfied at ?       Trevor has assets at time 2 of and at time 9 of . He has a liability of 95,000 at time 5. Trevor has achieved Redington immunization in his portfolio using an annual effective interest rate of 4%.  Calculate .       A liability consists of a series of 15 annual payments of 35,000 with the first payment to be made one year from now.  The assets available to immunize this liability are five-year and ten-year zero-coupon bonds.  The annual effective interest rate used to value the assets and the liability is 6.2%. The liability has the same present value and duration as the asset portfolio.  Calculate the amount invested in the five-year zero-coupon bonds.       Aakash has a liability of 6000 due in four years. The liability will be met with payments of in two years and in six years. Aakash is employing a full immunization strategy using an annual effective interest rate of 5%.  Calculate .       Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .       A payment of 10,000 is due at time 10. This obligation will be met by payments of at time 5 and at time 15. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .       A payment of 10,000 is due at time 10. This obligation will be met by payments of at time and 6000 at time 12. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .       A liability of 1 is due at time 10. An attempt is made to fully immunize this liability at using two zero-coupon bonds of amounts and due at times and respectively. In each of the following cases, solve for the two missing quantities out of , , , , given the other two.     ,      ,      ,        An insurance company has a known liability of 1,000,000 that is due 8 years from now. The technique of full immunization is to be employed. Asset I will provide a cash flow of 300,000 exactly 6 years from now. Asset II will provide a cash flow of , exactly years from now, where .  The annual effective interest rate is 4%.  Calculate .       Which of the following statements about immunization strategies are true? (More than one may be true).    To achieve immunization, the convexity of the assets must equal the convexity of the liabilities.    The full immunization technique is designed to work for any change in the interest rate.    The theory of immunization was developed to protect against adverse effects created by changes in interest rates.      "
+},
+{
+  "id": "matching-liabilities-assets-problems-2",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-2",
+  "type": "Exercise",
+  "number": "10.7.1",
+  "title": "",
+  "body": "   A company must pay liabilities of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (years)  Effective annual yield  Par    1  10%  1000    2  12%  1000     Determine the cost to the company today to match its liabilities exactly.   "
+},
+{
+  "id": "matching-liabilities-assets-problems-3",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-3",
+  "type": "Exercise",
+  "number": "10.7.2",
+  "title": "",
+  "body": "   An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-4",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-4",
+  "type": "Exercise",
+  "number": "10.7.3",
+  "title": "",
+  "body": "   Liabilities of 1 each are due at the ends of periods 1 and 2. There are three securities available to produce asset income to cover these liabilities, as follows:    A bond due at the end of period 1 with coupon rate 1% per period, valued at a periodic yield of 14%.    A bond due at the end of period 2 with coupon rate 2% per period, valued at a periodic yield of 15%.    A bond due at the end of period 2 with coupon rate 20% per period, valued at a periodic yield of 14.95%.    Determine the cost of the portfolio that exactly matches income to liabilities due using: \\begin{enumerate}    bonds (i) and (ii) only.    bonds (i) and (iii) only.   "
+},
+{
+  "id": "matching-liabilities-assets-problems-5",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-5",
+  "type": "Exercise",
+  "number": "10.7.4",
+  "title": "",
+  "body": "   A small company terminating its operations has decided to provide each of its three employees with a severance package that pays 10,000 per year (at the end of each year) up to and including age 65, plus a lump sum payment of 100,000 at age 65. In case of death of an employee before age 65, the payments continue until that employee would have been 65. The three employees are now exactly ages 50, 53, and 55.  Suppose the company determines that the payments due under this package can be met by the income and maturities generated by three bonds, each with a face amount of 100,000 and an annual coupon rate of 10% and with maturities of 10, 12, and 15 years. Determine the cost to the company to fund the severance package if the bonds have (effective annual) yield rates of 10% for the 10-year bond, 11% for the 12-year bond, and 12% for the 15-year bond.   "
+},
+{
+  "id": "matching-liabilities-assets-problems-6",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-6",
+  "type": "Exercise",
+  "number": "10.7.5",
+  "title": "",
+  "body": "   Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.   "
+},
+{
+  "id": "matching-liabilities-assets-problems-7",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-7",
+  "type": "Exercise",
+  "number": "10.7.6",
+  "title": "",
+  "body": "   Providence Health Care is obligated to make a payment of 300,000 in exactly three years. In order to provide for this obligation, their financial officer decides to purchase a combination of one-year zero-coupon bonds and four-year zero-coupon bonds. Each of these bonds is sold to yield an effective yield of 4%. How much of each type of bond should be purchased so that the present value and duration conditions of Redington immunization are satisfied? Is the convexity condition also satisfied at ?   "
+},
+{
+  "id": "matching-liabilities-assets-problems-8",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-8",
+  "type": "Exercise",
+  "number": "10.7.7",
+  "title": "",
+  "body": "   Trevor has assets at time 2 of and at time 9 of . He has a liability of 95,000 at time 5. Trevor has achieved Redington immunization in his portfolio using an annual effective interest rate of 4%.  Calculate .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-9",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-9",
+  "type": "Exercise",
+  "number": "10.7.8",
+  "title": "",
+  "body": "   A liability consists of a series of 15 annual payments of 35,000 with the first payment to be made one year from now.  The assets available to immunize this liability are five-year and ten-year zero-coupon bonds.  The annual effective interest rate used to value the assets and the liability is 6.2%. The liability has the same present value and duration as the asset portfolio.  Calculate the amount invested in the five-year zero-coupon bonds.   "
+},
+{
+  "id": "matching-liabilities-assets-problems-10",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-10",
+  "type": "Exercise",
+  "number": "10.7.9",
+  "title": "",
+  "body": "   Aakash has a liability of 6000 due in four years. The liability will be met with payments of in two years and in six years. Aakash is employing a full immunization strategy using an annual effective interest rate of 5%.  Calculate .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-11",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-11",
+  "type": "Exercise",
+  "number": "10.7.10",
+  "title": "",
+  "body": "   Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-12",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-12",
+  "type": "Exercise",
+  "number": "10.7.11",
+  "title": "",
+  "body": "   A payment of 10,000 is due at time 10. This obligation will be met by payments of at time 5 and at time 15. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-13",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-13",
+  "type": "Exercise",
+  "number": "10.7.12",
+  "title": "",
+  "body": "   A payment of 10,000 is due at time 10. This obligation will be met by payments of at time and 6000 at time 12. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-14",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-14",
+  "type": "Exercise",
+  "number": "10.7.13",
+  "title": "",
+  "body": "   A liability of 1 is due at time 10. An attempt is made to fully immunize this liability at using two zero-coupon bonds of amounts and due at times and respectively. In each of the following cases, solve for the two missing quantities out of , , , , given the other two.     ,      ,      ,    "
+},
+{
+  "id": "matching-liabilities-assets-problems-15",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-15",
+  "type": "Exercise",
+  "number": "10.7.14",
+  "title": "",
+  "body": "   An insurance company has a known liability of 1,000,000 that is due 8 years from now. The technique of full immunization is to be employed. Asset I will provide a cash flow of 300,000 exactly 6 years from now. Asset II will provide a cash flow of , exactly years from now, where .  The annual effective interest rate is 4%.  Calculate .   "
+},
+{
+  "id": "matching-liabilities-assets-problems-16",
+  "level": "2",
+  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-16",
+  "type": "Exercise",
+  "number": "10.7.15",
+  "title": "",
+  "body": "   Which of the following statements about immunization strategies are true? (More than one may be true).    To achieve immunization, the convexity of the assets must equal the convexity of the liabilities.    The full immunization technique is designed to work for any change in the interest rate.    The theory of immunization was developed to protect against adverse effects created by changes in interest rates.     "
+},
+{
   "id": "zero-coupon-bonds-spot-rates-and-yield-curve",
   "level": "1",
   "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html",
   "type": "Section",
-  "number": "9.1",
+  "number": "11.1",
   "title": "Zero Coupon Bonds, Spot Rates, and the Yield Curve",
   "body": " Zero Coupon Bonds, Spot Rates, and the Yield Curve  We begin by defining the term structure of interest rates. A zero-coupon bond is, as you might expect, a bond that pays no coupons. United States Treasury Bills (\"T-bills\" for short) are zero-coupon bonds, typically with maturities less than one year. The yield rates on zero-coupon bonds are functions of the length of time to maturity, and those yield rates are referred to as spot rates . Taken together, the schedule of spot rates for various times is called the term structure of interest rates , and graphically referred to as the yield curve .    So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15           The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?      Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.      Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.      "
 },
@@ -9545,7 +11327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#determining-yield-from-market-rates",
   "type": "Activity",
-  "number": "9.1.1",
+  "number": "11.1.1",
   "title": "",
   "body": "  So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15        "
 },
@@ -9554,7 +11336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#term-structure-and-yield-curve",
   "type": "Activity",
-  "number": "9.1.2",
+  "number": "11.1.2",
   "title": "",
   "body": "  The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?   "
 },
@@ -9563,7 +11345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curves-and-economic-expectations",
   "type": "Activity",
-  "number": "9.1.3",
+  "number": "11.1.3",
   "title": "",
   "body": "  Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.   "
 },
@@ -9572,7 +11354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curve-reflection",
   "type": "Activity",
-  "number": "9.1.4",
+  "number": "11.1.4",
   "title": "",
   "body": "  Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.     "
 },
@@ -9581,7 +11363,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "spot-rates-and-coupon-bonds.html",
   "type": "Section",
-  "number": "9.2",
+  "number": "11.2",
   "title": "Spot Rates and Coupon Bonds",
   "body": " Spot Rates and Coupon Bonds  We can use the spot rates to price coupon bonds, and then figure out the yield rate for the coupon bond at that price. We can also reverse this relationship, and actually use coupon bond prices or yields to find the spot rates.    Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.    Let's look at a more extended example.    A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?      Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.      We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.      Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.      The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.      How much of what we learned in this activity can you reconstruct from definitions and sense-making?    "
 },
@@ -9590,7 +11372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#pricing-coupon-payments-with-spot-rates",
   "type": "Activity",
-  "number": "9.2.1",
+  "number": "11.2.1",
   "title": "",
   "body": "  Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
 },
@@ -9599,7 +11381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#extended-pricing-coupon-payments-with-spot-rates",
   "type": "Activity",
-  "number": "9.2.2",
+  "number": "11.2.2",
   "title": "",
   "body": "  A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?   "
 },
@@ -9608,7 +11390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#pricing-with-flat-yield-curve",
   "type": "Activity",
-  "number": "9.2.3",
+  "number": "11.2.3",
   "title": "",
   "body": "  Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.   "
 },
@@ -9617,7 +11399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#bootstrapping-to-find-spot-rates",
   "type": "Activity",
-  "number": "9.2.4",
+  "number": "11.2.4",
   "title": "",
   "body": "  We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.   "
 },
@@ -9626,7 +11408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#insufficient-information-for-bootstrapping",
   "type": "Activity",
-  "number": "9.2.5",
+  "number": "11.2.5",
   "title": "",
   "body": "  Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.   "
 },
@@ -9635,7 +11417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#at-par-yield-rate-for-coupon-bond",
   "type": "Activity",
-  "number": "9.2.6",
+  "number": "11.2.6",
   "title": "",
   "body": "  The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.   "
 },
@@ -9644,7 +11426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "spot-rates-and-coupon-bonds.html#spot-rates-and-coupon-bonds-reflection",
   "type": "Activity",
-  "number": "9.2.7",
+  "number": "11.2.7",
   "title": "",
   "body": "  How much of what we learned in this activity can you reconstruct from definitions and sense-making?   "
 },
@@ -9653,7 +11435,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "forward-rates.html",
   "type": "Section",
-  "number": "9.3",
+  "number": "11.3",
   "title": "Forward Rates",
   "body": " Forward Rates  In addition to spot rates, we can also describe how we expect interest rates to vary in the near future using forward rates. Forward rates are interest rates that are locked in today (at time 0), but are only in effect for a period of time at some point in the future (i.e., at some point forward in time). The typical notation is , which stands for the effective periodic interest measured now but is in effect between times and .  When and we are looking at , we use the following equivalent terms:    The time (or -time ) forward rate (note that this refers to the ending time).    The -deferred time- interest rate.    You may also see described as \"the deferred -year interest rate.\" There may be other equivalent terms you encounter, as well as alternate notation. As usual, refer to context to understand what the author intends.    Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.           Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.      We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.      In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.      In what way(s) are forward rates and spot rates different?    "
 },
@@ -9680,7 +11462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "forward-rates.html#exploring-the-meaning-of-forward-rates",
   "type": "Activity",
-  "number": "9.3.1",
+  "number": "11.3.1",
   "title": "",
   "body": "  Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.        "
 },
@@ -9689,7 +11471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "forward-rates.html#inferring-forward-rates-from-offers",
   "type": "Activity",
-  "number": "9.3.2",
+  "number": "11.3.2",
   "title": "",
   "body": "  Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.   "
 },
@@ -9698,7 +11480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "forward-rates.html#pricing-bonds-with-forward-rates",
   "type": "Activity",
-  "number": "9.3.3",
+  "number": "11.3.3",
   "title": "",
   "body": "  We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.   "
 },
@@ -9707,7 +11489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "forward-rates.html#at-par-yield-rate-from-forward-rates",
   "type": "Activity",
-  "number": "9.3.4",
+  "number": "11.3.4",
   "title": "",
   "body": "  In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.   "
 },
@@ -9716,7 +11498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "forward-rates.html#forward-rate-reflection",
   "type": "Activity",
-  "number": "9.3.5",
+  "number": "11.3.5",
   "title": "",
   "body": "  In what way(s) are forward rates and spot rates different?   "
 },
@@ -9725,7 +11507,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "implied-forward-rates-and-spot-rates.html",
   "type": "Section",
-  "number": "9.4",
+  "number": "11.4",
   "title": "Implied Forward Rates and Spot Rates",
   "body": " Implied Forward Rates and Spot Rates  Given a yield curve, the spot rates imply forward rates -- otherwise there would be an arbitrage opportunity. Similarly, given a set of forward rates, there is an implied yield curve. In this activity, we will figure learn how to figure these out.  For ease of notation, we will write in place of in this activity.    Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .      Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%           Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.      Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .      Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%           Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.      The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).      Explain how an arbitrage argument works and how it helped us derive equations in this activity.    "
 },
@@ -9734,7 +11516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#making-an-arbitrage-argument",
   "type": "Activity",
-  "number": "9.4.1",
+  "number": "11.4.1",
   "title": "",
   "body": "  Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .   "
 },
@@ -9743,7 +11525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#forward-rates-from-yield-curve",
   "type": "Activity",
-  "number": "9.4.2",
+  "number": "11.4.2",
   "title": "",
   "body": "  Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%        "
 },
@@ -9752,7 +11534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#graphing-forward-rates-against-yield-curves",
   "type": "Activity",
-  "number": "9.4.3",
+  "number": "11.4.3",
   "title": "",
   "body": "  Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
 },
@@ -9761,7 +11543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#constructing-yield-curve-from-forward-rates",
   "type": "Activity",
-  "number": "9.4.4",
+  "number": "11.4.4",
   "title": "",
   "body": "  Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .   "
 },
@@ -9770,7 +11552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#plotting-yield-curve-from-forward-rates",
   "type": "Activity",
-  "number": "9.4.5",
+  "number": "11.4.5",
   "title": "",
   "body": "  Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%        "
 },
@@ -9779,7 +11561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#finding-spot-and-deferred-forward-rates",
   "type": "Activity",
-  "number": "9.4.6",
+  "number": "11.4.6",
   "title": "",
   "body": "  Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
 },
@@ -9788,7 +11570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#finding-forward-rates-from-yield-rates",
   "type": "Activity",
-  "number": "9.4.7",
+  "number": "11.4.7",
   "title": "",
   "body": "  The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
 },
@@ -9797,7 +11579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "implied-forward-rates-and-spot-rates.html#implied-forward-rates-and-spot-rates-reflection",
   "type": "Activity",
-  "number": "9.4.8",
+  "number": "11.4.8",
   "title": "",
   "body": "  Explain how an arbitrage argument works and how it helped us derive equations in this activity.   "
 },
@@ -9806,7 +11588,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "arbitrage-revisited.html",
   "type": "Section",
-  "number": "9.5",
+  "number": "11.5",
   "title": "Arbitrage Revisited",
   "body": " Arbitrage Revisited  In the last activity, you used arbitrage arguments to relate spot rates and forward rates. Nevertheless, since spot rates and forward rates are market-driven, they may not match and therefore there may be an opportunity for arbitrage.  When arbitrage exists, you can construct a transaction to take advantage of the opportunity buy following the age-old \"buy-low, sell-high\" strategy. In order to do this, you will have to create a \"synthetic\" version of the transaction that would occur if there were no arbitrage. You will do this quite a bit when preparing for the IFM Exam. In this activity, we will get a taste of this using forward and spot rates.  ⚠ Note that borrowing and paying back in a lump sum is the same as selling a zero-coupon bond, and lending with a lump sum repayment is the same as buying a zero-coupon bond.  We begin by exploring synthetic investments (sometimes called a \"net position\"). Then we use them to construct arbitrage transactions.    Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.      Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%        The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.      Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.    "
 },
@@ -9815,7 +11597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "arbitrage-revisited.html#exploring-synthetic-investments",
   "type": "Activity",
-  "number": "9.5.1",
+  "number": "11.5.1",
   "title": "",
   "body": "  Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.   "
 },
@@ -9824,7 +11606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "arbitrage-revisited.html#determining-net-position",
   "type": "Activity",
-  "number": "9.5.2",
+  "number": "11.5.2",
   "title": "",
   "body": "  Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
 },
@@ -9833,7 +11615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "arbitrage-revisited.html#generating-certain-profit",
   "type": "Activity",
-  "number": "9.5.3",
+  "number": "11.5.3",
   "title": "",
   "body": "  The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
 },
@@ -9842,7 +11624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "arbitrage-revisited.html#ethics-of-taking-advanatage-of-arbitrage",
   "type": "Activity",
-  "number": "9.5.4",
+  "number": "11.5.4",
   "title": "",
   "body": "  Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.   "
 },
@@ -9851,7 +11633,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ethics-speculation.html",
   "type": "Section",
-  "number": "9.6",
+  "number": "11.6",
   "title": "Ethics Case Study -- Speculation",
   "body": " Ethics Case Study -- Speculation  Spot rates and forward rates represent predictions about how the market thinks interest rates will move in the future. Those who purchase bonds, whether coupon-bearing or not, may not be investing so much for the bond itself as they are making a bet about whether they think the market is correctly predicting future interest rates. For example, if the yield curve is normal while an investor thinks interest rates are going to actually decline, they may purchase bonds with the intent to sell them for a profit after a reduction in interest rates. This is known as speculation .  It is more common to use the word speculation when the risks of loss and potential reward are higher. Most speculation is done in commodity markets and in secondary stock markets. Combined with herd behavior -- the tendency of investors to follow and copy one another's investing choices -- speculation can lead to \"bubbles\" in the market. This means that the value of the assets in the market significantly exceeds their intrinsic value. Some investors earn high returns during bubbles, and others suffer serious losses when the bubble \"bursts\" as it inevitably will. The difference between who makes money and who loses is a matter of chance timing.  Suppose you monitor and manage investments for an insurance company. Your department chair notices that there appears to be a bubble in energy stocks and asks you your thoughts about getting in on it before the bubble bursts. You tell them you will think about it and respond by the end of the day. Since you do not have time to look into the specifics of this bubble, you are going to consider investing in bubbles in general.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).    "
 },
@@ -9869,7 +11651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-problem-statement",
   "type": "Activity",
-  "number": "9.6.1",
+  "number": "11.6.1",
   "title": "",
   "body": "   Step 1 : State the Problem.   "
 },
@@ -9878,7 +11660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-fact-gathering",
   "type": "Activity",
-  "number": "9.6.2",
+  "number": "11.6.2",
   "title": "",
   "body": "   Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.   "
 },
@@ -9887,7 +11669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-identify-stakeholders",
   "type": "Activity",
-  "number": "9.6.3",
+  "number": "11.6.3",
   "title": "",
   "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
 },
@@ -9896,7 +11678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-develop-options",
   "type": "Activity",
-  "number": "9.6.4",
+  "number": "11.6.4",
   "title": "",
   "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
 },
@@ -9905,7 +11687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-test-options",
   "type": "Activity",
-  "number": "9.6.5",
+  "number": "11.6.5",
   "title": "",
   "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
 },
@@ -9914,7 +11696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-make-decision",
   "type": "Activity",
-  "number": "9.6.6",
+  "number": "11.6.6",
   "title": "",
   "body": "   Step 6 : Make a decision.   "
 },
@@ -9923,7 +11705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-check-work",
   "type": "Activity",
-  "number": "9.6.7",
+  "number": "11.6.7",
   "title": "",
   "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
 },
@@ -9932,7 +11714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-speculation.html#speculation-memo",
   "type": "Activity",
-  "number": "9.6.8",
+  "number": "11.6.8",
   "title": "",
   "body": "  Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).   "
 },
@@ -9941,7 +11723,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "term-structure-interest-rates-exercises.html",
   "type": "Exercises",
-  "number": "9.7",
+  "number": "11.7",
   "title": "Exercises",
   "body": "   Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48      Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.      Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.      You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.      On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.      Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.      Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).      Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.    "
 },
@@ -9950,7 +11732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-1",
   "type": "Exercise",
-  "number": "9.7.1",
+  "number": "11.7.1",
   "title": "",
   "body": "  Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48   "
 },
@@ -9959,7 +11741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-2",
   "type": "Exercise",
-  "number": "9.7.2",
+  "number": "11.7.2",
   "title": "",
   "body": "  Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.   "
 },
@@ -9968,7 +11750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-3",
   "type": "Exercise",
-  "number": "9.7.3",
+  "number": "11.7.3",
   "title": "",
   "body": "  Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.   "
 },
@@ -9977,7 +11759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-4",
   "type": "Exercise",
-  "number": "9.7.4",
+  "number": "11.7.4",
   "title": "",
   "body": "  You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.   "
 },
@@ -9986,7 +11768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-5",
   "type": "Exercise",
-  "number": "9.7.5",
+  "number": "11.7.5",
   "title": "",
   "body": "  On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.   "
 },
@@ -9995,7 +11777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#forward-rates-exercise",
   "type": "Exercise",
-  "number": "9.7.6",
+  "number": "11.7.6",
   "title": "",
   "body": "  Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.   "
 },
@@ -10004,7 +11786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-7",
   "type": "Exercise",
-  "number": "9.7.7",
+  "number": "11.7.7",
   "title": "",
   "body": "  Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).   "
 },
@@ -10013,7 +11795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-8",
   "type": "Exercise",
-  "number": "9.7.8",
+  "number": "11.7.8",
   "title": "",
   "body": "  Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.   "
 },
@@ -10022,7 +11804,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "term-structure-interest-rates-problems.html",
   "type": "Exercises",
-  "number": "9.8",
+  "number": "11.8",
   "title": "Problems",
   "body": " Problems    A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?       Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.         A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.       A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .       Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.       You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.       The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.       A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.       A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.       You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.       You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).       The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.        You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.       The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .      A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .       Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.       A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.       According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.       The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).       Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.       The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.       Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .       Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .       You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.       The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.       Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .      Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.       Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%         Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%         The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.       The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.       Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.    "
 },
@@ -10031,7 +11813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-2",
   "type": "Exercise",
-  "number": "9.8.1",
+  "number": "11.8.1",
   "title": "",
   "body": "  A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?   "
 },
@@ -10040,7 +11822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-3",
   "type": "Exercise",
-  "number": "9.8.2",
+  "number": "11.8.2",
   "title": "",
   "body": "   Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.     "
 },
@@ -10049,7 +11831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-4",
   "type": "Exercise",
-  "number": "9.8.3",
+  "number": "11.8.3",
   "title": "",
   "body": "   A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.   "
 },
@@ -10058,7 +11840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-5",
   "type": "Exercise",
-  "number": "9.8.4",
+  "number": "11.8.4",
   "title": "",
   "body": "   A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .   "
 },
@@ -10067,7 +11849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-6",
   "type": "Exercise",
-  "number": "9.8.5",
+  "number": "11.8.5",
   "title": "",
   "body": "   Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.   "
 },
@@ -10076,7 +11858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-7",
   "type": "Exercise",
-  "number": "9.8.6",
+  "number": "11.8.6",
   "title": "",
   "body": "   You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
 },
@@ -10085,7 +11867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-8",
   "type": "Exercise",
-  "number": "9.8.7",
+  "number": "11.8.7",
   "title": "",
   "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.   "
 },
@@ -10094,7 +11876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-9",
   "type": "Exercise",
-  "number": "9.8.8",
+  "number": "11.8.8",
   "title": "",
   "body": "   A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.   "
 },
@@ -10103,7 +11885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-10",
   "type": "Exercise",
-  "number": "9.8.9",
+  "number": "11.8.9",
   "title": "",
   "body": "   A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.   "
 },
@@ -10112,7 +11894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-11",
   "type": "Exercise",
-  "number": "9.8.10",
+  "number": "11.8.10",
   "title": "",
   "body": "   You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.   "
 },
@@ -10121,7 +11903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-12",
   "type": "Exercise",
-  "number": "9.8.11",
+  "number": "11.8.11",
   "title": "",
   "body": "   You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).   "
 },
@@ -10130,7 +11912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-13",
   "type": "Exercise",
-  "number": "9.8.12",
+  "number": "11.8.12",
   "title": "",
   "body": "   The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.    "
 },
@@ -10139,7 +11921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-14",
   "type": "Exercise",
-  "number": "9.8.13",
+  "number": "11.8.13",
   "title": "",
   "body": "   You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.   "
 },
@@ -10148,7 +11930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-15",
   "type": "Exercise",
-  "number": "9.8.14",
+  "number": "11.8.14",
   "title": "",
   "body": "   The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .   "
 },
@@ -10157,7 +11939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-16",
   "type": "Exercise",
-  "number": "9.8.15",
+  "number": "11.8.15",
   "title": "",
   "body": "  A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .   "
 },
@@ -10166,7 +11948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-17",
   "type": "Exercise",
-  "number": "9.8.16",
+  "number": "11.8.16",
   "title": "",
   "body": "   Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
 },
@@ -10175,7 +11957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-18",
   "type": "Exercise",
-  "number": "9.8.17",
+  "number": "11.8.17",
   "title": "",
   "body": "   A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.   "
 },
@@ -10184,7 +11966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-19",
   "type": "Exercise",
-  "number": "9.8.18",
+  "number": "11.8.18",
   "title": "",
   "body": "   According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.   "
 },
@@ -10193,7 +11975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-20",
   "type": "Exercise",
-  "number": "9.8.19",
+  "number": "11.8.19",
   "title": "",
   "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
 },
@@ -10202,7 +11984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-21",
   "type": "Exercise",
-  "number": "9.8.20",
+  "number": "11.8.20",
   "title": "",
   "body": "   Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
 },
@@ -10211,7 +11993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-22",
   "type": "Exercise",
-  "number": "9.8.21",
+  "number": "11.8.21",
   "title": "",
   "body": "   The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.   "
 },
@@ -10220,7 +12002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-23",
   "type": "Exercise",
-  "number": "9.8.22",
+  "number": "11.8.22",
   "title": "",
   "body": "   Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .   "
 },
@@ -10229,7 +12011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-24",
   "type": "Exercise",
-  "number": "9.8.23",
+  "number": "11.8.23",
   "title": "",
   "body": "   Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .   "
 },
@@ -10238,7 +12020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-25",
   "type": "Exercise",
-  "number": "9.8.24",
+  "number": "11.8.24",
   "title": "",
   "body": "   You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.   "
 },
@@ -10247,7 +12029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-26",
   "type": "Exercise",
-  "number": "9.8.25",
+  "number": "11.8.25",
   "title": "",
   "body": "   The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.   "
 },
@@ -10256,7 +12038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-27",
   "type": "Exercise",
-  "number": "9.8.26",
+  "number": "11.8.26",
   "title": "",
   "body": "   Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .   "
 },
@@ -10265,7 +12047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-28",
   "type": "Exercise",
-  "number": "9.8.27",
+  "number": "11.8.27",
   "title": "",
   "body": "  Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.   "
 },
@@ -10274,7 +12056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-29",
   "type": "Exercise",
-  "number": "9.8.28",
+  "number": "11.8.28",
   "title": "",
   "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
 },
@@ -10283,7 +12065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-30",
   "type": "Exercise",
-  "number": "9.8.29",
+  "number": "11.8.29",
   "title": "",
   "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%     "
 },
@@ -10292,7 +12074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-31",
   "type": "Exercise",
-  "number": "9.8.30",
+  "number": "11.8.30",
   "title": "",
   "body": "   The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
 },
@@ -10301,7 +12083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-32",
   "type": "Exercise",
-  "number": "9.8.31",
+  "number": "11.8.31",
   "title": "",
   "body": "   The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.   "
 },
@@ -10310,7 +12092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-33",
   "type": "Exercise",
-  "number": "9.8.32",
+  "number": "11.8.32",
   "title": "",
   "body": "   Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.   "
 },
@@ -10319,7 +12101,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "variable-interest-rates.html",
   "type": "Section",
-  "number": "10.1",
+  "number": "12.1",
   "title": "Variable Interest Rates",
   "body": " Variable Interest Rates  A loan, or other financial instrument, may have varying interest rates. A common example are \"adjustable rate mortgages\" -- home loans in which the interest rate varies throughout the term of the loan. These varying rates are called floating rates .  Often, floating rates are pegged to a standard interest rate index. In this sense, they will be quoted as the index plus some amount, such as prime + 1.5% (the addition is in terms of percentage points). The most common indices we will see are the prime rate and LIBOR.  The prime rate is an interest rate the U.S. commercial banks charge their most credit-worthy borrowers.  The acronym LIBOR stands for London Inter-Bank Overnight Rate and is a UK-based interest rate that banks charge one another to loan funds overnight (quoted as an effective annual rate most of the time).  There is one last term used in this context - basis points. A basis point (abbreviated bp) is one percent of 1% interest. So 100 bp = 1%. In this case, to say that the floating rate on a loan is LIBOR + 200 bp is the same as saying the floating rate is LIBOR + 2%.    Suppose an adjustable rate mortgage calls for an interest rate of \"prime + 150 bp\" to be determined annually. This means that, assuming monthly payments, they will only change the interest rate every 12 payments.  During the first five years of the loan, the prime rate was as follows:     Year  Prime Rate    1  3.45%    2  4.12%    3  2.95%    4  3.60%    5  3.71%     Find the interest rate (as an effective annual rate) paid by the borrower in each of the first five years of the mortage.      A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of LIBOR + 2%. Over the five years, the LIBOR was as reported in the table below.     Year  LIBOR    1  4.25%    2  5.00%    3  4.75%    4  4.15%    5  3.95%     Find the interest payment each year.      What is the advantage to the borrower of a floating rate? What is the disadvantage? Why might a borrower find floating rates undesirable?    "
 },
@@ -10364,7 +12146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variable-interest-rates.html#adjustable-rate-mortgage",
   "type": "Activity",
-  "number": "10.1.1",
+  "number": "12.1.1",
   "title": "",
   "body": "  Suppose an adjustable rate mortgage calls for an interest rate of \"prime + 150 bp\" to be determined annually. This means that, assuming monthly payments, they will only change the interest rate every 12 payments.  During the first five years of the loan, the prime rate was as follows:     Year  Prime Rate    1  3.45%    2  4.12%    3  2.95%    4  3.60%    5  3.71%     Find the interest rate (as an effective annual rate) paid by the borrower in each of the first five years of the mortage.   "
 },
@@ -10373,7 +12155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variable-interest-rates.html#loan-calculated-with-libor",
   "type": "Activity",
-  "number": "10.1.2",
+  "number": "12.1.2",
   "title": "",
   "body": "  A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of LIBOR + 2%. Over the five years, the LIBOR was as reported in the table below.     Year  LIBOR    1  4.25%    2  5.00%    3  4.75%    4  4.15%    5  3.95%     Find the interest payment each year.   "
 },
@@ -10382,7 +12164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variable-interest-rates.html#variable-interest-rates-reflection",
   "type": "Activity",
-  "number": "10.1.3",
+  "number": "12.1.3",
   "title": "",
   "body": "  What is the advantage to the borrower of a floating rate? What is the disadvantage? Why might a borrower find floating rates undesirable?   "
 },
@@ -10391,7 +12173,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "basic-swap-transaction.html",
   "type": "Section",
-  "number": "10.2",
+  "number": "12.2",
   "title": "The Basic Swap Transaction",
   "body": " The Basic Swap Transaction  Borrowers avoid the uncertainty that comes with floating rate loans by contracting with a third party, or a counterparty , who pays the floating rate interest payments to the borrower in exchange for the borrower paying them regular interest payments at a fixed rate. The fixed rate is called the swap rate . In the context of an interest rate swap, the borrower is called the payer and the counterparty is called the receiver . The payments made from the payer to the receiver are called the fixed payments while those in the opposite direction are called floating payments . The floating payments are then made by the payer back to the lender for their interest payments.  A visual depiction of the transaction is:   Schematic diagram of a basic swap transaction.    Of course, it would be silly for the payer and receiver to exchange the same amount. They typically just make a net payment. For example, if the floating payment is 600 and the fixed payment is 500, the receiver just pays the payer 100. Then the receiver pays the lender 600, but that includes the 100 the receiver paid.  There are some other vocabulary terms we need that come along with this transaction:    The swap rate is the fixed rate at which the payer makes fixed payments to the receiver.    The notional amount is the amount to which the rate is applied (so the payer pays to the receiver). For now, think of this as the principal amount of the original loan.    The swap term , also called the swap tenor , is the length of time during which the swap is in effect.    The settlement dates are the dates when payments are exchanged between payer and receiver.    The settlement period is the time between settlement dates.    The driving question in this chapter is how to calculate the swap rate , but for this section, we will focus on making sense of the underlying transaction. We will calculate swap rates in .    Bye Felicia Inc. wants to borrow 12 million at a constant interest rate. Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate. In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract.  Identify the payer, receiver, and notional amount in this transaction.      Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today. Identify the swap term, the settlement dates, the settlement periods, and the swap tenor. Display each of these on a single timeline.      Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR. Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%. Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.    The receiver has what is called the fixed leg of the interest rate swap, meaning they receive the fixed payments. The payer has the floating leg .    On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the \"fixed leg\" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate. The notional balance is 35,000,000, the fixed rate is , and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4\/01\/1994, 4.875% for the period beginning 7\/01\/94, 5.688% for the period beginning 10\/01\/94, and 6.328% for the period beginning 1\/01\/95. Determine the amount and time of all payments.      Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%.  ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate.  The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively.  ABC does not make or receive any other payments.  Calculate the net interest payment that ABC makes in the second year.      Why would a counterparty enter into an interest rate swap as a receiver? What are they betting? In what way does an interest rate swap resemble an insurance contract?    "
 },
@@ -10409,7 +12191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#basic-swap-illustration",
   "type": "Figure",
-  "number": "10.2.1",
+  "number": "12.2.1",
   "title": "",
   "body": " Schematic diagram of a basic swap transaction.   "
 },
@@ -10463,7 +12245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#identifying-parties-in-swap-transaction",
   "type": "Activity",
-  "number": "10.2.1",
+  "number": "12.2.1",
   "title": "",
   "body": "  Bye Felicia Inc. wants to borrow 12 million at a constant interest rate. Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate. In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract.  Identify the payer, receiver, and notional amount in this transaction.   "
 },
@@ -10472,7 +12254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#creating-timelines-for-swap-transaction",
   "type": "Activity",
-  "number": "10.2.2",
+  "number": "12.2.2",
   "title": "",
   "body": "  Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today. Identify the swap term, the settlement dates, the settlement periods, and the swap tenor. Display each of these on a single timeline.   "
 },
@@ -10481,7 +12263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#swap-transaction-with-libor",
   "type": "Activity",
-  "number": "10.2.3",
+  "number": "12.2.3",
   "title": "",
   "body": "  Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR. Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%. Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.   "
 },
@@ -10499,7 +12281,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#fixed-leg-of-a-payment-rate-swap",
   "type": "Activity",
-  "number": "10.2.4",
+  "number": "12.2.4",
   "title": "",
   "body": "  On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the \"fixed leg\" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate. The notional balance is 35,000,000, the fixed rate is , and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4\/01\/1994, 4.875% for the period beginning 7\/01\/94, 5.688% for the period beginning 10\/01\/94, and 6.328% for the period beginning 1\/01\/95. Determine the amount and time of all payments.   "
 },
@@ -10508,7 +12290,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#making-a-swap-against-libor-rate",
   "type": "Activity",
-  "number": "10.2.5",
+  "number": "12.2.5",
   "title": "",
   "body": "  Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%.  ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate.  The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively.  ABC does not make or receive any other payments.  Calculate the net interest payment that ABC makes in the second year.   "
 },
@@ -10517,7 +12299,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "basic-swap-transaction.html#basic-swap-transaction-reflection",
   "type": "Activity",
-  "number": "10.2.6",
+  "number": "12.2.6",
   "title": "",
   "body": "  Why would a counterparty enter into an interest rate swap as a receiver? What are they betting? In what way does an interest rate swap resemble an insurance contract?   "
 },
@@ -10526,7 +12308,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "calculating-the-swap-rate.html",
   "type": "Section",
-  "number": "10.3",
+  "number": "12.3",
   "title": "The Swap Rate",
   "body": " The Swap Rate  This activity is the heart of this chapter - we will calculate the swap rate . Recall that this is the fixed rate at which the payer makes payments, while the receiver uses floating rates.  At time 0, we will use the yield curve to find present values, and we use the implied forward rates as estimates of the floating rates that the receiver will pay. We will denote with the simpler . But recall that individual problems may have their own notation -- use context.    Suppose the yield curve is:     Term   Spot Rate     1  3.00%    2  4.50%    3  5.00%    4  5.25%     A payer and receiver enter into a 4-year interest rate swap with annual payments and notional amount . We will use the yield curve to find the swap rate .    What is the amount of the annual fixed payment (in terms of and )?    What is the present value of the fixed payments (in terms of and )?    The floating payments will be based on the forward rates. Find the forward rates, then find the amount of each of the four floating payments (in terms of ).    Find the present value of the floating payments (in terms of ).    Why must the present values of the two legs be equal? (You do not have to be very specific here.)    Set your present values equal and solve for .    What happened to the notional amount? What does that tell you?      Mimic your work in the last problem and derive a formula for the swap rate in an -period interest rate swap, using spot rates and forward rates .      We can make this formula a little nicer using \"telescoping sums.\"    Consider the following sum:   Without converting to decimals or improper fractions, simplify this sum by canceling. This is an example of a telescoping sum (it shortens up like a telescope!).    Recall that we derived the following equation for a forward rate (solved for the rate itself):   Using this formula for the forward rate, rewrite and simplify the present value of the floating payments in an interest rate swap. Notice you will find a telescoping sum!    Use this simplification to rewrite your formula for the swap rate .      Find the swap rate from using your new formula. Which do you prefer?      Recall that given a yield curve, the at-par yield rate of a coupon bond is the coupon rate at which the bond is priced at-par, i.e. its price equals its redemption amount. Using the yield curve in , find the at-par yield rate for a bond with redemption amount . What do you notice?      Sometimes the information we are given may alter our approach to a problem.    Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year.  You are given the following prices for a zero coupon bond that matures for 1 on the maturity date:     Maturity Date  Price    1 year  0.965    2 years  0.920    3 years  0.875    4 years  0.825    5 years  0.770     Determine the net swap payment at the end of the first year.    How was the information in this problem different from the information in ? How did that impact your problem solving?      The yield curve spot rates for three years are given by:   Find the swap rate for a 3-year fixed interest rate swap.      Decribe two ways the yield curve is used in finding a swap rate for an interest rate swap.    "
 },
@@ -10535,7 +12317,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#finding-swap-rate-from-yield-curve",
   "type": "Activity",
-  "number": "10.3.1",
+  "number": "12.3.1",
   "title": "",
   "body": "  Suppose the yield curve is:     Term   Spot Rate     1  3.00%    2  4.50%    3  5.00%    4  5.25%     A payer and receiver enter into a 4-year interest rate swap with annual payments and notional amount . We will use the yield curve to find the swap rate .    What is the amount of the annual fixed payment (in terms of and )?    What is the present value of the fixed payments (in terms of and )?    The floating payments will be based on the forward rates. Find the forward rates, then find the amount of each of the four floating payments (in terms of ).    Find the present value of the floating payments (in terms of ).    Why must the present values of the two legs be equal? (You do not have to be very specific here.)    Set your present values equal and solve for .    What happened to the notional amount? What does that tell you?   "
 },
@@ -10544,7 +12326,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#creating-a-formula-for-swap-rate",
   "type": "Activity",
-  "number": "10.3.2",
+  "number": "12.3.2",
   "title": "",
   "body": "  Mimic your work in the last problem and derive a formula for the swap rate in an -period interest rate swap, using spot rates and forward rates .   "
 },
@@ -10553,7 +12335,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#using-telescoping-sums-to-simplify-the-formula",
   "type": "Activity",
-  "number": "10.3.3",
+  "number": "12.3.3",
   "title": "",
   "body": "  We can make this formula a little nicer using \"telescoping sums.\"    Consider the following sum:   Without converting to decimals or improper fractions, simplify this sum by canceling. This is an example of a telescoping sum (it shortens up like a telescope!).    Recall that we derived the following equation for a forward rate (solved for the rate itself):   Using this formula for the forward rate, rewrite and simplify the present value of the floating payments in an interest rate swap. Notice you will find a telescoping sum!    Use this simplification to rewrite your formula for the swap rate .   "
 },
@@ -10562,7 +12344,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#using-the-swap-rate-formula",
   "type": "Activity",
-  "number": "10.3.4",
+  "number": "12.3.4",
   "title": "",
   "body": "  Find the swap rate from using your new formula. Which do you prefer?   "
 },
@@ -10571,7 +12353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#finding-at-par-yield-rate-from-yield-curve",
   "type": "Activity",
-  "number": "10.3.5",
+  "number": "12.3.5",
   "title": "",
   "body": "  Recall that given a yield curve, the at-par yield rate of a coupon bond is the coupon rate at which the bond is priced at-par, i.e. its price equals its redemption amount. Using the yield curve in , find the at-par yield rate for a bond with redemption amount . What do you notice?   "
 },
@@ -10580,7 +12362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#determining-swap-rate-with-other-information",
   "type": "Activity",
-  "number": "10.3.6",
+  "number": "12.3.6",
   "title": "",
   "body": "  Sometimes the information we are given may alter our approach to a problem.    Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year.  You are given the following prices for a zero coupon bond that matures for 1 on the maturity date:     Maturity Date  Price    1 year  0.965    2 years  0.920    3 years  0.875    4 years  0.825    5 years  0.770     Determine the net swap payment at the end of the first year.    How was the information in this problem different from the information in ? How did that impact your problem solving?   "
 },
@@ -10589,7 +12371,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#finding-swap-rate-from-yield-curve-equation",
   "type": "Activity",
-  "number": "10.3.7",
+  "number": "12.3.7",
   "title": "",
   "body": "  The yield curve spot rates for three years are given by:   Find the swap rate for a 3-year fixed interest rate swap.   "
 },
@@ -10598,7 +12380,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "calculating-the-swap-rate.html#calculating-the-swap-rate-reflection",
   "type": "Activity",
-  "number": "10.3.8",
+  "number": "12.3.8",
   "title": "",
   "body": "  Decribe two ways the yield curve is used in finding a swap rate for an interest rate swap.   "
 },
@@ -10607,7 +12389,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "variations-on-interest-rate-swaps.html",
   "type": "Section",
-  "number": "10.4",
+  "number": "12.4",
   "title": "Variations on Interest Rate Swaps",
   "body": " Variations on Interest Rate Swaps  In the last activity, we used several assumptions in calculating the swap rate for an interest rate swap. In this activity, we look at what happens when we relax some of those assumptions. Specifically, we are going to look at the following variations (separately):    The yield curve is given in terms of nominal rates.    The swap transaction does not begin immediately.    The notional amount is not constant.    Our findings from the last activity will change. The basic principle remains -- we set the present values of the two legs equal to one another and solve for the swap rate.    Let's start with a yield curve given in nominal rates. Suppose a payer and a receiver enter into an interest rate swap with four payments every six months. The yield curve is given in the following table, where the rates are annual nominal rates convertible semiannually.     Time  Spot Rate    0.5  4.00%    1.0  5.00%    1.5  5.50%    2.0  6.00%       We don't use nominal rates for calculation. What period do we want for our effective rates for this problem? How do we find those effective rates?    Solve the problem.      Next we look at what happens if our swap does not start right away. These are called deferred swaps. Consider the following example from a prior exam:  The table below shows the spot rates for the given lengths of time.     Number of Years  1  2  3  4  5  6    Effective Annual Spot Rate  2.5%  3.1%  3.4%  3.6%  4.0%  4.2%     Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.    When are each of the settlement dates?    When should we value each of the payments?    Solve the problem -- remember to go back to first principles!      Sometimes the notional amount is not constant. This may be because there are principal payments on a loan, a loan is a line of credit (which means different amounts are borrowed each period), or the underlying notional amount is contingent on something like future revenues or future expenses.    Suppose we have an interest rate swap with a tenor of periods, notional amounts , spot rates , and implied forward rates . Write an equation that we would solve in order to calculate the swap rate (we are just looking for an initial equation - we do not need to solve it unless you want to).    What happened in that made our equations simpler, that we can no longer apply here?      An accreting swap is an interest rate swap with an increasing notional amount. An amortizing swap is one in which the notional amount is decreasing. For the following accreting and amortizing swaps, use the following yield curve:     Term   Spot Rate     1  5.25%    2  6.00%    3  6.50%    4  6.60%       Suppose the notional amount for a 4-year interest rate swap starts at 200 million and grows by 1.5% each year. Find the swap rate.    Suppose the notional amount for a 4-year interest rate swap starts at 15 million and declines by 2 million each year. Find the swap rate.    In what way were the changes in the notional amount in the last two problems different? How did that impact your problem solving?      Would it be helpful to derive formulas for all of these variations? Why or why not?    "
 },
@@ -10616,7 +12398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variations-on-interest-rate-swaps.html#swap-rate-from-yield-curve-given-in-nominal-rates",
   "type": "Activity",
-  "number": "10.4.1",
+  "number": "12.4.1",
   "title": "",
   "body": "  Let's start with a yield curve given in nominal rates. Suppose a payer and a receiver enter into an interest rate swap with four payments every six months. The yield curve is given in the following table, where the rates are annual nominal rates convertible semiannually.     Time  Spot Rate    0.5  4.00%    1.0  5.00%    1.5  5.50%    2.0  6.00%       We don't use nominal rates for calculation. What period do we want for our effective rates for this problem? How do we find those effective rates?    Solve the problem.   "
 },
@@ -10625,7 +12407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variations-on-interest-rate-swaps.html#dererred-swap",
   "type": "Activity",
-  "number": "10.4.2",
+  "number": "12.4.2",
   "title": "",
   "body": "  Next we look at what happens if our swap does not start right away. These are called deferred swaps. Consider the following example from a prior exam:  The table below shows the spot rates for the given lengths of time.     Number of Years  1  2  3  4  5  6    Effective Annual Spot Rate  2.5%  3.1%  3.4%  3.6%  4.0%  4.2%     Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.    When are each of the settlement dates?    When should we value each of the payments?    Solve the problem -- remember to go back to first principles!   "
 },
@@ -10634,7 +12416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variations-on-interest-rate-swaps.html#non-constant-notional-amount",
   "type": "Activity",
-  "number": "10.4.3",
+  "number": "12.4.3",
   "title": "",
   "body": "  Sometimes the notional amount is not constant. This may be because there are principal payments on a loan, a loan is a line of credit (which means different amounts are borrowed each period), or the underlying notional amount is contingent on something like future revenues or future expenses.    Suppose we have an interest rate swap with a tenor of periods, notional amounts , spot rates , and implied forward rates . Write an equation that we would solve in order to calculate the swap rate (we are just looking for an initial equation - we do not need to solve it unless you want to).    What happened in that made our equations simpler, that we can no longer apply here?   "
 },
@@ -10643,7 +12425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variations-on-interest-rate-swaps.html#accreting-and-amortizing-swaps",
   "type": "Activity",
-  "number": "10.4.4",
+  "number": "12.4.4",
   "title": "",
   "body": "  An accreting swap is an interest rate swap with an increasing notional amount. An amortizing swap is one in which the notional amount is decreasing. For the following accreting and amortizing swaps, use the following yield curve:     Term   Spot Rate     1  5.25%    2  6.00%    3  6.50%    4  6.60%       Suppose the notional amount for a 4-year interest rate swap starts at 200 million and grows by 1.5% each year. Find the swap rate.    Suppose the notional amount for a 4-year interest rate swap starts at 15 million and declines by 2 million each year. Find the swap rate.    In what way were the changes in the notional amount in the last two problems different? How did that impact your problem solving?   "
 },
@@ -10652,7 +12434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "variations-on-interest-rate-swaps.html#variations-on-interest-rate-swaps-reflection",
   "type": "Activity",
-  "number": "10.4.5",
+  "number": "12.4.5",
   "title": "",
   "body": "  Would it be helpful to derive formulas for all of these variations? Why or why not?   "
 },
@@ -10661,7 +12443,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "market-value-of-an-interest-rate-swap.html",
   "type": "Section",
-  "number": "10.5",
+  "number": "12.5",
   "title": "The Market Value of an Interest Rate Swap",
   "body": " The Market Value of an Interest Rate Swap  Now that we know how interest rate swaps work as transactions, and how to find the fixed swap rate, we can ask ourselves about the value. Specifically, once a swap is underway, and the yield curve changes, what is the market value of the swap? Would could one sell the swap for?  To calculate this, we have to reconsider the floating payments in light of the updated interest rates, and then take the present value of both legs and compare.  You might wonder about which leg we are valuing. The two parties -- the payer and the receiver -- have different interests, or positions. The value to one will be the opposite of the value to the other.    A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was:     Term   Spot Rate     1  3.00%    2  2.80%    3  2.75%     One year later, the new yield curve for the following two years is:     Term   Spot Rate     1  2.75%    2  3.50%     Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.    First, find the fixed payments.    Next, find the present value of the remaining fixed payments one year after the swap tenor began.    Find the remaining floating payments one year after the swap tenor began.    Find the present value of the remaining floating payments.    The difference between the present values gives us the market values. Figure out which difference is the value of the payer's interest (or position), and which is the value for the receiver, and calculate both.      Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015.  Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date.  On May 5, 2017, the spot interest rate curve was as follows:     Term   Spot Rate     1  3.8%    2  4.1%    3  4.3%    4  4.5%    5  4.7%     Miaoqi decides that she wants to sell the swap on May 5, 2017.  Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.      In , we looked at book value and maket value of loans and bonds. In what way is finding the market value of an interest rate swap similar?    "
 },
@@ -10670,7 +12452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "market-value-of-an-interest-rate-swap.html#finding-market-value-for-a-swap-from-yield-curve",
   "type": "Activity",
-  "number": "10.5.1",
+  "number": "12.5.1",
   "title": "",
   "body": "  A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was:     Term   Spot Rate     1  3.00%    2  2.80%    3  2.75%     One year later, the new yield curve for the following two years is:     Term   Spot Rate     1  2.75%    2  3.50%     Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.    First, find the fixed payments.    Next, find the present value of the remaining fixed payments one year after the swap tenor began.    Find the remaining floating payments one year after the swap tenor began.    Find the present value of the remaining floating payments.    The difference between the present values gives us the market values. Figure out which difference is the value of the payer's interest (or position), and which is the value for the receiver, and calculate both.   "
 },
@@ -10679,7 +12461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "market-value-of-an-interest-rate-swap.html#calculating-market-value-for-a-swap-from-spot-rates",
   "type": "Activity",
-  "number": "10.5.2",
+  "number": "12.5.2",
   "title": "",
   "body": "  Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015.  Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date.  On May 5, 2017, the spot interest rate curve was as follows:     Term   Spot Rate     1  3.8%    2  4.1%    3  4.3%    4  4.5%    5  4.7%     Miaoqi decides that she wants to sell the swap on May 5, 2017.  Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.   "
 },
@@ -10688,7 +12470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "market-value-of-an-interest-rate-swap.html#market-value-of-an-interest-rate-swap-reflection",
   "type": "Activity",
-  "number": "10.5.3",
+  "number": "12.5.3",
   "title": "",
   "body": "  In , we looked at book value and maket value of loans and bonds. In what way is finding the market value of an interest rate swap similar?   "
 },
@@ -10697,7 +12479,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "problem-solving-with-interest-rate-swaps.html",
   "type": "Section",
-  "number": "10.6",
+  "number": "12.6",
   "title": "Problem Solving 12 -- Problem Solving with Interest Rate Swaps",
   "body": " Problem Solving 12 -- Problem Solving with Interest Rate Swaps  The kinds of problems that arise with interest rate swaps often involve varying the kind of data you are given and what you are asked to find.    We have learned how to find an unknown swap rate . Problems can turn what is known and unknown around, and provide you with and ask you to solve for something else.    What is an example of something that you would normally be given to find that could be turned into something you have to find when you know ?    The one-year spot rate is 3.10% and the two-year spot rate is 4.59%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%. Find the three-year spot rate.     Note : You can always unclutter a messy equation by defining new variables and making substitutions.    Another way to generate problems is to give you alternate data, rather than exactly what you need. Then you can use the given data to find what you need, and then calculate the desired value.    For an interest rate swap, you need to know the spot rates. What is an example of data that can be given to you in place of spot rates?    We have the following information about the term structure: Find the swap rate for a 3-year interest rate swap with a constant notional amount.      An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate .      Sometimes you have to solve for a leverage variable. Consider the following former exam problem:  A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045.  What is the swap rate for a two-year interest rate swap?    What should you find first? In other words, what is the leverage variable?    Solve the problem.      What are some ways you can take a standard problem like \"Find the swap rate \" and turn it into a less traditional problem?    "
 },
@@ -10706,7 +12488,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-interest-rate-swaps.html#finding-other-values-from-swap-rates",
   "type": "Activity",
-  "number": "10.6.1",
+  "number": "12.6.1",
   "title": "",
   "body": "  We have learned how to find an unknown swap rate . Problems can turn what is known and unknown around, and provide you with and ask you to solve for something else.    What is an example of something that you would normally be given to find that could be turned into something you have to find when you know ?    The one-year spot rate is 3.10% and the two-year spot rate is 4.59%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%. Find the three-year spot rate.   "
 },
@@ -10715,7 +12497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-interest-rate-swaps.html#calculating-when-given-alternative-data",
   "type": "Activity",
-  "number": "10.6.2",
+  "number": "12.6.2",
   "title": "",
   "body": "  Another way to generate problems is to give you alternate data, rather than exactly what you need. Then you can use the given data to find what you need, and then calculate the desired value.    For an interest rate swap, you need to know the spot rates. What is an example of data that can be given to you in place of spot rates?    We have the following information about the term structure: Find the swap rate for a 3-year interest rate swap with a constant notional amount.   "
 },
@@ -10724,7 +12506,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-interest-rate-swaps.html#finding-forward-rate-from-swap-rate",
   "type": "Activity",
-  "number": "10.6.3",
+  "number": "12.6.3",
   "title": "",
   "body": "  An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate .   "
 },
@@ -10733,7 +12515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-interest-rate-swaps.html#solving-for-a-leverage-variable",
   "type": "Activity",
-  "number": "10.6.4",
+  "number": "12.6.4",
   "title": "",
   "body": "  Sometimes you have to solve for a leverage variable. Consider the following former exam problem:  A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045.  What is the swap rate for a two-year interest rate swap?    What should you find first? In other words, what is the leverage variable?    Solve the problem.   "
 },
@@ -10742,7 +12524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-interest-rate-swaps.html#problem-solving-with-interest-rate-swaps-refelction",
   "type": "Activity",
-  "number": "10.6.5",
+  "number": "12.6.5",
   "title": "",
   "body": "  What are some ways you can take a standard problem like \"Find the swap rate \" and turn it into a less traditional problem?   "
 },
@@ -10751,7 +12533,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "interest-rate-swaps-exercises.html",
   "type": "Exercises",
-  "number": "10.7",
+  "number": "12.7",
   "title": "Exercises",
   "body": "   A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of LIBOR + 2%. Over the five years, the LIBOR was as reported in the table below.     Year  LIBOR    1  4.25%    2  5.00%    3  4.75%    4  4.15%    5  3.95%     Find the interest payment each year.      A borrower took out a loan for 2.5 million to be repaid by four years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of prime + 150 basis points. Over the five years, the prime rate was as reported as in the table below.     Year  Prime Rate    1  3.05%    2  3.15%    3  2.95%    4  3.20%     Find the interest payment each year.      Bye Felicia Inc. wants to borrow 12 million at a constant interest rate. Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate. In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract.  Identify the payer, receiver, and notional amount in this transaction.      Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today. Identify the swap term, the settlement dates, the settlement periods, and the swap tenor. Display each of these on a single timeline.      Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR. Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%. Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.      In each of the following, find the swap rate. The length of the yield curve you are given matches the swap tenor.    The yield curve is:     Term   Spot Rate     1  3.00%    2  4.50%    3  5.00%    4  5.25%       The yield curve is:     Term   Spot Rate     1  6.23%    2  5.09%    3  4.45%    4  4.29%    5  4.17%       The yield curve is:     Term   Spot Rate     1  1.95%    2  2.20%    3  3.00%       The yield curve is:     Term   Spot Rate     1  6.50%    2  5.95%    3  6.75%    4  7.00%         In each of the following, find the swap rate. The number of forward rates you are given matches the swap term.    The forward rates are:     Term   Forward Rate     1  5.80%    2  6.23%    3  6.55%    4  6.10%    5  6.00%       The forward rates are:     Term   Forward Rate     1  3.25%    2  3.10%    3  2.95%    4  3.10%       The forward rates are:     Term   Forward Rate     1  7.03%    2  7.79%    3  7.54%       The forward rates are:     Term   Forward Rate     1  4.50%    2  4.00%    3  3.75%    4  4.10%         Find the swap rates for the following accreting and amortizing swaps. Use the following yield curve:     Term   Spot Rate     1  5.25%    2  6.00%    3  6.50%    4  6.60%       The notional amount starts at 200 million and grows by 1.5% each year.    The notional amount starts at 15 million and declines by 2 million each year.    The notional amount starts at 30 million and grows by 5 million each year.    The notional amount starts at 90 million and declines by 2% each year.      A payer and receiver entered into a 5-year interest rate swap in year 0 with a notional amount of 1 million. At that time, the yield curve was:     Term   Spot Rate     1  5.00%    2  5.50%    3  6.25%    4  7.10%    5  6.90%     One year later, the yield curve flattens and the effective annual interest rate is 6% for the remaining 4 years of the swap. Find the market value for both the payer's interest and the receiver's interest.      A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was:     Term   Spot Rate     1  3.00%    2  2.80%    3  2.75%     One year later, the new yield curve for the following two years is: \\\\     Term   Spot Rate     1  2.75%    2  3.50%     Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.    "
 },
@@ -10760,7 +12542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-1",
   "type": "Exercise",
-  "number": "10.7.1",
+  "number": "12.7.1",
   "title": "",
   "body": "  A borrower took out a loan for 10 million to be repaid by five years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of LIBOR + 2%. Over the five years, the LIBOR was as reported in the table below.     Year  LIBOR    1  4.25%    2  5.00%    3  4.75%    4  4.15%    5  3.95%     Find the interest payment each year.   "
 },
@@ -10769,7 +12551,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-2",
   "type": "Exercise",
-  "number": "10.7.2",
+  "number": "12.7.2",
   "title": "",
   "body": "  A borrower took out a loan for 2.5 million to be repaid by four years of annual interest payments with the principal paid off with the final interest payment. The interest is paid at an annual rate of prime + 150 basis points. Over the five years, the prime rate was as reported as in the table below.     Year  Prime Rate    1  3.05%    2  3.15%    3  2.95%    4  3.20%     Find the interest payment each year.   "
 },
@@ -10778,7 +12560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-3",
   "type": "Exercise",
-  "number": "10.7.3",
+  "number": "12.7.3",
   "title": "",
   "body": "  Bye Felicia Inc. wants to borrow 12 million at a constant interest rate. Woman Yelling at Cat Bank will loan Bye Felicia 12 million, but at a variable rate. In order to make this work, Bye Felicia reaches out to Kermit Drinking Tea Corp., for whom this transaction may be none of their business, but decides to enter into an interest rate swap contract.  Identify the payer, receiver, and notional amount in this transaction.   "
 },
@@ -10787,7 +12569,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-4",
   "type": "Exercise",
-  "number": "10.7.4",
+  "number": "12.7.4",
   "title": "",
   "body": "  Bye Felicia Inc. and Kermit Drinking Tea Corp. enter into a 3-year interest rate swap with payments exchanged every 6 months, starting six months from today. Identify the swap term, the settlement dates, the settlement periods, and the swap tenor. Display each of these on a single timeline.   "
 },
@@ -10796,7 +12578,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-5",
   "type": "Exercise",
-  "number": "10.7.5",
+  "number": "12.7.5",
   "title": "",
   "body": "  Woman Yelling at Cat Bank loans Bye Felica Inc. 12 million with interest paid annually at LIBOR. Bye Felicia and Kermit revise their interest rate swap agreement to make annual payments, with a swap rate set at 6.9548%. Suppose the LIBOR in year 1 was 6.12%, in year 2 was 7.04%, and in year 3 was 5.95%.  Find the net payment between Felicia and Kermit each year, and indicate who made the payment to whom.   "
 },
@@ -10805,7 +12587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-6",
   "type": "Exercise",
-  "number": "10.7.6",
+  "number": "12.7.6",
   "title": "",
   "body": "  In each of the following, find the swap rate. The length of the yield curve you are given matches the swap tenor.    The yield curve is:     Term   Spot Rate     1  3.00%    2  4.50%    3  5.00%    4  5.25%       The yield curve is:     Term   Spot Rate     1  6.23%    2  5.09%    3  4.45%    4  4.29%    5  4.17%       The yield curve is:     Term   Spot Rate     1  1.95%    2  2.20%    3  3.00%       The yield curve is:     Term   Spot Rate     1  6.50%    2  5.95%    3  6.75%    4  7.00%      "
 },
@@ -10814,7 +12596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-7",
   "type": "Exercise",
-  "number": "10.7.7",
+  "number": "12.7.7",
   "title": "",
   "body": "  In each of the following, find the swap rate. The number of forward rates you are given matches the swap term.    The forward rates are:     Term   Forward Rate     1  5.80%    2  6.23%    3  6.55%    4  6.10%    5  6.00%       The forward rates are:     Term   Forward Rate     1  3.25%    2  3.10%    3  2.95%    4  3.10%       The forward rates are:     Term   Forward Rate     1  7.03%    2  7.79%    3  7.54%       The forward rates are:     Term   Forward Rate     1  4.50%    2  4.00%    3  3.75%    4  4.10%      "
 },
@@ -10823,7 +12605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-8",
   "type": "Exercise",
-  "number": "10.7.8",
+  "number": "12.7.8",
   "title": "",
   "body": "  Find the swap rates for the following accreting and amortizing swaps. Use the following yield curve:     Term   Spot Rate     1  5.25%    2  6.00%    3  6.50%    4  6.60%       The notional amount starts at 200 million and grows by 1.5% each year.    The notional amount starts at 15 million and declines by 2 million each year.    The notional amount starts at 30 million and grows by 5 million each year.    The notional amount starts at 90 million and declines by 2% each year.   "
 },
@@ -10832,7 +12614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-9",
   "type": "Exercise",
-  "number": "10.7.9",
+  "number": "12.7.9",
   "title": "",
   "body": "  A payer and receiver entered into a 5-year interest rate swap in year 0 with a notional amount of 1 million. At that time, the yield curve was:     Term   Spot Rate     1  5.00%    2  5.50%    3  6.25%    4  7.10%    5  6.90%     One year later, the yield curve flattens and the effective annual interest rate is 6% for the remaining 4 years of the swap. Find the market value for both the payer's interest and the receiver's interest.   "
 },
@@ -10841,7 +12623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-exercises.html#interest-rate-swaps-exercises-10",
   "type": "Exercise",
-  "number": "10.7.10",
+  "number": "12.7.10",
   "title": "",
   "body": "  A payer and receiver entered into a 3-year interest rate swap in year 0. At that time, the yield curve was:     Term   Spot Rate     1  3.00%    2  2.80%    3  2.75%     One year later, the new yield curve for the following two years is: \\\\     Term   Spot Rate     1  2.75%    2  3.50%     Find the market value (per million of notional value) for both the payer's interest and the receiver's interest.   "
 },
@@ -10850,7 +12632,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "interest-rate-swaps-problems.html",
   "type": "Exercises",
-  "number": "10.8",
+  "number": "12.8",
   "title": "Problems",
   "body": " Problems     On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the \"fixed leg\" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate. The notional balance is 35,000,000, the fixed rate is , and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4\/01\/1994, 4.875% for the period beginning 7\/01\/94, 5.688% for the period beginning 10\/01\/94, and 6.328% for the period beginning 1\/01\/95. Determine the amount and time of all payments.       On June 1, 1998 Confidence Life and Casualty (CLC) entered into an interest rate swap with Great Commercial Bank (GCB). The swap lasted five years, and had settlement dates at the end of each year. The notional amount was 50,000,000. CLC was assured interest calculated using the one-year LIBOR and was obligated to pay interest at an annual effective rate of 6%. If the five consecutive June 1 LIBOR rates used were 5.940%, 5.803%, 7.214%, 4.055%, and 2.251%, what was the June 1, 2003 total value, calculated using the compound interest accumulation function , of the netted payments that CLC received from the swap?       Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%.  ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate.  The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively.  ABC does not make or receive any other payments.  Calculate the net interest payment that ABC makes in the second year.       SOA Farms has a 500,000 loan from Bailey Bank. Under the terms of the loan, SOA will pay interest annually to Bailey Bank based on LIBOR plus 120 basis points. Additionally, SOA will pay the principal of 500,000 at the end of five years.  SOA would prefer to know the annual interest cost that will be incurred. To fix the interest rate on the loan, SOA enters into a five-year interest rate swap with a notional amount of 500,000 and annual settlement dates. The terms of the swap are that SOA will make swap payments based on a fixed rate of 5.35% and will receive swap payments based on a variable rate of LIBOR plus 50 basis points.  During the third year of the loan, LIBOR is 5.6%.  Calculate the net interest payment made by SOA at the end of the third year.       Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year.  You are given the following prices for a zero coupon bond that matures for 1 on the maturity date:     Maturity Date  Price    1 year  0.965    2 years  0.920    3 years  0.875    4 years  0.825    5 years  0.770     Determine the net swap payment at the end of the first year.       The term structure for (annual effective) interest rates is as follows for corresponding maturities:     Maturity  Effective Interest Rate    1-year  5%    2-year  10%    3-year  15%    4-year  20%     Find the level fixed swap rate for a 4-year interest rate swap of floating rate interest for fixed rate interest.       You are given the following spot rates:     Years to Maturity  1  2  3  4  5    Spot Rate  4.00%  4.50%  5.25%  6.25%  7.50%     You enter into a 5-year interest rate swap (with notional amount 100,000) to pay a fixed rate and to receive a floating rate based on future 1-year LIBOR rates. If the swap has annual payments, what is the fixed rate you should pay?       You are given the spot rates for a LIBOR yield curve.     Years to Maturity  1  2  3  4    Spot Rate  2.75%  3.00%  3.40%  4.00%     A four year annual interest rate swap with a notional amount of 1,000,000 will enable you to pay a fixed rate and receive 1-year LIBOR. What is the fixed rate?       The yield curve spot rates for three years are given by:   Find the swap rate for a 3-year fixed interest rate swap.       The current spot interest rate curve is as follows:                   .25  .50%  .75  .40%    0.50  1.65%  2.00  2.48%    0.75  1.79%  2.25  2.80%    1.00  1.92%  2.50  3.10%    1.25  2.10%  2.75  3.35%    1.50  2.25%  3.00  2.50%     Rafael has a one-year loan for 1,000,000 with principal paid at the of the one-year period. The loan has a variable interest rate that resets at the beginning of each three month period. The interest rate will be the spot interest rate at the beginning of each three month period.  Rafael enters into an interest rate swap where he is the payer with the characteristics of the swap exactly matching the loan.  Determine the quarterly swap rate that Rafael will pay. Express your answer in basis points.       Suppose the current term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. Find the swap rate for a one-year deferred, two-year swap.       The table below shows the spot rates for the given lengths of time.     Number of Years  1  2  3  4  5  6    Effective Annual Spot Rate  2.5%  3.1%  3.4%  3.6%  4.0%  4.2%     Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.       You are given the following spot interest rates:     Time ( )  Spot Rate ( )    1  4.3%    2  4.6%    3  5.1%    4  5.4%    5  5.6%     Tommy purchases a deferred interest rate swap with a term of five years. Under the swap, there is no swapping of interest rates during the first two years. During the last three years, the settlement period will be one year. Under this swap, Tommy will be the payer. The variable interest rate will be based on the one year spot rate at the start of each settlement period.  The notional amount of this swap is 500,000.  Calculate the swap rate for this swap.       Katarina has borrowed 300,000 from Trout Bank. Katarina will repay 100,000 of principal at the end of each of the first three years.  Katarina will pay Trout Bank a variable interest rate equal to the one year spot interest rate at the beginning of each year.  Katarina would like to have a fixed interest rate so she enters into an interest rate swap with Lily. Under the interest rate swap, Katarina will pay a fixed rate to Lily, and Lily will pay a variable rate to Katarina. The variable rate will be the same rate that Katarina is paying to Trout Bank. The other terms of the swap will mirror the loan that Katarina has.  Which of the following statements is true:    This is an accreting swap.    The settlement period for the swap is three years.    The notional amount for this swap is 300,000.    Katarina and Trout Bank are counterparties to the swap.    Lily is the receiver under the swap.         In the scenario in , you are given the following spot interest rates:     Time ( )  Spot Rate ( )    1  4.3%    2  4.6%    3  5.1%    4  5.4%    5  5.6%     Calculate the swap interest rate for Katarina's swap.       Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015.  Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date.  On May 5, 2017, the spot interest rate curve was as follows:     Time ( )  Spot Rate ( )    1  3.8%    2  4.1%    3  4.3%    4  4.5%    5  4.7%     Miaoqi decides that she wants to sell the swap on May 5, 2017.  Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.       Suppose at time 0, the term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. A borrower has a three-year, interest-only loan of amount 1,000,000 with floating interest payments to be paid at the end of each year. The borrower arranges a swap allowing the borrower to pay fixed interest at the appropriate swap rate. One year later, the term structure has a one-year effective interest rate of 9% and annual effective rate of 9.5% for two-year maturities. Determine the value of the swap at the end of the first year to the borrower.      The one-year spot rate is 3.10% and the two-year spot rate is 4.59%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%. Find the three-year spot rate.      The one-year spot rate is 1.08% and the three-year spot rate is 2.96%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 2.925%. Find the two-year spot rate.      We have the following information about the term structure:   Find the swap rate for a 3-year interest rate swap with a constant notional amount.       An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate .       A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045.  What is the swap rate for a two-year interest rate swap?      Suppose we have the following yield curve:     Time ( )  Spot Rate ( )    1  6.0000%    2  6.5000%    3       4       5  8.0000%     Assume constant notional amounts for interest rate swaps. The three-year swap rate is 6.8147% and the five-year swap rate is 7.8400%. Find the four-year swap rate.    "
 },
@@ -10859,7 +12641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-2",
   "type": "Exercise",
-  "number": "10.8.1",
+  "number": "12.8.1",
   "title": "",
   "body": "   On April 1, 1994, Great Savings Bank had issued many fixed-rate CDs, and had loaned out much of the money it obtained from these at variable rates. The board of directors is concerned that the Bank faces too much interest-rate risk and decides to take the \"fixed leg\" in a fixed-for-floating interest rate swap -- that is, lock in a fixed rate. The notional balance is 35,000,000, the fixed rate is , and the floating rate is the three-month LIBOR. The swap is for one year and the LIBOR rates, given as nominal annual rates, turn out to be 4.250% for the period beginning 4\/01\/1994, 4.875% for the period beginning 7\/01\/94, 5.688% for the period beginning 10\/01\/94, and 6.328% for the period beginning 1\/01\/95. Determine the amount and time of all payments.   "
 },
@@ -10868,7 +12650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-3",
   "type": "Exercise",
-  "number": "10.8.2",
+  "number": "12.8.2",
   "title": "",
   "body": "   On June 1, 1998 Confidence Life and Casualty (CLC) entered into an interest rate swap with Great Commercial Bank (GCB). The swap lasted five years, and had settlement dates at the end of each year. The notional amount was 50,000,000. CLC was assured interest calculated using the one-year LIBOR and was obligated to pay interest at an annual effective rate of 6%. If the five consecutive June 1 LIBOR rates used were 5.940%, 5.803%, 7.214%, 4.055%, and 2.251%, what was the June 1, 2003 total value, calculated using the compound interest accumulation function , of the netted payments that CLC received from the swap?   "
 },
@@ -10877,7 +12659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-4",
   "type": "Exercise",
-  "number": "10.8.3",
+  "number": "12.8.3",
   "title": "",
   "body": "   Company ABC has an existing debt of 2,000,000 on which it makes annual payments at an annual effective rate of LIBOR plus 0.5%.  ABC decides to enter into a swap with a notional amount of 2,000,000 on which it makes annual payments at a fixed annual effective rate of 3% in exchange for receiving annual payments at the annual effective LIBOR rate.  The annual effective LIBOR rates over the first and second years of the swap contract are 2.5% and 4.0% respectively.  ABC does not make or receive any other payments.  Calculate the net interest payment that ABC makes in the second year.   "
 },
@@ -10886,7 +12668,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-5",
   "type": "Exercise",
-  "number": "10.8.4",
+  "number": "12.8.4",
   "title": "",
   "body": "   SOA Farms has a 500,000 loan from Bailey Bank. Under the terms of the loan, SOA will pay interest annually to Bailey Bank based on LIBOR plus 120 basis points. Additionally, SOA will pay the principal of 500,000 at the end of five years.  SOA would prefer to know the annual interest cost that will be incurred. To fix the interest rate on the loan, SOA enters into a five-year interest rate swap with a notional amount of 500,000 and annual settlement dates. The terms of the swap are that SOA will make swap payments based on a fixed rate of 5.35% and will receive swap payments based on a variable rate of LIBOR plus 50 basis points.  During the third year of the loan, LIBOR is 5.6%.  Calculate the net interest payment made by SOA at the end of the third year.   "
 },
@@ -10895,7 +12677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-6",
   "type": "Exercise",
-  "number": "10.8.5",
+  "number": "12.8.5",
   "title": "",
   "body": "   Josh and Phillip enter into a four year swap with a notional amount of 200,000. The swap has annual settlement periods. Under the swap, Josh will pay Phillip the fixed swap rate at the end of each year while Phillip will pay Josh the variable rate where the variable rate is the one year spot rate at the beginning of each year.  You are given the following prices for a zero coupon bond that matures for 1 on the maturity date:     Maturity Date  Price    1 year  0.965    2 years  0.920    3 years  0.875    4 years  0.825    5 years  0.770     Determine the net swap payment at the end of the first year.   "
 },
@@ -10904,7 +12686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-7",
   "type": "Exercise",
-  "number": "10.8.6",
+  "number": "12.8.6",
   "title": "",
   "body": "   The term structure for (annual effective) interest rates is as follows for corresponding maturities:     Maturity  Effective Interest Rate    1-year  5%    2-year  10%    3-year  15%    4-year  20%     Find the level fixed swap rate for a 4-year interest rate swap of floating rate interest for fixed rate interest.   "
 },
@@ -10913,7 +12695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-8",
   "type": "Exercise",
-  "number": "10.8.7",
+  "number": "12.8.7",
   "title": "",
   "body": "   You are given the following spot rates:     Years to Maturity  1  2  3  4  5    Spot Rate  4.00%  4.50%  5.25%  6.25%  7.50%     You enter into a 5-year interest rate swap (with notional amount 100,000) to pay a fixed rate and to receive a floating rate based on future 1-year LIBOR rates. If the swap has annual payments, what is the fixed rate you should pay?   "
 },
@@ -10922,7 +12704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-9",
   "type": "Exercise",
-  "number": "10.8.8",
+  "number": "12.8.8",
   "title": "",
   "body": "   You are given the spot rates for a LIBOR yield curve.     Years to Maturity  1  2  3  4    Spot Rate  2.75%  3.00%  3.40%  4.00%     A four year annual interest rate swap with a notional amount of 1,000,000 will enable you to pay a fixed rate and receive 1-year LIBOR. What is the fixed rate?   "
 },
@@ -10931,7 +12713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-10",
   "type": "Exercise",
-  "number": "10.8.9",
+  "number": "12.8.9",
   "title": "",
   "body": "   The yield curve spot rates for three years are given by:   Find the swap rate for a 3-year fixed interest rate swap.   "
 },
@@ -10940,7 +12722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-11",
   "type": "Exercise",
-  "number": "10.8.10",
+  "number": "12.8.10",
   "title": "",
   "body": "   The current spot interest rate curve is as follows:                   .25  .50%  .75  .40%    0.50  1.65%  2.00  2.48%    0.75  1.79%  2.25  2.80%    1.00  1.92%  2.50  3.10%    1.25  2.10%  2.75  3.35%    1.50  2.25%  3.00  2.50%     Rafael has a one-year loan for 1,000,000 with principal paid at the of the one-year period. The loan has a variable interest rate that resets at the beginning of each three month period. The interest rate will be the spot interest rate at the beginning of each three month period.  Rafael enters into an interest rate swap where he is the payer with the characteristics of the swap exactly matching the loan.  Determine the quarterly swap rate that Rafael will pay. Express your answer in basis points.   "
 },
@@ -10949,7 +12731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-12",
   "type": "Exercise",
-  "number": "10.8.11",
+  "number": "12.8.11",
   "title": "",
   "body": "   Suppose the current term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. Find the swap rate for a one-year deferred, two-year swap.   "
 },
@@ -10958,7 +12740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-13",
   "type": "Exercise",
-  "number": "10.8.12",
+  "number": "12.8.12",
   "title": "",
   "body": "   The table below shows the spot rates for the given lengths of time.     Number of Years  1  2  3  4  5  6    Effective Annual Spot Rate  2.5%  3.1%  3.4%  3.6%  4.0%  4.2%     Calculate the swap rate for a two-year deferred, three-year interest rate swap with settlement at the end of the year.   "
 },
@@ -10967,7 +12749,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-14",
   "type": "Exercise",
-  "number": "10.8.13",
+  "number": "12.8.13",
   "title": "",
   "body": "   You are given the following spot interest rates:     Time ( )  Spot Rate ( )    1  4.3%    2  4.6%    3  5.1%    4  5.4%    5  5.6%     Tommy purchases a deferred interest rate swap with a term of five years. Under the swap, there is no swapping of interest rates during the first two years. During the last three years, the settlement period will be one year. Under this swap, Tommy will be the payer. The variable interest rate will be based on the one year spot rate at the start of each settlement period.  The notional amount of this swap is 500,000.  Calculate the swap rate for this swap.   "
 },
@@ -10976,7 +12758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#problem-katarina",
   "type": "Exercise",
-  "number": "10.8.14",
+  "number": "12.8.14",
   "title": "",
   "body": "   Katarina has borrowed 300,000 from Trout Bank. Katarina will repay 100,000 of principal at the end of each of the first three years.  Katarina will pay Trout Bank a variable interest rate equal to the one year spot interest rate at the beginning of each year.  Katarina would like to have a fixed interest rate so she enters into an interest rate swap with Lily. Under the interest rate swap, Katarina will pay a fixed rate to Lily, and Lily will pay a variable rate to Katarina. The variable rate will be the same rate that Katarina is paying to Trout Bank. The other terms of the swap will mirror the loan that Katarina has.  Which of the following statements is true:    This is an accreting swap.    The settlement period for the swap is three years.    The notional amount for this swap is 300,000.    Katarina and Trout Bank are counterparties to the swap.    Lily is the receiver under the swap.     "
 },
@@ -10985,7 +12767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-16",
   "type": "Exercise",
-  "number": "10.8.15",
+  "number": "12.8.15",
   "title": "",
   "body": "   In the scenario in , you are given the following spot interest rates:     Time ( )  Spot Rate ( )    1  4.3%    2  4.6%    3  5.1%    4  5.4%    5  5.6%     Calculate the swap interest rate for Katarina's swap.   "
 },
@@ -10994,7 +12776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-17",
   "type": "Exercise",
-  "number": "10.8.16",
+  "number": "12.8.16",
   "title": "",
   "body": "   Miaoqi and Nui entered into a four year interest rate swap on May 5, 2015. The notional amount of the swap has a level 250,000 for all four years. The swap has annual settlement periods with the first period starting on May 5, 2015.  Under the swap, Miaoqi agreed to pay a variable rate based on the one year spot rate at the beginning of each settlement period. Nui will pay Miaoqi the fixed rate of 4% on each settlement date.  On May 5, 2017, the spot interest rate curve was as follows:     Time ( )  Spot Rate ( )    1  3.8%    2  4.1%    3  4.3%    4  4.5%    5  4.7%     Miaoqi decides that she wants to sell the swap on May 5, 2017.  Calculate the market value of the swap on May 5, 2017, from Miaoqi's position in the swap.   "
 },
@@ -11003,7 +12785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-18",
   "type": "Exercise",
-  "number": "10.8.17",
+  "number": "12.8.17",
   "title": "",
   "body": "   Suppose at time 0, the term structure has effective annual zero coupon bond yields for one, two, and three years of 8%, 9%, and 9.5% respectively. A borrower has a three-year, interest-only loan of amount 1,000,000 with floating interest payments to be paid at the end of each year. The borrower arranges a swap allowing the borrower to pay fixed interest at the appropriate swap rate. One year later, the term structure has a one-year effective interest rate of 9% and annual effective rate of 9.5% for two-year maturities. Determine the value of the swap at the end of the first year to the borrower.   "
 },
@@ -11012,7 +12794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-19",
   "type": "Exercise",
-  "number": "10.8.18",
+  "number": "12.8.18",
   "title": "",
   "body": "  The one-year spot rate is 3.10% and the two-year spot rate is 4.59%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 5.17%. Find the three-year spot rate.   "
 },
@@ -11021,7 +12803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-20",
   "type": "Exercise",
-  "number": "10.8.19",
+  "number": "12.8.19",
   "title": "",
   "body": "  The one-year spot rate is 1.08% and the three-year spot rate is 2.96%. Assuming a constant notional amount, the swap rate for a 3-year interest rate swap is 2.925%. Find the two-year spot rate.   "
 },
@@ -11030,7 +12812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-21",
   "type": "Exercise",
-  "number": "10.8.20",
+  "number": "12.8.20",
   "title": "",
   "body": "  We have the following information about the term structure:   Find the swap rate for a 3-year interest rate swap with a constant notional amount.   "
 },
@@ -11039,7 +12821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-22",
   "type": "Exercise",
-  "number": "10.8.21",
+  "number": "12.8.21",
   "title": "",
   "body": "   An interest rate swap is set up for the next two years with swap rate 6.48%. The one-year spot rate is 6%. Find the second year forward rate .   "
 },
@@ -11048,7 +12830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-23",
   "type": "Exercise",
-  "number": "10.8.22",
+  "number": "12.8.22",
   "title": "",
   "body": "   A two-year bond with level annual coupon of 4.2 and maturity value of 100 has price 101.291. The one-year spot rate is 0.045.  What is the swap rate for a two-year interest rate swap?   "
 },
@@ -11057,1791 +12839,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "interest-rate-swaps-problems.html#interest-rate-swaps-problems-24",
   "type": "Exercise",
-  "number": "10.8.23",
+  "number": "12.8.23",
   "title": "",
   "body": "  Suppose we have the following yield curve:     Time ( )  Spot Rate ( )    1  6.0000%    2  6.5000%    3       4       5  8.0000%     Assume constant notional amounts for interest rate swaps. The three-year swap rate is 6.8147% and the five-year swap rate is 7.8400%. Find the four-year swap rate.   "
-},
-{
-  "id": "interest-rate-risk",
-  "level": "1",
-  "url": "interest-rate-risk.html",
-  "type": "Section",
-  "number": "11.1",
-  "title": "Interest Rate Risk",
-  "body": " Interest Rate Risk  As we have seen, the present value of cash flows can change when the interest rate changes. There is the opportunity that the value will increase, and the risk that the value will decrease. In this introductory activity, we will focus on bonds.    What happens to the price of a bond when the yield rate increases? What happens when the yield rate decreases?      Consider a ten-year zero-coupon bond with face value of 1000. It was purchased to yield 1%. Three years later, interest rates rose to 10%. What happened to the value of the bond? How was the bondholder effected by the rise in interest rates? Explain specifically.      Suppose you have a coupon bond with face value of 10,000 and 4% semiannual coupon bonds for 5 years. It was purchased to yield 3%.    One year after purchase, the yield rates have risen to 5%. Find the book and the market value of the bond, and express the difference as either a gain or a loss to the bondholder.    Suppose instead that one year after the purchase, yield rates have fallen to 2%. Find the book and the market value of the bond, and express the difference as either a gain or loss to the bondholder.     Riding the yield curve is an expression to mean purchasing a bond and waiting for the change in the yield curve over time to produce a profitable environment to sell the bond.    Suppose a three-year bond has 6% annual coupons on 1000 of face value, with a redemption amount of 1200. At the time the bond is issued, the yield curve was:             1  5.350%    2  6.025%    3  6.700%       Find the purchase price when the bond is issued.    Suppose after 1 year, the yield curve is and (pay close attention to the notation -- we are sitting at time 1 right now). Find both the book and market values of the bond.    Suppose 1 year later, the yield curve includes . Find both the book and market values of the bond.    What happened to the investment? Was there a time when the bondholder could have profitably sold the bond? If so, what was the best time?      Describe the risk investors face concerning interest rates.    "
-},
-{
-  "id": "price-changes-with-yield-rate-changes",
-  "level": "2",
-  "url": "interest-rate-risk.html#price-changes-with-yield-rate-changes",
-  "type": "Activity",
-  "number": "11.1.1",
-  "title": "",
-  "body": "  What happens to the price of a bond when the yield rate increases? What happens when the yield rate decreases?   "
-},
-{
-  "id": "calculating-effect-of-interest-rate-changes",
-  "level": "2",
-  "url": "interest-rate-risk.html#calculating-effect-of-interest-rate-changes",
-  "type": "Activity",
-  "number": "11.1.2",
-  "title": "",
-  "body": "  Consider a ten-year zero-coupon bond with face value of 1000. It was purchased to yield 1%. Three years later, interest rates rose to 10%. What happened to the value of the bond? How was the bondholder effected by the rise in interest rates? Explain specifically.   "
-},
-{
-  "id": "finding-value-when-yield-rates-change",
-  "level": "2",
-  "url": "interest-rate-risk.html#finding-value-when-yield-rates-change",
-  "type": "Activity",
-  "number": "11.1.3",
-  "title": "",
-  "body": "  Suppose you have a coupon bond with face value of 10,000 and 4% semiannual coupon bonds for 5 years. It was purchased to yield 3%.    One year after purchase, the yield rates have risen to 5%. Find the book and the market value of the bond, and express the difference as either a gain or a loss to the bondholder.    Suppose instead that one year after the purchase, yield rates have fallen to 2%. Find the book and the market value of the bond, and express the difference as either a gain or loss to the bondholder.   "
-},
-{
-  "id": "interest-rate-risk-6",
-  "level": "2",
-  "url": "interest-rate-risk.html#interest-rate-risk-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Riding the yield curve "
-},
-{
-  "id": "riding-the-yield-curve",
-  "level": "2",
-  "url": "interest-rate-risk.html#riding-the-yield-curve",
-  "type": "Activity",
-  "number": "11.1.4",
-  "title": "",
-  "body": "  Suppose a three-year bond has 6% annual coupons on 1000 of face value, with a redemption amount of 1200. At the time the bond is issued, the yield curve was:             1  5.350%    2  6.025%    3  6.700%       Find the purchase price when the bond is issued.    Suppose after 1 year, the yield curve is and (pay close attention to the notation -- we are sitting at time 1 right now). Find both the book and market values of the bond.    Suppose 1 year later, the yield curve includes . Find both the book and market values of the bond.    What happened to the investment? Was there a time when the bondholder could have profitably sold the bond? If so, what was the best time?   "
-},
-{
-  "id": "interest-rate-risk-reflection",
-  "level": "2",
-  "url": "interest-rate-risk.html#interest-rate-risk-reflection",
-  "type": "Activity",
-  "number": "11.1.5",
-  "title": "",
-  "body": "  Describe the risk investors face concerning interest rates.   "
-},
-{
-  "id": "review-weighted-averages",
-  "level": "1",
-  "url": "review-weighted-averages.html",
-  "type": "Section",
-  "number": "11.2",
-  "title": "Review -- Weighted Averages",
-  "body": " Review -- Weighted Averages  Weighted averages are common in finance as well as actuarial science. Our first version of duration, a measurement of interest rate risk, will be a weighted average. You will see many more.    Cobra Kai Dojos Inc. has issued the following quarterly dividends per share over the past two and a half years:     Quarter  1  2  3  4  5  6  7  8  9  10    Dividends  2.50  2.50  2.50  2.50  3.50  2.50  2.50  3.50  2.50  2.50     Find a shortcut to calculate the average quarterly dividend per share.      For a set of values , , the weighted average of the values with weights is: where .  If you calculate the average quarterly dividend per share of Cobra Kai using a weighted average, what were the weights and what did they represent?      Danny LaRusso has a portfolio with three investments. The investment values and most recently quarterly gain\/loss are:    Investment A: Value is 15,000, quarterly loss of 150    Investment B: Value is 22,500, quarterly gain of 275    Investment C: Value is 12,500, quarterly gain of 450    Find the average gain\/loss, weighted by value relative to the portfolio.      The cost of capital is the return an investor demands in order to invest. For equity investors, the equity cost of capital is denoted while for debt, the debt cost of capital (think of as the interest rate demanded) is denoted .  If a firm has equity and debt , the total value of the firm is and the weighted average cost of capital is:   Note that the value of is the total value of the firm's assets according to the fundamental accounting equation.    Describe the weights in .    Miyagi Do Karate has debt of and equity of . They face a debt cost of capital of and an equity cost of capital of . Find the weighted-average cost of capital.      When will a weighted average have the same value as an ordinary average?    "
-},
-{
-  "id": "weighted-averages-as-shortcuts",
-  "level": "2",
-  "url": "review-weighted-averages.html#weighted-averages-as-shortcuts",
-  "type": "Activity",
-  "number": "11.2.1",
-  "title": "",
-  "body": "  Cobra Kai Dojos Inc. has issued the following quarterly dividends per share over the past two and a half years:     Quarter  1  2  3  4  5  6  7  8  9  10    Dividends  2.50  2.50  2.50  2.50  3.50  2.50  2.50  3.50  2.50  2.50     Find a shortcut to calculate the average quarterly dividend per share.   "
-},
-{
-  "id": "defining-weighted-average",
-  "level": "2",
-  "url": "review-weighted-averages.html#defining-weighted-average",
-  "type": "Activity",
-  "number": "11.2.2",
-  "title": "",
-  "body": "  For a set of values , , the weighted average of the values with weights is: where .  If you calculate the average quarterly dividend per share of Cobra Kai using a weighted average, what were the weights and what did they represent?   "
-},
-{
-  "id": "weighted-gains",
-  "level": "2",
-  "url": "review-weighted-averages.html#weighted-gains",
-  "type": "Activity",
-  "number": "11.2.3",
-  "title": "",
-  "body": "  Danny LaRusso has a portfolio with three investments. The investment values and most recently quarterly gain\/loss are:    Investment A: Value is 15,000, quarterly loss of 150    Investment B: Value is 22,500, quarterly gain of 275    Investment C: Value is 12,500, quarterly gain of 450    Find the average gain\/loss, weighted by value relative to the portfolio.   "
-},
-{
-  "id": "weighted-average-of-cost-of-capital",
-  "level": "2",
-  "url": "review-weighted-averages.html#weighted-average-of-cost-of-capital",
-  "type": "Activity",
-  "number": "11.2.4",
-  "title": "",
-  "body": "  The cost of capital is the return an investor demands in order to invest. For equity investors, the equity cost of capital is denoted while for debt, the debt cost of capital (think of as the interest rate demanded) is denoted .  If a firm has equity and debt , the total value of the firm is and the weighted average cost of capital is:   Note that the value of is the total value of the firm's assets according to the fundamental accounting equation.    Describe the weights in .    Miyagi Do Karate has debt of and equity of . They face a debt cost of capital of and an equity cost of capital of . Find the weighted-average cost of capital.   "
-},
-{
-  "id": "weighted-average-reflection",
-  "level": "2",
-  "url": "review-weighted-averages.html#weighted-average-reflection",
-  "type": "Activity",
-  "number": "11.2.5",
-  "title": "",
-  "body": "  When will a weighted average have the same value as an ordinary average?   "
-},
-{
-  "id": "macaulay-duration",
-  "level": "1",
-  "url": "macaulay-duration.html",
-  "type": "Section",
-  "number": "11.3",
-  "title": "Macaulay Duration",
-  "body": " Macaulay Duration  Frederick Macaulay, an economist, published in 1938 an extensive study of interest rate behavior going back to 1865. In his book, Some Theoretical Problems Suggested by the Movement of Interest Rates , Macaulay introduced a measurement of interest rate risk that has since become known as Macaulay duration (or just duration ). While there is some variation in the notation, we will denote Macaulay duration by .    This example is due to Broverman. Consider a 10-year loan of 100 with an effective annual interest rate of 10%. Compare the following two payback schedules:    Schedule 1: Pay the entire balance with interest ( ) at the end of the 10-year term.    Schedule 2: Pay back the principal of 100 at the end of the first year, and pay all of the accumulated interest at the end of the 10-year term (which, in this case, amounts to 23.60).      Which one of these is \"longer\"? If we think about the payments as weights at their relative points on the timeline, which would have a later \"center of gravity\"? Explain.    Which one of these schedules would subject the lender to greater interest rate risk? Why?    The Macaulay duration is going to be a weighted average. What do you think we are going to average? What do you think the weights might be?    Suppose we have a set of cash flows at times . The Macaulay duration is the weighted average of the times . The weight for is the present value of cash flow , relative to the present value of the entire cash flow stream.    For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select one of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.      Let's define by a formula. Assume we have times with cash flows taking place at time .    Since is a weighted average, first we find the formula for each weight. The weight is the ratio of the present value of cash flow to the present value of the full cash flow stream. Find a formula for .    Show that .    Since , we can write down an explicit formula for . Write that formula down.      Find the Macaulay duration of the following cash flows.    A project with anticipated cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The cash flows are valued at an effective annual interest rate of 2.5%.    A zero-coupon annuity paying 10,000 at time 30, priced to yield 6%.    A three-year level payment annuity, with annual payments of 500, valued at an interest rate of 4%.    A three year coupon bond, with annual coupons of 500 and a redemption amount of 10,000, priced to yield 5%.      Suppose we have cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The stream is to be valued using the following yield curve:     Time   1  2  3    Spot Rate   3.00%  4.25%  5.00%       Adapt our approach to calculating the Macaulay duration to find in this case.    Describe your adaption (you can describe this in words, write a formula, or find another way to describe this).      Why is this measure of interest rate risk called duration ?    "
-},
-{
-  "id": "macaulay-duration-2",
-  "level": "2",
-  "url": "macaulay-duration.html#macaulay-duration-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Macaulay duration duration "
-},
-{
-  "id": "motivation-for-macaulay-duration",
-  "level": "2",
-  "url": "macaulay-duration.html#motivation-for-macaulay-duration",
-  "type": "Activity",
-  "number": "11.3.1",
-  "title": "",
-  "body": "  This example is due to Broverman. Consider a 10-year loan of 100 with an effective annual interest rate of 10%. Compare the following two payback schedules:    Schedule 1: Pay the entire balance with interest ( ) at the end of the 10-year term.    Schedule 2: Pay back the principal of 100 at the end of the first year, and pay all of the accumulated interest at the end of the 10-year term (which, in this case, amounts to 23.60).      Which one of these is \"longer\"? If we think about the payments as weights at their relative points on the timeline, which would have a later \"center of gravity\"? Explain.    Which one of these schedules would subject the lender to greater interest rate risk? Why?    The Macaulay duration is going to be a weighted average. What do you think we are going to average? What do you think the weights might be?   "
-},
-{
-  "id": "macaulay-duration-4",
-  "level": "2",
-  "url": "macaulay-duration.html#macaulay-duration-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Macaulay duration "
-},
-{
-  "id": "estimating-macaulay-duration",
-  "level": "2",
-  "url": "macaulay-duration.html#estimating-macaulay-duration",
-  "type": "Activity",
-  "number": "11.3.2",
-  "title": "",
-  "body": "  For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select one of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.   "
-},
-{
-  "id": "formula-for-macaulay-duration",
-  "level": "2",
-  "url": "macaulay-duration.html#formula-for-macaulay-duration",
-  "type": "Activity",
-  "number": "11.3.3",
-  "title": "",
-  "body": "  Let's define by a formula. Assume we have times with cash flows taking place at time .    Since is a weighted average, first we find the formula for each weight. The weight is the ratio of the present value of cash flow to the present value of the full cash flow stream. Find a formula for .    Show that .    Since , we can write down an explicit formula for . Write that formula down.   "
-},
-{
-  "id": "calculating-macaulay-duration",
-  "level": "2",
-  "url": "macaulay-duration.html#calculating-macaulay-duration",
-  "type": "Activity",
-  "number": "11.3.4",
-  "title": "",
-  "body": "  Find the Macaulay duration of the following cash flows.    A project with anticipated cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The cash flows are valued at an effective annual interest rate of 2.5%.    A zero-coupon annuity paying 10,000 at time 30, priced to yield 6%.    A three-year level payment annuity, with annual payments of 500, valued at an interest rate of 4%.    A three year coupon bond, with annual coupons of 500 and a redemption amount of 10,000, priced to yield 5%.   "
-},
-{
-  "id": "calculating-macaulay-duration-from-a-yield-curve",
-  "level": "2",
-  "url": "macaulay-duration.html#calculating-macaulay-duration-from-a-yield-curve",
-  "type": "Activity",
-  "number": "11.3.5",
-  "title": "",
-  "body": "  Suppose we have cash flows of 1000 at time 1, 2000 at time 2, and 3000 at time 3, with no further cash flows. The stream is to be valued using the following yield curve:     Time   1  2  3    Spot Rate   3.00%  4.25%  5.00%       Adapt our approach to calculating the Macaulay duration to find in this case.    Describe your adaption (you can describe this in words, write a formula, or find another way to describe this).   "
-},
-{
-  "id": "macaulay-duration-reflection",
-  "level": "2",
-  "url": "macaulay-duration.html#macaulay-duration-reflection",
-  "type": "Activity",
-  "number": "11.3.6",
-  "title": "",
-  "body": "  Why is this measure of interest rate risk called duration ?   "
-},
-{
-  "id": "review-increasing-and-decreasing-annuities",
-  "level": "1",
-  "url": "review-increasing-and-decreasing-annuities.html",
-  "type": "Section",
-  "number": "11.4",
-  "title": "Review -- Increasing and Decreasing Annuities",
-  "body": " Review -- Increasing and Decreasing Annuities  For certain types of cash flows, there are shortcuts for calculating Macaulay duration. These may involve increasing or decreasing annuities. You might have noticed this in the last activity.  In this activity, we will review increasing and decreasing annuities by reviewing both their series and their formulaic representations. We will keep our attention on annuities immediate.    For each of the following, (i) generate a timeline, (ii) write the series representation, and (iii) the formula.                                         Using , calculate the following:       Using , calculate the following:       A little later, we will meet something called modified duration. This will require us to use what I call the \"calculus of actuarial symbols\" which we will verify now. For some of these, it will be easier to use the series representation, but not necessarily for all of them!    Verify that:     Verify that:     Verify that:     Verify that:       Look back at the calculus of actuarial symbols.    Which did you use series for? Which did you use explicit formulas for? Why?    Some of our results are negative and some are positive. From a financial perspective, why do the signs we found make sense?    "
-},
-{
-  "id": "reviewing-formulas-for-increasing-and-decreasing-annuities",
-  "level": "2",
-  "url": "review-increasing-and-decreasing-annuities.html#reviewing-formulas-for-increasing-and-decreasing-annuities",
-  "type": "Activity",
-  "number": "11.4.1",
-  "title": "",
-  "body": "  For each of the following, (i) generate a timeline, (ii) write the series representation, and (iii) the formula.                                      "
-},
-{
-  "id": "using-formulas-for-increasing-and-decreasing-annuities-1",
-  "level": "2",
-  "url": "review-increasing-and-decreasing-annuities.html#using-formulas-for-increasing-and-decreasing-annuities-1",
-  "type": "Activity",
-  "number": "11.4.2",
-  "title": "",
-  "body": "  Using , calculate the following:    "
-},
-{
-  "id": "using-formulas-for-increasing-and-decreasing-annuities-2",
-  "level": "2",
-  "url": "review-increasing-and-decreasing-annuities.html#using-formulas-for-increasing-and-decreasing-annuities-2",
-  "type": "Activity",
-  "number": "11.4.3",
-  "title": "",
-  "body": "  Using , calculate the following:    "
-},
-{
-  "id": "calculus-of-actuarial-symbols",
-  "level": "2",
-  "url": "review-increasing-and-decreasing-annuities.html#calculus-of-actuarial-symbols",
-  "type": "Activity",
-  "number": "11.4.4",
-  "title": "",
-  "body": "  A little later, we will meet something called modified duration. This will require us to use what I call the \"calculus of actuarial symbols\" which we will verify now. For some of these, it will be easier to use the series representation, but not necessarily for all of them!    Verify that:     Verify that:     Verify that:     Verify that:    "
-},
-{
-  "id": "calculus-of-actuarial-symbols-reflection",
-  "level": "2",
-  "url": "review-increasing-and-decreasing-annuities.html#calculus-of-actuarial-symbols-reflection",
-  "type": "Activity",
-  "number": "11.4.5",
-  "title": "",
-  "body": "  Look back at the calculus of actuarial symbols.    Which did you use series for? Which did you use explicit formulas for? Why?    Some of our results are negative and some are positive. From a financial perspective, why do the signs we found make sense?   "
-},
-{
-  "id": "macaulay-duration-shortcuts",
-  "level": "1",
-  "url": "macaulay-duration-shortcuts.html",
-  "type": "Section",
-  "number": "11.5",
-  "title": "Macaulay Duration Shortcuts",
-  "body": " Macaulay Duration Shortcuts  For zero-coupon bonds, level-payment annuities, and coupon bonds, there are shortcuts for calculating the Macaulay duration.    Find the Macaulay duration of an -year zero-coupon bond with maturity , priced to yield . Explain why your result makes conceptual sense.      Show that the Macaulay duration of a level-payment annuity with payments is:       Consider a coupon bond with face value , effective coupon rate , a term of coupons, a redemption amount , and price . Show that the duration is:       Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .      Are the shortcuts worth memorizing? Why or why not?    "
-},
-{
-  "id": "macaulay-duration-zero-coupon-bond",
-  "level": "2",
-  "url": "macaulay-duration-shortcuts.html#macaulay-duration-zero-coupon-bond",
-  "type": "Activity",
-  "number": "11.5.1",
-  "title": "",
-  "body": "  Find the Macaulay duration of an -year zero-coupon bond with maturity , priced to yield . Explain why your result makes conceptual sense.   "
-},
-{
-  "id": "macaulay-duration-level-payment-annuity",
-  "level": "2",
-  "url": "macaulay-duration-shortcuts.html#macaulay-duration-level-payment-annuity",
-  "type": "Activity",
-  "number": "11.5.2",
-  "title": "",
-  "body": "  Show that the Macaulay duration of a level-payment annuity with payments is:    "
-},
-{
-  "id": "macaulay-duration-coupon-bond-face-value",
-  "level": "2",
-  "url": "macaulay-duration-shortcuts.html#macaulay-duration-coupon-bond-face-value",
-  "type": "Activity",
-  "number": "11.5.3",
-  "title": "",
-  "body": "  Consider a coupon bond with face value , effective coupon rate , a term of coupons, a redemption amount , and price . Show that the duration is:    "
-},
-{
-  "id": "calculating-various-macaulay-durations",
-  "level": "2",
-  "url": "macaulay-duration-shortcuts.html#calculating-various-macaulay-durations",
-  "type": "Activity",
-  "number": "11.5.4",
-  "title": "",
-  "body": "  Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .   "
-},
-{
-  "id": "macaulay-duration-shortcuts-reflection",
-  "level": "2",
-  "url": "macaulay-duration-shortcuts.html#macaulay-duration-shortcuts-reflection",
-  "type": "Activity",
-  "number": "11.5.5",
-  "title": "",
-  "body": "  Are the shortcuts worth memorizing? Why or why not?   "
-},
-{
-  "id": "review-taylor-series-and-approximations",
-  "level": "1",
-  "url": "review-taylor-series-and-approximations.html",
-  "type": "Section",
-  "number": "11.6",
-  "title": "Review -- Taylor Series and Approximations",
-  "body": " Review -- Taylor Series and Approximations  In Calculus, you learn about Taylor series. The theory tells you that under certain conditions, you write a function \"near\" a value as a polynomial in :   Here, stands for the th derivative (where corresponds to the original function). If we write this in expanded notation, this looks like:   We call this the Taylor series around (where is a selected value). The \"=\" in this case means something about convergence (which we will naively not concern ourselves with in this course).  The value of Taylor series is that we can use finite-degree polynomials to approximate our functions:   The approximation above is called the th order approximation .  For small , this can be calculated by hand. For larger values of , since there are still finitely many calculations involved, the approximation can be calculated by computers. For us, we will be interested in or .    Let be the price (or present value) of some specific cash flows valued at a rate .    Write an equation for the first order (linear) approximation for .    Write an equation for the second order (quadratic) approximation for .      Let's play with the function .    Find the Taylor series around . Since we have , just use for . Note that this series converges for all .    Use your Taylor series to write down an expression for the number , written as an infinite sum.      Let . Find the first order approximation around . Since we have , just use for . Note that the series converges for all .      Recall that the present value of a perpetuity with a first payment of whose payments grow by is given by the function:     Suppose we have a share of stock that distributes annual dividends. The first dividend is 2.50, and each dividend grows by 2% every year forever. Let be the price of the share (using the dividend discount model) as a function of the effective annual interest rate . Write down .    Find the first-order (linear) approximation for .    Find the first-order (linear) approximation for .    Find the second-order (quadratic) approximation for .    Find the second-order (quadratic) approximation for .      Let be the price (present value) of a level payment annuity with 10 annual payments of 125 using an effective annual interest rate of . Use the calculus of actuarial symbols to find the first-order (linear) approximation for .      What do Taylor series help us analyze for small perturbations in the interest rate? What does this tell us about interest rate risk?    "
-},
-{
-  "id": "review-taylor-series-and-approximations-9",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#review-taylor-series-and-approximations-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "th order approximation "
-},
-{
-  "id": "linear-and-higher-order-approximations",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#linear-and-higher-order-approximations",
-  "type": "Activity",
-  "number": "11.6.1",
-  "title": "",
-  "body": "  Let be the price (or present value) of some specific cash flows valued at a rate .    Write an equation for the first order (linear) approximation for .    Write an equation for the second order (quadratic) approximation for .   "
-},
-{
-  "id": "playing-with-the-exponential-function",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#playing-with-the-exponential-function",
-  "type": "Activity",
-  "number": "11.6.2",
-  "title": "",
-  "body": "  Let's play with the function .    Find the Taylor series around . Since we have , just use for . Note that this series converges for all .    Use your Taylor series to write down an expression for the number , written as an infinite sum.   "
-},
-{
-  "id": "playing-with-the-sin-function",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#playing-with-the-sin-function",
-  "type": "Activity",
-  "number": "11.6.3",
-  "title": "",
-  "body": "  Let . Find the first order approximation around . Since we have , just use for . Note that the series converges for all .   "
-},
-{
-  "id": "approximating-present-value",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#approximating-present-value",
-  "type": "Activity",
-  "number": "11.6.4",
-  "title": "",
-  "body": "  Recall that the present value of a perpetuity with a first payment of whose payments grow by is given by the function:     Suppose we have a share of stock that distributes annual dividends. The first dividend is 2.50, and each dividend grows by 2% every year forever. Let be the price of the share (using the dividend discount model) as a function of the effective annual interest rate . Write down .    Find the first-order (linear) approximation for .    Find the first-order (linear) approximation for .    Find the second-order (quadratic) approximation for .    Find the second-order (quadratic) approximation for .   "
-},
-{
-  "id": "approximating-present-value-of-level-payment-annuity",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#approximating-present-value-of-level-payment-annuity",
-  "type": "Activity",
-  "number": "11.6.5",
-  "title": "",
-  "body": "  Let be the price (present value) of a level payment annuity with 10 annual payments of 125 using an effective annual interest rate of . Use the calculus of actuarial symbols to find the first-order (linear) approximation for .   "
-},
-{
-  "id": "taylor-series-reflection",
-  "level": "2",
-  "url": "review-taylor-series-and-approximations.html#taylor-series-reflection",
-  "type": "Activity",
-  "number": "11.6.6",
-  "title": "",
-  "body": "  What do Taylor series help us analyze for small perturbations in the interest rate? What does this tell us about interest rate risk?   "
-},
-{
-  "id": "modified-duration",
-  "level": "1",
-  "url": "modified-duration.html",
-  "type": "Section",
-  "number": "11.7",
-  "title": "Modified Duration",
-  "body": " Modified Duration  There is another measure used to assess interest rate risk called modified duration that we will explore in this section.    Suppose we have a set of cash flows and the price, given an appropriate effective interest rate , is .    How does the derivative tell us about the interest rate risk faced by investors in the cash flows?    Why is ?     Modified duration is a measure of interest rate risk that is based on , with two adjustments. First, the measure is positive. Second, the measure is expressed as a percentage of the price .  Using this information, write what you think the formula for modified duration will be. Denote the modified duration by .      Find the modified duration for the following:    Cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, valued at .    A share of stock with annual dividends starting at 2.50 and growing 2% per year forever. Value at .      Find the formula for the modified duration of a perpetuity immediate. What do you notice?      Use the calculus of actuarial symbols to find a formula for the modified duration of each of the following. Compare to the Macaulay duration shortcuts and see if you can find a pattern.    A zero coupon bond.    A level-payment annuity.    If you compare to the shortcuts for Macaulay duration, what pattern do you see?      Let's show that the pattern you observed holds generally. For both Macaulay and modified duration, we compare a numerator to . So we will compare the numerators.  For the questions that follow, suppose we have cash flows of at times for .    First, write down the numerator for Macaulay duration.    If is the price for the cash flows, find an expression for .    Compare the two numerators and write an equation that allows you to convert between and (or vice versa).      Find the modified or Macaulay duration (as indicated) for each of the following. Note that in some cases, it is easier to find first and then convert to , or vice versa!    Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.    Find the modified duration of a level-payment annuity with 10 payments of 1,500, valued at     Find the modified duration of a coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.      Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.      Write down two ways to calculate , and two ways to calculate .    "
-},
-{
-  "id": "modified-duration-2",
-  "level": "2",
-  "url": "modified-duration.html#modified-duration-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "modified duration "
-},
-{
-  "id": "motivating-modified-duration",
-  "level": "2",
-  "url": "modified-duration.html#motivating-modified-duration",
-  "type": "Activity",
-  "number": "11.7.1",
-  "title": "",
-  "body": "  Suppose we have a set of cash flows and the price, given an appropriate effective interest rate , is .    How does the derivative tell us about the interest rate risk faced by investors in the cash flows?    Why is ?     Modified duration is a measure of interest rate risk that is based on , with two adjustments. First, the measure is positive. Second, the measure is expressed as a percentage of the price .  Using this information, write what you think the formula for modified duration will be. Denote the modified duration by .   "
-},
-{
-  "id": "calculating-modified-duration",
-  "level": "2",
-  "url": "modified-duration.html#calculating-modified-duration",
-  "type": "Activity",
-  "number": "11.7.2",
-  "title": "",
-  "body": "  Find the modified duration for the following:    Cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, valued at .    A share of stock with annual dividends starting at 2.50 and growing 2% per year forever. Value at .   "
-},
-{
-  "id": "formula-for-modified-duration-perpetuity-immediate",
-  "level": "2",
-  "url": "modified-duration.html#formula-for-modified-duration-perpetuity-immediate",
-  "type": "Activity",
-  "number": "11.7.3",
-  "title": "",
-  "body": "  Find the formula for the modified duration of a perpetuity immediate. What do you notice?   "
-},
-{
-  "id": "finding-formulas-for-modified-duration",
-  "level": "2",
-  "url": "modified-duration.html#finding-formulas-for-modified-duration",
-  "type": "Activity",
-  "number": "11.7.4",
-  "title": "",
-  "body": "  Use the calculus of actuarial symbols to find a formula for the modified duration of each of the following. Compare to the Macaulay duration shortcuts and see if you can find a pattern.    A zero coupon bond.    A level-payment annuity.    If you compare to the shortcuts for Macaulay duration, what pattern do you see?   "
-},
-{
-  "id": "comparing-numerators-in-macaulay-duration",
-  "level": "2",
-  "url": "modified-duration.html#comparing-numerators-in-macaulay-duration",
-  "type": "Activity",
-  "number": "11.7.5",
-  "title": "",
-  "body": "  Let's show that the pattern you observed holds generally. For both Macaulay and modified duration, we compare a numerator to . So we will compare the numerators.  For the questions that follow, suppose we have cash flows of at times for .    First, write down the numerator for Macaulay duration.    If is the price for the cash flows, find an expression for .    Compare the two numerators and write an equation that allows you to convert between and (or vice versa).   "
-},
-{
-  "id": "calculating-modified-duration-in-problems",
-  "level": "2",
-  "url": "modified-duration.html#calculating-modified-duration-in-problems",
-  "type": "Activity",
-  "number": "11.7.6",
-  "title": "",
-  "body": "  Find the modified or Macaulay duration (as indicated) for each of the following. Note that in some cases, it is easier to find first and then convert to , or vice versa!    Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.    Find the modified duration of a level-payment annuity with 10 payments of 1,500, valued at     Find the modified duration of a coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.   "
-},
-{
-  "id": "calculating-modified-duration-for-deferred-annuity",
-  "level": "2",
-  "url": "modified-duration.html#calculating-modified-duration-for-deferred-annuity",
-  "type": "Activity",
-  "number": "11.7.7",
-  "title": "",
-  "body": "  Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.   "
-},
-{
-  "id": "calculating-duration-and-modified-duration",
-  "level": "2",
-  "url": "modified-duration.html#calculating-duration-and-modified-duration",
-  "type": "Activity",
-  "number": "11.7.8",
-  "title": "",
-  "body": "  Write down two ways to calculate , and two ways to calculate .   "
-},
-{
-  "id": "first-order-approximations-and-modified-duration",
-  "level": "1",
-  "url": "first-order-approximations-and-modified-duration.html",
-  "type": "Section",
-  "number": "11.8",
-  "title": "First Order Approximations with Modified Duration",
-  "body": " First Order Approximations with Modified Duration  Since modified duration is based on , we can use to estimate changes in for small changes using Taylor series. This is sometimes called the first order modified approximation (we will see a first order Macaulay approximation in ).    Write down an equation for the first order approximation for using .      The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%. Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.      Rewrite your equation for the first order approximation for using .      Use modified duration to estimate the first order change in the present value of the following cash flows:    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .      Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.      A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.      We can write the change in the price .    Write the first order modified approximation for using .    Write the first order modified approximation for using .      Consider problems that ask you to use the first order modified approximation. What are some different ways the problem may give you information, and how might that impact how you solve the problem?    "
-},
-{
-  "id": "first-order-approximations-and-modified-duration-2",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#first-order-approximations-and-modified-duration-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "first order modified approximation "
-},
-{
-  "id": "formula-for-first-order-modified-approximation",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#formula-for-first-order-modified-approximation",
-  "type": "Activity",
-  "number": "11.8.1",
-  "title": "",
-  "body": "  Write down an equation for the first order approximation for using .   "
-},
-{
-  "id": "estimating-price-using-first-order-modified-approximation",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#estimating-price-using-first-order-modified-approximation",
-  "type": "Activity",
-  "number": "11.8.2",
-  "title": "",
-  "body": "  The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%. Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.   "
-},
-{
-  "id": "first-order-modified-approximation-using-modified-duration",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-using-modified-duration",
-  "type": "Activity",
-  "number": "11.8.3",
-  "title": "",
-  "body": "  Rewrite your equation for the first order approximation for using .   "
-},
-{
-  "id": "using-modified-duration-to-estimate-first-order-change-in-present-value",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#using-modified-duration-to-estimate-first-order-change-in-present-value",
-  "type": "Activity",
-  "number": "11.8.4",
-  "title": "",
-  "body": "  Use modified duration to estimate the first order change in the present value of the following cash flows:    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .   "
-},
-{
-  "id": "estimating-bond-price-using-first-order-modified-approximation",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#estimating-bond-price-using-first-order-modified-approximation",
-  "type": "Activity",
-  "number": "11.8.5",
-  "title": "",
-  "body": "  Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.   "
-},
-{
-  "id": "finding-yield-rate-from-first-order-modified-approximation",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#finding-yield-rate-from-first-order-modified-approximation",
-  "type": "Activity",
-  "number": "11.8.6",
-  "title": "",
-  "body": "  A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.   "
-},
-{
-  "id": "first-order-modified-approximation-for-change-in-price",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-for-change-in-price",
-  "type": "Activity",
-  "number": "11.8.7",
-  "title": "",
-  "body": "  We can write the change in the price .    Write the first order modified approximation for using .    Write the first order modified approximation for using .   "
-},
-{
-  "id": "first-order-modified-approximation-reflection",
-  "level": "2",
-  "url": "first-order-approximations-and-modified-duration.html#first-order-modified-approximation-reflection",
-  "type": "Activity",
-  "number": "11.8.8",
-  "title": "",
-  "body": "  Consider problems that ask you to use the first order modified approximation. What are some different ways the problem may give you information, and how might that impact how you solve the problem?   "
-},
-{
-  "id": "macaulay-approximation",
-  "level": "1",
-  "url": "macaulay-approximation.html",
-  "type": "Section",
-  "number": "11.9",
-  "title": "The Macaulay Approximation",
-  "body": " The Macaulay Approximation  There is another first order approximation that uses Macaulay duration, and it is called the Macaulay approximation :     First, let's see where this comes from.    Define . What does this function represent, financially?    Show that .    Using , find the first order approximation for using the Taylor series approximation for .    Use your first order approximation for to derive the Macaulay approximation formula.      Suppose we have a level payment annuity with 10 annual payments of 590. The current effective annual interest rate is , but an investor have heard rumors that this is about to go up by 50 basis points.    Use the Macaulay approximation to estimate the percentage change in the value of the annuity if the rumor is true.    Use the Macaulay approximation to estimate the absolute change if the rumor is true.      Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .      A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .      Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.      What kind of change is the Macaulay approximation best able to estimate -- percentage change or absolute change? Explain.    "
-},
-{
-  "id": "macaulay-approximation-2",
-  "level": "2",
-  "url": "macaulay-approximation.html#macaulay-approximation-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Macaulay approximation "
-},
-{
-  "id": "deriving-macaulay-approximation",
-  "level": "2",
-  "url": "macaulay-approximation.html#deriving-macaulay-approximation",
-  "type": "Activity",
-  "number": "11.9.1",
-  "title": "",
-  "body": "  First, let's see where this comes from.    Define . What does this function represent, financially?    Show that .    Using , find the first order approximation for using the Taylor series approximation for .    Use your first order approximation for to derive the Macaulay approximation formula.   "
-},
-{
-  "id": "calculating-percentage-change-in-value-using-macaulay-approximation",
-  "level": "2",
-  "url": "macaulay-approximation.html#calculating-percentage-change-in-value-using-macaulay-approximation",
-  "type": "Activity",
-  "number": "11.9.2",
-  "title": "",
-  "body": "  Suppose we have a level payment annuity with 10 annual payments of 590. The current effective annual interest rate is , but an investor have heard rumors that this is about to go up by 50 basis points.    Use the Macaulay approximation to estimate the percentage change in the value of the annuity if the rumor is true.    Use the Macaulay approximation to estimate the absolute change if the rumor is true.   "
-},
-{
-  "id": "using-macaulay-approximation-to-estimate-change-in-present-value",
-  "level": "2",
-  "url": "macaulay-approximation.html#using-macaulay-approximation-to-estimate-change-in-present-value",
-  "type": "Activity",
-  "number": "11.9.3",
-  "title": "",
-  "body": "  Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .   "
-},
-{
-  "id": "calculating-bond-price-change-using-macaulay-approximation",
-  "level": "2",
-  "url": "macaulay-approximation.html#calculating-bond-price-change-using-macaulay-approximation",
-  "type": "Activity",
-  "number": "11.9.4",
-  "title": "",
-  "body": "  A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .   "
-},
-{
-  "id": "calculating-modified-duration-from-macaulay-approximation",
-  "level": "2",
-  "url": "macaulay-approximation.html#calculating-modified-duration-from-macaulay-approximation",
-  "type": "Activity",
-  "number": "11.9.5",
-  "title": "",
-  "body": "  Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.   "
-},
-{
-  "id": "macaulay-approximation-reflection",
-  "level": "2",
-  "url": "macaulay-approximation.html#macaulay-approximation-reflection",
-  "type": "Activity",
-  "number": "11.9.6",
-  "title": "",
-  "body": "  What kind of change is the Macaulay approximation best able to estimate -- percentage change or absolute change? Explain.   "
-},
-{
-  "id": "convexity-and-second-order-approximation",
-  "level": "1",
-  "url": "convexity-and-second-order-approximation.html",
-  "type": "Section",
-  "number": "11.10",
-  "title": "Convexity and Second Order Approximations",
-  "body": " Convexity and Second Order Approximations  We can get more accuracy when estimating with a second order approximation. The financial concept involved is called convexity .    We start by finding some second derivatives. There are a few where we can accomplish this symbolically without too much fuss.    Find the following second derivative:     Find for a zero-coupon bond.    Find for a perpetuity immediate.    Find for cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, at a current effective annual interest rate of 5%.      Let's see how we can find a second order approximation for .    Write down the equation for the second order approximation that we get from the Taylor series.    A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.    Another bond has a price , , and . Find the approximate price of the bond if the interest rate declines to 2.5%.      The financial concept related to is convexity .    As you can see from our examples, is generally positive. In constructing convexity, we do not need to change the sign. But we still compare to so we convexity can be thought of as a percentage. Write the equation defining convexity, which we denote by .    Write the equation for the second order approximation of using modified duration and convexity.      A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.      Solve the following problems.    Use the modified duration and convexity to estimate the second order change in price: A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    Use the modified duration and convexity to estimate the second order change in price: A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .    A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.    A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.      Explain how the second derivative makes our estimations more accurate.    "
-},
-{
-  "id": "convexity-and-second-order-approximation-2",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#convexity-and-second-order-approximation-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "convexity "
-},
-{
-  "id": "finding-second-derivatives",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#finding-second-derivatives",
-  "type": "Activity",
-  "number": "11.10.1",
-  "title": "",
-  "body": "  We start by finding some second derivatives. There are a few where we can accomplish this symbolically without too much fuss.    Find the following second derivative:     Find for a zero-coupon bond.    Find for a perpetuity immediate.    Find for cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3, at a current effective annual interest rate of 5%.   "
-},
-{
-  "id": "finding-second-order-approximation",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#finding-second-order-approximation",
-  "type": "Activity",
-  "number": "11.10.2",
-  "title": "",
-  "body": "  Let's see how we can find a second order approximation for .    Write down the equation for the second order approximation that we get from the Taylor series.    A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.    Another bond has a price , , and . Find the approximate price of the bond if the interest rate declines to 2.5%.   "
-},
-{
-  "id": "definition-of-convexity",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#definition-of-convexity",
-  "type": "Activity",
-  "number": "11.10.3",
-  "title": "",
-  "body": "  The financial concept related to is convexity .    As you can see from our examples, is generally positive. In constructing convexity, we do not need to change the sign. But we still compare to so we convexity can be thought of as a percentage. Write the equation defining convexity, which we denote by .    Write the equation for the second order approximation of using modified duration and convexity.   "
-},
-{
-  "id": "finding-durations-and-convexity",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#finding-durations-and-convexity",
-  "type": "Activity",
-  "number": "11.10.4",
-  "title": "",
-  "body": "  A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.   "
-},
-{
-  "id": "solving-problems-with-convexity",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#solving-problems-with-convexity",
-  "type": "Activity",
-  "number": "11.10.5",
-  "title": "",
-  "body": "  Solve the following problems.    Use the modified duration and convexity to estimate the second order change in price: A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    Use the modified duration and convexity to estimate the second order change in price: A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .    A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.    A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.   "
-},
-{
-  "id": "convexity-reflection",
-  "level": "2",
-  "url": "convexity-and-second-order-approximation.html#convexity-reflection",
-  "type": "Activity",
-  "number": "11.10.6",
-  "title": "",
-  "body": "  Explain how the second derivative makes our estimations more accurate.   "
-},
-{
-  "id": "interest-rate-risk-with-portfolios",
-  "level": "1",
-  "url": "interest-rate-risk-with-portfolios.html",
-  "type": "Section",
-  "number": "11.11",
-  "title": "Interest Rate Risk with Portfolios",
-  "body": " Interest Rate Risk with Portfolios  Investors often hold portfolios of investments. This is just a collection of different investments. Now that we have examined interest rate for a single investment, we can use weighted averages to examine interest rate risk across a portfolio. Using weighted averages to extend a measure from a single investment to a portfolio will come up in Exam IFM as well.    Suppose an investor has a portfolio consisting of investments (or just cash flows) of .    Both the Macaulay duration of the portfolio and the modified duration of the portfolio are weighted averages of the durations and respectively. The weights are the ratios of the present value of each investment to the present value of the entire portfolio.  Write a formula for the weight and show that .    Write formulas for and . You can use the expression for the weights to keep things relatively clean.      Solve the following.    A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.    You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.      As with other concepts, sometimes the information you are given or have to find can vary. Solve the following problems in which this is the case.    A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.    An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .      If we want to use \"chunking\" to find the duration of an annuity in which the interest rate or the payment changes, we have to treat it as a portfolio. For the following problem, recall that if we have an annuity with Macaulay duration , if we defer that annuity by payments, the Macaulay duration of the deferred annuity is .  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.      We can use Macaulay or modified duration to estimate the change in price of a portfolio. You might have different values of for each investment. If you are using a yield curve, you might have different values of for each spot rate. If the spot rates in a yield curve all have the same change, this is called a parallel shift in the yield curve.  Suppose investors face the following yield curve:             1  5%    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .      Describe weighted averages and how we have used them to measure interest rate risk.    "
-},
-{
-  "id": "interest-rate-risk-with-portfolios-2",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#interest-rate-risk-with-portfolios-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "portfolios "
-},
-{
-  "id": "formula-for-durations-of-portfolios",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#formula-for-durations-of-portfolios",
-  "type": "Activity",
-  "number": "11.11.1",
-  "title": "",
-  "body": "  Suppose an investor has a portfolio consisting of investments (or just cash flows) of .    Both the Macaulay duration of the portfolio and the modified duration of the portfolio are weighted averages of the durations and respectively. The weights are the ratios of the present value of each investment to the present value of the entire portfolio.  Write a formula for the weight and show that .    Write formulas for and . You can use the expression for the weights to keep things relatively clean.   "
-},
-{
-  "id": "solving-for-mdoified-and-macaulay-duration-of-a-portfolio",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#solving-for-mdoified-and-macaulay-duration-of-a-portfolio",
-  "type": "Activity",
-  "number": "11.11.2",
-  "title": "",
-  "body": "  Solve the following.    A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.    You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.   "
-},
-{
-  "id": "finding-macaulay-duration-with-other-information",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#finding-macaulay-duration-with-other-information",
-  "type": "Activity",
-  "number": "11.11.3",
-  "title": "",
-  "body": "  As with other concepts, sometimes the information you are given or have to find can vary. Solve the following problems in which this is the case.    A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.    An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .   "
-},
-{
-  "id": "treating-chunking-as-a-portfolio",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#treating-chunking-as-a-portfolio",
-  "type": "Activity",
-  "number": "11.11.4",
-  "title": "",
-  "body": "  If we want to use \"chunking\" to find the duration of an annuity in which the interest rate or the payment changes, we have to treat it as a portfolio. For the following problem, recall that if we have an annuity with Macaulay duration , if we defer that annuity by payments, the Macaulay duration of the deferred annuity is .  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.   "
-},
-{
-  "id": "parallel-shift-in-yield-curve",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#parallel-shift-in-yield-curve",
-  "type": "Activity",
-  "number": "11.11.5",
-  "title": "",
-  "body": "  We can use Macaulay or modified duration to estimate the change in price of a portfolio. You might have different values of for each investment. If you are using a yield curve, you might have different values of for each spot rate. If the spot rates in a yield curve all have the same change, this is called a parallel shift in the yield curve.  Suppose investors face the following yield curve:             1  5%    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .   "
-},
-{
-  "id": "interest-rate-risk-with-portfolios-reflection",
-  "level": "2",
-  "url": "interest-rate-risk-with-portfolios.html#interest-rate-risk-with-portfolios-reflection",
-  "type": "Activity",
-  "number": "11.11.6",
-  "title": "",
-  "body": "  Describe weighted averages and how we have used them to measure interest rate risk.   "
-},
-{
-  "id": "duration-and-convexity-exercises",
-  "level": "1",
-  "url": "duration-and-convexity-exercises.html",
-  "type": "Exercises",
-  "number": "11.12",
-  "title": "Exercises",
-  "body": "   A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.      Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%         For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.      Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .      In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,       Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .      Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .      Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .      Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .      A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.      A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.      Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .    "
-},
-{
-  "id": "duration-and-convexity-exercises-1",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-1",
-  "type": "Exercise",
-  "number": "11.12.1",
-  "title": "",
-  "body": "  A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.   "
-},
-{
-  "id": "duration-and-convexity-exercises-2",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-2",
-  "type": "Exercise",
-  "number": "11.12.2",
-  "title": "",
-  "body": "  Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%      "
-},
-{
-  "id": "duration-and-convexity-exercises-3",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-3",
-  "type": "Exercise",
-  "number": "11.12.3",
-  "title": "",
-  "body": "  For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.   "
-},
-{
-  "id": "duration-and-convexity-exercises-4",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-4",
-  "type": "Exercise",
-  "number": "11.12.4",
-  "title": "",
-  "body": "  Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .   "
-},
-{
-  "id": "duration-and-convexity-exercises-5",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-5",
-  "type": "Exercise",
-  "number": "11.12.5",
-  "title": "",
-  "body": "  In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,    "
-},
-{
-  "id": "duration-and-convexity-exercises-6",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-6",
-  "type": "Exercise",
-  "number": "11.12.6",
-  "title": "",
-  "body": "  Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .   "
-},
-{
-  "id": "duration-and-convexity-exercises-7",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-7",
-  "type": "Exercise",
-  "number": "11.12.7",
-  "title": "",
-  "body": "  Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .   "
-},
-{
-  "id": "duration-and-convexity-exercises-8",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-8",
-  "type": "Exercise",
-  "number": "11.12.8",
-  "title": "",
-  "body": "  Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .   "
-},
-{
-  "id": "duration-and-convexity-exercises-9",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-9",
-  "type": "Exercise",
-  "number": "11.12.9",
-  "title": "",
-  "body": "  Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .   "
-},
-{
-  "id": "duration-and-convexity-exercises-10",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-10",
-  "type": "Exercise",
-  "number": "11.12.10",
-  "title": "",
-  "body": "  A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.   "
-},
-{
-  "id": "duration-and-convexity-exercises-11",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-11",
-  "type": "Exercise",
-  "number": "11.12.11",
-  "title": "",
-  "body": "  A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.   "
-},
-{
-  "id": "duration-and-convexity-exercises-12",
-  "level": "2",
-  "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-12",
-  "type": "Exercise",
-  "number": "11.12.12",
-  "title": "",
-  "body": "  Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .   "
-},
-{
-  "id": "duration-and-convexity-problems",
-  "level": "1",
-  "url": "duration-and-convexity-problems.html",
-  "type": "Exercises",
-  "number": "11.13",
-  "title": "Problems",
-  "body": " Problems     An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?       Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .       An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .       A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.       A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .       Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.       Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.       A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.       A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.       Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.       The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.       Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.       Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.       Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.       An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.      Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.       The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.       Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.      A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.       A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .       A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .       Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.       There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.       A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.       Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:         A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.      A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.      A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.       You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.       Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.       SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .       An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .      Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.    "
-},
-{
-  "id": "duration-and-convexity-problems-2",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-2",
-  "type": "Exercise",
-  "number": "11.13.1",
-  "title": "",
-  "body": "   An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?   "
-},
-{
-  "id": "duration-and-convexity-problems-3",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-3",
-  "type": "Exercise",
-  "number": "11.13.2",
-  "title": "",
-  "body": "   Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-4",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-4",
-  "type": "Exercise",
-  "number": "11.13.3",
-  "title": "",
-  "body": "   An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-5",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-5",
-  "type": "Exercise",
-  "number": "11.13.4",
-  "title": "",
-  "body": "   A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.   "
-},
-{
-  "id": "duration-and-convexity-problems-6",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-6",
-  "type": "Exercise",
-  "number": "11.13.5",
-  "title": "",
-  "body": "   A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-7",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-7",
-  "type": "Exercise",
-  "number": "11.13.6",
-  "title": "",
-  "body": "   Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.   "
-},
-{
-  "id": "duration-and-convexity-problems-8",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-8",
-  "type": "Exercise",
-  "number": "11.13.7",
-  "title": "",
-  "body": "   Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.   "
-},
-{
-  "id": "duration-and-convexity-problems-9",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-9",
-  "type": "Exercise",
-  "number": "11.13.8",
-  "title": "",
-  "body": "   A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.   "
-},
-{
-  "id": "duration-and-convexity-problems-10",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-10",
-  "type": "Exercise",
-  "number": "11.13.9",
-  "title": "",
-  "body": "   A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.   "
-},
-{
-  "id": "duration-and-convexity-problems-11",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-11",
-  "type": "Exercise",
-  "number": "11.13.10",
-  "title": "",
-  "body": "   Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.   "
-},
-{
-  "id": "duration-and-convexity-problems-12",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-12",
-  "type": "Exercise",
-  "number": "11.13.11",
-  "title": "",
-  "body": "   The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.   "
-},
-{
-  "id": "duration-and-convexity-problems-13",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-13",
-  "type": "Exercise",
-  "number": "11.13.12",
-  "title": "",
-  "body": "   Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.   "
-},
-{
-  "id": "duration-and-convexity-problems-14",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-14",
-  "type": "Exercise",
-  "number": "11.13.13",
-  "title": "",
-  "body": "   Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.   "
-},
-{
-  "id": "duration-and-convexity-problems-15",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-15",
-  "type": "Exercise",
-  "number": "11.13.14",
-  "title": "",
-  "body": "   Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.   "
-},
-{
-  "id": "duration-and-convexity-problems-16",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-16",
-  "type": "Exercise",
-  "number": "11.13.15",
-  "title": "",
-  "body": "   An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .   "
-},
-{
-  "id": "duration-and-convexity-problems-17",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-17",
-  "type": "Exercise",
-  "number": "11.13.16",
-  "title": "",
-  "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.   "
-},
-{
-  "id": "duration-and-convexity-problems-18",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-18",
-  "type": "Exercise",
-  "number": "11.13.17",
-  "title": "",
-  "body": "  Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.   "
-},
-{
-  "id": "duration-and-convexity-problems-19",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-19",
-  "type": "Exercise",
-  "number": "11.13.18",
-  "title": "",
-  "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.   "
-},
-{
-  "id": "duration-and-convexity-problems-20",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-20",
-  "type": "Exercise",
-  "number": "11.13.19",
-  "title": "",
-  "body": "   The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.   "
-},
-{
-  "id": "duration-and-convexity-problems-21",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-21",
-  "type": "Exercise",
-  "number": "11.13.20",
-  "title": "",
-  "body": "   Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.   "
-},
-{
-  "id": "duration-and-convexity-problems-22",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-22",
-  "type": "Exercise",
-  "number": "11.13.21",
-  "title": "",
-  "body": "  A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.   "
-},
-{
-  "id": "duration-and-convexity-problems-23",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-23",
-  "type": "Exercise",
-  "number": "11.13.22",
-  "title": "",
-  "body": "   A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-24",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-24",
-  "type": "Exercise",
-  "number": "11.13.23",
-  "title": "",
-  "body": "   A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-25",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-25",
-  "type": "Exercise",
-  "number": "11.13.24",
-  "title": "",
-  "body": "   Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.   "
-},
-{
-  "id": "duration-and-convexity-problems-26",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-26",
-  "type": "Exercise",
-  "number": "11.13.25",
-  "title": "",
-  "body": "   There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.   "
-},
-{
-  "id": "duration-and-convexity-problems-27",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-27",
-  "type": "Exercise",
-  "number": "11.13.26",
-  "title": "",
-  "body": "   A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.   "
-},
-{
-  "id": "duration-and-convexity-problems-28",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-28",
-  "type": "Exercise",
-  "number": "11.13.27",
-  "title": "",
-  "body": "   Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:     "
-},
-{
-  "id": "duration-and-convexity-problems-29",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-29",
-  "type": "Exercise",
-  "number": "11.13.28",
-  "title": "",
-  "body": "   A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.   "
-},
-{
-  "id": "duration-and-convexity-problems-30",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-30",
-  "type": "Exercise",
-  "number": "11.13.29",
-  "title": "",
-  "body": "  A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.   "
-},
-{
-  "id": "duration-and-convexity-problems-31",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-31",
-  "type": "Exercise",
-  "number": "11.13.30",
-  "title": "",
-  "body": "  A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.   "
-},
-{
-  "id": "duration-and-convexity-problems-32",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-32",
-  "type": "Exercise",
-  "number": "11.13.31",
-  "title": "",
-  "body": "   You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.   "
-},
-{
-  "id": "duration-and-convexity-problems-33",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-33",
-  "type": "Exercise",
-  "number": "11.13.32",
-  "title": "",
-  "body": "   Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.   "
-},
-{
-  "id": "duration-and-convexity-problems-34",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-34",
-  "type": "Exercise",
-  "number": "11.13.33",
-  "title": "",
-  "body": "   SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .   "
-},
-{
-  "id": "duration-and-convexity-problems-35",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-35",
-  "type": "Exercise",
-  "number": "11.13.34",
-  "title": "",
-  "body": "   An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .   "
-},
-{
-  "id": "duration-and-convexity-problems-36",
-  "level": "2",
-  "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-36",
-  "type": "Exercise",
-  "number": "11.13.35",
-  "title": "",
-  "body": "  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.   "
-},
-{
-  "id": "exact-matching-with-zero-coupon-bonds",
-  "level": "1",
-  "url": "exact-matching-with-zero-coupon-bonds.html",
-  "type": "Section",
-  "number": "12.1",
-  "title": "Exact Matching with Zero-Coupon Bonds",
-  "body": " Exact Matching with Zero-Coupon Bonds   Liabilities are amounts firms owe, and assets are the resources firms have to pay their liabilities. Exact matching is an investment strategy in which the payouts of the assets occur at the same time the liabilities come due, and in the same amounts.    Suppose we have a liability of 1000 coming due at the end of one year. List at least two possible investments we could purchase now in order to exactly match the liability.      Suppose zero-coupon bonds are the only investments available, and the yield curve is as follows:     Year  1  2  3  4       4.00%  5.25%  6.00%  6.25%     For each of the following liability schedules, determine (i) which zero-coupon bonds you will invest in, (ii) how much face value of each zero-coupon bond you will purchase, and (iii) the total cost of the assets to exactly match liabilities.    There is exactly one liability of 1000 at the end of year 1.    There is a liability of 1000 due at the end of year 1, and another liability of 1000 due at the end of year 2.    There is a liability of 2000 due at the end of year 1, and another liability of 3000 due at the end of year 2.    There is a liability of 1500 due at the end of year 1, a liability of 1000 due at the end of year 2, and a liability of 2000 due at the end of year 3.    There is a liability of 1000 due at the end of year 1, a liability of 2000 due at the end of year 2, and a liability of 3000 at the end of year 4.      Suppose we have a liability of 2500 due at the end of year 1 and a liability of 3250 due at the end of year 2. The effective annual interest rate on a 1-year zero-coupon bond is 4%. What is the lowest effective annual interest rate you need for a two-year, zero-coupon bond in order to keep the cost of exact matching under 5340.50.      How do you expect the exact matching cost calculations will change when we use coupon bonds instead of zero-coupon bonds?    "
-},
-{
-  "id": "exact-matching-with-zero-coupon-bonds-2",
-  "level": "2",
-  "url": "exact-matching-with-zero-coupon-bonds.html#exact-matching-with-zero-coupon-bonds-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Liabilities assets Exact matching "
-},
-{
-  "id": "matching-a-liability",
-  "level": "2",
-  "url": "exact-matching-with-zero-coupon-bonds.html#matching-a-liability",
-  "type": "Activity",
-  "number": "12.1.1",
-  "title": "",
-  "body": "  Suppose we have a liability of 1000 coming due at the end of one year. List at least two possible investments we could purchase now in order to exactly match the liability.   "
-},
-{
-  "id": "choosing-zero-coupon-bonds",
-  "level": "2",
-  "url": "exact-matching-with-zero-coupon-bonds.html#choosing-zero-coupon-bonds",
-  "type": "Activity",
-  "number": "12.1.2",
-  "title": "",
-  "body": "  Suppose zero-coupon bonds are the only investments available, and the yield curve is as follows:     Year  1  2  3  4       4.00%  5.25%  6.00%  6.25%     For each of the following liability schedules, determine (i) which zero-coupon bonds you will invest in, (ii) how much face value of each zero-coupon bond you will purchase, and (iii) the total cost of the assets to exactly match liabilities.    There is exactly one liability of 1000 at the end of year 1.    There is a liability of 1000 due at the end of year 1, and another liability of 1000 due at the end of year 2.    There is a liability of 2000 due at the end of year 1, and another liability of 3000 due at the end of year 2.    There is a liability of 1500 due at the end of year 1, a liability of 1000 due at the end of year 2, and a liability of 2000 due at the end of year 3.    There is a liability of 1000 due at the end of year 1, a liability of 2000 due at the end of year 2, and a liability of 3000 at the end of year 4.   "
-},
-{
-  "id": "choosing-interest-rate-to-match-liability",
-  "level": "2",
-  "url": "exact-matching-with-zero-coupon-bonds.html#choosing-interest-rate-to-match-liability",
-  "type": "Activity",
-  "number": "12.1.3",
-  "title": "",
-  "body": "  Suppose we have a liability of 2500 due at the end of year 1 and a liability of 3250 due at the end of year 2. The effective annual interest rate on a 1-year zero-coupon bond is 4%. What is the lowest effective annual interest rate you need for a two-year, zero-coupon bond in order to keep the cost of exact matching under 5340.50.   "
-},
-{
-  "id": "exact-matching-with-zero-coupon-bonds-reflection",
-  "level": "2",
-  "url": "exact-matching-with-zero-coupon-bonds.html#exact-matching-with-zero-coupon-bonds-reflection",
-  "type": "Activity",
-  "number": "12.1.4",
-  "title": "",
-  "body": "  How do you expect the exact matching cost calculations will change when we use coupon bonds instead of zero-coupon bonds?   "
-},
-{
-  "id": "exact-matching-with-coupon-bonds",
-  "level": "1",
-  "url": "exact-matching-with-coupon-bonds.html",
-  "type": "Section",
-  "number": "12.2",
-  "title": "Exact Matching with Coupon Bonds",
-  "body": " Exact Matching with Coupon Bonds  In we used zero-coupon bonds to exactly match our liabilities. It gets a little more complicated when we use coupon bonds. We assume that we can purchase coupon bonds for any amount of face value.    Suppose we have a single liability of 1000 due at the end of 1 year. The only investment available is a one-year bond with a single annual coupon at 5% of face value, paid together with the redemption amount. The yield rate is an effective annual rate of 6%.    How much face value should we purchase to exactly match our liability?    What will it cost to use this bond to immunize our liability?      Now suppose we have two liabilities: 1000 due at the end of year 1, and 1000 due at the end of year 2. The only investments are the following bonds with annual coupons:     Term  Coupon Rate (Annual)  Effective Yield Rate (Annual)    One Year  3%  2%    Two Year  5%  4%     We plan to exactly match our liabilities by purchasing in face value of the one-year bond and in face value of the two-year bond.    Make a timeline showing our liabilities and income from the bonds, showing income from each bond separately.    Which face value do we need to find first? Find that value.    Find the face value of the other bond.    Find the cost to exactly match these liabilities.    When finding the face values of coupon bonds to exactly match liabilities, should we work \"forward\" or \"backward\"? Why?      There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:     Maturity (years)  Coupon Rate (annual)  Effective Annual Yield  Par    1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000     Find the cost to exactly match liabilities.      There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:     Maturity (years)  Coupon Rate  Annual Yield  Par    1.5  8%  6%  1000    3  10%  5%  1000     Find the cost to exactly match liabilities.      An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .      Describe a procedure for exactly matching liabilities with coupon bonds.    "
-},
-{
-  "id": "matching-a-liability-with-coupon-bonds",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#matching-a-liability-with-coupon-bonds",
-  "type": "Activity",
-  "number": "12.2.1",
-  "title": "",
-  "body": "  Suppose we have a single liability of 1000 due at the end of 1 year. The only investment available is a one-year bond with a single annual coupon at 5% of face value, paid together with the redemption amount. The yield rate is an effective annual rate of 6%.    How much face value should we purchase to exactly match our liability?    What will it cost to use this bond to immunize our liability?   "
-},
-{
-  "id": "determining-how-to-use-coupon-bonds-to-match-liabilities",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#determining-how-to-use-coupon-bonds-to-match-liabilities",
-  "type": "Activity",
-  "number": "12.2.2",
-  "title": "",
-  "body": "  Now suppose we have two liabilities: 1000 due at the end of year 1, and 1000 due at the end of year 2. The only investments are the following bonds with annual coupons:     Term  Coupon Rate (Annual)  Effective Yield Rate (Annual)    One Year  3%  2%    Two Year  5%  4%     We plan to exactly match our liabilities by purchasing in face value of the one-year bond and in face value of the two-year bond.    Make a timeline showing our liabilities and income from the bonds, showing income from each bond separately.    Which face value do we need to find first? Find that value.    Find the face value of the other bond.    Find the cost to exactly match these liabilities.    When finding the face values of coupon bonds to exactly match liabilities, should we work \"forward\" or \"backward\"? Why?   "
-},
-{
-  "id": "matching-liabilities-to-coupon-bonds-with-different-rates-and-maturities",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#matching-liabilities-to-coupon-bonds-with-different-rates-and-maturities",
-  "type": "Activity",
-  "number": "12.2.3",
-  "title": "",
-  "body": "  There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:     Maturity (years)  Coupon Rate (annual)  Effective Annual Yield  Par    1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000     Find the cost to exactly match liabilities.   "
-},
-{
-  "id": "choosing-coupon-bonds-to-match-liabilities",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#choosing-coupon-bonds-to-match-liabilities",
-  "type": "Activity",
-  "number": "12.2.4",
-  "title": "",
-  "body": "  There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:     Maturity (years)  Coupon Rate  Annual Yield  Par    1.5  8%  6%  1000    3  10%  5%  1000     Find the cost to exactly match liabilities.   "
-},
-{
-  "id": "purchasing-bonds-to-match-obligation",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#purchasing-bonds-to-match-obligation",
-  "type": "Activity",
-  "number": "12.2.5",
-  "title": "",
-  "body": "  An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .   "
-},
-{
-  "id": "matching-a-liability-with-coupon-bonds-reflection",
-  "level": "2",
-  "url": "exact-matching-with-coupon-bonds.html#matching-a-liability-with-coupon-bonds-reflection",
-  "type": "Activity",
-  "number": "12.2.6",
-  "title": "",
-  "body": "  Describe a procedure for exactly matching liabilities with coupon bonds.   "
-},
-{
-  "id": "redington-immunization",
-  "level": "1",
-  "url": "redington-immunization.html",
-  "type": "Section",
-  "number": "12.3",
-  "title": "Redington Immunization",
-  "body": " Redington Immunization  When the payoff of our investments match our liabilities in both amount and in time, we do not face interest rate risk. However, it is not always possible to perform exact matching. When exact matching is not possible, we identify investments whose payoffs have the same present value as our liabilities, and this may involve interest rate risk. Selecting our assets in a way to minimize or eliminate interest rate risk is called immunization .  The present values of both the liabilities and the assets funding the liabilities are functions of the effective interest rate . For assets, denote this function by , and for liabilities denote the function by . To derive immunization conditions, we are going to define an intermediate function :   The interest rate in effect at time 0 is denoted .    Let's start with an example. The Lucia Seaside Motel has a liability of 2000 due at the end of year 4. They intend to fund this liability with a zero-coupon bond with face value of 604.68 payable at the end of year 2 and a zero-coupon bond with face value 1400 payable at the end of year 5 (the face value amounts have some round-off error). The interest rate at this time is .    Show that (up to round-off error). This is called present value matching and ensures that the assets can fund the liability.    Show is a local minimum for (up to round-off error). Collectively, this involves what are called duration matching and the convexity condition , and manages the interest rate risk.      The example in the first problem illustrates Redington immunization . Redington immunization ensures that the assets can fund the liabilities through present value matching. Through duration matching and the convexity condition, Redington immunization also ensures that small changes in the interest rate away from do not interfere with the ability to fund the liabilities with the assets.    Recall that and that the interest rate at time 0 is . What two conditions must be true about the function at and near for Redington immunization?    Write your answer to the previous part in terms of , , and . Label each as present value matching, duration matching, and the convexity condition respectively.      Let's make this more concrete. Given assets providing at time and liabilities of amount at time :    Rewrite each of the following in terms of and :    The present value matching condition.    The duration matching condition.    The convexity condition.      Show that the present value matching condition, duration matching condition, and convexity condition can be rewritten respectively as:     This is the traditional way to describe Redington immunization.      A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and       Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.      Why is the condition on called duration matching? Why is the condition on called the convexity condition?    "
-},
-{
-  "id": "redington-immunization-2",
-  "level": "2",
-  "url": "redington-immunization.html#redington-immunization-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "immunization "
-},
-{
-  "id": "example-of-immunization",
-  "level": "2",
-  "url": "redington-immunization.html#example-of-immunization",
-  "type": "Activity",
-  "number": "12.3.1",
-  "title": "",
-  "body": "  Let's start with an example. The Lucia Seaside Motel has a liability of 2000 due at the end of year 4. They intend to fund this liability with a zero-coupon bond with face value of 604.68 payable at the end of year 2 and a zero-coupon bond with face value 1400 payable at the end of year 5 (the face value amounts have some round-off error). The interest rate at this time is .    Show that (up to round-off error). This is called present value matching and ensures that the assets can fund the liability.    Show is a local minimum for (up to round-off error). Collectively, this involves what are called duration matching and the convexity condition , and manages the interest rate risk.   "
-},
-{
-  "id": "conditions-for-redington-immunization",
-  "level": "2",
-  "url": "redington-immunization.html#conditions-for-redington-immunization",
-  "type": "Activity",
-  "number": "12.3.2",
-  "title": "",
-  "body": "  The example in the first problem illustrates Redington immunization . Redington immunization ensures that the assets can fund the liabilities through present value matching. Through duration matching and the convexity condition, Redington immunization also ensures that small changes in the interest rate away from do not interfere with the ability to fund the liabilities with the assets.    Recall that and that the interest rate at time 0 is . What two conditions must be true about the function at and near for Redington immunization?    Write your answer to the previous part in terms of , , and . Label each as present value matching, duration matching, and the convexity condition respectively.   "
-},
-{
-  "id": "formulas-for-redington-immunization-conditions",
-  "level": "2",
-  "url": "redington-immunization.html#formulas-for-redington-immunization-conditions",
-  "type": "Activity",
-  "number": "12.3.3",
-  "title": "",
-  "body": "  Let's make this more concrete. Given assets providing at time and liabilities of amount at time :    Rewrite each of the following in terms of and :    The present value matching condition.    The duration matching condition.    The convexity condition.   "
-},
-{
-  "id": "traditional-description-of-redington-immunization",
-  "level": "2",
-  "url": "redington-immunization.html#traditional-description-of-redington-immunization",
-  "type": "Activity",
-  "number": "12.3.4",
-  "title": "",
-  "body": "  Show that the present value matching condition, duration matching condition, and convexity condition can be rewritten respectively as:     This is the traditional way to describe Redington immunization.   "
-},
-{
-  "id": "redington-immunization-problem-1",
-  "level": "2",
-  "url": "redington-immunization.html#redington-immunization-problem-1",
-  "type": "Activity",
-  "number": "12.3.5",
-  "title": "",
-  "body": "  A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and    "
-},
-{
-  "id": "redington-immunization-problem-2",
-  "level": "2",
-  "url": "redington-immunization.html#redington-immunization-problem-2",
-  "type": "Activity",
-  "number": "12.3.6",
-  "title": "",
-  "body": "  Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.   "
-},
-{
-  "id": "redington-immunization-reflection",
-  "level": "2",
-  "url": "redington-immunization.html#redington-immunization-reflection",
-  "type": "Activity",
-  "number": "12.3.7",
-  "title": "",
-  "body": "  Why is the condition on called duration matching? Why is the condition on called the convexity condition?   "
-},
-{
-  "id": "full-immunization",
-  "level": "1",
-  "url": "full-immunization.html",
-  "type": "Section",
-  "number": "12.4",
-  "title": "Full Immunization",
-  "body": " Full Immunization  Recall that we defined the function as:   Redington immunization required that the interest rate at time 0, , be a local minimum of . Liabilities are said to be fully immunized if is a global minimum of .    Explain, practically, the difference between Redington and full immunization.      Identify a condition on that is sufficient for to be a global minimum of (you do not have to prove or justify this -- a proof requires real analysis).    Full immunization can be difficult to verify. We are only going to consider one way full immunization can be achieved. We will show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the conditions of Redington immunization, then the liability is full immunized.    Let's see why this is true. First, consider the general case with several liabilities and several assets. Let be the Macaulay duration of the portfolio of liabilities.    Show that the duration condition of Redington immunization implies that is also the duration of the portfolio of assets.    Show that regarding the convexity condition:     Now suppose we have a single liability at time in the amount . This is equivalent to owing a zero-coupon bond. What is ?    Show that if our liability portfolio has a single liability of amount we have assets consisting of exactly two zero-coupon bonds, with face values coming due at time and coming due at time (neither nor equal ), then the convexity condition is satisfied for all .    Show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the present value and duration matching conditions of Redington immunization, then the liability is full immunized (you may have to skip a couple of details near the end of your work).    Note that our argument did not use the condition (except to the extent that and ). This condition is required for and to be positive (otherwise they would not be assets). The nicest way to see why this is true is to use some linear algebra -- see the challenge question at the end of this activity.    A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time . Find and , and determine if the liability is fully immunized.      Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .      Explain why full immunization is desirable.      ✬ Challenge Question: Let's show that in the case of a single liability at time , in order for and (as required in order for them to be assets), the present value and duration matching conditions require .    The present value and duration matching conditions require the following system to be satisfied:    Write this as a matrix equation.    Solve the matrix equation by multiplying the left sides by the inverse of the matrix.    Use your results to explain why if and only if .    "
-},
-{
-  "id": "full-immunization-4",
-  "level": "2",
-  "url": "full-immunization.html#full-immunization-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "fully immunized "
-},
-{
-  "id": "difference-between-redington-and-full-immunization",
-  "level": "2",
-  "url": "full-immunization.html#difference-between-redington-and-full-immunization",
-  "type": "Activity",
-  "number": "12.4.1",
-  "title": "",
-  "body": "  Explain, practically, the difference between Redington and full immunization.   "
-},
-{
-  "id": "conditions-for-full-immunization",
-  "level": "2",
-  "url": "full-immunization.html#conditions-for-full-immunization",
-  "type": "Activity",
-  "number": "12.4.2",
-  "title": "",
-  "body": "  Identify a condition on that is sufficient for to be a global minimum of (you do not have to prove or justify this -- a proof requires real analysis).   "
-},
-{
-  "id": "proof-of-condition-for-full-immunization",
-  "level": "2",
-  "url": "full-immunization.html#proof-of-condition-for-full-immunization",
-  "type": "Activity",
-  "number": "12.4.3",
-  "title": "",
-  "body": "  Let's see why this is true. First, consider the general case with several liabilities and several assets. Let be the Macaulay duration of the portfolio of liabilities.    Show that the duration condition of Redington immunization implies that is also the duration of the portfolio of assets.    Show that regarding the convexity condition:     Now suppose we have a single liability at time in the amount . This is equivalent to owing a zero-coupon bond. What is ?    Show that if our liability portfolio has a single liability of amount we have assets consisting of exactly two zero-coupon bonds, with face values coming due at time and coming due at time (neither nor equal ), then the convexity condition is satisfied for all .    Show that if there is exactly one liability at time , and zero-coupon bonds with face values coming due at time and coming due at time , with satisfying the present value and duration matching conditions of Redington immunization, then the liability is full immunized (you may have to skip a couple of details near the end of your work).   "
-},
-{
-  "id": "full-immunization-problem-1",
-  "level": "2",
-  "url": "full-immunization.html#full-immunization-problem-1",
-  "type": "Activity",
-  "number": "12.4.4",
-  "title": "",
-  "body": "  A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time . Find and , and determine if the liability is fully immunized.   "
-},
-{
-  "id": "full-immunization-problem-2",
-  "level": "2",
-  "url": "full-immunization.html#full-immunization-problem-2",
-  "type": "Activity",
-  "number": "12.4.5",
-  "title": "",
-  "body": "  Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .   "
-},
-{
-  "id": "desirability-of-full-immunization",
-  "level": "2",
-  "url": "full-immunization.html#desirability-of-full-immunization",
-  "type": "Activity",
-  "number": "12.4.6",
-  "title": "",
-  "body": "  Explain why full immunization is desirable.   "
-},
-{
-  "id": "time_conditions-for-full-immunization-with",
-  "level": "2",
-  "url": "full-immunization.html#time_conditions-for-full-immunization-with",
-  "type": "Activity",
-  "number": "12.4.7",
-  "title": "",
-  "body": "  ✬ Challenge Question: Let's show that in the case of a single liability at time , in order for and (as required in order for them to be assets), the present value and duration matching conditions require .    The present value and duration matching conditions require the following system to be satisfied:    Write this as a matrix equation.    Solve the matrix equation by multiplying the left sides by the inverse of the matrix.    Use your results to explain why if and only if .   "
-},
-{
-  "id": "ethics-reserve-requirements",
-  "level": "1",
-  "url": "ethics-reserve-requirements.html",
-  "type": "Section",
-  "number": "12.5",
-  "title": "Ethics Case Study -- Reserve Requirements",
-  "body": " Ethics Case Study -- Reserve Requirements  We have seen that the purpose of immunization is to make sure a company has sufficient assets to pay off expected liabilities. For an insurance company, liabilities are uncertain. They are estimated using expected values for probability distributions (often derived from large data sets using either \"Monte-Carlo simulations\" or `'bootstrapping\").  The assets an insurance company (or any company or investor) hold have varying degrees of uncertainty. They will likely include a range of investments from risk-free assets such as United States government bonds to low-risk investments such as highly-rated corporate bonds to higher-risk investments in equity markets. When preparing for later exams, you will learn how this risk is evaluated and how the mix of risk profiles is selected (there is some discretion based on the investors' preferences).  Given the uncertainty in their liabilities, insurance companies may be tempted to include more high-risk assets in their investments. States impose insurance reserve requirements in order to make sure insurance companies can meet their policyholders' claims as they arise. Reserves have to be held in either cash or in low-risk investments that are highly liquid (can be converted to cash quickly). Sometimes this is called unimpaired capital . In Michigan, the reserve requirements are set by the Department of Insurance and Financial Services, but there is a statutory floor of 7 million (MCL 500.410(2)).  The State of Ferris is a brand new state in the union and is developing its first legal code. You have been retained by Governor Eisler in order to advise on insurance regulation. You are thinking about insurance reserves, and before determining standards for required reserves, you want to decide whether this restriction is ethical.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).    "
-},
-{
-  "id": "ethics-reserve-requirements-4",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "insurance reserve requirements unimpaired capital "
-},
-{
-  "id": "reserve-requirements-problem-statement",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-problem-statement",
-  "type": "Activity",
-  "number": "12.5.1",
-  "title": "",
-  "body": "   Step 1 : State the Problem.   "
-},
-{
-  "id": "reserve-requirements-fact-gathering",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-fact-gathering",
-  "type": "Activity",
-  "number": "12.5.2",
-  "title": "",
-  "body": "   Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.   "
-},
-{
-  "id": "reserve-requirements-identify-stakeholders",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-identify-stakeholders",
-  "type": "Activity",
-  "number": "12.5.3",
-  "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
-},
-{
-  "id": "reserve-requirements-develop-options",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-develop-options",
-  "type": "Activity",
-  "number": "12.5.4",
-  "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "reserve-requirements-test-options",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-test-options",
-  "type": "Activity",
-  "number": "12.5.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "reserve-requirements-make-decision",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-make-decision",
-  "type": "Activity",
-  "number": "12.5.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "reserve-requirements-check-work",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-check-work",
-  "type": "Activity",
-  "number": "12.5.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "reserve-requirements-memo",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-memo",
-  "type": "Activity",
-  "number": "12.5.8",
-  "title": "",
-  "body": "  Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).   "
-},
-{
-  "id": "matching-liabilities-assets-exercises",
-  "level": "1",
-  "url": "matching-liabilities-assets-exercises.html",
-  "type": "Exercises",
-  "number": "12.6",
-  "title": "Exercises",
-  "body": "   For each of the following, calculate the cost of exactly matching the liabilities using only the available zero-coupon bonds.    There is exactly one liability of 3000 due in 1 year. A 1-year, zero-coupon bond has par of 1000 and is priced to yield 5%.    There is exactly one liability of 2000 due in 3 years. A 3-year, zero-coupon bond has par of 100 and is priced to yield 6.5%.    There is a liability of 3000 due in 1 year and another liability of 2000 due in 2 years. A 1-year zero-coupon bond has par of 1000 and is priced to yield 3%, while a 2-year zero-coupon bond with a par of 1000 is priced to yield 4.5%.    There is a liability of 1000 due in 2 years and another liability of 2000 due in 4 years. The yield curve is:     Time in years   1  2  3  4      Spot rate   6.0%  5.0%  4.5%  3.0%  3.5%       There is a liability of 2000 due in 1 year, 1000 due in 2 years, and 3000 due in 3 years. The yield curve has , , and       For each of the following, calculate the cost of exactly matching the liabilities using only the available bonds.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year zero-coupon bond with par of 1000 priced to yield 6% and a two-year bond with par of 1000, annual coupons at 4%, priced to yield 5%.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year bond, with par value of 1000, and with an annual coupon of 3.5% priced to yield 2%, and a two-year zero-coupon bond priced to yield 3%.    There are liabilities of 1000 at the end of each of the next two years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  6%  4%  1000    2  5.5%  3%  1000       There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000       There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:      Maturity (years)    Coupon Rate    Annual Yield    Par     1.5  8%  6%  1000    3  10%  5%  1000         A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and       A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and       For each part of in which immunization is possible, state whether or not the liability is fully immunized. Justify your conclusion.    "
-},
-{
-  "id": "matching-liabilities-assets-exercises-1",
-  "level": "2",
-  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-1",
-  "type": "Exercise",
-  "number": "12.6.1",
-  "title": "",
-  "body": "  For each of the following, calculate the cost of exactly matching the liabilities using only the available zero-coupon bonds.    There is exactly one liability of 3000 due in 1 year. A 1-year, zero-coupon bond has par of 1000 and is priced to yield 5%.    There is exactly one liability of 2000 due in 3 years. A 3-year, zero-coupon bond has par of 100 and is priced to yield 6.5%.    There is a liability of 3000 due in 1 year and another liability of 2000 due in 2 years. A 1-year zero-coupon bond has par of 1000 and is priced to yield 3%, while a 2-year zero-coupon bond with a par of 1000 is priced to yield 4.5%.    There is a liability of 1000 due in 2 years and another liability of 2000 due in 4 years. The yield curve is:     Time in years   1  2  3  4      Spot rate   6.0%  5.0%  4.5%  3.0%  3.5%       There is a liability of 2000 due in 1 year, 1000 due in 2 years, and 3000 due in 3 years. The yield curve has , , and    "
-},
-{
-  "id": "matching-liabilities-assets-exercises-2",
-  "level": "2",
-  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-2",
-  "type": "Exercise",
-  "number": "12.6.2",
-  "title": "",
-  "body": "  For each of the following, calculate the cost of exactly matching the liabilities using only the available bonds.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year zero-coupon bond with par of 1000 priced to yield 6% and a two-year bond with par of 1000, annual coupons at 4%, priced to yield 5%.    There are liabilities of 1000 at the end of each of the next two years. There is a one-year bond, with par value of 1000, and with an annual coupon of 3.5% priced to yield 2%, and a two-year zero-coupon bond priced to yield 3%.    There are liabilities of 1000 at the end of each of the next two years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  6%  4%  1000    2  5.5%  3%  1000       There are liabilities of 1000 at the end of each of the next three years. The only bonds available have annual coupons and are:      Maturity (years)    Coupon Rate (annual)    Effective Annual Yield    Par     1  4%  5%  1000    2  6%  5%  1000    3  5%  3%  1000       There are liabilities of 2000 coming up in 1 year, 6 months, and liabilities of 5000 coming up in 3 years. The only bonds available have semiannual coupons and are:      Maturity (years)    Coupon Rate    Annual Yield    Par     1.5  8%  6%  1000    3  10%  5%  1000      "
-},
-{
-  "id": "matching-liabilities-assets-exercises-3",
-  "level": "2",
-  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-3",
-  "type": "Exercise",
-  "number": "12.6.3",
-  "title": "",
-  "body": "  A liability of 100,000 will come due at the end of year 5, and another liability of 175,000 will come due at the end of year 10. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and    "
-},
-{
-  "id": "reddington-exercise",
-  "level": "2",
-  "url": "matching-liabilities-assets-exercises.html#reddington-exercise",
-  "type": "Exercise",
-  "number": "12.6.4",
-  "title": "",
-  "body": "  A single liability of 250,000 will come due at the end of year 8. To immunize these liabilities at , the firm purchases a zero coupon bond of amount maturing at time and a second zero-coupon bond of amount maturing at time .  Given and below, find and . If immunization is not possible, say so and justify.     and      and      and      and      and    "
-},
-{
-  "id": "matching-liabilities-assets-exercises-5",
-  "level": "2",
-  "url": "matching-liabilities-assets-exercises.html#matching-liabilities-assets-exercises-5",
-  "type": "Exercise",
-  "number": "12.6.5",
-  "title": "",
-  "body": "  For each part of in which immunization is possible, state whether or not the liability is fully immunized. Justify your conclusion.   "
-},
-{
-  "id": "matching-liabilities-assets-problems",
-  "level": "1",
-  "url": "matching-liabilities-assets-problems.html",
-  "type": "Exercises",
-  "number": "12.7",
-  "title": "Problems",
-  "body": " Problems     A company must pay liabilities of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (years)  Effective annual yield  Par    1  10%  1000    2  12%  1000     Determine the cost to the company today to match its liabilities exactly.       An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .       Liabilities of 1 each are due at the ends of periods 1 and 2. There are three securities available to produce asset income to cover these liabilities, as follows:    A bond due at the end of period 1 with coupon rate 1% per period, valued at a periodic yield of 14%.    A bond due at the end of period 2 with coupon rate 2% per period, valued at a periodic yield of 15%.    A bond due at the end of period 2 with coupon rate 20% per period, valued at a periodic yield of 14.95%.    Determine the cost of the portfolio that exactly matches income to liabilities due using: \\begin{enumerate}    bonds (i) and (ii) only.    bonds (i) and (iii) only.       A small company terminating its operations has decided to provide each of its three employees with a severance package that pays 10,000 per year (at the end of each year) up to and including age 65, plus a lump sum payment of 100,000 at age 65. In case of death of an employee before age 65, the payments continue until that employee would have been 65. The three employees are now exactly ages 50, 53, and 55.  Suppose the company determines that the payments due under this package can be met by the income and maturities generated by three bonds, each with a face amount of 100,000 and an annual coupon rate of 10% and with maturities of 10, 12, and 15 years. Determine the cost to the company to fund the severance package if the bonds have (effective annual) yield rates of 10% for the 10-year bond, 11% for the 12-year bond, and 12% for the 15-year bond.       Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.       Providence Health Care is obligated to make a payment of 300,000 in exactly three years. In order to provide for this obligation, their financial officer decides to purchase a combination of one-year zero-coupon bonds and four-year zero-coupon bonds. Each of these bonds is sold to yield an effective yield of 4%. How much of each type of bond should be purchased so that the present value and duration conditions of Redington immunization are satisfied? Is the convexity condition also satisfied at ?       Trevor has assets at time 2 of and at time 9 of . He has a liability of 95,000 at time 5. Trevor has achieved Redington immunization in his portfolio using an annual effective interest rate of 4%.  Calculate .       A liability consists of a series of 15 annual payments of 35,000 with the first payment to be made one year from now.  The assets available to immunize this liability are five-year and ten-year zero-coupon bonds.  The annual effective interest rate used to value the assets and the liability is 6.2%. The liability has the same present value and duration as the asset portfolio.  Calculate the amount invested in the five-year zero-coupon bonds.       Aakash has a liability of 6000 due in four years. The liability will be met with payments of in two years and in six years. Aakash is employing a full immunization strategy using an annual effective interest rate of 5%.  Calculate .       Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .       A payment of 10,000 is due at time 10. This obligation will be met by payments of at time 5 and at time 15. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .       A payment of 10,000 is due at time 10. This obligation will be met by payments of at time and 6000 at time 12. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .       A liability of 1 is due at time 10. An attempt is made to fully immunize this liability at using two zero-coupon bonds of amounts and due at times and respectively. In each of the following cases, solve for the two missing quantities out of , , , , given the other two.     ,      ,      ,        An insurance company has a known liability of 1,000,000 that is due 8 years from now. The technique of full immunization is to be employed. Asset I will provide a cash flow of 300,000 exactly 6 years from now. Asset II will provide a cash flow of , exactly years from now, where .  The annual effective interest rate is 4%.  Calculate .       Which of the following statements about immunization strategies are true? (More than one may be true).    To achieve immunization, the convexity of the assets must equal the convexity of the liabilities.    The full immunization technique is designed to work for any change in the interest rate.    The theory of immunization was developed to protect against adverse effects created by changes in interest rates.      "
-},
-{
-  "id": "matching-liabilities-assets-problems-2",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-2",
-  "type": "Exercise",
-  "number": "12.7.1",
-  "title": "",
-  "body": "   A company must pay liabilities of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (years)  Effective annual yield  Par    1  10%  1000    2  12%  1000     Determine the cost to the company today to match its liabilities exactly.   "
-},
-{
-  "id": "matching-liabilities-assets-problems-3",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-3",
-  "type": "Exercise",
-  "number": "12.7.2",
-  "title": "",
-  "body": "   An insurance company accepts an obligation to pay 10,000 at the end of each year for 2 years. The insurance company purchases a combination of the following two bonds at a total cost of in order to exactly match its obligation:    1-year 4% annual coupon bond with a yield rate of 5%    2-year 6% annual coupon bond with a yield rate of 5%    Calculate .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-4",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-4",
-  "type": "Exercise",
-  "number": "12.7.3",
-  "title": "",
-  "body": "   Liabilities of 1 each are due at the ends of periods 1 and 2. There are three securities available to produce asset income to cover these liabilities, as follows:    A bond due at the end of period 1 with coupon rate 1% per period, valued at a periodic yield of 14%.    A bond due at the end of period 2 with coupon rate 2% per period, valued at a periodic yield of 15%.    A bond due at the end of period 2 with coupon rate 20% per period, valued at a periodic yield of 14.95%.    Determine the cost of the portfolio that exactly matches income to liabilities due using: \\begin{enumerate}    bonds (i) and (ii) only.    bonds (i) and (iii) only.   "
-},
-{
-  "id": "matching-liabilities-assets-problems-5",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-5",
-  "type": "Exercise",
-  "number": "12.7.4",
-  "title": "",
-  "body": "   A small company terminating its operations has decided to provide each of its three employees with a severance package that pays 10,000 per year (at the end of each year) up to and including age 65, plus a lump sum payment of 100,000 at age 65. In case of death of an employee before age 65, the payments continue until that employee would have been 65. The three employees are now exactly ages 50, 53, and 55.  Suppose the company determines that the payments due under this package can be met by the income and maturities generated by three bonds, each with a face amount of 100,000 and an annual coupon rate of 10% and with maturities of 10, 12, and 15 years. Determine the cost to the company to fund the severance package if the bonds have (effective annual) yield rates of 10% for the 10-year bond, 11% for the 12-year bond, and 12% for the 15-year bond.   "
-},
-{
-  "id": "matching-liabilities-assets-problems-6",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-6",
-  "type": "Exercise",
-  "number": "12.7.5",
-  "title": "",
-  "body": "   Liability payments of 100 each are due to be paid in 2, 4, and 6 years from now. Asset cashflow consists of in 1 year and in 5 years. The yield for all payments is 10%. An attempt is made to have the asset cash flow immunize the liability cashflow by matching present value and duration.    Find and .    Determine whether or not the conditions of Redington immunization are satisfied.   "
-},
-{
-  "id": "matching-liabilities-assets-problems-7",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-7",
-  "type": "Exercise",
-  "number": "12.7.6",
-  "title": "",
-  "body": "   Providence Health Care is obligated to make a payment of 300,000 in exactly three years. In order to provide for this obligation, their financial officer decides to purchase a combination of one-year zero-coupon bonds and four-year zero-coupon bonds. Each of these bonds is sold to yield an effective yield of 4%. How much of each type of bond should be purchased so that the present value and duration conditions of Redington immunization are satisfied? Is the convexity condition also satisfied at ?   "
-},
-{
-  "id": "matching-liabilities-assets-problems-8",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-8",
-  "type": "Exercise",
-  "number": "12.7.7",
-  "title": "",
-  "body": "   Trevor has assets at time 2 of and at time 9 of . He has a liability of 95,000 at time 5. Trevor has achieved Redington immunization in his portfolio using an annual effective interest rate of 4%.  Calculate .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-9",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-9",
-  "type": "Exercise",
-  "number": "12.7.8",
-  "title": "",
-  "body": "   A liability consists of a series of 15 annual payments of 35,000 with the first payment to be made one year from now.  The assets available to immunize this liability are five-year and ten-year zero-coupon bonds.  The annual effective interest rate used to value the assets and the liability is 6.2%. The liability has the same present value and duration as the asset portfolio.  Calculate the amount invested in the five-year zero-coupon bonds.   "
-},
-{
-  "id": "matching-liabilities-assets-problems-10",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-10",
-  "type": "Exercise",
-  "number": "12.7.9",
-  "title": "",
-  "body": "   Aakash has a liability of 6000 due in four years. The liability will be met with payments of in two years and in six years. Aakash is employing a full immunization strategy using an annual effective interest rate of 5%.  Calculate .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-11",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-11",
-  "type": "Exercise",
-  "number": "12.7.10",
-  "title": "",
-  "body": "   Jia Wen has a liability of 12,000 due in eight years. This liability will be met with payments of 5000 in five years and in years. Jia Wen is employing a full immunization strategy using an annual effective interest rate of 3%.  Calculate .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-12",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-12",
-  "type": "Exercise",
-  "number": "12.7.11",
-  "title": "",
-  "body": "   A payment of 10,000 is due at time 10. This obligation will be met by payments of at time 5 and at time 15. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-13",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-13",
-  "type": "Exercise",
-  "number": "12.7.12",
-  "title": "",
-  "body": "   A payment of 10,000 is due at time 10. This obligation will be met by payments of at time and 6000 at time 12. The effective rate of interest is 10% and a full immunization strategy is adopted. Find and .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-14",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-14",
-  "type": "Exercise",
-  "number": "12.7.13",
-  "title": "",
-  "body": "   A liability of 1 is due at time 10. An attempt is made to fully immunize this liability at using two zero-coupon bonds of amounts and due at times and respectively. In each of the following cases, solve for the two missing quantities out of , , , , given the other two.     ,      ,      ,    "
-},
-{
-  "id": "matching-liabilities-assets-problems-15",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-15",
-  "type": "Exercise",
-  "number": "12.7.14",
-  "title": "",
-  "body": "   An insurance company has a known liability of 1,000,000 that is due 8 years from now. The technique of full immunization is to be employed. Asset I will provide a cash flow of 300,000 exactly 6 years from now. Asset II will provide a cash flow of , exactly years from now, where .  The annual effective interest rate is 4%.  Calculate .   "
-},
-{
-  "id": "matching-liabilities-assets-problems-16",
-  "level": "2",
-  "url": "matching-liabilities-assets-problems.html#matching-liabilities-assets-problems-16",
-  "type": "Exercise",
-  "number": "12.7.15",
-  "title": "",
-  "body": "   Which of the following statements about immunization strategies are true? (More than one may be true).    To achieve immunization, the convexity of the assets must equal the convexity of the liabilities.    The full immunization technique is designed to work for any change in the interest rate.    The theory of immunization was developed to protect against adverse effects created by changes in interest rates.     "
 },
 {
   "id": "economic-point-of-view",
