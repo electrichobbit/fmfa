@@ -946,85 +946,49 @@ var ptx_lunr_docs = [
   "body": "  What do you notice from the last problem?   "
 },
 {
-  "id": "ethics-usury",
+  "id": "pawn-shop-ethics",
   "level": "1",
-  "url": "ethics-usury.html",
+  "url": "pawn-shop-ethics.html",
   "type": "Section",
   "number": "1.16",
-  "title": "Ethics Case Study - Usury",
-  "body": " Ethics Case Study - Usury  The focus of the first ethics case study will be usury , a term used to describe the collection of interest, often with a negative connotation. We will consider the arguments for and against charging interest, as well as state laws that cap the amount of interest.  We begin, as so often with Western Philosophy and Ethics, with Aristotle. Aristotle believed collecting interest was \"unnatural finance\" - an anomaly that only occurred because of minted money. He recognized the necessity of money as a medium of exchange.  In Chapter 9 of Book I of Politics , Aristotle wrote:   \"[I]n this art of wealth-getting there is no limit of the end, which is riches of the spurious kind, and the acquisition of wealth. But the art of wealth-getting which consists in household management, on the other hand, has a limit; the unlimited acquisition of wealth is not its business. And, therefore, in one point of view, all riches must have a limit; nevertheless, as a matter of fact we find the opposite to be the case; for all getters of wealth increase their hoard of coin without limit.\"   He goes on to say:   \"The origin of this disposition in men [to acquire wealth without limit] is that they are intent upon living only, and not upon living well; and as their desired are unlimited, they also desire that the means of gratifying them should be without limit.\"     What is Aristotle saying here?    The early Christian church also adopted Aristotle's position on usury. For example, in the second part of the second part of Summa Theologiae , Thomas Aquinas asserts usury is a sin. In response to Question 78, he argues that every thing has a natural use. For example, it is natural to use wine by consuming it and to use a house by dwelling in it.  Turning to money, Aquinas directly cites Aristotle's Nicomachean Ethics . In Book V, Chapter 5, concerning the proportionate and equal exchange of goods and services, Aristotle argues:   \"[I]t is not two doctors that associate an exchange, but a doctor and a farmer, or in general people who are different and unequal; but these must be equated. This is why all things that are exchanged must be somehow comparable. It is for this end that money has been introduced, and it becomes in a sense an intermediate; for it measures all things, and therefore the excess and the defect - how many shoes are equal to a house or to a given amount of food.\"   Building upon this argument, Aquinas argues:   \"[C]onsequently the proper and principal use of money is its consumption or alienation whereby it is sunk in exchange. Hence it is by its very nature unlawful to take payment for the use of money lent, which payment is known as usury: and just as a man is bound to restore other ill-gotten goods, so is he bound to restore the money which he has taken in usury.\"     How might you rebut Aristotle and Aquinas?      Part of ethical reasoning is identifying affected parties (also called stakeholders ) and identifying the consequences. In considering whether charging interest is ethical, it is clear that potential lenders are stakeholders. In what way are borrowers a stakeholder? What would be the consequence for borrowers if lenders were not allowed to collect interest?   Adam Smith also believed in the \"evil of usury,\" but defined usury as excessive interest. In Chapter 4 of Book 5 of The Wealth of Nations , Smith asserts that:   \"In countries where interest is permitted, the law, in order to prevent the extortion of usury, fixes the highest rate which can be taken without incurring a penalty. This rate ought always to be somewhat above the lowest market price, or the price which is commonly paid for the use of money by those who can give the most undoubted security.\"      What would be consequences if the legal limit on interest were too low?    Smith's concern about the \"extortion of usury\" can be found in most states' laws. For example, Michigan has interest rate caps across several categories of loans. For example, MCL Section 438.31(c)(7) prohibits interest larger than 11% per year for a loan used to purchase a home.    Suppose we have a home loan of 150,000 with an effective annual interest rate of 12\\% to be paid back in 30 years. For now, we assume the principal and interest will be paid back at one time at the end of the term (we will deal with regular payments in ).    How much will the borrower pay in interest for the loan?    Considering Smith's concerns, do you think that such a borrower pays too much for their loan? Why or why not?    The State of Michigan does not cap interest rate on all loans. For example, loans secured by stocks or bonds can carry any interest rate (MCL 438.31(c)(1)), as can a mortgage for commercial real estate in excess of 100,000 (MCL 438.31(c)(11)).    What might justify the capping of interest rates on some loans but not others?      Write a 3-paragraph response considering usury. Consider both complete prohibitions on interest and caps on interest rates. In one paragraph, address arguments in favor of both, and address arguments against both in another paragraph. In a third paragraph, draw your own conclusion. As you consider your own conclusion, consider the following:    The affected parties (stakeholders)    The consequences of prohibition and caps    Relevant principles    Be sure to \"check your gut\" before you commit to a conclusion!    "
+  "title": "Ethics Case Study: Pawn Shops",
+  "body": " Ethics Case Study: Pawn Shops  A person who owns something valuable and needs money quickly might get that money by *pawning* their valuable item. They would take it to a *pawnbroker*, who would hold their item as collateral and give them a loan. After some fixed period of time (usually 90 days), if the borrower does not repay the loan with interest, the pawnbroker may sell the item and keep the proceeds.  This industry is regulated on a state-by-state basis. At the time of this writing, 41 states cap the interest rate a borrower may be charged. These rates range from 0.5% to 30%, and the average rate is roughly 11.8%.    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?  Let's start by looking at the information on two websites. The first is from the website of the National Pawnbrokers Association and explains how a pawn transaction works . What responsibilities does the pawnbroker have, and what actions might the person pawning the item take?  The second is from the Federal Reserve and deals with the way Americans bank and use credit . The most relevant section is \"Nonbank Small Dollar Credit.\" Give an example of a situation where someone might choose to use a pawn shop.      Think of an item someone might choose to pawn: perhaps electronics or sports equipment. (Please don't choose a precious metal or a weapon: pawning those items is highly regulated.)    What would the price of that item be if it were bought new?    In general, a pawnbroker will assume they can resell an item for 60% of the new price and that they should lend one third of that resale price. How much would the pawnbroker think they could resell the above item for, and how much would they lend someone who gave them this item as collateral?    Suppose the borrower doesn't redeem the item and the pawnbroker takes possession of it after 90 days. What is the implicit interest rate that the pawnbroker gets from this transaction?    Now suppose the borrower pays this average interest rate of 11.8% every 30 days. If the interest is compounded, how many 30-day periods will it take before the cost of redeeming the item is equal to the amount the pawnbroker expects to sell it for?    What other, nonfinancial cost might the borrower experience even if they do redeem their item?      Let’s do a stakeholder analysis. In this scenario, the stakeholders are the borrower and the pawnbroker. Try to see the situation through the eyes of both of them.  Test your options by determining how the stakeholders you identified could be harmed or benefited in this kind of transaction. Fill in the following table:     Stakeholder  Primary or Secondary?  Harms  Benefits                           Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not?    "
 },
 {
-  "id": "ethics-usury-2",
+  "id": "pawn-shop-ethics-introduction",
   "level": "2",
-  "url": "ethics-usury.html#ethics-usury-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "usury "
-},
-{
-  "id": "aristotle-meaning",
-  "level": "2",
-  "url": "ethics-usury.html#aristotle-meaning",
+  "url": "pawn-shop-ethics.html#pawn-shop-ethics-introduction",
   "type": "Activity",
   "number": "1.16.1",
   "title": "",
-  "body": "  What is Aristotle saying here?   "
+  "body": "  Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?  Let's start by looking at the information on two websites. The first is from the website of the National Pawnbrokers Association and explains how a pawn transaction works . What responsibilities does the pawnbroker have, and what actions might the person pawning the item take?  The second is from the Federal Reserve and deals with the way Americans bank and use credit . The most relevant section is \"Nonbank Small Dollar Credit.\" Give an example of a situation where someone might choose to use a pawn shop.   "
 },
 {
-  "id": "rebut-aristotle-aquinas",
+  "id": "pawn-shop-ethics-interest-rate",
   "level": "2",
-  "url": "ethics-usury.html#rebut-aristotle-aquinas",
+  "url": "pawn-shop-ethics.html#pawn-shop-ethics-interest-rate",
   "type": "Activity",
   "number": "1.16.2",
   "title": "",
-  "body": "  How might you rebut Aristotle and Aquinas?   "
+  "body": "  Think of an item someone might choose to pawn: perhaps electronics or sports equipment. (Please don't choose a precious metal or a weapon: pawning those items is highly regulated.)    What would the price of that item be if it were bought new?    In general, a pawnbroker will assume they can resell an item for 60% of the new price and that they should lend one third of that resale price. How much would the pawnbroker think they could resell the above item for, and how much would they lend someone who gave them this item as collateral?    Suppose the borrower doesn't redeem the item and the pawnbroker takes possession of it after 90 days. What is the implicit interest rate that the pawnbroker gets from this transaction?    Now suppose the borrower pays this average interest rate of 11.8% every 30 days. If the interest is compounded, how many 30-day periods will it take before the cost of redeeming the item is equal to the amount the pawnbroker expects to sell it for?    What other, nonfinancial cost might the borrower experience even if they do redeem their item?   "
 },
 {
-  "id": "identifying-stakeholders",
+  "id": "pawn-shop-ethics-stakeholders",
   "level": "2",
-  "url": "ethics-usury.html#identifying-stakeholders",
+  "url": "pawn-shop-ethics.html#pawn-shop-ethics-stakeholders",
   "type": "Activity",
   "number": "1.16.3",
   "title": "",
-  "body": "  Part of ethical reasoning is identifying affected parties (also called stakeholders ) and identifying the consequences. In considering whether charging interest is ethical, it is clear that potential lenders are stakeholders. In what way are borrowers a stakeholder? What would be the consequence for borrowers if lenders were not allowed to collect interest?   Adam Smith also believed in the \"evil of usury,\" but defined usury as excessive interest. In Chapter 4 of Book 5 of The Wealth of Nations , Smith asserts that:   \"In countries where interest is permitted, the law, in order to prevent the extortion of usury, fixes the highest rate which can be taken without incurring a penalty. This rate ought always to be somewhat above the lowest market price, or the price which is commonly paid for the use of money by those who can give the most undoubted security.\"   "
+  "body": "  Let’s do a stakeholder analysis. In this scenario, the stakeholders are the borrower and the pawnbroker. Try to see the situation through the eyes of both of them.  Test your options by determining how the stakeholders you identified could be harmed or benefited in this kind of transaction. Fill in the following table:     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
 },
 {
-  "id": "usury-limits",
+  "id": "pawn-shop-ethics-reflection",
   "level": "2",
-  "url": "ethics-usury.html#usury-limits",
+  "url": "pawn-shop-ethics.html#pawn-shop-ethics-reflection",
   "type": "Activity",
   "number": "1.16.4",
   "title": "",
-  "body": "  What would be consequences if the legal limit on interest were too low?   "
-},
-{
-  "id": "usury-high-interest",
-  "level": "2",
-  "url": "ethics-usury.html#usury-high-interest",
-  "type": "Activity",
-  "number": "1.16.5",
-  "title": "",
-  "body": "  Suppose we have a home loan of 150,000 with an effective annual interest rate of 12\\% to be paid back in 30 years. For now, we assume the principal and interest will be paid back at one time at the end of the term (we will deal with regular payments in ).    How much will the borrower pay in interest for the loan?    Considering Smith's concerns, do you think that such a borrower pays too much for their loan? Why or why not?   "
-},
-{
-  "id": "usury-different-situations",
-  "level": "2",
-  "url": "ethics-usury.html#usury-different-situations",
-  "type": "Activity",
-  "number": "1.16.6",
-  "title": "",
-  "body": "  What might justify the capping of interest rates on some loans but not others?   "
-},
-{
-  "id": "usury-response",
-  "level": "2",
-  "url": "ethics-usury.html#usury-response",
-  "type": "Activity",
-  "number": "1.16.7",
-  "title": "",
-  "body": "  Write a 3-paragraph response considering usury. Consider both complete prohibitions on interest and caps on interest rates. In one paragraph, address arguments in favor of both, and address arguments against both in another paragraph. In a third paragraph, draw your own conclusion. As you consider your own conclusion, consider the following:    The affected parties (stakeholders)    The consequences of prohibition and caps    Relevant principles    Be sure to \"check your gut\" before you commit to a conclusion!   "
+  "body": "  Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not?   "
 },
 {
   "id": "compound-interest-and-timeline-reasoning-exercises",
