@@ -4330,101 +4330,11 @@ var ptx_lunr_docs = [
   "body": "  Let us consider all of our annuity and perpetuity formulas. Write down as many of the following as you can on your own and either from memory or by deriving on the fly. Then determine which formulas are worth memorizing and which are not, explaining your reasoning.       Future Value  Present Value    Annuity Immediate          Perpetuity Immediate  N\/A       Annuity Due          Perpetuity Due  N\/A       Continuous Payable Annuity            "
 },
 {
-  "id": "ethics-payday-loans",
-  "level": "1",
-  "url": "ethics-payday-loans.html",
-  "type": "Section",
-  "number": "4.11",
-  "title": "Ethics Case Study -- Payday Loans",
-  "body": " Ethics Case Study -- Payday Loans   Payday loans are short-term loans that are designed to be paid back after receiving a paycheck. The borrower writes a post-dated check to the lender for the amount to be paid back including interest (called \"fees\"), and the check has to be dated no more than two weeks after the funds are dispersed.  Interest rates on payday loans tend to be very high. Consumer advocates consider them predatory, and lobby for them to be outlawed or heavily regulated. In Michigan, payday loans are allowed and authorized by statute (MCL Section 487.2121). Currently, sixteen states and the District of Columbia outlaw high-cost payday loans.  Let's follow our ethical decision making process to analyze this.     Step 1 : State the Problem.       Step 2 : Gather the Facts.    Visit the website for the loan terms at All-Star Payday Loans:     All-Star is a payday lender in Big Rapids, Manistee, and Rockford (all in Michigan).  For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Consider a borrower who has medical debt to pay, or a student who has to make a tuition payment to unlock a registration hold. They borrow from All-Star, and possibly borrow from several other payday lenders around town in order to accumulate what they need. What happens in two weeks, when they get paid by their employer but the lender cashes their post-dated check? What could happen long-term for such a borrower?       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo setting forth and defending a recommendation to Governor Eisler of the State of Ferris. Be sure to support your position and address counterarguments (see outline in ).    "
-},
-{
-  "id": "ethics-payday-loans-2",
-  "level": "2",
-  "url": "ethics-payday-loans.html#ethics-payday-loans-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Payday loans "
-},
-{
-  "id": "payday-loans-problem-statement",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-problem-statement",
-  "type": "Activity",
-  "number": "4.11.1",
-  "title": "",
-  "body": "   Step 1 : State the Problem.   "
-},
-{
-  "id": "payday-loans-fact-gathering",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-fact-gathering",
-  "type": "Activity",
-  "number": "4.11.2",
-  "title": "",
-  "body": "   Step 2 : Gather the Facts.    Visit the website for the loan terms at All-Star Payday Loans:     All-Star is a payday lender in Big Rapids, Manistee, and Rockford (all in Michigan).  For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Consider a borrower who has medical debt to pay, or a student who has to make a tuition payment to unlock a registration hold. They borrow from All-Star, and possibly borrow from several other payday lenders around town in order to accumulate what they need. What happens in two weeks, when they get paid by their employer but the lender cashes their post-dated check? What could happen long-term for such a borrower?   "
-},
-{
-  "id": "payday-loans-identify-stakeholders",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-identify-stakeholders",
-  "type": "Activity",
-  "number": "4.11.3",
-  "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
-},
-{
-  "id": "payday-loans-develop-options",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-develop-options",
-  "type": "Activity",
-  "number": "4.11.4",
-  "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "payday-loans-test-options",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-test-options",
-  "type": "Activity",
-  "number": "4.11.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "payday-loans-make-decision",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-make-decision",
-  "type": "Activity",
-  "number": "4.11.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "payday-loans-check-work",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-check-work",
-  "type": "Activity",
-  "number": "4.11.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "payday-loans-memo",
-  "level": "2",
-  "url": "ethics-payday-loans.html#payday-loans-memo",
-  "type": "Activity",
-  "number": "4.11.8",
-  "title": "",
-  "body": "  Write a memo setting forth and defending a recommendation to Governor Eisler of the State of Ferris. Be sure to support your position and address counterarguments (see outline in ).   "
-},
-{
   "id": "problem-solving-with-annuities-exercises",
   "level": "1",
   "url": "problem-solving-with-annuities-exercises.html",
   "type": "Exercises",
-  "number": "4.12",
+  "number": "4.11",
   "title": "Exercises",
   "body": "   For each of the following deferred annuities, make a timeline marking where the valuation occurs, and find the value.                     Find the value of each of the annuities at the indicated time.    An annuity pays 250 at the beginning of each month for one year. Find the value three months after the final payment assuming .    An annuity pays 675 at the end of each quarter for five years. Find the value nine months prior to the final payment assuming the effective quarterly interest rate is \\\\ .    An annuity pays 45000 semiannually, starting 3.5 years from today, for four years. Find the present value assuming .    A perpetuity pays 5000 at the beginning of each month, starting three months from today. Find the present value assuming the effective monthly interest rate is 0.0225.    An annuity makes 16 quarterly payments of 7500. Find the value 6 months after the final payment assuming .      For each of the following, solve for the missing value.    An annuity makes annual payments of .    A loan for the purchase price of a house requires monthly payments of 5150 at the end of every month, starting one year from now. The loan carries an effective monthly interest rate of . The price of the house is 585,159.60. Find the number of payments required to pay off the loan.    A loan to purchase a house for 750,000 carries an interest rate of .    An annuity makes quarterly payments of 250 for 15 years. Using .    When you graduate, you have 65,500 in student loans. Your loans carry a nominal interest rate of 9% compounded monthly. Your first payment is in 9 months. Once you start paying, you will have your loans paid off in (gulp!) 20 years. What is your monthly payment?    An annuity pays 500 semiannually. Assuming an effective semiannual interest rate of 0.04, the value two years after the final payment is 10,699.47. How many payments were there?      Value the following cash flows as indicated.    An annuity pays 250 at the end of each month for 2 years, followed by payments of 500 at the end of each month for 3 years. The effective monthly interest rate is 0.005. Find the present value.    An annuity has quarterly payments of 750 for 3 years, followed by quarterly payments of 250 for 1 year. Given , find the value immediately after the final payment.    An annuity due has semiannual payments of 2500 for 10 years. For the first 7 years, the effective semiannual interest rate is 4%. For the final 3 years, the nominal interest rate is 6% compounded semiannually. Find the present value.    An annuity immediate pays 1000 annually for 12 years, then pays 920 for 8 years. During the first 10 years, the effective annual interest rate is 0.08, and for the final 10 years, the effective annual interest rate is 6%. Find the value immediately after the final payment.    An \"entailed perpetuity\" (my own invented term) is an annuity followed by a perpetuity. Suppose an entailed perpetuity has a 10-year annuity immediate with semi-annual payments of 12,000 followed by a perpetuity immediate with semiannual payments of 15,000. Assuming forever, find the price to purchase this financial product.      Value the following annuities as indicated.    Find the accumulated value of an annuity that pays 7000 at the beginning of each month for 12 years, assuming that the effective annual interest rate is .    Find the present value of an an annuity immediate that pays 2000 quarterly for 6.75 years, given .    Find the present value of a perpetuity immediate with payments of 4500 every three years, given .    Find the accumulated value of an annuity due paying 150 annually for three years given an effective quarterly interest rate of 3%.    Find the accumulated value of an annuity immediate paying 2000 at the end of every five years for four decades, assuming the effective annual interest rate is .      Value the following annuities as indicated.    Find the present value of an annuity immediate with 20 payments of 900 with an effective periodic discount rate of 6%.    Find the accumulated value of an annuity immediate with payments of 20,000 semiannually for 10 years, assuming .    Find the accumulated value of a 10-year perpetuity due with payments of 6000 every 2 years, assuming .    A stock pays quarterly dividends of 3.75 for the next three years, starting three months from today. Find the present value assuming a continuously compounded interest rate of 4%.    Find the accumulated value of an annuity with 15 annual payments of 375 immediately following the last payment, assuming .      Find the present value of a continuously payable annuity, with payments at a rate of 12,000 per year for 5 years, assuming .      A continuously payable annuity has payments of 2400 quarterly for 3 years. Find the accumulated value, assuming .    "
 },
@@ -4433,7 +4343,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-1",
   "type": "Exercise",
-  "number": "4.12.1",
+  "number": "4.11.1",
   "title": "",
   "body": "  For each of the following deferred annuities, make a timeline marking where the valuation occurs, and find the value.                  "
 },
@@ -4442,7 +4352,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-2",
   "type": "Exercise",
-  "number": "4.12.2",
+  "number": "4.11.2",
   "title": "",
   "body": "  Find the value of each of the annuities at the indicated time.    An annuity pays 250 at the beginning of each month for one year. Find the value three months after the final payment assuming .    An annuity pays 675 at the end of each quarter for five years. Find the value nine months prior to the final payment assuming the effective quarterly interest rate is \\\\ .    An annuity pays 45000 semiannually, starting 3.5 years from today, for four years. Find the present value assuming .    A perpetuity pays 5000 at the beginning of each month, starting three months from today. Find the present value assuming the effective monthly interest rate is 0.0225.    An annuity makes 16 quarterly payments of 7500. Find the value 6 months after the final payment assuming .   "
 },
@@ -4451,7 +4361,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-3",
   "type": "Exercise",
-  "number": "4.12.3",
+  "number": "4.11.3",
   "title": "",
   "body": "  For each of the following, solve for the missing value.    An annuity makes annual payments of .    A loan for the purchase price of a house requires monthly payments of 5150 at the end of every month, starting one year from now. The loan carries an effective monthly interest rate of . The price of the house is 585,159.60. Find the number of payments required to pay off the loan.    A loan to purchase a house for 750,000 carries an interest rate of .    An annuity makes quarterly payments of 250 for 15 years. Using .    When you graduate, you have 65,500 in student loans. Your loans carry a nominal interest rate of 9% compounded monthly. Your first payment is in 9 months. Once you start paying, you will have your loans paid off in (gulp!) 20 years. What is your monthly payment?    An annuity pays 500 semiannually. Assuming an effective semiannual interest rate of 0.04, the value two years after the final payment is 10,699.47. How many payments were there?   "
 },
@@ -4460,7 +4370,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-4",
   "type": "Exercise",
-  "number": "4.12.4",
+  "number": "4.11.4",
   "title": "",
   "body": "  Value the following cash flows as indicated.    An annuity pays 250 at the end of each month for 2 years, followed by payments of 500 at the end of each month for 3 years. The effective monthly interest rate is 0.005. Find the present value.    An annuity has quarterly payments of 750 for 3 years, followed by quarterly payments of 250 for 1 year. Given , find the value immediately after the final payment.    An annuity due has semiannual payments of 2500 for 10 years. For the first 7 years, the effective semiannual interest rate is 4%. For the final 3 years, the nominal interest rate is 6% compounded semiannually. Find the present value.    An annuity immediate pays 1000 annually for 12 years, then pays 920 for 8 years. During the first 10 years, the effective annual interest rate is 0.08, and for the final 10 years, the effective annual interest rate is 6%. Find the value immediately after the final payment.    An \"entailed perpetuity\" (my own invented term) is an annuity followed by a perpetuity. Suppose an entailed perpetuity has a 10-year annuity immediate with semi-annual payments of 12,000 followed by a perpetuity immediate with semiannual payments of 15,000. Assuming forever, find the price to purchase this financial product.   "
 },
@@ -4469,7 +4379,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-5",
   "type": "Exercise",
-  "number": "4.12.5",
+  "number": "4.11.5",
   "title": "",
   "body": "  Value the following annuities as indicated.    Find the accumulated value of an annuity that pays 7000 at the beginning of each month for 12 years, assuming that the effective annual interest rate is .    Find the present value of an an annuity immediate that pays 2000 quarterly for 6.75 years, given .    Find the present value of a perpetuity immediate with payments of 4500 every three years, given .    Find the accumulated value of an annuity due paying 150 annually for three years given an effective quarterly interest rate of 3%.    Find the accumulated value of an annuity immediate paying 2000 at the end of every five years for four decades, assuming the effective annual interest rate is .   "
 },
@@ -4478,7 +4388,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-6",
   "type": "Exercise",
-  "number": "4.12.6",
+  "number": "4.11.6",
   "title": "",
   "body": "  Value the following annuities as indicated.    Find the present value of an annuity immediate with 20 payments of 900 with an effective periodic discount rate of 6%.    Find the accumulated value of an annuity immediate with payments of 20,000 semiannually for 10 years, assuming .    Find the accumulated value of a 10-year perpetuity due with payments of 6000 every 2 years, assuming .    A stock pays quarterly dividends of 3.75 for the next three years, starting three months from today. Find the present value assuming a continuously compounded interest rate of 4%.    Find the accumulated value of an annuity with 15 annual payments of 375 immediately following the last payment, assuming .   "
 },
@@ -4487,7 +4397,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-7",
   "type": "Exercise",
-  "number": "4.12.7",
+  "number": "4.11.7",
   "title": "",
   "body": "  Find the present value of a continuously payable annuity, with payments at a rate of 12,000 per year for 5 years, assuming .   "
 },
@@ -4496,7 +4406,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-exercises.html#problem-solving-with-annuities-exercises-8",
   "type": "Exercise",
-  "number": "4.12.8",
+  "number": "4.11.8",
   "title": "",
   "body": "  A continuously payable annuity has payments of 2400 quarterly for 3 years. Find the accumulated value, assuming .   "
 },
@@ -4505,7 +4415,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "problem-solving-with-annuities-problems.html",
   "type": "Exercises",
-  "number": "4.13",
+  "number": "4.12",
   "title": "Problems",
   "body": " Problems     On the first day of every January, April, July, and October Smith deposits 100 in an account earning . He continues the deposits until he accumulates a sufficient balance to begin withdrawals of 200 every 3 months, starting 3 months after the final deposit, such that he can make twice as many withdrawals as he made deposits. How many deposits are needed?       You are given that . Find .       A deferred perpetuity-due begins payments at time with annual payments of 1000 per year. If the present value of this perpetuity-due is equal to 6561 and the effective rate of interest is , find .       Payments of 100 per quarter are made from June 7, Z (Z is the year) through December 7, Z+11, inclusive. If the nominal rate of interest convertible quarterly is 6%:    Find the present value on September 7, Z-1.    Find the current value on March 7, Z+8.    Find the accumulated value on June 7, Z+ 12.       Find the present value to the nearest dollar on January 1 of an annuity which pays 2000 every six months for five years. The first payment is due on the next April 1 and the rate of interest is 9% convertible semiannually.       Find the present value of payments of 200 every six months starting immediately and continuing through four years from the present, and 100 every six months thereafter through ten years from the present, if .       In a series of 40 payments, the first 10 payments are 10 each, the second 10 payments are 20 each, the third ten payments are 30 each, and the final payments are 40 each. The payments are equally spaced and the interest rate is 5% per payment period. Find the accumulated value at the time of the final payment.       A loan of 10,000 is being repaid by 10 semiannual payments, with the first payment made one-half year after the loan. The first five payments are each, and the final five payments are each. What is if        A worker aged 40 wishes to accumulate a fund for retirement by depositing 3000 at the beginning of each year for 25 years. Starting at age 65, the worker plans to make 15 annual withdrawals at the beginning of each year. Assuming that all payments are certain to be made, find the amount of each withdrawal starting at age 65 to the nearest dollar, if the effective rate of interest is 8% during the first 25 years but only 7% thereafter.       Find the present value of an annuity-immediate which pays 1 at the end of each half-year for five years, if the rate of interest is 8% convertible semiannually for the first three years and 7% convertible semiannually for the last two years.       A loan of 10,000 is to be repaid with annual payments at the end of each year for the next 20 years. For the first 5 years the payments are per year; the second 5 years, per year; the third 5 years, per year; and the fourth 5 years, per year. Find an expression for .       A loan of 1000 is repaid with 12 annual payments of 100 each starting one year after the loan is made. The effective annual interest rate is 3.5% for the first 4 years. Find the effective interest rate for the final 8 years.       Simplify to one symbol.       Annuities and provide the following payments:     End of Year  Annuity   Annuity             1-10  1       11-20  2  0    21-30  1        Annuities and have equal present values at an annual effective interest rate such that . Determine .       At an effective annual interest rate of , , both of the following annuities have a present value of :    a 20-year annuity-immediate with annual payments of 55    a 30-year annuity-immediate with annual payments that pays 30 per year for the first 10 years, 60 per year for the second 10 years, and 90 per year for the final 10 years.    Calculate .       A loan of 1000 is to be repaid by annual payments of 100 to commence at the end of the fifth year and to continue thereafter for as long as necessary. Find the time and amount of the final payment, if the final payment is to be larger than the regular payments. Assume .       One annuity pays 4 at the end of each year for 36 years. Another annuity pays 5 at the end of each year for 18 years. The present values of both annuities are equal at effective rate of interest . If an amount of money invested at the same rate will double in years, find .       Dottie receives payments of at the end of each year for years. The present value of her annuity is 493. Sam receives payments of at the end of each year for years. The present value of his annuity is 2748. Both present values are calculated at the same effective annual interest rate. Determine .       10,000 can be invested under two options:  OPTION 1: Deposit the 10,000 into a fund earning an effective annual rate of ; or  OPTION 2: Purchase an annuity-immediate with 24 level annual payments at an effective annual rate of 10%. The payments are deposited into a fund earning an effective annual rate of 5%.  Both options produce the same accumulated value at the end of 24 years. Calculate .       A benefactor leaves an inheritance to four charities: , , , and . The total inheritance is a series of level payments at the end of each year forever. During the first years, , , and share each payment equally. All payments after years revert to . If the present values of the shares of , , , and are all equal, find .       Given that and , find .       Given and , find .       If and , find the values of , , and .       If , , and , find .       An year annuity of 1 per year has during the first years and has during the remaining years. If and , what is the accumulated value of the annuity just after the final payment?       Given 54 , find .       Smith makes deposits of 1000 on the last day of each month in an account earning interest at rate . The first deposit is January 31, 2010 and the final deposit is December 31, 2034. The accumulated account is used to pay for monthly payments of starting January 31, 2035 with the final one on December 31, 2059. Find .       Since June 30, 2014 Smith has been making deposits of 100 each into a bank account on the last day of each month. For all of 2014 and 2015 Smith\\textquotesingle s account earned nominal interest compounded monthly at an annual rate of 9%. For the first 9 months of 2016 the account earned , and since then the account has been earning .  Find the balance in the account on each of the following days: \\begin{enumerate}    January 1, 2015,    January 1, 2016, and    February 1, 2017.       A scholarship fund is started on January 1, 2015 with an initial deposit of 100,000 in an account earning , with interest credited every June 30 and December 31. Every January 1 from 2016 on, the fund will receive a deposit of 5000. The scholarship fund makes payments to recipients totaling 12,000 every July 1 starting in 2015. What amount is in the scholarship account just after the 5000 deposit is made on January 1, 2025?       A sum of 10,000 was invested on September 1, 1970 at an effective annual interest rate of 5% in order to provide an annual scholarship of 2000 every September 1, forever, starting as soon as possible. In what year will the first payment of 2000 be made? What smaller payment could be made one year earlier while still permitting the annual scholarships of 2000 thereafter? Assume that interest is credited every August 31.       On the first day of each month, starting January 1, 1995, Smith deposits 100 in an account earning , with interest credited the last day of each month. In addition, Smith deposits 1000 in the account every December 31. On what day does the account first exceed 100,000?       An annuity-immediate that pays 400 quarterly for the next 10 years costs 10,000. Calculate the nominal interest rate convertible monthly earned by this investment.       A 50,000 loan made on January 1, 2010 is to be repaid over 25 years with payments on the last day of each month, beginning January 31, 2010.    If , find the amount of the monthly payment .    Starting with the first payment, the borrower decides to pay an additional 100 per month, on top of the regular payment of , until the loan is repaid. An additional fractional payment might be necessary one month after the last payment of . On what date will the final payment of be made, and what will be the amount of the additional fractional payment?       Jerry will make deposits of 450 at the end of each quarter for 10 years. At the end of 15 years, Jerry will use the fund to make annual payments of at the beginning of each year for 4 years, after which the fund is exhausted. The effective annual rate of interest is 7%. Determine .       A perpetuity paying 1 at the beginning of each 6-month period has a present value of 20. A second perpetuity pays at the beginning of every 2 years. Assuming the same effective annual interest rate, the two present values are equal. Determine .       Sally lends 10,000 to Tim. Tim agrees to pay back the loan over 5 years with monthly payments at the end of each month. Sally can reinvest the payments from Tim in a savings account paying interest at 6% compounded monthly. The yield rate over the five-year period (that is, the interest rate that would make the lump sum of 10,000 at time 0 accumulate to the amount in the savings account immediately after the last payment from Tim is deposited) turned out to be 7.45% compounded semi-annually. What nominal rate of interest, compounded monthly, did Sally charge Tim on the loan?       At an effective annual interest rate of , , the present value of a perpetuity paying 10 at the end of each 3-year period, with the first payment at the end of year 6, is 32. At the same effective annual interest rate of , the present value of a perpetuity-immediate paying 1 at the end of each 4-month period is . Calculate .       Find an expression for the present value of an annuity on which payments are 100 per quarter for five years, just before the first payment is made, if .       There is 40,000 in a fund which is accumulating at 4% per annum convertible continuously. If money is withdrawn continuously at a rate of 2400 per annum, how long will the fund last?       If and , find .    "
 },
@@ -4514,7 +4424,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-2",
   "type": "Exercise",
-  "number": "4.13.1",
+  "number": "4.12.1",
   "title": "",
   "body": "   On the first day of every January, April, July, and October Smith deposits 100 in an account earning . He continues the deposits until he accumulates a sufficient balance to begin withdrawals of 200 every 3 months, starting 3 months after the final deposit, such that he can make twice as many withdrawals as he made deposits. How many deposits are needed?   "
 },
@@ -4523,7 +4433,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-3",
   "type": "Exercise",
-  "number": "4.13.2",
+  "number": "4.12.2",
   "title": "",
   "body": "   You are given that . Find .   "
 },
@@ -4532,7 +4442,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-4",
   "type": "Exercise",
-  "number": "4.13.3",
+  "number": "4.12.3",
   "title": "",
   "body": "   A deferred perpetuity-due begins payments at time with annual payments of 1000 per year. If the present value of this perpetuity-due is equal to 6561 and the effective rate of interest is , find .   "
 },
@@ -4541,7 +4451,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-5",
   "type": "Exercise",
-  "number": "4.13.4",
+  "number": "4.12.4",
   "title": "",
   "body": "   Payments of 100 per quarter are made from June 7, Z (Z is the year) through December 7, Z+11, inclusive. If the nominal rate of interest convertible quarterly is 6%:    Find the present value on September 7, Z-1.    Find the current value on March 7, Z+8.    Find the accumulated value on June 7, Z+ 12.   "
 },
@@ -4550,7 +4460,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-6",
   "type": "Exercise",
-  "number": "4.13.5",
+  "number": "4.12.5",
   "title": "",
   "body": "   Find the present value to the nearest dollar on January 1 of an annuity which pays 2000 every six months for five years. The first payment is due on the next April 1 and the rate of interest is 9% convertible semiannually.   "
 },
@@ -4559,7 +4469,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-7",
   "type": "Exercise",
-  "number": "4.13.6",
+  "number": "4.12.6",
   "title": "",
   "body": "   Find the present value of payments of 200 every six months starting immediately and continuing through four years from the present, and 100 every six months thereafter through ten years from the present, if .   "
 },
@@ -4568,7 +4478,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-8",
   "type": "Exercise",
-  "number": "4.13.7",
+  "number": "4.12.7",
   "title": "",
   "body": "   In a series of 40 payments, the first 10 payments are 10 each, the second 10 payments are 20 each, the third ten payments are 30 each, and the final payments are 40 each. The payments are equally spaced and the interest rate is 5% per payment period. Find the accumulated value at the time of the final payment.   "
 },
@@ -4577,7 +4487,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-9",
   "type": "Exercise",
-  "number": "4.13.8",
+  "number": "4.12.8",
   "title": "",
   "body": "   A loan of 10,000 is being repaid by 10 semiannual payments, with the first payment made one-half year after the loan. The first five payments are each, and the final five payments are each. What is if    "
 },
@@ -4586,7 +4496,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-10",
   "type": "Exercise",
-  "number": "4.13.9",
+  "number": "4.12.9",
   "title": "",
   "body": "   A worker aged 40 wishes to accumulate a fund for retirement by depositing 3000 at the beginning of each year for 25 years. Starting at age 65, the worker plans to make 15 annual withdrawals at the beginning of each year. Assuming that all payments are certain to be made, find the amount of each withdrawal starting at age 65 to the nearest dollar, if the effective rate of interest is 8% during the first 25 years but only 7% thereafter.   "
 },
@@ -4595,7 +4505,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-11",
   "type": "Exercise",
-  "number": "4.13.10",
+  "number": "4.12.10",
   "title": "",
   "body": "   Find the present value of an annuity-immediate which pays 1 at the end of each half-year for five years, if the rate of interest is 8% convertible semiannually for the first three years and 7% convertible semiannually for the last two years.   "
 },
@@ -4604,7 +4514,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-12",
   "type": "Exercise",
-  "number": "4.13.11",
+  "number": "4.12.11",
   "title": "",
   "body": "   A loan of 10,000 is to be repaid with annual payments at the end of each year for the next 20 years. For the first 5 years the payments are per year; the second 5 years, per year; the third 5 years, per year; and the fourth 5 years, per year. Find an expression for .   "
 },
@@ -4613,7 +4523,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-13",
   "type": "Exercise",
-  "number": "4.13.12",
+  "number": "4.12.12",
   "title": "",
   "body": "   A loan of 1000 is repaid with 12 annual payments of 100 each starting one year after the loan is made. The effective annual interest rate is 3.5% for the first 4 years. Find the effective interest rate for the final 8 years.   "
 },
@@ -4622,7 +4532,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-14",
   "type": "Exercise",
-  "number": "4.13.13",
+  "number": "4.12.13",
   "title": "",
   "body": "   Simplify to one symbol.   "
 },
@@ -4631,7 +4541,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-15",
   "type": "Exercise",
-  "number": "4.13.14",
+  "number": "4.12.14",
   "title": "",
   "body": "   Annuities and provide the following payments:     End of Year  Annuity   Annuity             1-10  1       11-20  2  0    21-30  1        Annuities and have equal present values at an annual effective interest rate such that . Determine .   "
 },
@@ -4640,7 +4550,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-16",
   "type": "Exercise",
-  "number": "4.13.15",
+  "number": "4.12.15",
   "title": "",
   "body": "   At an effective annual interest rate of , , both of the following annuities have a present value of :    a 20-year annuity-immediate with annual payments of 55    a 30-year annuity-immediate with annual payments that pays 30 per year for the first 10 years, 60 per year for the second 10 years, and 90 per year for the final 10 years.    Calculate .   "
 },
@@ -4649,7 +4559,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-17",
   "type": "Exercise",
-  "number": "4.13.16",
+  "number": "4.12.16",
   "title": "",
   "body": "   A loan of 1000 is to be repaid by annual payments of 100 to commence at the end of the fifth year and to continue thereafter for as long as necessary. Find the time and amount of the final payment, if the final payment is to be larger than the regular payments. Assume .   "
 },
@@ -4658,7 +4568,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-18",
   "type": "Exercise",
-  "number": "4.13.17",
+  "number": "4.12.17",
   "title": "",
   "body": "   One annuity pays 4 at the end of each year for 36 years. Another annuity pays 5 at the end of each year for 18 years. The present values of both annuities are equal at effective rate of interest . If an amount of money invested at the same rate will double in years, find .   "
 },
@@ -4667,7 +4577,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-19",
   "type": "Exercise",
-  "number": "4.13.18",
+  "number": "4.12.18",
   "title": "",
   "body": "   Dottie receives payments of at the end of each year for years. The present value of her annuity is 493. Sam receives payments of at the end of each year for years. The present value of his annuity is 2748. Both present values are calculated at the same effective annual interest rate. Determine .   "
 },
@@ -4676,7 +4586,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-20",
   "type": "Exercise",
-  "number": "4.13.19",
+  "number": "4.12.19",
   "title": "",
   "body": "   10,000 can be invested under two options:  OPTION 1: Deposit the 10,000 into a fund earning an effective annual rate of ; or  OPTION 2: Purchase an annuity-immediate with 24 level annual payments at an effective annual rate of 10%. The payments are deposited into a fund earning an effective annual rate of 5%.  Both options produce the same accumulated value at the end of 24 years. Calculate .   "
 },
@@ -4685,7 +4595,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-21",
   "type": "Exercise",
-  "number": "4.13.20",
+  "number": "4.12.20",
   "title": "",
   "body": "   A benefactor leaves an inheritance to four charities: , , , and . The total inheritance is a series of level payments at the end of each year forever. During the first years, , , and share each payment equally. All payments after years revert to . If the present values of the shares of , , , and are all equal, find .   "
 },
@@ -4694,7 +4604,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-22",
   "type": "Exercise",
-  "number": "4.13.21",
+  "number": "4.12.21",
   "title": "",
   "body": "   Given that and , find .   "
 },
@@ -4703,7 +4613,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-23",
   "type": "Exercise",
-  "number": "4.13.22",
+  "number": "4.12.22",
   "title": "",
   "body": "   Given and , find .   "
 },
@@ -4712,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-24",
   "type": "Exercise",
-  "number": "4.13.23",
+  "number": "4.12.23",
   "title": "",
   "body": "   If and , find the values of , , and .   "
 },
@@ -4721,7 +4631,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-25",
   "type": "Exercise",
-  "number": "4.13.24",
+  "number": "4.12.24",
   "title": "",
   "body": "   If , , and , find .   "
 },
@@ -4730,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-26",
   "type": "Exercise",
-  "number": "4.13.25",
+  "number": "4.12.25",
   "title": "",
   "body": "   An year annuity of 1 per year has during the first years and has during the remaining years. If and , what is the accumulated value of the annuity just after the final payment?   "
 },
@@ -4739,7 +4649,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-27",
   "type": "Exercise",
-  "number": "4.13.26",
+  "number": "4.12.26",
   "title": "",
   "body": "   Given 54 , find .   "
 },
@@ -4748,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-28",
   "type": "Exercise",
-  "number": "4.13.27",
+  "number": "4.12.27",
   "title": "",
   "body": "   Smith makes deposits of 1000 on the last day of each month in an account earning interest at rate . The first deposit is January 31, 2010 and the final deposit is December 31, 2034. The accumulated account is used to pay for monthly payments of starting January 31, 2035 with the final one on December 31, 2059. Find .   "
 },
@@ -4757,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-29",
   "type": "Exercise",
-  "number": "4.13.28",
+  "number": "4.12.28",
   "title": "",
   "body": "   Since June 30, 2014 Smith has been making deposits of 100 each into a bank account on the last day of each month. For all of 2014 and 2015 Smith\\textquotesingle s account earned nominal interest compounded monthly at an annual rate of 9%. For the first 9 months of 2016 the account earned , and since then the account has been earning .  Find the balance in the account on each of the following days: \\begin{enumerate}    January 1, 2015,    January 1, 2016, and    February 1, 2017.   "
 },
@@ -4766,7 +4676,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-30",
   "type": "Exercise",
-  "number": "4.13.29",
+  "number": "4.12.29",
   "title": "",
   "body": "   A scholarship fund is started on January 1, 2015 with an initial deposit of 100,000 in an account earning , with interest credited every June 30 and December 31. Every January 1 from 2016 on, the fund will receive a deposit of 5000. The scholarship fund makes payments to recipients totaling 12,000 every July 1 starting in 2015. What amount is in the scholarship account just after the 5000 deposit is made on January 1, 2025?   "
 },
@@ -4775,7 +4685,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-31",
   "type": "Exercise",
-  "number": "4.13.30",
+  "number": "4.12.30",
   "title": "",
   "body": "   A sum of 10,000 was invested on September 1, 1970 at an effective annual interest rate of 5% in order to provide an annual scholarship of 2000 every September 1, forever, starting as soon as possible. In what year will the first payment of 2000 be made? What smaller payment could be made one year earlier while still permitting the annual scholarships of 2000 thereafter? Assume that interest is credited every August 31.   "
 },
@@ -4784,7 +4694,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-32",
   "type": "Exercise",
-  "number": "4.13.31",
+  "number": "4.12.31",
   "title": "",
   "body": "   On the first day of each month, starting January 1, 1995, Smith deposits 100 in an account earning , with interest credited the last day of each month. In addition, Smith deposits 1000 in the account every December 31. On what day does the account first exceed 100,000?   "
 },
@@ -4793,7 +4703,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-33",
   "type": "Exercise",
-  "number": "4.13.32",
+  "number": "4.12.32",
   "title": "",
   "body": "   An annuity-immediate that pays 400 quarterly for the next 10 years costs 10,000. Calculate the nominal interest rate convertible monthly earned by this investment.   "
 },
@@ -4802,7 +4712,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-34",
   "type": "Exercise",
-  "number": "4.13.33",
+  "number": "4.12.33",
   "title": "",
   "body": "   A 50,000 loan made on January 1, 2010 is to be repaid over 25 years with payments on the last day of each month, beginning January 31, 2010.    If , find the amount of the monthly payment .    Starting with the first payment, the borrower decides to pay an additional 100 per month, on top of the regular payment of , until the loan is repaid. An additional fractional payment might be necessary one month after the last payment of . On what date will the final payment of be made, and what will be the amount of the additional fractional payment?   "
 },
@@ -4811,7 +4721,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-35",
   "type": "Exercise",
-  "number": "4.13.34",
+  "number": "4.12.34",
   "title": "",
   "body": "   Jerry will make deposits of 450 at the end of each quarter for 10 years. At the end of 15 years, Jerry will use the fund to make annual payments of at the beginning of each year for 4 years, after which the fund is exhausted. The effective annual rate of interest is 7%. Determine .   "
 },
@@ -4820,7 +4730,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-36",
   "type": "Exercise",
-  "number": "4.13.35",
+  "number": "4.12.35",
   "title": "",
   "body": "   A perpetuity paying 1 at the beginning of each 6-month period has a present value of 20. A second perpetuity pays at the beginning of every 2 years. Assuming the same effective annual interest rate, the two present values are equal. Determine .   "
 },
@@ -4829,7 +4739,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-37",
   "type": "Exercise",
-  "number": "4.13.36",
+  "number": "4.12.36",
   "title": "",
   "body": "   Sally lends 10,000 to Tim. Tim agrees to pay back the loan over 5 years with monthly payments at the end of each month. Sally can reinvest the payments from Tim in a savings account paying interest at 6% compounded monthly. The yield rate over the five-year period (that is, the interest rate that would make the lump sum of 10,000 at time 0 accumulate to the amount in the savings account immediately after the last payment from Tim is deposited) turned out to be 7.45% compounded semi-annually. What nominal rate of interest, compounded monthly, did Sally charge Tim on the loan?   "
 },
@@ -4838,7 +4748,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-38",
   "type": "Exercise",
-  "number": "4.13.37",
+  "number": "4.12.37",
   "title": "",
   "body": "   At an effective annual interest rate of , , the present value of a perpetuity paying 10 at the end of each 3-year period, with the first payment at the end of year 6, is 32. At the same effective annual interest rate of , the present value of a perpetuity-immediate paying 1 at the end of each 4-month period is . Calculate .   "
 },
@@ -4847,7 +4757,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-39",
   "type": "Exercise",
-  "number": "4.13.38",
+  "number": "4.12.38",
   "title": "",
   "body": "   Find an expression for the present value of an annuity on which payments are 100 per quarter for five years, just before the first payment is made, if .   "
 },
@@ -4856,7 +4766,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-40",
   "type": "Exercise",
-  "number": "4.13.39",
+  "number": "4.12.39",
   "title": "",
   "body": "   There is 40,000 in a fund which is accumulating at 4% per annum convertible continuously. If money is withdrawn continuously at a rate of 2400 per annum, how long will the fund last?   "
 },
@@ -4865,7 +4775,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "problem-solving-with-annuities-problems.html#problem-solving-with-annuities-problems-41",
   "type": "Exercise",
-  "number": "4.13.40",
+  "number": "4.12.40",
   "title": "",
   "body": "   If and , find .   "
 },
