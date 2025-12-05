@@ -1,0 +1,109 @@
+<section xml:id="pawn-shop-ethics" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>Ethics Case Study: Pawn Shops</title>
+	<p>
+		A person who owns something valuable and needs money quickly might get that money by *pawning* their valuable item. They would take it to a *pawnbroker*, who would hold their item as collateral and give them a loan. After some fixed period of time (usually 90 days), if the borrower does not repay the loan with interest, the pawnbroker may sell the item and keep the proceeds.
+	</p>
+	<p>
+		This industry is regulated on a state-by-state basis. At the time of this writing, 41 states cap the interest rate a borrower may be charged. These rates range from 0.5% to 30%, and the average rate is roughly 11.8%.
+	</p>
+
+	<activity xml:id="pawn-shop-ethics-introduction">
+		<statement>
+			<p>
+				Before we start, read about the <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University</url>. Which lens(es) do you think you will bring to this analysis?
+			</p>
+			<p>
+				Let's start by looking at the information on two websites. The first is from the website of the National Pawnbrokers Association and <url href="https://nationalpawnbrokers.org/assets/2024/05/NPA-Pawn-Transactions-Explained.pdf">explains how a pawn transaction works</url>.  What responsibilities does the pawnbroker have, and what actions might the person pawning the item take?
+			</p>
+			<p>
+				The second is from the Federal Reserve and deals with the way <url href="https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm">Americans bank and use credit</url>.  The most relevant section is "Nonbank Small Dollar Credit." Give an example of a situation where someone might choose to use a pawn shop.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="pawn-shop-ethics-interest-rate">
+		<introduction>
+			<p>
+				Think of an item someone might choose to pawn: perhaps electronics or sports equipment. (Please don't choose a precious metal or a weapon: pawning those items is highly regulated.) 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				What would the price of that item be if it were bought new?
+			</p>
+		</task>
+		<task>
+			<p>
+				In general, a pawnbroker will assume they can resell an item for 60% of the new price and that they should lend one third of that resale price. How much would the pawnbroker think they could resell the above item for, and how much would they lend someone who gave them this item as collateral?
+			</p>
+		</task>
+		<task>
+			<p>
+				Suppose the borrower doesn't redeem the item and the pawnbroker takes possession of it after 90 days. What is the implicit interest rate that the pawnbroker gets from this transaction?
+			</p>
+		</task>
+		<task>
+			<p>
+				Now suppose the borrower pays this average interest rate of 11.8% every 30 days. If the interest is compounded, how many 30-day periods will it take before the cost of redeeming the item is equal to the amount the pawnbroker expects to sell it for?
+			</p>
+		</task>
+		<task>
+			<p>
+				What other, nonfinancial cost might the borrower experience even if they do redeem their item?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="pawn-shop-ethics-stakeholders">
+		<statement>
+			<p>
+				Let’s do a stakeholder analysis. In this scenario, the stakeholders are the borrower and the pawnbroker. Try to see the situation through the eyes of both of them.
+			</p>
+			<p>
+				Test your options by determining how the stakeholders you identified could be harmed or benefited in this kind of transaction. Fill in the following table:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Primary or Secondary?
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</statement>
+	</activity>
+	<activity xml:id="pawn-shop-ethics-reflection">
+		<statement>
+			<p>
+				Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not? 
+			</p>
+		</statement>
+	</activity>
+</section>
