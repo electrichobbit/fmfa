@@ -3475,11 +3475,83 @@ var ptx_lunr_docs = [
   "body": "  Write a memo to a superior in the SEC prosecutor recommending action. Be sure to support your position and address counterarguments (see outline in ).   "
 },
 {
+  "id": "ethics-payday-loans",
+  "level": "1",
+  "url": "ethics-payday-loans.html",
+  "type": "Section",
+  "number": "3.13",
+  "title": "Ethics Case Study -- Payday Loan Apps",
+  "body": " Ethics Case Study -- Payday Loan Apps   Payday loans are short-term loans that are designed to be paid back after receiving a paycheck. Typically the loan is to be paid back after two weeks. To get around usury laws, or at least to disguise the interest rate they are charging, lenders call the interest on these loans a \"fee\". As we will see, these fees correspond to very high interest rates.  Several states either strictly regulate or ban storefront payday lending. Lenders have started getting around these laws using smartphone apps (such as Money Lion). The Center for Responsible Lending ( ) issued a report with several policy recommendations. We will examine these recommendations using an ethical reasoning framework. In this activity, we will specifically work on Ethical Reasoning KSAs 1 (prerequisite knowledge - stakeholder analysis), 2(select a decision-making framework), 4 (evaluate alternative actions), and 5 (make\/justify a decision).    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University: . Which lens(es) do you think you will bring to this analysis?  Read the Center for Responsible Lending's report on payday lending apps:     It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor).  What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?     Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet (INSERT LINK) shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans.   For each loan amount, determine the effective 2-week interest rate charged.    For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a \"cycle of debt\"?    Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after 2-week periods (or weeks), the borrower is able to discharge the debt of 50 once and for all.  Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of . Alternatively, this is the amount that the lender makes on the original loan of 50.    Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?      You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.      Let's do a stakeholder analysis. Make a list of all those who would be impacted by implementing the recommendation(s) you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation. Test options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                           Make a decision: write a memo to the representative you work for recommending adopting or not adopting the provision(s) you considered. You can make modifications to what the Center for Responsible Lending recommended. State your recommendation first, then justify your decision with explicit reference to the stakeholder analysis.      Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your memo.    "
+},
+{
+  "id": "ethics-payday-loans-2",
+  "level": "2",
+  "url": "ethics-payday-loans.html#ethics-payday-loans-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Payday loans "
+},
+{
+  "id": "payday-loans-intro",
+  "level": "2",
+  "url": "ethics-payday-loans.html#payday-loans-intro",
+  "type": "Activity",
+  "number": "3.13.1",
+  "title": "",
+  "body": "  Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University: . Which lens(es) do you think you will bring to this analysis?  Read the Center for Responsible Lending's report on payday lending apps:     It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor).  What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?   "
+},
+{
+  "id": "example",
+  "level": "2",
+  "url": "ethics-payday-loans.html#example",
+  "type": "Activity",
+  "number": "3.13.2",
+  "title": "",
+  "body": " Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet (INSERT LINK) shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans.   For each loan amount, determine the effective 2-week interest rate charged.    For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a \"cycle of debt\"?    Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after 2-week periods (or weeks), the borrower is able to discharge the debt of 50 once and for all.  Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of . Alternatively, this is the amount that the lender makes on the original loan of 50.    Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?   "
+},
+{
+  "id": "payday-loans-identify-actions",
+  "level": "2",
+  "url": "ethics-payday-loans.html#payday-loans-identify-actions",
+  "type": "Activity",
+  "number": "3.13.3",
+  "title": "",
+  "body": "  You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.   "
+},
+{
+  "id": "payday-loans-stakeholders",
+  "level": "2",
+  "url": "ethics-payday-loans.html#payday-loans-stakeholders",
+  "type": "Activity",
+  "number": "3.13.4",
+  "title": "",
+  "body": "  Let's do a stakeholder analysis. Make a list of all those who would be impacted by implementing the recommendation(s) you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation. Test options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
+},
+{
+  "id": "payday-loans-make-decision",
+  "level": "2",
+  "url": "ethics-payday-loans.html#payday-loans-make-decision",
+  "type": "Activity",
+  "number": "3.13.5",
+  "title": "",
+  "body": "  Make a decision: write a memo to the representative you work for recommending adopting or not adopting the provision(s) you considered. You can make modifications to what the Center for Responsible Lending recommended. State your recommendation first, then justify your decision with explicit reference to the stakeholder analysis.   "
+},
+{
+  "id": "payday-loans-reflect",
+  "level": "2",
+  "url": "ethics-payday-loans.html#payday-loans-reflect",
+  "type": "Activity",
+  "number": "3.13.6",
+  "title": "",
+  "body": "  Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your memo.   "
+},
+{
   "id": "level-payment-annuities-exercises",
   "level": "1",
   "url": "level-payment-annuities-exercises.html",
   "type": "Exercises",
-  "number": "3.13",
+  "number": "3.14",
   "title": "Exercises",
   "body": "   Sum the following geometric series:                    )      Calculate the following:                                    Generate a timeline and describe the cash flows for each of the following:                          Solve each of the following for the unknown value:                     For each of the following, write the desired value in actuarial notation, and then find the value.    An annuity pays 50 at the end of each month for 1 year, with an effective monthly interest rate of 0.75%. Find the value immediately after the final payment.    An annuity pays 250 at the end of each quarter for 3 years, with nominal interest rate of 8% compounded quarterly. Find the present value.    A life insurance policy is priced so it pays out 150000 at the end of every year forever, starting at the end of the year. Find the present value using .    An annuity pays 50 at the end of every 6 months for 10 years, and a 1000 lump sum with the final payment. Find the present value, using . (This is how a bond is priced, as we will see in )    Repeat but with . Compare the two -- what do you notice?    Repeat but with . What do you notice?      For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan is made today for 250,000 with an interest rate of 12% compounded monthly. The term of the loan is 30 years, with monthly payments starting at the end of each month. Find the monthly payment amount.    A bank lends 17,500 for a car loan with an interest rate of . The loan is to be repaid with monthly payments of 410.99 at the end of each month. Find the term of the loan and express your answer in years.    A loan for college in the amount of 60,000 is to be repaid by payments of 760.05 at the end of each month for 10 years. What is the effective monthly interest rate? What is ?    A life insurance policy makes an annual payment at the end of each year forever. Using , the price (present value) of the policy is 200,000. What is the annual payment?    A life insurance policy making annual payments of 30,000 at the end of each year forever costs 1,200,000 (that is, the present value). What effective annual interest rate is used to price the policy?    A bond has semi-annual payments of 75 at the end of every period for five years, with the last payment accompanied by a lump sum redemption amount of ?      Calculate the following:                                    Each of the following represents one side of an identity. Represent each with a timeline and then write the complete identity.                     Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form or with appropriate starting and ending values for the index ). Generate the timeline and series representations for each of the following:                               Solve each of the following for the unknown value:                               For each of the following, write the desired value in actuarial notation, and then find the value.    Find the present value of an annuity due with payments of 50 at the beginning of every month for 3 years, with .    Find the future value of an annuity immediate with payments of 250 at the end of every six-months for 7 years, with .    A share of stock will pay dividends of 5.25 at the beginning of every quarter for the next 5 years. Find the present value using .    You are the lender of a loan and collect monthly payments of 550.91 at the beginning of each month, and there are 180 payments left. Another lender is willing to purchase the loan from you for the present value at . What is the offered purchase price?    Repeat assuming the payments are at the end of each month.    Find the price (present value) of annual payments of 500 indefinitely, where the payments are at the beginning of the year. Use an effective annual interest rate of .      For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan of 50,000 is paid off with quarterly payments of 4029.25 at the end of each quarter. The effective quarterly interest rate is 8%. Find the term of the loan, expressed in years.    An investor purchased an annuity consisting of 10 annual payments of 727.24 at the beginning of each year. They paid 5000 for the annuity. Find the effective annual interest rate used to value the annuity.    An annuity consists of semi-annual payments of 500 valued at . The value of the annuity 6 months after the final payment is 17,729.63. What is the term of the annuity, expressed in years?    A loan of 120,000 carrying an interest rate of is paid off with payments at the beginning of each month for 30 years. Find the monthly payment.    A life insurance contract consisting of annual payments of 250,000 at the end of each year forever can be purchased for 5 million. Find the effective annual interest rate.    "
 },
@@ -3488,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-1",
   "type": "Exercise",
-  "number": "3.13.1",
+  "number": "3.14.1",
   "title": "",
   "body": "  Sum the following geometric series:                    )   "
 },
@@ -3497,7 +3569,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-2",
   "type": "Exercise",
-  "number": "3.13.2",
+  "number": "3.14.2",
   "title": "",
   "body": "  Calculate the following:                                 "
 },
@@ -3506,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-3",
   "type": "Exercise",
-  "number": "3.13.3",
+  "number": "3.14.3",
   "title": "",
   "body": "  Generate a timeline and describe the cash flows for each of the following:                       "
 },
@@ -3515,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-4",
   "type": "Exercise",
-  "number": "3.13.4",
+  "number": "3.14.4",
   "title": "",
   "body": "  Solve each of the following for the unknown value:                  "
 },
@@ -3524,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-5",
   "type": "Exercise",
-  "number": "3.13.5",
+  "number": "3.14.5",
   "title": "",
   "body": "  For each of the following, write the desired value in actuarial notation, and then find the value.    An annuity pays 50 at the end of each month for 1 year, with an effective monthly interest rate of 0.75%. Find the value immediately after the final payment.    An annuity pays 250 at the end of each quarter for 3 years, with nominal interest rate of 8% compounded quarterly. Find the present value.    A life insurance policy is priced so it pays out 150000 at the end of every year forever, starting at the end of the year. Find the present value using .    An annuity pays 50 at the end of every 6 months for 10 years, and a 1000 lump sum with the final payment. Find the present value, using . (This is how a bond is priced, as we will see in )    Repeat but with . Compare the two -- what do you notice?    Repeat but with . What do you notice?   "
 },
@@ -3533,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-6",
   "type": "Exercise",
-  "number": "3.13.6",
+  "number": "3.14.6",
   "title": "",
   "body": "  For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan is made today for 250,000 with an interest rate of 12% compounded monthly. The term of the loan is 30 years, with monthly payments starting at the end of each month. Find the monthly payment amount.    A bank lends 17,500 for a car loan with an interest rate of . The loan is to be repaid with monthly payments of 410.99 at the end of each month. Find the term of the loan and express your answer in years.    A loan for college in the amount of 60,000 is to be repaid by payments of 760.05 at the end of each month for 10 years. What is the effective monthly interest rate? What is ?    A life insurance policy makes an annual payment at the end of each year forever. Using , the price (present value) of the policy is 200,000. What is the annual payment?    A life insurance policy making annual payments of 30,000 at the end of each year forever costs 1,200,000 (that is, the present value). What effective annual interest rate is used to price the policy?    A bond has semi-annual payments of 75 at the end of every period for five years, with the last payment accompanied by a lump sum redemption amount of ?   "
 },
@@ -3542,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-7",
   "type": "Exercise",
-  "number": "3.13.7",
+  "number": "3.14.7",
   "title": "",
   "body": "  Calculate the following:                                 "
 },
@@ -3551,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-8",
   "type": "Exercise",
-  "number": "3.13.8",
+  "number": "3.14.8",
   "title": "",
   "body": "  Each of the following represents one side of an identity. Represent each with a timeline and then write the complete identity.                  "
 },
@@ -3560,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-9",
   "type": "Exercise",
-  "number": "3.13.9",
+  "number": "3.14.9",
   "title": "",
   "body": "  Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form or with appropriate starting and ending values for the index ). Generate the timeline and series representations for each of the following:                            "
 },
@@ -3569,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-10",
   "type": "Exercise",
-  "number": "3.13.10",
+  "number": "3.14.10",
   "title": "",
   "body": "  Solve each of the following for the unknown value:                            "
 },
@@ -3578,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-11",
   "type": "Exercise",
-  "number": "3.13.11",
+  "number": "3.14.11",
   "title": "",
   "body": "  For each of the following, write the desired value in actuarial notation, and then find the value.    Find the present value of an annuity due with payments of 50 at the beginning of every month for 3 years, with .    Find the future value of an annuity immediate with payments of 250 at the end of every six-months for 7 years, with .    A share of stock will pay dividends of 5.25 at the beginning of every quarter for the next 5 years. Find the present value using .    You are the lender of a loan and collect monthly payments of 550.91 at the beginning of each month, and there are 180 payments left. Another lender is willing to purchase the loan from you for the present value at . What is the offered purchase price?    Repeat assuming the payments are at the end of each month.    Find the price (present value) of annual payments of 500 indefinitely, where the payments are at the beginning of the year. Use an effective annual interest rate of .   "
 },
@@ -3587,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-12",
   "type": "Exercise",
-  "number": "3.13.12",
+  "number": "3.14.12",
   "title": "",
   "body": "  For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan of 50,000 is paid off with quarterly payments of 4029.25 at the end of each quarter. The effective quarterly interest rate is 8%. Find the term of the loan, expressed in years.    An investor purchased an annuity consisting of 10 annual payments of 727.24 at the beginning of each year. They paid 5000 for the annuity. Find the effective annual interest rate used to value the annuity.    An annuity consists of semi-annual payments of 500 valued at . The value of the annuity 6 months after the final payment is 17,729.63. What is the term of the annuity, expressed in years?    A loan of 120,000 carrying an interest rate of is paid off with payments at the beginning of each month for 30 years. Find the monthly payment.    A life insurance contract consisting of annual payments of 250,000 at the end of each year forever can be purchased for 5 million. Find the effective annual interest rate.   "
 },
@@ -3596,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "level-payment-annuities-problems.html",
   "type": "Exercises",
-  "number": "3.14",
+  "number": "3.15",
   "title": "Problems",
   "body": " Problems     To accumulate 8000 at the end of years, deposits of 98 are made at the end of each of the first years and 196 at the end of each of the next years. The effective annual interest rate is . You are given . Determine .       A family wishes to accumulate 50,000 in a college education fund at the end of 20 years. If they deposit 10000 in the fund at the end of each of the first 10 years and in the fund at the end of each of the second 10 years, find if the fund earns 7% effective.       The cash price of an automobile is 10,0000. The buyer is willing to finance the purchase at 18% convertible monthly and to make payments of 250 at the end of each month for four years. Find the down payment that will be necessary.       50,000 can be invested under two options:     OPTION 1 : Deposit the 50,000 into a fund earning an annual effective rate of .     OPTION 2 : Purchase an annuity-immediate with 24 level annual payments at an annual effective rate of 10%.    The payments under Option 2 are deposited into a fund earning an annual effective rate of 5%. Both options produce the same accumulated value at the end of 24 years. Calculate .       A sports car enthusiast needs to finance 25,000 of the total purchase price of a new car. A loan is selected having 48 monthly level payments with a lender charging 6% convertible monthly. However, the lender informs the buyer that their policy is not to exceed a 500 monthly payment on any car loan. The buyer decides to accept the loan offer with the 500 payment and then decides to take out a second 12-month loan with a different lender at 7.5% convertible monthly to make up the shortfall not covered by the first loan. Find the amount of the monthly payment on the second loan.       Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11. He can purchase it by either:    paying 900 per year at the end of each year for 10 years; or    paying per year at the end of each year for the first 5 years and nothing for the next 5 years.    Calculate .      Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit. He repays the loans with payments of 1350 at the end of each month.    Find the amount of time (in months) it will take for Vader to pay the loan off. It will not be a whole number!    When a loan arrangement is such that the payoff time is not a whole number, there are two options. The first option is a balloon payment . Under this option, an amount is added to the last regular payment in order to pay off the loan. This means that the last payment will be larger than all of the other payments. If Vader made a balloon payment at the end of the loan, how much would it be for?    The second option is a drop payment - a final payment one period after the last regular payment. A drop payment is smaller than the regular payment. Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment. If Vader made a drop payment, how much would it be for?       A borrows 20,000 for 8 years and repays the loan with level annual payments at the end of each year. B also borrows 20,000 for 8 years, but pays only interest due each year and plans to repay the entire loan at the end of the 8-year period. Both loans carry an effective interest rate of 8.5%. How much more interest will B pay than A pays over the life of the loan?       A borrower has the following options for repaying a loan:    Sixty monthly payments of 100 at the end of each month.    A single payment of 6000 at the end of months.    Interest is at the nominal annual rate of 12% convertible monthly. The two options have the same present value. Find .      Lando Calrissian purchases Cloud City with a 10-year loan of 500,000. The effective annual interest rate is 4%. Each year, Lando pays the interest on the loan, and makes a deposit of into a secondary account (called a sinking fund ) carrying 6% interest. At the end of the term of the loan, the funds in the secondary account are used to pay off the principal of the loan, leaving nothing in the account. Find , and find the total outlay ( and the annual interest) that Lando pays.       Find if the effective rate of discount is 10%.       Chuck needs to purchase an item in 10 years. The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional at the beginning of years 4,5 and 6 to meet his goal. The effective annual interest rate is 10%. Calculate .       Deposits of 1000 are placed into a fund at the beginning of each year for the next 20 years. After 30 years annual payments commence and continue forever, with the first payment at the end of the 30th year. Find an expression for the amount of each payment.       Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years. The account credits interest at an effective annual interest rate of . The accumulated amount in the account at the end of 40 years is , which is 5 times the accumulated amount in the account at the end of 20 years. Calculate .       Given , find the value of in terms of . Hint: Simplify the sum, and look out for the series representation of ).       A fund earning 8% effective is being accumulated with payments of 500 at the beginning of each year for 20 years. Find the maximum number of withdrawals of 1000 that can be made at the ends of years under the condition that once withdrawals start they must continue through the end of the 20-year period.       A 48-month car loan of 12,000 can be completely paid off with monthly payments of 300 made at the end of each month. What is the nominal rate of interest convertible monthly on this loan?       A beneficiary receives a 10,000 life insurance benefit. If the beneficiary uses the proceeds to buy a 10-year annuity immediate, the annual payout will be 1538. If a 20-year annuity-immediate is purchased, the annual payout will be 1072. Both calculations are based on an annual effective interest rate of . Find .       The present values of the following three annuities are equal:    perpetuity-immediate paying 1 each year, calculated at an annual effective interest rate of 7.25%.    50-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .     -year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .    Calculate .    "
 },
@@ -3605,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-2",
   "type": "Exercise",
-  "number": "3.14.1",
+  "number": "3.15.1",
   "title": "",
   "body": "   To accumulate 8000 at the end of years, deposits of 98 are made at the end of each of the first years and 196 at the end of each of the next years. The effective annual interest rate is . You are given . Determine .   "
 },
@@ -3614,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-3",
   "type": "Exercise",
-  "number": "3.14.2",
+  "number": "3.15.2",
   "title": "",
   "body": "   A family wishes to accumulate 50,000 in a college education fund at the end of 20 years. If they deposit 10000 in the fund at the end of each of the first 10 years and in the fund at the end of each of the second 10 years, find if the fund earns 7% effective.   "
 },
@@ -3623,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-4",
   "type": "Exercise",
-  "number": "3.14.3",
+  "number": "3.15.3",
   "title": "",
   "body": "   The cash price of an automobile is 10,0000. The buyer is willing to finance the purchase at 18% convertible monthly and to make payments of 250 at the end of each month for four years. Find the down payment that will be necessary.   "
 },
@@ -3632,7 +3704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-5",
   "type": "Exercise",
-  "number": "3.14.4",
+  "number": "3.15.4",
   "title": "",
   "body": "   50,000 can be invested under two options:     OPTION 1 : Deposit the 50,000 into a fund earning an annual effective rate of .     OPTION 2 : Purchase an annuity-immediate with 24 level annual payments at an annual effective rate of 10%.    The payments under Option 2 are deposited into a fund earning an annual effective rate of 5%. Both options produce the same accumulated value at the end of 24 years. Calculate .   "
 },
@@ -3641,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-6",
   "type": "Exercise",
-  "number": "3.14.5",
+  "number": "3.15.5",
   "title": "",
   "body": "   A sports car enthusiast needs to finance 25,000 of the total purchase price of a new car. A loan is selected having 48 monthly level payments with a lender charging 6% convertible monthly. However, the lender informs the buyer that their policy is not to exceed a 500 monthly payment on any car loan. The buyer decides to accept the loan offer with the 500 payment and then decides to take out a second 12-month loan with a different lender at 7.5% convertible monthly to make up the shortfall not covered by the first loan. Find the amount of the monthly payment on the second loan.   "
 },
@@ -3650,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-7",
   "type": "Exercise",
-  "number": "3.14.6",
+  "number": "3.15.6",
   "title": "",
   "body": "   Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11. He can purchase it by either:    paying 900 per year at the end of each year for 10 years; or    paying per year at the end of each year for the first 5 years and nothing for the next 5 years.    Calculate .   "
 },
@@ -3659,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-8",
   "type": "Exercise",
-  "number": "3.14.7",
+  "number": "3.15.7",
   "title": "",
   "body": "  Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit. He repays the loans with payments of 1350 at the end of each month.    Find the amount of time (in months) it will take for Vader to pay the loan off. It will not be a whole number!    When a loan arrangement is such that the payoff time is not a whole number, there are two options. The first option is a balloon payment . Under this option, an amount is added to the last regular payment in order to pay off the loan. This means that the last payment will be larger than all of the other payments. If Vader made a balloon payment at the end of the loan, how much would it be for?    The second option is a drop payment - a final payment one period after the last regular payment. A drop payment is smaller than the regular payment. Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment. If Vader made a drop payment, how much would it be for?   "
 },
@@ -3668,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-9",
   "type": "Exercise",
-  "number": "3.14.8",
+  "number": "3.15.8",
   "title": "",
   "body": "   A borrows 20,000 for 8 years and repays the loan with level annual payments at the end of each year. B also borrows 20,000 for 8 years, but pays only interest due each year and plans to repay the entire loan at the end of the 8-year period. Both loans carry an effective interest rate of 8.5%. How much more interest will B pay than A pays over the life of the loan?   "
 },
@@ -3677,7 +3749,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-10",
   "type": "Exercise",
-  "number": "3.14.9",
+  "number": "3.15.9",
   "title": "",
   "body": "   A borrower has the following options for repaying a loan:    Sixty monthly payments of 100 at the end of each month.    A single payment of 6000 at the end of months.    Interest is at the nominal annual rate of 12% convertible monthly. The two options have the same present value. Find .   "
 },
@@ -3686,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-11",
   "type": "Exercise",
-  "number": "3.14.10",
+  "number": "3.15.10",
   "title": "",
   "body": "  Lando Calrissian purchases Cloud City with a 10-year loan of 500,000. The effective annual interest rate is 4%. Each year, Lando pays the interest on the loan, and makes a deposit of into a secondary account (called a sinking fund ) carrying 6% interest. At the end of the term of the loan, the funds in the secondary account are used to pay off the principal of the loan, leaving nothing in the account. Find , and find the total outlay ( and the annual interest) that Lando pays.   "
 },
@@ -3695,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-12",
   "type": "Exercise",
-  "number": "3.14.11",
+  "number": "3.15.11",
   "title": "",
   "body": "   Find if the effective rate of discount is 10%.   "
 },
@@ -3704,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-13",
   "type": "Exercise",
-  "number": "3.14.12",
+  "number": "3.15.12",
   "title": "",
   "body": "   Chuck needs to purchase an item in 10 years. The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional at the beginning of years 4,5 and 6 to meet his goal. The effective annual interest rate is 10%. Calculate .   "
 },
@@ -3713,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-14",
   "type": "Exercise",
-  "number": "3.14.13",
+  "number": "3.15.13",
   "title": "",
   "body": "   Deposits of 1000 are placed into a fund at the beginning of each year for the next 20 years. After 30 years annual payments commence and continue forever, with the first payment at the end of the 30th year. Find an expression for the amount of each payment.   "
 },
@@ -3722,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-15",
   "type": "Exercise",
-  "number": "3.14.14",
+  "number": "3.15.14",
   "title": "",
   "body": "   Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years. The account credits interest at an effective annual interest rate of . The accumulated amount in the account at the end of 40 years is , which is 5 times the accumulated amount in the account at the end of 20 years. Calculate .   "
 },
@@ -3731,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-16",
   "type": "Exercise",
-  "number": "3.14.15",
+  "number": "3.15.15",
   "title": "",
   "body": "   Given , find the value of in terms of . Hint: Simplify the sum, and look out for the series representation of ).   "
 },
@@ -3740,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-17",
   "type": "Exercise",
-  "number": "3.14.16",
+  "number": "3.15.16",
   "title": "",
   "body": "   A fund earning 8% effective is being accumulated with payments of 500 at the beginning of each year for 20 years. Find the maximum number of withdrawals of 1000 that can be made at the ends of years under the condition that once withdrawals start they must continue through the end of the 20-year period.   "
 },
@@ -3749,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-18",
   "type": "Exercise",
-  "number": "3.14.17",
+  "number": "3.15.17",
   "title": "",
   "body": "   A 48-month car loan of 12,000 can be completely paid off with monthly payments of 300 made at the end of each month. What is the nominal rate of interest convertible monthly on this loan?   "
 },
@@ -3758,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-19",
   "type": "Exercise",
-  "number": "3.14.18",
+  "number": "3.15.18",
   "title": "",
   "body": "   A beneficiary receives a 10,000 life insurance benefit. If the beneficiary uses the proceeds to buy a 10-year annuity immediate, the annual payout will be 1538. If a 20-year annuity-immediate is purchased, the annual payout will be 1072. Both calculations are based on an annual effective interest rate of . Find .   "
 },
@@ -3767,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-20",
   "type": "Exercise",
-  "number": "3.14.19",
+  "number": "3.15.19",
   "title": "",
   "body": "   The present values of the following three annuities are equal:    perpetuity-immediate paying 1 each year, calculated at an annual effective interest rate of 7.25%.    50-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .     -year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .    Calculate .   "
 },
