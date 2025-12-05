@@ -62,13 +62,11 @@
 		</task>
 	</activity>
 	<activity xml:id="payday-loans-identify-actions">
-		<actions>
-			<task>
+		<task>
 				<p> 
 					You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.
 				</p>
 			</task>
-		</actions>
 	</activity>
 
 	<activity xml:id="payday-loans-stakeholders">
