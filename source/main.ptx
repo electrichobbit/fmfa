@@ -282,52 +282,7 @@
 				<xi:include href="Chapter8/8.problems.xml"/>
 
 			</chapter>
-			<chapter xml:id="term-structure-interest-rates">
-				<title>The Term Structure of Interest Rates</title>
-
-				<xi:include href="Chapter9/9.intro.xml"/>
-				
-				<xi:include href="Chapter9/9.1.xml"/>
-
-				<xi:include href="Chapter9/9.2.xml"/>
-
-				<xi:include href="Chapter9/9.3.xml"/>
-
-				<xi:include href="Chapter9/9.4.xml"/>
-
-				<xi:include href="Chapter9/9.5.xml"/>
-
-				<xi:include href="Chapter9/9.6.xml"/>
-
-				<xi:include href="Chapter9/9.exercises.xml"/>
-
-				<xi:include href="Chapter9/9.problems.xml"/>
-
-			</chapter>
-			<chapter xml:id="interest-rate-swaps">
-				<title>Interest Rate Swaps</title>
-
-				<xi:include href="Chapter10/10.intro.xml"/>
-				
-				<xi:include href="Chapter10/10.1.xml"/>
-
-				<xi:include href="Chapter10/10.2.xml"/>
-
-				<xi:include href="Chapter10/10.3.xml"/>
-
-				<xi:include href="Chapter10/10.4.xml"/>
-
-				<xi:include href="Chapter10/10.5.xml"/>
-
-				<xi:include href="Chapter10/10.6.xml"/>
-
-				<xi:include href="Chapter10/10.7.xml"/>
-
-				<xi:include href="Chapter10/10.exercises.xml"/>
-
-				<xi:include href="Chapter10/10.problems.xml"/>
-
-			</chapter>
+			
 			<chapter xml:id="duration-and-convexity">
 				<title>Duration and Convexity</title>
 
@@ -382,6 +337,59 @@
 				<xi:include href="Chapter12/12.problems.xml"/>
 
 			</chapter>
+			
+
+
+
+		</part>
+		<part xml:id="additional-interest-theory">
+			<title>Additional Applications of Interest Theory</title>
+			<chapter xml:id="term-structure-interest-rates">
+				<title>The Term Structure of Interest Rates</title>
+
+				<xi:include href="Chapter9/9.intro.xml"/>
+				
+				<xi:include href="Chapter9/9.1.xml"/>
+
+				<xi:include href="Chapter9/9.2.xml"/>
+
+				<xi:include href="Chapter9/9.3.xml"/>
+
+				<xi:include href="Chapter9/9.4.xml"/>
+
+				<xi:include href="Chapter9/9.5.xml"/>
+
+				<xi:include href="Chapter9/9.6.xml"/>
+
+				<xi:include href="Chapter9/9.exercises.xml"/>
+
+				<xi:include href="Chapter9/9.problems.xml"/>
+
+			</chapter>
+			<chapter xml:id="interest-rate-swaps">
+				<title>Interest Rate Swaps</title>
+
+				<xi:include href="Chapter10/10.intro.xml"/>
+				
+				<xi:include href="Chapter10/10.1.xml"/>
+
+				<xi:include href="Chapter10/10.2.xml"/>
+
+				<xi:include href="Chapter10/10.3.xml"/>
+
+				<xi:include href="Chapter10/10.4.xml"/>
+
+				<xi:include href="Chapter10/10.5.xml"/>
+
+				<xi:include href="Chapter10/10.6.xml"/>
+
+				<xi:include href="Chapter10/10.7.xml"/>
+
+				<xi:include href="Chapter10/10.exercises.xml"/>
+
+				<xi:include href="Chapter10/10.problems.xml"/>
+
+			</chapter>
 			<chapter xml:id="determinants-interest-rates">
 				<title>Determinants of Interest Rates</title>
 
@@ -406,9 +414,6 @@
 				<xi:include href="Chapter13/13.problems.xml"/>
 
 			</chapter>
-
-
-
 		</part>
 
 		
