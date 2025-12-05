@@ -51,6 +51,7 @@
 			<p> 
 				Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after <m>n</m> 2-week periods (or <m>2n</m> weeks), the borrower is able to discharge the debt of 50 once and for all. 
 			</p>
+			<p>
 				Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of <m>n</m>. Alternatively, this is the amount that the lender makes on the original loan of 50. 
 			</p>
 		</task>
