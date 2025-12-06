@@ -1,0 +1,191 @@
+<section xml:id="ethics-arms">
+	<title>Ethics Case Study: Adjustable Rate Mortgages</title>
+	<p>
+		When we discussed loans in <xref ref="loan-repayment"/>, we assumed that the interest rate would remain constant unless the borrower chose to refinance. Over 90% of mortgages in the US are structured this way, but not all. Here, we consider a situation where a borrower may choose to accept the potential for interest rate changes in exchange for a lower initial interest rate: an *adjustable-rate mortgage* (ARM). These are more common in other places, particularly Commonwealth countries such as New Zealand, Canada, and the United Kingdom.
+	</p>
+	<activity>
+		<introduction>
+			<p>
+				In this activity, we'll consider the advantages and disadvantages of ARMs and think about how to communicate them ethically to the public.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Before we start, read about the <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University</url>. Which lens(es) do you think you will bring to this analysis?
+			</p>
+		</task>
+		<task>
+			<p>
+				Let's start by looking at a Federal Reserve website about <url href="https://www.stlouisfed.org/on-the-economy/2024/feb/which-households-prefer-arms-fixed-rate-mortgages">which borrowers tend to choose ARMs</url>. Describe a situation where someone would prefer an ARM to a fixed-rate mortgage.
+			</p>
+		</task>
+		<task>
+			<p>
+				Now let's look at the <url href="https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-fixed-rate-and-adjustable-rate-mortgage-arm-loan-en-100/">information on this CFPB website about these two types of mortgage</url>. What are some of the factors that you think should be communicated to the potential borrower as clearly as possible?
+			</p>
+		</task>
+	</activity>
+	<activity>
+		<introduction>
+			<p>
+				Often, in the US, the structure of an ARM is given in terms of two lengths of time: the period that the initial interest rate will apply to and the frequency at which the interest rate will be recalculated thereafter. For instance, a 10y/6m ARM will have one interest rate that applies for the first 10 years, and the rate will be reset every 6 months thereafter.
+			</p>
+			<p>
+				Let's say that we have 4 borrowers, all of whom borrow $328,000 on a 30-year mortgage. Each of them will make monthly payments according to the following interest chart.
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell>
+							Borrower
+						</cell>
+						<cell>
+							Initial Effective Rate
+						</cell>
+						<cell>
+							Type of Mortgage
+						</cell>
+					</row>
+					<row>
+						<cell>
+							A
+						</cell>
+						<cell>
+							6.000%
+						</cell>
+						<cell>
+							fixed rate
+						</cell>
+					</row>
+					<row>
+						<cell>
+							B
+						</cell>
+						<cell>
+							5.875%
+						</cell>
+						<cell>
+							ARM, 10y/6m
+						</cell>
+					</row>
+					<row>
+						<cell>
+							C
+						</cell>
+						<cell>
+							5.625%
+						</cell>
+						<cell>
+							ARM, 7y/6m
+						</cell>
+					</row>
+					<row>
+						<cell>
+							D
+						</cell>
+						<cell>
+							5.500%
+						</cell>
+						<cell>
+							ARM 5y/6m
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				How much will the first payment of each of these borrowers be?
+			</p>
+		</task>
+		<task>
+			<p>
+				How much will Borrowers B, C, and D still owe at the end of their initial rate terms (10, 7, and 5 years, respectively)?
+			</p>
+		</task>
+		<task>
+			<p>
+				The standard adjustment cap for an ARM is 5%. Suppose Borrowers B, C, and D's interest rates all increase by 5% after their initial terms and then hold steady at this rate for the remainder of the loan. What will their new payments be?
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the duration for each of these borrowers.
+			</p>
+		</task>
+		<task>
+			<p>
+				Interpret these calculations for a potential borrower seeking advice on types of mortgages.
+			</p>
+		</task>
+	</activity>
+	<activity>
+		<introduction>
+			<p>
+				You are working for a mortgage broker, and you have been asked to create the text for a 1-page flyer explaining the advantages and disadvantages of ARMs for their clients. You may wish to start by looking at the CFPB website given at the beginning of this activity.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Now let’s do a stakeholder analysis. In this case, let's just consider the borrowers and the mortgage brokers. Try to see the situation through the eyes of all possible stakeholders.
+			</p>
+			<p>
+				Test your options by determining how the stakeholders you identified are harmed or benefited when the customer selects a fixed-rate mortgage or an ARM. Test these options by filling in the following tables. 
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							Stakeholder
+						</cell>
+						<cell right="medium">
+							Harms
+						</cell>
+						<cell right="medium">
+							Benefits
+						</cell>
+					</row>
+					<row bottom="medium">
+						<cell left="medium" right="medium">
+							<line>
+
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+						<cell right="medium">
+							<line>
+							</line>
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</task>
+		<task>
+			<p>
+				Create the text for this flyer. Consider how you can effectively and ethically convey this information to potential borrowers.
+			</p>
+		</task>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Finally, reflect on your decision. What factors did you choose to emphasize? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not? 
+			</p>
+		</statement>
+	</activity>
+	<subsection>
+		<title>Sources</title>
+		<p>
+			Median home price: 410,000 (US) https://fred.stlouisfed.org/series/MSPUS
+		</p>
+		<p>
+			https://www.stlouisfed.org/on-the-economy/2024/feb/which-households-prefer-arms-fixed-rate-mortgages
+		</p>
+		<p>
+			Rate caps: https://www.consumerfinance.gov/ask-cfpb/what-are-rate-caps-with-an-adjustable-rate-mortgage-arm-and-how-do-they-work-en-1951/
+		</p>
+	</subsection>
+</section>

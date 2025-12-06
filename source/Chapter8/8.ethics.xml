@@ -1,0 +1,135 @@
+<section xml:id="ethics-enron">
+	<title>Ethics Case Study: AI Data Centers</title>
+	<p>
+		Data centers for artificial intelligence have significant environmental and economic consequences both globally and for nearby communities.
+	</p>
+	<activity>
+		<statement>
+			<p>
+				Read the United Nations Environment Programme’s Issue Note on AI from September, 2024, <url href="https://wedocs.unep.org/items/5f3afe87-5419-439b-a6ee-14240b2605e9">Artificial Intelligence (AI) end-to-end: The environmental impact of the full AI lifecycle needs to be comprehensively assessed</url>. What did you read that you already knew? What surprised you?
+			</p>
+		</statement>
+	</activity>
+	<p>
+		In addition to environmental impacts, the presence of data centers near a community can lead to water shortages and significant increases in electricity costs, both due to the data center’s consumption of those resources. 
+	</p>
+	<p>
+		You work at an actuarial firm located in a community where the County has received a request for permits to build an AI data center nearby. The community residents are worried about water shortages and they are worried about electricity costs. The County Commission plans to make quarterly deposits into a water fund in order to address concerns about the water supply. However, the residents are still worried about electricity costs.
+	</p>
+	<p>
+		Your firm sees an opportunity – they want to offer an insurance product to the community that covers any excessive electric costs in exchange for a premium. You are asked to come up with a pricing model and an estimate so that you can share the offer at a County Commission meeting that will take place tomorrow.
+	</p>
+	<p>
+		The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the <url href="external/chapter8/data/electric-forwards.xlsx">spreadsheet</url> <xref ref="footnote-electric-forwards"/>.
+	</p>
+	<activity>
+		<introduction>
+			<p>
+				Based on these data, you create a naïve, simple pricing model <xref ref="footnote-probability"/>. The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.
+			</p>
+			<p>
+				For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit). 
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Let’s calculate the expected claims on a 6 month policy based on the forwards you accessed.
+			</p>
+			<p>
+				The spreadsheet contains forward prices for 12 months, including the current month (month 0). For the current month, this is the actual average electric bill in the relevant area. The growth factors will be the amount we multiply the previous forward price by to get the next forward price (like $1+ \iota$ for interest rates). The growth factor in cell C2 is the growth factor from the previous month which is not in the report.
+			</p>
+			<p>
+				The directions below are for Excel, and you can use a programming language such as R or Python instead if you prefer.
+			</p>
+			<ul>
+				<li>
+					<p>
+						Have Excel calculate the growth factors for the rest of the months in Column C. 
+					</p>
+				</li>
+				<li>
+					<p>
+						In Cell C15, have Excel calculate the average growth factor. 
+					</p>
+					<p>
+						Since these are growth <term>factors</term>, we use a <term>geometric mean</term> as we did for average interest rates in <xref ref="compound-interest-and-timeline-reasoning"/>. Excel can calculate this using the following syntax:
+					</p>
+					<p>
+						<c>=GEOMEAN(first cell: last cell)</c>
+					</p>
+				</li>
+				<li>
+					<p>
+						In Cell 16, have Excel calculate the standard deviation (using sample standard deviation: <c>STDEV.S</c> in Excel-speak).
+					</p>
+					<p>
+						As with the mean, we need to use a  <term>geometric standard deviation</term>. The way to get Excel to calculate this is to have it calculate:
+					</p>
+					<p>
+						<m>10^{\mathtext{StandardDeviation(\Log(\mathtext{values})}</m>
+					</p>
+					<p>
+						In this case, calling the functions <c>STDEV.S</c> and <c>LOG</c> (along with “first cell:last  cell” in the argument of <c>LOG</c>) will be necessary.
+					</p>
+				</li>
+				<li>
+					<p>
+						In Column D, we will figure out the threshold above which the insurance policy pays out. To find the “Expected Forward” we multiply the month 0 price by the geometric mean growth factor compounded the appropriate number of months (why?). To add 1 standard deviation, we multiply the result by the geometric standard deviation compounded the same number of months (why?). Have Excel perform these calculations. Don’t forget to use absolute cell references (like <c>$C$15</c>).
+					</p>
+				</li>
+				<li>
+					<p>
+						We use a full year of forwards for our data, but we only price a six month policy. For the first 6 months (including 0), in Column E, find the expected payout based on these data assuming the forward prices are realized. 
+					</p>
+					<p>
+						It might help to use the “max” function: “=MAX(number 1, number 2)”. This will return the largest of the two numbers, and is useful as there is no payout when the bill (represented by the forward price) is less than the expected forward plus one standard deviation.
+					</p>
+				</li>
+				<li>
+					<p>
+						Add up the expected payouts for each month – this is the expected payout per 6-month policy.
+					</p>
+				</li>
+			</ul>
+		</task>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about /$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.
+			</p>
+			<p>
+				A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.
+			</p>
+			<p>
+				When you look into this, you find that the underwriters used electric forward rates for areas where there already is an AI data center, which they state are much more accurate for the community’s circumstances.
+			</p>
+			<p>
+				Review the <url href="https://www.soa.org/about/governance/about-code-of-professional-conduct/">SOA Code of Professional Conduct</url>. Where do you see an ethical issue? Who was responsible? What should be done? What would you do?
+			</p>
+		</statement>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Write a brief paper responding to your findings and addressing each of the questions.
+			</p>
+		</statement>
+	</activity>
+
+	<subsection>
+		<title>Footnotes</title>
+		<ol>
+			<li xml:id="footnote-electric-forwards">
+				<p>
+					These prices are actually based on historical data for 2025 accessed from the <url href="https://www.eia.gov/outlooks/steo/realprices/real_prices.xlsx">US Energy Information Administration</url>, and the <url href="https://www.eia.gov/tools/faqs/faq.php?id=97&amp;t=3">average amount of energy consumption for a  US household in 2022</url> according to the same agency.
+				</p>
+			</li>
+			<li xml:id="footnote-probability">
+				<p>
+					One of the things missing from this pricing model is probability, which is covered in another course.
+				</p>
+			</li>
+		</ol>
+	</subsection>
+</section>

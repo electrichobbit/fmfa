@@ -277,7 +277,7 @@
 
 				<xi:include href="Chapter8/8.6.xml"/>
 
-				<xi:include href="Chapter8/8.7.xml"/>
+				<xi:include href="Chapter8/8.ethics.xml"/>
 
 				<xi:include href="Chapter8/8.exercises.xml"/>
 
@@ -312,15 +312,15 @@
 
 				<xi:include href="Chapter11/11.11.xml"/>
 
-				<xi:include href="Chapter11/11.12.xml"/>
+				<xi:include href="Chapter11/9.ethics.xml"/>
 
 				<xi:include href="Chapter11/11.exercises.xml"/>
 
 				<xi:include href="Chapter11/11.problems.xml"/>
 
 			</chapter>
-			<chapter xml:id="matching-liabilities-assets">
-				<title>Matching Liabilities and Assets</title>
+			<chapter xml:id="reserving">
+				<title>Reserving</title>
 
 				<xi:include href="Chapter12/12.intro.xml"/>
 				
@@ -332,7 +332,7 @@
 
 				<xi:include href="Chapter12/12.4.xml"/>
 
-				<xi:include href="Chapter12/12.5.xml"/>
+				<xi:include href="Chapter12/10.ethics.xml"/>
 
 				<xi:include href="Chapter12/12.exercises.xml"/>
 

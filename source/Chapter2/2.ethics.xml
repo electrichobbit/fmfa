@@ -141,7 +141,7 @@
 				When averaging any kind of multiplicative percentage, we use the <term>geometric mean</term> instead of the arithmetic mean we're used to.  The geometric mean consists of taking the product of <m>n</m> terms and then finding the <m>n</m>th root.  Let the <m>\iota_k</m> be the monthly percentage changes.  Show that the geometric mean of the <m>(1+\iota_k)</m>
 			</p>
 			<me>
-				\left(\prod_{k=1}^12 (1 + \iota_k)\right)^(1/12) = (1 + \iota_m)
+				\left(\prod_{k=1}^{12} (1 + \iota_k)\right)^{1/12} = (1 + \iota_m)
 			</me>
 		</task>
 	</activity>
