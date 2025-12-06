@@ -7867,103 +7867,85 @@ var ptx_lunr_docs = [
   "body": "  Which approaches to solving problems resonate with you? What is still muddy?   "
 },
 {
-  "id": "ethics-mortgage-backed-securities",
+  "id": "ethics-crypto-backed-municipal-bonds",
   "level": "1",
-  "url": "ethics-mortgage-backed-securities.html",
+  "url": "ethics-crypto-backed-municipal-bonds.html",
   "type": "Section",
   "number": "7.7",
-  "title": "Ethics Case Study -- Mortgage-Backed Securities and the 2008 Financial Crisis",
-  "body": " Ethics Case Study -- Mortgage-Backed Securities and the 2008 Financial Crisis  Lehman Brothers was one of several banks that were \"too big to fail\" - meaning their role in the economy was so large that if they went bankrupt, there could be a global financial crisis. When I think of this, I think of a handful of pieces in a Jenga puzzle that keep the structure from collapsing.  In the late 1990s and early 2000s, there was a securitization boom. A securitization is an issue of bonds whose payments come from the income of an asset (cash flow). The most common are mortgage-backed securities in which the asset backing the bond is a pool of mortgage loans.  Lehman Brothers invested heavily in mortgage-backed securities, particularly mortgage-backed securities from subprime mortgages -- mortgages with high interest rates and high-risk borrowers. Subprime loans often had adjustable interest rates, and as the housing market began to fall in 2007, those interest rates grew to the point where borrower's could not make their payments. As a result, there was a large wave of defaults. As the mortgages defaulted, the issuers of the mortgage-backed securities defaulted, contributing significantly to the 2008 financial crisis. The most conspicuous events of the crisis was the bankruptcy of Lehman Brothers (who retained my prior law firm, Weil, Gotshal, and Manges) and the Wall Street bailout. In 2010, Congress passed and President Obama signed the Dodd-Frank Act designed to curb the behaviors that led to the crisis.  For our purposes, let's suppose you work for an investment bank in the early years of securitization and are asked by a partner in the firm whether to get into this \"mortgage-backed security game\". She tells you that she has heard of firms earning massive returns from subprime mortgages, and after all, who doesn't pay their mortgage?     Step 1 : State the Problem.       Step 2 : Gather the Facts.  First, let's understand how mortgage-backed securities work with a simple example. Suppose a bank securitizes three mortgages. The first, mortgage , is a 10-year mortgage with loan amount 100,000 and an effective monthly interest rate of 1.25\\%. The second mortgage, , is a 15-year mortgage with loan amount 250,000 and an effective monthly interest rate of 3.5\\%. The third, , has a loan amount of 200,000 and an effective monthly interest rate of 2\\%. The bank issues 1000 bonds backed by these three mortgages. The bond has no redemption, and monthly coupons equal to a share of the monthly payments made by the borrowers (the share is equal to the proportion of the 1000 bonds an investor purchases).    Price the bond to yield 4\\% monthly.    Typically, the original lenders of mortgages sell the loans to larger banks, who bundle and securitize them. Who carries the risk of loss due to default? What incentives does this send to the original lenders? Where is there potential for fraud?    How do borrowers benefit from securitization? Why should we avoid rushing to judgment about mortgage-backed securities or the firms who issued them?       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to the partner regarding your decision. Be sure to support your position and address counterarguments (see outline in ).    "
+  "title": "Ethics Case Study: Crypto-Backed Municipal Bonds",
+  "body": " Ethics Case Study: Crypto-Backed Municipal Bonds  In November, 2025, the State of New Hampshire approved the authority to issue up to $100 million in municipal bonds backed by Bitcoin (BTC), the cryptocurrency that had the highest market share at the time. Municipal bonds are bonds issued by city and state governments (which we will collectively refer to as municipalities ). The income (coupon payments) from municipal bonds are exempt from federal income taxes, and as such are attractive to investors and typically carry low to no risk.  While municipal bonds are often issued to finance state and local government development projects, they are also used to raise funds that can be lent by the municipality to private companies who intend to use the loan proceeds to invest in a project that the municipality believes is in the public interest. The coupon and redemption payments are paid by the municipality to the investors out of the company’s loan payments.  For a cryptocurrency-backed municipal bond, a company that borrows from the municipality puts up BTC as collateral. Under the terms of the New Hampshire law, the company has to put up 160\\% of the loan amount as collateral. This is advantageous to the company since if they sold the Bitcoin or paid for their investments directly in Bitcoin, they would have to pay capital gains taxes on any increases in the value of the Bitcoin since its purchase. They get the collateral back when the loan is paid off.  Additionally, if the value of the collateral falls below 130% of the loan amount, the company has to add BTC to the collateral to restore the total to 160% . This is called a margin call .  These provisions about the BTC collateral are in place as BTC, and cryptocurrencies generally, are considered volatile and risky.    Let’s examine an example to get a sense of how the margin call works. Suppose such a municipal bond was offered in November 2024 instead of 2025. A company wants to borrow 1 million dollars through this mechanism, and puts up the collateral on December 6, 2024. On that date, one US Dollar cost 97,074.23 BTC. This means that the company had to put up approximately BTC as collateral.  The BTC Price spreadsheet contains the cost of one US Dollar in BTC for every day between December 6, 2024 and December 6, 2025 (Source: Yahoo Finance). Cell C1 contains the amount of collateral put up by the company in BTC.  Have Excel perform the following calculations for each day:     In Column C, calculate the value of the collateral in US Dollars.    In Column D, calculate the amount of additional deposit in US Dollars (use zero if no additional deposit is necessary).    In Column E, have Excel report a zero if there is no margin call and a one if there is a margin call.    In Cell D370, add up the total of all of the additional deposits.    In Cell E370, add up the total number of margin calls     Don’t forget that when there is an additional deposit, you have to redo Column C starting the next day!  Here are some Excel tools that will help you:     If your formulas include a cell reference such as $C$1, that tells Excel to leave the reference to cell C1 constant as you drag your formula (this is called a absolute cell reference - there are also mixed cell references that allow you to keep the row or the column fixed as you drag).    You can program Excel to report one of two possibilities depending on a condition. To do so, the syntax is:   =IF(condition, what to report if condition is true, what to report if condition is false)     To program Excel to add using commands instead of highlighting, you can use the following syntax:   =SUM(First Cell: Last Cell)      You are welcome to use R or Python or another programming language if you prefer.    Now that we have explored how the margin call works for this bond, let’s get into the situation.  You are an actuary at a firm that is writing an insurance policy for a company borrowing under the crypto-backed municipal bond program in New Hampshire. In exchange for the premiums, the policy will make any additional deposits necessary in the event of a margin call, with the full collateral reclaimed by the company when the loan is discharged. One of your colleagues was tasked with creating the pricing model. They passed the model on to underwriters who priced and issued the policy.  You soon find out that the Chief Actuary of your firm sits on the Board of Directors for the company whose collateral was insured. Under their direction, your colleague’s pricing model used only 2 years of BTC data to estimate the risk. You reran their analysis using 5 years of data and found a substantially higher risk, which would have increased the price of the policy. When you confront your colleague, they argue that 2 years of data is appropriate as market conditions had a significant change 2 to 3 years ago and older data isn’t comparable.  You aren’t convinced, and the relationship between the Chief Actuary and the company concerns you. That relationship has not been disclosed. You are considering reporting this to the press, although you will likely lose your job if you do so.    Review the Society of Actuaries Code of Professional Conduct. Identify all provisions that you believe were violated.      Conduct a stakeholder analysis:    Identify who could benefit from and who could be harmed by the conduct of the Chief Actuary and your colleague.    Describe the benefits as appropriate, and describe the harms as appropriate.    Identify who would benefit from and who could be harmed if you reported your findings to the press.    Describe the benefits as appropriate, and describe the harms as appropriate.        Consider your choices – what alternative options do you have? Consider who would benefit and would be harmed by any alternative options you identify, and describe those benefits and harms.      Make\/justify a decision. Write a memo to the files.      Think for a moment – did you make the right decision? How might you know? What could happen in the future that convinces you that you did the right thing? What could convince you that you did not do the right thing? Add a paragraph reflecting on our decision to your memo.    "
 },
 {
-  "id": "ethics-mortgage-backed-securities-3",
+  "id": "ethics-crypto-backed-municipal-bonds-2",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#ethics-mortgage-backed-securities-3",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "securitization mortgage-backed securities "
+  "body": "municipalities "
 },
 {
-  "id": "ethics-mortgage-backed-securities-4",
+  "id": "ethics-crypto-backed-municipal-bonds-5",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#ethics-mortgage-backed-securities-4",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "subprime mortgages "
+  "body": "margin call "
 },
 {
-  "id": "mortgage-backed-securities-problem-statement",
+  "id": "ethics-crypto-backed-margin-call",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-problem-statement",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-margin-call",
   "type": "Activity",
   "number": "7.7.1",
   "title": "",
-  "body": "   Step 1 : State the Problem.   "
+  "body": "  Let’s examine an example to get a sense of how the margin call works. Suppose such a municipal bond was offered in November 2024 instead of 2025. A company wants to borrow 1 million dollars through this mechanism, and puts up the collateral on December 6, 2024. On that date, one US Dollar cost 97,074.23 BTC. This means that the company had to put up approximately BTC as collateral.  The BTC Price spreadsheet contains the cost of one US Dollar in BTC for every day between December 6, 2024 and December 6, 2025 (Source: Yahoo Finance). Cell C1 contains the amount of collateral put up by the company in BTC.  Have Excel perform the following calculations for each day:     In Column C, calculate the value of the collateral in US Dollars.    In Column D, calculate the amount of additional deposit in US Dollars (use zero if no additional deposit is necessary).    In Column E, have Excel report a zero if there is no margin call and a one if there is a margin call.    In Cell D370, add up the total of all of the additional deposits.    In Cell E370, add up the total number of margin calls     Don’t forget that when there is an additional deposit, you have to redo Column C starting the next day!  Here are some Excel tools that will help you:     If your formulas include a cell reference such as $C$1, that tells Excel to leave the reference to cell C1 constant as you drag your formula (this is called a absolute cell reference - there are also mixed cell references that allow you to keep the row or the column fixed as you drag).    You can program Excel to report one of two possibilities depending on a condition. To do so, the syntax is:   =IF(condition, what to report if condition is true, what to report if condition is false)     To program Excel to add using commands instead of highlighting, you can use the following syntax:   =SUM(First Cell: Last Cell)      You are welcome to use R or Python or another programming language if you prefer.   "
 },
 {
-  "id": "mortgage-backed-securities-fact-gathering",
+  "id": "ethics-crypto-backed-municipal-bonds-12",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-fact-gathering",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-12",
   "type": "Activity",
   "number": "7.7.2",
   "title": "",
-  "body": "   Step 2 : Gather the Facts.  First, let's understand how mortgage-backed securities work with a simple example. Suppose a bank securitizes three mortgages. The first, mortgage , is a 10-year mortgage with loan amount 100,000 and an effective monthly interest rate of 1.25\\%. The second mortgage, , is a 15-year mortgage with loan amount 250,000 and an effective monthly interest rate of 3.5\\%. The third, , has a loan amount of 200,000 and an effective monthly interest rate of 2\\%. The bank issues 1000 bonds backed by these three mortgages. The bond has no redemption, and monthly coupons equal to a share of the monthly payments made by the borrowers (the share is equal to the proportion of the 1000 bonds an investor purchases).    Price the bond to yield 4\\% monthly.    Typically, the original lenders of mortgages sell the loans to larger banks, who bundle and securitize them. Who carries the risk of loss due to default? What incentives does this send to the original lenders? Where is there potential for fraud?    How do borrowers benefit from securitization? Why should we avoid rushing to judgment about mortgage-backed securities or the firms who issued them?   "
+  "body": "  Review the Society of Actuaries Code of Professional Conduct. Identify all provisions that you believe were violated.   "
 },
 {
-  "id": "mortgage-backed-securities-identify-stakeholders",
+  "id": "ethics-crypto-backed-municipal-bonds-13",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-identify-stakeholders",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-13",
   "type": "Activity",
   "number": "7.7.3",
   "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
+  "body": "  Conduct a stakeholder analysis:    Identify who could benefit from and who could be harmed by the conduct of the Chief Actuary and your colleague.    Describe the benefits as appropriate, and describe the harms as appropriate.    Identify who would benefit from and who could be harmed if you reported your findings to the press.    Describe the benefits as appropriate, and describe the harms as appropriate.     "
 },
 {
-  "id": "mortgage-backed-securities-develop-options",
+  "id": "ethics-crypto-backed-municipal-bonds-14",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-develop-options",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-14",
   "type": "Activity",
   "number": "7.7.4",
   "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
+  "body": "  Consider your choices – what alternative options do you have? Consider who would benefit and would be harmed by any alternative options you identify, and describe those benefits and harms.   "
 },
 {
-  "id": "mortgage-backed-securities-test-options",
+  "id": "ethics-crypto-backed-municipal-bonds-15",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-test-options",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-15",
   "type": "Activity",
   "number": "7.7.5",
   "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
+  "body": "  Make\/justify a decision. Write a memo to the files.   "
 },
 {
-  "id": "mortgage-backed-securities-make-decision",
+  "id": "ethics-crypto-backed-municipal-bonds-16",
   "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-make-decision",
+  "url": "ethics-crypto-backed-municipal-bonds.html#ethics-crypto-backed-municipal-bonds-16",
   "type": "Activity",
   "number": "7.7.6",
   "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "mortgage-backed-securities-check-work",
-  "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-check-work",
-  "type": "Activity",
-  "number": "7.7.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "mortgage-backed-securities-memo",
-  "level": "2",
-  "url": "ethics-mortgage-backed-securities.html#mortgage-backed-securities-memo",
-  "type": "Activity",
-  "number": "7.7.8",
-  "title": "",
-  "body": "  Write a memo to the partner regarding your decision. Be sure to support your position and address counterarguments (see outline in ).   "
+  "body": "  Think for a moment – did you make the right decision? How might you know? What could happen in the future that convinces you that you did the right thing? What could convince you that you did not do the right thing? Add a paragraph reflecting on our decision to your memo.   "
 },
 {
   "id": "bonds-exercises",
