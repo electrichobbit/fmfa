@@ -10252,11 +10252,56 @@ var ptx_lunr_docs = [
   "body": "  Describe weighted averages and how we have used them to measure interest rate risk.   "
 },
 {
+  "id": "ethics-arms",
+  "level": "1",
+  "url": "ethics-arms.html",
+  "type": "Section",
+  "number": "9.12",
+  "title": "Ethics Case Study: Adjustable Rate Mortgages",
+  "body": " Ethics Case Study: Adjustable Rate Mortgages  When we discussed loans in , we assumed that the interest rate would remain constant unless the borrower chose to refinance. Over 90% of mortgages in the US are structured this way, but not all. Here, we consider a situation where a borrower may choose to accept the potential for interest rate changes in exchange for a lower initial interest rate: an *adjustable-rate mortgage* (ARM). These are more common in other places, particularly Commonwealth countries such as New Zealand, Canada, and the United Kingdom.    In this activity, we'll consider the advantages and disadvantages of ARMs and think about how to communicate them ethically to the public.    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?    Let's start by looking at a Federal Reserve website about which borrowers tend to choose ARMs . Describe a situation where someone would prefer an ARM to a fixed-rate mortgage.    Now let's look at the information on this CFPB website about these two types of mortgage . What are some of the factors that you think should be communicated to the potential borrower as clearly as possible?      Often, in the US, the structure of an ARM is given in terms of two lengths of time: the period that the initial interest rate will apply to and the frequency at which the interest rate will be recalculated thereafter. For instance, a 10y\/6m ARM will have one interest rate that applies for the first 10 years, and the rate will be reset every 6 months thereafter.  Let's say that we have 4 borrowers, all of whom borrow $328,000 on a 30-year mortgage. Each of them will make monthly payments according to the following interest chart.     Borrower  Initial Effective Rate  Type of Mortgage    A  6.000%  fixed rate    B  5.875%  ARM, 10y\/6m    C  5.625%  ARM, 7y\/6m    D  5.500%  ARM 5y\/6m       How much will the first payment of each of these borrowers be?    How much will Borrowers B, C, and D still owe at the end of their initial rate terms (10, 7, and 5 years, respectively)?    The standard adjustment cap for an ARM is 5%. Suppose Borrowers B, C, and D's interest rates all increase by 5% after their initial terms and then hold steady at this rate for the remainder of the loan. What will their new payments be?    Calculate the duration for each of these borrowers.    Interpret these calculations for a potential borrower seeking advice on types of mortgages.      You are working for a mortgage broker, and you have been asked to create the text for a 1-page flyer explaining the advantages and disadvantages of ARMs for their clients. You may wish to start by looking at the CFPB website given at the beginning of this activity.    Now let’s do a stakeholder analysis. In this case, let's just consider the borrowers and the mortgage brokers. Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited when the customer selects a fixed-rate mortgage or an ARM. Test these options by filling in the following tables.     Stakeholder  Harms  Benefits                     Create the text for this flyer. Consider how you can effectively and ethically convey this information to potential borrowers.      Finally, reflect on your decision. What factors did you choose to emphasize? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not?     Sources  Median home price: 410,000 (US) https:\/\/fred.stlouisfed.org\/series\/MSPUS  https:\/\/www.stlouisfed.org\/on-the-economy\/2024\/feb\/which-households-prefer-arms-fixed-rate-mortgages  Rate caps: https:\/\/www.consumerfinance.gov\/ask-cfpb\/what-are-rate-caps-with-an-adjustable-rate-mortgage-arm-and-how-do-they-work-en-1951\/   "
+},
+{
+  "id": "ethics-arms-3",
+  "level": "2",
+  "url": "ethics-arms.html#ethics-arms-3",
+  "type": "Activity",
+  "number": "9.12.1",
+  "title": "",
+  "body": "  In this activity, we'll consider the advantages and disadvantages of ARMs and think about how to communicate them ethically to the public.    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?    Let's start by looking at a Federal Reserve website about which borrowers tend to choose ARMs . Describe a situation where someone would prefer an ARM to a fixed-rate mortgage.    Now let's look at the information on this CFPB website about these two types of mortgage . What are some of the factors that you think should be communicated to the potential borrower as clearly as possible?   "
+},
+{
+  "id": "ethics-arms-4",
+  "level": "2",
+  "url": "ethics-arms.html#ethics-arms-4",
+  "type": "Activity",
+  "number": "9.12.2",
+  "title": "",
+  "body": "  Often, in the US, the structure of an ARM is given in terms of two lengths of time: the period that the initial interest rate will apply to and the frequency at which the interest rate will be recalculated thereafter. For instance, a 10y\/6m ARM will have one interest rate that applies for the first 10 years, and the rate will be reset every 6 months thereafter.  Let's say that we have 4 borrowers, all of whom borrow $328,000 on a 30-year mortgage. Each of them will make monthly payments according to the following interest chart.     Borrower  Initial Effective Rate  Type of Mortgage    A  6.000%  fixed rate    B  5.875%  ARM, 10y\/6m    C  5.625%  ARM, 7y\/6m    D  5.500%  ARM 5y\/6m       How much will the first payment of each of these borrowers be?    How much will Borrowers B, C, and D still owe at the end of their initial rate terms (10, 7, and 5 years, respectively)?    The standard adjustment cap for an ARM is 5%. Suppose Borrowers B, C, and D's interest rates all increase by 5% after their initial terms and then hold steady at this rate for the remainder of the loan. What will their new payments be?    Calculate the duration for each of these borrowers.    Interpret these calculations for a potential borrower seeking advice on types of mortgages.   "
+},
+{
+  "id": "ethics-arms-5",
+  "level": "2",
+  "url": "ethics-arms.html#ethics-arms-5",
+  "type": "Activity",
+  "number": "9.12.3",
+  "title": "",
+  "body": "  You are working for a mortgage broker, and you have been asked to create the text for a 1-page flyer explaining the advantages and disadvantages of ARMs for their clients. You may wish to start by looking at the CFPB website given at the beginning of this activity.    Now let’s do a stakeholder analysis. In this case, let's just consider the borrowers and the mortgage brokers. Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited when the customer selects a fixed-rate mortgage or an ARM. Test these options by filling in the following tables.     Stakeholder  Harms  Benefits                     Create the text for this flyer. Consider how you can effectively and ethically convey this information to potential borrowers.   "
+},
+{
+  "id": "ethics-arms-6",
+  "level": "2",
+  "url": "ethics-arms.html#ethics-arms-6",
+  "type": "Activity",
+  "number": "9.12.4",
+  "title": "",
+  "body": "  Finally, reflect on your decision. What factors did you choose to emphasize? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not?   "
+},
+{
   "id": "duration-and-convexity-exercises",
   "level": "1",
   "url": "duration-and-convexity-exercises.html",
   "type": "Exercises",
-  "number": "9.12",
+  "number": "9.13",
   "title": "Exercises",
   "body": "   A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.      Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%         For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.      Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .      In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,       Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .      Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .      Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .      Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .      A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.      A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.      Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .    "
 },
@@ -10265,7 +10310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-1",
   "type": "Exercise",
-  "number": "9.12.1",
+  "number": "9.13.1",
   "title": "",
   "body": "  A zero coupon bond with a term of 5 years and maturity value of 1000 is purchased. At the time the bond was purchased, the yield curve was , , , , and .  Three years later, in the face of a possible recession, the yield curve inverts and \\\\ , , , , and .  Compare the book and market values of the bond after three years and report the difference as a gain or a loss.   "
 },
@@ -10274,7 +10319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-2",
   "type": "Exercise",
-  "number": "9.12.2",
+  "number": "9.13.2",
   "title": "",
   "body": "  Suppose you have the following yield curve:               .34%    2  5.01%    3  5.79 %    4  5.34%     Consider a four-year bond with semiannual coupons, a coupon rate of 4.5%, and a face value of 1000.  For each year, determine the book and market value of the bond, given the yield curves that year.    At the end of year 1, the yield curve is:               .67%    2  6.80%    3  7.15 %    4  7.32%       At the end of year 2, the yield curve is:               .12%    2  5.92%    3  6.39 %    4  7.21%       At the end of year 3, the yield curve is:               .87%    2  5.23%    3  5.46 %    4  5.72%       At the end of year 4, the yield curve is:               .89%    2  4.11%    3  4.43 %    4  4.50%      "
 },
@@ -10283,7 +10328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-3",
   "type": "Exercise",
-  "number": "9.12.3",
+  "number": "9.13.3",
   "title": "",
   "body": "  For each of the following cash flows, estimate whether the duration will be (i) closer to the beginning of the term, (ii) somewhere in the middle of the term, or (iii) closer to the end of the term. Do not perform any calculations, just select on of the three options. Justify your estimation.    Anticipated cash flows of 10,000 at the end of year 2, 150 at the end of year 3, and 500 at the end of year 10.    Anticipated cash flows of 750 each year for 4 years, 1000 each year for 3 years, and 900 at the end of year 8.    A zero-coupon bond.    A coupon bond.    A level-payment annuity.    An increasing annuity.    A decreasing annuity.   "
 },
@@ -10292,7 +10337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-4",
   "type": "Exercise",
-  "number": "9.12.4",
+  "number": "9.13.4",
   "title": "",
   "body": "  Find the Macaulay duration for each of the following:    A zero-coupon bond with maturity of 1000 in five years, priced to yield 3%.    A bond with semiannual coupons of 5% with a face value of 10,000 and a term of ten years, priced to yield 4.5%.    Anticipated cash flows of 10 million at the end of years 1, 2, 3, and 4, 12 million at the end of years 5 through 10, and a final payout of 20 million at the end of year 11. The cash flows are priced to yield 5%.    A level payment annuity with quarterly payments of 2750 for 5 years, with .    An annuity with ten payments of 500, followed by two more payments of 1200, with .    A 4-month monthly annuity with a first payment of 12,000, declining by 500 each month. Assume .    An annual annuity with a first payment of 15,000, growing by 2.3% every year, for 3 years. Assume .    Cash flows of 1000 at the end of year 1, 1500 at the end of year 2, and 1150 at the end of year 3. The yield curve is , and .   "
 },
@@ -10301,7 +10346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-5",
   "type": "Exercise",
-  "number": "9.12.5",
+  "number": "9.13.5",
   "title": "",
   "body": "  In each of the following, convert from Macaulay duration to modified duration, or vice versa.     ,      ,      ,      ,      ,    "
 },
@@ -10310,7 +10355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-6",
   "type": "Exercise",
-  "number": "9.12.6",
+  "number": "9.13.6",
   "title": "",
   "body": "  Find the modified duration for each of the following:    Projected cash flows of 10 million at the end of year 1, 8 million at the end of year 3, and 5 million at the end of year 4. The effective annual interest rate is .    A zero-coupon bond with a term of 20 years, a maturity value of 10,000, priced to yield 7%.    A coupon bond with a face value of 100, a semiannual coupon rate of 5%, a term of 15 years, priced to yield 6.5%.    A level-payment annuity with 10 payments of 1,500, valued at     A perpetuity-immediate with annual payments of 23,500. The effective interest rate is .    A perpetuity-due with annual payments of 19,500 and .   "
 },
@@ -10319,7 +10364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-7",
   "type": "Exercise",
-  "number": "9.12.7",
+  "number": "9.13.7",
   "title": "",
   "body": "  Use modified duration to estimate the first order change in the present value of the following cash flows:    A project with projected cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 4000 at the end of year 3, originally priced to yield 10%. Set .    A zero coupon bond with a term of 5 years, a maturity of 1000, priced to yield 5%. Set .    A coupon bond with a term of 10 years, a semiannual coupon rate of 4%, a face value of 1000, originally priced to yield 6%. Set .    A level payment annuity with a term of 20 years, monthly payments of 50, priced to yield . Set .   "
 },
@@ -10328,7 +10373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-8",
   "type": "Exercise",
-  "number": "9.12.8",
+  "number": "9.13.8",
   "title": "",
   "body": "  Use Macaulay approximation to estimate the change in the present value of the following cash flows:    A project with cash flows of 2000 at the end of year 1, 1000 at the end of year 2, and 3000 at the end of year 4. The project is priced to yield 8%. Set .    A zero coupon bond with a term of 4 years, a maturity of 1000, priced to yield 3.5%. Set .    A coupon bond with a face value of 10,000, a semiannual coupon rate of 6%, a term of 15 years, priced to yield 5%. Set where is the effective semiannual interest rate.    A level payment annuity with a term of 7 years, quarterly payments of 150, priced to yield . Set .   "
 },
@@ -10337,7 +10382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-9",
   "type": "Exercise",
-  "number": "9.12.9",
+  "number": "9.13.9",
   "title": "",
   "body": "  Use modified duration and convexity to estimate the second order change in the present value of the following cash flows:    A project with cash flows of 1000 at the end of year 1, 2000 at the end of year 2, and 3000 at the end of year 3. The project is priced to yield 10%. Set .    A zero coupon bond with a term of 10 years, a maturity value of 2500, priced to yield 6.5%. Set .    A perpetuity-immediate with annual payments of 15,000, priced to yield . Set .   "
 },
@@ -10346,7 +10391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-10",
   "type": "Exercise",
-  "number": "9.12.10",
+  "number": "9.13.10",
   "title": "",
   "body": "  A portfolio contains 30,000 worth of bonds with modified duration ; 20,000 worth of bonds with modified duration ; 40,000 worth of bonds with modified duration ; and 10,000 worth of zero-coupon bonds with a term of 10 years that are priced to yield 7%. Find the modified duration of the portfolio.   "
 },
@@ -10355,7 +10400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-11",
   "type": "Exercise",
-  "number": "9.12.11",
+  "number": "9.13.11",
   "title": "",
   "body": "  A portfolio contains 20,000 worth of bonds with duration ; 40,000 worth of bonds with modified duration priced to yield 5\\%; and 20,000 worth of bonds with duration . Find the Macaulay duration of the portfolio.   "
 },
@@ -10364,7 +10409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-exercises.html#duration-and-convexity-exercises-12",
   "type": "Exercise",
-  "number": "9.12.12",
+  "number": "9.13.12",
   "title": "",
   "body": "  Suppose investors face the following yield curve:               %    2  6%    3  6.5%     Bond A has annual coupons at a rate of 5% for 3 years, and Bond B is a three-year zero coupon bond. A portfolio contains 30,000 worth of Bond A and 20,000 worth of Bond B.    Find the Macaulay duration of the portfolio .    Find the modified duration of the portfolio . For each of the bonds, use the flat effective annual yield rate that results in the prices you found above.    Use the modified duration to estimate the first order change in the value of for a parallel shift in the yield curve of .   "
 },
@@ -10373,7 +10418,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "duration-and-convexity-problems.html",
   "type": "Exercises",
-  "number": "9.13",
+  "number": "9.14",
   "title": "Problems",
   "body": " Problems     An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?       Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .       An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .       A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.       A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .       Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.       Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.       A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.       A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.       Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.       The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.       Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.       Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.       Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.       An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.      Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.       The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.       The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.       Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.      A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.       A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .       A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .       Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.       There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.       A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.       Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:         A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.      A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.      A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.       You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.       Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.       SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .       An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .      Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.    "
 },
@@ -10382,7 +10427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-2",
   "type": "Exercise",
-  "number": "9.13.1",
+  "number": "9.14.1",
   "title": "",
   "body": "   An investment pays 2000 at the end of year 1, 2500 at the end of year 2, and at the end of year 3. The investment earns 8% annually. The present value of the investment is 6773.60. What is the Macaulay duration of the investment?   "
 },
@@ -10391,7 +10436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-3",
   "type": "Exercise",
-  "number": "9.13.2",
+  "number": "9.14.2",
   "title": "",
   "body": "   Payments of 200, 400, and 600 at times 3,4, and 5 respectively have a Macaulay duration of 4.3 at an annual effective interest rate of . Calculate .   "
 },
@@ -10400,7 +10445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-4",
   "type": "Exercise",
-  "number": "9.13.3",
+  "number": "9.14.3",
   "title": "",
   "body": "   An investment pays 1000 in one year, 2000 at the end of the second year, and at the end of the third year. It was purchased to yield the annual rate of 9%. If the Macaulay duration is 2.5, calculate .   "
 },
@@ -10409,7 +10454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-5",
   "type": "Exercise",
-  "number": "9.13.4",
+  "number": "9.14.4",
   "title": "",
   "body": "   A 3-year annual coupon bond has coupons of 10 per year starting one year from now and matures in 3 years for amount 100. The yield to maturity for the bond is 11.8% (effective annual). Find the Macaulay duration for the bond.   "
 },
@@ -10418,7 +10463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-6",
   "type": "Exercise",
-  "number": "9.13.5",
+  "number": "9.14.5",
   "title": "",
   "body": "   A bond will pay a coupon of 100 at the end of each of the next three years and will pay the face value of 1000 at the end of the three-year period. The bond's duration (Macaulay duration) when valued using an annual effective interest rate of 20% is . Calculate .   "
 },
@@ -10427,7 +10472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-7",
   "type": "Exercise",
-  "number": "9.13.6",
+  "number": "9.14.6",
   "title": "",
   "body": "   Calculate the Macaulay duration of an 8-year 100 par value bond with 10% annual coupons and an effective rate of interest equal to 8%.   "
 },
@@ -10436,7 +10481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-8",
   "type": "Exercise",
-  "number": "9.13.7",
+  "number": "9.14.7",
   "title": "",
   "body": "   Compute the Macaulay duration of a ten-year 6% 1000 bond having annual coupons and a redemption of 1,200 if the yield to maturity is 8%.   "
 },
@@ -10445,7 +10490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-9",
   "type": "Exercise",
-  "number": "9.13.8",
+  "number": "9.14.8",
   "title": "",
   "body": "   A thirty-year mortgage with no repayment option is repaid with level monthly payments. The interest rate on the mortgage is 6.8% nominal convertible monthly. Calculate the Macaulay duration on the mortgage at the equivalent annual effective interest rate.   "
 },
@@ -10454,7 +10499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-10",
   "type": "Exercise",
-  "number": "9.13.9",
+  "number": "9.14.9",
   "title": "",
   "body": "   A zero-coupon bond matures in eight years. It is sold to yield 5% annually. Find the modified duration.   "
 },
@@ -10463,7 +10508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-11",
   "type": "Exercise",
-  "number": "9.13.10",
+  "number": "9.14.10",
   "title": "",
   "body": "   Calculate the modified duration, at , of payments of 400 at the end of the second year, 300 at the end of the third year, 200 at the end of the fourth year, and 100 at the end of the sixth year.   "
 },
@@ -10472,7 +10517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-12",
   "type": "Exercise",
-  "number": "9.13.11",
+  "number": "9.14.11",
   "title": "",
   "body": "   The current price of a bond having annual coupons is 1,312. The derivative of the price function of the bond with respect to the yield to maturity is -7,443.81 when evaluated at the current annual yield, which is 7%. Calculate the Macaulay duration and the modified duration of the bond.   "
 },
@@ -10481,7 +10526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-13",
   "type": "Exercise",
-  "number": "9.13.12",
+  "number": "9.14.12",
   "title": "",
   "body": "   Calculate the Macaulay duration and the modified duration of a preferred stock that pays dividends forever of 50 each six months, with the next dividend in exactly six months. The effective semiannual interest rate is 5%.   "
 },
@@ -10490,7 +10535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-14",
   "type": "Exercise",
-  "number": "9.13.13",
+  "number": "9.14.13",
   "title": "",
   "body": "   Find the Macaulay duration of a common stock which pays dividends at the end of each year, if it is assumed that each dividend is 4% greater than the prior dividend and the effective rate of interest is 8%.   "
 },
@@ -10499,7 +10544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-15",
   "type": "Exercise",
-  "number": "9.13.14",
+  "number": "9.14.14",
   "title": "",
   "body": "   Calculate the Macaulay duration and the modified duration of a stock that pays annual dividends forever, assuming that the first dividend, payable in exactly one year, is 100, and then, each subsequent dividend is 2% more than the previous one. The effective annual interest rate is 6%.   "
 },
@@ -10508,7 +10553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-16",
   "type": "Exercise",
-  "number": "9.13.15",
+  "number": "9.14.15",
   "title": "",
   "body": "   An investor buys a perpetuity-immediate providing annual payments of 1, with an annual effective interest rate of and Macaulay duration of 17.6 years.  Calculate the Macaulay duration using an annual effective interest rate of instead of .   "
 },
@@ -10517,7 +10562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-17",
   "type": "Exercise",
-  "number": "9.13.16",
+  "number": "9.14.16",
   "title": "",
   "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -700. The yield to maturity is an annual effective rate of 8%.  Calculate the Macaulay duration of the bond.   "
 },
@@ -10526,7 +10571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-18",
   "type": "Exercise",
-  "number": "9.13.17",
+  "number": "9.14.17",
   "title": "",
   "body": "  Let be the Macaulay duration of a level-payment annuity with payments of valued at an effective, periodic interest rate of . Let be the Macaulay duration of the same annuity, but deferred for payment periods.    Use the calculus of actuarial symbols to find the modified duration of the deferred annuity.    Use the modified duration to show that .    Suppose we have an annuity-immediate with 360 monthly payments of 500 at . Suppose the payments are deferred for one year. Find the Macaulay duration and modified duration.   "
 },
@@ -10535,7 +10580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-19",
   "type": "Exercise",
-  "number": "9.13.18",
+  "number": "9.14.18",
   "title": "",
   "body": "   The current price of an annual coupon bond is 100. The derivative of the price of the bond with respect to the yield to maturity is -650. The yield to maturity is an effective rate of 7%.    Calculate the Macaulay duration of the bond.    Estimate the price of the bond using the first-order modified approximation when the yield rate is 8%.   "
 },
@@ -10544,7 +10589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-20",
   "type": "Exercise",
-  "number": "9.13.19",
+  "number": "9.14.19",
   "title": "",
   "body": "   The current price of a bond with annual coupons is 1120.58 and the current annual yield is 4.25%. The modified duration is 3.58. Estimate the price of the bond using the first order modified approximation if the yield increases to 4.4%.   "
 },
@@ -10553,7 +10598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-21",
   "type": "Exercise",
-  "number": "9.13.20",
+  "number": "9.14.20",
   "title": "",
   "body": "   Krishna buys an -year 1000 bond at par. The Macaulay duration is 7.959 years using an annual effective interest rate of 7.2%.  Calculate the estimated price of the bond, using the first-order modified approximation, if the interest rate rises to 8.0%.   "
 },
@@ -10562,7 +10607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-22",
   "type": "Exercise",
-  "number": "9.13.21",
+  "number": "9.14.21",
   "title": "",
   "body": "  A ten-year bond with semiannual coupons at a coupon rate of 5% on a face value of 1000 has a redemption amount of 1200. The modified duration of this bond is 15.7668. If the yield rate drops by 30 basis points, the first order modified approximation estimates the price of the bond increases by 49.0235. Find the original yield rate.   "
 },
@@ -10571,7 +10616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-23",
   "type": "Exercise",
-  "number": "9.13.22",
+  "number": "9.14.22",
   "title": "",
   "body": "   A 20-year bond priced to have a yield of 10% has a Macaulay duration of 11. Immediately after the bond is priced, the market yield increases by 0.25%. The bond's approximate percentage price change, using the first-order Macaulay approximation, is .  Calculate .   "
 },
@@ -10580,7 +10625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-24",
   "type": "Exercise",
-  "number": "9.13.23",
+  "number": "9.14.23",
   "title": "",
   "body": "   A bond has a modified duration of 8 and a price of 112,955 calculated using an annual effective interest rate of 6.4%.   is the estimated price of this bond at 7.0% using a first-order Macaulay approximation.   is the estimated price of this bond at 7.0% using a first-order modified approximation.  Calculate .   "
 },
@@ -10589,7 +10634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-25",
   "type": "Exercise",
-  "number": "9.13.24",
+  "number": "9.14.24",
   "title": "",
   "body": "   Graham is the beneficiary of an annuity due. At an effective annual interest rate of 5%, the present value of the payments is 123,000 and the modified duration is .  Tyler uses the first order Macaulay approximation to estimate the present value of Graham's annuity due if the effective annual interest rate were 5.4%. Tyler estimates the present value to be 121,212.  Calculate , the modified duration of Graham's annuity at 5%.   "
 },
@@ -10598,7 +10643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-26",
   "type": "Exercise",
-  "number": "9.13.25",
+  "number": "9.14.25",
   "title": "",
   "body": "   There is a loan obligation to pay 1000 one year from today and another 1000 two years from today. Assuming the effective rate of interest is 10%, find the following:    The Macaulay duration of this loan.    The convexity of this loan.   "
 },
@@ -10607,7 +10652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-27",
   "type": "Exercise",
-  "number": "9.13.26",
+  "number": "9.14.26",
   "title": "",
   "body": "   A loan is to be repaid with payments of 1000 at the end of one year, 2000 at the end of two years, and 3000 at the end of three years. The effective rate of interest is 25%.    Find the amount of the loan.    Find the Macaulay duration.    Find the modified duration.    Find the convexity.   "
 },
@@ -10616,7 +10661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-28",
   "type": "Exercise",
-  "number": "9.13.27",
+  "number": "9.14.27",
   "title": "",
   "body": "   Find the convexity of a loan repaid with equal installments over periods if .   Hint : One approach to solving this problem uses the identities:     "
 },
@@ -10625,7 +10670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-29",
   "type": "Exercise",
-  "number": "9.13.28",
+  "number": "9.14.28",
   "title": "",
   "body": "   A common stock pays dividends at the end of each year. It is assumed that each dividend is 4% greater than the prior dividend, and the effective rate of interest is 8%. Find the convexity.   "
 },
@@ -10634,7 +10679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-30",
   "type": "Exercise",
-  "number": "9.13.29",
+  "number": "9.14.29",
   "title": "",
   "body": "  A bond has a price and satisfies and . Find the approximate price of the bond if the interest rate grows by 25 basis points.   "
 },
@@ -10643,7 +10688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-31",
   "type": "Exercise",
-  "number": "9.13.30",
+  "number": "9.14.30",
   "title": "",
   "body": "  A bond has a price , a Macaulay duration , and convexity , find the approximate price of the bond if the interest rate decreases by 150 basis points.   "
 },
@@ -10652,7 +10697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-32",
   "type": "Exercise",
-  "number": "9.13.31",
+  "number": "9.14.31",
   "title": "",
   "body": "   You have purchased three bonds to form a portfolio as follows:    Bond A has semiannual coupons at 4%, a Macaulay duration of 21.46 years, and was purchased for 980.    Bond B is a 15-year bond with a Macaulay duration of 12.35 years and was purchased for 1015.    Bond C has a Macaulay duration of 16.67 years and was purchased for 1000.    Calculate the Macaulay duration of the portfolio at the time of purchase.   "
 },
@@ -10661,7 +10706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-33",
   "type": "Exercise",
-  "number": "9.13.32",
+  "number": "9.14.32",
   "title": "",
   "body": "   Under the current market conditions, Bond 1 has a price (per 100 of face amount) of 88.35 and a Macaulay duration of 12.7, and Bond 2 has a price (per 100 of face amount) of 130.49 and Macaulay duration of 14.6. A portfolio is created with a combination of face amount of Bond 1 and face amount of Bond 2. The combined face amount of the portfolio is and the Macaulay duration of the portfolio is 13.5. Find the portfolio value.   "
 },
@@ -10670,7 +10715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-34",
   "type": "Exercise",
-  "number": "9.13.33",
+  "number": "9.14.33",
   "title": "",
   "body": "   SOA Life Insurance Company has a portfolio of two bonds:    Bond 1 is a bond with Macaulay duration 7.28 and a price of 35,000.    Bond 2 is a bond with Macaulay duration 12.74 and a price of 65,000.    The price and Macaulay duration for both bonds were calculated using an annual effective interest rate of 4.32%.  Bailey estimates that the value of the portfolio at an interest rate of using the first-order Macaulay approximation to be 105,000.  Determine .   "
 },
@@ -10679,7 +10724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-35",
   "type": "Exercise",
-  "number": "9.13.34",
+  "number": "9.14.34",
   "title": "",
   "body": "   An investor has a portfolio containing 3,000 worth of a four year bond with a modified duration of 3.6, 6,000 worth of a five year bond with a modified duration of , and 7,000 worth of a six year bond with a modified duration of 5.8. If the modified duration of the entire portfolio is 5, calculate .   "
 },
@@ -10688,7 +10733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "duration-and-convexity-problems.html#duration-and-convexity-problems-36",
   "type": "Exercise",
-  "number": "9.13.35",
+  "number": "9.14.35",
   "title": "",
   "body": "  Suppose David Lee Roth has an annuity-immediate with ten annual payments of 1,200 followed by fifteen annual payments of 1900. The annuities are valued with an effective annual interest rate .  Calculate the Macaulay duration and the modified duration of this annuity by treating the annuity as a portfolio with an annuity at one payment level and a deferred annuity at another payment level.   "
 },
