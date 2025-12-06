@@ -9060,98 +9060,44 @@ var ptx_lunr_docs = [
   "url": "ethics-enron.html",
   "type": "Section",
   "number": "8.7",
-  "title": "Ethics Case Study -- Enron and Mark-to-Market Accounting",
-  "body": " Ethics Case Study -- Enron and Mark-to-Market Accounting  At the end of 2001, Enron filed for bankruptcy (represented by Weil, Gotshal, and Manges - my old law firm). At the time, this was the largest bankruptcy in history, and was a shock to the U.S. economy. The Enron bankruptcy revealed a significant accounting scandal that brought down Arthur Andersen, one of the \"big 5\" accounting firms. In 2002, Congress responses by passing the Sarbanes-Oxley Act.  So what happened? One of the significant causes of the bankruptcy and scandal concerned Enron's mark-to-market accounting (which requires permission from the Securities and Exchange Commission). Under mark-to-market accounting , firms can report the fair market value of their assets in their accounting filings. Since this can be difficult to ascertain, a common approach is to use the net present value of projected future cash flows. Enron founder and chair Ken Lay, CEO Jeffrey Skilling, and CFO Andrew Fastow assured the public and investors that their estimates were credible. In reality, the cash flows ended up much lower than predicted, often leading to losses. One of the most infamous was a mid-90s deal with the Blockbuster video rental chain to provide content streaming services, but the technology was not ready and the project failed.  Enron handled these losses by creating special purpose entities - subsidiary corporations that exist for a single purpose - to assume the losses from the various projects. That way, the losses Enron suffered were hidden from Enron's filings and hidden from investors.  Suppose you work at an actuarial firm. You are reviewing the firm's investment portfolio. You find significant investment in a single very large company called Reliant, Inc. Reliant invests in projects all over the world, and uses mark-to-market accounting to report income from these projects. You notice that Reliant has had tremendous luck, as none of the projects have ever caused any losses to Reliant. This sounds fishy to you -- surely some will have high returns and others will be disappointments!  You bring this to your department chair, who waves it away. When you insist, the partner discloses to you in confidence that the CEO is a close relative of your firm's managing partner. Several partners, including your department chair, already tried to talk the managing partner of the risk of investing in Reliant. The managing partner would not budge, eventually threatening to dissolve some of the partners of their role in the firm (in effect, firing them). Some partners suspect that the managing partner is receiving kickbacks. You are urged to let this matter go.  You return to your office to think through this carefully, working through our ethical decision framework. Once you decide what you want to do, you plan on writing a memo to yourself to file away as evidence in case you have to defend yourself, whether to your boss, prosecutors, or the public. (In the professional environments, these kinds of memos are called \"memos to the files\").     Step 1 : State the Problem.       Step 2 : Gather the Facts.    Let's look at an example of mark-to-market accounting. Suppose Reliant enters a deal that will require an initial investment of 1.25 million today. They project that this deal will result in cash flows of 2.5 million at the end of each of the next three years, 2 million at the end of each of the following 2 years, and 1 million at the end of the following year. The project terminates after that point. Find the at 4% annually.    In reality, the project generates cash flows of 250,000 at the end of the first three years, 200,000 at the end of the following two years, and 100,000 at the end of the following year (after which the project terminates). Find the actual at 4%.    Since the projected is reported as income for Reliant in their filings, the difference between the projected and actual is a loss. These are the losses Enron hid in their off-book special purpose entities.  Moreover, with the losses stuffed away off Reliant's books, Reliant will need new sources of income every year (or quarter, or other appropriate recording period). How does this distort Reliant managers'\\ incentives and create an unsustainable cycle?       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to the files stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).    "
+  "title": "Ethics Case Study: AI Data Centers",
+  "body": " Ethics Case Study: AI Data Centers  Data centers for artificial intelligence have significant environmental and economic consequences both globally and for nearby communities.    Read the United Nations Environment Programme’s Issue Note on AI from September, 2024, Artificial Intelligence (AI) end-to-end: The environmental impact of the full AI lifecycle needs to be comprehensively assessed . What did you read that you already knew? What surprised you?    In addition to environmental impacts, the presence of data centers near a community can lead to water shortages and significant increases in electricity costs, both due to the data center’s consumption of those resources.  You work at an actuarial firm located in a community where the County has received a request for permits to build an AI data center nearby. The community residents are worried about water shortages and they are worried about electricity costs. The County Commission plans to make quarterly deposits into a water fund in order to address concerns about the water supply. However, the residents are still worried about electricity costs.  Your firm sees an opportunity – they want to offer an insurance product to the community that covers any excessive electric costs in exchange for a premium. You are asked to come up with a pricing model and an estimate so that you can share the offer at a County Commission meeting that will take place tomorrow.  The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the spreadsheet  .    Based on these data, you create a naïve, simple pricing model . The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.  For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit).    Let’s calculate the expected claims on a 6 month policy based on the forwards you accessed.  The spreadsheet contains forward prices for 12 months, including the current month (month 0). For the current month, this is the actual average electric bill in the relevant area. The growth factors will be the amount we multiply the previous forward price by to get the next forward price (like $1+ \\iota$ for interest rates). The growth factor in cell C2 is the growth factor from the previous month which is not in the report.  The directions below are for Excel, and you can use a programming language such as R or Python instead if you prefer.    Have Excel calculate the growth factors for the rest of the months in Column C.    In Cell C15, have Excel calculate the average growth factor.  Since these are growth factors , we use a geometric mean as we did for average interest rates in . Excel can calculate this using the following syntax:   =GEOMEAN(first cell: last cell)     In Cell 16, have Excel calculate the standard deviation (using sample standard deviation: STDEV.S in Excel-speak).  As with the mean, we need to use a geometric standard deviation . The way to get Excel to calculate this is to have it calculate:     In this case, calling the functions STDEV.S and LOG (along with “first cell:last cell” in the argument of LOG ) will be necessary.    In Column D, we will figure out the threshold above which the insurance policy pays out. To find the “Expected Forward” we multiply the month 0 price by the geometric mean growth factor compounded the appropriate number of months (why?). To add 1 standard deviation, we multiply the result by the geometric standard deviation compounded the same number of months (why?). Have Excel perform these calculations. Don’t forget to use absolute cell references (like $C$15 ).    We use a full year of forwards for our data, but we only price a six month policy. For the first 6 months (including 0), in Column E, find the expected payout based on these data assuming the forward prices are realized.  It might help to use the “max” function: “=MAX(number 1, number 2)”. This will return the largest of the two numbers, and is useful as there is no payout when the bill (represented by the forward price) is less than the expected forward plus one standard deviation.    Add up the expected payouts for each month – this is the expected payout per 6-month policy.        Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about \/$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.  A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.  When you look into this, you find that the underwriters used electric forward rates for areas where there already is an AI data center, which they state are much more accurate for the community’s circumstances.  Review the SOA Code of Professional Conduct . Where do you see an ethical issue? Who was responsible? What should be done? What would you do?      Write a brief paper responding to your findings and addressing each of the questions.     Footnotes    These prices are actually based on historical data for 2025 accessed from the US Energy Information Administration , and the average amount of energy consumption for a US household in 2022 according to the same agency.    One of the things missing from this pricing model is probability, which is covered in another course.     "
 },
 {
   "id": "ethics-enron-3",
   "level": "2",
   "url": "ethics-enron.html#ethics-enron-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "mark-to-market accounting "
-},
-{
-  "id": "ethics-enron-4",
-  "level": "2",
-  "url": "ethics-enron.html#ethics-enron-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "special purpose entities "
-},
-{
-  "id": "enron-problem-statement",
-  "level": "2",
-  "url": "ethics-enron.html#enron-problem-statement",
   "type": "Activity",
   "number": "8.7.1",
   "title": "",
-  "body": "   Step 1 : State the Problem.   "
+  "body": "  Read the United Nations Environment Programme’s Issue Note on AI from September, 2024, Artificial Intelligence (AI) end-to-end: The environmental impact of the full AI lifecycle needs to be comprehensively assessed . What did you read that you already knew? What surprised you?   "
 },
 {
-  "id": "enron-fact-gathering",
+  "id": "ethics-enron-8",
   "level": "2",
-  "url": "ethics-enron.html#enron-fact-gathering",
+  "url": "ethics-enron.html#ethics-enron-8",
   "type": "Activity",
   "number": "8.7.2",
   "title": "",
-  "body": "   Step 2 : Gather the Facts.    Let's look at an example of mark-to-market accounting. Suppose Reliant enters a deal that will require an initial investment of 1.25 million today. They project that this deal will result in cash flows of 2.5 million at the end of each of the next three years, 2 million at the end of each of the following 2 years, and 1 million at the end of the following year. The project terminates after that point. Find the at 4% annually.    In reality, the project generates cash flows of 250,000 at the end of the first three years, 200,000 at the end of the following two years, and 100,000 at the end of the following year (after which the project terminates). Find the actual at 4%.    Since the projected is reported as income for Reliant in their filings, the difference between the projected and actual is a loss. These are the losses Enron hid in their off-book special purpose entities.  Moreover, with the losses stuffed away off Reliant's books, Reliant will need new sources of income every year (or quarter, or other appropriate recording period). How does this distort Reliant managers'\\ incentives and create an unsustainable cycle?   "
+  "body": "  Based on these data, you create a naïve, simple pricing model . The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.  For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit).    Let’s calculate the expected claims on a 6 month policy based on the forwards you accessed.  The spreadsheet contains forward prices for 12 months, including the current month (month 0). For the current month, this is the actual average electric bill in the relevant area. The growth factors will be the amount we multiply the previous forward price by to get the next forward price (like $1+ \\iota$ for interest rates). The growth factor in cell C2 is the growth factor from the previous month which is not in the report.  The directions below are for Excel, and you can use a programming language such as R or Python instead if you prefer.    Have Excel calculate the growth factors for the rest of the months in Column C.    In Cell C15, have Excel calculate the average growth factor.  Since these are growth factors , we use a geometric mean as we did for average interest rates in . Excel can calculate this using the following syntax:   =GEOMEAN(first cell: last cell)     In Cell 16, have Excel calculate the standard deviation (using sample standard deviation: STDEV.S in Excel-speak).  As with the mean, we need to use a geometric standard deviation . The way to get Excel to calculate this is to have it calculate:     In this case, calling the functions STDEV.S and LOG (along with “first cell:last cell” in the argument of LOG ) will be necessary.    In Column D, we will figure out the threshold above which the insurance policy pays out. To find the “Expected Forward” we multiply the month 0 price by the geometric mean growth factor compounded the appropriate number of months (why?). To add 1 standard deviation, we multiply the result by the geometric standard deviation compounded the same number of months (why?). Have Excel perform these calculations. Don’t forget to use absolute cell references (like $C$15 ).    We use a full year of forwards for our data, but we only price a six month policy. For the first 6 months (including 0), in Column E, find the expected payout based on these data assuming the forward prices are realized.  It might help to use the “max” function: “=MAX(number 1, number 2)”. This will return the largest of the two numbers, and is useful as there is no payout when the bill (represented by the forward price) is less than the expected forward plus one standard deviation.    Add up the expected payouts for each month – this is the expected payout per 6-month policy.     "
 },
 {
-  "id": "enron-identify-stakeholders",
+  "id": "ethics-enron-9",
   "level": "2",
-  "url": "ethics-enron.html#enron-identify-stakeholders",
+  "url": "ethics-enron.html#ethics-enron-9",
   "type": "Activity",
   "number": "8.7.3",
   "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
+  "body": "  Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about \/$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.  A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.  When you look into this, you find that the underwriters used electric forward rates for areas where there already is an AI data center, which they state are much more accurate for the community’s circumstances.  Review the SOA Code of Professional Conduct . Where do you see an ethical issue? Who was responsible? What should be done? What would you do?   "
 },
 {
-  "id": "enron-develop-options",
+  "id": "ethics-enron-10",
   "level": "2",
-  "url": "ethics-enron.html#enron-develop-options",
+  "url": "ethics-enron.html#ethics-enron-10",
   "type": "Activity",
   "number": "8.7.4",
   "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "enron-test-options",
-  "level": "2",
-  "url": "ethics-enron.html#enron-test-options",
-  "type": "Activity",
-  "number": "8.7.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "enron-make-decision",
-  "level": "2",
-  "url": "ethics-enron.html#enron-make-decision",
-  "type": "Activity",
-  "number": "8.7.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "enron-check-work",
-  "level": "2",
-  "url": "ethics-enron.html#enron-check-work",
-  "type": "Activity",
-  "number": "8.7.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "enron-memo",
-  "level": "2",
-  "url": "ethics-enron.html#enron-memo",
-  "type": "Activity",
-  "number": "8.7.8",
-  "title": "",
-  "body": "  Write a memo to the files stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).   "
+  "body": "  Write a brief paper responding to your findings and addressing each of the questions.   "
 },
 {
   "id": "rates-of-return-exercises",
