@@ -1,29 +1,33 @@
 <section xml:id="pawn-shop-ethics" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<title>Ethics Case Study: Pawn Shops</title>
 	<p>
-		A person who owns something valuable and needs money quickly might get that money by *pawning* their valuable item. They would take it to a *pawnbroker*, who would hold their item as collateral and give them a loan. After some fixed period of time (usually 90 days), if the borrower does not repay the loan with interest, the pawnbroker may sell the item and keep the proceeds.
+		A person who owns something valuable and needs money quickly might get that money by <term>pawning</term> their valuable item. They would take it to a <term>pawnbroker</term>, who would hold their item as collateral and give them a loan. After some fixed period of time (usually 90 days), if the borrower does not repay the loan with interest, the pawnbroker may sell the item and keep the proceeds.
 	</p>
 	<p>
 		This industry is regulated on a state-by-state basis. At the time of this writing, 41 states cap the interest rate a borrower may be charged. These rates range from 0.5% to 30%, and the average rate is roughly 11.8%.
 	</p>
 
 	<activity xml:id="pawn-shop-ethics-introduction">
-		<statement>
+		<task>
 			<p>
 				Before we start, read about the <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University</url>. Which lens(es) do you think you will bring to this analysis?
 			</p>
+		</task>
+		<task>
 			<p>
 				Let's start by looking at the information on two websites. The first is from the website of the National Pawnbrokers Association and <url href="https://nationalpawnbrokers.org/assets/2024/05/NPA-Pawn-Transactions-Explained.pdf">explains how a pawn transaction works</url>.  What responsibilities does the pawnbroker have, and what actions might the person pawning the item take?
 			</p>
+		</task>
+		<task>
 			<p>
 				The second is from the Federal Reserve and deals with the way <url href="https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm">Americans bank and use credit</url>.  The most relevant section is "Nonbank Small Dollar Credit." Give an example of a situation where someone might choose to use a pawn shop.
 			</p>
-		</statement>
+		</task>
 	</activity>
 	<activity xml:id="pawn-shop-ethics-interest-rate">
 		<introduction>
 			<p>
-				Think of an item someone might choose to pawn: perhaps electronics or sports equipment. (Please don't choose a precious metal or a weapon: pawning those items is highly regulated.) 
+				Think of an item someone might choose to pawn: perhaps electronics, sports equipment, or designer bags. (Please don't choose a precious metal or a weapon: pawning those items is highly regulated.) 
 			</p>
 		</introduction>
 		<task>
@@ -67,9 +71,6 @@
 							Stakeholder
 						</cell>
 						<cell right="medium">
-							Primary or Secondary?
-						</cell>
-						<cell right="medium">
 							Harms
 						</cell>
 						<cell right="medium">
@@ -80,10 +81,6 @@
 						<cell left="medium" right="medium">
 							<line>
 
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
 							</line>
 						</cell>
 						<cell right="medium">

@@ -91,7 +91,7 @@
 
 				<xi:include href="Chapter2/2.14.xml"/>
 
-				<xi:include href="Chapter2/2.15.xml"/>
+				<xi:include href="Chapter2/2.ethics.xml"/>
 
 				<xi:include href="Chapter2/2.exercises.xml"/>
 
@@ -160,6 +160,8 @@
 
 				<xi:include href="Chapter4/4.10.xml"/>
 
+				<xi:include href="Chapter4/4.ethics.xml"/>
+
 				<xi:include href="Chapter4/4.exercises.xml"/>
 
 				<xi:include href="Chapter4/4.problems.xml"/>
@@ -196,7 +198,7 @@
 
 				<xi:include href="Chapter5/5.13.xml"/>
 
-				<xi:include href="Chapter5/5.14.xml"/>
+				<xi:include href="Chapter5/5.ethics.xml"/>
 
 				<xi:include href="Chapter5/5.exercises.xml"/>
 
@@ -251,7 +253,7 @@
 
 				<xi:include href="Chapter7/7.6.xml"/>
 
-				<xi:include href="Chapter7/7.7.xml"/>
+				<xi:include href="Chapter7/7.ethics.xml"/>
 
 				<xi:include href="Chapter7/7.exercises.xml"/>
 

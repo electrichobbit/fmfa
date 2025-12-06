@@ -1,0 +1,194 @@
+<section xml:id="ethics-generational-wealth">
+	<title>Ethics Case Study: Generational Wealth</title>
+	<p>
+		<term>Generational wealth</term> refers to the accumulation of capital across generations in a family, especially of long-term assets that can be passed along from parents to children, like land, homes, and other heirlooms. Generational wealth can lead to the accumulation of privilege, as children of wealthier families have more access to education and jobs - for example, children from wealthy families tend to do <url href="https://journals.sagepub.com/doi/10.1177/016146811311500406">better on the SAT test</url>.
+	</p>
+	<p>
+		Generational wealth can be looked at through the lens of time-value of money.  If an asset increases in value then its future value will be greater than its present value. For example, a home purchased in 1985 will be worth more (in the sense of future value) than one purchased for the same price today.
+	</p>
+	<p>
+		In this activity, we'll look at how generational wealth accumulates from home ownership, and discuss the ethical impact of programs that seek to increase home ownership and build generational wealth.
+	</p>
+	<activity>
+		<introduction>
+			<p>
+				While the value of a home does generally tend to increase, it does not do so at a fixed rate like the other investments we have seen.  Instead, the rate at which the value increases tends to vary from month to month.
+			</p>
+			<p>
+				The table below gives the monthly percentage change in the Case-Schiller index, which measures the price of existing homes, during 2024:
+			</p>
+			<table>
+				<tabular top="medium">
+					<row bottom="medium">
+						<cell>
+							Month
+						</cell>
+						<cell>
+							% Change
+						</cell>
+					</row>
+					<row>
+						<cell>
+							01/24
+						</cell>
+						<cell>
+							-0.04
+						</cell>
+					</row>
+					<row>
+						<cell>
+							02/24
+						</cell>
+						<cell>
+							0.62
+						</cell>
+					</row>
+					<row>
+						<cell>
+							03/24
+						</cell>
+						<cell>
+							1.34
+						</cell>
+					</row>
+					<row>
+						<cell>
+							04/24
+						</cell>
+						<cell>
+							1.24
+						</cell>
+					</row>
+					<row>
+						<cell>
+							05/24
+						</cell>
+						<cell>
+							0.92
+						</cell>
+					</row>
+					<row>
+						<cell>
+							06/24
+						</cell>
+						<cell>
+							0.48
+						</cell>
+					</row>
+					<row>
+						<cell>
+							07/24
+						</cell>
+						<cell>
+							0.10
+						</cell>
+					</row>
+					<row>
+						<cell>
+							08/24
+						</cell>
+						<cell>
+							-0.17
+						</cell>
+					</row>
+					<row>
+						<cell>
+							09/24
+						</cell>
+						<cell>
+							-0.11
+						</cell>
+					</row>
+					<row>
+						<cell>
+							10/24
+						</cell>
+						<cell>
+							-0.21
+						</cell>
+					</row>
+					<row>
+						<cell>
+							11/24
+						</cell>
+						<cell>
+							-0.09
+						</cell>
+					</row>
+					<row>
+						<cell>
+							12/24
+						</cell>
+						<cell>
+							-0.12
+						</cell>
+					</row>
+				</tabular>
+			</table>
+		</introduction>
+		<task>
+			<p>
+				Calculate the effective annual rate of increase in the value of a home over 2024, by taking these monthly effective rates and finding the equivalent effective annual rate <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				Calculate the effective monthly rate of increase <m>\iota_m</m> which is equivalent to the effective annual rate <m>\iota</m>.
+			</p>
+		</task>
+		<task>
+			<p>
+				When averaging any kind of multiplicative percentage, we use the <term>geometric mean</term> instead of the arithmetic mean we're used to.  The geometric mean consists of taking the product of <m>n</m> terms and then finding the <m>n</m>th root.  Let the <m>\iota_k</m> be the monthly percentage changes.  Show that the geometric mean of the <m>(1+\iota_k)</m>
+			</p>
+			<me>
+				\left(\prod_{k=1}^12 (1 + \iota_k)\right)^(1/12) = (1 + \iota_m)
+			</me>
+		</task>
+	</activity>
+	<p>
+		Let's look at how the value of a home increases over generations. This is an example of a force of interest problem, since the rate is fluctuating constantly.  However, since we have data values instead of a function, we will do the calculation using numerical methods in a program like Excel or in a programming language like Python.
+	</p>
+	<activity>
+		<introduction>
+			<p>
+				The <url href="external/chapter2/data/case-schiller-increase.csv">Case-Schiller price change spreadsheet</url> gives the monthly change in home prices from January 1987 through September 2025.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				Use the spreadsheet to calculate the value in September 2025 of a house purchased in January 1987 for $80,000.
+			</p>
+			<p>
+				Use the spreadsheet to calculate the value in September 2025 of a house purchased in January 2007 for $80,000.
+			</p>
+		</task>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				You are working for a nonprofit which seeks to increase generational wealth in communities which have traditionally not had access to homeownership or other investments to grow generational wealth.  Create a list of 5 strategies for growing generational wealth which could be accessible to individuals with a range of incomes.
+			</p>
+			<p>
+				Create a presentation which you could deliver to a community organization about helping individuals create generational wealth.
+			</p>
+		</statement>
+	</activity>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

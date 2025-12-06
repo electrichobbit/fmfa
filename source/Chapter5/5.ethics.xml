@@ -1,0 +1,126 @@
+<section xml:id="ethics-case-study-reparations">
+	<title>Ethics Case Study -- Reparations</title>
+	<p>
+		For decades, there have been calls for America to pay reparations to African Americans, most of whom are descendants of enslaved people.  Those who argue for reparations believe that they are compensation for the value contributed to the United States by enslaved people. We are going to analyze this question using our ethical decision framework.
+	</p>
+	<activity xml:id="reparations-problem-statement">
+		<introduction>
+			<p> 
+				Let's start by learning about the problem.  Here's a short video from the Public Broadcasting System (PBS) which discusses the arguments around reparations.
+			</p>
+			<video href="https://player.pbs.org/viralplayer/3054144422/"/>
+		</introduction>
+		<task>
+			<p>
+				What are some of the groups that have received reparations around the world? Choose two of these groups.  How are the circumstances of their claims similar to those of the descendants of enslaved people in the US?  How are they different?
+			</p>
+		</task>
+		<task>
+			<p>
+				What are some of the forms that reparations could take in the US for the descendants of enslaved people?
+			</p>
+		</task>
+		<task>
+			<p>
+				What are some of the forms that you could envision reparations for descendants of enslaved people taking in the US? What would be the advantages and disadvantages of each?
+			</p>
+		</task>
+	</activity>
+	<p>
+		One problem around discussing reparations is putting a price tag on the harm done to the community.  Enslaved people were denied the right to earn wages for their labor, which consequently denied them the right to invest those earnings in the kinds of investments we discuss in this course - loans (including those to buy property), stocks, and bonds.  The time-value of those denied earnings has only increased in the years since.
+	</p>
+	<p>
+		The idea that families accumulate wealth over the years is called <term>generational wealth</term>.  While other families that immigrated to the US were able to continue accumulating generational wealth, including that which they brought to the country, enslaved people were stripped of most or all of their possessions and didn't have the opportunity to accumulate wealth until they gained their freedom.
+	</p>
+	<p>
+		Can we estimate how much money they lost, and what the current value of those lost wages would be?
+	</p>
+	<activity xml:id="reparations-fact-gathering">
+		<introduction>
+			<p>
+				We are going to first determine the value today of the contributions of enslaved people, and we are going to make several assumptions along the way.  Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of enslaved people starting in 1790.  We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a study by Yamada).  We assume that this rate captures the effect of inflation.
+			</p>
+		</introduction>
+		<task>
+			<p> 
+				First, let us consider the lost wages of an enslaved person in 1790.  While estimating incomes during the early history of the US is difficult, researchers at the National Board of Economic Research found in a <url href='https://www.nber.org/system/files/working_papers/w19861/w19861.pdf'>2014 working paper</url> that the per capita income in the US in 1774 was 69.10, which would be 78.48 in 1790 dollars.  This gives us a useful starting point to estimate the lost wages of enslaved people.
+			</p>
+			<p> 
+				In 1790, there were 654,000 enslaved people, according to the census.  While there are questions about how accurate this data is, especially in its count of enslaved people, we can use this to give us an overall estimate of lost wages.  By examining census figures for enslaved people each decade up until 1860, examining growth rates, and taking a geometric average, the enslaved population grew by approximately 30% every ten years.  Slavery ended (officially at least) in 1865. If the population grew by 30% every year, how much did it grow by each year?
+			</p>
+		</task>
+		<task>
+			<p>
+				We now have the information we need to create an estimate of the future value of these lost wages in the current year.
+			</p>
+			<p>
+				Build an excel spreadsheet which estimates the following in each year from 1790 to 1865:
+				<ul>
+					<li>
+						<p>
+							The enslaved population in the US.
+						</p>
+					</li>
+					<li>
+						<p>
+							The annual lost wages, per capita, for each enslaved person.  You can assume that lost wages grow by 5.10% per year.
+						</p>
+					</li>
+					<li>
+						<p>
+							Total annual lost wages for the entire enslaved population of the US.
+						</p>
+					</li>
+					<li>
+						<p>
+							Value of those total annual lost wages in the current year.  Again, you can assume that the effective annual interest is 5.10%.
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				The sum of the future values of the total annual wages from each year should give you an estimate of the future value of the total lost wages for all enslaved people during the years 1790-1865.
+			</p>
+		</task>
+		<task>
+			<p> 
+				Pause for a moment and consider the figure you just calculated.  Besides some of the simplifying assumptions, what are we missing?  Is this an over-estimate or an under-estimate?
+			</p>
+		</task>
+	</activity>
+	<activity xml:id="reparations-identify-stakeholders">
+		<statement>
+			<p> 
+				Who are the stakeholders in this situation? If the US were to begin paying out reparations to the descendants of enslaved people, who would be affected?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-develop-options">
+		<statement>
+			<p> 
+				Now that we have an estimate of what the current value of the lost wages is, develop some possible proposals for what reparations might look like.  How could the US government effectively compensate the descendants of enslaved people for the wages denied to their ancestors?  What are the advantages and disadvantages of each approach?
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-make-decision">
+		<statement>
+			<p> 
+				Decide which plan most effectively compensates these descendants for the wages lost.  Explain why you chose the plan that you did.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-check-work">
+		<statement>
+			<p> 
+				Consider the six <term>ethical lenses</term> published by the <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">Markkula Center for Applied Ethics at Santa Clara University</url>.  Choose an ethical lens and examine your plan for reparations through that lens.  Would you say that this plan is ethical.
+			</p>
+		</statement>
+	</activity>
+	<activity xml:id="reparations-memo">
+		<statement>
+			<p> 
+				Write a memo setting forth and defending a recommendation on reparations.  Be sure to support your position and address counterarguments (see outline in <xref ref="ethics-student-loans-and-covid"/>).
+			</p>
+		</statement>
+	</activity>
+</section>

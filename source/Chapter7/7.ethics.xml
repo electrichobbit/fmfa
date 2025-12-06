@@ -1,0 +1,163 @@
+<section xml:id="ethics-crypto-backed-municipal-bonds">
+	<title>Ethics Case Study: Crypto-Backed Municipal Bonds</title>
+	<p>
+		In November, 2025, the State of New Hampshire approved the authority to issue up to $100 million in municipal bonds backed by Bitcoin (BTC), the cryptocurrency that had the highest market share at the time. Municipal bonds are bonds issued by city and state governments (which we will collectively refer to as <term>municipalities</term>). The income (coupon payments) from municipal bonds are exempt from federal income taxes, and as such are attractive to investors and typically carry low to no risk. 
+	</p>
+	<p>
+		While municipal bonds are often issued to finance state and local government development projects, they are also used to raise funds that can be lent by the municipality to private companies who intend to use the loan proceeds to invest in a project that the municipality believes is in the public interest. The coupon and redemption payments are paid by the municipality to the investors out of the company’s loan payments.
+	</p>
+	<p>
+		For a cryptocurrency-backed municipal bond, a company that borrows from the municipality puts up BTC as collateral. Under the terms of the New Hampshire law, the company has to put up 160\% of the loan amount as collateral. This is advantageous to the company since if they sold the Bitcoin or paid for their investments directly in Bitcoin, they would have to pay capital gains taxes on any increases in the value of the Bitcoin since its purchase. They get the collateral back when the loan is paid off. 
+	</p>
+	<p>
+		Additionally, if the value of the collateral falls below 130% of the loan amount, the company has to add BTC to the collateral to restore the total to 160% . This is called a <term>margin call</term>. 
+	</p>
+	<p>
+		These provisions about the BTC collateral are in place as BTC, and cryptocurrencies generally, are considered volatile and risky.
+	</p>
+	<activity xml:id='ethics-crypto-backed-margin-call'>
+		<statement>
+			<p>
+				Let’s examine an example to get a sense of how the margin call works. Suppose such a municipal bond was offered in November 2024 instead of 2025. A company wants to borrow 1 million dollars through this mechanism, and puts up the collateral on December 6, 2024. On that date, one US Dollar cost 97,074.23 BTC. This means that the company had to put up approximately <m>1.55 \times 10^{11}</m> BTC as collateral.
+			</p>
+			<p>
+				The <url href="external/chapter7/data/bitcoin.xlsx">BTC Price spreadsheet</url> contains the cost of one US Dollar in BTC for every day between December 6, 2024 and December 6, 2025 (Source: Yahoo Finance). Cell C1 contains the amount of collateral put up by the company in BTC.
+			</p>
+			<p>
+				Have Excel perform the following calculations for each day:
+			</p>
+			<p>
+				<ul>
+					<li>
+						<p>
+							In Column C, calculate the value of the collateral in US Dollars.
+						</p>
+					</li>
+					<li>
+						<p>
+							In Column D, calculate the amount of additional deposit in US Dollars (use zero if no additional deposit is necessary). 
+						</p>
+					</li>
+					<li>
+						<p>
+							In Column E, have Excel report a zero if there is no margin call and a one if there is a margin call. 
+						</p>
+					</li>
+					<li>
+						<p>
+							In Cell D370, add up the total of all of the additional deposits.
+						</p>
+					</li>
+					<li>
+						<p>
+							In Cell E370, add up the total number of margin calls
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				Don’t forget that when there is an additional deposit, you have to redo Column C starting the next day!
+			</p>
+			<p>
+				Here are some Excel tools that will help you:
+			</p>
+			<p>
+				<ul>
+					<li>
+						<p>
+							If your formulas include a cell reference such as $C$1, that tells Excel to leave the reference to cell C1 constant as you drag your formula (this is called a <term>absolute cell reference</term> - there are also mixed cell references that allow you to keep the row or the column fixed as you drag).
+						</p>
+					</li>
+					<li>
+						<p>
+							You can program Excel to report one of two possibilities depending on a condition. To do so, the syntax is: 
+						</p>
+						<p>
+							<c>=IF(condition, what to report if condition is true, what to report if condition is false)</c>
+						</p>
+					</li>
+					<li>
+						<p>
+							To program Excel to add using commands instead of highlighting, you can use the following syntax:
+						</p>
+						<p>
+							<c>=SUM(First Cell: Last Cell)</c>
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				You are welcome to use R or Python or another programming language if you prefer.
+			</p>
+		</statement>
+	</activity>
+	<p>
+		Now that we have explored how the margin call works for this bond, let’s get into the situation.
+	</p>
+	<p>
+		You are an actuary at a firm that is writing an insurance policy for a company borrowing under the crypto-backed municipal bond program in New Hampshire. In exchange for the premiums, the policy will make any additional deposits necessary in the event of a margin call, with the full collateral reclaimed by the company when the loan is discharged. One of your colleagues was tasked with creating the pricing model. They passed the model on to underwriters who priced and issued the policy.
+	</p>
+	<p>
+		You soon find out that the Chief Actuary of your firm sits on the Board of Directors for the company whose collateral was insured. Under their direction, your colleague’s pricing model used only 2 years of BTC data to estimate the risk. You reran their analysis using 5 years of data and found a substantially higher risk, which would have increased the price of the policy. When you confront your colleague, they argue that 2 years of data is appropriate as market conditions had a significant change 2 to 3 years ago and older data isn’t comparable.
+	</p>
+	<p>
+		You aren’t convinced, and the relationship between the Chief Actuary and the company concerns you. That relationship has not been disclosed. You are considering reporting this to the press, although you will likely lose your job if you do so.
+	</p>
+	<activity>
+		<statement>
+			<p>
+				Review the Society of Actuaries Code of Professional Conduct. Identify all provisions that you believe were violated.
+			</p>
+		</statement>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Conduct a stakeholder analysis:
+			</p>
+			<ul>
+				<li>
+					<p>
+						Identify who could benefit from and who could be harmed by the conduct of the Chief Actuary and your colleague.
+					</p>
+				</li>
+				<li>
+					<p>
+						Describe the benefits as appropriate, and describe the harms as appropriate.
+					</p>
+				</li>
+				<li>
+					<p>
+						Identify who would benefit from and who could be harmed if you reported your findings to the press.
+					</p>
+				</li>
+				<li>
+					<p>
+						Describe the benefits as appropriate, and describe the harms as appropriate.
+					</p>
+				</li>
+			</ul>
+		</statement>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Consider your choices – what alternative options do you have? Consider who would benefit and would be harmed by any alternative options you identify, and describe those benefits and harms. 
+			</p>
+		</statement>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Make/justify a decision. Write a memo to the files.
+			</p>
+		</statement>
+	</activity>
+	<activity>
+		<statement>
+			<p>
+				Think for a moment – did you make the right decision? How might you know? What could happen in the future that convinces you that you did the right thing? What could convince you that you did not do the right thing? Add a paragraph reflecting on our decision to your memo.
+			</p>
+		</statement>
+	</activity>
+</section>
