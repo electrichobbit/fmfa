@@ -11022,8 +11022,17 @@ var ptx_lunr_docs = [
   "url": "ethics-reserve-requirements.html",
   "type": "Section",
   "number": "10.5",
-  "title": "Ethics Case Study -- Reserve Requirements",
-  "body": " Ethics Case Study -- Reserve Requirements  We have seen that the purpose of immunization is to make sure a company has sufficient assets to pay off expected liabilities. For an insurance company, liabilities are uncertain. They are estimated using expected values for probability distributions (often derived from large data sets using either \"Monte-Carlo simulations\" or `'bootstrapping\").  The assets an insurance company (or any company or investor) hold have varying degrees of uncertainty. They will likely include a range of investments from risk-free assets such as United States government bonds to low-risk investments such as highly-rated corporate bonds to higher-risk investments in equity markets. When preparing for later exams, you will learn how this risk is evaluated and how the mix of risk profiles is selected (there is some discretion based on the investors' preferences).  Given the uncertainty in their liabilities, insurance companies may be tempted to include more high-risk assets in their investments. States impose insurance reserve requirements in order to make sure insurance companies can meet their policyholders' claims as they arise. Reserves have to be held in either cash or in low-risk investments that are highly liquid (can be converted to cash quickly). Sometimes this is called unimpaired capital . In Michigan, the reserve requirements are set by the Department of Insurance and Financial Services, but there is a statutory floor of 7 million (MCL 500.410(2)).  The State of Ferris is a brand new state in the union and is developing its first legal code. You have been retained by Governor Eisler in order to advise on insurance regulation. You are thinking about insurance reserves, and before determining standards for required reserves, you want to decide whether this restriction is ethical.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).    "
+  "title": "Ethics Case Study: Reinsurance and Catastrophe Bonds",
+  "body": " Ethics Case Study: Reinsurance and Catastrophe Bonds  In this chapter, we have looked at simple models for reserving. Reserving is a major part of an insurer’s strategy for making sure they have the assets to pay claims as they come due. Insurers also include plans for unusually large claims, often through risk transfer . Risk transfer is a process by which a financial risk is taken on by another person or organization for a price. Standard insurance is a form of risk transfer.  Typically, the transfer of risk for rare and very large claims involves something called reinsurance. When it comes to property and casualty insurance, there are also catastrophe bonds for events such as Category 5 hurricanes or significant wildfires. In this case study, we will describe what these are, read a note about the reinsurance and catastrophe bond markets, and evaluate these options ethically using our ethical reasoning skills.  Let’s start with reinsurance. Reinsurance is an insurance policy sold to insurance companies that reimburses the insured for claims in excess of a set amount. Reinsurance policies are available from firms that specialize in the product, such as Swiss RE.   Catastrophe bonds are another form of risk transfer, where the risk is taken on by investors. When a catastrophe bond is issued, the funds raised by the issuer are placed in a special, isolated, interest-bearing account. Coupon payments include income on the funds plus a premium paid by the issuer. If the event insured against occurs (the trigger event ), the raised funds are released to the issuer and the investors lose their investment. Otherwise, at the end of the term, the funds are returned to the investors as a redemption payment. This is kind of like crowdsourced insurance.    Read the note published by IRMI, the International Risk Management Institute . What do you think of the note? How would you describe the tone?      Let’s evaluate reinsurance and catastrophe bonds using ethical reasoning.    Start with an ethical lens. Revisit the Markkula Center’s website and review the six ethical lenses . Based on the decisions you have made in the ethical case studies in this book, which lens do you think fits you best? Why?    With your selected lens in mind, identify at least one ethical issue related to either reinsurance or catastrophe bonds (or both). Explain.    Describe the benefits and harms to stakeholders based on the ethical issue you identified.    What are some alternative actions that could be taken to address the ethical issue you identified? How do these choices mitigate the harms you identified? How do they preserve the benefits you identified? Do they introduce any new harms or benefits to stakeholders?    After evaluating options, decide on a course of action and justify your decision.    Reflect on the decision – does it match the ethical lens you selected? Why or why not?      Write and submit    A memo recommending and justifying your decision (be sure to identify the issue you noted!),    A reflection that describes what lens you selected and how your decision does or does not match your choice    A brief discussion what you have learned about ethical reasoning in this course.      "
+},
+{
+  "id": "ethics-reserve-requirements-2",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "risk transfer "
 },
 {
   "id": "ethics-reserve-requirements-4",
@@ -11032,79 +11041,43 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "insurance reserve requirements unimpaired capital "
+  "body": "Reinsurance "
 },
 {
-  "id": "reserve-requirements-problem-statement",
+  "id": "ethics-reserve-requirements-5",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-problem-statement",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Catastrophe bonds trigger event "
+},
+{
+  "id": "ethics-reserve-requirements-6",
+  "level": "2",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-6",
   "type": "Activity",
   "number": "10.5.1",
   "title": "",
-  "body": "   Step 1 : State the Problem.   "
+  "body": "  Read the note published by IRMI, the International Risk Management Institute . What do you think of the note? How would you describe the tone?   "
 },
 {
-  "id": "reserve-requirements-fact-gathering",
+  "id": "ethics-reserve-requirements-7",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-fact-gathering",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-7",
   "type": "Activity",
   "number": "10.5.2",
   "title": "",
-  "body": "   Step 2 : Gather the Facts.  Examine the list of state reserve requirements available at . This list is compiled and maintained by the National Association of Insurance Commissioners. Do not worry if you don't understand the details. Summarize what you find.   "
+  "body": "  Let’s evaluate reinsurance and catastrophe bonds using ethical reasoning.    Start with an ethical lens. Revisit the Markkula Center’s website and review the six ethical lenses . Based on the decisions you have made in the ethical case studies in this book, which lens do you think fits you best? Why?    With your selected lens in mind, identify at least one ethical issue related to either reinsurance or catastrophe bonds (or both). Explain.    Describe the benefits and harms to stakeholders based on the ethical issue you identified.    What are some alternative actions that could be taken to address the ethical issue you identified? How do these choices mitigate the harms you identified? How do they preserve the benefits you identified? Do they introduce any new harms or benefits to stakeholders?    After evaluating options, decide on a course of action and justify your decision.    Reflect on the decision – does it match the ethical lens you selected? Why or why not?   "
 },
 {
-  "id": "reserve-requirements-identify-stakeholders",
+  "id": "ethics-reserve-requirements-8",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-identify-stakeholders",
+  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-8",
   "type": "Activity",
   "number": "10.5.3",
   "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
-},
-{
-  "id": "reserve-requirements-develop-options",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-develop-options",
-  "type": "Activity",
-  "number": "10.5.4",
-  "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "reserve-requirements-test-options",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-test-options",
-  "type": "Activity",
-  "number": "10.5.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "reserve-requirements-make-decision",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-make-decision",
-  "type": "Activity",
-  "number": "10.5.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "reserve-requirements-check-work",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-check-work",
-  "type": "Activity",
-  "number": "10.5.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "reserve-requirements-memo",
-  "level": "2",
-  "url": "ethics-reserve-requirements.html#reserve-requirements-memo",
-  "type": "Activity",
-  "number": "10.5.8",
-  "title": "",
-  "body": "  Write a memo to Governor Eisler stating your recommendation. Be sure to support your position and address counterarguments (see outline in ).   "
+  "body": "  Write and submit    A memo recommending and justifying your decision (be sure to identify the issue you noted!),    A reflection that describes what lens you selected and how your decision does or does not match your choice    A brief discussion what you have learned about ethical reasoning in this course.     "
 },
 {
   "id": "matching-liabilities-assets-exercises",
