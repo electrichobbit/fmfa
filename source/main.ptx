@@ -229,7 +229,7 @@
 
 				<xi:include href="Chapter6/6.8.xml"/>
 
-				<xi:include href="Chapter6/6.9.xml"/>
+				<xi:include href="Chapter6/6.ethics.xml"/>
 
 				<xi:include href="Chapter6/6.exercises.xml"/>
 
@@ -260,30 +260,31 @@
 				<xi:include href="Chapter7/7.problems.xml"/>
 
 			</chapter>
-			<chapter xml:id="rates-of-return">
-				<title>Rates of Return</title>
+						<chapter xml:id="term-structure-interest-rates">
+				<title>The Term Structure of Interest Rates</title>
 
-				<xi:include href="Chapter8/8.intro.xml"/>
+				<xi:include href="Chapter9/9.intro.xml"/>
 				
-				<xi:include href="Chapter8/8.1.xml"/>
+				<xi:include href="Chapter9/9.1.xml"/>
 
-				<xi:include href="Chapter8/8.2.xml"/>
+				<xi:include href="Chapter9/9.2.xml"/>
 
-				<xi:include href="Chapter8/8.3.xml"/>
+				<xi:include href="Chapter9/9.3.xml"/>
 
-				<xi:include href="Chapter8/8.4.xml"/>
+				<xi:include href="Chapter9/9.4.xml"/>
 
-				<xi:include href="Chapter8/8.5.xml"/>
+				<xi:include href="Chapter9/9.5.xml"/>
 
-				<xi:include href="Chapter8/8.6.xml"/>
+				<xi:include href="Chapter9/9.6.xml"/>
 
 				<xi:include href="Chapter8/8.ethics.xml"/>
 
-				<xi:include href="Chapter8/8.exercises.xml"/>
+				<xi:include href="Chapter9/9.exercises.xml"/>
 
-				<xi:include href="Chapter8/8.problems.xml"/>
+				<xi:include href="Chapter9/9.problems.xml"/>
 
 			</chapter>
+			
 			
 			<chapter xml:id="duration-and-convexity">
 				<title>Duration and Convexity</title>
@@ -345,27 +346,28 @@
 
 		</part>
 		<part xml:id="additional-interest-theory">
-			<title>Additional Applications of Interest Theory</title>
-			<chapter xml:id="term-structure-interest-rates">
-				<title>The Term Structure of Interest Rates</title>
+			<title>Additional Applications of Interest Theory</title>	
+			<chapter xml:id="rates-of-return">
+				<title>Rates of Return</title>
 
-				<xi:include href="Chapter9/9.intro.xml"/>
+				<xi:include href="Chapter8/8.intro.xml"/>
 				
-				<xi:include href="Chapter9/9.1.xml"/>
+				<xi:include href="Chapter8/8.1.xml"/>
 
-				<xi:include href="Chapter9/9.2.xml"/>
+				<xi:include href="Chapter8/8.2.xml"/>
 
-				<xi:include href="Chapter9/9.3.xml"/>
+				<xi:include href="Chapter8/8.3.xml"/>
 
-				<xi:include href="Chapter9/9.4.xml"/>
+				<xi:include href="Chapter8/8.4.xml"/>
 
-				<xi:include href="Chapter9/9.5.xml"/>
+				<xi:include href="Chapter8/8.5.xml"/>
 
-				<xi:include href="Chapter9/9.6.xml"/>
+				<xi:include href="Chapter8/8.6.xml"/>
 
-				<xi:include href="Chapter9/9.exercises.xml"/>
 
-				<xi:include href="Chapter9/9.problems.xml"/>
+				<xi:include href="Chapter8/8.exercises.xml"/>
+
+				<xi:include href="Chapter8/8.problems.xml"/>
 
 			</chapter>
 			<chapter xml:id="interest-rate-swaps">
