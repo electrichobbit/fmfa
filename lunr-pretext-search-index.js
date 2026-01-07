@@ -3367,110 +3367,11 @@ var ptx_lunr_docs = [
   "body": "  What are the advantages of using the financial calculator to solve for other variables in an annuity? What are the advantages of solving algebraically?   "
 },
 {
-  "id": "ethics-arbitrage-and-insider-training",
-  "level": "1",
-  "url": "ethics-arbitrage-and-insider-training.html",
-  "type": "Section",
-  "number": "3.12",
-  "title": "Ethics Case Study -- Arbitrage and Insider Trading",
-  "body": " Ethics Case Study -- Arbitrage and Insider Trading  Recall that arbitrage is a risk-free profit. Note that we factor the time-value of money in our understanding of profit. At the beginning of this chapter, we saw how an assumption that there is no arbitrage is used to value annuities. Later in this book, and in later courses, you will see that an assumption that there is no arbitrage is used to price cash flows and other forms of investments. The assumption that there is no arbitrage is considered reasonable, as if an arbitrage opportunity arises the market will adapt.    According to Timothy Johnson, the assumption that there is no arbitrage is taken to be an ethical principle. Explain -- why would the presence of arbitrage be an ethical problem?    One of the ways one can find an arbitrage opportunity is by obtaining inside information . This is sometimes legal and sometimes illegal, and insider trading laws are enforced by the Securities and Exchange Commission. While not defined by statute, the courts describe insider trading as \"purchasing or selling a security while in possession of material, non-public information concerning that security, where the information is obtained from a breach of fiduciary duty, or a duty arising from a relationship of trust or confidence.\"  One can imagine trading based on stolen inside information as an illegal activity.  In the movie Trading Places , the heroes get revenge on the antagonists by co-opting the antagonists' insider trading scheme, engaging in insider trading themselves, and make a great deal of money while bankrupting the antagonists. While the audience feels some satisfaction, the heroes actually engaged in insider trading.  Suppose you are an SEC prosecutor, and you have to decide whether to prosecute the heroes in this case. There is room to exercise prosecutorial discretion. Keep in mind that the underlying ethical principal is the no arbitrage assumption.     Step 1 : State the problem.    The heroes of the movie are Louis Winthorp III and Billy Ray Valentine. Louis is a wealthy managing director at an investment brokerage owned by the antagonists, the Duke brothers, and Billie Ray is a homeless beggar. Louis is played by Dan Akroyd and Billie Ray is played by Eddie Murphy.  The Duke brothers are debating whether nature or nurture has a greater impact on whether a person is successful (materially). To resolve the debate, they engage in an experiment where they arrange to switch Louis and Billie Ray. The brothers actually bet over the outcome. They frame Louis for theft, and plant illegal drugs on him. He gets arrested, loses his job, loses his house, his money, and his fiance. He ends up moving in with a prostitute. The Dukes then hire Billie Ray and provide him with a home, a servant, a job in their firm (with training), a car, clothes, etc. Louis ends up trying to rob the Duke's firm, while Billie Ray ends up successfully managing the firm. This leads the Dukes to determine the experiment was a success, and the bet is paid up (for one dollar!).  Billie Ray overhears the Duke brothers discussing the experiment (and making racist comments). He tracks Louis down and explains what happened. The two of them team up to get revenge by making themselves wealthy while making the Duke brothers poor.  Their plan involves a secret USDA crop report, projecting orange crop yields for the coming season. The Duke brothers have hired someone to steal a copy of the crop report in order to take over the \"frozen concentrated orange juice\" commodity market. Louis and Billie Ray find out about this, and decide that they are going to steal the actual crop report and switch it with a fake crop report that contains the opposite results. The conclusion of the actual report is that the crop yields should be normal, while the fake report concludes that the cold weather will reduce the crop yields. This is important, because if crop yields reduce, the supply curve shifts and makes frozen concentrated orange juice more expensive on the commodity market.     Step 2 : Gather the facts. Louis and Billie Ray use the real crop report to get rich and the fake crop report leads the Duke brothers to lose their money by trading in Frozen Concentrated Orange Juice futures (futures are standardized and trade-able contracts to buy or sell something at a fixed price at a fixed time in the future). Part of their plan involves \"short-selling\" futures. If the typical way to make a profit on a commodity or stock market is by buying low and then selling high (this is called \"going long\"), then short selling is the opposite: sell high first, then buy low (to \"cover the position\").  Watch the following two videos and answer the questions that follow.   End of the movie Trading Places . Some strong language.     An explanation of the end of Trading Places . Some strong language.      Explain how Louis and Billie Ray created an arbitrage opportunity.    Explain the role insider trading played in the creation of the arbitrage opportunity.    Why might the audience typically think that their action is justified?       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to a superior in the SEC prosecutor recommending action. Be sure to support your position and address counterarguments (see outline in ).    "
-},
-{
-  "id": "ethical-problem-of-arbitrage",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#ethical-problem-of-arbitrage",
-  "type": "Activity",
-  "number": "3.12.1",
-  "title": "",
-  "body": "  According to Timothy Johnson, the assumption that there is no arbitrage is taken to be an ethical principle. Explain -- why would the presence of arbitrage be an ethical problem?   "
-},
-{
-  "id": "ethics-arbitrage-and-insider-training-4",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#ethics-arbitrage-and-insider-training-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "inside information "
-},
-{
-  "id": "analyzing-trading-places-problem-statement",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-problem-statement",
-  "type": "Activity",
-  "number": "3.12.2",
-  "title": "",
-  "body": "   Step 1 : State the problem.   "
-},
-{
-  "id": "analyzing-trading-places-gathering-facts",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-gathering-facts",
-  "type": "Activity",
-  "number": "3.12.3",
-  "title": "",
-  "body": "   Step 2 : Gather the facts. Louis and Billie Ray use the real crop report to get rich and the fake crop report leads the Duke brothers to lose their money by trading in Frozen Concentrated Orange Juice futures (futures are standardized and trade-able contracts to buy or sell something at a fixed price at a fixed time in the future). Part of their plan involves \"short-selling\" futures. If the typical way to make a profit on a commodity or stock market is by buying low and then selling high (this is called \"going long\"), then short selling is the opposite: sell high first, then buy low (to \"cover the position\").  Watch the following two videos and answer the questions that follow.   End of the movie Trading Places . Some strong language.     An explanation of the end of Trading Places . Some strong language.      Explain how Louis and Billie Ray created an arbitrage opportunity.    Explain the role insider trading played in the creation of the arbitrage opportunity.    Why might the audience typically think that their action is justified?   "
-},
-{
-  "id": "analyzing-trading-places-identify-stakeholders",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-identify-stakeholders",
-  "type": "Activity",
-  "number": "3.12.4",
-  "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
-},
-{
-  "id": "analyzing-trading-places-developing-options",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-developing-options",
-  "type": "Activity",
-  "number": "3.12.5",
-  "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "analyzing-trading-places-test-options",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-test-options",
-  "type": "Activity",
-  "number": "3.12.6",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "analyzing-trading-places-make-decision",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-make-decision",
-  "type": "Activity",
-  "number": "3.12.7",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "analyzing-trading-places-check-work",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#analyzing-trading-places-check-work",
-  "type": "Activity",
-  "number": "3.12.8",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "trading-places-memo",
-  "level": "2",
-  "url": "ethics-arbitrage-and-insider-training.html#trading-places-memo",
-  "type": "Activity",
-  "number": "3.12.9",
-  "title": "",
-  "body": "  Write a memo to a superior in the SEC prosecutor recommending action. Be sure to support your position and address counterarguments (see outline in ).   "
-},
-{
   "id": "ethics-payday-loans",
   "level": "1",
   "url": "ethics-payday-loans.html",
   "type": "Section",
-  "number": "3.13",
+  "number": "3.12",
   "title": "Ethics Case Study -- Payday Loan Apps",
   "body": " Ethics Case Study -- Payday Loan Apps   Payday loans are short-term loans that are designed to be paid back after receiving a paycheck. Typically the loan is to be paid back after two weeks. To get around usury laws, or at least to disguise the interest rate they are charging, lenders call the interest on these loans a \"fee\". As we will see, these fees correspond to very high interest rates.  Several states either strictly regulate or ban storefront payday lending. Lenders have started getting around these laws using smartphone apps (such as Money Lion). The Center for Responsible Lending ( ) issued a report with several policy recommendations. We will examine these recommendations using an ethical reasoning framework. In this activity, we will specifically work on Ethical Reasoning KSAs 1 (prerequisite knowledge - stakeholder analysis), 2(select a decision-making framework), 4 (evaluate alternative actions), and 5 (make\/justify a decision).    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?  Read the Center for Responsible Lending's report on payday lending apps .  It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor).  What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?      Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans.    For each loan amount, determine the effective 2-week interest rate charged.    For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a \"cycle of debt\"?    Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after 2-week periods (or weeks), the borrower is able to discharge the debt of 50 once and for all.  Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of . Alternatively, this is the amount that the lender makes on the original loan of 50.    Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?      You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.      Let's do a stakeholder analysis. Make a list of all those who would be impacted by implementing the recommendation(s) you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation. Test options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                           Make a decision: write a memo to the representative you work for recommending adopting or not adopting the provision(s) you considered. You can make modifications to what the Center for Responsible Lending recommended. State your recommendation first, then justify your decision with explicit reference to the stakeholder analysis.      Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your memo.    "
 },
@@ -3488,7 +3389,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#payday-loans-intro",
   "type": "Activity",
-  "number": "3.13.1",
+  "number": "3.12.1",
   "title": "",
   "body": "  Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?  Read the Center for Responsible Lending's report on payday lending apps .  It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor).  What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?   "
 },
@@ -3497,7 +3398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#example",
   "type": "Activity",
-  "number": "3.13.2",
+  "number": "3.12.2",
   "title": "",
   "body": "  Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The spreadsheet shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans.    For each loan amount, determine the effective 2-week interest rate charged.    For each loan amount, determine the effective annual interest rate charged. Remember that these are 2-week loans.    Borrowers often take out payday loans to cover an unexpected car repair, a medical debt, a tuition payment to unlock a registration hold, or even just to get through to the end of the month. What happens if they get to the end of the two weeks and can't pay the loan back? What do you think the Center for Responsible Lending means by a \"cycle of debt\"?    Let's take a loan of 50 with a fee of 7.99. Suppose a borrower has an initial loan of 50, and every two weeks borrows another 50 to pay back the previous loan, and incurs another fee of 7.99. Suppose after 2-week periods (or weeks), the borrower is able to discharge the debt of 50 once and for all.  Assume a 4% market rate of interest. Find a function for the present value of all of the interest (i.e. fees) that they paid as a function of . Alternatively, this is the amount that the lender makes on the original loan of 50.    Graph this function in Desmos. What do you notice? What is your initial reaction to what you just determined?   "
 },
@@ -3506,7 +3407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#payday-loans-identify-actions",
   "type": "Activity",
-  "number": "3.13.3",
+  "number": "3.12.3",
   "title": "",
   "body": "  You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.   "
 },
@@ -3515,7 +3416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#payday-loans-stakeholders",
   "type": "Activity",
-  "number": "3.13.4",
+  "number": "3.12.4",
   "title": "",
   "body": "  Let's do a stakeholder analysis. Make a list of all those who would be impacted by implementing the recommendation(s) you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.  Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation. Test options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
 },
@@ -3524,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#payday-loans-make-decision",
   "type": "Activity",
-  "number": "3.13.5",
+  "number": "3.12.5",
   "title": "",
   "body": "  Make a decision: write a memo to the representative you work for recommending adopting or not adopting the provision(s) you considered. You can make modifications to what the Center for Responsible Lending recommended. State your recommendation first, then justify your decision with explicit reference to the stakeholder analysis.   "
 },
@@ -3533,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-payday-loans.html#payday-loans-reflect",
   "type": "Activity",
-  "number": "3.13.6",
+  "number": "3.12.6",
   "title": "",
   "body": "  Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your memo.   "
 },
@@ -3542,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "level-payment-annuities-exercises.html",
   "type": "Exercises",
-  "number": "3.14",
+  "number": "3.13",
   "title": "Exercises",
   "body": "   Sum the following geometric series:                    )      Calculate the following:                                    Generate a timeline and describe the cash flows for each of the following:                          Solve each of the following for the unknown value:                     For each of the following, write the desired value in actuarial notation, and then find the value.    An annuity pays 50 at the end of each month for 1 year, with an effective monthly interest rate of 0.75%. Find the value immediately after the final payment.    An annuity pays 250 at the end of each quarter for 3 years, with nominal interest rate of 8% compounded quarterly. Find the present value.    A life insurance policy is priced so it pays out 150000 at the end of every year forever, starting at the end of the year. Find the present value using .    An annuity pays 50 at the end of every 6 months for 10 years, and a 1000 lump sum with the final payment. Find the present value, using . (This is how a bond is priced, as we will see in )    Repeat but with . Compare the two -- what do you notice?    Repeat but with . What do you notice?      For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan is made today for 250,000 with an interest rate of 12% compounded monthly. The term of the loan is 30 years, with monthly payments starting at the end of each month. Find the monthly payment amount.    A bank lends 17,500 for a car loan with an interest rate of . The loan is to be repaid with monthly payments of 410.99 at the end of each month. Find the term of the loan and express your answer in years.    A loan for college in the amount of 60,000 is to be repaid by payments of 760.05 at the end of each month for 10 years. What is the effective monthly interest rate? What is ?    A life insurance policy makes an annual payment at the end of each year forever. Using , the price (present value) of the policy is 200,000. What is the annual payment?    A life insurance policy making annual payments of 30,000 at the end of each year forever costs 1,200,000 (that is, the present value). What effective annual interest rate is used to price the policy?    A bond has semi-annual payments of 75 at the end of every period for five years, with the last payment accompanied by a lump sum redemption amount of ?      Calculate the following:                                    Each of the following represents one side of an identity. Represent each with a timeline and then write the complete identity.                     Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form or with appropriate starting and ending values for the index ). Generate the timeline and series representations for each of the following:                               Solve each of the following for the unknown value:                               For each of the following, write the desired value in actuarial notation, and then find the value.    Find the present value of an annuity due with payments of 50 at the beginning of every month for 3 years, with .    Find the future value of an annuity immediate with payments of 250 at the end of every six-months for 7 years, with .    A share of stock will pay dividends of 5.25 at the beginning of every quarter for the next 5 years. Find the present value using .    You are the lender of a loan and collect monthly payments of 550.91 at the beginning of each month, and there are 180 payments left. Another lender is willing to purchase the loan from you for the present value at . What is the offered purchase price?    Repeat assuming the payments are at the end of each month.    Find the price (present value) of annual payments of 500 indefinitely, where the payments are at the beginning of the year. Use an effective annual interest rate of .      For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan of 50,000 is paid off with quarterly payments of 4029.25 at the end of each quarter. The effective quarterly interest rate is 8%. Find the term of the loan, expressed in years.    An investor purchased an annuity consisting of 10 annual payments of 727.24 at the beginning of each year. They paid 5000 for the annuity. Find the effective annual interest rate used to value the annuity.    An annuity consists of semi-annual payments of 500 valued at . The value of the annuity 6 months after the final payment is 17,729.63. What is the term of the annuity, expressed in years?    A loan of 120,000 carrying an interest rate of is paid off with payments at the beginning of each month for 30 years. Find the monthly payment.    A life insurance contract consisting of annual payments of 250,000 at the end of each year forever can be purchased for 5 million. Find the effective annual interest rate.    "
 },
@@ -3551,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-1",
   "type": "Exercise",
-  "number": "3.14.1",
+  "number": "3.13.1",
   "title": "",
   "body": "  Sum the following geometric series:                    )   "
 },
@@ -3560,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-2",
   "type": "Exercise",
-  "number": "3.14.2",
+  "number": "3.13.2",
   "title": "",
   "body": "  Calculate the following:                                 "
 },
@@ -3569,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-3",
   "type": "Exercise",
-  "number": "3.14.3",
+  "number": "3.13.3",
   "title": "",
   "body": "  Generate a timeline and describe the cash flows for each of the following:                       "
 },
@@ -3578,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-4",
   "type": "Exercise",
-  "number": "3.14.4",
+  "number": "3.13.4",
   "title": "",
   "body": "  Solve each of the following for the unknown value:                  "
 },
@@ -3587,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-5",
   "type": "Exercise",
-  "number": "3.14.5",
+  "number": "3.13.5",
   "title": "",
   "body": "  For each of the following, write the desired value in actuarial notation, and then find the value.    An annuity pays 50 at the end of each month for 1 year, with an effective monthly interest rate of 0.75%. Find the value immediately after the final payment.    An annuity pays 250 at the end of each quarter for 3 years, with nominal interest rate of 8% compounded quarterly. Find the present value.    A life insurance policy is priced so it pays out 150000 at the end of every year forever, starting at the end of the year. Find the present value using .    An annuity pays 50 at the end of every 6 months for 10 years, and a 1000 lump sum with the final payment. Find the present value, using . (This is how a bond is priced, as we will see in )    Repeat but with . Compare the two -- what do you notice?    Repeat but with . What do you notice?   "
 },
@@ -3596,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-6",
   "type": "Exercise",
-  "number": "3.14.6",
+  "number": "3.13.6",
   "title": "",
   "body": "  For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan is made today for 250,000 with an interest rate of 12% compounded monthly. The term of the loan is 30 years, with monthly payments starting at the end of each month. Find the monthly payment amount.    A bank lends 17,500 for a car loan with an interest rate of . The loan is to be repaid with monthly payments of 410.99 at the end of each month. Find the term of the loan and express your answer in years.    A loan for college in the amount of 60,000 is to be repaid by payments of 760.05 at the end of each month for 10 years. What is the effective monthly interest rate? What is ?    A life insurance policy makes an annual payment at the end of each year forever. Using , the price (present value) of the policy is 200,000. What is the annual payment?    A life insurance policy making annual payments of 30,000 at the end of each year forever costs 1,200,000 (that is, the present value). What effective annual interest rate is used to price the policy?    A bond has semi-annual payments of 75 at the end of every period for five years, with the last payment accompanied by a lump sum redemption amount of ?   "
 },
@@ -3605,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-7",
   "type": "Exercise",
-  "number": "3.14.7",
+  "number": "3.13.7",
   "title": "",
   "body": "  Calculate the following:                                 "
 },
@@ -3614,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-8",
   "type": "Exercise",
-  "number": "3.14.8",
+  "number": "3.13.8",
   "title": "",
   "body": "  Each of the following represents one side of an identity. Represent each with a timeline and then write the complete identity.                  "
 },
@@ -3623,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-9",
   "type": "Exercise",
-  "number": "3.14.9",
+  "number": "3.13.9",
   "title": "",
   "body": "  Every annuity valuation can be expressed algebraically (using actuarial notation), as a timeline, and as a series (having the form or with appropriate starting and ending values for the index ). Generate the timeline and series representations for each of the following:                            "
 },
@@ -3632,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-10",
   "type": "Exercise",
-  "number": "3.14.10",
+  "number": "3.13.10",
   "title": "",
   "body": "  Solve each of the following for the unknown value:                            "
 },
@@ -3641,7 +3542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-11",
   "type": "Exercise",
-  "number": "3.14.11",
+  "number": "3.13.11",
   "title": "",
   "body": "  For each of the following, write the desired value in actuarial notation, and then find the value.    Find the present value of an annuity due with payments of 50 at the beginning of every month for 3 years, with .    Find the future value of an annuity immediate with payments of 250 at the end of every six-months for 7 years, with .    A share of stock will pay dividends of 5.25 at the beginning of every quarter for the next 5 years. Find the present value using .    You are the lender of a loan and collect monthly payments of 550.91 at the beginning of each month, and there are 180 payments left. Another lender is willing to purchase the loan from you for the present value at . What is the offered purchase price?    Repeat assuming the payments are at the end of each month.    Find the price (present value) of annual payments of 500 indefinitely, where the payments are at the beginning of the year. Use an effective annual interest rate of .   "
 },
@@ -3650,7 +3551,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-exercises.html#level-payment-annuities-exercises-12",
   "type": "Exercise",
-  "number": "3.14.12",
+  "number": "3.13.12",
   "title": "",
   "body": "  For each of the following, write an equation using actuarial notation, then solve for the missing value.    A loan of 50,000 is paid off with quarterly payments of 4029.25 at the end of each quarter. The effective quarterly interest rate is 8%. Find the term of the loan, expressed in years.    An investor purchased an annuity consisting of 10 annual payments of 727.24 at the beginning of each year. They paid 5000 for the annuity. Find the effective annual interest rate used to value the annuity.    An annuity consists of semi-annual payments of 500 valued at . The value of the annuity 6 months after the final payment is 17,729.63. What is the term of the annuity, expressed in years?    A loan of 120,000 carrying an interest rate of is paid off with payments at the beginning of each month for 30 years. Find the monthly payment.    A life insurance contract consisting of annual payments of 250,000 at the end of each year forever can be purchased for 5 million. Find the effective annual interest rate.   "
 },
@@ -3659,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "level-payment-annuities-problems.html",
   "type": "Exercises",
-  "number": "3.15",
+  "number": "3.14",
   "title": "Problems",
   "body": " Problems     To accumulate 8000 at the end of years, deposits of 98 are made at the end of each of the first years and 196 at the end of each of the next years. The effective annual interest rate is . You are given . Determine .       A family wishes to accumulate 50,000 in a college education fund at the end of 20 years. If they deposit 10000 in the fund at the end of each of the first 10 years and in the fund at the end of each of the second 10 years, find if the fund earns 7% effective.       The cash price of an automobile is 10,0000. The buyer is willing to finance the purchase at 18% convertible monthly and to make payments of 250 at the end of each month for four years. Find the down payment that will be necessary.       50,000 can be invested under two options:     OPTION 1 : Deposit the 50,000 into a fund earning an annual effective rate of .     OPTION 2 : Purchase an annuity-immediate with 24 level annual payments at an annual effective rate of 10%.    The payments under Option 2 are deposited into a fund earning an annual effective rate of 5%. Both options produce the same accumulated value at the end of 24 years. Calculate .       A sports car enthusiast needs to finance 25,000 of the total purchase price of a new car. A loan is selected having 48 monthly level payments with a lender charging 6% convertible monthly. However, the lender informs the buyer that their policy is not to exceed a 500 monthly payment on any car loan. The buyer decides to accept the loan offer with the 500 payment and then decides to take out a second 12-month loan with a different lender at 7.5% convertible monthly to make up the shortfall not covered by the first loan. Find the amount of the monthly payment on the second loan.       Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11. He can purchase it by either:    paying 900 per year at the end of each year for 10 years; or    paying per year at the end of each year for the first 5 years and nothing for the next 5 years.    Calculate .      Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit. He repays the loans with payments of 1350 at the end of each month.    Find the amount of time (in months) it will take for Vader to pay the loan off. It will not be a whole number!    When a loan arrangement is such that the payoff time is not a whole number, there are two options. The first option is a balloon payment . Under this option, an amount is added to the last regular payment in order to pay off the loan. This means that the last payment will be larger than all of the other payments. If Vader made a balloon payment at the end of the loan, how much would it be for?    The second option is a drop payment - a final payment one period after the last regular payment. A drop payment is smaller than the regular payment. Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment. If Vader made a drop payment, how much would it be for?       A borrows 20,000 for 8 years and repays the loan with level annual payments at the end of each year. B also borrows 20,000 for 8 years, but pays only interest due each year and plans to repay the entire loan at the end of the 8-year period. Both loans carry an effective interest rate of 8.5%. How much more interest will B pay than A pays over the life of the loan?       A borrower has the following options for repaying a loan:    Sixty monthly payments of 100 at the end of each month.    A single payment of 6000 at the end of months.    Interest is at the nominal annual rate of 12% convertible monthly. The two options have the same present value. Find .      Lando Calrissian purchases Cloud City with a 10-year loan of 500,000. The effective annual interest rate is 4%. Each year, Lando pays the interest on the loan, and makes a deposit of into a secondary account (called a sinking fund ) carrying 6% interest. At the end of the term of the loan, the funds in the secondary account are used to pay off the principal of the loan, leaving nothing in the account. Find , and find the total outlay ( and the annual interest) that Lando pays.       Find if the effective rate of discount is 10%.       Chuck needs to purchase an item in 10 years. The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional at the beginning of years 4,5 and 6 to meet his goal. The effective annual interest rate is 10%. Calculate .       Deposits of 1000 are placed into a fund at the beginning of each year for the next 20 years. After 30 years annual payments commence and continue forever, with the first payment at the end of the 30th year. Find an expression for the amount of each payment.       Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years. The account credits interest at an effective annual interest rate of . The accumulated amount in the account at the end of 40 years is , which is 5 times the accumulated amount in the account at the end of 20 years. Calculate .       Given , find the value of in terms of . Hint: Simplify the sum, and look out for the series representation of ).       A fund earning 8% effective is being accumulated with payments of 500 at the beginning of each year for 20 years. Find the maximum number of withdrawals of 1000 that can be made at the ends of years under the condition that once withdrawals start they must continue through the end of the 20-year period.       A 48-month car loan of 12,000 can be completely paid off with monthly payments of 300 made at the end of each month. What is the nominal rate of interest convertible monthly on this loan?       A beneficiary receives a 10,000 life insurance benefit. If the beneficiary uses the proceeds to buy a 10-year annuity immediate, the annual payout will be 1538. If a 20-year annuity-immediate is purchased, the annual payout will be 1072. Both calculations are based on an annual effective interest rate of . Find .       The present values of the following three annuities are equal:    perpetuity-immediate paying 1 each year, calculated at an annual effective interest rate of 7.25%.    50-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .     -year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .    Calculate .    "
 },
@@ -3668,7 +3569,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-2",
   "type": "Exercise",
-  "number": "3.15.1",
+  "number": "3.14.1",
   "title": "",
   "body": "   To accumulate 8000 at the end of years, deposits of 98 are made at the end of each of the first years and 196 at the end of each of the next years. The effective annual interest rate is . You are given . Determine .   "
 },
@@ -3677,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-3",
   "type": "Exercise",
-  "number": "3.15.2",
+  "number": "3.14.2",
   "title": "",
   "body": "   A family wishes to accumulate 50,000 in a college education fund at the end of 20 years. If they deposit 10000 in the fund at the end of each of the first 10 years and in the fund at the end of each of the second 10 years, find if the fund earns 7% effective.   "
 },
@@ -3686,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-4",
   "type": "Exercise",
-  "number": "3.15.3",
+  "number": "3.14.3",
   "title": "",
   "body": "   The cash price of an automobile is 10,0000. The buyer is willing to finance the purchase at 18% convertible monthly and to make payments of 250 at the end of each month for four years. Find the down payment that will be necessary.   "
 },
@@ -3695,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-5",
   "type": "Exercise",
-  "number": "3.15.4",
+  "number": "3.14.4",
   "title": "",
   "body": "   50,000 can be invested under two options:     OPTION 1 : Deposit the 50,000 into a fund earning an annual effective rate of .     OPTION 2 : Purchase an annuity-immediate with 24 level annual payments at an annual effective rate of 10%.    The payments under Option 2 are deposited into a fund earning an annual effective rate of 5%. Both options produce the same accumulated value at the end of 24 years. Calculate .   "
 },
@@ -3704,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-6",
   "type": "Exercise",
-  "number": "3.15.5",
+  "number": "3.14.5",
   "title": "",
   "body": "   A sports car enthusiast needs to finance 25,000 of the total purchase price of a new car. A loan is selected having 48 monthly level payments with a lender charging 6% convertible monthly. However, the lender informs the buyer that their policy is not to exceed a 500 monthly payment on any car loan. The buyer decides to accept the loan offer with the 500 payment and then decides to take out a second 12-month loan with a different lender at 7.5% convertible monthly to make up the shortfall not covered by the first loan. Find the amount of the monthly payment on the second loan.   "
 },
@@ -3713,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-7",
   "type": "Exercise",
-  "number": "3.15.6",
+  "number": "3.14.6",
   "title": "",
   "body": "   Bob wants to purchase a perpetuity paying 1000 per year with the first payment due at the end of year 11. He can purchase it by either:    paying 900 per year at the end of each year for 10 years; or    paying per year at the end of each year for the first 5 years and nothing for the next 5 years.    Calculate .   "
 },
@@ -3722,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-8",
   "type": "Exercise",
-  "number": "3.15.7",
+  "number": "3.14.7",
   "title": "",
   "body": "  Darth Vader borrows 25,000 at an effective monthly rate of 4% so he can make upgrades to his suit. He repays the loans with payments of 1350 at the end of each month.    Find the amount of time (in months) it will take for Vader to pay the loan off. It will not be a whole number!    When a loan arrangement is such that the payoff time is not a whole number, there are two options. The first option is a balloon payment . Under this option, an amount is added to the last regular payment in order to pay off the loan. This means that the last payment will be larger than all of the other payments. If Vader made a balloon payment at the end of the loan, how much would it be for?    The second option is a drop payment - a final payment one period after the last regular payment. A drop payment is smaller than the regular payment. Note that the balance unpaid after the last regular payment accrues interest, and that interest is included in the drop payment. If Vader made a drop payment, how much would it be for?   "
 },
@@ -3731,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-9",
   "type": "Exercise",
-  "number": "3.15.8",
+  "number": "3.14.8",
   "title": "",
   "body": "   A borrows 20,000 for 8 years and repays the loan with level annual payments at the end of each year. B also borrows 20,000 for 8 years, but pays only interest due each year and plans to repay the entire loan at the end of the 8-year period. Both loans carry an effective interest rate of 8.5%. How much more interest will B pay than A pays over the life of the loan?   "
 },
@@ -3740,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-10",
   "type": "Exercise",
-  "number": "3.15.9",
+  "number": "3.14.9",
   "title": "",
   "body": "   A borrower has the following options for repaying a loan:    Sixty monthly payments of 100 at the end of each month.    A single payment of 6000 at the end of months.    Interest is at the nominal annual rate of 12% convertible monthly. The two options have the same present value. Find .   "
 },
@@ -3749,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-11",
   "type": "Exercise",
-  "number": "3.15.10",
+  "number": "3.14.10",
   "title": "",
   "body": "  Lando Calrissian purchases Cloud City with a 10-year loan of 500,000. The effective annual interest rate is 4%. Each year, Lando pays the interest on the loan, and makes a deposit of into a secondary account (called a sinking fund ) carrying 6% interest. At the end of the term of the loan, the funds in the secondary account are used to pay off the principal of the loan, leaving nothing in the account. Find , and find the total outlay ( and the annual interest) that Lando pays.   "
 },
@@ -3758,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-12",
   "type": "Exercise",
-  "number": "3.15.11",
+  "number": "3.14.11",
   "title": "",
   "body": "   Find if the effective rate of discount is 10%.   "
 },
@@ -3767,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-13",
   "type": "Exercise",
-  "number": "3.15.12",
+  "number": "3.14.12",
   "title": "",
   "body": "   Chuck needs to purchase an item in 10 years. The item costs 200 today, but its price inflates 4% per year. To finance the purchase, Chuck deposits 20 into an account at the beginning of each year for 6 years. He deposits an additional at the beginning of years 4,5 and 6 to meet his goal. The effective annual interest rate is 10%. Calculate .   "
 },
@@ -3776,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-14",
   "type": "Exercise",
-  "number": "3.15.13",
+  "number": "3.14.13",
   "title": "",
   "body": "   Deposits of 1000 are placed into a fund at the beginning of each year for the next 20 years. After 30 years annual payments commence and continue forever, with the first payment at the end of the 30th year. Find an expression for the amount of each payment.   "
 },
@@ -3785,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-15",
   "type": "Exercise",
-  "number": "3.15.14",
+  "number": "3.14.14",
   "title": "",
   "body": "   Kathryn deposits 100 into an account at the beginning of each 4-year period for 40 years. The account credits interest at an effective annual interest rate of . The accumulated amount in the account at the end of 40 years is , which is 5 times the accumulated amount in the account at the end of 20 years. Calculate .   "
 },
@@ -3794,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-16",
   "type": "Exercise",
-  "number": "3.15.15",
+  "number": "3.14.15",
   "title": "",
   "body": "   Given , find the value of in terms of . Hint: Simplify the sum, and look out for the series representation of ).   "
 },
@@ -3803,7 +3704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-17",
   "type": "Exercise",
-  "number": "3.15.16",
+  "number": "3.14.16",
   "title": "",
   "body": "   A fund earning 8% effective is being accumulated with payments of 500 at the beginning of each year for 20 years. Find the maximum number of withdrawals of 1000 that can be made at the ends of years under the condition that once withdrawals start they must continue through the end of the 20-year period.   "
 },
@@ -3812,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-18",
   "type": "Exercise",
-  "number": "3.15.17",
+  "number": "3.14.17",
   "title": "",
   "body": "   A 48-month car loan of 12,000 can be completely paid off with monthly payments of 300 made at the end of each month. What is the nominal rate of interest convertible monthly on this loan?   "
 },
@@ -3821,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-19",
   "type": "Exercise",
-  "number": "3.15.18",
+  "number": "3.14.18",
   "title": "",
   "body": "   A beneficiary receives a 10,000 life insurance benefit. If the beneficiary uses the proceeds to buy a 10-year annuity immediate, the annual payout will be 1538. If a 20-year annuity-immediate is purchased, the annual payout will be 1072. Both calculations are based on an annual effective interest rate of . Find .   "
 },
@@ -3830,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "level-payment-annuities-problems.html#level-payment-annuities-problems-20",
   "type": "Exercise",
-  "number": "3.15.19",
+  "number": "3.14.19",
   "title": "",
   "body": "   The present values of the following three annuities are equal:    perpetuity-immediate paying 1 each year, calculated at an annual effective interest rate of 7.25%.    50-year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .     -year annuity-immediate paying 1 each year, calculated at an annual effective interest rate of .    Calculate .   "
 },
@@ -8776,101 +8677,11 @@ var ptx_lunr_docs = [
   "body": "  Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.   "
 },
 {
-  "id": "ethics-speculation",
-  "level": "1",
-  "url": "ethics-speculation.html",
-  "type": "Section",
-  "number": "8.6",
-  "title": "Ethics Case Study -- Speculation",
-  "body": " Ethics Case Study -- Speculation  Spot rates and forward rates represent predictions about how the market thinks interest rates will move in the future. Those who purchase bonds, whether coupon-bearing or not, may not be investing so much for the bond itself as they are making a bet about whether they think the market is correctly predicting future interest rates. For example, if the yield curve is normal while an investor thinks interest rates are going to actually decline, they may purchase bonds with the intent to sell them for a profit after a reduction in interest rates. This is known as speculation .  It is more common to use the word speculation when the risks of loss and potential reward are higher. Most speculation is done in commodity markets and in secondary stock markets. Combined with herd behavior -- the tendency of investors to follow and copy one another's investing choices -- speculation can lead to \"bubbles\" in the market. This means that the value of the assets in the market significantly exceeds their intrinsic value. Some investors earn high returns during bubbles, and others suffer serious losses when the bubble \"bursts\" as it inevitably will. The difference between who makes money and who loses is a matter of chance timing.  Suppose you monitor and manage investments for an insurance company. Your department chair notices that there appears to be a bubble in energy stocks and asks you your thoughts about getting in on it before the bubble bursts. You tell them you will think about it and respond by the end of the day. Since you do not have time to look into the specifics of this bubble, you are going to consider investing in bubbles in general.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).    "
-},
-{
-  "id": "ethics-speculation-2",
-  "level": "2",
-  "url": "ethics-speculation.html#ethics-speculation-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "speculation "
-},
-{
-  "id": "speculation-problem-statement",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-problem-statement",
-  "type": "Activity",
-  "number": "8.6.1",
-  "title": "",
-  "body": "   Step 1 : State the Problem.   "
-},
-{
-  "id": "speculation-fact-gathering",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-fact-gathering",
-  "type": "Activity",
-  "number": "8.6.2",
-  "title": "",
-  "body": "   Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.   "
-},
-{
-  "id": "speculation-identify-stakeholders",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-identify-stakeholders",
-  "type": "Activity",
-  "number": "8.6.3",
-  "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
-},
-{
-  "id": "speculation-develop-options",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-develop-options",
-  "type": "Activity",
-  "number": "8.6.4",
-  "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "speculation-test-options",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-test-options",
-  "type": "Activity",
-  "number": "8.6.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "speculation-make-decision",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-make-decision",
-  "type": "Activity",
-  "number": "8.6.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "speculation-check-work",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-check-work",
-  "type": "Activity",
-  "number": "8.6.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "speculation-memo",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-memo",
-  "type": "Activity",
-  "number": "8.6.8",
-  "title": "",
-  "body": "  Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).   "
-},
-{
   "id": "ethics-enron",
   "level": "1",
   "url": "ethics-enron.html",
   "type": "Section",
-  "number": "8.7",
+  "number": "8.6",
   "title": "Ethics Case Study: AI Data Centers",
   "body": " Ethics Case Study: AI Data Centers  Data centers for artificial intelligence have significant environmental and economic consequences both globally and for nearby communities.    Read the United Nations Environment Programme’s Issue Note on AI from September, 2024, Artificial Intelligence (AI) end-to-end: The environmental impact of the full AI lifecycle needs to be comprehensively assessed . What did you read that you already knew? What surprised you?    In addition to environmental impacts, the presence of data centers near a community can lead to water shortages and significant increases in electricity costs, both due to the data center’s consumption of those resources.  You work at an actuarial firm located in a community where the County has received a request for permits to build an AI data center nearby. The community residents are worried about water shortages and they are worried about electricity costs. The County Commission plans to make quarterly deposits into a water fund in order to address concerns about the water supply. However, the residents are still worried about electricity costs.  Your firm sees an opportunity – they want to offer an insurance product to the community that covers any excessive electric costs in exchange for a premium. You are asked to come up with a pricing model and an estimate so that you can share the offer at a County Commission meeting that will take place tomorrow.  The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the spreadsheet  .    Based on these data, you create a naïve, simple pricing model . The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.  For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit).    Let’s calculate the expected claims on a 6 month policy based on the forwards you accessed.  The spreadsheet contains forward prices for 12 months, including the current month (month 0). For the current month, this is the actual average electric bill in the relevant area. The growth factors will be the amount we multiply the previous forward price by to get the next forward price (like $1+ \\iota$ for interest rates). The growth factor in cell C2 is the growth factor from the previous month which is not in the report.  The directions below are for Excel, and you can use a programming language such as R or Python instead if you prefer.    Have Excel calculate the growth factors for the rest of the months in Column C.    In Cell C15, have Excel calculate the average growth factor.  Since these are growth factors , we use a geometric mean as we did for average interest rates in . Excel can calculate this using the following syntax:   =GEOMEAN(first cell: last cell)     In Cell 16, have Excel calculate the standard deviation (using sample standard deviation: STDEV.S in Excel-speak).  As with the mean, we need to use a geometric standard deviation . The way to get Excel to calculate this is to have it calculate:     In this case, calling the functions STDEV.S and LOG (along with “first cell:last cell” in the argument of LOG ) will be necessary.    In Column D, we will figure out the threshold above which the insurance policy pays out. To find the “Expected Forward” we multiply the month 0 price by the geometric mean growth factor compounded the appropriate number of months (why?). To add 1 standard deviation, we multiply the result by the geometric standard deviation compounded the same number of months (why?). Have Excel perform these calculations. Don’t forget to use absolute cell references (like $C$15 ).    We use a full year of forwards for our data, but we only price a six month policy. For the first 6 months (including 0), in Column E, find the expected payout based on these data assuming the forward prices are realized.  It might help to use the “max” function: “=MAX(number 1, number 2)”. This will return the largest of the two numbers, and is useful as there is no payout when the bill (represented by the forward price) is less than the expected forward plus one standard deviation.    Add up the expected payouts for each month – this is the expected payout per 6-month policy.        Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about \/$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.  A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.  When you look into this, you find that the underwriters used electric forward rates for areas where there already is an AI data center, which they state are much more accurate for the community’s circumstances.  Review the SOA Code of Professional Conduct . Where do you see an ethical issue? Who was responsible? What should be done? What would you do?      Write a brief paper responding to your findings and addressing each of the questions.     Footnotes    These prices are actually based on historical data for 2025 accessed from the US Energy Information Administration , and the average amount of energy consumption for a US household in 2022 according to the same agency.    One of the things missing from this pricing model is probability, which is covered in another course.     "
 },
@@ -8879,7 +8690,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-enron.html#ethics-enron-3",
   "type": "Activity",
-  "number": "8.7.1",
+  "number": "8.6.1",
   "title": "",
   "body": "  Read the United Nations Environment Programme’s Issue Note on AI from September, 2024, Artificial Intelligence (AI) end-to-end: The environmental impact of the full AI lifecycle needs to be comprehensively assessed . What did you read that you already knew? What surprised you?   "
 },
@@ -8888,7 +8699,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-enron.html#ethics-enron-8",
   "type": "Activity",
-  "number": "8.7.2",
+  "number": "8.6.2",
   "title": "",
   "body": "  Based on these data, you create a naïve, simple pricing model . The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.  For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit).    Let’s calculate the expected claims on a 6 month policy based on the forwards you accessed.  The spreadsheet contains forward prices for 12 months, including the current month (month 0). For the current month, this is the actual average electric bill in the relevant area. The growth factors will be the amount we multiply the previous forward price by to get the next forward price (like $1+ \\iota$ for interest rates). The growth factor in cell C2 is the growth factor from the previous month which is not in the report.  The directions below are for Excel, and you can use a programming language such as R or Python instead if you prefer.    Have Excel calculate the growth factors for the rest of the months in Column C.    In Cell C15, have Excel calculate the average growth factor.  Since these are growth factors , we use a geometric mean as we did for average interest rates in . Excel can calculate this using the following syntax:   =GEOMEAN(first cell: last cell)     In Cell 16, have Excel calculate the standard deviation (using sample standard deviation: STDEV.S in Excel-speak).  As with the mean, we need to use a geometric standard deviation . The way to get Excel to calculate this is to have it calculate:     In this case, calling the functions STDEV.S and LOG (along with “first cell:last cell” in the argument of LOG ) will be necessary.    In Column D, we will figure out the threshold above which the insurance policy pays out. To find the “Expected Forward” we multiply the month 0 price by the geometric mean growth factor compounded the appropriate number of months (why?). To add 1 standard deviation, we multiply the result by the geometric standard deviation compounded the same number of months (why?). Have Excel perform these calculations. Don’t forget to use absolute cell references (like $C$15 ).    We use a full year of forwards for our data, but we only price a six month policy. For the first 6 months (including 0), in Column E, find the expected payout based on these data assuming the forward prices are realized.  It might help to use the “max” function: “=MAX(number 1, number 2)”. This will return the largest of the two numbers, and is useful as there is no payout when the bill (represented by the forward price) is less than the expected forward plus one standard deviation.    Add up the expected payouts for each month – this is the expected payout per 6-month policy.     "
 },
@@ -8897,7 +8708,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-enron.html#ethics-enron-9",
   "type": "Activity",
-  "number": "8.7.3",
+  "number": "8.6.3",
   "title": "",
   "body": "  Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about \/$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.  A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.  When you look into this, you find that the underwriters used electric forward rates for areas where there already is an AI data center, which they state are much more accurate for the community’s circumstances.  Review the SOA Code of Professional Conduct . Where do you see an ethical issue? Who was responsible? What should be done? What would you do?   "
 },
@@ -8906,7 +8717,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ethics-enron.html#ethics-enron-10",
   "type": "Activity",
-  "number": "8.7.4",
+  "number": "8.6.4",
   "title": "",
   "body": "  Write a brief paper responding to your findings and addressing each of the questions.   "
 },
@@ -8915,7 +8726,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "term-structure-interest-rates-exercises.html",
   "type": "Exercises",
-  "number": "8.8",
+  "number": "8.7",
   "title": "Exercises",
   "body": "   Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48      Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.      Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.      You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.      On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.      Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.      Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).      Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.    "
 },
@@ -8924,7 +8735,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-1",
   "type": "Exercise",
-  "number": "8.8.1",
+  "number": "8.7.1",
   "title": "",
   "body": "  Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48   "
 },
@@ -8933,7 +8744,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-2",
   "type": "Exercise",
-  "number": "8.8.2",
+  "number": "8.7.2",
   "title": "",
   "body": "  Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.   "
 },
@@ -8942,7 +8753,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-3",
   "type": "Exercise",
-  "number": "8.8.3",
+  "number": "8.7.3",
   "title": "",
   "body": "  Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.   "
 },
@@ -8951,7 +8762,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-4",
   "type": "Exercise",
-  "number": "8.8.4",
+  "number": "8.7.4",
   "title": "",
   "body": "  You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.   "
 },
@@ -8960,7 +8771,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-5",
   "type": "Exercise",
-  "number": "8.8.5",
+  "number": "8.7.5",
   "title": "",
   "body": "  On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.   "
 },
@@ -8969,7 +8780,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#forward-rates-exercise",
   "type": "Exercise",
-  "number": "8.8.6",
+  "number": "8.7.6",
   "title": "",
   "body": "  Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.   "
 },
@@ -8978,7 +8789,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-7",
   "type": "Exercise",
-  "number": "8.8.7",
+  "number": "8.7.7",
   "title": "",
   "body": "  Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).   "
 },
@@ -8987,7 +8798,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-8",
   "type": "Exercise",
-  "number": "8.8.8",
+  "number": "8.7.8",
   "title": "",
   "body": "  Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.   "
 },
@@ -8996,7 +8807,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "term-structure-interest-rates-problems.html",
   "type": "Exercises",
-  "number": "8.9",
+  "number": "8.8",
   "title": "Problems",
   "body": " Problems    A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?       Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.         A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.       A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .       Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.       You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.       The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.       A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.       A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.       You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.       You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).       The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.        You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.       The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .      A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .       Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.       A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.       According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.       The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).       Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.       The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.       Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .       Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .       You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.       The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.       Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .      Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.       Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%         Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%         The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.       The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.       Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.    "
 },
@@ -9005,7 +8816,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-2",
   "type": "Exercise",
-  "number": "8.9.1",
+  "number": "8.8.1",
   "title": "",
   "body": "  A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?   "
 },
@@ -9014,7 +8825,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-3",
   "type": "Exercise",
-  "number": "8.9.2",
+  "number": "8.8.2",
   "title": "",
   "body": "   Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.     "
 },
@@ -9023,7 +8834,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-4",
   "type": "Exercise",
-  "number": "8.9.3",
+  "number": "8.8.3",
   "title": "",
   "body": "   A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.   "
 },
@@ -9032,7 +8843,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-5",
   "type": "Exercise",
-  "number": "8.9.4",
+  "number": "8.8.4",
   "title": "",
   "body": "   A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .   "
 },
@@ -9041,7 +8852,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-6",
   "type": "Exercise",
-  "number": "8.9.5",
+  "number": "8.8.5",
   "title": "",
   "body": "   Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.   "
 },
@@ -9050,7 +8861,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-7",
   "type": "Exercise",
-  "number": "8.9.6",
+  "number": "8.8.6",
   "title": "",
   "body": "   You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
 },
@@ -9059,7 +8870,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-8",
   "type": "Exercise",
-  "number": "8.9.7",
+  "number": "8.8.7",
   "title": "",
   "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.   "
 },
@@ -9068,7 +8879,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-9",
   "type": "Exercise",
-  "number": "8.9.8",
+  "number": "8.8.8",
   "title": "",
   "body": "   A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.   "
 },
@@ -9077,7 +8888,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-10",
   "type": "Exercise",
-  "number": "8.9.9",
+  "number": "8.8.9",
   "title": "",
   "body": "   A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.   "
 },
@@ -9086,7 +8897,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-11",
   "type": "Exercise",
-  "number": "8.9.10",
+  "number": "8.8.10",
   "title": "",
   "body": "   You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.   "
 },
@@ -9095,7 +8906,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-12",
   "type": "Exercise",
-  "number": "8.9.11",
+  "number": "8.8.11",
   "title": "",
   "body": "   You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).   "
 },
@@ -9104,7 +8915,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-13",
   "type": "Exercise",
-  "number": "8.9.12",
+  "number": "8.8.12",
   "title": "",
   "body": "   The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.    "
 },
@@ -9113,7 +8924,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-14",
   "type": "Exercise",
-  "number": "8.9.13",
+  "number": "8.8.13",
   "title": "",
   "body": "   You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.   "
 },
@@ -9122,7 +8933,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-15",
   "type": "Exercise",
-  "number": "8.9.14",
+  "number": "8.8.14",
   "title": "",
   "body": "   The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .   "
 },
@@ -9131,7 +8942,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-16",
   "type": "Exercise",
-  "number": "8.9.15",
+  "number": "8.8.15",
   "title": "",
   "body": "  A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .   "
 },
@@ -9140,7 +8951,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-17",
   "type": "Exercise",
-  "number": "8.9.16",
+  "number": "8.8.16",
   "title": "",
   "body": "   Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
 },
@@ -9149,7 +8960,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-18",
   "type": "Exercise",
-  "number": "8.9.17",
+  "number": "8.8.17",
   "title": "",
   "body": "   A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.   "
 },
@@ -9158,7 +8969,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-19",
   "type": "Exercise",
-  "number": "8.9.18",
+  "number": "8.8.18",
   "title": "",
   "body": "   According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.   "
 },
@@ -9167,7 +8978,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-20",
   "type": "Exercise",
-  "number": "8.9.19",
+  "number": "8.8.19",
   "title": "",
   "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
 },
@@ -9176,7 +8987,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-21",
   "type": "Exercise",
-  "number": "8.9.20",
+  "number": "8.8.20",
   "title": "",
   "body": "   Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
 },
@@ -9185,7 +8996,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-22",
   "type": "Exercise",
-  "number": "8.9.21",
+  "number": "8.8.21",
   "title": "",
   "body": "   The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.   "
 },
@@ -9194,7 +9005,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-23",
   "type": "Exercise",
-  "number": "8.9.22",
+  "number": "8.8.22",
   "title": "",
   "body": "   Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .   "
 },
@@ -9203,7 +9014,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-24",
   "type": "Exercise",
-  "number": "8.9.23",
+  "number": "8.8.23",
   "title": "",
   "body": "   Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .   "
 },
@@ -9212,7 +9023,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-25",
   "type": "Exercise",
-  "number": "8.9.24",
+  "number": "8.8.24",
   "title": "",
   "body": "   You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.   "
 },
@@ -9221,7 +9032,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-26",
   "type": "Exercise",
-  "number": "8.9.25",
+  "number": "8.8.25",
   "title": "",
   "body": "   The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.   "
 },
@@ -9230,7 +9041,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-27",
   "type": "Exercise",
-  "number": "8.9.26",
+  "number": "8.8.26",
   "title": "",
   "body": "   Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .   "
 },
@@ -9239,7 +9050,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-28",
   "type": "Exercise",
-  "number": "8.9.27",
+  "number": "8.8.27",
   "title": "",
   "body": "  Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.   "
 },
@@ -9248,7 +9059,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-29",
   "type": "Exercise",
-  "number": "8.9.28",
+  "number": "8.8.28",
   "title": "",
   "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
 },
@@ -9257,7 +9068,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-30",
   "type": "Exercise",
-  "number": "8.9.29",
+  "number": "8.8.29",
   "title": "",
   "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%     "
 },
@@ -9266,7 +9077,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-31",
   "type": "Exercise",
-  "number": "8.9.30",
+  "number": "8.8.30",
   "title": "",
   "body": "   The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
 },
@@ -9275,7 +9086,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-32",
   "type": "Exercise",
-  "number": "8.9.31",
+  "number": "8.8.31",
   "title": "",
   "body": "   The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.   "
 },
@@ -9284,7 +9095,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-33",
   "type": "Exercise",
-  "number": "8.9.32",
+  "number": "8.8.32",
   "title": "",
   "body": "   Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.   "
 },
