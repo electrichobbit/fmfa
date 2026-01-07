@@ -5731,7 +5731,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.14",
   "title": "Ethics Case Study -- Reparations",
-  "body": " Ethics Case Study -- Reparations  For decades, there have been calls for America to pay reparations to African Americans, most of whom are descendants of enslaved people. Those who argue for reparations believe that they are compensation for the value contributed to the United States by enslaved people. We are going to analyze this question using our ethical decision framework.    Let's start by learning about the problem. Here's a short video from the Public Broadcasting System (PBS) which discusses the arguments around reparations.     What are some of the groups that have received reparations around the world? Choose two of these groups. How are the circumstances of their claims similar to those of the descendants of enslaved people in the US? How are they different?    What are some of the forms that reparations could take in the US for the descendants of enslaved people?    What are some of the forms that you could envision reparations for descendants of enslaved people taking in the US? What would be the advantages and disadvantages of each?    One problem around discussing reparations is putting a price tag on the harm done to the community. Enslaved people were denied the right to earn wages for their labor, which consequently denied them the right to invest those earnings in the kinds of investments we discuss in this course - loans (including those to buy property), stocks, and bonds. The time-value of those denied earnings has only increased in the years since.  The idea that families accumulate wealth over the years is called generational wealth . While other families that immigrated to the US were able to continue accumulating generational wealth, including that which they brought to the country, enslaved people were stripped of most or all of their possessions and didn't have the opportunity to accumulate wealth until they gained their freedom.  Can we estimate how much money they lost, and what the current value of those lost wages would be?    We are going to first determine the value today of the contributions of enslaved people, and we are going to make several assumptions along the way. Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of enslaved people starting in 1790. We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a study by Yamada). We assume that this rate captures the effect of inflation.    First, let us consider the lost wages of an enslaved person in 1790. While estimating incomes during the early history of the US is difficult, researchers at the National Board of Economic Research found in a 2014 working paper that the per capita income in the US in 1774 was 69.10, which would be 78.48 in 1790 dollars. This gives us a useful starting point to estimate the lost wages of enslaved people.  In 1790, there were 654,000 enslaved people, according to the census. While there are questions about how accurate this data is, especially in its count of enslaved people, we can use this to give us an overall estimate of lost wages. By examining census figures for enslaved people each decade up until 1860, examining growth rates, and taking a geometric average, the enslaved population grew by approximately 30% every ten years. Slavery ended (officially at least) in 1865. If the population grew by 30% every year, how much did it grow by each year?    We now have the information we need to create an estimate of the future value of these lost wages in the current year.  Build an excel spreadsheet which estimates the following in each year from 1790 to 1865:   The enslaved population in the US.    The annual lost wages, per capita, for each enslaved person. You can assume that lost wages grow by 5.10% per year.    Total annual lost wages for the entire enslaved population of the US.    Value of those total annual lost wages in the current year. Again, you can assume that the effective annual interest is 5.10%.     The sum of the future values of the total annual wages from each year should give you an estimate of the future value of the total lost wages for all enslaved people during the years 1790-1865.    Pause for a moment and consider the figure you just calculated. Besides some of the simplifying assumptions, what are we missing? Is this an over-estimate or an under-estimate?      Who are the stakeholders in this situation? If the US were to begin paying out reparations to the descendants of enslaved people, who would be affected?      Now that we have an estimate of what the current value of the lost wages is, develop some possible proposals for what reparations might look like. How could the US government effectively compensate the descendants of enslaved people for the wages denied to their ancestors? What are the advantages and disadvantages of each approach?      Decide which plan most effectively compensates these descendants for the wages lost. Explain why you chose the plan that you did.      Consider the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Choose an ethical lens and examine your plan for reparations through that lens. Would you say that this plan is ethical.      Write a memo setting forth and defending a recommendation on reparations. Be sure to support your position and address counterarguments (see outline in ).    "
+  "body": " Ethics Case Study -- Reparations  For decades, there have been calls for America to pay reparations to African Americans, most of whom are descendants of enslaved people. Those who argue for reparations believe that they are compensation for the value contributed to the United States by enslaved people. We are going to analyze this question using our ethical decision framework.    Let's start by learning about the problem. Here's a short video from the Public Broadcasting System (PBS) which discusses the arguments around reparations.     What are some of the groups that have received reparations around the world? Choose two of these groups. How are the circumstances of their claims similar to those of the descendants of enslaved people in the US? How are they different?    What are some of the forms that reparations could take in the US for the descendants of enslaved people?    What are some of the forms that you could envision reparations for descendants of enslaved people taking in the US? What would be the advantages and disadvantages of each?    One problem around discussing reparations is putting a price tag on the harm done to the community. Enslaved people were denied the right to earn wages for their labor, which consequently denied them the right to invest those earnings in the kinds of investments we discuss in this course - loans (including those to buy property), stocks, and bonds. The time-value of those denied earnings has only increased in the years since.  The idea that families accumulate wealth over the years is called generational wealth . While other families that immigrated to the US were able to continue accumulating generational wealth, including that which they brought to the country, enslaved people were stripped of most or all of their possessions and didn't have the opportunity to accumulate wealth until they gained their freedom.  Can we estimate how much money they lost, and what the current value of those lost wages would be?    We are going to first determine the value today of the contributions of enslaved people, and we are going to make several assumptions along the way. Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of enslaved people starting in 1790. We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a study by Yamada). We assume that this rate captures the effect of inflation.    First, let us consider the lost wages of an enslaved person in 1790. While estimating incomes during the early history of the US is difficult, researchers at the National Board of Economic Research found in a 2014 working paper that the per capita income in the US in 1774 was 69.10, which would be 78.48 in 1790 dollars. This gives us a useful starting point to estimate the lost wages of enslaved people.  In 1790, there were 654,000 enslaved people, according to the census. While there are questions about how accurate this data is, especially in its count of enslaved people, we can use this to give us an overall estimate of lost wages. By examining census figures for enslaved people each decade up until 1860, examining growth rates, and taking a geometric average, the enslaved population grew by approximately 30% every ten years. Slavery ended (officially at least) in 1865. If the population grew by 30% every year, how much did it grow by each year?    We now have the information we need to create an estimate of the future value of these lost wages in the current year.  Build an excel spreadsheet which estimates the following in each year from 1790 to 1865:   The enslaved population in the US.    The annual lost wages, per capita, for each enslaved person. You can assume that lost wages grow by 5.10% per year.    Total annual lost wages for the entire enslaved population of the US.    Value of those total annual lost wages in the current year. Again, you can assume that the effective annual interest is 5.10%.     The sum of the future values of the total annual wages from each year should give you an estimate of the future value of the total lost wages for all enslaved people during the years 1790-1865.    Pause for a moment and consider the figure you just calculated. Besides some of the simplifying assumptions, what are we missing? Is this an over-estimate or an under-estimate?      Who are the stakeholders in this situation? If the US were to begin paying out reparations to the descendants of enslaved people, who would be affected?      Now that we have an estimate of what the current value of the lost wages is, develop some possible proposals for what reparations might look like. How could the US government effectively compensate the descendants of enslaved people for the wages denied to their ancestors? What are the advantages and disadvantages of each approach?      Decide which plan most effectively compensates these descendants for the wages lost. Explain why you chose the plan that you did.      Consider the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Choose an ethical lens and examine your plan for reparations through that lens. Would you say that this plan is ethical.      Write a memo setting forth and defending a recommendation on reparations. Be sure to support your position and address counterarguments.    "
 },
 {
   "id": "reparations-problem-statement",
@@ -5803,7 +5803,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "5.14.7",
   "title": "",
-  "body": "  Write a memo setting forth and defending a recommendation on reparations. Be sure to support your position and address counterarguments (see outline in ).   "
+  "body": "  Write a memo setting forth and defending a recommendation on reparations. Be sure to support your position and address counterarguments.   "
 },
 {
   "id": "non-level-payment-annuities-exercises",
@@ -6793,88 +6793,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.9",
   "title": "Ethics Case Study -- Redlining",
-  "body": " Ethics Case Study -- Redlining   Redlining was the practice of limiting minority home mortgage loans to low-income neighborhoods. The name comes from maps in which neighborhoods were outlined in red. While the practice was made illegal under the Fair Housing Act in 1968, the effects have lingered. Is it time for new government action?  We will go through our ethical decision-making process to consider the issue.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  One way the effect of redlining continues to be felt is through school funding. Schools are funded by property taxes, giving a direct link between the wealth of a neighborhood and the funding received by the neighborhood's schools. Explain how redlining impacts school funding, and the cyclic problem that this creates. In addition, identify the assumptions we make in asserting that there is a cyclic problem.  We can also examine whether or not there is any racial discrimination in the mortgage loan market. Google the following: \"racial differences in mortgage lending\" and describe what you find. You can follow-up with other search terms as well.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo setting forth and defending federal action (or non-action) regarding racial discrimination in mortgage lending and the effects of redlining. Be sure to support your position and address counterarguments (see outline in Activity 2.15).    "
+  "body": " Ethics Case Study -- Redlining  Redlining* was the practice of limiting home mortgage loans to low-income neighborhoods based on factors other than financial qualification: the name comes from maps in which neighborhoods were outlined in red.  While racially motivated redlining was made illegal under the Fair Housing Act in 1968, the effects have lingered. In this activity, we'll consider some of these effects and how they might be remedied.    Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?    Read about the history of redlining in this article on the Federal Reserve's website . Which aspect(s) of this history surprise you the most?      One way the effect of redlining continues to be felt is through school funding. Schools are funded by property taxes, giving a direct link between the wealth of a neighborhood and the funding received by the neighborhood's schools. Explain how redlining impacts school funding, and the cyclic problem that this creates. In addition, identify the assumptions we make in asserting that there is a cyclic problem.    We can also examine whether or not there is currently any racial discrimination in the real estate market. Google “racial differences in mortgage lending” and \"steering in real estate\" and describe what you find. You can follow up with other search terms as well.    You are on the staff of the director of your county's housing office. The director has requested three proposals for measures the county can take to counteract the effects of redlining. You are to submit a report with an analysis of each of them and a recommendation for the one you think is most appropriate.    Let’s do a stakeholder analysis. Make a list of all those who would be impacted by implementing the measures you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.    Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing these structures. Test options by filling in the following tables. You can add rows for more stakeholders and make additional tables for more options.     Stakeholder  Primary or Secondary?  Harms  Benefits                           Make a decision: write a report to the director explaining and analyzing your three proposed measures. State your recommendation first, and then justify your decision with explicit reference to the stakeholder analysis.      Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your report.    "
 },
 {
-  "id": "ethics-redlining-2",
+  "id": "ethics-redlining-4",
   "level": "2",
-  "url": "ethics-redlining.html#ethics-redlining-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Redlining "
-},
-{
-  "id": "redlining-problem-statement",
-  "level": "2",
-  "url": "ethics-redlining.html#redlining-problem-statement",
+  "url": "ethics-redlining.html#ethics-redlining-4",
   "type": "Activity",
   "number": "6.9.1",
   "title": "",
-  "body": "   Step 1 : State the Problem.   "
+  "body": "  Before we start, read about the six ethical lenses published by the Markkula Center for Applied Ethics at Santa Clara University . Which lens(es) do you think you will bring to this analysis?    Read about the history of redlining in this article on the Federal Reserve's website . Which aspect(s) of this history surprise you the most?   "
 },
 {
-  "id": "redlining-fact-gathering",
+  "id": "ethics-redlining-5",
   "level": "2",
-  "url": "ethics-redlining.html#redlining-fact-gathering",
+  "url": "ethics-redlining.html#ethics-redlining-5",
   "type": "Activity",
   "number": "6.9.2",
   "title": "",
-  "body": "   Step 2 : Gather the Facts.  One way the effect of redlining continues to be felt is through school funding. Schools are funded by property taxes, giving a direct link between the wealth of a neighborhood and the funding received by the neighborhood's schools. Explain how redlining impacts school funding, and the cyclic problem that this creates. In addition, identify the assumptions we make in asserting that there is a cyclic problem.  We can also examine whether or not there is any racial discrimination in the mortgage loan market. Google the following: \"racial differences in mortgage lending\" and describe what you find. You can follow-up with other search terms as well.   "
+  "body": "  One way the effect of redlining continues to be felt is through school funding. Schools are funded by property taxes, giving a direct link between the wealth of a neighborhood and the funding received by the neighborhood's schools. Explain how redlining impacts school funding, and the cyclic problem that this creates. In addition, identify the assumptions we make in asserting that there is a cyclic problem.    We can also examine whether or not there is currently any racial discrimination in the real estate market. Google “racial differences in mortgage lending” and \"steering in real estate\" and describe what you find. You can follow up with other search terms as well.    You are on the staff of the director of your county's housing office. The director has requested three proposals for measures the county can take to counteract the effects of redlining. You are to submit a report with an analysis of each of them and a recommendation for the one you think is most appropriate.    Let’s do a stakeholder analysis. Make a list of all those who would be impacted by implementing the measures you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.    Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing these structures. Test options by filling in the following tables. You can add rows for more stakeholders and make additional tables for more options.     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
 },
 {
-  "id": "redlining-identify-stakeholders",
+  "id": "ethics-redlining-6",
   "level": "2",
-  "url": "ethics-redlining.html#redlining-identify-stakeholders",
+  "url": "ethics-redlining.html#ethics-redlining-6",
   "type": "Activity",
   "number": "6.9.3",
   "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
+  "body": "  Make a decision: write a report to the director explaining and analyzing your three proposed measures. State your recommendation first, and then justify your decision with explicit reference to the stakeholder analysis.   "
 },
 {
-  "id": "redlining-develop-options",
+  "id": "ethics-redlining-7",
   "level": "2",
-  "url": "ethics-redlining.html#redlining-develop-options",
+  "url": "ethics-redlining.html#ethics-redlining-7",
   "type": "Activity",
   "number": "6.9.4",
   "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
-},
-{
-  "id": "redlining-test-options",
-  "level": "2",
-  "url": "ethics-redlining.html#redlining-test-options",
-  "type": "Activity",
-  "number": "6.9.5",
-  "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
-},
-{
-  "id": "redlining-make-decision",
-  "level": "2",
-  "url": "ethics-redlining.html#redlining-make-decision",
-  "type": "Activity",
-  "number": "6.9.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "redlining-check-work",
-  "level": "2",
-  "url": "ethics-redlining.html#redlining-check-work",
-  "type": "Activity",
-  "number": "6.9.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "redlining-memo",
-  "level": "2",
-  "url": "ethics-redlining.html#redlining-memo",
-  "type": "Activity",
-  "number": "6.9.8",
-  "title": "",
-  "body": "  Write a memo setting forth and defending federal action (or non-action) regarding racial discrimination in mortgage lending and the effects of redlining. Be sure to support your position and address counterarguments (see outline in Activity 2.15).   "
+  "body": "  Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your recommendation? Was that the same or different from what you identified at the beginning of this activity? Does that surprise you? Why or why not? Write a brief paragraph responding to these questions and include it with your report.   "
 },
 {
   "id": "applications-of-interest-theory-exercises",
@@ -8497,562 +8452,418 @@ var ptx_lunr_docs = [
   "body": "   You have decided to invested in two bonds. Bond is an -year bond with semiannual coupons., while bond is a zero-coupon bond, which is redeemable in years. The desired yield rate is the same for both bonds. You also have the following information:   Bond :    Par value is 1000.    The ratio of the semiannual bond rate to the desired semiannual yield rate, , is 1.03125.    The present value of the redemption value is 381.50.     Bond :    Redemption value is the same as that of bond .    Price to yield is 647.80.    What is the price of bond ?   "
 },
 {
-  "id": "book-and-market-values",
+  "id": "zero-coupon-bonds-spot-rates-and-yield-curve",
   "level": "1",
-  "url": "book-and-market-values.html",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html",
   "type": "Section",
   "number": "8.1",
-  "title": "Book and Market Values",
-  "body": " Book and Market Values  The first point about rates of return to note is that since market interest rates fluctuate, the market rate of return on an investment may not match the original rate of return used to price the investment. When we hold an investment, such as a bond, or if we made a loan (or any other right to collect a cash stream), we amortize the investment on our \"books\" for both reporting and tax purposes. The values recorded are based on the original rate used to price the asset, and these are called book values (sometimes denoted ). The market value (sometimes denoted ) is what we could sell those assets for at the market rate of interest, and therefore come from valuing using the market rate of interest.  We saw this with bonds, but it is useful to note that the same principal applies to loans, and any other cash streams. Later in this book, we will address book and market values of interest rate swaps.    Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .      Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .      If the market rate of interest is lower than the rate used to originally price the investment, which will be larger, or ? Why?      Summarize the similarities and differences between the book and market values of an investment.    "
+  "title": "Zero Coupon Bonds, Spot Rates, and the Yield Curve",
+  "body": " Zero Coupon Bonds, Spot Rates, and the Yield Curve  We begin by defining the term structure of interest rates. A zero-coupon bond is, as you might expect, a bond that pays no coupons. United States Treasury Bills (\"T-bills\" for short) are zero-coupon bonds, typically with maturities less than one year. The yield rates on zero-coupon bonds are functions of the length of time to maturity, and those yield rates are referred to as spot rates . Taken together, the schedule of spot rates for various times is called the term structure of interest rates , and graphically referred to as the yield curve .    So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15           The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?      Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.      Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.      "
 },
 {
-  "id": "book-and-market-values-2",
+  "id": "zero-coupon-bonds-spot-rates-and-yield-curve-2",
   "level": "2",
-  "url": "book-and-market-values.html#book-and-market-values-2",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#zero-coupon-bonds-spot-rates-and-yield-curve-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "book values market value "
+  "body": "zero-coupon bond spot rates the term structure of interest rates yield curve "
 },
 {
-  "id": "finding-book-and-market-value-for-investments",
+  "id": "determining-yield-from-market-rates",
   "level": "2",
-  "url": "book-and-market-values.html#finding-book-and-market-value-for-investments",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#determining-yield-from-market-rates",
   "type": "Activity",
   "number": "8.1.1",
   "title": "",
-  "body": "  Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .   "
+  "body": "  So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15        "
 },
 {
-  "id": "book-market-value-example-1",
+  "id": "term-structure-and-yield-curve",
   "level": "2",
-  "url": "book-and-market-values.html#book-market-value-example-1",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#term-structure-and-yield-curve",
   "type": "Activity",
   "number": "8.1.2",
   "title": "",
-  "body": "  Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .   "
+  "body": "  The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?   "
 },
 {
-  "id": "comparing-book-and-market-value",
+  "id": "yield-curves-and-economic-expectations",
   "level": "2",
-  "url": "book-and-market-values.html#comparing-book-and-market-value",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curves-and-economic-expectations",
   "type": "Activity",
   "number": "8.1.3",
   "title": "",
-  "body": "  If the market rate of interest is lower than the rate used to originally price the investment, which will be larger, or ? Why?   "
+  "body": "  Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.   "
 },
 {
-  "id": "book-and-market-values-reflection",
+  "id": "yield-curve-reflection",
   "level": "2",
-  "url": "book-and-market-values.html#book-and-market-values-reflection",
+  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curve-reflection",
   "type": "Activity",
   "number": "8.1.4",
   "title": "",
-  "body": "  Summarize the similarities and differences between the book and market values of an investment.   "
+  "body": "  Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.     "
 },
 {
-  "id": "yield-rates-and-reinvestment-rates",
+  "id": "spot-rates-and-coupon-bonds",
   "level": "1",
-  "url": "yield-rates-and-reinvestment-rates.html",
+  "url": "spot-rates-and-coupon-bonds.html",
   "type": "Section",
   "number": "8.2",
-  "title": "Yield Rates and Reinvestment Rates",
-  "body": " Yield Rates and Reinvestment Rates  The yield rate on an investment is the rate of return (treated mathematically as an interest rate) that relates the present and future values of an investment. If is the present value and is the future value after periods, the effective periodic yield rate satisfies:   If instead of a present value, you have, say, an annuity with level payments , then the yield rate satisfies:   In this case, these amounts are actually received by the investor (or contributed by the investor).  In contrast, the internal rate of return is the rate used to value cash streams, whether or not that is actually realized by the investor. For example, when a loan involves level payments based on an interest rate of , we have   The interest rate is the internal rate of return. This is the interest rate in the loan agreement, and defines how the payments are valued.  If payments received by an investor are reinvested (in a savings account or a sinking fund, for example), the rate earned on the reinvestment account is, simply enough, the reinvestment rate .  The internal rate of return is defined for the given cash flows (more on that later in this chapter). The reinvestment rate determines the yield rate.    Let's look at this with an example. Suppose we have a 10-year loan of 10,000. The borrower is charged an interest rate of 5%. For each of the following repayment and reinvestment options, find (i) the internal rate of return, (ii) the reinvestment rate, and (iii) the yield rate.    The loan is paid off with annual level payments. Payments are reinvested at 5%.    The loan is paid off with annual payments of interest, with the principal paid back with the final interest payment. Payments are reinvested at 5%.    The loan is paid off with a single payment (accumulated interest plus principal) at the end of the term.      Redo each part of , but assume payments are reinvested at 3%.      What do you notice?      In the following exercises, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    There is another, related way, to value an annuity such as a loan. If an investor pays for a series of level payments of , they can obtain a yield rate with each payment while recovering principal in a sinking fund with interest rate . They do so by taking out of each payment for their own consumption, and depositing the rest in the sinking fund. In this case, is the yield rate and is the reinvestment rate (while the internal rate of return still equates with the present values of the payments ).    Suppose a loan has ten annual payments of 1,000 and immediately sold to an investor. The investor pays a price which allows him to yield 4% and recover their principal investment in a sinking fund bearing an effective annual interest rate of . How much should they pay for the loan?      Do you need a formula for the price to pay for such an investment? If you want one, derive one. If you do not, explain how you will solve problems involving recovery of principal through sinking funds.      For the following problem, we will write all parts of the problem, and leave you the rest of this page and the next to solve each part.  Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.    In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In above, assume that Jones can reinvest the payments at 6% per year; find Jones' average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in .        An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.      Why is the reinvestment rate important?    "
+  "title": "Spot Rates and Coupon Bonds",
+  "body": " Spot Rates and Coupon Bonds  We can use the spot rates to price coupon bonds, and then figure out the yield rate for the coupon bond at that price. We can also reverse this relationship, and actually use coupon bond prices or yields to find the spot rates.    Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.    Let's look at a more extended example.    A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?      Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.      We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.      Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.      The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.      How much of what we learned in this activity can you reconstruct from definitions and sense-making?    "
 },
 {
-  "id": "yield-rates-and-reinvestment-rates-2",
+  "id": "pricing-coupon-payments-with-spot-rates",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "yield rate "
-},
-{
-  "id": "yield-rates-and-reinvestment-rates-7",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "internal rate of return "
-},
-{
-  "id": "yield-rates-and-reinvestment-rates-10",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "reinvestment rate "
-},
-{
-  "id": "reinvestment-rate-example",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#reinvestment-rate-example",
+  "url": "spot-rates-and-coupon-bonds.html#pricing-coupon-payments-with-spot-rates",
   "type": "Activity",
   "number": "8.2.1",
   "title": "",
-  "body": "  Let's look at this with an example. Suppose we have a 10-year loan of 10,000. The borrower is charged an interest rate of 5%. For each of the following repayment and reinvestment options, find (i) the internal rate of return, (ii) the reinvestment rate, and (iii) the yield rate.    The loan is paid off with annual level payments. Payments are reinvested at 5%.    The loan is paid off with annual payments of interest, with the principal paid back with the final interest payment. Payments are reinvested at 5%.    The loan is paid off with a single payment (accumulated interest plus principal) at the end of the term.   "
+  "body": "  Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
 },
 {
-  "id": "reinvestment-rate-example-with-different-rate",
+  "id": "extended-pricing-coupon-payments-with-spot-rates",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#reinvestment-rate-example-with-different-rate",
+  "url": "spot-rates-and-coupon-bonds.html#extended-pricing-coupon-payments-with-spot-rates",
   "type": "Activity",
   "number": "8.2.2",
   "title": "",
-  "body": "  Redo each part of , but assume payments are reinvested at 3%.   "
+  "body": "  A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?   "
 },
 {
-  "id": "analyzing-reinvestment-at-different-rates",
+  "id": "pricing-with-flat-yield-curve",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#analyzing-reinvestment-at-different-rates",
+  "url": "spot-rates-and-coupon-bonds.html#pricing-with-flat-yield-curve",
   "type": "Activity",
   "number": "8.2.3",
   "title": "",
-  "body": "  What do you notice?   "
+  "body": "  Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.   "
 },
 {
-  "id": "calculating-different-investment-rates",
+  "id": "bootstrapping-to-find-spot-rates",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#calculating-different-investment-rates",
+  "url": "spot-rates-and-coupon-bonds.html#bootstrapping-to-find-spot-rates",
   "type": "Activity",
   "number": "8.2.4",
   "title": "",
-  "body": "  In the following exercises, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .   "
+  "body": "  We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.   "
 },
 {
-  "id": "yield-rates-and-reinvestment-rates-16",
+  "id": "insufficient-information-for-bootstrapping",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "recovering principal "
-},
-{
-  "id": "valuing-loans-with-sinking-funds",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#valuing-loans-with-sinking-funds",
+  "url": "spot-rates-and-coupon-bonds.html#insufficient-information-for-bootstrapping",
   "type": "Activity",
   "number": "8.2.5",
   "title": "",
-  "body": "  Suppose a loan has ten annual payments of 1,000 and immediately sold to an investor. The investor pays a price which allows him to yield 4% and recover their principal investment in a sinking fund bearing an effective annual interest rate of . How much should they pay for the loan?   "
+  "body": "  Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.   "
 },
 {
-  "id": "need-for-formula-for-loans-with-sinking-funds",
+  "id": "at-par-yield-rate-for-coupon-bond",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#need-for-formula-for-loans-with-sinking-funds",
+  "url": "spot-rates-and-coupon-bonds.html#at-par-yield-rate-for-coupon-bond",
   "type": "Activity",
   "number": "8.2.6",
   "title": "",
-  "body": "  Do you need a formula for the price to pay for such an investment? If you want one, derive one. If you do not, explain how you will solve problems involving recovery of principal through sinking funds.   "
+  "body": "  The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.   "
 },
 {
-  "id": "solving-reinvestment-loan-problems",
+  "id": "spot-rates-and-coupon-bonds-reflection",
   "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#solving-reinvestment-loan-problems",
+  "url": "spot-rates-and-coupon-bonds.html#spot-rates-and-coupon-bonds-reflection",
   "type": "Activity",
   "number": "8.2.7",
   "title": "",
-  "body": "  For the following problem, we will write all parts of the problem, and leave you the rest of this page and the next to solve each part.  Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.    In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In above, assume that Jones can reinvest the payments at 6% per year; find Jones' average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in .     "
+  "body": "  How much of what we learned in this activity can you reconstruct from definitions and sense-making?   "
 },
 {
-  "id": "multiple-reinvestment-funds",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#multiple-reinvestment-funds",
-  "type": "Activity",
-  "number": "8.2.8",
-  "title": "",
-  "body": "  An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.   "
-},
-{
-  "id": "yield-rates-and-reinvestment-rates-reflection",
-  "level": "2",
-  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-reflection",
-  "type": "Activity",
-  "number": "8.2.9",
-  "title": "",
-  "body": "  Why is the reinvestment rate important?   "
-},
-{
-  "id": "internal-rate-of-return-and-net-present-value",
+  "id": "forward-rates",
   "level": "1",
-  "url": "internal-rate-of-return-and-net-present-value.html",
+  "url": "forward-rates.html",
   "type": "Section",
   "number": "8.3",
-  "title": "Internal Rate of Return and Net Present Value",
-  "body": " Internal Rate of Return and Net Present Value  In this section, we will focus on how to find the internal rate of return ( ) from cash flows. Later in the section, we will see a related concept -- net present value ( ).  Our cash flows will be a sequence . Each represents net cash flows at time . We can assume that the cash flows are equally spaced, as some may be set to 0. A positive cash flow means the investor receives funds, while a negative cash flow means the investor expended funds. Expended funds are sometimes called \"contributions\" or something similar. To find , we add all positive cash flows and subtract all negative cash flows, leaving us with the net cash flow at time . The value is typically (but not always) the initial investment and will be negative.    Let's start by finding the net cash flow at a given point in time.  A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6, .    The internal rate of return (abbreviated ) is the interest rate that makes the present value of equal to . In other words, it is the value that makes the following equation true:   In this book, unless otherise directed, assume that . The is quoted as an effective rate. For existence and uniqueness questions, see Broverman.    An investor pays 316 for an investment that will pay 150 at time 1 and 200 at time 2. Find the .     🧮 Calculator Corner  For general cash flows, calculating requires solving a polynomial equation, which means (outside of quadratics) we will need numerical methods programmed into our financial calculator.  To find the in our calculator, first go to the cash flows worksheet by pressing CF . For the initial amount , type the value and press ENTER , then press ↓ . For the rest, after you enter , press ENTER and ↓ , then enter the number of times that payment occurs (in a row). So if you have (and is different), enter 1000 for \"C01\" and 2 for \"F01\". Do not forget to hit ENTER after each entry, and type ± after each number for any negative entries.  Once you have entered in all of the cash flows, type IRR  followed by  CPT . The result will be the displayed as a percentage.     Use the financial calculator to repeat . Which do you prefer?      For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    A related concept is net present value (abbreviated ). This is just the present value of a set of cash flows given a desired rate of return (for our purposes, the word \"net\" adds nothing). In other words, given an interest rate:   Pay attention to the details in that formula!    The following is a graph of net present value against interest rates between 0 and 100% for a given set of cash flows. Identify the on the graph and explain.  Graph of Net Present Value by Interest Rate        🧮 Calculator Corner  The can also be found with our financial calculator. Simply enter the cash flows in the cash flow worksheet. Make sure you enter negative cash flows as negative numbers. Then type NPV , enter an interest rate (as a percentage), hit , and then press CPT .     Suppose an initial investment at time 0 of 11,000 pays out 4,000 at time 1, 5,000 at time 2, and 4,500 at time 3.    Find the at 8%.    Find the at 12%.    Find the .      The is often used to compare investment projects at a desired rate of return.    Which would you select, a project with a higher or a lower ? Why?    Would you ever select a project with a negative ? Why or why not?      For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.      Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.      Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .      Describe the relationship between and .    "
+  "title": "Forward Rates",
+  "body": " Forward Rates  In addition to spot rates, we can also describe how we expect interest rates to vary in the near future using forward rates. Forward rates are interest rates that are locked in today (at time 0), but are only in effect for a period of time at some point in the future (i.e., at some point forward in time). The typical notation is , which stands for the effective periodic interest measured now but is in effect between times and .  When and we are looking at , we use the following equivalent terms:    The time (or -time ) forward rate (note that this refers to the ending time).    The -deferred time- interest rate.    You may also see described as \"the deferred -year interest rate.\" There may be other equivalent terms you encounter, as well as alternate notation. As usual, refer to context to understand what the author intends.    Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.           Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.      We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.      In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.      In what way(s) are forward rates and spot rates different?    "
 },
 {
-  "id": "internal-rate-of-return-and-net-present-value-3",
+  "id": "forward-rates-2",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-3",
+  "url": "forward-rates.html#forward-rates-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "net cash flow "
+  "body": "Forward rates "
 },
 {
-  "id": "finding-cash-flow-at-a-point-in-time",
+  "id": "forward-rates-4-1-1",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#finding-cash-flow-at-a-point-in-time",
+  "url": "forward-rates.html#forward-rates-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "time -time "
+},
+{
+  "id": "exploring-the-meaning-of-forward-rates",
+  "level": "2",
+  "url": "forward-rates.html#exploring-the-meaning-of-forward-rates",
   "type": "Activity",
   "number": "8.3.1",
   "title": "",
-  "body": "  Let's start by finding the net cash flow at a given point in time.  A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6, .   "
+  "body": "  Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.        "
 },
 {
-  "id": "internal-rate-of-return-and-net-present-value-5",
+  "id": "inferring-forward-rates-from-offers",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "internal rate of return "
-},
-{
-  "id": "finding-internal-rate-of-return",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#finding-internal-rate-of-return",
+  "url": "forward-rates.html#inferring-forward-rates-from-offers",
   "type": "Activity",
   "number": "8.3.2",
   "title": "",
-  "body": "  An investor pays 316 for an investment that will pay 150 at time 1 and 200 at time 2. Find the .   "
+  "body": "  Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.   "
 },
 {
-  "id": "internal-rate-of-return-and-net-present-value-9-4",
+  "id": "pricing-bonds-with-forward-rates",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-9-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "followed by "
-},
-{
-  "id": "using-calculator-for-irr",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#using-calculator-for-irr",
+  "url": "forward-rates.html#pricing-bonds-with-forward-rates",
   "type": "Activity",
   "number": "8.3.3",
   "title": "",
-  "body": "  Use the financial calculator to repeat . Which do you prefer?   "
+  "body": "  We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.   "
 },
 {
-  "id": "finding-irr-for-cash-flows",
+  "id": "at-par-yield-rate-from-forward-rates",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#finding-irr-for-cash-flows",
+  "url": "forward-rates.html#at-par-yield-rate-from-forward-rates",
   "type": "Activity",
   "number": "8.3.4",
   "title": "",
-  "body": "  For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.   "
+  "body": "  In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.   "
 },
 {
-  "id": "internal-rate-of-return-and-net-present-value-12",
+  "id": "forward-rate-reflection",
   "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "net present value "
-},
-{
-  "id": "net-present-value-vs-interest-rate",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#net-present-value-vs-interest-rate",
+  "url": "forward-rates.html#forward-rate-reflection",
   "type": "Activity",
   "number": "8.3.5",
   "title": "",
-  "body": "  The following is a graph of net present value against interest rates between 0 and 100% for a given set of cash flows. Identify the on the graph and explain.  Graph of Net Present Value by Interest Rate      "
+  "body": "  In what way(s) are forward rates and spot rates different?   "
 },
 {
-  "id": "using-calculator-for-NPV",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#using-calculator-for-NPV",
-  "type": "Activity",
-  "number": "8.3.6",
-  "title": "",
-  "body": "  Suppose an initial investment at time 0 of 11,000 pays out 4,000 at time 1, 5,000 at time 2, and 4,500 at time 3.    Find the at 8%.    Find the at 12%.    Find the .   "
-},
-{
-  "id": "using-NPV-to-compare",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#using-NPV-to-compare",
-  "type": "Activity",
-  "number": "8.3.7",
-  "title": "",
-  "body": "  The is often used to compare investment projects at a desired rate of return.    Which would you select, a project with a higher or a lower ? Why?    Would you ever select a project with a negative ? Why or why not?   "
-},
-{
-  "id": "using-NPV-to-select-investments",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#using-NPV-to-select-investments",
-  "type": "Activity",
-  "number": "8.3.8",
-  "title": "",
-  "body": "  For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.   "
-},
-{
-  "id": "finding-irr-for-specified-cash-flows",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#finding-irr-for-specified-cash-flows",
-  "type": "Activity",
-  "number": "8.3.9",
-  "title": "",
-  "body": "  Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.   "
-},
-{
-  "id": "comparing-investments-with-equal-NPVs",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#comparing-investments-with-equal-NPVs",
-  "type": "Activity",
-  "number": "8.3.10",
-  "title": "",
-  "body": "  Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .   "
-},
-{
-  "id": "internal-rate-of-return-and-net-present-value-reflection",
-  "level": "2",
-  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-reflection",
-  "type": "Activity",
-  "number": "8.3.11",
-  "title": "",
-  "body": "  Describe the relationship between and .   "
-},
-{
-  "id": "time-weighted-rates-of-return",
+  "id": "implied-forward-rates-and-spot-rates",
   "level": "1",
-  "url": "time-weighted-rates-of-return.html",
+  "url": "implied-forward-rates-and-spot-rates.html",
   "type": "Section",
   "number": "8.4",
-  "title": "Time-Weighted Rates of Return",
-  "body": " Time-Weighted Rates of Return  In the last activity, we saw how to find rates of return for any set of cash flows. Those cash flows were not invested, but rather income from investments. For the rest of this chapter, we are going to look at determining rates of return in investment funds, particularly when there is account activity such as deposits and withdrawals. The goal is to determine how much return was due solely to the fund itself, and not to the account activity.  There are two approaches to measuring this rate of return. The time-weighted rate of return measures compound growth rate, while the dollar-weighted (sometimes called money-weighted ) rate of return measures simple growth. We start with the time-weighted rate of return.  Note that the funds may not be savings accounts or bonds -- they could be accounts such as mutual funds, that can rise or fall. So you will see some negative growth rates in the activities, exercises, and problems.    We begin with the following example of account balances and activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1, 1999  100        July 1, 1999  125  20      October 1, 1999  110    10    December 31, 1999  125           Let's start by making a timeline for this account. Record in your timeline the balances and the activity for each date.  In addition, mark rates of return between consecutive dates in the form where in order. You can assume each is effective for the given period.    The time-weighted rate of return is the equivalent effective annual rate that takes us from the beginning of the period to the end (in this case, Jan. 1 to Dec. 31 for one year). This rate only captures the changes due to interest or other investment growth decay.  Using this concept, find an equation for in terms of , , and .    Our goal is to capture growth or decay that comes from the investment, NOT from the deposits and withdrawals.  To calculate , does it make sense to use balances before or after the deposit\/withdrawal? What about and ? Explain your reasoning.    Calculate , , and .    Calculate , the time-weighted rate of return.      Let's try another example.  Find the time-weighted rate of return for the following:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  200,000        August 1  215,000    5000    December 31  205,000             Now we will try to derive formulas by mimicking our calculations. Let us generalize our account and activity using the following table where there are time periods:     Time  Balance Before Activity  Net Contribution                                                                                             Explain what is meant by net contribution.     State precisely what the variable and stand for.    Find a formula for (between time and ). Be careful!!    Write a formula for in terms of with .     NOTE: This is how we usually write the formula for the time-weighted rate of return: we just write the last two formulas.    Use the formula to find the time-weighted rate of return for the account:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  75,000        May 1  67,500  10,000      December 31  90,000             As usual, we can always switch what is known and what we have to find, as in the following exercise:  For the account activity in the following table, the time-weighted return is 0.588%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  1,000,000        March 1  950,000    X    December 31  900,000           So far, we have assumed we are looking at account balances and activity over 1 year. We can do the same over multiple years -- just remember that the rate is supposed to be an annual rate and compounds over the multiple years. This will be necessary in the following problem (be sure to pay close attention to the details here!).    The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date  Amount    Fund Values:  1\/1\/15  1,000,000      7\/1\/15  1,310,000      1\/1\/16  1,265,000      7\/1\/16  1,540,000      1\/1\/17  1,420,000            Contributions:  6\/30\/15  250,000    Received:  6\/30\/16  250,000            Benefits:  12\/31\/15  150,000    Paid:  12\/31\/16  150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.      An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:     Date  Value Immediately Before Deposit  Deposit    March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .      Is the formula for the time-weighted rate of return useful or a distraction? Why?    "
+  "title": "Implied Forward Rates and Spot Rates",
+  "body": " Implied Forward Rates and Spot Rates  Given a yield curve, the spot rates imply forward rates -- otherwise there would be an arbitrage opportunity. Similarly, given a set of forward rates, there is an implied yield curve. In this activity, we will figure learn how to figure these out.  For ease of notation, we will write in place of in this activity.    Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .      Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%           Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.      Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .      Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%           Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.      The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).      Explain how an arbitrage argument works and how it helped us derive equations in this activity.    "
 },
 {
-  "id": "time-weighted-rates-of-return-3",
+  "id": "making-an-arbitrage-argument",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "time-weighted rate of return dollar-weighted money-weighted "
-},
-{
-  "id": "computing-time-weighted-rates",
-  "level": "2",
-  "url": "time-weighted-rates-of-return.html#computing-time-weighted-rates",
+  "url": "implied-forward-rates-and-spot-rates.html#making-an-arbitrage-argument",
   "type": "Activity",
   "number": "8.4.1",
   "title": "",
-  "body": "  We begin with the following example of account balances and activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1, 1999  100        July 1, 1999  125  20      October 1, 1999  110    10    December 31, 1999  125           Let's start by making a timeline for this account. Record in your timeline the balances and the activity for each date.  In addition, mark rates of return between consecutive dates in the form where in order. You can assume each is effective for the given period.    The time-weighted rate of return is the equivalent effective annual rate that takes us from the beginning of the period to the end (in this case, Jan. 1 to Dec. 31 for one year). This rate only captures the changes due to interest or other investment growth decay.  Using this concept, find an equation for in terms of , , and .    Our goal is to capture growth or decay that comes from the investment, NOT from the deposits and withdrawals.  To calculate , does it make sense to use balances before or after the deposit\/withdrawal? What about and ? Explain your reasoning.    Calculate , , and .    Calculate , the time-weighted rate of return.   "
+  "body": "  Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .   "
 },
 {
-  "id": "finding-time-weighted-rate-of-return",
+  "id": "forward-rates-from-yield-curve",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#finding-time-weighted-rate-of-return",
+  "url": "implied-forward-rates-and-spot-rates.html#forward-rates-from-yield-curve",
   "type": "Activity",
   "number": "8.4.2",
   "title": "",
-  "body": "  Let's try another example.  Find the time-weighted rate of return for the following:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  200,000        August 1  215,000    5000    December 31  205,000          "
+  "body": "  Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%        "
 },
 {
-  "id": "deriving-formulas-for-time-weighted-rate-of-return",
+  "id": "graphing-forward-rates-against-yield-curves",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#deriving-formulas-for-time-weighted-rate-of-return",
+  "url": "implied-forward-rates-and-spot-rates.html#graphing-forward-rates-against-yield-curves",
   "type": "Activity",
   "number": "8.4.3",
   "title": "",
-  "body": "  Now we will try to derive formulas by mimicking our calculations. Let us generalize our account and activity using the following table where there are time periods:     Time  Balance Before Activity  Net Contribution                                                                                             Explain what is meant by net contribution.     State precisely what the variable and stand for.    Find a formula for (between time and ). Be careful!!    Write a formula for in terms of with .   "
+  "body": "  Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
 },
 {
-  "id": "time-weighted-rates-of-return-8",
+  "id": "constructing-yield-curve-from-forward-rates",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "NOTE: "
-},
-{
-  "id": "using-the-time-weighted-rate-formula",
-  "level": "2",
-  "url": "time-weighted-rates-of-return.html#using-the-time-weighted-rate-formula",
+  "url": "implied-forward-rates-and-spot-rates.html#constructing-yield-curve-from-forward-rates",
   "type": "Activity",
   "number": "8.4.4",
   "title": "",
-  "body": "  Use the formula to find the time-weighted rate of return for the account:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  75,000        May 1  67,500  10,000      December 31  90,000          "
+  "body": "  Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .   "
 },
 {
-  "id": "calculating-when-we-know-time-weighted-rate",
+  "id": "plotting-yield-curve-from-forward-rates",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#calculating-when-we-know-time-weighted-rate",
+  "url": "implied-forward-rates-and-spot-rates.html#plotting-yield-curve-from-forward-rates",
   "type": "Activity",
   "number": "8.4.5",
   "title": "",
-  "body": "  As usual, we can always switch what is known and what we have to find, as in the following exercise:  For the account activity in the following table, the time-weighted return is 0.588%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  1,000,000        March 1  950,000    X    December 31  900,000          "
+  "body": "  Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%        "
 },
 {
-  "id": "time-weighted-rates-over-multiple-years",
+  "id": "finding-spot-and-deferred-forward-rates",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#time-weighted-rates-over-multiple-years",
+  "url": "implied-forward-rates-and-spot-rates.html#finding-spot-and-deferred-forward-rates",
   "type": "Activity",
   "number": "8.4.6",
   "title": "",
-  "body": "  The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date  Amount    Fund Values:  1\/1\/15  1,000,000      7\/1\/15  1,310,000      1\/1\/16  1,265,000      7\/1\/16  1,540,000      1\/1\/17  1,420,000            Contributions:  6\/30\/15  250,000    Received:  6\/30\/16  250,000            Benefits:  12\/31\/15  150,000    Paid:  12\/31\/16  150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.   "
+  "body": "  Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
 },
 {
-  "id": "finding-value-when-time-weighted-rate-is-known",
+  "id": "finding-forward-rates-from-yield-rates",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#finding-value-when-time-weighted-rate-is-known",
+  "url": "implied-forward-rates-and-spot-rates.html#finding-forward-rates-from-yield-rates",
   "type": "Activity",
   "number": "8.4.7",
   "title": "",
-  "body": "  An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:     Date  Value Immediately Before Deposit  Deposit    March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .   "
+  "body": "  The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
 },
 {
-  "id": "time-weighted-rates-of-return-reflection",
+  "id": "implied-forward-rates-and-spot-rates-reflection",
   "level": "2",
-  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-reflection",
+  "url": "implied-forward-rates-and-spot-rates.html#implied-forward-rates-and-spot-rates-reflection",
   "type": "Activity",
   "number": "8.4.8",
   "title": "",
-  "body": "  Is the formula for the time-weighted rate of return useful or a distraction? Why?   "
+  "body": "  Explain how an arbitrage argument works and how it helped us derive equations in this activity.   "
 },
 {
-  "id": "dollar-weighted-rates-of-return",
+  "id": "arbitrage-revisited",
   "level": "1",
-  "url": "dollar-weighted-rates-of-return.html",
+  "url": "arbitrage-revisited.html",
   "type": "Section",
   "number": "8.5",
-  "title": "Dollar-Weighted Rates of Return",
-  "body": " Dollar-Weighted Rates of Return  In the last activity, we measured the compound rate of return (time-weighted rate of return) on a fund that had its own growth (or decay) in addition to deposits and withdrawals. In this activity we look at the dollar-weighted rate of return. This is an attempt to approximate the rate of growth or decay (due solely to the investment) using simple interest.  Recall that the future value equation for simple interest is In our problems, will be between 0 and 1.  The dollar-weighted (money weighted) rate of return is the simple interest rate that, given a starting balance and a sequence of deposits and withdrawals, results in the given ending balance.    As in the last activity, we begin with an example:     Date  Balance Before Activity  Deposit  Withdrawal    January 1,1999  100        July 1, 1999  125    10    October 1, 1999  110  20      December 31, 1999  125           Start with the initial balance. Write an expression for the value at of the initial balance, using our desired rate .    Consider now the withdrawal of 10 on July 1. Because we withdrew this amount, it did not earn interest. Over how much time did the investor miss out on this interest? Write an expression for the value of the withdrawal that is not part of the final balance.    Now consider the deposit of 20 on October 1. This amount did earn interest. Over how much time did the investor earn interest on this amount? Write an expression for the value of the deposit that is part of the final balance.    The final balance is 125. Put your answers together to write an equation that would result in the final balance of 125, if only we knew .     CAREFULLY keep track of your steps as you solve for . Be pedantic - we want to mimic these steps to write formulas.      Try another example: Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  350,000        June 1  300,000    25,000    December 31  360,000             Now let's mimic our steps to derive a formula.  First, let be the beginning balance and let be the ending balance. Let be the net contribution at time , and define:     The total amount of interest (or growth, or decay) in the account is . Express in terms of , , and .    Letting denote our dollar-weighted yield rate (and recalling that this is an approximation with simple interest!), write an expression for the value of at time .    For the contribution at time , for how long does this contribution earn interest at the simple rate (where \"earn\" is suitably interpreted if )?    Use your answers to write an equation that uses , each , each , and to get the final balance .    Solve your equation for . At some point, rewrite in terms of .      Let's solve an exercise using the formula. Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  50,000        October 1  60,000  5,000      December 31  72,000             Let's solve an exercise where we switch what is given and what we are looking for.  For an account with activity as in the following table, the dollar-weighted return is 5.714%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  X        July 1  275,000  25,000      December 31  290,000             A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.      Does the formula for the dollar-weighted rate of return help, or is it a distraction?    "
+  "title": "Arbitrage Revisited",
+  "body": " Arbitrage Revisited  In the last activity, you used arbitrage arguments to relate spot rates and forward rates. Nevertheless, since spot rates and forward rates are market-driven, they may not match and therefore there may be an opportunity for arbitrage.  When arbitrage exists, you can construct a transaction to take advantage of the opportunity buy following the age-old \"buy-low, sell-high\" strategy. In order to do this, you will have to create a \"synthetic\" version of the transaction that would occur if there were no arbitrage. You will do this quite a bit when preparing for the IFM Exam. In this activity, we will get a taste of this using forward and spot rates.  ⚠ Note that borrowing and paying back in a lump sum is the same as selling a zero-coupon bond, and lending with a lump sum repayment is the same as buying a zero-coupon bond.  We begin by exploring synthetic investments (sometimes called a \"net position\"). Then we use them to construct arbitrage transactions.    Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.      Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%        The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.      Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.    "
 },
 {
-  "id": "dollar-weighted-rates-of-return-4",
+  "id": "exploring-synthetic-investments",
   "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "dollar-weighted (money weighted) rate of return "
-},
-{
-  "id": "computing-dollar-weighted-rate-of-return",
-  "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#computing-dollar-weighted-rate-of-return",
+  "url": "arbitrage-revisited.html#exploring-synthetic-investments",
   "type": "Activity",
   "number": "8.5.1",
   "title": "",
-  "body": "  As in the last activity, we begin with an example:     Date  Balance Before Activity  Deposit  Withdrawal    January 1,1999  100        July 1, 1999  125    10    October 1, 1999  110  20      December 31, 1999  125           Start with the initial balance. Write an expression for the value at of the initial balance, using our desired rate .    Consider now the withdrawal of 10 on July 1. Because we withdrew this amount, it did not earn interest. Over how much time did the investor miss out on this interest? Write an expression for the value of the withdrawal that is not part of the final balance.    Now consider the deposit of 20 on October 1. This amount did earn interest. Over how much time did the investor earn interest on this amount? Write an expression for the value of the deposit that is part of the final balance.    The final balance is 125. Put your answers together to write an equation that would result in the final balance of 125, if only we knew .     CAREFULLY keep track of your steps as you solve for . Be pedantic - we want to mimic these steps to write formulas.   "
+  "body": "  Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.   "
 },
 {
-  "id": "finding-dollar-weighted-rate-of-return",
+  "id": "determining-net-position",
   "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#finding-dollar-weighted-rate-of-return",
+  "url": "arbitrage-revisited.html#determining-net-position",
   "type": "Activity",
   "number": "8.5.2",
   "title": "",
-  "body": "  Try another example: Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  350,000        June 1  300,000    25,000    December 31  360,000          "
+  "body": "  Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
 },
 {
-  "id": "dollar-weighted-rates-of-return-formula",
+  "id": "generating-certain-profit",
   "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-formula",
+  "url": "arbitrage-revisited.html#generating-certain-profit",
   "type": "Activity",
   "number": "8.5.3",
   "title": "",
-  "body": "  Now let's mimic our steps to derive a formula.  First, let be the beginning balance and let be the ending balance. Let be the net contribution at time , and define:     The total amount of interest (or growth, or decay) in the account is . Express in terms of , , and .    Letting denote our dollar-weighted yield rate (and recalling that this is an approximation with simple interest!), write an expression for the value of at time .    For the contribution at time , for how long does this contribution earn interest at the simple rate (where \"earn\" is suitably interpreted if )?    Use your answers to write an equation that uses , each , each , and to get the final balance .    Solve your equation for . At some point, rewrite in terms of .   "
+  "body": "  The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
 },
 {
-  "id": "finding-dollar-weighted-rate-of-return-using-formula",
+  "id": "ethics-of-taking-advanatage-of-arbitrage",
   "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#finding-dollar-weighted-rate-of-return-using-formula",
+  "url": "arbitrage-revisited.html#ethics-of-taking-advanatage-of-arbitrage",
   "type": "Activity",
   "number": "8.5.4",
   "title": "",
-  "body": "  Let's solve an exercise using the formula. Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  50,000        October 1  60,000  5,000      December 31  72,000          "
+  "body": "  Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.   "
 },
 {
-  "id": "finding-balance-given-dollar-weighted-rate-of-return",
-  "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#finding-balance-given-dollar-weighted-rate-of-return",
-  "type": "Activity",
-  "number": "8.5.5",
-  "title": "",
-  "body": "  Let's solve an exercise where we switch what is given and what we are looking for.  For an account with activity as in the following table, the dollar-weighted return is 5.714%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  X        July 1  275,000  25,000      December 31  290,000          "
-},
-{
-  "id": "finding-ending-balance-given-dollar-weighted-rate",
-  "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#finding-ending-balance-given-dollar-weighted-rate",
-  "type": "Activity",
-  "number": "8.5.6",
-  "title": "",
-  "body": "  A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.   "
-},
-{
-  "id": "dollar-weighted-rates-of-return-reflection",
-  "level": "2",
-  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-reflection",
-  "type": "Activity",
-  "number": "8.5.7",
-  "title": "",
-  "body": "  Does the formula for the dollar-weighted rate of return help, or is it a distraction?   "
-},
-{
-  "id": "problem-solving-mixing-time-and-dollar-weighted-returns",
+  "id": "ethics-speculation",
   "level": "1",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html",
+  "url": "ethics-speculation.html",
   "type": "Section",
   "number": "8.6",
-  "title": "Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns",
-  "body": " Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns  Several problems involve using both time and dollar-weighted rates of return to solve for an unknown value.  ⚠ Our methods for calculating the time-weighted rate of return result in finding , while for dollar-weighted rates of return, we get . This is a common source of errors on these problems, particularly when you are told that some time-weighted rate of return equals some other dollar-weighted rate of return.    Some problems just ask us to find both a time-weighted and dollar-weighted rate of return for an account with activity. A multiple choice problem may ask you to do something like subtract or divide the results (so as to have a single answer).  Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.      Other problems require you to use one of the two rates to find the value of a leverage variable, and then use that leverage variable to solve the problem.  You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.    What is the leverage variable in this problem? (This means the variable whose value will allow you to solve the problem).    Find the value of the leverage variable you identified.    Solve the problem.      You are given the following information about an investment account:     Date  Value Immediately Before Deposit  Deposit    January 1  10      July 1  12  X    December 31  X       Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .      Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        March 1  17    X    October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        April 1  13  Y      July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .      Compare and contrast time-weighted rates of return and dollar-weighted rates of return. How are they alike and how are they different?    "
+  "title": "Ethics Case Study -- Speculation",
+  "body": " Ethics Case Study -- Speculation  Spot rates and forward rates represent predictions about how the market thinks interest rates will move in the future. Those who purchase bonds, whether coupon-bearing or not, may not be investing so much for the bond itself as they are making a bet about whether they think the market is correctly predicting future interest rates. For example, if the yield curve is normal while an investor thinks interest rates are going to actually decline, they may purchase bonds with the intent to sell them for a profit after a reduction in interest rates. This is known as speculation .  It is more common to use the word speculation when the risks of loss and potential reward are higher. Most speculation is done in commodity markets and in secondary stock markets. Combined with herd behavior -- the tendency of investors to follow and copy one another's investing choices -- speculation can lead to \"bubbles\" in the market. This means that the value of the assets in the market significantly exceeds their intrinsic value. Some investors earn high returns during bubbles, and others suffer serious losses when the bubble \"bursts\" as it inevitably will. The difference between who makes money and who loses is a matter of chance timing.  Suppose you monitor and manage investments for an insurance company. Your department chair notices that there appears to be a bubble in energy stocks and asks you your thoughts about getting in on it before the bubble bursts. You tell them you will think about it and respond by the end of the day. Since you do not have time to look into the specifics of this bubble, you are going to consider investing in bubbles in general.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).    "
 },
 {
-  "id": "finding-both-time-and-dollar-weighted-rates",
+  "id": "ethics-speculation-2",
   "level": "2",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#finding-both-time-and-dollar-weighted-rates",
+  "url": "ethics-speculation.html#ethics-speculation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "speculation "
+},
+{
+  "id": "speculation-problem-statement",
+  "level": "2",
+  "url": "ethics-speculation.html#speculation-problem-statement",
   "type": "Activity",
   "number": "8.6.1",
   "title": "",
-  "body": "  Some problems just ask us to find both a time-weighted and dollar-weighted rate of return for an account with activity. A multiple choice problem may ask you to do something like subtract or divide the results (so as to have a single answer).  Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.   "
+  "body": "   Step 1 : State the Problem.   "
 },
 {
-  "id": "finding-the-leverage-variable-from-weighted-rate",
+  "id": "speculation-fact-gathering",
   "level": "2",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#finding-the-leverage-variable-from-weighted-rate",
+  "url": "ethics-speculation.html#speculation-fact-gathering",
   "type": "Activity",
   "number": "8.6.2",
   "title": "",
-  "body": "  Other problems require you to use one of the two rates to find the value of a leverage variable, and then use that leverage variable to solve the problem.  You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.    What is the leverage variable in this problem? (This means the variable whose value will allow you to solve the problem).    Find the value of the leverage variable you identified.    Solve the problem.   "
+  "body": "   Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.   "
 },
 {
-  "id": "solving-for-other-variables-from-weighted-rates",
+  "id": "speculation-identify-stakeholders",
   "level": "2",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#solving-for-other-variables-from-weighted-rates",
+  "url": "ethics-speculation.html#speculation-identify-stakeholders",
   "type": "Activity",
   "number": "8.6.3",
   "title": "",
-  "body": "  You are given the following information about an investment account:     Date  Value Immediately Before Deposit  Deposit    January 1  10      July 1  12  X    December 31  X       Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .   "
+  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
 },
 {
-  "id": "calculating-weighted-rates-for-multiple-accounts",
+  "id": "speculation-develop-options",
   "level": "2",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#calculating-weighted-rates-for-multiple-accounts",
+  "url": "ethics-speculation.html#speculation-develop-options",
   "type": "Activity",
   "number": "8.6.4",
   "title": "",
-  "body": "  Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        March 1  17    X    October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        April 1  13  Y      July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .   "
+  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
 },
 {
-  "id": "problem-solving-mixing-time-and-dollar-weighted-returns-reflection",
+  "id": "speculation-test-options",
   "level": "2",
-  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#problem-solving-mixing-time-and-dollar-weighted-returns-reflection",
+  "url": "ethics-speculation.html#speculation-test-options",
   "type": "Activity",
   "number": "8.6.5",
   "title": "",
-  "body": "  Compare and contrast time-weighted rates of return and dollar-weighted rates of return. How are they alike and how are they different?   "
+  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
+},
+{
+  "id": "speculation-make-decision",
+  "level": "2",
+  "url": "ethics-speculation.html#speculation-make-decision",
+  "type": "Activity",
+  "number": "8.6.6",
+  "title": "",
+  "body": "   Step 6 : Make a decision.   "
+},
+{
+  "id": "speculation-check-work",
+  "level": "2",
+  "url": "ethics-speculation.html#speculation-check-work",
+  "type": "Activity",
+  "number": "8.6.7",
+  "title": "",
+  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
+},
+{
+  "id": "speculation-memo",
+  "level": "2",
+  "url": "ethics-speculation.html#speculation-memo",
+  "type": "Activity",
+  "number": "8.6.8",
+  "title": "",
+  "body": "  Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).   "
 },
 {
   "id": "ethics-enron",
@@ -9100,382 +8911,382 @@ var ptx_lunr_docs = [
   "body": "  Write a brief paper responding to your findings and addressing each of the questions.   "
 },
 {
-  "id": "rates-of-return-exercises",
+  "id": "term-structure-interest-rates-exercises",
   "level": "1",
-  "url": "rates-of-return-exercises.html",
+  "url": "term-structure-interest-rates-exercises.html",
   "type": "Exercises",
   "number": "8.8",
   "title": "Exercises",
-  "body": "   Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .      For each of the following, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate. Do not make any assumptions.    A lender loans a borrower 100,000 at an effective monthly interest rate of 1.5% with level payments to be made at the end of each month for 30 years.    A lender loans a borrower 100,000 at an effective monthly interest rate of 0.0075 with level payments to be made at the end of each month for 30 years. Payments will be reinvested in a savings account at .    A lender loans a borrower 100,000 at an effective monthly interest rate of 1%. The borrower will pay interest each month, and pay the principal at the end of 30 years. Payments will be reinvested in a savings account of .    A lender loans a borrower 45,000 at an effective annual rate of 5%. The borrower will pay the entire loan -- interest and principal -- at the end of five years.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    A lender loans a borrower 10,000 to be repaid with 10 annual payments at an effective annual interest rate of 4%. Each payment will cover the interest due for the year plus a constant payment of principal. The lender will deposit the payments into a savings account bearing an effective annual interest rate of 6%.      For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investor is asked to invest 11,000 and is promised in return a payment of 4000 in one year, 5000 in the second year, and 4500 in the third year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    \\label{item: full} An investor pays 500 up front in exchange for annual payments of 160 for five years, one year after which if the investor pays an additional 600, they will receive three more annual payments of 225 each. Assume the investor pays the additional 600.    Repeat Exercise \\ref{item: full} assuming the investor chooses not to pay the additional 600.    An investment costs 10,000 and pays out 1500 for four years, 1250 for three years, and 1000 for two years.    An investment costs 1200 and pays 400 at the end of year 1, 350 at the end of year 3, and 500 at the end of year 4.      For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.    The Shire is available for 75,000 and will yield revenues of 20,000 at the end of the first year, 19,000 at the end of the second year, and so on until the end of the sixth year. Rivendell can also be purchased, but it costs 85,000. Revenues from Rivendell are expected to be 20,000 annually for four years, followed by two more years of 15,000 in revenue, and one final year of 10,000 in revenue. You expect a minimal return of 2.5%.    The Two Towers are real fixer-uppers. The Tower of Orthanc will cost 225,000. While the exterior is in good shape, the interior work necessary to bring the tower up to code will cost an additional 75,000 by the end of the first year of the investment. Starting at the end of year 2, the tower will yield annual revenues of 35,000 over eight years, 25,000 annually over the following two years, and 10,000 annually for two more years. Barad-Dur, on the other hand, needs to be rebuilt from scratch. The real estate will only cost 10,000. However, construction will cost an additional 190,000 spread out evenly over the first two years of the investment. Once completed, the tower will provide 27,500 annually for ten years. You would like a return of 4%.      For each of the following accounts, find the time-weighted rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  75,000        May 1  67,500  10,000      December 31  90,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  200,000        August 1  215,000    5000    December 31  205,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000             For each of the following, given the time-weighted rate of return, find .    The time-weighted return is 0.588% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  1,000,000        March 1  950,000         December 31  900,000           The time-weighted return is 20.321% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  17,000        November 1  20,000         December 31  22,500           The time-weighted return is 13.105% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  250,000        February 1  300,000    25,000    June 1  240,000         December 31  270,000           The time-weighted return is 14.638% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  105,000        July 1     15,000      September 1  130,000    10,000    December 31  125,000             For each of the following accounts, find the dollar-weighted (money-weighted) rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  350,000        June 1  300,000    25,000    December 31  360,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  50,000        October 1  60,000  5,000      December 31  72,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000             At the beginning of the year, an investment fund was established with an initial deposit of 1000. A new deposit of 1000 was made at the end of 4 months. Withdrawals of 200 and 500 were made at the end of 6 months and 8 months, respectively. The amount in the fund at the end of the year is 1560.      For each of the following, given the dollar-weighted (money-weighted) rate of return, find .    The dollar-weighted return is 5.714% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1           July 1  275,000  25,000      December 31  290,000           The dollar-weighted return is 19.58 % and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  95,000        April 1  110,000         December 31  105,000           The dollar-weighted return is 2.542% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  750,000        March 1  770,000         October 1  830,000    20,000    December 31  800,000           The dollar-weighted return is 1.109% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  275,000        April 1  250,000    10,000    September 1  260,000  12,000      December 31              "
+  "body": "   Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48      Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.      Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.      You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.      On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.      Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.      Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).      Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.    "
 },
 {
-  "id": "rates-of-return-exercises-1",
+  "id": "term-structure-interest-rates-exercises-1",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-1",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-1",
   "type": "Exercise",
   "number": "8.8.1",
   "title": "",
-  "body": "  Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .   "
+  "body": "  Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48   "
 },
 {
-  "id": "rates-of-return-exercises-2",
+  "id": "term-structure-interest-rates-exercises-2",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-2",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-2",
   "type": "Exercise",
   "number": "8.8.2",
   "title": "",
-  "body": "  For each of the following, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate. Do not make any assumptions.    A lender loans a borrower 100,000 at an effective monthly interest rate of 1.5% with level payments to be made at the end of each month for 30 years.    A lender loans a borrower 100,000 at an effective monthly interest rate of 0.0075 with level payments to be made at the end of each month for 30 years. Payments will be reinvested in a savings account at .    A lender loans a borrower 100,000 at an effective monthly interest rate of 1%. The borrower will pay interest each month, and pay the principal at the end of 30 years. Payments will be reinvested in a savings account of .    A lender loans a borrower 45,000 at an effective annual rate of 5%. The borrower will pay the entire loan -- interest and principal -- at the end of five years.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    A lender loans a borrower 10,000 to be repaid with 10 annual payments at an effective annual interest rate of 4%. Each payment will cover the interest due for the year plus a constant payment of principal. The lender will deposit the payments into a savings account bearing an effective annual interest rate of 6%.   "
+  "body": "  Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.   "
 },
 {
-  "id": "rates-of-return-exercises-3",
+  "id": "term-structure-interest-rates-exercises-3",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-3",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-3",
   "type": "Exercise",
   "number": "8.8.3",
   "title": "",
-  "body": "  For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investor is asked to invest 11,000 and is promised in return a payment of 4000 in one year, 5000 in the second year, and 4500 in the third year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    \\label{item: full} An investor pays 500 up front in exchange for annual payments of 160 for five years, one year after which if the investor pays an additional 600, they will receive three more annual payments of 225 each. Assume the investor pays the additional 600.    Repeat Exercise \\ref{item: full} assuming the investor chooses not to pay the additional 600.    An investment costs 10,000 and pays out 1500 for four years, 1250 for three years, and 1000 for two years.    An investment costs 1200 and pays 400 at the end of year 1, 350 at the end of year 3, and 500 at the end of year 4.   "
+  "body": "  Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.   "
 },
 {
-  "id": "rates-of-return-exercises-4",
+  "id": "term-structure-interest-rates-exercises-4",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-4",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-4",
   "type": "Exercise",
   "number": "8.8.4",
   "title": "",
-  "body": "  For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.    The Shire is available for 75,000 and will yield revenues of 20,000 at the end of the first year, 19,000 at the end of the second year, and so on until the end of the sixth year. Rivendell can also be purchased, but it costs 85,000. Revenues from Rivendell are expected to be 20,000 annually for four years, followed by two more years of 15,000 in revenue, and one final year of 10,000 in revenue. You expect a minimal return of 2.5%.    The Two Towers are real fixer-uppers. The Tower of Orthanc will cost 225,000. While the exterior is in good shape, the interior work necessary to bring the tower up to code will cost an additional 75,000 by the end of the first year of the investment. Starting at the end of year 2, the tower will yield annual revenues of 35,000 over eight years, 25,000 annually over the following two years, and 10,000 annually for two more years. Barad-Dur, on the other hand, needs to be rebuilt from scratch. The real estate will only cost 10,000. However, construction will cost an additional 190,000 spread out evenly over the first two years of the investment. Once completed, the tower will provide 27,500 annually for ten years. You would like a return of 4%.   "
+  "body": "  You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.   "
 },
 {
-  "id": "rates-of-return-exercises-5",
+  "id": "term-structure-interest-rates-exercises-5",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-5",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-5",
   "type": "Exercise",
   "number": "8.8.5",
   "title": "",
-  "body": "  For each of the following accounts, find the time-weighted rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  75,000        May 1  67,500  10,000      December 31  90,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  200,000        August 1  215,000    5000    December 31  205,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000          "
+  "body": "  On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.   "
 },
 {
-  "id": "rates-of-return-exercises-6",
+  "id": "forward-rates-exercise",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-6",
+  "url": "term-structure-interest-rates-exercises.html#forward-rates-exercise",
   "type": "Exercise",
   "number": "8.8.6",
   "title": "",
-  "body": "  For each of the following, given the time-weighted rate of return, find .    The time-weighted return is 0.588% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  1,000,000        March 1  950,000         December 31  900,000           The time-weighted return is 20.321% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  17,000        November 1  20,000         December 31  22,500           The time-weighted return is 13.105% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  250,000        February 1  300,000    25,000    June 1  240,000         December 31  270,000           The time-weighted return is 14.638% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  105,000        July 1     15,000      September 1  130,000    10,000    December 31  125,000          "
+  "body": "  Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.   "
 },
 {
-  "id": "rates-of-return-exercises-7",
+  "id": "term-structure-interest-rates-exercises-7",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-7",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-7",
   "type": "Exercise",
   "number": "8.8.7",
   "title": "",
-  "body": "  For each of the following accounts, find the dollar-weighted (money-weighted) rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  350,000        June 1  300,000    25,000    December 31  360,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  50,000        October 1  60,000  5,000      December 31  72,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000          "
+  "body": "  Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).   "
 },
 {
-  "id": "rates-of-return-exercises-8",
+  "id": "term-structure-interest-rates-exercises-8",
   "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-8",
+  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-8",
   "type": "Exercise",
   "number": "8.8.8",
   "title": "",
-  "body": "  At the beginning of the year, an investment fund was established with an initial deposit of 1000. A new deposit of 1000 was made at the end of 4 months. Withdrawals of 200 and 500 were made at the end of 6 months and 8 months, respectively. The amount in the fund at the end of the year is 1560.   "
+  "body": "  Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.   "
 },
 {
-  "id": "rates-of-return-exercises-9",
-  "level": "2",
-  "url": "rates-of-return-exercises.html#rates-of-return-exercises-9",
-  "type": "Exercise",
-  "number": "8.8.9",
-  "title": "",
-  "body": "  For each of the following, given the dollar-weighted (money-weighted) rate of return, find .    The dollar-weighted return is 5.714% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1           July 1  275,000  25,000      December 31  290,000           The dollar-weighted return is 19.58 % and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  95,000        April 1  110,000         December 31  105,000           The dollar-weighted return is 2.542% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  750,000        March 1  770,000         October 1  830,000    20,000    December 31  800,000           The dollar-weighted return is 1.109% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  275,000        April 1  250,000    10,000    September 1  260,000  12,000      December 31             "
-},
-{
-  "id": "rates-of-return-problems",
+  "id": "term-structure-interest-rates-problems",
   "level": "1",
-  "url": "rates-of-return-problems.html",
+  "url": "term-structure-interest-rates-problems.html",
   "type": "Exercises",
   "number": "8.9",
   "title": "Problems",
-  "body": " Problems    Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .      C.J. Cregg purchased a bond that had semiannual coupon payments of 75 and a redemption amount of , to be redeemed 10 years after it was issued. She bought the bond directly from the issuer, and it was priced to yield 8%. Three years later, the market interest rate falls to 6%, and she sells the bond for 1,838.88.    Find the price C.J. originally paid for the bond.    C.J. invested the coupon payments at 7% convertible semiannually. Find the yield C.J. achieved over the three years, expressed as an effective semiannual rate.       Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.     In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In case (iii) of part (a) Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In part (a)(i) above, assume that Jones can reinvest the payments at 6% per year; find Jones'average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in (a)(ii) as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in (a)(ii).        An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.       A loan of 10,000 is being repaid with payments of 1000 at the end of each year for 20 years. If each payment is immediately reinvested at 5% effective, find the effective annual rate of interest earned over the 20-year period.       A 100 par value 12-year bond with 10% semiannual coupons is selling for 110. If the coupons can only be reinvested at 7% convertible semiannually, compute the overall yield rate achieved by the bond purchaser over the 12-year period. Report your answer as a nominal rate convertible semiannually.       A buys a 10-year 1000 par value 6% bond with semiannual coupons. The price assumes a nominal yield of 6% compounded semiannually. As A receives each coupon payment, it is immediately put into an account earning interest at an annual effective rate of . At the end of 10 years, immediately after receipt of the final coupon payment and the redemption value of the bond, A has earned an annual effective yield of 7% on the investment in the bond. Calculate .       You invest 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an annual effective interest rate of . The interest is reinvested at an annual effective rate of . The yield rate on the entire investment over the 20-year period is 8% effective. Determine .       A new partnership takes out a loan of 25,000 to finance the initial costs of starting their own business. The original loan with Lender 1 is for four years, carries an annual effective interest rate of 8%, and will be repaid by level payments. Lender 1 places no restrictions on early repayment of the loan. During the next year interest rates decline substantially. At the end of the first year, the partnership completely repays the loan to Lender 1 and refinances the loan with Lender 2. Lender 1 is only able to reinvest the proceeds from the early repayment at 6% effective for the following three years. Determine Lender 1's overall yield rate for the four years arising from their issuing this loan to the partnership.       A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6.       Consider an investment in which the initial cost is 3000, there is an additional cost of 1000 at the end of the first year, and projected returns of 2000 at the end of the first year and 4000 at the end of the second year. The internal rate of return can be expressed as . Find .       Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.       A project requires an initial capital outlay of 30,000 and will return the following amounts (paid at the end of the next 5 years):     4,000  12,000  6,000  4,000  2,000     Solve for:    the internal rate of return    the net present value based on a cost of capital of 10% per year       The ABC Real Estate Development Corporation has just obtained a 10-year development project with the following projected net cash flows:     Time  Net Cash Flows    Time  Net Cash Flows    0  -7,900,000    6  910,000    1  1,400,000    7  900,000    2  1,100,000    8  900,000    3  1,000,000    9  450,000    4  1,000,000    10  10,000,000    5  1,000,000             Find the internal rate of return.    Find the net present value at 15%.       An investor enters into an agreement to contribute 7000 immediately and 1000 at the end of two years in exchange for the receipt of 4000 at the end of one year and 5500 at the end of three years. Find:    the net present value at 9%    the net present value at 10%       ABC Manufacturing decides to build a new plant. The plant will cost 2 million immediately and is expected to have a useful life of 10 years. At the end of 5 years, a major renovation expense of will be required to install new technology. The plant will produce level returns of 300,000 at the end of each year for the first 5 years, and double that at the end of each year for the second 5 years. Find the maximum value of that ABS could pay that would still produce an internal rate of return on its investment of at least 12%.       Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .       On January 1, 1988, Antonio invests 9400 in an investment fund. On January 1, 1989 his balance is 10,600 and he deposits 2400. On July 1, 1989, his balance is 14,400 and he withdraws 1,000. On January 1, 1992 his balance is . Express his annual time-weighted yield as a function of .       Arthur buys 2000 worth of stock. Six months later, the value of the stock has risen to 2200 and Arthur buys another 1000 worth of stock. After another eight months, Arthur's holdings are worth 2,700 and he sells off 800 of them. Ten months later, Arthur finds that his stock has a value of 2,100.  Compute the annual time-weighted yield rate of the stock over the two-year period.       Bright Future Investment Fund has a balance of 1,205,000 on January 1. On May 1, the balance is 1,230,000. Immediately after this balance is noted, 800,000 is added to the fund. If there are no further contributions to the fund for the year and the time-weighted annual yield for the fund is 16%, what is the fund balance at the end of the year?       The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date    Amount    Fund Values:  1\/1\/15    1,000,000      7\/1\/15    1,310,000      1\/1\/16    1,265,000      7\/1\/16    1,540,000      1\/1\/17    1,420,000              Contributions  6\/30\/15    250,000    Received:  6\/30\/16    250,000              Benefits  12\/31\/15    150,000    Paid:  12\/31\/16    150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.       An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:      Date    Value Immediately Before Deposit    Deposit     March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .       Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.       You invest 2000 at time and an additional 1000 at time . At time you have 2120 in your account and at time you have 3213.60 in your account.    Find the dollar-weighted rate of return on the investment.    Find the time-weighted rate of return on the investment.       A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.       An investment account is established with an initial balance at the beginning of the year of 10,000. There are new deposits of 1800 made at the end of 2 months, and another 900 made at the end of 8 months. In addition, there is a withdrawal of made at the end of 6 months. The fund balance at the end of the year is 10,636. The dollar-weighted rate of return is 6%. Find .       You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.       You are given the following information about an investment account:      Date    Value Immediately Before Deposit    Deposit     January 1  10      July 1  12       December 31          Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .       On January 1, 2013, an investment account is worth 100,000. On April 1, 2013, the value has increased to 103,000 and 8,000 is withdrawn (no fooling!). On January 1, 2015, the account is worth 103,992. Assuming a dollar-weighted method for 2013 and a time-weighted method for 2014, the effective annual interest rate was equal to for both 2013 and 2014. Calculate .      Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        March 1  17         October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        April 1  13         July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .       You are given the following information about the activity in two different investment accounts:      Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         10\/1\/2015  110.0         12\/31\/2015  125.0             Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         12\/31\/2015  105.8         During 2015, the dollar-weighted return for investment Account equals the time-weighted return for investment account , which equals . Calculate .    "
+  "body": " Problems    A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?       Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.         A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.       A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .       Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.       You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.       The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.       A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.       A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.       You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.       You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).       The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.        You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.       The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .      A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .       Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.       A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.       According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.       The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).       Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.       The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.       Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .       Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .       You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.       The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.       Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .      Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.       Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%         Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%         The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.       The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.       Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.    "
 },
 {
-  "id": "rates-of-return-problems-2",
+  "id": "term-structure-interest-rates-problems-2",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-2",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-2",
   "type": "Exercise",
   "number": "8.9.1",
   "title": "",
-  "body": "  Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .   "
+  "body": "  A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?   "
 },
 {
-  "id": "rates-of-return-problems-3",
+  "id": "term-structure-interest-rates-problems-3",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-3",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-3",
   "type": "Exercise",
   "number": "8.9.2",
   "title": "",
-  "body": "  C.J. Cregg purchased a bond that had semiannual coupon payments of 75 and a redemption amount of , to be redeemed 10 years after it was issued. She bought the bond directly from the issuer, and it was priced to yield 8%. Three years later, the market interest rate falls to 6%, and she sells the bond for 1,838.88.    Find the price C.J. originally paid for the bond.    C.J. invested the coupon payments at 7% convertible semiannually. Find the yield C.J. achieved over the three years, expressed as an effective semiannual rate.   "
+  "body": "   Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.     "
 },
 {
-  "id": "rates-of-return-problems-4",
+  "id": "term-structure-interest-rates-problems-4",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-4",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-4",
   "type": "Exercise",
   "number": "8.9.3",
   "title": "",
-  "body": "   Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.     In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In case (iii) of part (a) Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In part (a)(i) above, assume that Jones can reinvest the payments at 6% per year; find Jones'average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in (a)(ii) as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in (a)(ii).    "
+  "body": "   A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.   "
 },
 {
-  "id": "rates-of-return-problems-5",
+  "id": "term-structure-interest-rates-problems-5",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-5",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-5",
   "type": "Exercise",
   "number": "8.9.4",
   "title": "",
-  "body": "   An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.   "
+  "body": "   A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .   "
 },
 {
-  "id": "rates-of-return-problems-6",
+  "id": "term-structure-interest-rates-problems-6",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-6",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-6",
   "type": "Exercise",
   "number": "8.9.5",
   "title": "",
-  "body": "   A loan of 10,000 is being repaid with payments of 1000 at the end of each year for 20 years. If each payment is immediately reinvested at 5% effective, find the effective annual rate of interest earned over the 20-year period.   "
+  "body": "   Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.   "
 },
 {
-  "id": "rates-of-return-problems-7",
+  "id": "term-structure-interest-rates-problems-7",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-7",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-7",
   "type": "Exercise",
   "number": "8.9.6",
   "title": "",
-  "body": "   A 100 par value 12-year bond with 10% semiannual coupons is selling for 110. If the coupons can only be reinvested at 7% convertible semiannually, compute the overall yield rate achieved by the bond purchaser over the 12-year period. Report your answer as a nominal rate convertible semiannually.   "
+  "body": "   You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
 },
 {
-  "id": "rates-of-return-problems-8",
+  "id": "term-structure-interest-rates-problems-8",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-8",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-8",
   "type": "Exercise",
   "number": "8.9.7",
   "title": "",
-  "body": "   A buys a 10-year 1000 par value 6% bond with semiannual coupons. The price assumes a nominal yield of 6% compounded semiannually. As A receives each coupon payment, it is immediately put into an account earning interest at an annual effective rate of . At the end of 10 years, immediately after receipt of the final coupon payment and the redemption value of the bond, A has earned an annual effective yield of 7% on the investment in the bond. Calculate .   "
+  "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.   "
 },
 {
-  "id": "rates-of-return-problems-9",
+  "id": "term-structure-interest-rates-problems-9",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-9",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-9",
   "type": "Exercise",
   "number": "8.9.8",
   "title": "",
-  "body": "   You invest 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an annual effective interest rate of . The interest is reinvested at an annual effective rate of . The yield rate on the entire investment over the 20-year period is 8% effective. Determine .   "
+  "body": "   A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.   "
 },
 {
-  "id": "rates-of-return-problems-10",
+  "id": "term-structure-interest-rates-problems-10",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-10",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-10",
   "type": "Exercise",
   "number": "8.9.9",
   "title": "",
-  "body": "   A new partnership takes out a loan of 25,000 to finance the initial costs of starting their own business. The original loan with Lender 1 is for four years, carries an annual effective interest rate of 8%, and will be repaid by level payments. Lender 1 places no restrictions on early repayment of the loan. During the next year interest rates decline substantially. At the end of the first year, the partnership completely repays the loan to Lender 1 and refinances the loan with Lender 2. Lender 1 is only able to reinvest the proceeds from the early repayment at 6% effective for the following three years. Determine Lender 1's overall yield rate for the four years arising from their issuing this loan to the partnership.   "
+  "body": "   A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.   "
 },
 {
-  "id": "rates-of-return-problems-11",
+  "id": "term-structure-interest-rates-problems-11",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-11",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-11",
   "type": "Exercise",
   "number": "8.9.10",
   "title": "",
-  "body": "   A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6.   "
+  "body": "   You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.   "
 },
 {
-  "id": "rates-of-return-problems-12",
+  "id": "term-structure-interest-rates-problems-12",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-12",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-12",
   "type": "Exercise",
   "number": "8.9.11",
   "title": "",
-  "body": "   Consider an investment in which the initial cost is 3000, there is an additional cost of 1000 at the end of the first year, and projected returns of 2000 at the end of the first year and 4000 at the end of the second year. The internal rate of return can be expressed as . Find .   "
+  "body": "   You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).   "
 },
 {
-  "id": "rates-of-return-problems-13",
+  "id": "term-structure-interest-rates-problems-13",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-13",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-13",
   "type": "Exercise",
   "number": "8.9.12",
   "title": "",
-  "body": "   Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.   "
+  "body": "   The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.    "
 },
 {
-  "id": "rates-of-return-problems-14",
+  "id": "term-structure-interest-rates-problems-14",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-14",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-14",
   "type": "Exercise",
   "number": "8.9.13",
   "title": "",
-  "body": "   A project requires an initial capital outlay of 30,000 and will return the following amounts (paid at the end of the next 5 years):     4,000  12,000  6,000  4,000  2,000     Solve for:    the internal rate of return    the net present value based on a cost of capital of 10% per year   "
+  "body": "   You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.   "
 },
 {
-  "id": "rates-of-return-problems-15",
+  "id": "term-structure-interest-rates-problems-15",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-15",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-15",
   "type": "Exercise",
   "number": "8.9.14",
   "title": "",
-  "body": "   The ABC Real Estate Development Corporation has just obtained a 10-year development project with the following projected net cash flows:     Time  Net Cash Flows    Time  Net Cash Flows    0  -7,900,000    6  910,000    1  1,400,000    7  900,000    2  1,100,000    8  900,000    3  1,000,000    9  450,000    4  1,000,000    10  10,000,000    5  1,000,000             Find the internal rate of return.    Find the net present value at 15%.   "
+  "body": "   The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .   "
 },
 {
-  "id": "rates-of-return-problems-16",
+  "id": "term-structure-interest-rates-problems-16",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-16",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-16",
   "type": "Exercise",
   "number": "8.9.15",
   "title": "",
-  "body": "   An investor enters into an agreement to contribute 7000 immediately and 1000 at the end of two years in exchange for the receipt of 4000 at the end of one year and 5500 at the end of three years. Find:    the net present value at 9%    the net present value at 10%   "
+  "body": "  A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .   "
 },
 {
-  "id": "rates-of-return-problems-17",
+  "id": "term-structure-interest-rates-problems-17",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-17",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-17",
   "type": "Exercise",
   "number": "8.9.16",
   "title": "",
-  "body": "   ABC Manufacturing decides to build a new plant. The plant will cost 2 million immediately and is expected to have a useful life of 10 years. At the end of 5 years, a major renovation expense of will be required to install new technology. The plant will produce level returns of 300,000 at the end of each year for the first 5 years, and double that at the end of each year for the second 5 years. Find the maximum value of that ABS could pay that would still produce an internal rate of return on its investment of at least 12%.   "
+  "body": "   Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
 },
 {
-  "id": "rates-of-return-problems-18",
+  "id": "term-structure-interest-rates-problems-18",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-18",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-18",
   "type": "Exercise",
   "number": "8.9.17",
   "title": "",
-  "body": "   Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .   "
+  "body": "   A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.   "
 },
 {
-  "id": "rates-of-return-problems-19",
+  "id": "term-structure-interest-rates-problems-19",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-19",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-19",
   "type": "Exercise",
   "number": "8.9.18",
   "title": "",
-  "body": "   On January 1, 1988, Antonio invests 9400 in an investment fund. On January 1, 1989 his balance is 10,600 and he deposits 2400. On July 1, 1989, his balance is 14,400 and he withdraws 1,000. On January 1, 1992 his balance is . Express his annual time-weighted yield as a function of .   "
+  "body": "   According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.   "
 },
 {
-  "id": "rates-of-return-problems-20",
+  "id": "term-structure-interest-rates-problems-20",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-20",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-20",
   "type": "Exercise",
   "number": "8.9.19",
   "title": "",
-  "body": "   Arthur buys 2000 worth of stock. Six months later, the value of the stock has risen to 2200 and Arthur buys another 1000 worth of stock. After another eight months, Arthur's holdings are worth 2,700 and he sells off 800 of them. Ten months later, Arthur finds that his stock has a value of 2,100.  Compute the annual time-weighted yield rate of the stock over the two-year period.   "
+  "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
 },
 {
-  "id": "rates-of-return-problems-21",
+  "id": "term-structure-interest-rates-problems-21",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-21",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-21",
   "type": "Exercise",
   "number": "8.9.20",
   "title": "",
-  "body": "   Bright Future Investment Fund has a balance of 1,205,000 on January 1. On May 1, the balance is 1,230,000. Immediately after this balance is noted, 800,000 is added to the fund. If there are no further contributions to the fund for the year and the time-weighted annual yield for the fund is 16%, what is the fund balance at the end of the year?   "
+  "body": "   Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
 },
 {
-  "id": "rates-of-return-problems-22",
+  "id": "term-structure-interest-rates-problems-22",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-22",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-22",
   "type": "Exercise",
   "number": "8.9.21",
   "title": "",
-  "body": "   The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date    Amount    Fund Values:  1\/1\/15    1,000,000      7\/1\/15    1,310,000      1\/1\/16    1,265,000      7\/1\/16    1,540,000      1\/1\/17    1,420,000              Contributions  6\/30\/15    250,000    Received:  6\/30\/16    250,000              Benefits  12\/31\/15    150,000    Paid:  12\/31\/16    150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.   "
+  "body": "   The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.   "
 },
 {
-  "id": "rates-of-return-problems-23",
+  "id": "term-structure-interest-rates-problems-23",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-23",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-23",
   "type": "Exercise",
   "number": "8.9.22",
   "title": "",
-  "body": "   An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:      Date    Value Immediately Before Deposit    Deposit     March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .   "
+  "body": "   Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .   "
 },
 {
-  "id": "rates-of-return-problems-24",
+  "id": "term-structure-interest-rates-problems-24",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-24",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-24",
   "type": "Exercise",
   "number": "8.9.23",
   "title": "",
-  "body": "   Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.   "
+  "body": "   Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .   "
 },
 {
-  "id": "rates-of-return-problems-25",
+  "id": "term-structure-interest-rates-problems-25",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-25",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-25",
   "type": "Exercise",
   "number": "8.9.24",
   "title": "",
-  "body": "   You invest 2000 at time and an additional 1000 at time . At time you have 2120 in your account and at time you have 3213.60 in your account.    Find the dollar-weighted rate of return on the investment.    Find the time-weighted rate of return on the investment.   "
+  "body": "   You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.   "
 },
 {
-  "id": "rates-of-return-problems-26",
+  "id": "term-structure-interest-rates-problems-26",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-26",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-26",
   "type": "Exercise",
   "number": "8.9.25",
   "title": "",
-  "body": "   A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.   "
+  "body": "   The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.   "
 },
 {
-  "id": "rates-of-return-problems-27",
+  "id": "term-structure-interest-rates-problems-27",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-27",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-27",
   "type": "Exercise",
   "number": "8.9.26",
   "title": "",
-  "body": "   An investment account is established with an initial balance at the beginning of the year of 10,000. There are new deposits of 1800 made at the end of 2 months, and another 900 made at the end of 8 months. In addition, there is a withdrawal of made at the end of 6 months. The fund balance at the end of the year is 10,636. The dollar-weighted rate of return is 6%. Find .   "
+  "body": "   Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .   "
 },
 {
-  "id": "rates-of-return-problems-28",
+  "id": "term-structure-interest-rates-problems-28",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-28",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-28",
   "type": "Exercise",
   "number": "8.9.27",
   "title": "",
-  "body": "   You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.   "
+  "body": "  Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.   "
 },
 {
-  "id": "rates-of-return-problems-29",
+  "id": "term-structure-interest-rates-problems-29",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-29",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-29",
   "type": "Exercise",
   "number": "8.9.28",
   "title": "",
-  "body": "   You are given the following information about an investment account:      Date    Value Immediately Before Deposit    Deposit     January 1  10      July 1  12       December 31          Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .   "
+  "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
 },
 {
-  "id": "rates-of-return-problems-30",
+  "id": "term-structure-interest-rates-problems-30",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-30",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-30",
   "type": "Exercise",
   "number": "8.9.29",
   "title": "",
-  "body": "   On January 1, 2013, an investment account is worth 100,000. On April 1, 2013, the value has increased to 103,000 and 8,000 is withdrawn (no fooling!). On January 1, 2015, the account is worth 103,992. Assuming a dollar-weighted method for 2013 and a time-weighted method for 2014, the effective annual interest rate was equal to for both 2013 and 2014. Calculate .   "
+  "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%     "
 },
 {
-  "id": "rates-of-return-problems-31",
+  "id": "term-structure-interest-rates-problems-31",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-31",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-31",
   "type": "Exercise",
   "number": "8.9.30",
   "title": "",
-  "body": "  Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        March 1  17         October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        April 1  13         July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .   "
+  "body": "   The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
 },
 {
-  "id": "rates-of-return-problems-32",
+  "id": "term-structure-interest-rates-problems-32",
   "level": "2",
-  "url": "rates-of-return-problems.html#rates-of-return-problems-32",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-32",
   "type": "Exercise",
   "number": "8.9.31",
   "title": "",
-  "body": "   You are given the following information about the activity in two different investment accounts:      Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         10\/1\/2015  110.0         12\/31\/2015  125.0             Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         12\/31\/2015  105.8         During 2015, the dollar-weighted return for investment Account equals the time-weighted return for investment account , which equals . Calculate .   "
+  "body": "   The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.   "
+},
+{
+  "id": "term-structure-interest-rates-problems-33",
+  "level": "2",
+  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-33",
+  "type": "Exercise",
+  "number": "8.9.32",
+  "title": "",
+  "body": "   Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.   "
 },
 {
   "id": "interest-rate-risk",
@@ -11017,63 +10828,63 @@ var ptx_lunr_docs = [
   "body": "  ✬ Challenge Question: Let's show that in the case of a single liability at time , in order for and (as required in order for them to be assets), the present value and duration matching conditions require .    The present value and duration matching conditions require the following system to be satisfied:    Write this as a matrix equation.    Solve the matrix equation by multiplying the left sides by the inverse of the matrix.    Use your results to explain why if and only if .   "
 },
 {
-  "id": "ethics-reserve-requirements",
+  "id": "ethics-reinsurance-catastrophe-bonds",
   "level": "1",
-  "url": "ethics-reserve-requirements.html",
+  "url": "ethics-reinsurance-catastrophe-bonds.html",
   "type": "Section",
   "number": "10.5",
   "title": "Ethics Case Study: Reinsurance and Catastrophe Bonds",
   "body": " Ethics Case Study: Reinsurance and Catastrophe Bonds  In this chapter, we have looked at simple models for reserving. Reserving is a major part of an insurer’s strategy for making sure they have the assets to pay claims as they come due. Insurers also include plans for unusually large claims, often through risk transfer . Risk transfer is a process by which a financial risk is taken on by another person or organization for a price. Standard insurance is a form of risk transfer.  Typically, the transfer of risk for rare and very large claims involves something called reinsurance. When it comes to property and casualty insurance, there are also catastrophe bonds for events such as Category 5 hurricanes or significant wildfires. In this case study, we will describe what these are, read a note about the reinsurance and catastrophe bond markets, and evaluate these options ethically using our ethical reasoning skills.  Let’s start with reinsurance. Reinsurance is an insurance policy sold to insurance companies that reimburses the insured for claims in excess of a set amount. Reinsurance policies are available from firms that specialize in the product, such as Swiss RE.   Catastrophe bonds are another form of risk transfer, where the risk is taken on by investors. When a catastrophe bond is issued, the funds raised by the issuer are placed in a special, isolated, interest-bearing account. Coupon payments include income on the funds plus a premium paid by the issuer. If the event insured against occurs (the trigger event ), the raised funds are released to the issuer and the investors lose their investment. Otherwise, at the end of the term, the funds are returned to the investors as a redemption payment. This is kind of like crowdsourced insurance.    Read the note published by IRMI, the International Risk Management Institute . What do you think of the note? How would you describe the tone?      Let’s evaluate reinsurance and catastrophe bonds using ethical reasoning.    Start with an ethical lens. Revisit the Markkula Center’s website and review the six ethical lenses . Based on the decisions you have made in the ethical case studies in this book, which lens do you think fits you best? Why?    With your selected lens in mind, identify at least one ethical issue related to either reinsurance or catastrophe bonds (or both). Explain.    Describe the benefits and harms to stakeholders based on the ethical issue you identified.    What are some alternative actions that could be taken to address the ethical issue you identified? How do these choices mitigate the harms you identified? How do they preserve the benefits you identified? Do they introduce any new harms or benefits to stakeholders?    After evaluating options, decide on a course of action and justify your decision.    Reflect on the decision – does it match the ethical lens you selected? Why or why not?      Write and submit    A memo recommending and justifying your decision (be sure to identify the issue you noted!),    A reflection that describes what lens you selected and how your decision does or does not match your choice    A brief discussion what you have learned about ethical reasoning in this course.      "
 },
 {
-  "id": "ethics-reserve-requirements-2",
+  "id": "ethics-reinsurance-catastrophe-bonds-2",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-2",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "risk transfer "
 },
 {
-  "id": "ethics-reserve-requirements-4",
+  "id": "ethics-reinsurance-catastrophe-bonds-4",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-4",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Reinsurance "
 },
 {
-  "id": "ethics-reserve-requirements-5",
+  "id": "ethics-reinsurance-catastrophe-bonds-5",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-5",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Catastrophe bonds trigger event "
 },
 {
-  "id": "ethics-reserve-requirements-6",
+  "id": "ethics-reinsurance-catastrophe-bonds-6",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-6",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-6",
   "type": "Activity",
   "number": "10.5.1",
   "title": "",
   "body": "  Read the note published by IRMI, the International Risk Management Institute . What do you think of the note? How would you describe the tone?   "
 },
 {
-  "id": "ethics-reserve-requirements-7",
+  "id": "ethics-reinsurance-catastrophe-bonds-7",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-7",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-7",
   "type": "Activity",
   "number": "10.5.2",
   "title": "",
   "body": "  Let’s evaluate reinsurance and catastrophe bonds using ethical reasoning.    Start with an ethical lens. Revisit the Markkula Center’s website and review the six ethical lenses . Based on the decisions you have made in the ethical case studies in this book, which lens do you think fits you best? Why?    With your selected lens in mind, identify at least one ethical issue related to either reinsurance or catastrophe bonds (or both). Explain.    Describe the benefits and harms to stakeholders based on the ethical issue you identified.    What are some alternative actions that could be taken to address the ethical issue you identified? How do these choices mitigate the harms you identified? How do they preserve the benefits you identified? Do they introduce any new harms or benefits to stakeholders?    After evaluating options, decide on a course of action and justify your decision.    Reflect on the decision – does it match the ethical lens you selected? Why or why not?   "
 },
 {
-  "id": "ethics-reserve-requirements-8",
+  "id": "ethics-reinsurance-catastrophe-bonds-8",
   "level": "2",
-  "url": "ethics-reserve-requirements.html#ethics-reserve-requirements-8",
+  "url": "ethics-reinsurance-catastrophe-bonds.html#ethics-reinsurance-catastrophe-bonds-8",
   "type": "Activity",
   "number": "10.5.3",
   "title": "",
@@ -11278,796 +11089,940 @@ var ptx_lunr_docs = [
   "body": "   Which of the following statements about immunization strategies are true? (More than one may be true).    To achieve immunization, the convexity of the assets must equal the convexity of the liabilities.    The full immunization technique is designed to work for any change in the interest rate.    The theory of immunization was developed to protect against adverse effects created by changes in interest rates.     "
 },
 {
-  "id": "zero-coupon-bonds-spot-rates-and-yield-curve",
+  "id": "book-and-market-values",
   "level": "1",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html",
+  "url": "book-and-market-values.html",
   "type": "Section",
   "number": "11.1",
-  "title": "Zero Coupon Bonds, Spot Rates, and the Yield Curve",
-  "body": " Zero Coupon Bonds, Spot Rates, and the Yield Curve  We begin by defining the term structure of interest rates. A zero-coupon bond is, as you might expect, a bond that pays no coupons. United States Treasury Bills (\"T-bills\" for short) are zero-coupon bonds, typically with maturities less than one year. The yield rates on zero-coupon bonds are functions of the length of time to maturity, and those yield rates are referred to as spot rates . Taken together, the schedule of spot rates for various times is called the term structure of interest rates , and graphically referred to as the yield curve .    So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15           The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?      Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.      Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.      "
+  "title": "Book and Market Values",
+  "body": " Book and Market Values  The first point about rates of return to note is that since market interest rates fluctuate, the market rate of return on an investment may not match the original rate of return used to price the investment. When we hold an investment, such as a bond, or if we made a loan (or any other right to collect a cash stream), we amortize the investment on our \"books\" for both reporting and tax purposes. The values recorded are based on the original rate used to price the asset, and these are called book values (sometimes denoted ). The market value (sometimes denoted ) is what we could sell those assets for at the market rate of interest, and therefore come from valuing using the market rate of interest.  We saw this with bonds, but it is useful to note that the same principal applies to loans, and any other cash streams. Later in this book, we will address book and market values of interest rate swaps.    Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .      Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .      If the market rate of interest is lower than the rate used to originally price the investment, which will be larger, or ? Why?      Summarize the similarities and differences between the book and market values of an investment.    "
 },
 {
-  "id": "zero-coupon-bonds-spot-rates-and-yield-curve-2",
+  "id": "book-and-market-values-2",
   "level": "2",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#zero-coupon-bonds-spot-rates-and-yield-curve-2",
+  "url": "book-and-market-values.html#book-and-market-values-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "zero-coupon bond spot rates the term structure of interest rates yield curve "
+  "body": "book values market value "
 },
 {
-  "id": "determining-yield-from-market-rates",
+  "id": "finding-book-and-market-value-for-investments",
   "level": "2",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#determining-yield-from-market-rates",
+  "url": "book-and-market-values.html#finding-book-and-market-value-for-investments",
   "type": "Activity",
   "number": "11.1.1",
   "title": "",
-  "body": "  So far, we have talked about the yield on a bond as something specified ahead of time. For example, we may have priced a bond in order to make sure we yield a minimum rate. Market watchers invert this -- they watch bonds as they are traded in a secondary market and use the market prices to determine the yield rates.    Find the yield rates (as effective annual rates) for the following zero-coupon bonds, whose closing prices are given in the table. The redemption amount is 1000 for all three.     Time to Maturity   Price( )  Yield to Maturity (YTM)    1  966.18      2  924.56      3  882.62      4  845.01      5  809.20         One way to create a zero-coupon bond out of a coupon bond is to separate the interest and redemption payments into separate bonds and sell them. The Treasury STRIPS (T-STRIPS) program, introduced in January 1985, allows investors to buy, hold, and sell the individual coupon and redemption payments for U.S. Treasury Bonds. The acronym \"STRIPS\" stands for Separate Trading of Registered Interest and Principal of Securities.  Suppose the coupon payments for a 3-year, 5% US Treasury Bond with semiannual coupons, redeemable for 1000, are trading on the market according to the following schedule. Find the corresponding yield rates expressed as nominal annual rates convertible semiannually.     Coupon Payment Number  Price  Yield    1  24.51      2  23.80      3  23.05      4  22.43      5  21.78      6  21.15        "
+  "body": "  Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .   "
 },
 {
-  "id": "term-structure-and-yield-curve",
+  "id": "book-market-value-example-1",
   "level": "2",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#term-structure-and-yield-curve",
+  "url": "book-and-market-values.html#book-market-value-example-1",
   "type": "Activity",
   "number": "11.1.2",
   "title": "",
-  "body": "  The yield rates are called the spot rates , and typically denoted by either (where the subscript of 0 indicates these are the rates as of right now) or . Be aware that you may find alternative notation, and infer from context.    The schedule of spot rates over time is called the term structure of interest rates , and their graph is called the yield curve . Note that we often abuse the terms and freely interchange these two terms.    Using your work from , generate the term structure of interest rates. Express each spot rate as an effective annual interest rate.    Sketch the yield curve for the term structure you generated.      Using your work from generate the term structure and the yield curve, measuring in years and as nominal rates convertible semiannually.    What do you notice about your yield curves?   "
+  "body": "  Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .   "
 },
 {
-  "id": "yield-curves-and-economic-expectations",
+  "id": "comparing-book-and-market-value",
   "level": "2",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curves-and-economic-expectations",
+  "url": "book-and-market-values.html#comparing-book-and-market-value",
   "type": "Activity",
   "number": "11.1.3",
   "title": "",
-  "body": "  Yield curves tell you something about economic expectations.    The observations you made about the yield curves arising from and describe normal yield curves. Explain why we should typically expect to see normal yield curves in terms of risk.    Yield curves are not always normal. The following is an example of an inverted yield curve:   Inverted yield curve.    Note that the x-axis is not scaled, and the y-axis does not start at 0.  This graph was part of the yield curve in the United States on August 2, 2019, and was the first inversion in the US yield curve since 2007 (data source: United States Treasury).  What economic reasons might there be that shorter term investments are riskier than longer term investments? What macroeconomic expectation is the bond market signaling with this yield curve?    By contrasting with an inverted yield curve, what macroeconomic expectation does the bond market signal with a normal yield curve?    A third type of yield curve is a flat yield curve. Sketch a graph of a flat yield curve.    If there is a flat yield curve, how confident and certain are those in the bond market in the economic outlook? Explain.   "
+  "body": "  If the market rate of interest is lower than the rate used to originally price the investment, which will be larger, or ? Why?   "
 },
 {
-  "id": "yield-curve-reflection",
+  "id": "book-and-market-values-reflection",
   "level": "2",
-  "url": "zero-coupon-bonds-spot-rates-and-yield-curve.html#yield-curve-reflection",
+  "url": "book-and-market-values.html#book-and-market-values-reflection",
   "type": "Activity",
   "number": "11.1.4",
   "title": "",
-  "body": "  Watch the video in (don't worry about the fact that they are generating the yield curve from coupon bonds). How does this explanation match your thinking in the last question?   Video from Vox on how yield curves predict recessions.     "
+  "body": "  Summarize the similarities and differences between the book and market values of an investment.   "
 },
 {
-  "id": "spot-rates-and-coupon-bonds",
+  "id": "yield-rates-and-reinvestment-rates",
   "level": "1",
-  "url": "spot-rates-and-coupon-bonds.html",
+  "url": "yield-rates-and-reinvestment-rates.html",
   "type": "Section",
   "number": "11.2",
-  "title": "Spot Rates and Coupon Bonds",
-  "body": " Spot Rates and Coupon Bonds  We can use the spot rates to price coupon bonds, and then figure out the yield rate for the coupon bond at that price. We can also reverse this relationship, and actually use coupon bond prices or yields to find the spot rates.    Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.    Let's look at a more extended example.    A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?      Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.      We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.      Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.      The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.      How much of what we learned in this activity can you reconstruct from definitions and sense-making?    "
+  "title": "Yield Rates and Reinvestment Rates",
+  "body": " Yield Rates and Reinvestment Rates  The yield rate on an investment is the rate of return (treated mathematically as an interest rate) that relates the present and future values of an investment. If is the present value and is the future value after periods, the effective periodic yield rate satisfies:   If instead of a present value, you have, say, an annuity with level payments , then the yield rate satisfies:   In this case, these amounts are actually received by the investor (or contributed by the investor).  In contrast, the internal rate of return is the rate used to value cash streams, whether or not that is actually realized by the investor. For example, when a loan involves level payments based on an interest rate of , we have   The interest rate is the internal rate of return. This is the interest rate in the loan agreement, and defines how the payments are valued.  If payments received by an investor are reinvested (in a savings account or a sinking fund, for example), the rate earned on the reinvestment account is, simply enough, the reinvestment rate .  The internal rate of return is defined for the given cash flows (more on that later in this chapter). The reinvestment rate determines the yield rate.    Let's look at this with an example. Suppose we have a 10-year loan of 10,000. The borrower is charged an interest rate of 5%. For each of the following repayment and reinvestment options, find (i) the internal rate of return, (ii) the reinvestment rate, and (iii) the yield rate.    The loan is paid off with annual level payments. Payments are reinvested at 5%.    The loan is paid off with annual payments of interest, with the principal paid back with the final interest payment. Payments are reinvested at 5%.    The loan is paid off with a single payment (accumulated interest plus principal) at the end of the term.      Redo each part of , but assume payments are reinvested at 3%.      What do you notice?      In the following exercises, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    There is another, related way, to value an annuity such as a loan. If an investor pays for a series of level payments of , they can obtain a yield rate with each payment while recovering principal in a sinking fund with interest rate . They do so by taking out of each payment for their own consumption, and depositing the rest in the sinking fund. In this case, is the yield rate and is the reinvestment rate (while the internal rate of return still equates with the present values of the payments ).    Suppose a loan has ten annual payments of 1,000 and immediately sold to an investor. The investor pays a price which allows him to yield 4% and recover their principal investment in a sinking fund bearing an effective annual interest rate of . How much should they pay for the loan?      Do you need a formula for the price to pay for such an investment? If you want one, derive one. If you do not, explain how you will solve problems involving recovery of principal through sinking funds.      For the following problem, we will write all parts of the problem, and leave you the rest of this page and the next to solve each part.  Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.    In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In above, assume that Jones can reinvest the payments at 6% per year; find Jones' average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in .        An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.      Why is the reinvestment rate important?    "
 },
 {
-  "id": "pricing-coupon-payments-with-spot-rates",
+  "id": "yield-rates-and-reinvestment-rates-2",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#pricing-coupon-payments-with-spot-rates",
+  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "yield rate "
+},
+{
+  "id": "yield-rates-and-reinvestment-rates-7",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "internal rate of return "
+},
+{
+  "id": "yield-rates-and-reinvestment-rates-10",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "reinvestment rate "
+},
+{
+  "id": "reinvestment-rate-example",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#reinvestment-rate-example",
   "type": "Activity",
   "number": "11.2.1",
   "title": "",
-  "body": "  Given the term structure of interest rates (or equivalently, a yield curve), we price a coupon bond by pricing each payment separately using the appropriate spot rate. This is like \"stripping\" coupon bonds. We can then use the price we find to calculate the implied yield rate on the coupon bond. Use this approach to solve the following problem:  You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
+  "body": "  Let's look at this with an example. Suppose we have a 10-year loan of 10,000. The borrower is charged an interest rate of 5%. For each of the following repayment and reinvestment options, find (i) the internal rate of return, (ii) the reinvestment rate, and (iii) the yield rate.    The loan is paid off with annual level payments. Payments are reinvested at 5%.    The loan is paid off with annual payments of interest, with the principal paid back with the final interest payment. Payments are reinvested at 5%.    The loan is paid off with a single payment (accumulated interest plus principal) at the end of the term.   "
 },
 {
-  "id": "extended-pricing-coupon-payments-with-spot-rates",
+  "id": "reinvestment-rate-example-with-different-rate",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#extended-pricing-coupon-payments-with-spot-rates",
+  "url": "yield-rates-and-reinvestment-rates.html#reinvestment-rate-example-with-different-rate",
   "type": "Activity",
   "number": "11.2.2",
   "title": "",
-  "body": "  A 10% bond with face amount 100 matures in 3 years.    Find the present value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                     For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.    What do you notice? What do you wonder?   "
+  "body": "  Redo each part of , but assume payments are reinvested at 3%.   "
 },
 {
-  "id": "pricing-with-flat-yield-curve",
+  "id": "analyzing-reinvestment-at-different-rates",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#pricing-with-flat-yield-curve",
+  "url": "yield-rates-and-reinvestment-rates.html#analyzing-reinvestment-at-different-rates",
   "type": "Activity",
   "number": "11.2.3",
   "title": "",
-  "body": "  Suppose you have a flat yield curve. If a coupon bond is priced using the spot rates, what can you say about the implied yield rate on the coupon bond? Justify your response.   "
+  "body": "  What do you notice?   "
 },
 {
-  "id": "bootstrapping-to-find-spot-rates",
+  "id": "calculating-different-investment-rates",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#bootstrapping-to-find-spot-rates",
+  "url": "yield-rates-and-reinvestment-rates.html#calculating-different-investment-rates",
   "type": "Activity",
   "number": "11.2.4",
   "title": "",
-  "body": "  We will now turn to reversing this process: given coupon bond prices, finding the spot rates. The method we will use is recursive, and called bootstrapping .  You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).    We start with Bond 1, with a maturity date in 0.5 years. This is essentially a zero-coupon bond (why?). Use that observation to find .    Now we have . Find the price of the second bond. Then set up and solve an equation for using the price. You can do this by pricing the bond using and .    Complete the problem and report the results as indicated.   "
+  "body": "  In the following exercises, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .   "
 },
 {
-  "id": "insufficient-information-for-bootstrapping",
+  "id": "yield-rates-and-reinvestment-rates-16",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#insufficient-information-for-bootstrapping",
+  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "recovering principal "
+},
+{
+  "id": "valuing-loans-with-sinking-funds",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#valuing-loans-with-sinking-funds",
   "type": "Activity",
   "number": "11.2.5",
   "title": "",
-  "body": "  Sometimes we aren't given enough information to use bootstrapping, as in the following problem.  You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.    Bond 1: Coupon rate 4% per year, price 85.12    Bond 2: Coupon rate 10% per year, price 133.34    Find the yield rate for a 10-year zero-coupon bond.    Describe the cash flows for each coupon bond.    We would like to construct a transaction involving buying some of one bond and selling some of the other in which we have a net cash flow of 0 until maturity, creating a \"synthetic zero-coupon bond\" (I like to call this \"zeroing out the coupon payments\"). Determine what you will buy and what you will sell in order to do this for this problem.    Describe the net cash flows for your synthetic zero-coupon bond. Then use your net cash flows to solve the problem.   "
+  "body": "  Suppose a loan has ten annual payments of 1,000 and immediately sold to an investor. The investor pays a price which allows him to yield 4% and recover their principal investment in a sinking fund bearing an effective annual interest rate of . How much should they pay for the loan?   "
 },
 {
-  "id": "at-par-yield-rate-for-coupon-bond",
+  "id": "need-for-formula-for-loans-with-sinking-funds",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#at-par-yield-rate-for-coupon-bond",
+  "url": "yield-rates-and-reinvestment-rates.html#need-for-formula-for-loans-with-sinking-funds",
   "type": "Activity",
   "number": "11.2.6",
   "title": "",
-  "body": "  The at-par yield rate for a coupon bond is the yield rate at which the bond is priced at par. Equivalently, it is the yield rate that matches the coupon rate.    Assume that for a bond with coupons before maturity. Given spot rates for each , find a formula for the at-par yield rate. (We will see something similar with interest rate swaps in !).    The current term structure is defined by:   Calculate the at-par yield rate for a two-year bond.   "
+  "body": "  Do you need a formula for the price to pay for such an investment? If you want one, derive one. If you do not, explain how you will solve problems involving recovery of principal through sinking funds.   "
 },
 {
-  "id": "spot-rates-and-coupon-bonds-reflection",
+  "id": "solving-reinvestment-loan-problems",
   "level": "2",
-  "url": "spot-rates-and-coupon-bonds.html#spot-rates-and-coupon-bonds-reflection",
+  "url": "yield-rates-and-reinvestment-rates.html#solving-reinvestment-loan-problems",
   "type": "Activity",
   "number": "11.2.7",
   "title": "",
-  "body": "  How much of what we learned in this activity can you reconstruct from definitions and sense-making?   "
+  "body": "  For the following problem, we will write all parts of the problem, and leave you the rest of this page and the next to solve each part.  Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.    In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In above, assume that Jones can reinvest the payments at 6% per year; find Jones' average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in .     "
 },
 {
-  "id": "forward-rates",
+  "id": "multiple-reinvestment-funds",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#multiple-reinvestment-funds",
+  "type": "Activity",
+  "number": "11.2.8",
+  "title": "",
+  "body": "  An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.   "
+},
+{
+  "id": "yield-rates-and-reinvestment-rates-reflection",
+  "level": "2",
+  "url": "yield-rates-and-reinvestment-rates.html#yield-rates-and-reinvestment-rates-reflection",
+  "type": "Activity",
+  "number": "11.2.9",
+  "title": "",
+  "body": "  Why is the reinvestment rate important?   "
+},
+{
+  "id": "internal-rate-of-return-and-net-present-value",
   "level": "1",
-  "url": "forward-rates.html",
+  "url": "internal-rate-of-return-and-net-present-value.html",
   "type": "Section",
   "number": "11.3",
-  "title": "Forward Rates",
-  "body": " Forward Rates  In addition to spot rates, we can also describe how we expect interest rates to vary in the near future using forward rates. Forward rates are interest rates that are locked in today (at time 0), but are only in effect for a period of time at some point in the future (i.e., at some point forward in time). The typical notation is , which stands for the effective periodic interest measured now but is in effect between times and .  When and we are looking at , we use the following equivalent terms:    The time (or -time ) forward rate (note that this refers to the ending time).    The -deferred time- interest rate.    You may also see described as \"the deferred -year interest rate.\" There may be other equivalent terms you encounter, as well as alternate notation. As usual, refer to context to understand what the author intends.    Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.           Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.      We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.      In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.      In what way(s) are forward rates and spot rates different?    "
+  "title": "Internal Rate of Return and Net Present Value",
+  "body": " Internal Rate of Return and Net Present Value  In this section, we will focus on how to find the internal rate of return ( ) from cash flows. Later in the section, we will see a related concept -- net present value ( ).  Our cash flows will be a sequence . Each represents net cash flows at time . We can assume that the cash flows are equally spaced, as some may be set to 0. A positive cash flow means the investor receives funds, while a negative cash flow means the investor expended funds. Expended funds are sometimes called \"contributions\" or something similar. To find , we add all positive cash flows and subtract all negative cash flows, leaving us with the net cash flow at time . The value is typically (but not always) the initial investment and will be negative.    Let's start by finding the net cash flow at a given point in time.  A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6, .    The internal rate of return (abbreviated ) is the interest rate that makes the present value of equal to . In other words, it is the value that makes the following equation true:   In this book, unless otherise directed, assume that . The is quoted as an effective rate. For existence and uniqueness questions, see Broverman.    An investor pays 316 for an investment that will pay 150 at time 1 and 200 at time 2. Find the .     🧮 Calculator Corner  For general cash flows, calculating requires solving a polynomial equation, which means (outside of quadratics) we will need numerical methods programmed into our financial calculator.  To find the in our calculator, first go to the cash flows worksheet by pressing CF . For the initial amount , type the value and press ENTER , then press ↓ . For the rest, after you enter , press ENTER and ↓ , then enter the number of times that payment occurs (in a row). So if you have (and is different), enter 1000 for \"C01\" and 2 for \"F01\". Do not forget to hit ENTER after each entry, and type ± after each number for any negative entries.  Once you have entered in all of the cash flows, type IRR  followed by  CPT . The result will be the displayed as a percentage.     Use the financial calculator to repeat . Which do you prefer?      For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    A related concept is net present value (abbreviated ). This is just the present value of a set of cash flows given a desired rate of return (for our purposes, the word \"net\" adds nothing). In other words, given an interest rate:   Pay attention to the details in that formula!    The following is a graph of net present value against interest rates between 0 and 100% for a given set of cash flows. Identify the on the graph and explain.  Graph of Net Present Value by Interest Rate        🧮 Calculator Corner  The can also be found with our financial calculator. Simply enter the cash flows in the cash flow worksheet. Make sure you enter negative cash flows as negative numbers. Then type NPV , enter an interest rate (as a percentage), hit , and then press CPT .     Suppose an initial investment at time 0 of 11,000 pays out 4,000 at time 1, 5,000 at time 2, and 4,500 at time 3.    Find the at 8%.    Find the at 12%.    Find the .      The is often used to compare investment projects at a desired rate of return.    Which would you select, a project with a higher or a lower ? Why?    Would you ever select a project with a negative ? Why or why not?      For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.      Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.      Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .      Describe the relationship between and .    "
 },
 {
-  "id": "forward-rates-2",
+  "id": "internal-rate-of-return-and-net-present-value-3",
   "level": "2",
-  "url": "forward-rates.html#forward-rates-2",
+  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Forward rates "
+  "body": "net cash flow "
 },
 {
-  "id": "forward-rates-4-1-1",
+  "id": "finding-cash-flow-at-a-point-in-time",
   "level": "2",
-  "url": "forward-rates.html#forward-rates-4-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "time -time "
-},
-{
-  "id": "exploring-the-meaning-of-forward-rates",
-  "level": "2",
-  "url": "forward-rates.html#exploring-the-meaning-of-forward-rates",
+  "url": "internal-rate-of-return-and-net-present-value.html#finding-cash-flow-at-a-point-in-time",
   "type": "Activity",
   "number": "11.3.1",
   "title": "",
-  "body": "  Let's start by exploring the meaning of forward rates. For each of the following, create an interest rate timeline.              The three-year deferred year 4 interest rate.    The year 2 forward rate.        "
+  "body": "  Let's start by finding the net cash flow at a given point in time.  A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6, .   "
 },
 {
-  "id": "inferring-forward-rates-from-offers",
+  "id": "internal-rate-of-return-and-net-present-value-5",
   "level": "2",
-  "url": "forward-rates.html#inferring-forward-rates-from-offers",
-  "type": "Activity",
-  "number": "11.3.2",
-  "title": "",
-  "body": "  Given each of the following investment opportunities, find the forward rates implied by the offer, and express your answer using notation.    You pay 946.59 in three years, and are repaid 1000 in four years.    You pay 925.98 in six years, and are repaid 1000 one year after.    You pay 998.25 in two years, and are repaid 1000 at the end year 3.    You pay 895.68 in four years, and are repaid 1000 in seven years.   "
-},
-{
-  "id": "pricing-bonds-with-forward-rates",
-  "level": "2",
-  "url": "forward-rates.html#pricing-bonds-with-forward-rates",
-  "type": "Activity",
-  "number": "11.3.3",
-  "title": "",
-  "body": "  We can also use forward rates to price bonds.    Suppose we have the following forward rates:      Use these forward rates to find the price and effective annual yield to maturity of a 4-year bond with face value 100, annual coupons at 4%, and a redemption amount of 120.    Suppose we have a ten-year zero-coupon that will be redeemed for 1000. If and , find the price and yield to maturity.   "
-},
-{
-  "id": "at-par-yield-rate-from-forward-rates",
-  "level": "2",
-  "url": "forward-rates.html#at-par-yield-rate-from-forward-rates",
-  "type": "Activity",
-  "number": "11.3.4",
-  "title": "",
-  "body": "  In the last activity we talked about the at-par yield rate -- the rate that makes the price of a bond redeemed at par equal to the face value. Derive a formula for the at-par yield of a bond with coupon payments, but using forward rates instead of spot rates.   "
-},
-{
-  "id": "forward-rate-reflection",
-  "level": "2",
-  "url": "forward-rates.html#forward-rate-reflection",
-  "type": "Activity",
-  "number": "11.3.5",
-  "title": "",
-  "body": "  In what way(s) are forward rates and spot rates different?   "
-},
-{
-  "id": "implied-forward-rates-and-spot-rates",
-  "level": "1",
-  "url": "implied-forward-rates-and-spot-rates.html",
-  "type": "Section",
-  "number": "11.4",
-  "title": "Implied Forward Rates and Spot Rates",
-  "body": " Implied Forward Rates and Spot Rates  Given a yield curve, the spot rates imply forward rates -- otherwise there would be an arbitrage opportunity. Similarly, given a set of forward rates, there is an implied yield curve. In this activity, we will figure learn how to figure these out.  For ease of notation, we will write in place of in this activity.    Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .      Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%           Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.      Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .      Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%           Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.      The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).      Explain how an arbitrage argument works and how it helped us derive equations in this activity.    "
-},
-{
-  "id": "making-an-arbitrage-argument",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#making-an-arbitrage-argument",
-  "type": "Activity",
-  "number": "11.4.1",
-  "title": "",
-  "body": "  Suppose we know the yield curve for and we want to find . The following approach (whether with or without the timeline) is called \"making an arbitrage argument.\"    Make an interest rate timeline which shows two paths from 0 to : one using and another using and .    Assume that an investor can borrow and lend along both paths without transaction costs. Show that if the two paths you plotted do not result in the same value at time , arbitrage is possible. Address both the case where the path using and results in a larger amount and the case where that path results in a smaller amount.    Assuming there is no arbitrage, write down an equation that must hold concerning the two paths, and solve your equation for . This is called the implied forward rate .   "
-},
-{
-  "id": "forward-rates-from-yield-curve",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#forward-rates-from-yield-curve",
-  "type": "Activity",
-  "number": "11.4.2",
-  "title": "",
-  "body": "  Given the following yield curve, fill in the implied forward rates.                1  2.25%      2  3.00%      3  3.50%      4  3.75%      5  3.80%        "
-},
-{
-  "id": "graphing-forward-rates-against-yield-curves",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#graphing-forward-rates-against-yield-curves",
-  "type": "Activity",
-  "number": "11.4.3",
-  "title": "",
-  "body": "  Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :          For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
-},
-{
-  "id": "constructing-yield-curve-from-forward-rates",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#constructing-yield-curve-from-forward-rates",
-  "type": "Activity",
-  "number": "11.4.4",
-  "title": "",
-  "body": "  Now we can reverse this - suppose we are given all of the implied forward rates for and we would like to construct the yield curve. Make an interest rate timeline showing two paths from 0 to : one using the implied forward rates and another using . Then make an arbitrage argument to derive an equation and solve your equation for .   "
-},
-{
-  "id": "plotting-yield-curve-from-forward-rates",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#plotting-yield-curve-from-forward-rates",
-  "type": "Activity",
-  "number": "11.4.5",
-  "title": "",
-  "body": "  Given the following implied forward rates, construct and plot the yield curve.                1  5.00%      2  8.02%      3  9.53%      4  9.51%      5  9.26%        "
-},
-{
-  "id": "finding-spot-and-deferred-forward-rates",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#finding-spot-and-deferred-forward-rates",
-  "type": "Activity",
-  "number": "11.4.6",
-  "title": "",
-  "body": "  Consider the forward interest rates defined by the following equation for :     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
-},
-{
-  "id": "finding-forward-rates-from-yield-rates",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#finding-forward-rates-from-yield-rates",
-  "type": "Activity",
-  "number": "11.4.7",
-  "title": "",
-  "body": "  The term structure of effective annual yield rates for zero coupon bonds is given as follows:    1- and 2-year maturity: 10%;    3- and 4-year maturity: 12%.    You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
-},
-{
-  "id": "implied-forward-rates-and-spot-rates-reflection",
-  "level": "2",
-  "url": "implied-forward-rates-and-spot-rates.html#implied-forward-rates-and-spot-rates-reflection",
-  "type": "Activity",
-  "number": "11.4.8",
-  "title": "",
-  "body": "  Explain how an arbitrage argument works and how it helped us derive equations in this activity.   "
-},
-{
-  "id": "arbitrage-revisited",
-  "level": "1",
-  "url": "arbitrage-revisited.html",
-  "type": "Section",
-  "number": "11.5",
-  "title": "Arbitrage Revisited",
-  "body": " Arbitrage Revisited  In the last activity, you used arbitrage arguments to relate spot rates and forward rates. Nevertheless, since spot rates and forward rates are market-driven, they may not match and therefore there may be an opportunity for arbitrage.  When arbitrage exists, you can construct a transaction to take advantage of the opportunity buy following the age-old \"buy-low, sell-high\" strategy. In order to do this, you will have to create a \"synthetic\" version of the transaction that would occur if there were no arbitrage. You will do this quite a bit when preparing for the IFM Exam. In this activity, we will get a taste of this using forward and spot rates.  ⚠ Note that borrowing and paying back in a lump sum is the same as selling a zero-coupon bond, and lending with a lump sum repayment is the same as buying a zero-coupon bond.  We begin by exploring synthetic investments (sometimes called a \"net position\"). Then we use them to construct arbitrage transactions.    Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.      Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%        The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.      Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.    "
-},
-{
-  "id": "exploring-synthetic-investments",
-  "level": "2",
-  "url": "arbitrage-revisited.html#exploring-synthetic-investments",
-  "type": "Activity",
-  "number": "11.5.1",
-  "title": "",
-  "body": "  Suppose and .    Find the implied forward rate .    Suppose you want to borrow 100 at time 1 at the implied forward rate, with the total to be paid back at the end of year 2. Write down the net cash flows in years 0, 1, and 2.    If you purchase a 2-year zero-coupon bond with , and sell a 1-year zero coupon bond for a price of 100, what are your net cash flows in years 0, 1, and 2?    If you sell a 2-year zero coupon bond for a price of 95.238 , and use all of the proceeds to purchase a 1-year zero-coupon bond, what are your net cash flows in years 0, 1, and 2?    Of the two transactions with the zero-coupon bonds, which has net annual cash flows that match the desired transaction? This is the \"synthetic\" transaction.   "
-},
-{
-  "id": "determining-net-position",
-  "level": "2",
-  "url": "arbitrage-revisited.html#determining-net-position",
-  "type": "Activity",
-  "number": "11.5.2",
-  "title": "",
-  "body": "  Yield rates for zero coupon bonds are as follows:    1-year maturity: 10% (effective annual);    2-year maturity: 8% (effective annual).    You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
-},
-{
-  "id": "generating-certain-profit",
-  "level": "2",
-  "url": "arbitrage-revisited.html#generating-certain-profit",
-  "type": "Activity",
-  "number": "11.5.3",
-  "title": "",
-  "body": "  The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
-},
-{
-  "id": "ethics-of-taking-advanatage-of-arbitrage",
-  "level": "2",
-  "url": "arbitrage-revisited.html#ethics-of-taking-advanatage-of-arbitrage",
-  "type": "Activity",
-  "number": "11.5.4",
-  "title": "",
-  "body": "  Consider the ethics of taking advantage of an arbitrage opportunity. What are the ethical arguments for and against? Use your ethical reasoning skills to decide which argument you find more convincing.   "
-},
-{
-  "id": "ethics-speculation",
-  "level": "1",
-  "url": "ethics-speculation.html",
-  "type": "Section",
-  "number": "11.6",
-  "title": "Ethics Case Study -- Speculation",
-  "body": " Ethics Case Study -- Speculation  Spot rates and forward rates represent predictions about how the market thinks interest rates will move in the future. Those who purchase bonds, whether coupon-bearing or not, may not be investing so much for the bond itself as they are making a bet about whether they think the market is correctly predicting future interest rates. For example, if the yield curve is normal while an investor thinks interest rates are going to actually decline, they may purchase bonds with the intent to sell them for a profit after a reduction in interest rates. This is known as speculation .  It is more common to use the word speculation when the risks of loss and potential reward are higher. Most speculation is done in commodity markets and in secondary stock markets. Combined with herd behavior -- the tendency of investors to follow and copy one another's investing choices -- speculation can lead to \"bubbles\" in the market. This means that the value of the assets in the market significantly exceeds their intrinsic value. Some investors earn high returns during bubbles, and others suffer serious losses when the bubble \"bursts\" as it inevitably will. The difference between who makes money and who loses is a matter of chance timing.  Suppose you monitor and manage investments for an insurance company. Your department chair notices that there appears to be a bubble in energy stocks and asks you your thoughts about getting in on it before the bubble bursts. You tell them you will think about it and respond by the end of the day. Since you do not have time to look into the specifics of this bubble, you are going to consider investing in bubbles in general.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).    "
-},
-{
-  "id": "ethics-speculation-2",
-  "level": "2",
-  "url": "ethics-speculation.html#ethics-speculation-2",
+  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "speculation "
+  "body": "internal rate of return "
 },
 {
-  "id": "speculation-problem-statement",
+  "id": "finding-internal-rate-of-return",
   "level": "2",
-  "url": "ethics-speculation.html#speculation-problem-statement",
+  "url": "internal-rate-of-return-and-net-present-value.html#finding-internal-rate-of-return",
+  "type": "Activity",
+  "number": "11.3.2",
+  "title": "",
+  "body": "  An investor pays 316 for an investment that will pay 150 at time 1 and 200 at time 2. Find the .   "
+},
+{
+  "id": "internal-rate-of-return-and-net-present-value-9-4",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-9-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "followed by "
+},
+{
+  "id": "using-calculator-for-irr",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#using-calculator-for-irr",
+  "type": "Activity",
+  "number": "11.3.3",
+  "title": "",
+  "body": "  Use the financial calculator to repeat . Which do you prefer?   "
+},
+{
+  "id": "finding-irr-for-cash-flows",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#finding-irr-for-cash-flows",
+  "type": "Activity",
+  "number": "11.3.4",
+  "title": "",
+  "body": "  For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.   "
+},
+{
+  "id": "internal-rate-of-return-and-net-present-value-12",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "net present value "
+},
+{
+  "id": "net-present-value-vs-interest-rate",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#net-present-value-vs-interest-rate",
+  "type": "Activity",
+  "number": "11.3.5",
+  "title": "",
+  "body": "  The following is a graph of net present value against interest rates between 0 and 100% for a given set of cash flows. Identify the on the graph and explain.  Graph of Net Present Value by Interest Rate      "
+},
+{
+  "id": "using-calculator-for-NPV",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#using-calculator-for-NPV",
+  "type": "Activity",
+  "number": "11.3.6",
+  "title": "",
+  "body": "  Suppose an initial investment at time 0 of 11,000 pays out 4,000 at time 1, 5,000 at time 2, and 4,500 at time 3.    Find the at 8%.    Find the at 12%.    Find the .   "
+},
+{
+  "id": "using-NPV-to-compare",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#using-NPV-to-compare",
+  "type": "Activity",
+  "number": "11.3.7",
+  "title": "",
+  "body": "  The is often used to compare investment projects at a desired rate of return.    Which would you select, a project with a higher or a lower ? Why?    Would you ever select a project with a negative ? Why or why not?   "
+},
+{
+  "id": "using-NPV-to-select-investments",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#using-NPV-to-select-investments",
+  "type": "Activity",
+  "number": "11.3.8",
+  "title": "",
+  "body": "  For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.   "
+},
+{
+  "id": "finding-irr-for-specified-cash-flows",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#finding-irr-for-specified-cash-flows",
+  "type": "Activity",
+  "number": "11.3.9",
+  "title": "",
+  "body": "  Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.   "
+},
+{
+  "id": "comparing-investments-with-equal-NPVs",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#comparing-investments-with-equal-NPVs",
+  "type": "Activity",
+  "number": "11.3.10",
+  "title": "",
+  "body": "  Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .   "
+},
+{
+  "id": "internal-rate-of-return-and-net-present-value-reflection",
+  "level": "2",
+  "url": "internal-rate-of-return-and-net-present-value.html#internal-rate-of-return-and-net-present-value-reflection",
+  "type": "Activity",
+  "number": "11.3.11",
+  "title": "",
+  "body": "  Describe the relationship between and .   "
+},
+{
+  "id": "time-weighted-rates-of-return",
+  "level": "1",
+  "url": "time-weighted-rates-of-return.html",
+  "type": "Section",
+  "number": "11.4",
+  "title": "Time-Weighted Rates of Return",
+  "body": " Time-Weighted Rates of Return  In the last activity, we saw how to find rates of return for any set of cash flows. Those cash flows were not invested, but rather income from investments. For the rest of this chapter, we are going to look at determining rates of return in investment funds, particularly when there is account activity such as deposits and withdrawals. The goal is to determine how much return was due solely to the fund itself, and not to the account activity.  There are two approaches to measuring this rate of return. The time-weighted rate of return measures compound growth rate, while the dollar-weighted (sometimes called money-weighted ) rate of return measures simple growth. We start with the time-weighted rate of return.  Note that the funds may not be savings accounts or bonds -- they could be accounts such as mutual funds, that can rise or fall. So you will see some negative growth rates in the activities, exercises, and problems.    We begin with the following example of account balances and activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1, 1999  100        July 1, 1999  125  20      October 1, 1999  110    10    December 31, 1999  125           Let's start by making a timeline for this account. Record in your timeline the balances and the activity for each date.  In addition, mark rates of return between consecutive dates in the form where in order. You can assume each is effective for the given period.    The time-weighted rate of return is the equivalent effective annual rate that takes us from the beginning of the period to the end (in this case, Jan. 1 to Dec. 31 for one year). This rate only captures the changes due to interest or other investment growth decay.  Using this concept, find an equation for in terms of , , and .    Our goal is to capture growth or decay that comes from the investment, NOT from the deposits and withdrawals.  To calculate , does it make sense to use balances before or after the deposit\/withdrawal? What about and ? Explain your reasoning.    Calculate , , and .    Calculate , the time-weighted rate of return.      Let's try another example.  Find the time-weighted rate of return for the following:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  200,000        August 1  215,000    5000    December 31  205,000             Now we will try to derive formulas by mimicking our calculations. Let us generalize our account and activity using the following table where there are time periods:     Time  Balance Before Activity  Net Contribution                                                                                             Explain what is meant by net contribution.     State precisely what the variable and stand for.    Find a formula for (between time and ). Be careful!!    Write a formula for in terms of with .     NOTE: This is how we usually write the formula for the time-weighted rate of return: we just write the last two formulas.    Use the formula to find the time-weighted rate of return for the account:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  75,000        May 1  67,500  10,000      December 31  90,000             As usual, we can always switch what is known and what we have to find, as in the following exercise:  For the account activity in the following table, the time-weighted return is 0.588%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  1,000,000        March 1  950,000    X    December 31  900,000           So far, we have assumed we are looking at account balances and activity over 1 year. We can do the same over multiple years -- just remember that the rate is supposed to be an annual rate and compounds over the multiple years. This will be necessary in the following problem (be sure to pay close attention to the details here!).    The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date  Amount    Fund Values:  1\/1\/15  1,000,000      7\/1\/15  1,310,000      1\/1\/16  1,265,000      7\/1\/16  1,540,000      1\/1\/17  1,420,000            Contributions:  6\/30\/15  250,000    Received:  6\/30\/16  250,000            Benefits:  12\/31\/15  150,000    Paid:  12\/31\/16  150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.      An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:     Date  Value Immediately Before Deposit  Deposit    March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .      Is the formula for the time-weighted rate of return useful or a distraction? Why?    "
+},
+{
+  "id": "time-weighted-rates-of-return-3",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "time-weighted rate of return dollar-weighted money-weighted "
+},
+{
+  "id": "computing-time-weighted-rates",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#computing-time-weighted-rates",
+  "type": "Activity",
+  "number": "11.4.1",
+  "title": "",
+  "body": "  We begin with the following example of account balances and activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1, 1999  100        July 1, 1999  125  20      October 1, 1999  110    10    December 31, 1999  125           Let's start by making a timeline for this account. Record in your timeline the balances and the activity for each date.  In addition, mark rates of return between consecutive dates in the form where in order. You can assume each is effective for the given period.    The time-weighted rate of return is the equivalent effective annual rate that takes us from the beginning of the period to the end (in this case, Jan. 1 to Dec. 31 for one year). This rate only captures the changes due to interest or other investment growth decay.  Using this concept, find an equation for in terms of , , and .    Our goal is to capture growth or decay that comes from the investment, NOT from the deposits and withdrawals.  To calculate , does it make sense to use balances before or after the deposit\/withdrawal? What about and ? Explain your reasoning.    Calculate , , and .    Calculate , the time-weighted rate of return.   "
+},
+{
+  "id": "finding-time-weighted-rate-of-return",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#finding-time-weighted-rate-of-return",
+  "type": "Activity",
+  "number": "11.4.2",
+  "title": "",
+  "body": "  Let's try another example.  Find the time-weighted rate of return for the following:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  200,000        August 1  215,000    5000    December 31  205,000          "
+},
+{
+  "id": "deriving-formulas-for-time-weighted-rate-of-return",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#deriving-formulas-for-time-weighted-rate-of-return",
+  "type": "Activity",
+  "number": "11.4.3",
+  "title": "",
+  "body": "  Now we will try to derive formulas by mimicking our calculations. Let us generalize our account and activity using the following table where there are time periods:     Time  Balance Before Activity  Net Contribution                                                                                             Explain what is meant by net contribution.     State precisely what the variable and stand for.    Find a formula for (between time and ). Be careful!!    Write a formula for in terms of with .   "
+},
+{
+  "id": "time-weighted-rates-of-return-8",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "NOTE: "
+},
+{
+  "id": "using-the-time-weighted-rate-formula",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#using-the-time-weighted-rate-formula",
+  "type": "Activity",
+  "number": "11.4.4",
+  "title": "",
+  "body": "  Use the formula to find the time-weighted rate of return for the account:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  75,000        May 1  67,500  10,000      December 31  90,000          "
+},
+{
+  "id": "calculating-when-we-know-time-weighted-rate",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#calculating-when-we-know-time-weighted-rate",
+  "type": "Activity",
+  "number": "11.4.5",
+  "title": "",
+  "body": "  As usual, we can always switch what is known and what we have to find, as in the following exercise:  For the account activity in the following table, the time-weighted return is 0.588%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  1,000,000        March 1  950,000    X    December 31  900,000          "
+},
+{
+  "id": "time-weighted-rates-over-multiple-years",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#time-weighted-rates-over-multiple-years",
+  "type": "Activity",
+  "number": "11.4.6",
+  "title": "",
+  "body": "  The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date  Amount    Fund Values:  1\/1\/15  1,000,000      7\/1\/15  1,310,000      1\/1\/16  1,265,000      7\/1\/16  1,540,000      1\/1\/17  1,420,000            Contributions:  6\/30\/15  250,000    Received:  6\/30\/16  250,000            Benefits:  12\/31\/15  150,000    Paid:  12\/31\/16  150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.   "
+},
+{
+  "id": "finding-value-when-time-weighted-rate-is-known",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#finding-value-when-time-weighted-rate-is-known",
+  "type": "Activity",
+  "number": "11.4.7",
+  "title": "",
+  "body": "  An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:     Date  Value Immediately Before Deposit  Deposit    March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .   "
+},
+{
+  "id": "time-weighted-rates-of-return-reflection",
+  "level": "2",
+  "url": "time-weighted-rates-of-return.html#time-weighted-rates-of-return-reflection",
+  "type": "Activity",
+  "number": "11.4.8",
+  "title": "",
+  "body": "  Is the formula for the time-weighted rate of return useful or a distraction? Why?   "
+},
+{
+  "id": "dollar-weighted-rates-of-return",
+  "level": "1",
+  "url": "dollar-weighted-rates-of-return.html",
+  "type": "Section",
+  "number": "11.5",
+  "title": "Dollar-Weighted Rates of Return",
+  "body": " Dollar-Weighted Rates of Return  In the last activity, we measured the compound rate of return (time-weighted rate of return) on a fund that had its own growth (or decay) in addition to deposits and withdrawals. In this activity we look at the dollar-weighted rate of return. This is an attempt to approximate the rate of growth or decay (due solely to the investment) using simple interest.  Recall that the future value equation for simple interest is In our problems, will be between 0 and 1.  The dollar-weighted (money weighted) rate of return is the simple interest rate that, given a starting balance and a sequence of deposits and withdrawals, results in the given ending balance.    As in the last activity, we begin with an example:     Date  Balance Before Activity  Deposit  Withdrawal    January 1,1999  100        July 1, 1999  125    10    October 1, 1999  110  20      December 31, 1999  125           Start with the initial balance. Write an expression for the value at of the initial balance, using our desired rate .    Consider now the withdrawal of 10 on July 1. Because we withdrew this amount, it did not earn interest. Over how much time did the investor miss out on this interest? Write an expression for the value of the withdrawal that is not part of the final balance.    Now consider the deposit of 20 on October 1. This amount did earn interest. Over how much time did the investor earn interest on this amount? Write an expression for the value of the deposit that is part of the final balance.    The final balance is 125. Put your answers together to write an equation that would result in the final balance of 125, if only we knew .     CAREFULLY keep track of your steps as you solve for . Be pedantic - we want to mimic these steps to write formulas.      Try another example: Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  350,000        June 1  300,000    25,000    December 31  360,000             Now let's mimic our steps to derive a formula.  First, let be the beginning balance and let be the ending balance. Let be the net contribution at time , and define:     The total amount of interest (or growth, or decay) in the account is . Express in terms of , , and .    Letting denote our dollar-weighted yield rate (and recalling that this is an approximation with simple interest!), write an expression for the value of at time .    For the contribution at time , for how long does this contribution earn interest at the simple rate (where \"earn\" is suitably interpreted if )?    Use your answers to write an equation that uses , each , each , and to get the final balance .    Solve your equation for . At some point, rewrite in terms of .      Let's solve an exercise using the formula. Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  50,000        October 1  60,000  5,000      December 31  72,000             Let's solve an exercise where we switch what is given and what we are looking for.  For an account with activity as in the following table, the dollar-weighted return is 5.714%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  X        July 1  275,000  25,000      December 31  290,000             A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.      Does the formula for the dollar-weighted rate of return help, or is it a distraction?    "
+},
+{
+  "id": "dollar-weighted-rates-of-return-4",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "dollar-weighted (money weighted) rate of return "
+},
+{
+  "id": "computing-dollar-weighted-rate-of-return",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#computing-dollar-weighted-rate-of-return",
+  "type": "Activity",
+  "number": "11.5.1",
+  "title": "",
+  "body": "  As in the last activity, we begin with an example:     Date  Balance Before Activity  Deposit  Withdrawal    January 1,1999  100        July 1, 1999  125    10    October 1, 1999  110  20      December 31, 1999  125           Start with the initial balance. Write an expression for the value at of the initial balance, using our desired rate .    Consider now the withdrawal of 10 on July 1. Because we withdrew this amount, it did not earn interest. Over how much time did the investor miss out on this interest? Write an expression for the value of the withdrawal that is not part of the final balance.    Now consider the deposit of 20 on October 1. This amount did earn interest. Over how much time did the investor earn interest on this amount? Write an expression for the value of the deposit that is part of the final balance.    The final balance is 125. Put your answers together to write an equation that would result in the final balance of 125, if only we knew .     CAREFULLY keep track of your steps as you solve for . Be pedantic - we want to mimic these steps to write formulas.   "
+},
+{
+  "id": "finding-dollar-weighted-rate-of-return",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#finding-dollar-weighted-rate-of-return",
+  "type": "Activity",
+  "number": "11.5.2",
+  "title": "",
+  "body": "  Try another example: Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  350,000        June 1  300,000    25,000    December 31  360,000          "
+},
+{
+  "id": "dollar-weighted-rates-of-return-formula",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-formula",
+  "type": "Activity",
+  "number": "11.5.3",
+  "title": "",
+  "body": "  Now let's mimic our steps to derive a formula.  First, let be the beginning balance and let be the ending balance. Let be the net contribution at time , and define:     The total amount of interest (or growth, or decay) in the account is . Express in terms of , , and .    Letting denote our dollar-weighted yield rate (and recalling that this is an approximation with simple interest!), write an expression for the value of at time .    For the contribution at time , for how long does this contribution earn interest at the simple rate (where \"earn\" is suitably interpreted if )?    Use your answers to write an equation that uses , each , each , and to get the final balance .    Solve your equation for . At some point, rewrite in terms of .   "
+},
+{
+  "id": "finding-dollar-weighted-rate-of-return-using-formula",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#finding-dollar-weighted-rate-of-return-using-formula",
+  "type": "Activity",
+  "number": "11.5.4",
+  "title": "",
+  "body": "  Let's solve an exercise using the formula. Find the dollar-weighted rate of return for a fund with the following activity:     Date  Balance Before Activity  Deposit  Withdrawal    January 1  50,000        October 1  60,000  5,000      December 31  72,000          "
+},
+{
+  "id": "finding-balance-given-dollar-weighted-rate-of-return",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#finding-balance-given-dollar-weighted-rate-of-return",
+  "type": "Activity",
+  "number": "11.5.5",
+  "title": "",
+  "body": "  Let's solve an exercise where we switch what is given and what we are looking for.  For an account with activity as in the following table, the dollar-weighted return is 5.714%. Find .     Date  Balance Before Activity  Deposit  Withdrawal    January 1  X        July 1  275,000  25,000      December 31  290,000          "
+},
+{
+  "id": "finding-ending-balance-given-dollar-weighted-rate",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#finding-ending-balance-given-dollar-weighted-rate",
+  "type": "Activity",
+  "number": "11.5.6",
+  "title": "",
+  "body": "  A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.   "
+},
+{
+  "id": "dollar-weighted-rates-of-return-reflection",
+  "level": "2",
+  "url": "dollar-weighted-rates-of-return.html#dollar-weighted-rates-of-return-reflection",
+  "type": "Activity",
+  "number": "11.5.7",
+  "title": "",
+  "body": "  Does the formula for the dollar-weighted rate of return help, or is it a distraction?   "
+},
+{
+  "id": "problem-solving-mixing-time-and-dollar-weighted-returns",
+  "level": "1",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html",
+  "type": "Section",
+  "number": "11.6",
+  "title": "Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns",
+  "body": " Problem Solving 11 -- Mixing Time and Dollar-Weighted Returns  Several problems involve using both time and dollar-weighted rates of return to solve for an unknown value.  ⚠ Our methods for calculating the time-weighted rate of return result in finding , while for dollar-weighted rates of return, we get . This is a common source of errors on these problems, particularly when you are told that some time-weighted rate of return equals some other dollar-weighted rate of return.    Some problems just ask us to find both a time-weighted and dollar-weighted rate of return for an account with activity. A multiple choice problem may ask you to do something like subtract or divide the results (so as to have a single answer).  Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.      Other problems require you to use one of the two rates to find the value of a leverage variable, and then use that leverage variable to solve the problem.  You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.    What is the leverage variable in this problem? (This means the variable whose value will allow you to solve the problem).    Find the value of the leverage variable you identified.    Solve the problem.      You are given the following information about an investment account:     Date  Value Immediately Before Deposit  Deposit    January 1  10      July 1  12  X    December 31  X       Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .      Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        March 1  17    X    October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        April 1  13  Y      July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .      Compare and contrast time-weighted rates of return and dollar-weighted rates of return. How are they alike and how are they different?    "
+},
+{
+  "id": "finding-both-time-and-dollar-weighted-rates",
+  "level": "2",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#finding-both-time-and-dollar-weighted-rates",
   "type": "Activity",
   "number": "11.6.1",
   "title": "",
-  "body": "   Step 1 : State the Problem.   "
+  "body": "  Some problems just ask us to find both a time-weighted and dollar-weighted rate of return for an account with activity. A multiple choice problem may ask you to do something like subtract or divide the results (so as to have a single answer).  Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.   "
 },
 {
-  "id": "speculation-fact-gathering",
+  "id": "finding-the-leverage-variable-from-weighted-rate",
   "level": "2",
-  "url": "ethics-speculation.html#speculation-fact-gathering",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#finding-the-leverage-variable-from-weighted-rate",
   "type": "Activity",
   "number": "11.6.2",
   "title": "",
-  "body": "   Step 2 : Gather the Facts.  Run an internet search for recent asset or stock market bubbles. Describe what you found, the consequences when the bubble burst, and state your source.   "
+  "body": "  Other problems require you to use one of the two rates to find the value of a leverage variable, and then use that leverage variable to solve the problem.  You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.    What is the leverage variable in this problem? (This means the variable whose value will allow you to solve the problem).    Find the value of the leverage variable you identified.    Solve the problem.   "
 },
 {
-  "id": "speculation-identify-stakeholders",
+  "id": "solving-for-other-variables-from-weighted-rates",
   "level": "2",
-  "url": "ethics-speculation.html#speculation-identify-stakeholders",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#solving-for-other-variables-from-weighted-rates",
   "type": "Activity",
   "number": "11.6.3",
   "title": "",
-  "body": "   Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.   "
+  "body": "  You are given the following information about an investment account:     Date  Value Immediately Before Deposit  Deposit    January 1  10      July 1  12  X    December 31  X       Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .   "
 },
 {
-  "id": "speculation-develop-options",
+  "id": "calculating-weighted-rates-for-multiple-accounts",
   "level": "2",
-  "url": "ethics-speculation.html#speculation-develop-options",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#calculating-weighted-rates-for-multiple-accounts",
   "type": "Activity",
   "number": "11.6.4",
   "title": "",
-  "body": "   Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"   "
+  "body": "  Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        March 1  17    X    October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:     Date  Value Immediately Before Activity  Deposit  Withdrawal    January 1  15        April 1  13  Y      July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .   "
 },
 {
-  "id": "speculation-test-options",
+  "id": "problem-solving-mixing-time-and-dollar-weighted-returns-reflection",
   "level": "2",
-  "url": "ethics-speculation.html#speculation-test-options",
+  "url": "problem-solving-mixing-time-and-dollar-weighted-returns.html#problem-solving-mixing-time-and-dollar-weighted-returns-reflection",
   "type": "Activity",
   "number": "11.6.5",
   "title": "",
-  "body": "   Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                        "
+  "body": "  Compare and contrast time-weighted rates of return and dollar-weighted rates of return. How are they alike and how are they different?   "
 },
 {
-  "id": "speculation-make-decision",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-make-decision",
-  "type": "Activity",
-  "number": "11.6.6",
-  "title": "",
-  "body": "   Step 6 : Make a decision.   "
-},
-{
-  "id": "speculation-check-work",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-check-work",
-  "type": "Activity",
-  "number": "11.6.7",
-  "title": "",
-  "body": "   Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.   "
-},
-{
-  "id": "speculation-memo",
-  "level": "2",
-  "url": "ethics-speculation.html#speculation-memo",
-  "type": "Activity",
-  "number": "11.6.8",
-  "title": "",
-  "body": "  Write an memo to your department chair stating and defending your position. Be sure to support your position and address counterarguments (see outline in ).   "
-},
-{
-  "id": "term-structure-interest-rates-exercises",
+  "id": "rates-of-return-exercises",
   "level": "1",
-  "url": "term-structure-interest-rates-exercises.html",
+  "url": "rates-of-return-exercises.html",
   "type": "Exercises",
   "number": "11.7",
   "title": "Exercises",
-  "body": "   Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48      Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.      Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.      You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.      On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.      Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.      Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).      Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.    "
+  "body": "   Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .      For each of the following, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate. Do not make any assumptions.    A lender loans a borrower 100,000 at an effective monthly interest rate of 1.5% with level payments to be made at the end of each month for 30 years.    A lender loans a borrower 100,000 at an effective monthly interest rate of 0.0075 with level payments to be made at the end of each month for 30 years. Payments will be reinvested in a savings account at .    A lender loans a borrower 100,000 at an effective monthly interest rate of 1%. The borrower will pay interest each month, and pay the principal at the end of 30 years. Payments will be reinvested in a savings account of .    A lender loans a borrower 45,000 at an effective annual rate of 5%. The borrower will pay the entire loan -- interest and principal -- at the end of five years.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    A lender loans a borrower 10,000 to be repaid with 10 annual payments at an effective annual interest rate of 4%. Each payment will cover the interest due for the year plus a constant payment of principal. The lender will deposit the payments into a savings account bearing an effective annual interest rate of 6%.      For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investor is asked to invest 11,000 and is promised in return a payment of 4000 in one year, 5000 in the second year, and 4500 in the third year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    \\label{item: full} An investor pays 500 up front in exchange for annual payments of 160 for five years, one year after which if the investor pays an additional 600, they will receive three more annual payments of 225 each. Assume the investor pays the additional 600.    Repeat Exercise \\ref{item: full} assuming the investor chooses not to pay the additional 600.    An investment costs 10,000 and pays out 1500 for four years, 1250 for three years, and 1000 for two years.    An investment costs 1200 and pays 400 at the end of year 1, 350 at the end of year 3, and 500 at the end of year 4.      For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.    The Shire is available for 75,000 and will yield revenues of 20,000 at the end of the first year, 19,000 at the end of the second year, and so on until the end of the sixth year. Rivendell can also be purchased, but it costs 85,000. Revenues from Rivendell are expected to be 20,000 annually for four years, followed by two more years of 15,000 in revenue, and one final year of 10,000 in revenue. You expect a minimal return of 2.5%.    The Two Towers are real fixer-uppers. The Tower of Orthanc will cost 225,000. While the exterior is in good shape, the interior work necessary to bring the tower up to code will cost an additional 75,000 by the end of the first year of the investment. Starting at the end of year 2, the tower will yield annual revenues of 35,000 over eight years, 25,000 annually over the following two years, and 10,000 annually for two more years. Barad-Dur, on the other hand, needs to be rebuilt from scratch. The real estate will only cost 10,000. However, construction will cost an additional 190,000 spread out evenly over the first two years of the investment. Once completed, the tower will provide 27,500 annually for ten years. You would like a return of 4%.      For each of the following accounts, find the time-weighted rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  75,000        May 1  67,500  10,000      December 31  90,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  200,000        August 1  215,000    5000    December 31  205,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000             For each of the following, given the time-weighted rate of return, find .    The time-weighted return is 0.588% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  1,000,000        March 1  950,000         December 31  900,000           The time-weighted return is 20.321% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  17,000        November 1  20,000         December 31  22,500           The time-weighted return is 13.105% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  250,000        February 1  300,000    25,000    June 1  240,000         December 31  270,000           The time-weighted return is 14.638% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  105,000        July 1     15,000      September 1  130,000    10,000    December 31  125,000             For each of the following accounts, find the dollar-weighted (money-weighted) rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  350,000        June 1  300,000    25,000    December 31  360,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  50,000        October 1  60,000  5,000      December 31  72,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000             At the beginning of the year, an investment fund was established with an initial deposit of 1000. A new deposit of 1000 was made at the end of 4 months. Withdrawals of 200 and 500 were made at the end of 6 months and 8 months, respectively. The amount in the fund at the end of the year is 1560.      For each of the following, given the dollar-weighted (money-weighted) rate of return, find .    The dollar-weighted return is 5.714% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1           July 1  275,000  25,000      December 31  290,000           The dollar-weighted return is 19.58 % and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  95,000        April 1  110,000         December 31  105,000           The dollar-weighted return is 2.542% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  750,000        March 1  770,000         October 1  830,000    20,000    December 31  800,000           The dollar-weighted return is 1.109% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  275,000        April 1  250,000    10,000    September 1  260,000  12,000      December 31              "
 },
 {
-  "id": "term-structure-interest-rates-exercises-1",
+  "id": "rates-of-return-exercises-1",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-1",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-1",
   "type": "Exercise",
   "number": "11.7.1",
   "title": "",
-  "body": "  Each of the following contains the term (in years) and closing price (on a secondary market) of a zero-coupon bond with a face amount of 1000. Find the market rate of interest expressed as an effective annual rate.    One-year Treasury Note: 988.25    Two-year Treasury Note: 924.56    Five-year Treasury Note: 774.26    Ten-year Treasury Note: 558.39    Thirty-year Treasury Bond: 122.48   "
+  "body": "  Find the book value and the market value for each of the following investments.    A loan of 50,000 is made to a borrower at an effective annual interest rate of 7.5%. The loan will be repaid by 10 annual payments of interest, with the principal paid back with the final interest payment. Immediately after the third payment, the market rate of interest rises to 8.25%, effective annual. Find and .    A loan of 20,000 is made to a borrower an an effective quarterly rate of 5.5%. The loan will be repaid by quarterly level payments over 8 years. Immediately after the 23rd payment, the effective quarterly market rate of interest is 4%. Find and .    A bond has a face value of 1000 with a coupon rate of 12%. It is to be redeemed for 1300 in 7 years and is priced to yield 8%. Immediately after the 5th coupon payment, the market yield rate is 10%. Find and .    A loan of 250,000 is made to a borrower with an effective monthly interest rate of 1.25%. The borrower will pay the entire loan back -- interest and principal -- at the end of 15 years. Immediately after the 10th year ends, the market interest rate is . Find and .   "
 },
 {
-  "id": "term-structure-interest-rates-exercises-2",
+  "id": "rates-of-return-exercises-2",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-2",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-2",
   "type": "Exercise",
   "number": "11.7.2",
   "title": "",
-  "body": "  Consider the following prices per $1000 of face value for zero-coupon bonds:     Term  Closing Price    1 year  956.42    2 years  902.47    3 years  860.19    4 years  821.78    5 years  746.98       Find the spot rates.    Plot the yield curve.   "
+  "body": "  For each of the following, identify or calculate (i) the internal rate of return, (b) the reinvestment rate, and (c) the yield rate. Do not make any assumptions.    A lender loans a borrower 100,000 at an effective monthly interest rate of 1.5% with level payments to be made at the end of each month for 30 years.    A lender loans a borrower 100,000 at an effective monthly interest rate of 0.0075 with level payments to be made at the end of each month for 30 years. Payments will be reinvested in a savings account at .    A lender loans a borrower 100,000 at an effective monthly interest rate of 1%. The borrower will pay interest each month, and pay the principal at the end of 30 years. Payments will be reinvested in a savings account of .    A lender loans a borrower 45,000 at an effective annual rate of 5%. The borrower will pay the entire loan -- interest and principal -- at the end of five years.    A lender loans a borrower 11,500 at . The borrower will repay the loan with quarterly level payments for 10 years. Payments will be reinvested in a savings account with an effective quarterly interest rate of 2%.    An investor purchases a bond with face value of 10,000, a coupon rate of 8%. The bond will be redeemed at par in 6 years and is priced to yield 7%. Coupon payments will be deposited into a savings account earning .    A lender loans a borrower 10,000 to be repaid with 10 annual payments at an effective annual interest rate of 4%. Each payment will cover the interest due for the year plus a constant payment of principal. The lender will deposit the payments into a savings account bearing an effective annual interest rate of 6%.   "
 },
 {
-  "id": "term-structure-interest-rates-exercises-3",
+  "id": "rates-of-return-exercises-3",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-3",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-3",
   "type": "Exercise",
   "number": "11.7.3",
   "title": "",
-  "body": "  Consider the following yield curve:             1  5.34%    2  4.89%    3  4.31%    4  3.70%    5  4.52%     Use the spot rates to value the following coupon bonds:    A bond with annual coupons at 5%, a face value of 100, and matures in 3 years.    A bond with annual coupons at 2.5%, a face value of 500, and matures in 5 years.    A bond with annual coupons at 3%, a face value of 1,000, and matures in 2 years.    A bond with annual coupons at 4%, a face value of 10,000, and matures in 4 years.    A bond with annual coupons at 2%, a face value of 100, and matures in 1 year.   "
+  "body": "  For each of the following cash flows, find the internal rate of return.    An investment costs 1,100 and generates a payment of 500 in one year and 700 in the second year.    An investor is asked to invest 11,000 and is promised in return a payment of 4000 in one year, 5000 in the second year, and 4500 in the third year.    An investment costs 912.40, and generates semiannual revenues of 50 for ten years, with an additional 1000 added to the final payment of 50.    \\label{item: full} An investor pays 500 up front in exchange for annual payments of 160 for five years, one year after which if the investor pays an additional 600, they will receive three more annual payments of 225 each. Assume the investor pays the additional 600.    Repeat Exercise \\ref{item: full} assuming the investor chooses not to pay the additional 600.    An investment costs 10,000 and pays out 1500 for four years, 1250 for three years, and 1000 for two years.    An investment costs 1200 and pays 400 at the end of year 1, 350 at the end of year 3, and 500 at the end of year 4.   "
 },
 {
-  "id": "term-structure-interest-rates-exercises-4",
+  "id": "rates-of-return-exercises-4",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-4",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-4",
   "type": "Exercise",
   "number": "11.7.4",
   "title": "",
-  "body": "  You are looking at the following yield curves for the countries of Wakanda, United States, and Sokovia:   Yield curves for Wakanda, the US, and Sokovia.    Determine which of the following statements are true, and correct those that are false.    Sokovia has a normal yield curve.    The US has a relatively flat yield curve.    Wakanda has an inverted yield curve.    Sokovia is expecting a recession in the near-future.    Wakanda has significant uncertainty in their economy.    The US is expecting consistent economic growth.   "
+  "body": "  For each of the following sets of investments, calculate the net present value at the desired return rate and determine which investment to select.    The Mines of Moria cost 125,000. They are expected to yield annual revenues of 15,000 for five years, 12,000 for five more years, and 10,000 for two more years. The Mountain of Erebor costs 200,000 and is expected to yield annual revenue of 18,000 for ten years and 12,500 for five years. You want an annual return of 5%.    The Kingdom of Rohan is for sale for 500,000, and is expected to yield annual revenues of 125,000 for four years, and another 75,000 for two more years. The Kingdom of Gondor can be purchased for 1,250,000 and will yield revenues of 200,000 for seven years and 150,000 for three more years. You want an annual return of 7.5%.    The Shire is available for 75,000 and will yield revenues of 20,000 at the end of the first year, 19,000 at the end of the second year, and so on until the end of the sixth year. Rivendell can also be purchased, but it costs 85,000. Revenues from Rivendell are expected to be 20,000 annually for four years, followed by two more years of 15,000 in revenue, and one final year of 10,000 in revenue. You expect a minimal return of 2.5%.    The Two Towers are real fixer-uppers. The Tower of Orthanc will cost 225,000. While the exterior is in good shape, the interior work necessary to bring the tower up to code will cost an additional 75,000 by the end of the first year of the investment. Starting at the end of year 2, the tower will yield annual revenues of 35,000 over eight years, 25,000 annually over the following two years, and 10,000 annually for two more years. Barad-Dur, on the other hand, needs to be rebuilt from scratch. The real estate will only cost 10,000. However, construction will cost an additional 190,000 spread out evenly over the first two years of the investment. Once completed, the tower will provide 27,500 annually for ten years. You would like a return of 4%.   "
 },
 {
-  "id": "term-structure-interest-rates-exercises-5",
+  "id": "rates-of-return-exercises-5",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-5",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-5",
   "type": "Exercise",
   "number": "11.7.5",
   "title": "",
-  "body": "  On August 12, 2020, the United States Treasury reported zero-coupon bond closing yields resulting in the following yield curve:   Yield curve for the US zero-coupon bond closing yields on 8\/12\/2020    Note that the -axis is not to scale.  Characterize this yield curve and state what the market expected from the economy.   "
+  "body": "  For each of the following accounts, find the time-weighted rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  75,000        May 1  67,500  10,000      December 31  90,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  200,000        August 1  215,000    5000    December 31  205,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000          "
 },
 {
-  "id": "forward-rates-exercise",
+  "id": "rates-of-return-exercises-6",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#forward-rates-exercise",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-6",
   "type": "Exercise",
   "number": "11.7.6",
   "title": "",
-  "body": "  Suppose we have the following forward rates:             1  2.25%    2  1.69%    3  3.12%    4  3.31%    5  3.54%     Use these rates to find the following values.    Find the present value of 500 paid out at time .    Find the price of a zero-coupon bond maturing in 3 years with a face value of 1000.    Find the present value per 100 of face value of a bond redeemed at par in five years with annual coupons at 3%.    Find the present value per 100 of face value of a bond redeemed at a premium of 20 in two years with annual coupons at 5%.   "
+  "body": "  For each of the following, given the time-weighted rate of return, find .    The time-weighted return is 0.588% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  1,000,000        March 1  950,000         December 31  900,000           The time-weighted return is 20.321% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  17,000        November 1  20,000         December 31  22,500           The time-weighted return is 13.105% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  250,000        February 1  300,000    25,000    June 1  240,000         December 31  270,000           The time-weighted return is 14.638% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  105,000        July 1     15,000      September 1  130,000    10,000    December 31  125,000          "
 },
 {
-  "id": "term-structure-interest-rates-exercises-7",
+  "id": "rates-of-return-exercises-7",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-7",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-7",
   "type": "Exercise",
   "number": "11.7.7",
   "title": "",
-  "body": "  Use the same forward rates as in .    Find the corresponding spot rates.    Verify that when you calculate the present values from but using the spot rates instead of the forward rates, you get the same result (subject only to rounding error).   "
+  "body": "  For each of the following accounts, find the dollar-weighted (money-weighted) rate of return.    The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  350,000        June 1  300,000    25,000    December 31  360,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  50,000        October 1  60,000  5,000      December 31  72,000           The account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1, 2006  100,000        February 1, 2006  98,000    10,000    September 1, 2006  100,000  10,000      December 31, 2006  105,000          "
 },
 {
-  "id": "term-structure-interest-rates-exercises-8",
+  "id": "rates-of-return-exercises-8",
   "level": "2",
-  "url": "term-structure-interest-rates-exercises.html#term-structure-interest-rates-exercises-8",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-8",
   "type": "Exercise",
   "number": "11.7.8",
   "title": "",
-  "body": "  Consider the following yield curve:             1  4.32%    2  3.99%    3  3.01%    4  2.89%    5  2.81%     Find the corresponding forward rates.   "
+  "body": "  At the beginning of the year, an investment fund was established with an initial deposit of 1000. A new deposit of 1000 was made at the end of 4 months. Withdrawals of 200 and 500 were made at the end of 6 months and 8 months, respectively. The amount in the fund at the end of the year is 1560.   "
 },
 {
-  "id": "term-structure-interest-rates-problems",
+  "id": "rates-of-return-exercises-9",
+  "level": "2",
+  "url": "rates-of-return-exercises.html#rates-of-return-exercises-9",
+  "type": "Exercise",
+  "number": "11.7.9",
+  "title": "",
+  "body": "  For each of the following, given the dollar-weighted (money-weighted) rate of return, find .    The dollar-weighted return is 5.714% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1           July 1  275,000  25,000      December 31  290,000           The dollar-weighted return is 19.58 % and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  95,000        April 1  110,000         December 31  105,000           The dollar-weighted return is 2.542% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  750,000        March 1  770,000         October 1  830,000    20,000    December 31  800,000           The dollar-weighted return is 1.109% and the account activity is displayed in the following table:      Date    Balance Before Activity    Deposit    Withdrawal     January 1  275,000        April 1  250,000    10,000    September 1  260,000  12,000      December 31             "
+},
+{
+  "id": "rates-of-return-problems",
   "level": "1",
-  "url": "term-structure-interest-rates-problems.html",
+  "url": "rates-of-return-problems.html",
   "type": "Exercises",
   "number": "11.8",
   "title": "Problems",
-  "body": " Problems    A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?       Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.         A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.       A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .       Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.       You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.       The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.       A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.       A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.       You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.       You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).       The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.        You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.       The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .      A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .       Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.       A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.       According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.       The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).       Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.       The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.       Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .       Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .       You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.       The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.       Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .      Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.       Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%         Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%         The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.       The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.       Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.    "
+  "body": " Problems    Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .      C.J. Cregg purchased a bond that had semiannual coupon payments of 75 and a redemption amount of , to be redeemed 10 years after it was issued. She bought the bond directly from the issuer, and it was priced to yield 8%. Three years later, the market interest rate falls to 6%, and she sells the bond for 1,838.88.    Find the price C.J. originally paid for the bond.    C.J. invested the coupon payments at 7% convertible semiannually. Find the yield C.J. achieved over the three years, expressed as an effective semiannual rate.       Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.     In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In case (iii) of part (a) Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In part (a)(i) above, assume that Jones can reinvest the payments at 6% per year; find Jones'average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in (a)(ii) as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in (a)(ii).        An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.       A loan of 10,000 is being repaid with payments of 1000 at the end of each year for 20 years. If each payment is immediately reinvested at 5% effective, find the effective annual rate of interest earned over the 20-year period.       A 100 par value 12-year bond with 10% semiannual coupons is selling for 110. If the coupons can only be reinvested at 7% convertible semiannually, compute the overall yield rate achieved by the bond purchaser over the 12-year period. Report your answer as a nominal rate convertible semiannually.       A buys a 10-year 1000 par value 6% bond with semiannual coupons. The price assumes a nominal yield of 6% compounded semiannually. As A receives each coupon payment, it is immediately put into an account earning interest at an annual effective rate of . At the end of 10 years, immediately after receipt of the final coupon payment and the redemption value of the bond, A has earned an annual effective yield of 7% on the investment in the bond. Calculate .       You invest 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an annual effective interest rate of . The interest is reinvested at an annual effective rate of . The yield rate on the entire investment over the 20-year period is 8% effective. Determine .       A new partnership takes out a loan of 25,000 to finance the initial costs of starting their own business. The original loan with Lender 1 is for four years, carries an annual effective interest rate of 8%, and will be repaid by level payments. Lender 1 places no restrictions on early repayment of the loan. During the next year interest rates decline substantially. At the end of the first year, the partnership completely repays the loan to Lender 1 and refinances the loan with Lender 2. Lender 1 is only able to reinvest the proceeds from the early repayment at 6% effective for the following three years. Determine Lender 1's overall yield rate for the four years arising from their issuing this loan to the partnership.       A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6.       Consider an investment in which the initial cost is 3000, there is an additional cost of 1000 at the end of the first year, and projected returns of 2000 at the end of the first year and 4000 at the end of the second year. The internal rate of return can be expressed as . Find .       Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.       A project requires an initial capital outlay of 30,000 and will return the following amounts (paid at the end of the next 5 years):     4,000  12,000  6,000  4,000  2,000     Solve for:    the internal rate of return    the net present value based on a cost of capital of 10% per year       The ABC Real Estate Development Corporation has just obtained a 10-year development project with the following projected net cash flows:     Time  Net Cash Flows    Time  Net Cash Flows    0  -7,900,000    6  910,000    1  1,400,000    7  900,000    2  1,100,000    8  900,000    3  1,000,000    9  450,000    4  1,000,000    10  10,000,000    5  1,000,000             Find the internal rate of return.    Find the net present value at 15%.       An investor enters into an agreement to contribute 7000 immediately and 1000 at the end of two years in exchange for the receipt of 4000 at the end of one year and 5500 at the end of three years. Find:    the net present value at 9%    the net present value at 10%       ABC Manufacturing decides to build a new plant. The plant will cost 2 million immediately and is expected to have a useful life of 10 years. At the end of 5 years, a major renovation expense of will be required to install new technology. The plant will produce level returns of 300,000 at the end of each year for the first 5 years, and double that at the end of each year for the second 5 years. Find the maximum value of that ABS could pay that would still produce an internal rate of return on its investment of at least 12%.       Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .       On January 1, 1988, Antonio invests 9400 in an investment fund. On January 1, 1989 his balance is 10,600 and he deposits 2400. On July 1, 1989, his balance is 14,400 and he withdraws 1,000. On January 1, 1992 his balance is . Express his annual time-weighted yield as a function of .       Arthur buys 2000 worth of stock. Six months later, the value of the stock has risen to 2200 and Arthur buys another 1000 worth of stock. After another eight months, Arthur's holdings are worth 2,700 and he sells off 800 of them. Ten months later, Arthur finds that his stock has a value of 2,100.  Compute the annual time-weighted yield rate of the stock over the two-year period.       Bright Future Investment Fund has a balance of 1,205,000 on January 1. On May 1, the balance is 1,230,000. Immediately after this balance is noted, 800,000 is added to the fund. If there are no further contributions to the fund for the year and the time-weighted annual yield for the fund is 16%, what is the fund balance at the end of the year?       The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date    Amount    Fund Values:  1\/1\/15    1,000,000      7\/1\/15    1,310,000      1\/1\/16    1,265,000      7\/1\/16    1,540,000      1\/1\/17    1,420,000              Contributions  6\/30\/15    250,000    Received:  6\/30\/16    250,000              Benefits  12\/31\/15    150,000    Paid:  12\/31\/16    150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.       An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:      Date    Value Immediately Before Deposit    Deposit     March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .       Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.       You invest 2000 at time and an additional 1000 at time . At time you have 2120 in your account and at time you have 3213.60 in your account.    Find the dollar-weighted rate of return on the investment.    Find the time-weighted rate of return on the investment.       A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.       An investment account is established with an initial balance at the beginning of the year of 10,000. There are new deposits of 1800 made at the end of 2 months, and another 900 made at the end of 8 months. In addition, there is a withdrawal of made at the end of 6 months. The fund balance at the end of the year is 10,636. The dollar-weighted rate of return is 6%. Find .       You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.       You are given the following information about an investment account:      Date    Value Immediately Before Deposit    Deposit     January 1  10      July 1  12       December 31          Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .       On January 1, 2013, an investment account is worth 100,000. On April 1, 2013, the value has increased to 103,000 and 8,000 is withdrawn (no fooling!). On January 1, 2015, the account is worth 103,992. Assuming a dollar-weighted method for 2013 and a time-weighted method for 2014, the effective annual interest rate was equal to for both 2013 and 2014. Calculate .      Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        March 1  17         October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        April 1  13         July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .       You are given the following information about the activity in two different investment accounts:      Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         10\/1\/2015  110.0         12\/31\/2015  125.0             Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         12\/31\/2015  105.8         During 2015, the dollar-weighted return for investment Account equals the time-weighted return for investment account , which equals . Calculate .    "
 },
 {
-  "id": "term-structure-interest-rates-problems-2",
+  "id": "rates-of-return-problems-2",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-2",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-2",
   "type": "Exercise",
   "number": "11.8.1",
   "title": "",
-  "body": "  A zero coupon bond is currently selling for 80.496 per 100 of face value. The corresponding annual effective yield rate is 7.5%. When does the bond mature?   "
+  "body": "  Jed Bartlett borrowed 100,000 from Leo McGarry. Jed will pay monthly interest at an effective rate for 20 years, at the end of which he will repay the principal. After twelve years, interest rates have fallen close to 0 due to a pandemic, and Jed's wife Abigail's medical practice is thriving. She agrees to purchase the loan from Leo (effectively extinguishing the loan) for a price to yield 1.5%. The price she pays is 125,350.84. Find .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-3",
+  "id": "rates-of-return-problems-3",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-3",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-3",
   "type": "Exercise",
   "number": "11.8.2",
   "title": "",
-  "body": "   Which of the following statements about zero-coupon bonds are true?    Zero-coupon bonds may be created by separating the coupon payments and redemption values from bonds and selling them separately.    The yield rate on stripped Treasuries at any point in time provide an immediate reading of the risk-free yield curve.    The interest rates on the risk-free yield curve are called forward rates.     "
+  "body": "  C.J. Cregg purchased a bond that had semiannual coupon payments of 75 and a redemption amount of , to be redeemed 10 years after it was issued. She bought the bond directly from the issuer, and it was priced to yield 8%. Three years later, the market interest rate falls to 6%, and she sells the bond for 1,838.88.    Find the price C.J. originally paid for the bond.    C.J. invested the coupon payments at 7% convertible semiannually. Find the yield C.J. achieved over the three years, expressed as an effective semiannual rate.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-4",
+  "id": "rates-of-return-problems-4",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-4",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-4",
   "type": "Exercise",
   "number": "11.8.3",
   "title": "",
-  "body": "   A company knows it will have to make payments of 1000 and 2000 at the end of years 1 and 2, respectively. The only investments available to the company are the following two zero-coupon bonds:     Maturity (Years)  Effective Annual Yield  Par    1  10%  1000    2  12%  1000     The company wants to make investments now so that they payouts will exactly equal the upcoming payments at the exact time their payments are due (this is called exact matching , a form of immunization ).  Determine the cost for the investments today.   "
+  "body": "   Jones buys from Smith the right to receive 20 annual payments of 1000 each beginning 1 year hence.     In their discussion regarding this transaction, Smith and Jones consider three ways of determining the amount Jones must pay to Smith. Find this amount according to each of the following approaches:    The present value at     A price to yield Jones an annual return of 12% while recovering his principal in a sinking fund earning an annual rate of 6%    Accumulate the payments at 6% and then find the present value at 12% of that accumulated value.      Jones calculates his annual rate of return a number of different ways. In case (iii) of part (a) Jones earns an annual rate of return of 12% for the 20 years. Find his annual yield according to each of the following approaches.    In part (a)(i) above, assume that Jones can reinvest the payments at 6% per year; find Jones'average annual compound rate of return based on the accumulated amount after 20 years compared to his initial investment.    Using the amount invested based on the approach in (a)(ii) as the present value of the annuity, find the unknown interest rate (internal rate of return).    Assuming that the full 1000 is deposited in the sinking fund at 6%, find the average annual compound rate of return over the 20 years based on the accumulated value of the sinking fund and the initial amount invested in (a)(ii).    "
 },
 {
-  "id": "term-structure-interest-rates-problems-5",
+  "id": "rates-of-return-problems-5",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-5",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-5",
   "type": "Exercise",
   "number": "11.8.4",
   "title": "",
-  "body": "   A yield curve is defined by the equation: s_0(k) = 0.09 + 002k - 0.0005k^2, \\ \\ 0 \\leq k \\leq 4 \\begin{enumerate}    Describe the shape of the yield curve for .    Describe the shape of the yield curve for .   "
+  "body": "   An investor makes a single deposit of 10,000 into Fund A for 10 years which earns a 6% effective rate of interest payable directly to the investor each year. During the first 5 years, the interest payments can only be reinvested into Fund B which earns 4% effective over the entire 10-year period. During the second 5 years, the interest payment can only be invested in Fund C which earns 5% effective.    Find the total accumulated value in Funds A, B, and C combined at the end of 10 years. Answer to the nearest dollar.    Find the overall yield rate achieved by the investor.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-6",
+  "id": "rates-of-return-problems-6",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-6",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-6",
   "type": "Exercise",
   "number": "11.8.5",
   "title": "",
-  "body": "   Spot rates associated with a four-year, par-value 3,000 6% coupon bond with annual coupons are , , and . Calculate the value of the bond and its yield if it is sold at a price equal to its value.   "
+  "body": "   A loan of 10,000 is being repaid with payments of 1000 at the end of each year for 20 years. If each payment is immediately reinvested at 5% effective, find the effective annual rate of interest earned over the 20-year period.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-7",
+  "id": "rates-of-return-problems-7",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-7",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-7",
   "type": "Exercise",
   "number": "11.8.6",
   "title": "",
-  "body": "   You are given the following term structure:   These are effective annual rates of interest for zero-coupon bonds of 1, 2, and 3 years maturity respectively. A newly issued 3-year bond with face amount 100 has annual coupon rate 10% with coupons paid once per year starting one year from now.  Find the price and effective annual yield to maturity of the bond.   "
+  "body": "   A 100 par value 12-year bond with 10% semiannual coupons is selling for 110. If the coupons can only be reinvested at 7% convertible semiannually, compute the overall yield rate achieved by the bond purchaser over the 12-year period. Report your answer as a nominal rate convertible semiannually.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-8",
+  "id": "rates-of-return-problems-8",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-8",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-8",
   "type": "Exercise",
   "number": "11.8.7",
   "title": "",
-  "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows: 1- and 2-year maturity, 10%, 3- and 4-year maturity, 12%. Find the price of a 4-year bond with face amount 100, and annual coupons at rate 5%. The first coupon will be paid in one year.   "
+  "body": "   A buys a 10-year 1000 par value 6% bond with semiannual coupons. The price assumes a nominal yield of 6% compounded semiannually. As A receives each coupon payment, it is immediately put into an account earning interest at an annual effective rate of . At the end of 10 years, immediately after receipt of the final coupon payment and the redemption value of the bond, A has earned an annual effective yield of 7% on the investment in the bond. Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-9",
+  "id": "rates-of-return-problems-9",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-9",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-9",
   "type": "Exercise",
   "number": "11.8.8",
   "title": "",
-  "body": "   A 10% bond with face amount 100 matures in 3 years.     Find the value of the bond based on each of the following term structures and zero-coupon bond spot rates, where each denotes a nominal annual spot rate convertible semiannually for a -year zero coupon bond.                    For each of the bond prices you found, find the corresponding yield to maturity.    Repeat for an 8% bond and for a 12% bond.   "
+  "body": "   You invest 300 into a bank account at the beginning of each year for 20 years. The account pays out interest at the end of every year at an annual effective interest rate of . The interest is reinvested at an annual effective rate of . The yield rate on the entire investment over the 20-year period is 8% effective. Determine .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-10",
+  "id": "rates-of-return-problems-10",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-10",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-10",
   "type": "Exercise",
   "number": "11.8.9",
   "title": "",
-  "body": "   A 6-year bond with 6% annual coupons has a yield rate of 12% effective. A 6-year bond with 10% annual coupons has a yield rate of 8% effective. Find the 6-year spot rate.   "
+  "body": "   A new partnership takes out a loan of 25,000 to finance the initial costs of starting their own business. The original loan with Lender 1 is for four years, carries an annual effective interest rate of 8%, and will be repaid by level payments. Lender 1 places no restrictions on early repayment of the loan. During the next year interest rates decline substantially. At the end of the first year, the partnership completely repays the loan to Lender 1 and refinances the loan with Lender 2. Lender 1 is only able to reinvest the proceeds from the early repayment at 6% effective for the following three years. Determine Lender 1's overall yield rate for the four years arising from their issuing this loan to the partnership.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-11",
+  "id": "rates-of-return-problems-11",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-11",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-11",
   "type": "Exercise",
   "number": "11.8.10",
   "title": "",
-  "body": "   You are given the following information about two 10-year bonds. Both bonds have face amount 100 and coupons payable semi-annually, with the next coupon due in 1\/2-year.  Bond 1: Coupon rate 4% per year, price 85.12 \\\\ Bond 2: Coupon rate 10% per year, price 133.34  Find the yield rate for a 10-year zero-coupon bond.   "
+  "body": "   A ten-year investment project requires an initial investment of 100,000 at inception and maintenance expenses at the beginning of each year. The maintenance expense for the first year is 3000 and is anticipated to increase 6% each year thereafter. Projected annual returns from the project are 30,000 at the end of the first year decreasing 4% per year thereafter. Find the net cash flow in year 6.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-12",
+  "id": "rates-of-return-problems-12",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-12",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-12",
   "type": "Exercise",
   "number": "11.8.11",
   "title": "",
-  "body": "   You are given the following information for 4 bonds. All coupon and yield-to-maturity rates are nominal annual convertible twice per year.     Bond  Time to Maturity  Coupon Rate  YTM    1  0.5-year  4%  0.05    2  1-year  6%  0.10    3  1.5-year  4%  0.15    4  2-year  8%  0.15     Find the associated term structure for zero coupon bonds with maturities of 0.5 years, 1 year, 1.5 years, and 2 years (quotations should be nominal annual rates convertible twice per year).   "
+  "body": "   Consider an investment in which the initial cost is 3000, there is an additional cost of 1000 at the end of the first year, and projected returns of 2000 at the end of the first year and 4000 at the end of the second year. The internal rate of return can be expressed as . Find .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-13",
+  "id": "rates-of-return-problems-13",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-13",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-13",
   "type": "Exercise",
   "number": "11.8.12",
   "title": "",
-  "body": "   The current term structure is defined by: s_0(t) = 0.06 + 0.01t, \\ \\ t = 0,1,2,3     Calculate the at-par yield rate for a two-year bond.    Calculate the at-par yield rate for a three-year bond.     You are given a 1000, three-year bond with annual 6% coupons.    Determine whether it is a premium or discount bond using the at-par yield rate.    Calculate the amount of premium or discount.    "
+  "body": "   Transactions and are to be compared. Transaction has net cashflows of:   and Transaction has net cashflows   Find the internal rate of return for each transaction to at least 6 decimal places. Show that Transaction is preferable to at interest preference rates less than 11.11% and at interest preference rates greater than 25%, and Transaction is preferable at interest preference rates between 11.11% and 25%.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-14",
+  "id": "rates-of-return-problems-14",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-14",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-14",
   "type": "Exercise",
   "number": "11.8.13",
   "title": "",
-  "body": "   You are given the following prices of 1000 par-value bonds with 10% annual coupons. The price of a 3-year bond is 1030, the price of a 4-year bond is 1035, and the price of a 5-year bond is 1037. The 3-year spot rate is 8% and the 6-year spot rate is 7%. Find the:    4-year spot rate    5-year spot rate    Price of a 6-year bond.   "
+  "body": "   A project requires an initial capital outlay of 30,000 and will return the following amounts (paid at the end of the next 5 years):     4,000  12,000  6,000  4,000  2,000     Solve for:    the internal rate of return    the net present value based on a cost of capital of 10% per year   "
 },
 {
-  "id": "term-structure-interest-rates-problems-15",
+  "id": "rates-of-return-problems-15",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-15",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-15",
   "type": "Exercise",
   "number": "11.8.14",
   "title": "",
-  "body": "   The current term structure is as follows: , , and . A 3-year bond with an 8% annual coupon rate has an effective yield rate equal to 9%. Find .   "
+  "body": "   The ABC Real Estate Development Corporation has just obtained a 10-year development project with the following projected net cash flows:     Time  Net Cash Flows    Time  Net Cash Flows    0  -7,900,000    6  910,000    1  1,400,000    7  900,000    2  1,100,000    8  900,000    3  1,000,000    9  450,000    4  1,000,000    10  10,000,000    5  1,000,000             Find the internal rate of return.    Find the net present value at 15%.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-16",
+  "id": "rates-of-return-problems-16",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-16",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-16",
   "type": "Exercise",
   "number": "11.8.15",
   "title": "",
-  "body": "  A 2-year bond with 4% semiannual coupons redeemable at par costs 94.081 per 100 of face value. We have the following forward rates: , , and \\\\ . Find .   "
+  "body": "   An investor enters into an agreement to contribute 7000 immediately and 1000 at the end of two years in exchange for the receipt of 4000 at the end of one year and 5500 at the end of three years. Find:    the net present value at 9%    the net present value at 10%   "
 },
 {
-  "id": "term-structure-interest-rates-problems-17",
+  "id": "rates-of-return-problems-17",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-17",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-17",
   "type": "Exercise",
   "number": "11.8.16",
   "title": "",
-  "body": "   Consider the following two yield curves (representing perhaps annual yields on two different classes of zero coupon bonds), valid for :     ;     .    For each of these yield curves, calculate the corresponding forward rates of interest for years 2 to 10, and plot the forward rates on a graph along with a plot of the yield curve.   "
+  "body": "   ABC Manufacturing decides to build a new plant. The plant will cost 2 million immediately and is expected to have a useful life of 10 years. At the end of 5 years, a major renovation expense of will be required to install new technology. The plant will produce level returns of 300,000 at the end of each year for the first 5 years, and double that at the end of each year for the second 5 years. Find the maximum value of that ABS could pay that would still produce an internal rate of return on its investment of at least 12%.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-18",
+  "id": "rates-of-return-problems-18",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-18",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-18",
   "type": "Exercise",
   "number": "11.8.17",
   "title": "",
-  "body": "   A 6-month T-Bill of face amount 100 can be bought today for 97.800 and a 1-year T-Bill of face amount 100 can be bought today for 95.400. Find the forward rate of interest for the 6-month period beginning 6-months from today, quoted as a nominal annual rate of interest compounded semi-annually.   "
+  "body": "   Project P requires an investment of 4000 at time 0. The investment pays 2000 at time 1 and 4000 at time 2. Project Q requires an investment of at time 2. The investment pays 2000 at time 0 and 4000 at time 1. Using the net present value method at an effective interest rate of 10%, the net present values of the two projects are equal. Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-19",
+  "id": "rates-of-return-problems-19",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-19",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-19",
   "type": "Exercise",
   "number": "11.8.18",
   "title": "",
-  "body": "   According to the current term structure of interest rates, the effective annual interest rates for 1, 2, and 3 year maturity zero coupon bonds are:    1-year: 0.08    2-year: 0.10    3-year: 0.11    Find the one-year forward effective annual rate of interest and find the two-year forward effective annual rate of interest.   "
+  "body": "   On January 1, 1988, Antonio invests 9400 in an investment fund. On January 1, 1989 his balance is 10,600 and he deposits 2400. On July 1, 1989, his balance is 14,400 and he withdraws 1,000. On January 1, 1992 his balance is . Express his annual time-weighted yield as a function of .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-20",
+  "id": "rates-of-return-problems-20",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-20",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-20",
   "type": "Exercise",
   "number": "11.8.19",
   "title": "",
-  "body": "   The term structure of effective annual yield rates for zero coupon bonds is given as follows:  1- and 2-year maturity: 10%;  3- and 4-year maturity: 12%.  You are given the price of a 5-year bond with face amount 100, and annual coupons at rate of 5%, is 73.68. Find the 4-year forward effective annual interest rate (in effect for the 5th year).   "
+  "body": "   Arthur buys 2000 worth of stock. Six months later, the value of the stock has risen to 2200 and Arthur buys another 1000 worth of stock. After another eight months, Arthur's holdings are worth 2,700 and he sells off 800 of them. Ten months later, Arthur finds that his stock has a value of 2,100.  Compute the annual time-weighted yield rate of the stock over the two-year period.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-21",
+  "id": "rates-of-return-problems-21",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-21",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-21",
   "type": "Exercise",
   "number": "11.8.20",
   "title": "",
-  "body": "   Consider the forward interest rates defined by the following equation for \\\\ : \\iota_0(k,k+1) = 0.09 + 0.002k - 0.002k^2     Find the 4-year spot rate.    Find the 2-year deferred 3-year forward rate.   "
+  "body": "   Bright Future Investment Fund has a balance of 1,205,000 on January 1. On May 1, the balance is 1,230,000. Immediately after this balance is noted, 800,000 is added to the fund. If there are no further contributions to the fund for the year and the time-weighted annual yield for the fund is 16%, what is the fund balance at the end of the year?   "
 },
 {
-  "id": "term-structure-interest-rates-problems-22",
+  "id": "rates-of-return-problems-22",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-22",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-22",
   "type": "Exercise",
   "number": "11.8.21",
   "title": "",
-  "body": "   The term structure is defined by for A three-year annuity-immediate will be issued one year from now with annual payments of 1000. Using the appropriate forward rates, calculate the present value of this annuity one year from now.   "
+  "body": "   The details regarding fund value, contributions and withdrawals from a fund are as follows:       Date    Amount    Fund Values:  1\/1\/15    1,000,000      7\/1\/15    1,310,000      1\/1\/16    1,265,000      7\/1\/16    1,540,000      1\/1\/17    1,420,000              Contributions  6\/30\/15    250,000    Received:  6\/30\/16    250,000              Benefits  12\/31\/15    150,000    Paid:  12\/31\/16    150,000     Find the effective annual time-weighted rate of return for the two-year period of 2015 and 2016.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-23",
+  "id": "rates-of-return-problems-23",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-23",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-23",
   "type": "Exercise",
   "number": "11.8.22",
   "title": "",
-  "body": "   Yield rates to maturity for zero coupon bonds are currently quoted at 8.5% for one-year maturity, 9.5% for two-year maturity, and 10.5% for three-year maturity. Let be the one-year forward rate for year two implied by the current yields of these bonds. Calculate .   "
+  "body": "   An investor deposits 50 in an investment account on January 1. The following summarizes the activity in the account during the year:      Date    Value Immediately Before Deposit    Deposit     March 15  40  20    June 1  80  80    October 1  175  75     On June 30, the value of the account is 157.50. On December 31, the value of the account is . Using the time-weighted method, the equivalent effective annual yield for the first 6 months is equal to the (time-weighted) effective annual yield during the entire 1-year period. Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-24",
+  "id": "rates-of-return-problems-24",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-24",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-24",
   "type": "Exercise",
   "number": "11.8.23",
   "title": "",
-  "body": "   Consider a yield curve defined by the following equation for :   Let be the one-year effective rate during year 5 that is implied by this yield curve. Calculate .   "
+  "body": "   Fund has unit values which are 1.0 on January 1, 2015, 0.8 on July 1, 2015, and 1.0 on January 1, 2016. A fund manager receives contributions of 100,000 on January 1, 2015 and 100,000 on July 1, 2015 and immediately uses the entirety of each contribution to purchase units of Fund . Find the time-weighted and dollar-weighted rates of return for 2015.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-25",
+  "id": "rates-of-return-problems-25",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-25",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-25",
   "type": "Exercise",
   "number": "11.8.24",
   "title": "",
-  "body": "   You are given the following yield curve:     Term (Years)       1  5.00%    2  5.75%    3  6.25%    4  6.50%     A three-year annuity immediate will be issued a year from now with annual payments of 5000. Using appropriate forward rates, calculate the present value of this annuity a year from now. Answer to the nearest dollar.   "
+  "body": "   You invest 2000 at time and an additional 1000 at time . At time you have 2120 in your account and at time you have 3213.60 in your account.    Find the dollar-weighted rate of return on the investment.    Find the time-weighted rate of return on the investment.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-26",
+  "id": "rates-of-return-problems-26",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-26",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-26",
   "type": "Exercise",
   "number": "11.8.25",
   "title": "",
-  "body": "   The current prices on one-year, two-year, and three-year 10,000 zero-coupon bonds are 9,765, 9,428, and 8,986.82 respectively. Find all forward rates implied by these prices.   "
+  "body": "   A fund has a balance of 1000 at the beginning of the year. If 200 is added to the fund at the end of three months and if 300 is withdrawn from the fund at the end of nine months, the dollar-weighted rate of return is 4%. Find the ending balance.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-27",
+  "id": "rates-of-return-problems-27",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-27",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-27",
   "type": "Exercise",
   "number": "11.8.26",
   "title": "",
-  "body": "   Consider the following table of 4% par-value bonds having annual coupons.     Term (Years)  Yield    1       2       3       4       5        Determine the forward rate .   "
+  "body": "   An investment account is established with an initial balance at the beginning of the year of 10,000. There are new deposits of 1800 made at the end of 2 months, and another 900 made at the end of 8 months. In addition, there is a withdrawal of made at the end of 6 months. The fund balance at the end of the year is 10,636. The dollar-weighted rate of return is 6%. Find .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-28",
+  "id": "rates-of-return-problems-28",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-28",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-28",
   "type": "Exercise",
   "number": "11.8.27",
   "title": "",
-  "body": "  Suppose we have effective annual forward rates , , and . Under these conditions, the price of a 3-year bond with face value of 1000 and annual coupons at 5% is 1017.25. Find the yield curve.   "
+  "body": "   You invest 2000 at time and an additional 1000 at time . At time you have 3200 in your account. Find the amount that would have to be in your account at time if the time-weighted rate of return over the year is exactly 0.02 higher than the dollar-weighted rate of return.   "
 },
 {
-  "id": "term-structure-interest-rates-problems-29",
+  "id": "rates-of-return-problems-29",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-29",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-29",
   "type": "Exercise",
   "number": "11.8.28",
   "title": "",
-  "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 10% (effective annual); \\\\ 2-year maturity: 8% (effective annual).  You take the following actions:    Sell a one-year zero coupon bond with maturity value 1000.    Invest the proceeds in a two-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 6%    One year forward investment for one year at 12%    One year forward loan for one year at 6%    One year forward loan for one year at 12%    Two year loan for 9%     "
+  "body": "   You are given the following information about an investment account:      Date    Value Immediately Before Deposit    Deposit     January 1  10      July 1  12       December 31          Over the year, the time-weighted return is 0%, and the dollar-weighted return is . Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-30",
+  "id": "rates-of-return-problems-30",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-30",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-30",
   "type": "Exercise",
   "number": "11.8.29",
   "title": "",
-  "body": "   Yield rates for zero coupon bonds are as follows:  1-year maturity: 8% (effective annual); \\\\ 2-year maturity: 10% (effective annual).  You take the following actions:    Sell a two-year zero coupon bond with maturity value 1000.    Invest the proceeds in a one-year zero coupon bond.    Which of the following represents your overall net position?    One year forward investment for one year at 10%    One year forward investment for one year at 12%    One year forward loan for one year at 10%    One year forward loan for one year at 12%    Two year investment for 9%     "
+  "body": "   On January 1, 2013, an investment account is worth 100,000. On April 1, 2013, the value has increased to 103,000 and 8,000 is withdrawn (no fooling!). On January 1, 2015, the account is worth 103,992. Assuming a dollar-weighted method for 2013 and a time-weighted method for 2014, the effective annual interest rate was equal to for both 2013 and 2014. Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-31",
+  "id": "rates-of-return-problems-31",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-31",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-31",
   "type": "Exercise",
   "number": "11.8.30",
   "title": "",
-  "body": "   The current effective yield rates for the zero coupon bonds are as follows:    One Year: 6%    Two Years: 7%    You are also able to borrow money at 7% effective one year from now to be repaid two years from now.  Construct a transaction involving no net cash flows at times 0 and 1 that will generate a certain profit at time 2.   "
+  "body": "  Mr. Wilford invests in two separate funds in order to raise funds to pay for construction of a massive train. The account activity for account 1 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        March 1  17         October 1  12  4      December 31  18         The time-weighted rate of return for account 1 is 9.286%.  The account activity for account 2 (in millions) is:      Date    Value Immediately Before Activity    Deposit    Withdrawal     January 1  15        April 1  13         July 1  20    2    December 31  20         The dollar-weighted rate of return for account 2 is 7.921%.  On March 1, Mr. Wilford withdrew from account 1 to pay for continuing construction costs for the train. On April 1, Mr. Wilford noticed that the value of account 2 had dropped, so he deposited . Calculate .   "
 },
 {
-  "id": "term-structure-interest-rates-problems-32",
+  "id": "rates-of-return-problems-32",
   "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-32",
+  "url": "rates-of-return-problems.html#rates-of-return-problems-32",
   "type": "Exercise",
   "number": "11.8.31",
   "title": "",
-  "body": "   The current spot rates are as follows: and . A 2-year bond with annual 5.5% coupons and a par value of 100 has a yield rate to maturity of 9.3%. Construct a transaction that involves the purchase or sale of exactly one of the coupon bonds and produces an arbitrage profit. Find the amount of the arbitrage profit and when it is realized.   "
-},
-{
-  "id": "term-structure-interest-rates-problems-33",
-  "level": "2",
-  "url": "term-structure-interest-rates-problems.html#term-structure-interest-rates-problems-33",
-  "type": "Exercise",
-  "number": "11.8.32",
-  "title": "",
-  "body": "   Alan Jones observes that two-year zero-coupon bonds yield 3.2%, two-year 10% bonds with annual coupons yield 3%, and the one-year spot rate is 1.8%. Describe how he might use this to make money without tying up any of his own money.   "
+  "body": "   You are given the following information about the activity in two different investment accounts:      Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         10\/1\/2015  110.0         12\/31\/2015  125.0             Date    Account Fund    Deposit    Withdrawal        Value Before Activity         1\/1\/2015  100.00        7\/1\/2015  125.0         12\/31\/2015  105.8         During 2015, the dollar-weighted return for investment Account equals the time-weighted return for investment account , which equals . Calculate .   "
 },
 {
   "id": "variable-interest-rates",
@@ -13507,7 +13462,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.7",
   "title": "Ethics Case Study -- Audit the Fed",
-  "body": " Ethics Case Study -- Audit the Fed  Libertarians and some conservatives often call for legislation to audit the Federal Reserve. While the Federal Reserve is subject to regular internal audits by independent inspectors general, external expert auditors, and more generally is subject to review by the Government Accountability Office, the calls to \"audit the Fed\" are based on seeking greater and more detailed Congressional oversight. In effect, the creation of the central bank took the details of monetary policy out of democratic control. By way of contrast, the details of fiscal policy (such as setting marginal tax rates and the federal budget) are entirely within Congress' control.  You are consulting an independent Senator on the Federal Reserve Transparency Act of 2015. The legislation was passed by the House of Representatives, partly as a response to the 2008 financial crisis, and is now before the Senate. You have been asked to consider whether voting for the bill is the ethical course of action.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Ben Bernanke was chair of the Federal Reserve Board of Governors from 2006 to 2014. Read his analysis of the bill at . You can read the actual bill (although you might have to chase back references) at . One of the studies Bernanke cites is at , and another (which analyzes the impact of central banking on countries transitioning away from communism) can be accessed at .  Summarize your findings and state your starting position.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to the Senator with a recommendation. Be sure to support your position and address counterarguments (see outline in ).    "
+  "body": " Ethics Case Study -- Audit the Fed  Libertarians and some conservatives often call for legislation to audit the Federal Reserve. While the Federal Reserve is subject to regular internal audits by independent inspectors general, external expert auditors, and more generally is subject to review by the Government Accountability Office, the calls to \"audit the Fed\" are based on seeking greater and more detailed Congressional oversight. In effect, the creation of the central bank took the details of monetary policy out of democratic control. By way of contrast, the details of fiscal policy (such as setting marginal tax rates and the federal budget) are entirely within Congress' control.  You are consulting an independent Senator on the Federal Reserve Transparency Act of 2015. The legislation was passed by the House of Representatives, partly as a response to the 2008 financial crisis, and is now before the Senate. You have been asked to consider whether voting for the bill is the ethical course of action.     Step 1 : State the Problem.       Step 2 : Gather the Facts.  Ben Bernanke was chair of the Federal Reserve Board of Governors from 2006 to 2014. Read his analysis of the bill at . You can read the actual bill (although you might have to chase back references) at . One of the studies Bernanke cites is at , and another (which analyzes the impact of central banking on countries transitioning away from communism) can be accessed at .  Summarize your findings and state your starting position.       Step 3 : Identify stakeholders. Consider both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected). Try to see the situation through the eyes of all possible stakeholders.       Step 4 : Develop options. Be imaginative, avoid dilemmas or yes\/no situations. Instead consider how to modify questions and ask “to\/for whom” or “how much.\"       Step 5 : Test options by determining how the stakeholders you identified are harmed or benefited by an action or inaction. Test at least two options by filling in the following tables. You can add rows for more stakeholders, and make additional tables for more options.   Option 1 :     Stakeholder  Primary or Secondary?  Harms  Benefits                            Step 6 : Make a decision.       Step 7 : Check your work! Make sure your decision follows your gut instincts and your internal principles.      Write a memo to the Senator with a recommendation. Be sure to support your position and address counterarguments.    "
 },
 {
   "id": "audit-the-fed-problem-statement",
@@ -13579,7 +13534,7 @@ var ptx_lunr_docs = [
   "type": "Activity",
   "number": "13.7.8",
   "title": "",
-  "body": "  Write a memo to the Senator with a recommendation. Be sure to support your position and address counterarguments (see outline in ).   "
+  "body": "  Write a memo to the Senator with a recommendation. Be sure to support your position and address counterarguments.   "
 },
 {
   "id": "determinants-interest-rates-exercises",
