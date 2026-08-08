@@ -7,7 +7,7 @@
 		While municipal bonds are often issued to finance state and local government development projects, they are also used to raise funds that can be lent by the municipality to private companies who intend to use the loan proceeds to invest in a project that the municipality believes is in the public interest. The coupon and redemption payments are paid by the municipality to the investors out of the company’s loan payments.
 	</p>
 	<p>
-		For a cryptocurrency-backed municipal bond, a company that borrows from the municipality puts up BTC as collateral. Under the terms of the New Hampshire law, the company has to put up 160\% of the loan amount as collateral. This is advantageous to the company since if they sold the Bitcoin or paid for their investments directly in Bitcoin, they would have to pay capital gains taxes on any increases in the value of the Bitcoin since its purchase. They get the collateral back when the loan is paid off. 
+		For a cryptocurrency-backed municipal bond, a company that borrows from the municipality puts up BTC as collateral. Under the terms of the New Hampshire law, the company has to put up 160% of the loan amount as collateral. This is advantageous to the company since if they sold the Bitcoin or paid for their investments directly in Bitcoin, they would have to pay capital gains taxes on any increases in the value of the Bitcoin since its purchase. They get the collateral back when the loan is paid off. 
 	</p>
 	<p>
 		Additionally, if the value of the collateral falls below 130% of the loan amount, the company has to add BTC to the collateral to restore the total to 160% . This is called a <term>margin call</term>. 
@@ -21,7 +21,7 @@
 				Let’s examine an example to get a sense of how the margin call works. Suppose such a municipal bond was offered in November 2024 instead of 2025. A company wants to borrow 1 million dollars through this mechanism, and puts up the collateral on December 6, 2024. On that date, one US Dollar cost 97,074.23 BTC. This means that the company had to put up approximately <m>1.55 \times 10^{11}</m> BTC as collateral.
 			</p>
 			<p>
-				The <url href="external/chapter7/data/bitcoin.xlsx">BTC Price spreadsheet</url> contains the cost of one US Dollar in BTC for every day between December 6, 2024 and December 6, 2025 (Source: Yahoo Finance). Cell C1 contains the amount of collateral put up by the company in BTC.
+				The <url href="external/data/bitcoin.xlsx">BTC Price spreadsheet</url> contains the cost of one US Dollar in BTC for every day between December 6, 2024 and December 6, 2025 (Source: Yahoo Finance). Cell C1 contains the amount of collateral put up by the company in BTC.
 			</p>
 			<p>
 				Have Excel perform the following calculations for each day:
@@ -106,7 +106,7 @@
 	<activity>
 		<statement>
 			<p>
-				Review the Society of Actuaries Code of Professional Conduct. Identify all provisions that you believe were violated.
+				Review the <url href="https://www.soa.org/globalassets/assets/files/static-pages/about/governance/soa-code-of-professional-conduct.pdf">Society of Actuaries Code of Professional Conduct</url>. Identify all provisions that you believe were violated.
 			</p>
 		</statement>
 	</activity>
@@ -137,6 +137,12 @@
 					</p>
 				</li>
 			</ul>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</statement>
 	</activity>
 	<activity>

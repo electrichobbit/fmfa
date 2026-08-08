@@ -6,9 +6,9 @@
 	<activity xml:id="reparations-problem-statement">
 		<introduction>
 			<p> 
-				Let's start by learning about the problem.  Here's a short video from the Public Broadcasting System (PBS) which discusses the arguments around reparations.
+				Let's start by learning about the problem.  Here's a <url href="https://player.pbs.org/viralplayer/3054144422/">short video from the Public Broadcasting System (PBS) which discusses the arguments around reparations</url>.
 			</p>
-			<video href="https://player.pbs.org/viralplayer/3054144422/"/>
+			<video youtube="98u7NNBWsMU"/>
 		</introduction>
 		<task>
 			<p>
@@ -17,20 +17,20 @@
 		</task>
 		<task>
 			<p>
-				What are some of the forms that reparations could take in the US for the descendants of enslaved people?
+				What are some of the forms that you could envision reparations for descendants of enslaved people taking in the US? 
 			</p>
 		</task>
 		<task>
 			<p>
-				What are some of the forms that you could envision reparations for descendants of enslaved people taking in the US? What would be the advantages and disadvantages of each?
+				What would be the advantages and disadvantages of each?
 			</p>
 		</task>
 	</activity>
 	<p>
-		One problem around discussing reparations is putting a price tag on the harm done to the community.  Enslaved people were denied the right to earn wages for their labor, which consequently denied them the right to invest those earnings in the kinds of investments we discuss in this course - loans (including those to buy property), stocks, and bonds.  The time-value of those denied earnings has only increased in the years since.
+		One problem around discussing reparations is putting a price tag on the harm done to the community.  Enslaved people were denied the right to earn wages for their labor, which consequently denied them the right to invest those earnings in the kinds of investments we discuss in this course.  The time-value of those denied earnings has only increased in the years since.
 	</p>
 	<p>
-		The idea that families accumulate wealth over the years is called <term>generational wealth</term>.  While other families that immigrated to the US were able to continue accumulating generational wealth, including that which they brought to the country, enslaved people were stripped of most or all of their possessions and didn't have the opportunity to accumulate wealth until they gained their freedom.
+		The idea that families accumulate wealth over the years is called <term>generational wealth</term> (see <xref ref="ethics-generational-wealth"/>).  While other families that immigrated to the US were able to continue accumulating generational wealth, including that which they brought to the country, enslaved people were stripped of most or all of their possessions and didn't have the opportunity to accumulate wealth until they gained their freedom.
 	</p>
 	<p>
 		Can we estimate how much money they lost, and what the current value of those lost wages would be?
@@ -43,10 +43,12 @@
 		</introduction>
 		<task>
 			<p> 
-				First, let us consider the lost wages of an enslaved person in 1790.  While estimating incomes during the early history of the US is difficult, researchers at the National Board of Economic Research found in a <url href='https://www.nber.org/system/files/working_papers/w19861/w19861.pdf'>2014 working paper</url> that the per capita income in the US in 1774 was 69.10, which would be 78.48 in 1790 dollars.  This gives us a useful starting point to estimate the lost wages of enslaved people.
+				First, let us consider the lost wages of an enslaved person in 1790.  While estimating incomes during the early history of the US is difficult, researchers at the National Board of Economic Research found in a <url href='https://www.nber.org/system/files/working_papers/w19861/w19861.pdf'>2014 working paper</url> that the per capita income in the US in 1774 was 69.10.  Assuming that the inflation rate is also 5.18% during this period, calculate the per capita income of an American in 1790.  This gives us a useful starting point to estimate the lost wages of enslaved people.
 			</p>
+		</task>
+		<task>
 			<p> 
-				In 1790, there were 654,000 enslaved people, according to the census.  While there are questions about how accurate this data is, especially in its count of enslaved people, we can use this to give us an overall estimate of lost wages.  By examining census figures for enslaved people each decade up until 1860, examining growth rates, and taking a geometric average, the enslaved population grew by approximately 30% every ten years.  Slavery ended (officially at least) in 1865. If the population grew by 30% every year, how much did it grow by each year?
+				In 1790, there were 654,000 enslaved people, according to the census.  While there are questions about how accurate this data is, especially in its count of enslaved people, we can use this to give us an overall estimate of lost wages.  By examining census figures for enslaved people each decade up until 1860, examining growth rates, and taking a geometric average, the enslaved population grew by approximately 30% every ten years.  Slavery ended (officially at least) in 1865. If the population grew by 30% every ten years, how much did it grow by each year?
 			</p>
 		</task>
 		<task>
@@ -63,7 +65,7 @@
 					</li>
 					<li>
 						<p>
-							The annual lost wages, per capita, for each enslaved person.  You can assume that lost wages grow by 5.10% per year.
+							The annual lost wages, per capita, for each enslaved person.  You can assume that lost wages grow by 5.18% per year.
 						</p>
 					</li>
 					<li>
@@ -93,6 +95,12 @@
 			<p> 
 				Who are the stakeholders in this situation? If the US were to begin paying out reparations to the descendants of enslaved people, who would be affected?
 			</p>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</statement>
 	</activity>
 	<activity xml:id="reparations-develop-options">
@@ -119,7 +127,7 @@
 	<activity xml:id="reparations-memo">
 		<statement>
 			<p> 
-				Write a memo setting forth and defending a recommendation on reparations.  Be sure to support your position and address counterarguments.
+				Reparations have been and could be carried out at a variety of governmental levels in the US, including cities, counties, states, and at the federal level.  Choose a governmental body that could carry out reparations in some way. Write a memo setting forth and defending a recommendation on reparations.  Be sure to support your position and address counterarguments. Your recommendation should be appropriate for that level of government.
 			</p>
 		</statement>
 	</activity>

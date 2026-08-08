@@ -7,16 +7,22 @@
 		Several states either strictly regulate or ban storefront payday lending. Lenders have started getting around these laws using smartphone apps (such as Money Lion). The Center for Responsible Lending (<url href="https://www.responsiblelending.org/"/>) issued a report with several policy recommendations. We will examine these recommendations using an ethical reasoning framework. In this activity, we will specifically work on Ethical Reasoning KSAs 1 (prerequisite knowledge - stakeholder analysis), 2(select a decision-making framework), 4 (evaluate alternative actions), and 5 (make/justify a decision).
 	</p>
 	<activity xml:id="payday-loans-intro">
-		<task>
+		<introduction>
 			<p> 
 				Before we start, read about the six <term>ethical lenses</term> published by the <url href="https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/">Markkula Center for Applied Ethics at Santa Clara University</url>.  Which lens(es) do you think you will bring to this analysis?
 			</p>
+		</introduction>
+		<task>
 			<p> 
 				Read the <url href="https://www.responsiblelending.org/sites/default/files/nodes/files/research-publication/crl-payday-loan-apps-ewa-sep2025.pdf">Center for Responsible Lending's report on payday lending apps</url>.
 			</p>
+		</task>
+		<task>
 			<p> 
 				It might help you to explore an example for a lender like Money Lion. If you do so, consider using Incognito Mode or the equivalent for your browser (if you don't know what that means, please ask your instructor). 
 			</p>
+		</task>
+		<task>
 			<p> 
 				What are some of the ways payday lending apps charge interest? What do they call these charges? What is your initial reaction?
 			</p>
@@ -26,7 +32,7 @@
 	<activity xml:id="example">
 		<introduction>
 			<p> 
-				Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The <url href="data/payday-loan-data.xlsx">spreadsheet</url> shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans. 
+				Let's look at an example. All-Star was a storefront payday lender in Big Rapids, Manistee, and Rockford (all in Michigan). The <url href="external/data/payday-loan-data.xlsx">spreadsheet</url> shows the amounts that they would loan (increments of 50) and the fees that they charged for 2 week loans. 
 			</p>
 		</introduction>
 		<task>
@@ -59,63 +65,44 @@
 		</task>
 	</activity>
 	<activity xml:id="payday-loans-identify-actions">
-		<task>
+		<introduction>
 			<p> 
-				You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select one or more of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.
+				You are on the staff of a state representative in a jurisdiction that currently does not regulate payday lending apps. Select at least 2 of the recommendations for payday lending apps given in the Center for Responsible Lending's report for consideration and analysis.
+			</p>
+		</introduction>
+		<task>
+			<p>
+				State the recommendations that you chose.	
 			</p>
 		</task>
-	</activity>
-
-	<activity xml:id="payday-loans-stakeholders">
-		<statement>
+		<task>
 			<p> 
 				Let's do a stakeholder analysis. Make a list of all those who would be impacted by implementing the recommendation(s) you are considering. Include both primary stakeholders (directly affected) and secondary stakeholders (indirectly affected).  Try to see the situation through the eyes of all possible stakeholders. 
 			</p>
-
+		</task>
+		<task>
 			<p> 
 				Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing the recommendation.  Test options by filling in the following tables.  You can add rows for more stakeholders, and make additional tables for more options. 
 			</p>
 			<p>
 				<em>Option 1</em>:
 			</p>
-			<table>
-				<tabular top="medium">
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							Stakeholder
-						</cell>
-						<cell right="medium">
-							Primary or Secondary?
-						</cell>
-						<cell right="medium">
-							Harms
-						</cell>
-						<cell right="medium">
-							Benefits
-						</cell>
-					</row>
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							<line>
-
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-					</row>
-				</tabular>
-			</table>
-		</statement>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
+			<p>
+				<em>Option 2</em>:
+			</p>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
+		</task>
 	</activity>
 	<activity xml:id="payday-loans-make-decision">
 		<statement>

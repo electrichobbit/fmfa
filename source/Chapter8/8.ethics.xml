@@ -14,13 +14,13 @@
 		In addition to environmental impacts, the presence of data centers near a community can lead to water shortages and significant increases in electricity costs, both due to the data center’s consumption of those resources. 
 	</p>
 	<p>
-		You work at an actuarial firm located in a community where the County has received a request for permits to build an AI data center nearby. The community residents are worried about water shortages and they are worried about electricity costs. The County Commission plans to make quarterly deposits into a water fund in order to address concerns about the water supply. However, the residents are still worried about electricity costs.
+		You work at an actuarial firm located in a community where the county has received a request for permits to build an AI data center nearby. The community residents are worried about water shortages and they are worried about electricity costs. The County Commission plans to make quarterly deposits into a water fund in order to address concerns about the water supply. However, the residents are still worried about electricity costs.
 	</p>
 	<p>
 		Your firm sees an opportunity – they want to offer an insurance product to the community that covers any excessive electric costs in exchange for a premium. You are asked to come up with a pricing model and an estimate so that you can share the offer at a County Commission meeting that will take place tomorrow.
 	</p>
 	<p>
-		The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the <url href="external/chapter8/data/electric-forwards.xlsx">spreadsheet</url> <xref ref="footnote-electric-forwards"/>.
+		The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the <url href="external/data/electric-forwards.xlsx">spreadsheet</url> <xref ref="footnote-electric-forwards"/>.
 	</p>
 	<activity>
 		<introduction>
@@ -66,7 +66,7 @@
 						As with the mean, we need to use a  <term>geometric standard deviation</term>. The way to get Excel to calculate this is to have it calculate:
 					</p>
 					<p>
-						<m>10^{\mathtext{StandardDeviation(\Log(\mathtext{values})}</m>
+						<m>10^{\text{StandardDeviation}(\log(\text{values}))}</m>
 					</p>
 					<p>
 						In this case, calling the functions <c>STDEV.S</c> and <c>LOG</c> (along with “first cell:last  cell” in the argument of <c>LOG</c>) will be necessary.
@@ -96,7 +96,7 @@
 	<activity>
 		<statement>
 			<p>
-				Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about /$6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.
+				Based on your calculations in the spreadsheet, you go to the County Commission meeting and share that your firm can sell this insurance policy for about $6 for a 6-month policy, or about $1 per month. The residents feel that sounds reasonable, and the County approves the permit.
 			</p>
 			<p>
 				A couple of years later, after the Data Center is built, the underwriters adapt your pricing model. They end up charging a significantly higher premium than you anticipated. The lowest quintile of income earners in the community cannot afford the policies, and their electric bills have increased dramatically. Some community non-profits, like the local homeless shelter, also cannot afford the policies.

@@ -64,42 +64,18 @@
 			<p>
 				Test your options by determining how the stakeholders you identified could be harmed or benefited in this kind of transaction. Fill in the following table:
 			</p>
-			<table>
-				<tabular top="medium">
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							Stakeholder
-						</cell>
-						<cell right="medium">
-							Harms
-						</cell>
-						<cell right="medium">
-							Benefits
-						</cell>
-					</row>
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							<line>
-
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-					</row>
-				</tabular>
-			</table>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</statement>
 	</activity>
 	<activity xml:id="pawn-shop-ethics-reflection">
 		<statement>
 			<p>
-				Finally, reflect on your decision. What was the nature of your justification? Look back at the ethical lenses from Santa Clara University. Which lens(es) best fit your list of harms and benefits? Was that the same or different from your opinion at the beginning of this activity? Does that surprise you? Why or why not? 
+				Now suppose someone has applied to open a new pawn shop in your town. Make a decision: create a short video (like a TikTok or an Instagram Reel) to sway community opinion on whether or not the application should be approved. Give a clear recommendation and explicitly use your stakeholder analysis above to justify your decision.			
 			</p>
 		</statement>
 	</activity>

@@ -1,7 +1,7 @@
 <section xml:id="ethics-arms">
 	<title>Ethics Case Study: Adjustable Rate Mortgages</title>
 	<p>
-		When we discussed loans in <xref ref="loan-repayment"/>, we assumed that the interest rate would remain constant unless the borrower chose to refinance. Over 90% of mortgages in the US are structured this way, but not all. Here, we consider a situation where a borrower may choose to accept the potential for interest rate changes in exchange for a lower initial interest rate: an *adjustable-rate mortgage* (ARM). These are more common in other places, particularly Commonwealth countries such as New Zealand, Canada, and the United Kingdom.
+		When we discussed loans in <xref ref="loan-repayment"/>, we assumed that the interest rate would remain constant unless the borrower chose to refinance. Over 90% of mortgages in the US are structured this way, but not all. Here, we consider a situation where a borrower may choose to accept the potential for interest rate changes in exchange for a lower initial interest rate: an <term>adjustable-rate mortgage</term> (ARM). These are more common in other places, particularly Commonwealth countries such as New Zealand, Canada, and the United Kingdom.
 	</p>
 	<activity>
 		<introduction>
@@ -105,7 +105,7 @@
 		</task>
 		<task>
 			<p>
-				The standard adjustment cap for an ARM is 5%. Suppose Borrowers B, C, and D's interest rates all increase by 5% after their initial terms and then hold steady at this rate for the remainder of the loan. What will their new payments be?
+				The standard initial adjustment cap for an ARM is 5%: the first interest rate after the fixed-rate period cannot increase by more than 5 percentage points. Suppose Borrowers B, C, and D’s interest rates all increase by 5 percentage points after their initial terms and then hold steady at this rate for the remainder of the loan. What will their new payments be?
 			</p>
 		</task>
 		<task>
@@ -127,45 +127,21 @@
 		</introduction>
 		<task>
 			<p>
-				Now let’s do a stakeholder analysis. In this case, let's just consider the borrowers and the mortgage brokers. Try to see the situation through the eyes of all possible stakeholders.
+				Now let’s do a stakeholder analysis to determine what information to include on the flyer. In this case, let’s just consider the borrowers and the mortgage brokers. Try to see the situation through the eyes of these stakeholders.
 			</p>
 			<p>
-				Test your options by determining how the stakeholders you identified are harmed or benefited when the customer selects a fixed-rate mortgage or an ARM. Test these options by filling in the following tables. 
+				Test your options by determining how these stakeholders are harmed or benefited when the customer selects a fixed-rate mortgage or an ARM. Test these options by filling in the following tables.
 			</p>
-			<table>
-				<tabular top="medium">
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							Stakeholder
-						</cell>
-						<cell right="medium">
-							Harms
-						</cell>
-						<cell right="medium">
-							Benefits
-						</cell>
-					</row>
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							<line>
-
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-					</row>
-				</tabular>
-			</table>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</task>
 		<task>
 			<p>
-				Create the text for this flyer. Consider how you can effectively and ethically convey this information to potential borrowers.
+				Create the text for this flyer. Consider how you can effectively and ethically convey this information to potential borrowers. You will need to balance accuracy and simplicity for your readers.
 			</p>
 		</task>
 	</activity>
@@ -179,13 +155,13 @@
 	<subsection>
 		<title>Sources</title>
 		<p>
-			Median home price: 410,000 (US) https://fred.stlouisfed.org/series/MSPUS
+			Median home price: 410,000 (US) <url href="https://fred.stlouisfed.org/series/MSPUS"/>
 		</p>
 		<p>
-			https://www.stlouisfed.org/on-the-economy/2024/feb/which-households-prefer-arms-fixed-rate-mortgages
+			<url href="https://www.stlouisfed.org/on-the-economy/2024/feb/which-households-prefer-arms-fixed-rate-mortgages"/>
 		</p>
 		<p>
-			Rate caps: https://www.consumerfinance.gov/ask-cfpb/what-are-rate-caps-with-an-adjustable-rate-mortgage-arm-and-how-do-they-work-en-1951/
+			Rate caps: <url href="https://www.consumerfinance.gov/ask-cfpb/what-are-rate-caps-with-an-adjustable-rate-mortgage-arm-and-how-do-they-work-en-1951/"/>
 		</p>
 	</subsection>
 </section>

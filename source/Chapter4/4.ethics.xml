@@ -34,7 +34,7 @@
 		</introduction>
 		<task>
 			<p>
-				Create a timeline for the loan disbursements for each student through June 1 at the end of their fourth year of college; assume each of them receives the disbursement on September 1 of the relevant year and that the student with the unsubsidized loan *capitalizes* their interest by rolling their interest payments into the principal.
+				Create a timeline for the loan disbursements for each student through June 1 at the end of their fourth year of college; assume each of them receives the disbursement on September 1 of the relevant year and that the student with the unsubsidized loan <term>capitalizes</term> their interest by rolling their interest payments into the principal.
 			</p>
 		</task>
 		<task>
@@ -66,43 +66,12 @@
 			<p>
 				Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing these structures. Test options by filling in the following tables. You can add rows for more stakeholders and make additional tables for more options.
 			</p>
-			<table>
-				<tabular top="medium">
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							Stakeholder
-						</cell>
-						<cell right="medium">
-							Primary or Secondary?
-						</cell>
-						<cell right="medium">
-							Harms
-						</cell>
-						<cell right="medium">
-							Benefits
-						</cell>
-					</row>
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							<line>
-
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-					</row>
-				</tabular>
-			</table>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</task>
 	</activity>
 	<activity>

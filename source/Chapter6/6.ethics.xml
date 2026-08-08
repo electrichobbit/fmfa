@@ -31,7 +31,7 @@
 		</task>
 		<task>
 			<p>
-				You are on the staff of the director of your county's housing office. The director has requested three proposals for measures the county can take to counteract the effects of redlining. You are to submit a report with an analysis of each of them and a recommendation for the one you think is most appropriate.
+				You are on the staff of the federal Department of Housing and Urban Development (HUD). The director has requested three proposals for measures the county can take to counteract the effects of redlining. You are to submit a report with an analysis of each of them and a recommendation for the one you think is most appropriate.
 			</p>
 		</task>
 		<task>
@@ -43,49 +43,18 @@
 			<p>
 				Test your options by determining how the stakeholders you identified are harmed or benefited by implementing or not implementing these structures. Test options by filling in the following tables. You can add rows for more stakeholders and make additional tables for more options.
 			</p>
-			<table>
-				<tabular top="medium">
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							Stakeholder
-						</cell>
-						<cell right="medium">
-							Primary or Secondary?
-						</cell>
-						<cell right="medium">
-							Harms
-						</cell>
-						<cell right="medium">
-							Benefits
-						</cell>
-					</row>
-					<row bottom="medium">
-						<cell left="medium" right="medium">
-							<line>
-
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-						<cell right="medium">
-							<line>
-							</line>
-						</cell>
-					</row>
-				</tabular>
-			</table>
+			<figure>
+				<image source="images/stakeholder.png"/>
+				<caption>
+					Stakeholder analysis.  List the possible stakeholders in this situation, and what harms and benefits could come to them in this situation.
+				</caption>
+			</figure>
 		</task>
 	</activity>
 	<activity>
 		<statement>
 			<p>
-				Make a decision: write a report to the director explaining and analyzing your three proposed measures. State your recommendation first, and then justify your decision with explicit reference to the stakeholder analysis.
+				Make a decision: write a report to the director of HUD explaining and analyzing your three proposed measures. State your recommendation first, and then justify your decision with explicit reference to the stakeholder analysis.
 			</p>
 		</statement>
 	</activity>

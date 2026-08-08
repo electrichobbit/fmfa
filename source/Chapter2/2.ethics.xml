@@ -138,7 +138,7 @@
 		</task>
 		<task>
 			<p>
-				When averaging any kind of multiplicative percentage, we use the <term>geometric mean</term> instead of the arithmetic mean we're used to.  The geometric mean consists of taking the product of <m>n</m> terms and then finding the <m>n</m>th root.  Let the <m>\iota_k</m> be the monthly percentage changes.  Show that the geometric mean of the <m>(1+\iota_k)</m>
+				When averaging any kind of multiplicative percentage, we use the <term>geometric mean</term> instead of the arithmetic mean we're used to.  The geometric mean consists of taking the product of <m>n</m> terms and then finding the <m>n</m>th root.  Let the <m>\iota_k</m> be the monthly percentage changes.  Show that the geometric mean of the <m>(1+\iota_k)</m> is
 			</p>
 			<me>
 				\left(\prod_{k=1}^{12} (1 + \iota_k)\right)^{1/12} = (1 + \iota_m)
@@ -151,13 +151,15 @@
 	<activity>
 		<introduction>
 			<p>
-				The <url href="external/chapter2/data/case-schiller-increase.csv">Case-Schiller price change spreadsheet</url> gives the monthly change in home prices from January 1987 through September 2025.
+				The <url href="external/data/case-schiller-increase.xlsx">Case-Schiller price change spreadsheet</url> gives the monthly change in home prices from January 1987 through September 2025.
 			</p>
 		</introduction>
 		<task>
 			<p>
 				Use the spreadsheet to calculate the value in September 2025 of a house purchased in January 1987 for $80,000.
 			</p>
+		</task>
+		<task>
 			<p>
 				Use the spreadsheet to calculate the value in September 2025 of a house purchased in January 2007 for $80,000.
 			</p>
