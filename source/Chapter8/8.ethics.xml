@@ -1,4 +1,4 @@
-<section xml:id="ethics-enron">
+<section xml:id="ethics-ai-data-centers">
 	<title>Ethics Case Study: AI Data Centers</title>
 	<p>
 		Data centers for artificial intelligence have significant environmental and economic consequences both globally and for nearby communities.
@@ -20,12 +20,12 @@
 		Your firm sees an opportunity – they want to offer an insurance product to the community that covers any excessive electric costs in exchange for a premium. You are asked to come up with a pricing model and an estimate so that you can share the offer at a County Commission meeting that will take place tomorrow.
 	</p>
 	<p>
-		The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the <url href="external/data/electric-forwards.xlsx">spreadsheet</url> <xref ref="footnote-electric-forwards"/>.
+		The firm purchases access to electricity forward reports. These are like forward interest rates, except instead of the cost of borrowing they represent the cost of electricity. Their calculations are based on inflation forecasts. You find the most recent report for a geographic region that resembles your community very well, and it is in the <url href="external/data/electric-forwards.xlsx">spreadsheet</url>. These prices are actually based on historical data for 2025 accessed from the <url href="https://www.eia.gov/outlooks/steo/realprices/real_prices.xlsx">US Energy Information Administration</url>, and the <url href="https://www.eia.gov/tools/faqs/faq.php?id=97&amp;t=3">average amount of energy consumption for a  US household in 2022</url> according to the same agency.
 	</p>
 	<activity>
 		<introduction>
 			<p>
-				Based on these data, you create a naïve, simple pricing model <xref ref="footnote-probability"/>. The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.
+				Based on these data, you create a naïve, simple pricing model (One of the things missing from this pricing model is probability, which is covered in another course). The policy lasts 6 months, and then the premiums are reset based on more recent data. During the coverage period, every time a policy holder’s electric bill is one standard deviation above the mean (based on 1 year’s worth of forward prices and the electric bill for the month just prior to the coverage period), they will be reimbursed for the difference.
 			</p>
 			<p>
 				For a six month premium, you look at the claims you expect to pay (and then mark them up a for little bit for profit). 
@@ -112,24 +112,8 @@
 	<activity>
 		<statement>
 			<p>
-				Write a brief paper responding to your findings and addressing each of the questions.
+				Write a memo responding to your findings and addressing each of the questions. You should select the audience of your memo on the basis of your decision in the previous problem. If you decide not to act, write a memo to the files.
 			</p>
 		</statement>
 	</activity>
-
-	<subsection>
-		<title>Footnotes</title>
-		<ol>
-			<li xml:id="footnote-electric-forwards">
-				<p>
-					These prices are actually based on historical data for 2025 accessed from the <url href="https://www.eia.gov/outlooks/steo/realprices/real_prices.xlsx">US Energy Information Administration</url>, and the <url href="https://www.eia.gov/tools/faqs/faq.php?id=97&amp;t=3">average amount of energy consumption for a  US household in 2022</url> according to the same agency.
-				</p>
-			</li>
-			<li xml:id="footnote-probability">
-				<p>
-					One of the things missing from this pricing model is probability, which is covered in another course.
-				</p>
-			</li>
-		</ol>
-	</subsection>
 </section>

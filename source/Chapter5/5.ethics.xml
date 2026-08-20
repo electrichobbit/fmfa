@@ -38,7 +38,7 @@
 	<activity xml:id="reparations-fact-gathering">
 		<introduction>
 			<p>
-				We are going to first determine the value today of the contributions of enslaved people, and we are going to make several assumptions along the way.  Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of enslaved people starting in 1790.  We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a study by Yamada).  We assume that this rate captures the effect of inflation.
+				We are going to first determine the value today of the contributions of enslaved people, and we are going to make several assumptions along the way.  Our data are limited, and since the first U.S. census was completed in 1790, we will only value the contributions of enslaved people starting in 1790.  We will also use an effective annual interest rate of 5.18%, which is the U.S. average (between 1790 and 2012, according to a <url href="www.cnbc.com/2013/09/23/heres-222-years-of-interest-rate-history-on-one-chart.html">study by Yamada</url>).  We assume that this rate captures the effect of inflation.
 			</p>
 		</introduction>
 		<task>
