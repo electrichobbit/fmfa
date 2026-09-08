@@ -39,7 +39,7 @@
 		</task>
 	</activity>
 	<p>
-		Recall from calculus that a <term>geometric series</term> is a series of the form <me>\sum_{t=0}^{n-1} ar^k</me> While we will review geometric series later in this book, for now we will use the following formula to sum from 1 to <m>n</m>: <me>\sum_{t=1}^n ar^k = a r \left(\frac{1-r^n}{1-r}\right)</me>
+		Recall from calculus that a <term>geometric series</term> is a series of the form <me>\sum_{k=0}^{n-1} ar^k</me> While we will review geometric series later in this book, for now we will use the following formula to sum from 1 to <m>n</m>: <me>\sum_{k=1}^n ar^k = a r \left(\frac{1-r^n}{1-r}\right)</me>
 	</p>
 	<activity xml:id="annuity-geometric-series">
 		<statement>
