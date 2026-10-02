@@ -107,7 +107,7 @@
       </p>
       <figure>
         <caption>Timeline for an annuity with deposits of 98 per year for the first n years and deposits of 196 for 2n years.</caption>
-        <image source="images/image-14.svg"/>
+        <image source="images/3.5.3a.png"/>
       </figure>
     </task>
     <task>
@@ -116,7 +116,7 @@
       </p>
       <figure>
         <caption>Timeline for an annuity with deposit 10 now and 20 fifteen years later.</caption>
-        <image source="images/image-15.svg"/>
+        <image source="images/3.5.3b.png"/>
       </figure>
     </task>
     <task>
@@ -128,7 +128,7 @@
       </p>
       <figure>
         <caption> Annuity purchased for X with annual payments of K for 20 years.</caption>
-        <image source="images/image-16.svg"/>
+        <image source="images/3.5.3c.png"/>
       </figure>
     </task>
     <task>
@@ -137,7 +137,7 @@
       </p>
       <figure>
         <caption>Timeline for an annuity where 1000 is saved at the end of each year for 3 years, and then 1100 is withdrawn every year for 3 years.</caption>
-        <image source="images/image-17.svg"/>
+        <image source="images/3.5.3d.png"/>
       </figure>
     </task>
   </activity>

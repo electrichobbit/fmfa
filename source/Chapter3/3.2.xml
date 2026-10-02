@@ -80,21 +80,8 @@
       </p>
       <figure xml:id="annuity-sum-timeline">
         <caption>Timeline for an annuity with n regular payments of K, paid at the end of the period.</caption>
-        <image>
-          <latex-image>
-            \begin{tikzpicture}
-            \draw[line width=1pt] (0,0) -- node[below=1mm,pos=0.6,scale=2] {$\cdots$} (10,0);
-            \foreach \x/\y in {0/0}{
-            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,1mm)node[above]{$Ka_{\angln}$};
-            }
-            \foreach \x/\y in {1/1,2/2,3/3,9/$n-1$,10/$n$}{
-            \draw[line width=1pt] (\x,-2mm)node[below](\x){\strut\y} -- (\x,2mm)node[above]{$K$};
-            }
-            % \draw[-latex] (0,-7mm) -- +(0,-10mm)node[below]{$a_{\angln \iota}$};
-            \draw (0.8,1.5mm) rectangle (10.2,7mm); 
-            \draw[->] (0.8,4mm)--(0.4,4mm);
-            \end{tikzpicture} 
-          </latex-image>
+        <image source="images/3.2.4.png">
+          
         </image>
       </figure>
       <p>
