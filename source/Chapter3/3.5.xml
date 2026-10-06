@@ -45,7 +45,7 @@
     <task>
       <statement>
         <p> 
-          Why is it that we don's talk about the future value of a perpetuity-immediate?
+          Why is it that we don't talk about the future value of a perpetuity-immediate?
         </p>
       </statement>
       <solution>
@@ -133,7 +133,7 @@
     </task>
     <task>
       <p> 
-        Suppose we save \<m>1000 at the end of every year for the next 3 years, earning an effective annual rate of 8%.  Beginning at the end of the year following our last deposit, we will withdraw \</m>1100 at the end of each year for 3 years, and withdraw the remainder <m>X</m> at the end of the following year. Find <m>X</m>.
+        Suppose we save $1000 at the end of every year for the next 3 years, earning an effective annual rate of 8%.  Beginning at the end of the year following our last deposit, we will withdraw $1100 at the end of each year for 3 years, and withdraw the remainder <m>X</m> at the end of the following year. Find <m>X</m>.
       </p>
       <figure>
         <caption>Timeline for an annuity where 1000 is saved at the end of each year for 3 years, and then 1100 is withdrawn every year for 3 years.</caption>
